@@ -1,7 +1,9 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { createClient } from "@supabase/supabase-js";
+import { reconcileRecords, type ReconciledLink } from "./lib/reconcile";
 import { runAllSensors, sensors } from "./sensors/index";
 import { runBmcBudgetSensor } from "./sensors/bmc-budget";
+import { runMaharashtraBudgetSensor } from "./sensors/maharashtra-budget";
 import { runSupplementalSensors, supplementalSensors } from "./sensors/supplemental";
 import type { PublicMoneyRecord, SensorResult } from "./lib/ingestion";
 
@@ -38,7 +40,7 @@ function dbRow(record: PublicMoneyRecord) {
   };
 }
 
-async function persistToSupabase(results: SensorResult[]) {
+async function persistToSupabase(results: SensorResult[], links: ReconciledLink[]) {
   const url = process.env.SUPABASE_URL;
   const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (!url || !serviceKey) {
@@ -104,6 +106,42 @@ async function persistToSupabase(results: SensorResult[]) {
       }
     }
 
+    if (links.length > 0) {
+      const keys = [...new Set(links.flatMap((link) => [link.fromExternalKey, link.toExternalKey]))];
+      const { data: linkedRecords, error: lookupError } = await db
+        .from("live_records")
+        .select("id,external_key")
+        .in("external_key", keys);
+      if (lookupError) throw lookupError;
+
+      const idByKey = new Map((linkedRecords ?? []).map((row) => [row.external_key, row.id]));
+      const linkRows = links.flatMap((link) => {
+        const fromId = idByKey.get(link.fromExternalKey);
+        const toId = idByKey.get(link.toExternalKey);
+        if (!fromId || !toId || fromId === toId) return [];
+        return [
+          {
+            from_live_record_id: fromId,
+            to_live_record_id: toId,
+            relation: link.relation,
+            match_basis: link.basis,
+            confidence: link.confidence,
+            reference: link.reference
+          }
+        ];
+      });
+
+      if (linkRows.length > 0) {
+        const { error: linksError } = await db
+          .from("record_links")
+          .upsert(linkRows, {
+            onConflict: "from_live_record_id,to_live_record_id,match_basis,reference",
+            ignoreDuplicates: true
+          });
+        if (linksError) throw linksError;
+      }
+    }
+
     const status = successful === results.length ? "success" : successful > 0 ? "partial" : "failed";
     const { error: finishError } = await db
       .from("ingestion_runs")
@@ -112,7 +150,8 @@ async function persistToSupabase(results: SensorResult[]) {
         status,
         successful_sensor_count: successful,
         record_count: totalRecords,
-        commit_sha: process.env.GITHUB_SHA ?? null
+        commit_sha: process.env.GITHUB_SHA ?? null,
+        metadata: { reconciled_links: links.length }
       })
       .eq("id", run.id);
     if (finishError) throw finishError;
@@ -127,26 +166,39 @@ async function persistToSupabase(results: SensorResult[]) {
 
 const baseResults = await runAllSensors();
 const bmcBudgetDefinition = sensors.find((sensor) => sensor.id === "bmc-budget");
-const bmcBudgetResult = bmcBudgetDefinition ? await runBmcBudgetSensor(bmcBudgetDefinition) : undefined;
-const supplementalResults = await runSupplementalSensors();
+const maharashtraBudgetDefinition = sensors.find((sensor) => sensor.id === "maharashtra-program-budget");
+
+const [bmcBudgetResult, maharashtraBudgetResult, supplementalResults] = await Promise.all([
+  bmcBudgetDefinition ? runBmcBudgetSensor(bmcBudgetDefinition) : Promise.resolve(undefined),
+  maharashtraBudgetDefinition ? runMaharashtraBudgetSensor(maharashtraBudgetDefinition) : Promise.resolve(undefined),
+  runSupplementalSensors()
+]);
 
 const results = [
-  ...baseResults.filter((result) => result.sensor.id !== "bmc-budget"),
+  ...baseResults.filter(
+    (result) => result.sensor.id !== "bmc-budget" && result.sensor.id !== "maharashtra-program-budget"
+  ),
+  ...(maharashtraBudgetResult ? [maharashtraBudgetResult] : []),
   ...(bmcBudgetResult ? [bmcBudgetResult] : []),
   ...supplementalResults
 ];
+
+const records = results.flatMap((result) => result.records);
+const links = reconcileRecords(records);
 
 const snapshot = {
   generatedAt: new Date().toISOString(),
   semantics: {
     live: "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     amount: "Amounts are included only when parsed with sufficient confidence from the primary source.",
-    geography: "Pinpoint coordinates are emitted only where supported by source evidence; text-only locations remain text-only."
+    geography: "Pinpoint coordinates are emitted only where supported by source evidence; text-only locations remain text-only.",
+    reconciliation: "Verified graph links are created only from exact public identifiers. Fuzzy matches are not promoted to evidence-chain links."
   },
   summary: {
     sensors: results.length,
     healthySensors: results.filter((result) => result.ok).length,
-    records: results.reduce((sum, result) => sum + result.records.length, 0)
+    records: records.length,
+    reconciledLinks: links.length
   },
   sensors: results.map((result) => ({
     id: result.sensor.id,
@@ -161,18 +213,19 @@ const snapshot = {
     recordCount: result.records.length,
     error: result.error ?? null
   })),
-  records: results.flatMap((result) => result.records)
+  records,
+  links
 };
 
 await mkdir(new URL("../public/data/live/", import.meta.url), { recursive: true });
 await writeFile(snapshotPath, JSON.stringify(snapshot, null, 2) + "\n", "utf8");
 
 console.log(
-  `Ingestion complete: ${snapshot.summary.healthySensors}/${snapshot.summary.sensors} sensors healthy, ${snapshot.summary.records} observations.`
+  `Ingestion complete: ${snapshot.summary.healthySensors}/${snapshot.summary.sensors} sensors healthy, ${snapshot.summary.records} observations, ${snapshot.summary.reconciledLinks} exact links.`
 );
 
 if (!dryRun) {
-  await persistToSupabase(results);
+  await persistToSupabase(results, links);
 }
 
 if (snapshot.summary.healthySensors === 0) {
