@@ -1,5 +1,6 @@
 import "./styles.css";
 import { allocations, fiscalYear, ledgerEdges, ledgerNodes, sources } from "./data/seed";
+import { mountLiveTracking } from "./live";
 import type { AllocationSlice, EvidenceStatus } from "./types";
 
 const app = document.querySelector<HTMLDivElement>("#app");
@@ -115,11 +116,12 @@ app.innerHTML = `
   <header class="site-header">
     <a href="#top" class="brand">Public Ledger <span>India</span></a>
     <nav>
+      <a href="#live-tracking">Live sensors</a>
       <a href="#my-100">My ₹100</a>
       <a href="#money-graph">Money graph</a>
       <a href="#evidence">Evidence</a>
     </nav>
-    <span class="live-dot"><i></i> prototype</span>
+    <span class="live-dot"><i></i> public-source polling</span>
   </header>
 
   <main id="top">
@@ -134,6 +136,10 @@ app.innerHTML = `
         <strong>Non-negotiable:</strong> individual tax rupees are not literally traceable after they enter pooled public funds.
         “My ₹100” is proportional attribution, not a claim that your exact rupee paid for a specific item.
       </div>
+    </section>
+
+    <section class="section" id="live-tracking">
+      <div class="hero-rule">Loading public-source sensor snapshot…</div>
     </section>
 
     <section class="section" id="my-100">
@@ -219,6 +225,7 @@ app.innerHTML = `
 `;
 
 renderAllocations(100000);
+void mountLiveTracking();
 
 const taxInput = document.querySelector<HTMLInputElement>("#tax-paid");
 
