@@ -1,36 +1,108 @@
 # Public Ledger India
 
-A public-money observability layer for India.
+A provenance-first public-money observability layer for India.
 
-The product goal is simple: show citizens what can legally be known about how public money moves from revenue collection to budget allocation, sanction, release, procurement, payment, delivery and audit.
+The goal is to show citizens what can legally be known about how public money moves from revenue collection to budget allocation, sanction, release, procurement, payment, delivery, outcome and audit.
 
-## Core rule
+## Non-negotiable data rule
 
-Never pretend that a citizen's individual tax rupee can literally be traced after it enters the Consolidated Fund. The product distinguishes:
+Never pretend that a citizen's individual tax rupee can literally be traced after it enters pooled public funds. The product distinguishes:
 
 - **Observed** — directly reported by a primary source.
-- **Calculated** — derived mechanically from observed figures.
+- **Calculated** — mechanically derived from observed figures.
 - **Estimated** — modelled or proportionally attributed.
 - **Audited** — supported by an audit finding.
 - **Unknown** — not publicly disclosed or not yet reconciled.
 
 Likewise, `budgeted`, `revised`, `sanctioned`, `released`, `procured`, `paid`, `delivered`, and `audited` are separate states. They must never be silently collapsed into one number.
 
-## MVP
+## What is implemented
 
-The first build covers Union Government public finance and provides:
+### Citizen interface
 
-1. **My ₹100** — proportional attribution of a citizen's estimated tax contribution across broad expenditure categories.
-2. **Money graph** — a traversable graph from Government revenue → ministry → scheme → sanction → procurement → payment → project/outcome.
-3. **Evidence ledger** — every amount carries source URL, financial year, evidence type, retrieval date, confidence and status.
-4. **Unknowns** — missing, delayed, under-settlement and unreconciled information is shown explicitly rather than guessed.
+- **My ₹100** proportional attribution using the official FY 2026–27 broad expenditure split.
+- **Public-money graph** from revenue → fund → appropriation → ministry → scheme → procurement → vendor → project → outcome/audit.
+- **Evidence ledger** with primary-source links and evidence labels.
+- **Live sensor dashboard** reading the latest source-poll snapshot without browser caching.
+
+### Public-source sensor network
+
+The ingestion runner currently monitors:
+
+1. Controller General of Accounts monthly-accounts publication surface.
+2. PFMS availability for sanctions/releases.
+3. Central Public Procurement Portal latest tenders.
+4. Government e-Marketplace public bid surface.
+5. CAG audit-report index.
+6. Maharashtra Finance Department FY 2026–27 programme budget.
+7. BMC budget publication surface.
+8. BMC tender publication surface.
+
+GitHub Actions polls these sources hourly and writes `public/data/live/latest.json`. The snapshot explicitly records source health, retrieval time, record count and errors. A successful source poll does **not** mean that a source exposes transaction-level data.
+
+### Backend
+
+Supabase/Postgres migrations provide:
+
+- `sources`
+- `ledger_nodes`
+- `money_records`
+- `ledger_edges`
+- `audit_findings`
+- `sensors`
+- `ingestion_runs`
+- `live_records`
+- `record_history`
+
+Every live record can carry amount, state, authority, fiscal year, vendor, tender reference, location text, coordinates, geographic precision, source URL and an evidence hash. History is append-preserved by evidence hash instead of silently overwriting changed public records.
+
+## Tracking coverage
+
+| Layer | Current implementation |
+| --- | --- |
+| Union Budget allocation | Implemented |
+| Citizen tax attribution | Implemented as proportional modelling |
+| Budget → ministry → scheme graph | Implemented data model |
+| Sanctions/releases | PFMS source monitoring; structured public extraction still partial |
+| CGA actual expenditure | Publication monitoring; granular monthly parser still partial |
+| Tenders | CPPP + GeM + BMC public-source polling |
+| Contract awards | Schema ready; CPPP award search is source-gated and requires a separate compliant extraction path |
+| Vendor/payee | Fields/schema ready; populated only when primary evidence exposes it |
+| Government payments | Schema ready; no claim of bank/treasury telemetry |
+| Project/location | BMC tender location/ward extraction where stated |
+| CAG findings | Report discovery live; finding-level extraction remains partial |
+| Outcomes | Data model ready; outcome-document ingestion is the next source adapter |
+| Maharashtra | FY 2026–27 Finance Department sensor active |
+| Mumbai/BMC/ward | Budget + tender sensors active; ward text retained where present |
+| Live polling | Hourly GitHub Action |
+| Geographic pinpointing | Coordinates only when evidenced; no invented map pins |
+
+## Accuracy semantics
+
+"Live" means **freshly polled public-source information**. It does not mean access to RBI, PFMS, bank, treasury or private internal transaction streams.
+
+A record may therefore be:
+
+```text
+published by government → observed by sensor → hashed → normalized → stored → shown
+```
+
+with freshness measured as:
+
+```text
+our_observed_at - government_publication_time
+```
+
+The system deliberately refuses to manufacture precision. A source saying "M/W Ward" stays ward-level. It does not become a street coordinate unless an auditable location source supports that conversion.
 
 ## Stack
 
 - Vite + TypeScript frontend
-- Local typed seed data for the first prototype
-- PostgreSQL/Supabase schema for the provenance graph
-- Source adapters for India Budget, CGA, CAG, CPPP/eProcure, Parliament/MEA and state portals
+- Node/TypeScript ingestion workers
+- Cheerio for conservative public HTML extraction
+- Supabase/PostgreSQL provenance store
+- GitHub Actions hourly polling
+- Static JSON snapshot fallback when Supabase secrets are not configured
 
 ## Run locally
 
@@ -39,43 +111,47 @@ npm install
 npm run dev
 ```
 
-Then open the local URL printed by Vite.
+## Run ingestion
+
+```bash
+npm run ingest:dry
+```
+
+This polls the sources and writes `public/data/live/latest.json` without writing to Supabase.
+
+For database persistence, configure:
+
+```text
+SUPABASE_URL
+SUPABASE_SERVICE_ROLE_KEY
+```
+
+then run:
+
+```bash
+npm run ingest
+```
 
 ## Verify
 
 ```bash
-npm run typecheck
-npm run validate:data
+npm run validate:seed
 npm run build
 ```
 
-## Data policy
+## Database setup
 
-The public graph should ingest only lawfully available public information. Private citizen tax documents, if supported later, belong in a separate encrypted private zone and must never be published into the public graph.
-
-Primary-source links are included with each record. Seed numbers are illustrative unless explicitly marked as official; the UI labels provenance rather than making political judgments.
-
-## Repository layout
+Apply, in order:
 
 ```text
-src/
-  data/seed.ts          Typed prototype dataset
-  main.ts               App rendering and interactions
-  styles.css            UI
-  types.ts              Domain model
-scripts/
-  validate-seed.mjs     Data integrity checks
-supabase/migrations/
-  001_public_money_graph.sql
+supabase/migrations/001_public_money_graph.sql
+supabase/migrations/002_live_ingestion.sql
 ```
 
-## Next ingestion targets
+## Legal / privacy boundary
 
-- Union Budget 2026–27: Budget at a Glance + Expenditure Profile
-- Controller General of Accounts monthly/annual actuals
-- Central Public Procurement Portal contract/tender data
-- CAG audit findings
-- Parliament questions and ministry disclosures
-- Maharashtra budget and Mahakosh after Union reconciliation is stable
+The public graph ingests lawfully available public information. Private citizen tax records, PAN-linked information, bank records and non-public government credentials do not belong in this graph.
+
+Private citizen documents, if supported later, require a separate encrypted private zone and must never be merged into the public graph by default.
 
 This repository is not affiliated with the Government of India or any political party.
