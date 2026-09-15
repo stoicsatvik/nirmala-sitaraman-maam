@@ -1,0 +1,54 @@
+name: Public money sensor ingest
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: public-money-ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Poll official public sources
+        id: ingest
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: npm run ingest
+
+      - name: Commit latest public snapshot
+        if: always()
+        run: |
+          if git diff --quiet -- public/data/live/latest.json; then
+            echo "No snapshot change."
+            exit 0
+          fi
+          git config user.name "public-ledger-bot"
+          git config user.email "public-ledger-bot@users.noreply.github.com"
+          git add public/data/live/latest.json
+          git commit -m "data: refresh public money sensor snapshot"
+          git push
+
+      - name: Fail if ingest failed
+        if: steps.ingest.outcome == 'failure'
+        run: exit 1
