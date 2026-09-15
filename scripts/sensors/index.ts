@@ -1,4 +1,5 @@
 import * as cheerio from "cheerio";
+import { runCgaSensor } from "./cga";
 import {
   fetchText,
   makeObservedRecord,
@@ -14,8 +15,8 @@ const sensors: SensorDefinition[] = [
     scope: "union",
     kind: "accounts",
     authority: "Controller General of Accounts",
-    sourceUrl: "https://cga.gov.in/Page/Monthly-Accounts-Review.aspx",
-    expectedFreshness: "monthly, polled hourly"
+    sourceUrl: "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
+    expectedFreshness: "monthly publication, polled hourly"
   },
   {
     id: "pfms-sanctions-releases",
@@ -32,8 +33,8 @@ const sensors: SensorDefinition[] = [
     scope: "union",
     kind: "procurement",
     authority: "Government of India eProcurement System",
-    sourceUrl: "https://eprocure.gov.in/epublish/app",
-    expectedFreshness: "continuous publication, polled hourly"
+    sourceUrl: "https://www.eprocure.gov.in/epublish/app?service=home",
+    expectedFreshness: "latest tenders published about every 15 minutes; polled hourly"
   },
   {
     id: "gem-bids",
@@ -266,6 +267,7 @@ async function cagSensor(sensor: SensorDefinition): Promise<SensorResult> {
 export async function runAllSensors(): Promise<SensorResult[]> {
   return Promise.all(
     sensors.map((sensor) => {
+      if (sensor.id === "cga-monthly-accounts") return runCgaSensor(sensor);
       if (sensor.id === "pfms-sanctions-releases") return pfmsAvailabilitySensor(sensor);
       if (sensor.id === "cppp-procurement") return tableProcurementSensor(sensor, "India");
       if (sensor.id === "gem-bids") return linkProcurementSensor(sensor, "India");
