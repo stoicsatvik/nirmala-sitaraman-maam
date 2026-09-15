@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T20:18:18.199Z",
+  "generatedAt": "2026-09-15T20:20:45.762Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -8,7 +8,7 @@
   "summary": {
     "sensors": 10,
     "healthySensors": 6,
-    "records": 40
+    "records": 13
   },
   "sensors": [
     {
@@ -19,7 +19,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.gov.in/Page/Monthly-Accounts-Review.aspx",
       "expectedFreshness": "monthly, polled hourly",
-      "fetchedAt": "2026-09-15T20:18:03.624Z",
+      "fetchedAt": "2026-09-15T20:20:33.907Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -32,7 +32,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-09-15T20:18:03.637Z",
+      "fetchedAt": "2026-09-15T20:20:33.920Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -45,7 +45,7 @@
       "kind": "procurement",
       "sourceUrl": "https://eprocure.gov.in/epublish/app",
       "expectedFreshness": "continuous publication, polled hourly",
-      "fetchedAt": "2026-09-15T20:18:03.638Z",
+      "fetchedAt": "2026-09-15T20:20:33.921Z",
       "ok": false,
       "recordCount": 0,
       "error": "500 500 from https://eprocure.gov.in/epublish/app"
@@ -58,7 +58,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-09-15T20:18:03.640Z",
+      "fetchedAt": "2026-09-15T20:20:33.922Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -71,9 +71,9 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-15T20:18:03.641Z",
+      "fetchedAt": "2026-09-15T20:20:33.924Z",
       "ok": true,
-      "recordCount": 37,
+      "recordCount": 10,
       "error": null
     },
     {
@@ -84,7 +84,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-15T20:18:03.642Z",
+      "fetchedAt": "2026-09-15T20:20:33.925Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -97,7 +97,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-15T20:18:03.643Z",
+      "fetchedAt": "2026-09-15T20:20:33.926Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -110,7 +110,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-15T20:18:03.644Z",
+      "fetchedAt": "2026-09-15T20:20:33.927Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -123,7 +123,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-09-15T20:18:14.165Z",
+      "fetchedAt": "2026-09-15T20:20:44.411Z",
       "ok": false,
       "recordCount": 0,
       "error": "500 500 from https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page"
@@ -136,7 +136,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year document, availability checked daily by hourly poll",
-      "fetchedAt": "2026-09-15T20:18:14.168Z",
+      "fetchedAt": "2026-09-15T20:20:44.414Z",
       "ok": false,
       "recordCount": 0,
       "error": "403 Forbidden"
@@ -157,349 +157,11 @@
       "raw": {
         "excerpt": "function ZoomTextOrig() { document.cookie = \"nrcc_zoom=0.8\"; //document.body.style.zoom = 1; document.body.style.fontSize = \"0.8em\"; $('').css({ 'font-size': '18px' }); $('.some-class-name2').css({ 'font-size': '95%' }); $('p').css({ 'font-size': '95%' }); $('a').css({ 'font-size': '95%' }); } function ZoomOutText() { document.cookie = \"nrcc_zoom=0.7\"; //document.body.style.zoom = 0.8; document.body.style.fontSize = \"0.7em\"; $('.some-class-name2').css({ 'font-size': '90%' }); $('p').css({ 'font-size': '90%' }); $('a').css({ 'font-size': '90%' }); } function ZoomInText() { document.cookie = \"nrcc_zoom=0.9\"; //document.body.style.zoom = 1.2; document.body.style.fontSize = \"0.9em\"; $('.some-class-name2').css({ 'font-size': '100%' }); $('p').css({ 'font-size': '100%' }); $('a').css({ 'font-size': '100%' }); } function ZoomText() { var myzoom = getCookie('nrcc_zoom'); if (myzoom == '0.7') ZoomOutText(); else if (myzoom == '0.9') ZoomInText(); else ZoomTextOrig(); } function getCookie(c_name) { var c_value = document.cookie; var c_start = c_value.indexOf(\" \" + c_name + \"=\"); if (c_start == -1) { c_start = c_value.indexOf(c_name + \"=\"); } if (c_start == -1) { c_value = ''; } else { c_start = c_value.indexOf(\"=\", c_start) + 1; var c_end = c_value.indexOf(\";\", c_start); if (c_end == -1) { c_end = c_value.length; } c_value = unescape(c_value.substring(c_start, c_end)); } return c_value; } $(document).ready(function () { ZoomText(); }); $(document).ready(function () { $(\"li.MenuLi\").hover(function () { $(\"ul.menuSubUl li ul.menuSubUl\").addClass(\"intro2\"); }); }); //<![CDATA[ function Search() { var emailPat = /^[^*|\\\".:>[\\]{}`\\\\()';^!%#@\\$]+$/; var emailid = document.getElementById('ctl00_MainHead_txtSearch').value; if (emailid == \" Enter Your Text\") { emailid = \"\"; } else { emailid = document.getElementById('ctl00_MainHead_txtSearch').value; } var matchArray = emailid.match(emailPat); if (emailid == \"\") { alert(\"Enter text to search\"); document.getElementById(\"ctl00_MainHead_txtSearch\").focus(); return false; } else if (matchArray == null) { alert(\"Please enter valid text, only enter alpha numbers.\"); document.getElementById('ctl00_MainHead_txtSearch').focus(); return false; } else if (($('<div/>').text(emailid).html().indexOf(\"&lt;\") >= 0) || ($('<div/>').text(emailid).html().indexOf(\"&amp;\") >= 0)) { alert(\"Please enter valid text, only enter alpha numbers.\"); document.getElementById('ctl00_MainHead_txtSearch').focus(); return false; } return true; } function smalltext() { ts('body', -1); } function Defaulttext() { tsO('body', 0); } function largetext() { ts('body', 1); } //]]> function ChangeAlert() { confirm(\"Language will be Changed\"); } function EnterEvent(e) { if (e.keyCode == 13) { if (Search()) { document.getElementById('ctl00_MainHead_btnsearch').click(); } return false; } return true; } function WaterMark(txtName, event) { var defaultText = \" Enter Your Text\"; if (txtName.value.length == 0) { if (event.type == \"blur\") { txtName.style.color = \"Gray\"; txtName.value = defaultText; } } // Condition to check textbox value and event type if (txtName.value == defaultText) { if (event.type == \"focus\") { txtName.style.color = \"black\"; txtName.value = \"\"; } } } var min = 8; var max = 18; function increaseFontSize() { var p = document.getElementsByTagName('p'); for (i = 0; i < p.length; i++) { if (p[i].style.fontSize) { var s = parseInt(p[i].style.fontSize.replace(\"px\", \"\")); } else { var s = 12; } if (s != max) { s += 1; } p[i].style.fontSize = s + \"px\" } } function decreaseFontSize() { var p = document.getElementsByTagName('p'); for (i = 0; i < p.length; i++) { if (p[i].style.fontSize) { var s = parseInt(p[i].style.fontSize.replace(\"px\", \"\")); } else { var s = 12; } if (s != min) { s -= 1; } p[i].style.fontSize = s + \"px\" } } function AddClick() { $(\"a\").click(function () { //if (this.href == \"javascript:__doPostBack('ctl00$MainHead$divskip','')\") // return true; if (this.href == \"javascript:__doPostBack('ctl00$MainHead$btnaccess','')"
       },
-      "observedAt": "2026-09-15T20:18:05.981Z",
+      "observedAt": "2026-09-15T20:20:36.467Z",
       "evidenceHash": "85c6bd22aed70b9e814f24b0fa7fba106d85c2b2a60d7a17854feb08885fdcb9"
     },
     {
-      "externalKey": "cag-audits:history-of-indian-audit-and-accounts-department",
-      "sensorId": "cag-audits",
-      "title": "History of Indian Audit and Accounts Department",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/page-history-of-indian-audit-and-accounts-department",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.775Z",
-      "evidenceHash": "1fd21a087f0af230f6db659fad620db794af1d279a54a00e45f5d0b240dd9e94"
-    },
-    {
-      "externalKey": "cag-audits:former-comptroller-and-auditors-general",
-      "sensorId": "cag-audits",
-      "title": "Former Comptroller and Auditors General",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/former-cag",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "c18e699b7d348449b4f91e03225d9985cc4e7a7d0a94f29c14a1f0071d346474"
-    },
-    {
-      "externalKey": "cag-audits:audit-advisory-board",
-      "sensorId": "cag-audits",
-      "title": "Audit Advisory Board",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/page-audit-advisory-board",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "ff29618159030654c1232c92112059a5ffe876aca5e32873c0e4295f8f002de3"
-    },
-    {
-      "externalKey": "cag-audits:defense-audit-offices",
-      "sensorId": "cag-audits",
-      "title": "Defense Audit Offices",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/home/our-office/9",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "f4d6fb7cf791823c2c5e3ba4c9919e4ef8048b828b4cca17da4002809867c8f0"
-    },
-    {
-      "externalKey": "cag-audits:railway-audit-offices",
-      "sensorId": "cag-audits",
-      "title": "Railway Audit Offices",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/home/our-office/6",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "90ec3d18964f9a434bf284f2b8a47bda2295646623dc45e8aa710cec6bedaae5"
-    },
-    {
-      "externalKey": "cag-audits:other-ministries-audit-offices",
-      "sensorId": "cag-audits",
-      "title": "Other Ministries Audit Offices",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/home/our-office/8",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "d7fd634cdc443c9cf9ad7166254da190a4d738b4536e751a0e9ed341c30e7488"
-    },
-    {
-      "externalKey": "cag-audits:overseas-audit-offices",
-      "sensorId": "cag-audits",
-      "title": "Overseas Audit Offices",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/page-overseas-audit-offices",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "94d199ef206aa1df8ed616a64041164ee5a8b00a9c1a889cd71d116b953713f9"
-    },
-    {
-      "externalKey": "cag-audits:international-centre-for-environment-audit-and-sustainable-development-(iced)",
-      "sensorId": "cag-audits",
-      "title": "International Centre for Environment Audit and Sustainable Development (iCED)",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/iced",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "264e104ab7b4c40ad7e65dacd42b80c52d044557815d8ee9ac51b083418db190"
-    },
-    {
-      "externalKey": "cag-audits:international-centre-for-information-systems-and-audit-(icisa)",
-      "sensorId": "cag-audits",
-      "title": "International Centre for Information Systems and Audit (iCISA)",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/icisa",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "00d9aff0e563e262fcbd2fb47afd039672c6d930cdb466467ca9ae458216d215"
-    },
-    {
-      "externalKey": "cag-audits:national-academy-of-audit-&-accounts-(naaa)",
-      "sensorId": "cag-audits",
-      "title": "National Academy of Audit & Accounts (NAAA)",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/naaa/en",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "180ac99bd79a12c3bd0c0255bb21d1977cd57f9c3305c3cb873a54d68329e2f5"
-    },
-    {
-      "externalKey": "cag-audits:local-bodies-audit-reports",
-      "sensorId": "cag-audits",
-      "title": "Local Bodies Audit Reports",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/audit-report?gt=51",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "1e36fc8082cb83a10c3811965a580fd9e7c569936ff0d7ff73b918b6ab36b67f"
-    },
-    {
-      "externalKey": "cag-audits:compliance-audit-reports",
-      "sensorId": "cag-audits",
-      "title": "Compliance Audit Reports",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/audit-report?report_type=52",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "27c26e0b74a21da8745ee396d19c384f8ce64926100a522629d9c38981088ed6"
-    },
-    {
-      "externalKey": "cag-audits:financial-audit-reports",
-      "sensorId": "cag-audits",
-      "title": "Financial Audit Reports",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/audit-report?report_type=53",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "c5695878bd501df7898a10e72d99705e08d7b399c7adbb099c628ebcc3689cfe"
-    },
-    {
-      "externalKey": "cag-audits:performance-audit-reports",
-      "sensorId": "cag-audits",
-      "title": "Performance Audit Reports",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/audit-report?report_type=54",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "74dd44f7bb34a92c3c85ab8951d45647950590d610ca317c72ff2a068e154ceb"
-    },
-    {
-      "externalKey": "cag-audits:the-focus-areas-for-audit",
-      "sensorId": "cag-audits",
-      "title": "The Focus Areas for audit",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/page-focus-audit-22",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "7b6c187c98dcd03eb6dca92c79c18d7cb1dba70326cf0b4f015e1ee463701317"
-    },
-    {
-      "externalKey": "cag-audits:combined-finance-and-revenue-accounts",
-      "sensorId": "cag-audits",
-      "title": "Combined Finance and Revenue Accounts",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/combined-accounts",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "993d878bb0fc1684e0a36ec64e628b297622bef2a9a168332c513ce0bb0b98d9"
-    },
-    {
-      "externalKey": "cag-audits:annual-conference-of-state-finance-secretaries",
-      "sensorId": "cag-audits",
-      "title": "Annual Conference of State Finance Secretaries",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/page-conf-sfs2025",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "4eb6cd0756125cf0942f9b2f0c2ef7055a6670771412091deacd66e9a32cddb8"
-    },
-    {
-      "externalKey": "cag-audits:study-reports-and-compendia",
-      "sensorId": "cag-audits",
-      "title": "Study Reports and Compendia",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/study-reports",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "f02ef3d0e3bf25d8fa334262499f29f297d3995a8ef5897dbe40024e41326dec"
-    },
-    {
-      "externalKey": "cag-audits:compendium-on-audit-of-the-education-sector-in-india",
-      "sensorId": "cag-audits",
-      "title": "Compendium on Audit of the Education Sector in India",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/Flipbook/project/index.html",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.776Z",
-      "evidenceHash": "a10125ee72029f79f055305f9aa22597eb614f545c57e710487d587e5f26a58e"
-    },
-    {
-      "externalKey": "cag-audits:journal-of-government-audit-&-accounts",
-      "sensorId": "cag-audits",
-      "title": "Journal of Government Audit & Accounts",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/journal",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "17527708d8fb57f5939ebac310e52be4fe3c958c453ed1a23566dd4e775336c0"
-    },
-    {
-      "externalKey": "cag-audits:a-compendium-on-impact-of-audit-on-tax-administration",
-      "sensorId": "cag-audits",
-      "title": "A Compendium on Impact of Audit on Tax Administration",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/uploads/media/Compendium2025-06923d8de573ed3-04024681.pdf",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "07549fa1942f4067b0ded91b8ff5cac5c7f96cdd6d00d48d361097e0cfa209ea"
-    },
-    {
-      "externalKey": "cag-audits:the-focus-area-of-audit",
-      "sensorId": "cag-audits",
-      "title": "The Focus area of Audit",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/page-focus-audit-22",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "9f783a6d2fb665736a9663ee01a35052592acb3c946926594e3c52e4dab8b680"
-    },
-    {
-      "externalKey": "cag-audits:status-of-tabling-of-audit-reports",
-      "sensorId": "cag-audits",
-      "title": "Status of Tabling of Audit Reports",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/status-of-audit-reports",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "c3f3cade6eabed43d874f769a43c1a51f618c9194e6ce7ac5c69f4eb9fc31b8d"
-    },
-    {
-      "externalKey": "cag-audits:institute-of-public-auditors-of-india",
-      "sensorId": "cag-audits",
-      "title": "Institute of Public Auditors of India",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "http://www.ipaiindia.org/",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "2914b3520a09ded526b93b68330f47f26347143a1892bda3336a9c48c957f8c0"
-    },
-    {
-      "externalKey": "cag-audits:dashboard-for-and-state-finances",
-      "sensorId": "cag-audits",
-      "title": "Dashboard for and State Finances",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "http://cag.aghry.gov.in/ords/f?p=100:1:13688774635730:NEW:::",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "c20d5f021656178069fb8a33626563c5720a0476c6c9ceb1cff4e68107c0372c"
-    },
-    {
-      "externalKey": "cag-audits:reports-older-than-2009",
-      "sensorId": "cag-audits",
-      "title": "Reports older than 2009",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/en/old-audit-reports",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "f11b6f6a9efad111bae198d6f18d5134b9fcee6b5d24dfdf41c40ad38f0c135c"
-    },
-    {
-      "externalKey": "cag-audits:report-of-the-comptroller-and-auditor-general-of-india-on-state-finances-for-the-year-2024-25,-government-of-manipur",
+      "externalKey": "cag-audits:126469",
       "sensorId": "cag-audits",
       "title": "Report of the Comptroller and Auditor General of India on State Finances for the year 2024-25, Government of Manipur",
       "authority": "Comptroller and Auditor General of India",
@@ -507,25 +169,15 @@
       "state": "audited",
       "sourceUrl": "https://cag.gov.in/en/audit-report/details/126469",
       "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "d0cd24f520b720716ad868d47abad23856fd2cb16a1200c6172b5b49f5e928a9"
+      "note": "Verified CAG audit-report detail link discovered from the official audit-report index.",
+      "raw": {
+        "reportId": "126469"
+      },
+      "observedAt": "2026-09-15T20:20:38.274Z",
+      "evidenceHash": "1c7d422b591169eb80826592dabb65db5168877db9d1d58f0ef0bcd51dcb5e6f"
     },
     {
-      "externalKey": "cag-audits:download-full-report",
-      "sensorId": "cag-audits",
-      "title": "Download Full Report",
-      "authority": "Comptroller and Auditor General of India",
-      "jurisdiction": "India",
-      "state": "audited",
-      "sourceUrl": "https://cag.gov.in/webroot/uploads/download_audit_report/2026/Haryana---Report-No.-2-of-2026-GST-CAR---English-06a9808a67c5f64.57432072.pdf",
-      "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "461dbedc6608cb96009e72ed614dea9060361df9133dc5de0e752043578f827b"
-    },
-    {
-      "externalKey": "cag-audits:report-of-the-comptroller-and-auditor-general-of-india-on-general,-social,-economic-and-revenue-sectors-for-the-year-end",
+      "externalKey": "cag-audits:126458",
       "sensorId": "cag-audits",
       "title": "Report of the Comptroller and Auditor General of India on General, Social, Economic and Revenue Sectors for the year ended 31 March 2024, Government of Manipur",
       "authority": "Comptroller and Auditor General of India",
@@ -533,12 +185,15 @@
       "state": "audited",
       "sourceUrl": "https://cag.gov.in/en/audit-report/details/126458",
       "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "728be3c0d77fd318bf871505668f4e79f2a6d1efd01b3de1aa84c6bf8854939b"
+      "note": "Verified CAG audit-report detail link discovered from the official audit-report index.",
+      "raw": {
+        "reportId": "126458"
+      },
+      "observedAt": "2026-09-15T20:20:38.274Z",
+      "evidenceHash": "e01566022e060c485559292b09732dafecf684c8ad5553baa0e1ac1585824a57"
     },
     {
-      "externalKey": "cag-audits:report-no.-2-of-2026---report-of-the-comptroller-and-auditor-general-of-india-on-state-finances-for-the-year-2024-25---g",
+      "externalKey": "cag-audits:126325",
       "sensorId": "cag-audits",
       "title": "Report No. 2 of 2026 - Report of the Comptroller and Auditor General of India on State Finances for the Year 2024-25 - Government of Nagaland",
       "authority": "Comptroller and Auditor General of India",
@@ -546,12 +201,15 @@
       "state": "audited",
       "sourceUrl": "https://cag.gov.in/en/audit-report/details/126325",
       "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "5b0867cd301bb035f25a81de459b83475661652aa3e7760a7b222e3fb999ae66"
+      "note": "Verified CAG audit-report detail link discovered from the official audit-report index.",
+      "raw": {
+        "reportId": "126325"
+      },
+      "observedAt": "2026-09-15T20:20:38.274Z",
+      "evidenceHash": "59cb65fbe0232a895436738f801dbfafdc394a62f0f1b4fbe7e625cc119a4ffa"
     },
     {
-      "externalKey": "cag-audits:report-no.-1-of-2026---report-of-the-comptroller-and-auditor-general-of-india-on-social-(including-local-governments-aud",
+      "externalKey": "cag-audits:126309",
       "sensorId": "cag-audits",
       "title": "Report No. 1 of 2026 - Report of the Comptroller and Auditor General of India on Social (including Local Governments Audit), Economic, General and Revenue Sectors for the year ended 31 March 2024",
       "authority": "Comptroller and Auditor General of India",
@@ -559,12 +217,15 @@
       "state": "audited",
       "sourceUrl": "https://cag.gov.in/en/audit-report/details/126309",
       "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "14dc7893d8ef69cd9f9dabd5e0a18c8a8d7358c82dce3105d331564e544c1c3b"
+      "note": "Verified CAG audit-report detail link discovered from the official audit-report index.",
+      "raw": {
+        "reportId": "126309"
+      },
+      "observedAt": "2026-09-15T20:20:38.274Z",
+      "evidenceHash": "c6b423a5a20b11b3e1564f2f839629d82a2937e6326aeb72643d6819bef6cd43"
     },
     {
-      "externalKey": "cag-audits:report-of-the-comptroller-and-auditor-general-of-india-on-state-finances-for-the-year-2024-25-government-of-himachal-pra",
+      "externalKey": "cag-audits:126303",
       "sensorId": "cag-audits",
       "title": "Report of the Comptroller and Auditor General of India on State Finances for the year 2024-25 Government of Himachal Pradesh Report No. 2 of 2026 (State Finances Audit Report)",
       "authority": "Comptroller and Auditor General of India",
@@ -572,12 +233,15 @@
       "state": "audited",
       "sourceUrl": "https://cag.gov.in/en/audit-report/details/126303",
       "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "8d07c64e3051e7832632bb9d351ccd5047faa357245b090a225c4e035f05c414"
+      "note": "Verified CAG audit-report detail link discovered from the official audit-report index.",
+      "raw": {
+        "reportId": "126303"
+      },
+      "observedAt": "2026-09-15T20:20:38.274Z",
+      "evidenceHash": "090e9437e7e90c7f81874103baa7d01e15603ff15948b4f9572575236bac067d"
     },
     {
-      "externalKey": "cag-audits:report-of-the-comptroller-and-auditor-general-of-india-for-the-period-ended-march-2023-government-of-himachal-pradesh-re",
+      "externalKey": "cag-audits:126302",
       "sensorId": "cag-audits",
       "title": "Report of the Comptroller and Auditor General of India for the period ended March 2023 Government of Himachal Pradesh Report No. 1 of 2026 (Composite Audit Report)",
       "authority": "Comptroller and Auditor General of India",
@@ -585,12 +249,15 @@
       "state": "audited",
       "sourceUrl": "https://cag.gov.in/en/audit-report/details/126302",
       "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "0b87c294c333e1201543829d7bf60b2f040e05f2a5d7f9d5f284425c31a9ef78"
+      "note": "Verified CAG audit-report detail link discovered from the official audit-report index.",
+      "raw": {
+        "reportId": "126302"
+      },
+      "observedAt": "2026-09-15T20:20:38.274Z",
+      "evidenceHash": "748a312ce1b84dae7f90b8c2b9377201625fdf33eb2420307ec96ba7cb10fff7"
     },
     {
-      "externalKey": "cag-audits:report-of-the-comptroller-and-auditor-general-of-india-for-the-period-ended-march-2024-government-of-himachal-pradesh-re",
+      "externalKey": "cag-audits:126301",
       "sensorId": "cag-audits",
       "title": "Report of the Comptroller and Auditor General of India for the period ended March 2024 Government of Himachal Pradesh Report No. 3 of 2026 (Compliance Audit Report)",
       "authority": "Comptroller and Auditor General of India",
@@ -598,12 +265,15 @@
       "state": "audited",
       "sourceUrl": "https://cag.gov.in/en/audit-report/details/126301",
       "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "33322d7156ca9e6a3e27287fafd68bd2b3107ec06ccc36b8a57144458591e48b"
+      "note": "Verified CAG audit-report detail link discovered from the official audit-report index.",
+      "raw": {
+        "reportId": "126301"
+      },
+      "observedAt": "2026-09-15T20:20:38.274Z",
+      "evidenceHash": "282ed13302a3052cf4b2f694d2136480716e5bc4d7ca375bfb3f47e4f7423be5"
     },
     {
-      "externalKey": "cag-audits:report-of-the-comptroller-and-auditor-general-of-india-for-the-period-ended-march-2024-government-of-haryana-report-no.-",
+      "externalKey": "cag-audits:126283",
       "sensorId": "cag-audits",
       "title": "Report of the Comptroller and Auditor General of India for the period ended March 2024 Government of Haryana Report No. 5 of 2026 (Compliance Audit- Revenue)",
       "authority": "Comptroller and Auditor General of India",
@@ -611,12 +281,15 @@
       "state": "audited",
       "sourceUrl": "https://cag.gov.in/en/audit-report/details/126283",
       "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "c5d2065681aaa7bf401fd8c68dae40cf56a6a0ad7afc12e351332613482538da"
+      "note": "Verified CAG audit-report detail link discovered from the official audit-report index.",
+      "raw": {
+        "reportId": "126283"
+      },
+      "observedAt": "2026-09-15T20:20:38.274Z",
+      "evidenceHash": "835ec0a65727e1762a4667c7b0562ffacb5e1854441a4a50f7250e35e751e3fa"
     },
     {
-      "externalKey": "cag-audits:report-of-the-comptroller-and-auditor-general-of-india-information-system-audits-(government-of-haryana-report-no.-3-of-",
+      "externalKey": "cag-audits:126269",
       "sensorId": "cag-audits",
       "title": "Report of the Comptroller and Auditor General of India Information System Audits (Government of Haryana Report No. 3 of 2026)",
       "authority": "Comptroller and Auditor General of India",
@@ -624,12 +297,15 @@
       "state": "audited",
       "sourceUrl": "https://cag.gov.in/en/audit-report/details/126269",
       "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "63aea1f283c1fb0d1424524cb18ee2a8e5ada7ca4336520cf49093abff8573ca"
+      "note": "Verified CAG audit-report detail link discovered from the official audit-report index.",
+      "raw": {
+        "reportId": "126269"
+      },
+      "observedAt": "2026-09-15T20:20:38.274Z",
+      "evidenceHash": "45e7a693e09f448888485a3564527657cc895b2be74863b4d65f00322d147bff"
     },
     {
-      "externalKey": "cag-audits:report-of-the-comptroller-and-auditor-general-of-india-compliance-audit-on-gst-(government-of-haryana-report-no.-2-of-20",
+      "externalKey": "cag-audits:126255",
       "sensorId": "cag-audits",
       "title": "Report of the Comptroller and Auditor General of India Compliance Audit on GST (Government of Haryana Report No. 2 of 2026)",
       "authority": "Comptroller and Auditor General of India",
@@ -637,9 +313,12 @@
       "state": "audited",
       "sourceUrl": "https://cag.gov.in/en/audit-report/details/126255",
       "geographicPrecision": "unknown",
-      "note": "CAG publication discovered from the official audit-report index.",
-      "observedAt": "2026-09-15T20:18:07.777Z",
-      "evidenceHash": "0c360b996d36156f2a18a370608931b27aaf5c7ff12be4f19387c6511d3be9b3"
+      "note": "Verified CAG audit-report detail link discovered from the official audit-report index.",
+      "raw": {
+        "reportId": "126255"
+      },
+      "observedAt": "2026-09-15T20:20:38.274Z",
+      "evidenceHash": "f5a3a87979dab783288333f3f23152d2391f4aec7bdacae108f212bbaffdea20"
     },
     {
       "externalKey": "maharashtra-program-budget:program-budget-2026-27-part-1-|-finance-department-|-india",
@@ -655,7 +334,7 @@
       "raw": {
         "excerpt": "Search Search Accessibility Tools Accessibility Tools Color Contrast High Contrast Normal Contrast Highlight Links Invert Saturation Text Size Font Size Increase Font Size Decrease Normal Font Text Spacing Line Height Other controls Hide Images Big Cursor Text to Speech महाराष्ट्र शासन Government of Maharashtra वित्त विभाग Finance Department Menu Toggle More Home About Department Introduction Table Of Contents Vision & Mission Secretary-wise allocation of subjects to JointDeputy Secretaries Objectives & Functions Administrative Setup Who’s Who Awards & Appreciations 100 Days Programme Detailed information of points under 100 days Action Plan Programme of Hon. Chief Minister 100 Days Office Improvement Special Campaign Finance Department Maharashtra Government Directorate of Accounts and Treasuries ,Mumbai 100 Days Office Improvement Special Campaign Finance Department Government of Maharashtra Commissioner State Lottery Directorate, Mumbai. Citizen’s Corner Forms Grievance Redressal Documents Budget speech Budget Speech 2025-26 Performance Budget Performance Budget 2025-26 Minutes of PIC Meeting Central finance commission State Finance Commission Sixth Maharashtra State Finance Commission Report Report of the Fifth Maharashtra State Finance Commission Report of the Fifth Maharashtra State Finance Commission Part1 Report of the Fifth Maharashtra State Finance Commission Part2 committee Reports Voucher Reconciliation Budget Speech 2024-25 Pay Commission 3rd Pay Commission 4th Pay Commission 5th Pay Commission 6th Pay Commission 7th Pay Commission Plan Documents Citizen Charter Government Orders Acts & Rules FRBM Circulars / Notifications Senority list of sales tax officers Interim Budget 2024-25 White Paper 2015 Budget Information MCS & MSC Revised Pay Rules Policies & Guidelines Allowances Advertisement Notices Announcements (General) Tenders Publications Handbook RTI RTI Documents RTI Contacts (PIOs / APIOs / AAs ) RTS Act Important links & Addresses Directorate of Accounts and Treasuries Directorate of Local Fund Account Audit Mahagst Maharashtra State Lottery More Important Links Media Corner Press Release Photo Gallery Video Gallery Close Home Program Budget 2026-27 Part-1 Share on Facebook Share of X (formerly Twitter) Share on Linkedin Program Budget 2026-27 Part-1 Filter Document category wise All Sixth Maharashtra State Finance Commission Report Circulars / Notifications Acts & Rules committee Reports Rules & Regulations Budget Information Citizen Charter Government Orders Tenders Budget Speech of Hon'ble Finance Minister 2024-25 White Paper 2015 Budget Speech of Hon'ble Finance Minister Part 2 Interim Budget 2024-25 MCS & MSC Revised Pay Rules Minutes of PIC Meeting Outstanding AC Bills Finance Commission of Government of India Brief Information of Govt. Resolution/Order State Finance Commission Allowances Voucher Reconciliation 6th Pay Commission Senority list of sales tax officers FRBM 7th Pay Commission Central finance commission Detailed information of points under 100 days Action Plan Programme of Hon. Chief Minister 100 Days Office Improvement Special Campaign Finance Department Government of Maharashtra Commissioner State Lottery Directorate, Mumbai. 100 Days Office Improvement Special Campaign Finance Department Maharashtra Government Directorate of Accounts and Treasuries ,Mumbai Advertisement 4th Pay Commission 5th Pay Commission 3rd Pay Commission Advance estimates of GSDP for 2025-26 Information for Divyang employees Program Budget 2026-27 Part-1 Filter function pageRedirect() { let selectBox = document.getElementById(\"document_category\"); let selectedURL = selectBox.options[selectBox.selectedIndex].value; let notification = document.getElementById(\"sc-site-notification\"); if(notification){ notification.textContent = \"\"; setTimeout(function(){ notification.textContent = \"Filter Applied.\"; }, 100); } if(selectedURL != window.location){ setTimeout(function(){ window.location.href = selectedURL; }, 800); } } P"
       },
-      "observedAt": "2026-09-15T20:18:06.227Z",
+      "observedAt": "2026-09-15T20:20:36.827Z",
       "evidenceHash": "a848193182b5854d527ca8618d6361d81ebc979e6be27a3a8819cdc50fa910b7"
     },
     {
@@ -672,7 +351,7 @@
       "raw": {
         "excerpt": "Could not open iView. The iView is not compatible with your browser, operating system, or device. Contact your system administrator for more information."
       },
-      "observedAt": "2026-09-15T20:18:06.340Z",
+      "observedAt": "2026-09-15T20:20:36.729Z",
       "evidenceHash": "df4242e2fc8c9d366fad5b0c5121310d964800d83473f090a56196e80a1a1913"
     }
   ]
