@@ -13,7 +13,7 @@ const DISCOVERY_URL = `https://cga.nic.in/MonthlyReport/Published/4/${FY}.aspx`;
 
 const expenditureLabels: Array<{ pattern: RegExp; key: string; label: string }> = [
   { pattern: /total\s+expenditure/i, key: "total-expenditure", label: "Total Expenditure" },
-  { pattern: /^revenue\s+expenditure/i, key: "revenue-expenditure", label: "Revenue Expenditure" },
+  { pattern: /revenue\s+expenditure/i, key: "revenue-expenditure", label: "Revenue Expenditure" },
   { pattern: /capital\s+expenditure/i, key: "capital-expenditure", label: "Capital Expenditure" },
   { pattern: /interest\s+payments/i, key: "interest-payments", label: "Interest Payments" },
   { pattern: /loans\s+disbursed/i, key: "loans-disbursed", label: "Loans Disbursed" },
