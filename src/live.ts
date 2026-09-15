@@ -1,3 +1,5 @@
+import "./live.css";
+
 type LiveSensor = {
   id: string;
   label: string;
