@@ -33,10 +33,12 @@ The ingestion runner currently monitors:
 2. PFMS availability for sanctions/releases.
 3. Central Public Procurement Portal latest tenders.
 4. Government e-Marketplace public bid surface.
-5. CAG audit-report index.
-6. Maharashtra Finance Department FY 2026–27 programme budget.
-7. BMC budget publication surface.
-8. BMC tender publication surface.
+5. CPPP contract-award publication surface.
+6. CAG audit-report index.
+7. Union Output Outcome Monitoring Framework 2026–27.
+8. Maharashtra Finance Department FY 2026–27 programme budget.
+9. BMC budget publication surface.
+10. BMC tender publication surface.
 
 GitHub Actions polls these sources hourly and writes `public/data/live/latest.json`. The snapshot explicitly records source health, retrieval time, record count and errors. A successful source poll does **not** mean that a source exposes transaction-level data.
 
@@ -66,15 +68,15 @@ Every live record can carry amount, state, authority, fiscal year, vendor, tende
 | Sanctions/releases | PFMS source monitoring; structured public extraction still partial |
 | CGA actual expenditure | Publication monitoring; granular monthly parser still partial |
 | Tenders | CPPP + GeM + BMC public-source polling |
-| Contract awards | Schema ready; CPPP award search is source-gated and requires a separate compliant extraction path |
+| Contract awards | CPPP award surface monitored; search results remain source-gated where captcha/search input is required |
 | Vendor/payee | Fields/schema ready; populated only when primary evidence exposes it |
 | Government payments | Schema ready; no claim of bank/treasury telemetry |
 | Project/location | BMC tender location/ward extraction where stated |
 | CAG findings | Report discovery live; finding-level extraction remains partial |
-| Outcomes | Data model ready; outcome-document ingestion is the next source adapter |
+| Outcomes | Official 2026–27 Output Outcome Monitoring Framework sensor added; achieved-outcome extraction remains separate |
 | Maharashtra | FY 2026–27 Finance Department sensor active |
 | Mumbai/BMC/ward | Budget + tender sensors active; ward text retained where present |
-| Live polling | Hourly GitHub Action |
+| Live polling | Hourly GitHub Action plus push/manual triggers |
 | Geographic pinpointing | Coordinates only when evidenced; no invented map pins |
 
 ## Accuracy semantics
