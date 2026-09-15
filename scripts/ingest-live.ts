@@ -1,10 +1,12 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { createClient } from "@supabase/supabase-js";
 import { runAllSensors, sensors } from "./sensors/index";
+import { runSupplementalSensors, supplementalSensors } from "./sensors/supplemental";
 import type { PublicMoneyRecord, SensorResult } from "./lib/ingestion";
 
 const dryRun = process.argv.includes("--dry-run");
 const snapshotPath = new URL("../public/data/live/latest.json", import.meta.url);
+const allSensorDefinitions = [...sensors, ...supplementalSensors];
 
 function dbRow(record: PublicMoneyRecord) {
   return {
@@ -56,7 +58,7 @@ async function persistToSupabase(results: SensorResult[]) {
   if (runError) throw runError;
 
   try {
-    const sensorRows = sensors.map((sensor) => {
+    const sensorRows = allSensorDefinitions.map((sensor) => {
       const result = results.find((item) => item.sensor.id === sensor.id);
       return {
         id: sensor.id,
@@ -122,7 +124,7 @@ async function persistToSupabase(results: SensorResult[]) {
   }
 }
 
-const results = await runAllSensors();
+const results = [...(await runAllSensors()), ...(await runSupplementalSensors())];
 const snapshot = {
   generatedAt: new Date().toISOString(),
   semantics: {
