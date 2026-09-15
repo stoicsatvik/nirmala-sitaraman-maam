@@ -18,6 +18,15 @@ const sensors: SensorDefinition[] = [
     expectedFreshness: "monthly, polled hourly"
   },
   {
+    id: "pfms-sanctions-releases",
+    label: "PFMS sanctions and releases",
+    scope: "union",
+    kind: "sanctions",
+    authority: "Public Financial Management System",
+    sourceUrl: "https://pfms.nic.in/",
+    expectedFreshness: "source dependent, availability checked hourly"
+  },
+  {
     id: "cppp-procurement",
     label: "Central Public Procurement Portal",
     scope: "union",
@@ -25,6 +34,15 @@ const sensors: SensorDefinition[] = [
     authority: "Government of India eProcurement System",
     sourceUrl: "https://eprocure.gov.in/epublish/app",
     expectedFreshness: "continuous publication, polled hourly"
+  },
+  {
+    id: "gem-bids",
+    label: "Government e-Marketplace bids",
+    scope: "union",
+    kind: "procurement",
+    authority: "Government e Marketplace",
+    sourceUrl: "https://bidplus-global.gem.gov.in/",
+    expectedFreshness: "near-publication, polled hourly"
   },
   {
     id: "cag-audits",
@@ -52,11 +70,26 @@ const sensors: SensorDefinition[] = [
     authority: "Brihanmumbai Municipal Corporation",
     sourceUrl: "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
     expectedFreshness: "publication driven, polled hourly"
+  },
+  {
+    id: "bmc-tenders",
+    label: "BMC tenders",
+    scope: "municipal",
+    kind: "procurement",
+    authority: "Brihanmumbai Municipal Corporation",
+    sourceUrl: "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
+    expectedFreshness: "publication driven, polled hourly"
   }
 ];
 
 function clean(value: string): string {
   return value.replace(/\s+/g, " ").trim();
+}
+
+function jurisdictionFor(sensor: SensorDefinition): string {
+  if (sensor.scope === "union") return "India";
+  if (sensor.scope === "state") return "Maharashtra";
+  return "Mumbai";
 }
 
 async function genericPublicationSensor(sensor: SensorDefinition): Promise<SensorResult> {
@@ -66,15 +99,18 @@ async function genericPublicationSensor(sensor: SensorDefinition): Promise<Senso
     const $ = cheerio.load(html);
     const title = clean($("title").first().text()) || sensor.label;
     const text = clean($("body").text()).slice(0, 4000);
+    const state = sensor.kind === "audit" ? "audited" : "budgeted";
     const records = [
       makeObservedRecord({
         externalKey: recordKey(sensor.id, title),
         sensorId: sensor.id,
         title,
         authority: sensor.authority,
-        jurisdiction: sensor.scope === "union" ? "India" : sensor.scope === "state" ? "Maharashtra" : "Mumbai",
-        state: sensor.kind === "audit" ? "audited" : "budgeted",
+        jurisdiction: jurisdictionFor(sensor),
+        fiscalYear: "2026-27",
+        state,
         sourceUrl: sensor.sourceUrl,
+        geographicPrecision: sensor.scope === "state" ? "state" : "unknown",
         note: "Publication endpoint observed. Structured extraction is conservative; source changes remain hash-verifiable.",
         raw: { excerpt: text }
       })
@@ -85,7 +121,25 @@ async function genericPublicationSensor(sensor: SensorDefinition): Promise<Senso
   }
 }
 
-async function cpppSensor(sensor: SensorDefinition): Promise<SensorResult> {
+async function pfmsAvailabilitySensor(sensor: SensorDefinition): Promise<SensorResult> {
+  const fetchedAt = new Date().toISOString();
+  try {
+    const html = await fetchText(sensor.sourceUrl);
+    const $ = cheerio.load(html);
+    const title = clean($("title").first().text()) || sensor.label;
+    return {
+      sensor,
+      fetchedAt,
+      ok: true,
+      records: [],
+      error: `PFMS reachable (${title}), but this collector does not invent sanction/payment rows without a stable public machine-readable report endpoint.`
+    };
+  } catch (error) {
+    return { sensor, fetchedAt, ok: false, records: [], error: error instanceof Error ? error.message : String(error) };
+  }
+}
+
+async function tableProcurementSensor(sensor: SensorDefinition, jurisdiction: string): Promise<SensorResult> {
   const fetchedAt = new Date().toISOString();
   try {
     const html = await fetchText(sensor.sourceUrl);
@@ -96,28 +150,67 @@ async function cpppSensor(sensor: SensorDefinition): Promise<SensorResult> {
         const cells = $(row).find("td").toArray().map((cell) => clean($(cell).text()));
         if (cells.length < 2) return null;
         const title = cells[0] || cells[1];
-        const reference = cells[1] || undefined;
-        if (!title || /tender title/i.test(title)) return null;
+        const reference = cells.find((cell) => /(?:GEM\/|20\d{2}_|tender|bid)/i.test(cell)) || cells[1] || undefined;
+        if (!title || /tender title|reference no/i.test(title)) return null;
         const link = $(row).find("a[href]").first().attr("href");
         const sourceUrl = link ? new URL(link, sensor.sourceUrl).toString() : sensor.sourceUrl;
+        const ward = title.match(/\b([A-Z]\/?(?:East|West|North|South)?|[A-Z])\s*ward\b/i)?.[0];
         return makeObservedRecord({
           externalKey: recordKey(sensor.id, reference, title),
           sensorId: sensor.id,
-          title,
+          title: title.slice(0, 500),
           authority: sensor.authority,
-          jurisdiction: "India",
+          jurisdiction,
           fiscalYear: "2026-27",
           state: "procured",
           sourceUrl,
           tenderReference: reference,
+          locationText: ward ? `${ward}, Mumbai, Maharashtra` : undefined,
+          geographicPrecision: ward ? "locality" : "unknown",
           note: cells.slice(2).join(" | ") || undefined,
           raw: { cells }
         });
       })
       .filter((record): record is NonNullable<typeof record> => Boolean(record))
-      .slice(0, 100);
+      .slice(0, 150);
 
     return { sensor, fetchedAt, ok: true, records };
+  } catch (error) {
+    return { sensor, fetchedAt, ok: false, records: [], error: error instanceof Error ? error.message : String(error) };
+  }
+}
+
+async function linkProcurementSensor(sensor: SensorDefinition, jurisdiction: string): Promise<SensorResult> {
+  const fetchedAt = new Date().toISOString();
+  try {
+    const html = await fetchText(sensor.sourceUrl);
+    const $ = cheerio.load(html);
+    const records: ReturnType<typeof makeObservedRecord>[] = [];
+    $("a[href]").each((_, element) => {
+      const label = clean($(element).text());
+      if (label.length < 12 || !/(tender|bid|GEM\/20\d{4}\/B\/|20\d{4}_MCGM_)/i.test(label)) return;
+      const href = $(element).attr("href");
+      if (!href) return;
+      const reference = label.match(/(?:GEM\/20\d{4}\/B\/\d+|20\d{4}_MCGM_\d+(?:_\d+)?)/i)?.[0];
+      const ward = label.match(/\b[A-Z]\/\w+\s+ward\b/i)?.[0] ?? label.match(/\b[A-Z]\s+ward\b/i)?.[0];
+      records.push(
+        makeObservedRecord({
+          externalKey: recordKey(sensor.id, reference, label.slice(0, 160)),
+          sensorId: sensor.id,
+          title: label.slice(0, 500),
+          authority: sensor.authority,
+          jurisdiction,
+          fiscalYear: "2026-27",
+          state: "procured",
+          sourceUrl: new URL(href, sensor.sourceUrl).toString(),
+          tenderReference: reference,
+          locationText: ward ? `${ward}, Mumbai, Maharashtra` : undefined,
+          geographicPrecision: ward ? "locality" : "unknown"
+        })
+      );
+    });
+    const deduped = [...new Map(records.map((record) => [record.externalKey, record])).values()].slice(0, 150);
+    return { sensor, fetchedAt, ok: true, records: deduped };
   } catch (error) {
     return { sensor, fetchedAt, ok: false, records: [], error: error instanceof Error ? error.message : String(error) };
   }
@@ -145,6 +238,7 @@ async function cagSensor(sensor: SensorDefinition): Promise<SensorResult> {
           jurisdiction: /maharashtra/i.test(label) ? "Maharashtra" : "India",
           state: "audited",
           sourceUrl,
+          geographicPrecision: /maharashtra/i.test(label) ? "state" : "unknown",
           note: "CAG publication discovered from the official audit-report index."
         })
       );
@@ -160,7 +254,10 @@ async function cagSensor(sensor: SensorDefinition): Promise<SensorResult> {
 export async function runAllSensors(): Promise<SensorResult[]> {
   return Promise.all(
     sensors.map((sensor) => {
-      if (sensor.id === "cppp-procurement") return cpppSensor(sensor);
+      if (sensor.id === "pfms-sanctions-releases") return pfmsAvailabilitySensor(sensor);
+      if (sensor.id === "cppp-procurement") return tableProcurementSensor(sensor, "India");
+      if (sensor.id === "gem-bids") return linkProcurementSensor(sensor, "India");
+      if (sensor.id === "bmc-tenders") return linkProcurementSensor(sensor, "Mumbai");
       if (sensor.id === "cag-audits") return cagSensor(sensor);
       return genericPublicationSensor(sensor);
     })
