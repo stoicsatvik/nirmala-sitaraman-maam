@@ -1,6 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { createClient } from "@supabase/supabase-js";
 import { runAllSensors, sensors } from "./sensors/index";
+import { runBmcBudgetSensor } from "./sensors/bmc-budget";
 import { runSupplementalSensors, supplementalSensors } from "./sensors/supplemental";
 import type { PublicMoneyRecord, SensorResult } from "./lib/ingestion";
 
@@ -124,7 +125,17 @@ async function persistToSupabase(results: SensorResult[]) {
   }
 }
 
-const results = [...(await runAllSensors()), ...(await runSupplementalSensors())];
+const baseResults = await runAllSensors();
+const bmcBudgetDefinition = sensors.find((sensor) => sensor.id === "bmc-budget");
+const bmcBudgetResult = bmcBudgetDefinition ? await runBmcBudgetSensor(bmcBudgetDefinition) : undefined;
+const supplementalResults = await runSupplementalSensors();
+
+const results = [
+  ...baseResults.filter((result) => result.sensor.id !== "bmc-budget"),
+  ...(bmcBudgetResult ? [bmcBudgetResult] : []),
+  ...supplementalResults
+];
+
 const snapshot = {
   generatedAt: new Date().toISOString(),
   semantics: {
