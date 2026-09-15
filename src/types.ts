@@ -15,6 +15,8 @@ export type MoneyState =
   | "delivered"
   | "audited";
 
+export type TrackingLayerStatus = "live" | "partial" | "modeled" | "unavailable";
+
 export interface SourceRecord {
   id: string;
   title: string;
@@ -59,4 +61,13 @@ export interface LedgerNode {
     | "project"
     | "outcome";
   note?: string;
+}
+
+export interface TrackingLayer {
+  id: string;
+  label: string;
+  status: TrackingLayerStatus;
+  source?: string;
+  freshness?: string;
+  detail: string;
 }
