@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T20:20:45.762Z",
+  "generatedAt": "2026-09-15T20:21:59.111Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -8,7 +8,7 @@
   "summary": {
     "sensors": 10,
     "healthySensors": 6,
-    "records": 13
+    "records": 17
   },
   "sensors": [
     {
@@ -17,11 +17,11 @@
       "authority": "Controller General of Accounts",
       "scope": "union",
       "kind": "accounts",
-      "sourceUrl": "https://cga.gov.in/Page/Monthly-Accounts-Review.aspx",
-      "expectedFreshness": "monthly, polled hourly",
-      "fetchedAt": "2026-09-15T20:20:33.907Z",
+      "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
+      "expectedFreshness": "monthly publication, polled hourly",
+      "fetchedAt": "2026-09-15T20:21:47.465Z",
       "ok": true,
-      "recordCount": 1,
+      "recordCount": 5,
       "error": null
     },
     {
@@ -32,7 +32,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-09-15T20:20:33.920Z",
+      "fetchedAt": "2026-09-15T20:21:47.479Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -43,12 +43,12 @@
       "authority": "Government of India eProcurement System",
       "scope": "union",
       "kind": "procurement",
-      "sourceUrl": "https://eprocure.gov.in/epublish/app",
-      "expectedFreshness": "continuous publication, polled hourly",
-      "fetchedAt": "2026-09-15T20:20:33.921Z",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
+      "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
+      "fetchedAt": "2026-09-15T20:21:47.480Z",
       "ok": false,
       "recordCount": 0,
-      "error": "500 500 from https://eprocure.gov.in/epublish/app"
+      "error": "500 500 from https://www.eprocure.gov.in/epublish/app?service=home"
     },
     {
       "id": "gem-bids",
@@ -58,7 +58,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-09-15T20:20:33.922Z",
+      "fetchedAt": "2026-09-15T20:21:47.481Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -71,7 +71,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-15T20:20:33.924Z",
+      "fetchedAt": "2026-09-15T20:21:47.483Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -84,7 +84,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-15T20:20:33.925Z",
+      "fetchedAt": "2026-09-15T20:21:47.484Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -97,7 +97,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-15T20:20:33.926Z",
+      "fetchedAt": "2026-09-15T20:21:47.485Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -110,7 +110,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-15T20:20:33.927Z",
+      "fetchedAt": "2026-09-15T20:21:47.486Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -123,7 +123,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-09-15T20:20:44.411Z",
+      "fetchedAt": "2026-09-15T20:21:57.971Z",
       "ok": false,
       "recordCount": 0,
       "error": "500 500 from https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page"
@@ -136,7 +136,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year document, availability checked daily by hourly poll",
-      "fetchedAt": "2026-09-15T20:20:44.414Z",
+      "fetchedAt": "2026-09-15T20:21:57.972Z",
       "ok": false,
       "recordCount": 0,
       "error": "403 Forbidden"
@@ -144,21 +144,155 @@
   ],
   "records": [
     {
-      "externalKey": "cga-monthly-accounts:monthly-accounts-review-:-cga",
+      "externalKey": "cga-monthly-accounts:interest-payments:7:2026-2027",
       "sensorId": "cga-monthly-accounts",
-      "title": "Monthly Accounts Review : CGA",
+      "title": "Interest Payments — actuals up to JULY 2026",
       "authority": "Controller General of Accounts",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
-      "state": "budgeted",
-      "sourceUrl": "https://cga.gov.in/Page/Monthly-Accounts-Review.aspx",
-      "geographicPrecision": "unknown",
-      "note": "Publication endpoint observed. Structured extraction is conservative; source changes remain hash-verifiable.",
+      "state": "paid",
+      "amountInr": 4265660000000,
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=442897062",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=442897062",
+      "ministry": "Union Government",
+      "note": "CGA provisional unaudited actual: ₹4,26,566 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
-        "excerpt": "function ZoomTextOrig() { document.cookie = \"nrcc_zoom=0.8\"; //document.body.style.zoom = 1; document.body.style.fontSize = \"0.8em\"; $('').css({ 'font-size': '18px' }); $('.some-class-name2').css({ 'font-size': '95%' }); $('p').css({ 'font-size': '95%' }); $('a').css({ 'font-size': '95%' }); } function ZoomOutText() { document.cookie = \"nrcc_zoom=0.7\"; //document.body.style.zoom = 0.8; document.body.style.fontSize = \"0.7em\"; $('.some-class-name2').css({ 'font-size': '90%' }); $('p').css({ 'font-size': '90%' }); $('a').css({ 'font-size': '90%' }); } function ZoomInText() { document.cookie = \"nrcc_zoom=0.9\"; //document.body.style.zoom = 1.2; document.body.style.fontSize = \"0.9em\"; $('.some-class-name2').css({ 'font-size': '100%' }); $('p').css({ 'font-size': '100%' }); $('a').css({ 'font-size': '100%' }); } function ZoomText() { var myzoom = getCookie('nrcc_zoom'); if (myzoom == '0.7') ZoomOutText(); else if (myzoom == '0.9') ZoomInText(); else ZoomTextOrig(); } function getCookie(c_name) { var c_value = document.cookie; var c_start = c_value.indexOf(\" \" + c_name + \"=\"); if (c_start == -1) { c_start = c_value.indexOf(c_name + \"=\"); } if (c_start == -1) { c_value = ''; } else { c_start = c_value.indexOf(\"=\", c_start) + 1; var c_end = c_value.indexOf(\";\", c_start); if (c_end == -1) { c_end = c_value.length; } c_value = unescape(c_value.substring(c_start, c_end)); } return c_value; } $(document).ready(function () { ZoomText(); }); $(document).ready(function () { $(\"li.MenuLi\").hover(function () { $(\"ul.menuSubUl li ul.menuSubUl\").addClass(\"intro2\"); }); }); //<![CDATA[ function Search() { var emailPat = /^[^*|\\\".:>[\\]{}`\\\\()';^!%#@\\$]+$/; var emailid = document.getElementById('ctl00_MainHead_txtSearch').value; if (emailid == \" Enter Your Text\") { emailid = \"\"; } else { emailid = document.getElementById('ctl00_MainHead_txtSearch').value; } var matchArray = emailid.match(emailPat); if (emailid == \"\") { alert(\"Enter text to search\"); document.getElementById(\"ctl00_MainHead_txtSearch\").focus(); return false; } else if (matchArray == null) { alert(\"Please enter valid text, only enter alpha numbers.\"); document.getElementById('ctl00_MainHead_txtSearch').focus(); return false; } else if (($('<div/>').text(emailid).html().indexOf(\"&lt;\") >= 0) || ($('<div/>').text(emailid).html().indexOf(\"&amp;\") >= 0)) { alert(\"Please enter valid text, only enter alpha numbers.\"); document.getElementById('ctl00_MainHead_txtSearch').focus(); return false; } return true; } function smalltext() { ts('body', -1); } function Defaulttext() { tsO('body', 0); } function largetext() { ts('body', 1); } //]]> function ChangeAlert() { confirm(\"Language will be Changed\"); } function EnterEvent(e) { if (e.keyCode == 13) { if (Search()) { document.getElementById('ctl00_MainHead_btnsearch').click(); } return false; } return true; } function WaterMark(txtName, event) { var defaultText = \" Enter Your Text\"; if (txtName.value.length == 0) { if (event.type == \"blur\") { txtName.style.color = \"Gray\"; txtName.value = defaultText; } } // Condition to check textbox value and event type if (txtName.value == defaultText) { if (event.type == \"focus\") { txtName.style.color = \"black\"; txtName.value = \"\"; } } } var min = 8; var max = 18; function increaseFontSize() { var p = document.getElementsByTagName('p'); for (i = 0; i < p.length; i++) { if (p[i].style.fontSize) { var s = parseInt(p[i].style.fontSize.replace(\"px\", \"\")); } else { var s = 12; } if (s != max) { s += 1; } p[i].style.fontSize = s + \"px\" } } function decreaseFontSize() { var p = document.getElementsByTagName('p'); for (i = 0; i < p.length; i++) { if (p[i].style.fontSize) { var s = parseInt(p[i].style.fontSize.replace(\"px\", \"\")); } else { var s = 12; } if (s != min) { s -= 1; } p[i].style.fontSize = s + \"px\" } } function AddClick() { $(\"a\").click(function () { //if (this.href == \"javascript:__doPostBack('ctl00$MainHead$divskip','')\") // return true; if (this.href == \"javascript:__doPostBack('ctl00$MainHead$btnaccess','')"
+        "period": "JULY 2026",
+        "month": 7,
+        "actualCrore": 426566,
+        "budgetEstimateCrore": 1403972,
+        "sourceCells": [
+          "9",
+          "of which Interest Payments",
+          "1403972",
+          "426566",
+          "30.4%",
+          "(35.0%)"
+        ]
       },
-      "observedAt": "2026-09-15T20:20:36.467Z",
-      "evidenceHash": "85c6bd22aed70b9e814f24b0fa7fba106d85c2b2a60d7a17854feb08885fdcb9"
+      "observedAt": "2026-09-15T20:21:53.313Z",
+      "evidenceHash": "a6013231ce1a7d02674f661145ce5c210d4dd7edbccddde70aa5d7747577c783"
+    },
+    {
+      "externalKey": "cga-monthly-accounts:capital-expenditure:7:2026-2027",
+      "sensorId": "cga-monthly-accounts",
+      "title": "Capital Expenditure — actuals up to JULY 2026",
+      "authority": "Controller General of Accounts",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "paid",
+      "amountInr": 4506350000000,
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=442897062",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=442897062",
+      "ministry": "Union Government",
+      "note": "CGA provisional unaudited actual: ₹4,50,635 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
+      "raw": {
+        "period": "JULY 2026",
+        "month": 7,
+        "actualCrore": 450635,
+        "budgetEstimateCrore": 1221821,
+        "sourceCells": [
+          "10",
+          "Capital Expenditure",
+          "1221821",
+          "450635",
+          "36.9%",
+          "(30.9%)"
+        ]
+      },
+      "observedAt": "2026-09-15T20:21:53.313Z",
+      "evidenceHash": "47171b62f7f1066584ffbed4a3b605e129f0f0557edd0d48c48c3a38426efbbb"
+    },
+    {
+      "externalKey": "cga-monthly-accounts:loans-disbursed:7:2026-2027",
+      "sensorId": "cga-monthly-accounts",
+      "title": "Loans Disbursed — actuals up to JULY 2026",
+      "authority": "Controller General of Accounts",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "paid",
+      "amountInr": 1262720000000,
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=442897062",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=442897062",
+      "ministry": "Union Government",
+      "note": "CGA provisional unaudited actual: ₹1,26,272 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
+      "raw": {
+        "period": "JULY 2026",
+        "month": 7,
+        "actualCrore": 126272,
+        "budgetEstimateCrore": 278780,
+        "sourceCells": [
+          "11",
+          "of which Loans disbursed",
+          "278780",
+          "126272",
+          "45.3%",
+          "(42.8%)"
+        ]
+      },
+      "observedAt": "2026-09-15T20:21:53.313Z",
+      "evidenceHash": "7816562bbaef931c3d87fada34b0350ae93b74060fcb74275435a2dcc58eb7a8"
+    },
+    {
+      "externalKey": "cga-monthly-accounts:total-expenditure:7:2026-2027",
+      "sensorId": "cga-monthly-accounts",
+      "title": "Total Expenditure — actuals up to JULY 2026",
+      "authority": "Controller General of Accounts",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "paid",
+      "amountInr": 17618530000000,
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=442897062",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=442897062",
+      "ministry": "Union Government",
+      "note": "CGA provisional unaudited actual: ₹17,61,853 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
+      "raw": {
+        "period": "JULY 2026",
+        "month": 7,
+        "actualCrore": 1761853,
+        "budgetEstimateCrore": 5347315,
+        "sourceCells": [
+          "12",
+          "Total Expenditure (8+10)",
+          "(Details)",
+          "5347315",
+          "1761853",
+          "32.9%",
+          "(30.9%)"
+        ]
+      },
+      "observedAt": "2026-09-15T20:21:53.314Z",
+      "evidenceHash": "ae686fe5eb297c6d02ba25e50b690a59e36894971f339d75dbf308725cbf55e0"
+    },
+    {
+      "externalKey": "cga-monthly-accounts:major-subsidies:7:2026-2027",
+      "sensorId": "cga-monthly-accounts",
+      "title": "Total Major Subsidies — actuals up to JULY 2026",
+      "authority": "Controller General of Accounts",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "paid",
+      "amountInr": 1535133400000,
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=442897062",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=442897062",
+      "ministry": "Union Government",
+      "note": "CGA provisional unaudited actual: ₹1,53,513.34 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
+      "raw": {
+        "period": "JULY 2026",
+        "month": 7,
+        "actualCrore": 153513.34,
+        "budgetEstimateCrore": 410512.51,
+        "sourceCells": [
+          "Total Major Subsidies",
+          "410512.51",
+          "153513.34",
+          "113592.28",
+          "37%",
+          "(30%)"
+        ]
+      },
+      "observedAt": "2026-09-15T20:21:53.330Z",
+      "evidenceHash": "e7e2e0a241be44d31fa26d95b2f129b1b4fa5b012eb9191d9f0dbeef54aa26a3"
     },
     {
       "externalKey": "cag-audits:126469",
@@ -173,7 +307,7 @@
       "raw": {
         "reportId": "126469"
       },
-      "observedAt": "2026-09-15T20:20:38.274Z",
+      "observedAt": "2026-09-15T20:21:51.731Z",
       "evidenceHash": "1c7d422b591169eb80826592dabb65db5168877db9d1d58f0ef0bcd51dcb5e6f"
     },
     {
@@ -189,7 +323,7 @@
       "raw": {
         "reportId": "126458"
       },
-      "observedAt": "2026-09-15T20:20:38.274Z",
+      "observedAt": "2026-09-15T20:21:51.731Z",
       "evidenceHash": "e01566022e060c485559292b09732dafecf684c8ad5553baa0e1ac1585824a57"
     },
     {
@@ -205,7 +339,7 @@
       "raw": {
         "reportId": "126325"
       },
-      "observedAt": "2026-09-15T20:20:38.274Z",
+      "observedAt": "2026-09-15T20:21:51.731Z",
       "evidenceHash": "59cb65fbe0232a895436738f801dbfafdc394a62f0f1b4fbe7e625cc119a4ffa"
     },
     {
@@ -221,7 +355,7 @@
       "raw": {
         "reportId": "126309"
       },
-      "observedAt": "2026-09-15T20:20:38.274Z",
+      "observedAt": "2026-09-15T20:21:51.731Z",
       "evidenceHash": "c6b423a5a20b11b3e1564f2f839629d82a2937e6326aeb72643d6819bef6cd43"
     },
     {
@@ -237,7 +371,7 @@
       "raw": {
         "reportId": "126303"
       },
-      "observedAt": "2026-09-15T20:20:38.274Z",
+      "observedAt": "2026-09-15T20:21:51.731Z",
       "evidenceHash": "090e9437e7e90c7f81874103baa7d01e15603ff15948b4f9572575236bac067d"
     },
     {
@@ -253,7 +387,7 @@
       "raw": {
         "reportId": "126302"
       },
-      "observedAt": "2026-09-15T20:20:38.274Z",
+      "observedAt": "2026-09-15T20:21:51.731Z",
       "evidenceHash": "748a312ce1b84dae7f90b8c2b9377201625fdf33eb2420307ec96ba7cb10fff7"
     },
     {
@@ -269,7 +403,7 @@
       "raw": {
         "reportId": "126301"
       },
-      "observedAt": "2026-09-15T20:20:38.274Z",
+      "observedAt": "2026-09-15T20:21:51.746Z",
       "evidenceHash": "282ed13302a3052cf4b2f694d2136480716e5bc4d7ca375bfb3f47e4f7423be5"
     },
     {
@@ -285,7 +419,7 @@
       "raw": {
         "reportId": "126283"
       },
-      "observedAt": "2026-09-15T20:20:38.274Z",
+      "observedAt": "2026-09-15T20:21:51.746Z",
       "evidenceHash": "835ec0a65727e1762a4667c7b0562ffacb5e1854441a4a50f7250e35e751e3fa"
     },
     {
@@ -301,7 +435,7 @@
       "raw": {
         "reportId": "126269"
       },
-      "observedAt": "2026-09-15T20:20:38.274Z",
+      "observedAt": "2026-09-15T20:21:51.746Z",
       "evidenceHash": "45e7a693e09f448888485a3564527657cc895b2be74863b4d65f00322d147bff"
     },
     {
@@ -317,7 +451,7 @@
       "raw": {
         "reportId": "126255"
       },
-      "observedAt": "2026-09-15T20:20:38.274Z",
+      "observedAt": "2026-09-15T20:21:51.747Z",
       "evidenceHash": "f5a3a87979dab783288333f3f23152d2391f4aec7bdacae108f212bbaffdea20"
     },
     {
@@ -334,7 +468,7 @@
       "raw": {
         "excerpt": "Search Search Accessibility Tools Accessibility Tools Color Contrast High Contrast Normal Contrast Highlight Links Invert Saturation Text Size Font Size Increase Font Size Decrease Normal Font Text Spacing Line Height Other controls Hide Images Big Cursor Text to Speech महाराष्ट्र शासन Government of Maharashtra वित्त विभाग Finance Department Menu Toggle More Home About Department Introduction Table Of Contents Vision & Mission Secretary-wise allocation of subjects to JointDeputy Secretaries Objectives & Functions Administrative Setup Who’s Who Awards & Appreciations 100 Days Programme Detailed information of points under 100 days Action Plan Programme of Hon. Chief Minister 100 Days Office Improvement Special Campaign Finance Department Maharashtra Government Directorate of Accounts and Treasuries ,Mumbai 100 Days Office Improvement Special Campaign Finance Department Government of Maharashtra Commissioner State Lottery Directorate, Mumbai. Citizen’s Corner Forms Grievance Redressal Documents Budget speech Budget Speech 2025-26 Performance Budget Performance Budget 2025-26 Minutes of PIC Meeting Central finance commission State Finance Commission Sixth Maharashtra State Finance Commission Report Report of the Fifth Maharashtra State Finance Commission Report of the Fifth Maharashtra State Finance Commission Part1 Report of the Fifth Maharashtra State Finance Commission Part2 committee Reports Voucher Reconciliation Budget Speech 2024-25 Pay Commission 3rd Pay Commission 4th Pay Commission 5th Pay Commission 6th Pay Commission 7th Pay Commission Plan Documents Citizen Charter Government Orders Acts & Rules FRBM Circulars / Notifications Senority list of sales tax officers Interim Budget 2024-25 White Paper 2015 Budget Information MCS & MSC Revised Pay Rules Policies & Guidelines Allowances Advertisement Notices Announcements (General) Tenders Publications Handbook RTI RTI Documents RTI Contacts (PIOs / APIOs / AAs ) RTS Act Important links & Addresses Directorate of Accounts and Treasuries Directorate of Local Fund Account Audit Mahagst Maharashtra State Lottery More Important Links Media Corner Press Release Photo Gallery Video Gallery Close Home Program Budget 2026-27 Part-1 Share on Facebook Share of X (formerly Twitter) Share on Linkedin Program Budget 2026-27 Part-1 Filter Document category wise All Sixth Maharashtra State Finance Commission Report Circulars / Notifications Acts & Rules committee Reports Rules & Regulations Budget Information Citizen Charter Government Orders Tenders Budget Speech of Hon'ble Finance Minister 2024-25 White Paper 2015 Budget Speech of Hon'ble Finance Minister Part 2 Interim Budget 2024-25 MCS & MSC Revised Pay Rules Minutes of PIC Meeting Outstanding AC Bills Finance Commission of Government of India Brief Information of Govt. Resolution/Order State Finance Commission Allowances Voucher Reconciliation 6th Pay Commission Senority list of sales tax officers FRBM 7th Pay Commission Central finance commission Detailed information of points under 100 days Action Plan Programme of Hon. Chief Minister 100 Days Office Improvement Special Campaign Finance Department Government of Maharashtra Commissioner State Lottery Directorate, Mumbai. 100 Days Office Improvement Special Campaign Finance Department Maharashtra Government Directorate of Accounts and Treasuries ,Mumbai Advertisement 4th Pay Commission 5th Pay Commission 3rd Pay Commission Advance estimates of GSDP for 2025-26 Information for Divyang employees Program Budget 2026-27 Part-1 Filter function pageRedirect() { let selectBox = document.getElementById(\"document_category\"); let selectedURL = selectBox.options[selectBox.selectedIndex].value; let notification = document.getElementById(\"sc-site-notification\"); if(notification){ notification.textContent = \"\"; setTimeout(function(){ notification.textContent = \"Filter Applied.\"; }, 100); } if(selectedURL != window.location){ setTimeout(function(){ window.location.href = selectedURL; }, 800); } } P"
       },
-      "observedAt": "2026-09-15T20:20:36.827Z",
+      "observedAt": "2026-09-15T20:21:50.203Z",
       "evidenceHash": "a848193182b5854d527ca8618d6361d81ebc979e6be27a3a8819cdc50fa910b7"
     },
     {
@@ -351,7 +485,7 @@
       "raw": {
         "excerpt": "Could not open iView. The iView is not compatible with your browser, operating system, or device. Contact your system administrator for more information."
       },
-      "observedAt": "2026-09-15T20:20:36.729Z",
+      "observedAt": "2026-09-15T20:21:50.233Z",
       "evidenceHash": "df4242e2fc8c9d366fad5b0c5121310d964800d83473f090a56196e80a1a1913"
     }
   ]
