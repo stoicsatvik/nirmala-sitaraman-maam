@@ -224,28 +224,40 @@ async function cagSensor(sensor: SensorDefinition): Promise<SensorResult> {
     const records: ReturnType<typeof makeObservedRecord>[] = [];
 
     $("a[href]").each((_, element) => {
-      const label = clean($(element).text());
-      if (!label || label.length < 20 || !/report|audit|finance|compliance|performance/i.test(label)) return;
       const href = $(element).attr("href");
-      if (!href) return;
+      if (!href || !/\/audit-report\/details\/\d+/i.test(href)) return;
+
+      const label = clean($(element).text());
+      if (!label || label.length < 8) return;
+
       const sourceUrl = new URL(href, sensor.sourceUrl).toString();
+      const reportId = href.match(/\/audit-report\/details\/(\d+)/i)?.[1];
+      const isMaharashtra = /maharashtra/i.test(label);
+
       records.push(
         makeObservedRecord({
-          externalKey: recordKey(sensor.id, label.slice(0, 120)),
+          externalKey: recordKey(sensor.id, reportId ?? label.slice(0, 120)),
           sensorId: sensor.id,
-          title: label.slice(0, 300),
+          title: label.slice(0, 500),
           authority: sensor.authority,
-          jurisdiction: /maharashtra/i.test(label) ? "Maharashtra" : "India",
+          jurisdiction: isMaharashtra ? "Maharashtra" : "India",
           state: "audited",
           sourceUrl,
-          geographicPrecision: /maharashtra/i.test(label) ? "state" : "unknown",
-          note: "CAG publication discovered from the official audit-report index."
+          geographicPrecision: isMaharashtra ? "state" : "unknown",
+          note: "Verified CAG audit-report detail link discovered from the official audit-report index.",
+          raw: { reportId }
         })
       );
     });
 
     const deduped = [...new Map(records.map((record) => [record.externalKey, record])).values()].slice(0, 100);
-    return { sensor, fetchedAt, ok: true, records: deduped };
+    return {
+      sensor,
+      fetchedAt,
+      ok: true,
+      records: deduped,
+      error: deduped.length === 0 ? "CAG index reachable, but no verified /audit-report/details/<id> links were present in this response." : undefined
+    };
   } catch (error) {
     return { sensor, fetchedAt, ok: false, records: [], error: error instanceof Error ? error.message : String(error) };
   }
