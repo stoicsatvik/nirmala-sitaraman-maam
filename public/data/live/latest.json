@@ -6,10 +6,19 @@
     "geography": "Coordinates are only published when supported by source evidence."
   },
   "summary": {
-    "sensors": 5,
+    "sensors": 8,
     "healthySensors": 0,
     "records": 0
   },
-  "sensors": [],
+  "sensors": [
+    {"id":"cga-monthly-accounts","label":"Union Government monthly accounts","authority":"Controller General of Accounts","scope":"union","kind":"accounts","sourceUrl":"https://cga.gov.in/Page/Monthly-Accounts-Review.aspx","expectedFreshness":"monthly, polled hourly","fetchedAt":"","ok":false,"recordCount":0,"error":"awaiting first poll"},
+    {"id":"pfms-sanctions-releases","label":"PFMS sanctions and releases","authority":"Public Financial Management System","scope":"union","kind":"sanctions","sourceUrl":"https://pfms.nic.in/","expectedFreshness":"source dependent, availability checked hourly","fetchedAt":"","ok":false,"recordCount":0,"error":"awaiting first poll"},
+    {"id":"cppp-procurement","label":"Central Public Procurement Portal","authority":"Government of India eProcurement System","scope":"union","kind":"procurement","sourceUrl":"https://eprocure.gov.in/epublish/app","expectedFreshness":"continuous publication, polled hourly","fetchedAt":"","ok":false,"recordCount":0,"error":"awaiting first poll"},
+    {"id":"gem-bids","label":"Government e-Marketplace bids","authority":"Government e Marketplace","scope":"union","kind":"procurement","sourceUrl":"https://bidplus-global.gem.gov.in/","expectedFreshness":"near-publication, polled hourly","fetchedAt":"","ok":false,"recordCount":0,"error":"awaiting first poll"},
+    {"id":"cag-audits","label":"CAG audit reports","authority":"Comptroller and Auditor General of India","scope":"union","kind":"audit","sourceUrl":"https://cag.gov.in/en/audit-report","expectedFreshness":"publication driven, polled hourly","fetchedAt":"","ok":false,"recordCount":0,"error":"awaiting first poll"},
+    {"id":"maharashtra-program-budget","label":"Maharashtra programme budget","authority":"Finance Department, Government of Maharashtra","scope":"state","kind":"budget","sourceUrl":"https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/","expectedFreshness":"publication driven, polled hourly","fetchedAt":"","ok":false,"recordCount":0,"error":"awaiting first poll"},
+    {"id":"bmc-budget","label":"BMC budget publications","authority":"Brihanmumbai Municipal Corporation","scope":"municipal","kind":"budget","sourceUrl":"https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448","expectedFreshness":"publication driven, polled hourly","fetchedAt":"","ok":false,"recordCount":0,"error":"awaiting first poll"},
+    {"id":"bmc-tenders","label":"BMC tenders","authority":"Brihanmumbai Municipal Corporation","scope":"municipal","kind":"procurement","sourceUrl":"https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new","expectedFreshness":"publication driven, polled hourly","fetchedAt":"","ok":false,"recordCount":0,"error":"awaiting first poll"}
+  ],
   "records": []
 }
