@@ -18,7 +18,7 @@ export const supplementalSensors: SensorDefinition[] = [
     kind: "outcome",
     authority: "Ministry of Finance, Government of India",
     sourceUrl: "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
-    expectedFreshness: "budget-year document, availability checked daily by hourly poll"
+    expectedFreshness: "budget-year framework, availability checked hourly"
   }
 ];
 
@@ -59,7 +59,7 @@ async function contractAwards(sensor: SensorDefinition): Promise<SensorResult> {
       ok: true,
       records,
       error: records.length === 0
-        ? "CPPP award surface is reachable, but public award search currently exposes no ungated result rows without search/captcha input. No award rows were fabricated."
+        ? "CPPP award surface is reachable, but public award search exposes no ungated result rows without search/captcha input. No award rows were fabricated."
         : undefined
     };
   } catch (error) {
@@ -71,9 +71,14 @@ async function outcomeFramework(sensor: SensorDefinition): Promise<SensorResult>
   const fetchedAt = new Date().toISOString();
   try {
     const response = await fetch(sensor.sourceUrl, {
+      method: "GET",
       headers: {
-        "user-agent": "PublicLedgerIndia/0.2 (+https://github.com/stoicsatvik/nirmala-sitaraman-maam)",
-        range: "bytes=0-2047"
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        accept: "application/pdf,application/octet-stream;q=0.9,*/*;q=0.8",
+        "accept-language": "en-IN,en;q=0.9",
+        referer: "https://www.indiabudget.gov.in/",
+        range: "bytes=0-4095",
+        "x-public-ledger-client": "PublicLedgerIndia/0.2"
       },
       redirect: "follow",
       signal: AbortSignal.timeout(25_000)
@@ -94,10 +99,10 @@ async function outcomeFramework(sensor: SensorDefinition): Promise<SensorResult>
           authority: sensor.authority,
           jurisdiction: "India",
           fiscalYear: "2026-27",
-          state: "delivered",
+          state: "budgeted",
           sourceUrl: sensor.sourceUrl,
           sourceDocument: sensor.sourceUrl,
-          note: "Official outcome-target framework is reachable. Indicator-level extraction is intentionally separate from actual achieved-outcome evidence.",
+          note: "Official outcome-target framework is reachable. This is target evidence, not proof that outcomes were achieved. Achieved-outcome records require separate primary evidence.",
           raw: { contentType, httpStatus: response.status }
         })
       ]
