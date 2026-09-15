@@ -1,0 +1,36 @@
+.live-record-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.live-record {
+  padding: 1.1rem;
+  border: 1px solid #273140;
+  border-radius: 16px;
+  background: #0d121a;
+}
+
+.live-record h3 {
+  margin-bottom: .35rem;
+}
+
+.live-record p {
+  margin: .35rem 0;
+  font-size: .86rem;
+}
+
+#live-tracking .model-banner {
+  flex-wrap: wrap;
+}
+
+#live-tracking .model-banner > div {
+  min-width: 145px;
+}
+
+@media (max-width: 760px) {
+  .live-record-grid {
+    grid-template-columns: 1fr;
+  }
+}
