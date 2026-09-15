@@ -71,21 +71,45 @@ export function normalizeMoney(text: string): number | undefined {
   return /crore/i.test(text) ? value * 10_000_000 : value;
 }
 
-export async function fetchText(url: string): Promise<string> {
-  const response = await fetch(url, {
-    headers: {
-      "user-agent": "PublicLedgerIndia/0.2 (+https://github.com/stoicsatvik/nirmala-sitaraman-maam)",
-      accept: "text/html,application/xhtml+xml,application/json,text/plain;q=0.9,*/*;q=0.8"
-    },
-    redirect: "follow",
-    signal: AbortSignal.timeout(25_000)
-  });
+function publicHeaders(url: string): Record<string, string> {
+  const origin = new URL(url).origin;
+  return {
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    accept: "text/html,application/xhtml+xml,application/json,text/plain,application/pdf;q=0.9,*/*;q=0.8",
+    "accept-language": "en-IN,en;q=0.9,hi;q=0.7",
+    "cache-control": "no-cache",
+    pragma: "no-cache",
+    referer: `${origin}/`,
+    "x-public-ledger-client": "PublicLedgerIndia/0.2"
+  };
+}
 
-  if (!response.ok) {
-    throw new Error(`${response.status} ${response.statusText} from ${url}`);
+export async function fetchText(url: string): Promise<string> {
+  let lastError: Error | undefined;
+
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        headers: publicHeaders(url),
+        redirect: "follow",
+        signal: AbortSignal.timeout(25_000)
+      });
+
+      if (response.ok) return response.text();
+
+      const error = new Error(`${response.status} ${response.statusText} from ${url}`);
+      if (response.status < 500 && response.status !== 429) throw error;
+      lastError = error;
+    } catch (error) {
+      lastError = error instanceof Error ? error : new Error(String(error));
+    }
+
+    if (attempt < 3) {
+      await new Promise((resolve) => setTimeout(resolve, attempt * 750));
+    }
   }
 
-  return response.text();
+  throw lastError ?? new Error(`Unable to fetch ${url}`);
 }
 
 export function makeObservedRecord(input: Omit<PublicMoneyRecord, "observedAt" | "evidenceHash">): PublicMoneyRecord {
