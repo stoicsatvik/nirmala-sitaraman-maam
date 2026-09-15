@@ -22,6 +22,10 @@ export const supplementalSensors: SensorDefinition[] = [
   }
 ];
 
+function isCpppDate(value: string): boolean {
+  return /^\d{1,2}[-/]?[A-Za-z]{3}[-/]?20\d{2}$/.test(value.replace(/\s+/g, "")) || /^\d{1,2}[-/]\d{1,2}[-/]20\d{2}$/.test(value);
+}
+
 async function contractAwards(sensor: SensorDefinition): Promise<SensorResult> {
   const fetchedAt = new Date().toISOString();
   try {
@@ -31,23 +35,34 @@ async function contractAwards(sensor: SensorDefinition): Promise<SensorResult> {
     const records = rows
       .map((row) => {
         const cells = $(row).find("td").toArray().map((cell) => $(cell).text().replace(/\s+/g, " ").trim());
-        if (cells.length < 4) return null;
-        const joined = cells.join(" | ");
-        if (!/AOC|award|contract|tender/i.test(joined)) return null;
-        const title = cells[3] || cells[2] || joined;
-        const reference = joined.match(/(?:GEM\/20\d{4}\/B\/\d+|20\d{4}_[A-Z]+_\d+(?:_\d+)?|[A-Z0-9][A-Z0-9/_-]{5,})/i)?.[0];
+
+        // A real CPPP AOC result row is expected to carry:
+        // S.No | AOC Date | e-Published Date | Title + Ref/Tender ID | Organisation Chain | AOC No
+        // Navigation/search rows previously matched loose words such as "tender" and were false positives.
+        if (cells.length < 6 || !/^\d+$/.test(cells[0]) || !isCpppDate(cells[1]) || !isCpppDate(cells[2])) return null;
+
+        const title = cells[3];
+        const organisation = cells[4];
+        const aocNo = cells[5];
+        if (!title || !organisation || !aocNo) return null;
+
+        const reference = title.match(/(?:GEM\/20\d{4}\/B\/\d+|20\d{4}_[A-Z]+_\d+(?:_\d+)?|[A-Z0-9][A-Z0-9/_-]{5,})/i)?.[0];
+        const link = $(row).find("a[href]").first().attr("href");
+        const sourceUrl = link ? new URL(link, sensor.sourceUrl).toString() : sensor.sourceUrl;
+
         return makeObservedRecord({
-          externalKey: recordKey(sensor.id, reference, title),
+          externalKey: recordKey(sensor.id, aocNo, reference, title),
           sensorId: sensor.id,
           title: title.slice(0, 500),
           authority: sensor.authority,
           jurisdiction: "India",
           fiscalYear: "2026-27",
           state: "procured",
-          sourceUrl: sensor.sourceUrl,
+          sourceUrl,
           tenderReference: reference,
-          note: joined.slice(0, 1200),
-          raw: { cells }
+          ministry: organisation.slice(0, 300),
+          note: `CPPP Award of Contract row. AOC date: ${cells[1]}; e-published: ${cells[2]}; AOC no: ${aocNo}. Vendor/value fields are not asserted unless exposed in a linked primary award detail.`,
+          raw: { cells, aocDate: cells[1], ePublishedDate: cells[2], organisation, aocNo }
         });
       })
       .filter((record): record is NonNullable<typeof record> => Boolean(record))
@@ -59,7 +74,7 @@ async function contractAwards(sensor: SensorDefinition): Promise<SensorResult> {
       ok: true,
       records,
       error: records.length === 0
-        ? "CPPP award surface is reachable, but public award search exposes no ungated result rows without search/captcha input. No award rows were fabricated."
+        ? "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
         : undefined
     };
   } catch (error) {
