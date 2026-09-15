@@ -2,6 +2,13 @@ name: Public money sensor ingest
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "supabase/migrations/**"
+      - "package.json"
+      - ".github/workflows/live-ingest.yml"
   schedule:
     - cron: "17 * * * *"
 
