@@ -5,7 +5,7 @@ create table public.sensors (
   label text not null,
   authority text not null,
   scope text not null check (scope in ('union', 'state', 'municipal')),
-  kind text not null check (kind in ('budget', 'accounts', 'procurement', 'audit', 'outcome')),
+  kind text not null check (kind in ('budget', 'accounts', 'sanctions', 'payments', 'procurement', 'audit', 'outcome')),
   source_url text not null,
   expected_freshness text,
   enabled boolean not null default true,
