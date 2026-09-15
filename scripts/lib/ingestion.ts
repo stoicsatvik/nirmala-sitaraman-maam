@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 
 export type SensorScope = "union" | "state" | "municipal";
-export type SensorKind = "budget" | "accounts" | "procurement" | "audit" | "outcome";
+export type SensorKind = "budget" | "accounts" | "sanctions" | "payments" | "procurement" | "audit" | "outcome";
 export type RecordState =
   | "budgeted"
   | "revised"
