@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T01:24:23.565Z",
+  "generatedAt": "2026-09-16T07:40:48.694Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-09-16T01:23:41.661Z",
+      "fetchedAt": "2026-09-16T07:40:07.363Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-09-16T01:23:41.670Z",
+      "fetchedAt": "2026-09-16T07:40:07.377Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-09-16T01:23:41.672Z",
+      "fetchedAt": "2026-09-16T07:40:07.378Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-09-16T01:23:41.673Z",
+      "fetchedAt": "2026-09-16T07:40:07.379Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-16T01:23:41.673Z",
+      "fetchedAt": "2026-09-16T07:40:07.380Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-16T01:23:41.676Z",
+      "fetchedAt": "2026-09-16T07:40:07.383Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-16T01:24:15.974Z",
+      "fetchedAt": "2026-09-16T07:40:41.424Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-16T01:24:15.973Z",
+      "fetchedAt": "2026-09-16T07:40:41.423Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-09-16T01:24:15.975Z",
+      "fetchedAt": "2026-09-16T07:40:41.425Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-09-16T01:24:15.976Z",
+      "fetchedAt": "2026-09-16T07:40:41.426Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 13112180000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=490997117",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=490997117",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1090227589",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1090227589",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹13,11,218 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(30.8%)"
         ]
       },
-      "observedAt": "2026-09-16T01:23:49.229Z",
-      "evidenceHash": "5e6d952925704915a85322ef747e954210b4047fd173e256f5f8e8e1e218d314"
+      "observedAt": "2026-09-16T07:40:14.184Z",
+      "evidenceHash": "a970c2ac3a9b6d02db1ea509f42141101ed59d994dda7c2839184874863dc512"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:7:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4265660000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=490997117",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=490997117",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1090227589",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1090227589",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,26,566 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(35.0%)"
         ]
       },
-      "observedAt": "2026-09-16T01:23:49.230Z",
-      "evidenceHash": "0e245b190430615db2149494b24e8c1633cda78e306c02e4aaf2e4a917adc796"
+      "observedAt": "2026-09-16T07:40:14.184Z",
+      "evidenceHash": "91a923c55769392200549213f1d10965eb6e38419ef751d8061ce095e421a00a"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:7:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4506350000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=490997117",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=490997117",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1090227589",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1090227589",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,50,635 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-16T01:23:49.230Z",
-      "evidenceHash": "3e1e65f9f61b5150494f43f317dfbfdae80aaaf0959e59b01074368b2f523236"
+      "observedAt": "2026-09-16T07:40:14.185Z",
+      "evidenceHash": "cfe0ea5bd4c5e49e3731dff077fc928f2264891df3beded4d1336a839910f926"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:7:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1262720000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=490997117",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=490997117",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1090227589",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1090227589",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,26,272 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(42.8%)"
         ]
       },
-      "observedAt": "2026-09-16T01:23:49.230Z",
-      "evidenceHash": "af952c8d1bff7fe491f21648f8e338a8680c55ec7969f33463bbea957d265598"
+      "observedAt": "2026-09-16T07:40:14.185Z",
+      "evidenceHash": "cebbea2cfc222728f7c447299597d0c9411ecd87b44e581e2d4d8984744bb948"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:7:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 17618530000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=490997117",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=490997117",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1090227589",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1090227589",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹17,61,853 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-16T01:23:49.230Z",
-      "evidenceHash": "0cef574ff118104b7243d704c04e384ae578377f3cb2c4af46a9e3b3a2ff79a3"
+      "observedAt": "2026-09-16T07:40:14.185Z",
+      "evidenceHash": "bdfad3ac915fa257d6d317d9a9cdbe95e159b285635add2d43a343ce4540dbd9"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:7:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1535133400000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=490997117",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=490997117",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1090227589",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1090227589",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,53,513.34 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,8 +323,8 @@
           "(30%)"
         ]
       },
-      "observedAt": "2026-09-16T01:23:49.232Z",
-      "evidenceHash": "0d8dc7deff9e0affe673a63213d5290f8e20439209b2a03cbad0fc3d0049caf3"
+      "observedAt": "2026-09-16T07:40:14.187Z",
+      "evidenceHash": "46ef192aefec2a12302c3fc55403f10560fdb63fec2ee5956b1b16c6c00f8dfa"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access-16-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-16-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
@@ -357,7 +357,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.801Z",
+      "observedAt": "2026-09-16T07:40:09.125Z",
       "evidenceHash": "a2c8017eb10b984f4aef93406769b0e446e153c4cdeb1ed680a0ae1be52a6439"
     },
     {
@@ -377,7 +377,7 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.802Z",
+      "observedAt": "2026-09-16T07:40:09.126Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
@@ -403,7 +403,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.802Z",
+      "observedAt": "2026-09-16T07:40:09.126Z",
       "evidenceHash": "2f5594f48ede21efc42993609a2dcdf47ddc7868265b476409b3546d1800d9fd"
     },
     {
@@ -428,7 +428,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.802Z",
+      "observedAt": "2026-09-16T07:40:09.127Z",
       "evidenceHash": "f6b9ee822c06b965156a2c853f3499407a03164b9ef4fe27550d28d921dcd85c"
     },
     {
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.803Z",
+      "observedAt": "2026-09-16T07:40:09.127Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.803Z",
+      "observedAt": "2026-09-16T07:40:09.127Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS NMDC/DONIMALAI/8/ET/283 25-Sep-2026 11:00 AM 25-Sep-2026 11:30 AM 2. Pur/e-file 232460 /2026-27 Pur/e-file 232460 /2026-27 21-Sep-2026 10:00 AM 21-Sep-2026 03:00 PM 3. Procurement of cotton rope GEM/2026/B/8013897 15-Oct-2026 03:00 PM 16-Oct-2026 03:30 PM 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND 91-84/PnW/W/1545 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 F.NO. 12/1/2026-2027/IFFI-2026 06-Oct-2026 12:00 PM 07-Oct-2026 12:00 PM 6. Supply of Muffle Furnace GEM/2026/B/8027439 03-Oct-2026 12:00 PM 04-Oct-2026 12:00 PM 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP GEM/2026/B/8034238 05-Oct-2026 10:00 AM 06-Oct-2026 10:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 18-Sep-2026 12:30 PM 18-Sep-2026 06:00 PM 9. Supply of Riffle splitters at IRERC GEM/2026/B/8020748 23-Sep-2026 01:00 PM 24-Sep-2026 01:00 PM 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves GEM/2026/B/8021601 24-Sep-2026 02:00 PM 25-Sep-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Extension of Tender for External painting at Embassy residence, Mexico City MEX/Adm/551/1/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 2. Extension of Tender for Internal painting at Embassy residence, Mexico City MEX/Adm/551/2/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 3. TCN-01 DT.15/09/2026 PSER-PUR-BRH-S674-26 21-Sep-2026 02:00 PM 21-Sep-2026 04:30 PM 4. ADDNDUM OOT/Circle/133/Drydock/2023 29-Sep-2026 04:00 PM 29-Sep-2026 04:05 PM 5. Corrigendum - 1 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 6. Corrigendum - 1 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 7. 2026_MPPGC_850033_1/C2 91-84/PnW/W/1452 21-Sep-2026 02:00 PM 21-Sep-2026 05:00 PM 8. 2026_MPPGC_848380_4/C6 91-84/PnW/W/1326 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 9. 2026_MPPGC_847729_1/C2 91-84/PnW/P/1247 05-Oct-2026 02:00 PM 05-Oct-2026 06:00 PM 10. 2026_MPPGC_849782_1/C2 91-84/PnW/P/1415 30-Sep-2026 02:00 PM 30-Sep-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS NMDC/DONIMALAI/8/ET/283 25-Sep-2026 11:00 AM 25-Sep-2026 11:30 AM 2. Pur/e-file 232460 /2026-27 Pur/e-file 232460 /2026-27 21-Sep-2026 10:00 AM 21-Sep-2026 03:00 PM 3. Procurement of cotton rope GEM/2026/B/8013897 15-Oct-2026 03:00 PM 16-Oct-2026 03:30 PM 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND 91-84/PnW/W/1545 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 F.NO. 12/1/2026-2027/IFFI-2026 06-Oct-2026 12:00 PM 07-Oct-2026 12:00 PM 6. Supply of Muffle Furnace GEM/2026/B/8027439 03-Oct-2026 12:00 PM 04-Oct-2026 12:00 PM 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP GEM/2026/B/8034238 05-Oct-2026 10:00 AM 06-Oct-2026 10:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 18-Sep-2026 12:30 PM 18-Sep-2026 06:00 PM 9. Supply of Riffle splitters at IRERC GEM/2026/B/8020748 23-Sep-2026 01:00 PM 24-Sep-2026 01:00 PM 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves GEM/2026/B/8021601 24-Sep-2026 02:00 PM 25-Sep-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Extension of Tender for External painting at Embassy residence, Mexico City MEX/Adm/551/1/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 2. Extension of Tender for Internal painting at Embassy residence, Mexico City MEX/Adm/551/2/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 3. TCN-01 DT.15/09/2026 PSER-PUR-BRH-S674-26 21-Sep-2026 02:00 PM 21-Sep-2026 04:30 PM 4. ADDNDUM OOT/Circle/133/Drydock/2023 29-Sep-2026 04:00 PM 29-Sep-2026 04:05 PM 5. Corrigendum - 1 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 6. Corrigendum - 1 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 7. 2026_MPPGC_850033_1/C2 91-84/PnW/W/1452 21-Sep-2026 02:00 PM 21-Sep-2026 05:00 PM 8. 2026_MPPGC_848380_4/C6 91-84/PnW/W/1326 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 9. 2026_MPPGC_847729_1/C2 91-84/PnW/P/1247 05-Oct-2026 02:00 PM 05-Oct-2026 06:00 PM 10. 2026_MPPGC_849782_1/C2 91-84/PnW/P/1415 30-Sep-2026 02:00 PM 30-Sep-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS NMDC/DONIMALAI/8/ET/283 25-Sep-2026 11:00 AM 25-Sep-2026 11:30 AM 2. Pur/e-file 232460 /2026-27 Pur/e-file 232460 /2026-27 21-Sep-2026 10:00 AM 21-Sep-2026 03:00 PM 3. Procurement of cotton rope GEM/2026/B/8013897 15-Oct-2026 03:00 PM 16-Oct-2026 03:30 PM 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND 91-84/PnW/W/1545 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 F.NO. 12/1/2026-2027/IFFI-2026 06-Oct-2026 12:00 PM 07-Oct-2026 12:00 PM 6. Supply of Muffle Furnace GEM/2026/B/8027439 03-Oct-2026 12:00 PM 04-Oct-2026 12:00 PM 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP GEM/2026/B/8034238 05-Oct-2026 10:00 AM 06-Oct-2026 10:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 18-Sep-2026 12:30 PM 18-Sep-2026 06:00 PM 9. Supply of Riffle splitters at IRERC GEM/2026/B/8020748 23-Sep-2026 01:00 PM 24-Sep-2026 01:00 PM 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves GEM/2026/B/8021601 24-Sep-2026 02:00 PM 25-Sep-2026 02:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS NMDC/DONIMALAI/8/ET/283 25-Sep-2026 11:00 AM 25-Sep-2026 11:30 AM 2. Pur/e-file 232460 /2026-27 Pur/e-file 232460 /2026-27 21-Sep-2026 10:00 AM 21-Sep-2026 03:00 PM 3. Procurement of cotton rope GEM/2026/B/8013897 15-Oct-2026 03:00 PM 16-Oct-2026 03:30 PM 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND 91-84/PnW/W/1545 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 F.NO. 12/1/2026-2027/IFFI-2026 06-Oct-2026 12:00 PM 07-Oct-2026 12:00 PM 6. Supply of Muffle Furnace GEM/2026/B/8027439 03-Oct-2026 12:00 PM 04-Oct-2026 12:00 PM 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP GEM/2026/B/8034238 05-Oct-2026 10:00 AM 06-Oct-2026 10:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 18-Sep-2026 12:30 PM 18-Sep-2026 06:00 PM 9. Supply of Riffle splitters at IRERC GEM/2026/B/8020748 23-Sep-2026 01:00 PM 24-Sep-2026 01:00 PM 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves GEM/2026/B/8021601 24-Sep-2026 02:00 PM 25-Sep-2026 02:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS NMDC/DONIMALAI/8/ET/283 25-Sep-2026 11:00 AM 25-Sep-2026 11:30 AM 2. Pur/e-file 232460 /2026-27 Pur/e-file 232460 /2026-27 21-Sep-2026 10:00 AM 21-Sep-2026 03:00 PM 3. Procurement of cotton rope GEM/2026/B/8013897 15-Oct-2026 03:00 PM 16-Oct-2026 03:30 PM 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND 91-84/PnW/W/1545 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 F.NO. 12/1/2026-2027/IFFI-2026 06-Oct-2026 12:00 PM 07-Oct-2026 12:00 PM 6. Supply of Muffle Furnace GEM/2026/B/8027439 03-Oct-2026 12:00 PM 04-Oct-2026 12:00 PM 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP GEM/2026/B/8034238 05-Oct-2026 10:00 AM 06-Oct-2026 10:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 18-Sep-2026 12:30 PM 18-Sep-2026 06:00 PM 9. Supply of Riffle splitters at IRERC GEM/2026/B/8020748 23-Sep-2026 01:00 PM 24-Sep-2026 01:00 PM 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves GEM/2026/B/8021601 24-Sep-2026 02:00 PM 25-Sep-2026 02:00 PM | 1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS | NMDC/DONIMALAI/8/ET/283 | 25-Sep-2026 11:00 AM | 25-Sep-2026 11:30 AM | 2. Pur/e-file 232460 /2026-27 | Pur/e-file 232460 /2026-27 | 21-Sep-2026 10:00 AM | 21-Sep-2026 03:00 PM | 3. Procurement of cotton rope | GEM/2026/B/8013897 | 15-Oct-2026 03:00 PM | 16-Oct-2026 03:30 PM | 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND | 91-84/PnW/W/1545 | 01-Oct-2026 02:00 PM | 01-Oct-2026 05:00 PM | 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 | F.NO. 12/1/2026-2027/IFFI-2026 | 06-Oct-2026 12:00 PM | 07-Oct-2026 12:00 PM | 6. Supply of Muffle Furnace | GEM/2026/B/8027439 | 03-Oct-2026 12:00 PM | 04-Oct-2026 12:00 PM | 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP | GEM/2026/B/8034238 | 05-Oct-2026 10:00 AM | 06-Oct-2026 10:00 AM | 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES | BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 | 18-Sep-2026 12:30 PM | 18-Sep-2026 06:00 PM | 9. Supply of Riffle splitters at IRERC | GEM/2026/B/8020748 | 23-Sep-2026 01:00 PM | 24-Sep-2026 01:00 PM | 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves | GEM/2026/B/8021601 | 24-Sep-2026 02:00 PM | 25-Sep-2026 02:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Extension of Tender for External painting at Embassy residence, Mexico City MEX/Adm/551/1/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 2. Extension of Tender for Internal painting at Embassy residence, Mexico City MEX/Adm/551/2/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 3. TCN-01 DT.15/09/2026 PSER-PUR-BRH-S674-26 21-Sep-2026 02:00 PM 21-Sep-2026 04:30 PM 4. ADDNDUM OOT/Circle/133/Drydock/2023 29-Sep-2026 04:00 PM 29-Sep-2026 04:05 PM 5. Corrigendum - 1 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 6. Corrigendum - 1 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 7. 2026_MPPGC_850033_1/C2 91-84/PnW/W/1452 21-Sep-2026 02:00 PM 21-Sep-2026 05:00 PM 8. 2026_MPPGC_848380_4/C6 91-84/PnW/W/1326 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 9. 2026_MPPGC_847729_1/C2 91-84/PnW/P/1247 05-Oct-2026 02:00 PM 05-Oct-2026 06:00 PM 10. 2026_MPPGC_849782_1/C2 91-84/PnW/P/1415 30-Sep-2026 02:00 PM 30-Sep-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Extension of Tender for External painting at Embassy residence, Mexico City MEX/Adm/551/1/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 2. Extension of Tender for Internal painting at Embassy residence, Mexico City MEX/Adm/551/2/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 3. TCN-01 DT.15/09/2026 PSER-PUR-BRH-S674-26 21-Sep-2026 02:00 PM 21-Sep-2026 04:30 PM 4. ADDNDUM OOT/Circle/133/Drydock/2023 29-Sep-2026 04:00 PM 29-Sep-2026 04:05 PM 5. Corrigendum - 1 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 6. Corrigendum - 1 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 7. 2026_MPPGC_850033_1/C2 91-84/PnW/W/1452 21-Sep-2026 02:00 PM 21-Sep-2026 05:00 PM 8. 2026_MPPGC_848380_4/C6 91-84/PnW/W/1326 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 9. 2026_MPPGC_847729_1/C2 91-84/PnW/P/1247 05-Oct-2026 02:00 PM 05-Oct-2026 06:00 PM 10. 2026_MPPGC_849782_1/C2 91-84/PnW/P/1415 30-Sep-2026 02:00 PM 30-Sep-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Extension of Tender for External painting at Embassy residence, Mexico City MEX/Adm/551/1/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 2. Extension of Tender for Internal painting at Embassy residence, Mexico City MEX/Adm/551/2/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 3. TCN-01 DT.15/09/2026 PSER-PUR-BRH-S674-26 21-Sep-2026 02:00 PM 21-Sep-2026 04:30 PM 4. ADDNDUM OOT/Circle/133/Drydock/2023 29-Sep-2026 04:00 PM 29-Sep-2026 04:05 PM 5. Corrigendum - 1 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 6. Corrigendum - 1 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 7. 2026_MPPGC_850033_1/C2 91-84/PnW/W/1452 21-Sep-2026 02:00 PM 21-Sep-2026 05:00 PM 8. 2026_MPPGC_848380_4/C6 91-84/PnW/W/1326 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 9. 2026_MPPGC_847729_1/C2 91-84/PnW/P/1247 05-Oct-2026 02:00 PM 05-Oct-2026 06:00 PM 10. 2026_MPPGC_849782_1/C2 91-84/PnW/P/1415 30-Sep-2026 02:00 PM 30-Sep-2026 06:00 PM | 1. Extension of Tender for External painting at Embassy residence, Mexico City | MEX/Adm/551/1/2026 | 22-Sep-2026 02:00 PM | 22-Sep-2026 03:30 PM | 2. Extension of Tender for Internal painting at Embassy residence, Mexico City | MEX/Adm/551/2/2026 | 22-Sep-2026 02:00 PM | 22-Sep-2026 03:30 PM | 3. TCN-01 DT.15/09/2026 | PSER-PUR-BRH-S674-26 | 21-Sep-2026 02:00 PM | 21-Sep-2026 04:30 PM | 4. ADDNDUM | OOT/Circle/133/Drydock/2023 | 29-Sep-2026 04:00 PM | 29-Sep-2026 04:05 PM | 5. Corrigendum - 1 | PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 | 22-Sep-2026 06:55 PM | 23-Sep-2026 06:55 PM | 6. Corrigendum - 1 | PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 | 22-Sep-2026 06:55 PM | 23-Sep-2026 06:55 PM | 7. 2026_MPPGC_850033_1/C2 | 91-84/PnW/W/1452 | 21-Sep-2026 02:00 PM | 21-Sep-2026 05:00 PM | 8. 2026_MPPGC_848380_4/C6 | 91-84/PnW/W/1326 | 05-Oct-2026 02:00 PM | 05-Oct-2026 05:00 PM | 9. 2026_MPPGC_847729_1/C2 | 91-84/PnW/P/1247 | 05-Oct-2026 02:00 PM | 05-Oct-2026 06:00 PM | 10. 2026_MPPGC_849782_1/C2 | 91-84/PnW/P/1415 | 30-Sep-2026 02:00 PM | 30-Sep-2026 06:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) 2026/EOI/Pest Control/October 01-Oct-2026 12:00 PM 01-Oct-2026 12:15 PM 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM GEM/2026/B/8030222 22-Sep-2026 02:00 PM 23-Sep-2026 02:00 PM 3. EOI Base Vehicle RM/EOI/323/26-27 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years GEM/2026/B/8041139 26-Sep-2026 12:00 PM 27-Sep-2026 12:00 PM 5. Procurement of Pulsed Phased Array Tracking Radar PXE/IMMD/0007/EOI-RNS/2026-27 08-Oct-2026 01:00 PM 08-Oct-2026 02:00 PM 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years Proc.Indgn.(HPD)/2026/407 08-Oct-2026 12:30 PM 08-Oct-2026 03:00 PM 7. OS/GTVS/ M-18-217/20TON CRANE 9000054585 18-Sep-2026 03:00 PM 18-Sep-2026 04:00 PM 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 BHEL PSSR ENR SEZ 2026 27 SCT 272 23-Sep-2026 11:00 AM 23-Sep-2026 05:00 PM 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) CCI/SGNR/ADMIN/SCRAP/2026-27 06-Oct-2026 02:00 PM 06-Oct-2026 03:00 PM 10. Easy eight sep magnet Pur/PP 2968/e-file 291876/26-27 /JE Lab 21-Sep-2026 11:00 AM 21-Sep-2026 12:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum_1 JNP/TRAFFIC/GMT/HMV/2026/EOI 24-Sep-2026 03:00 PM 24-Sep-2026 03:00 PM 2. Addendum-1 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 30-Sep-2026 02:00 PM 30-Sep-2026 03:00 PM 3. Date extended HIL/SD/2026-27/48 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 4. Date extended HIL/SD/2026-27/52 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 5. Date extended HIL/SD/2026-27/50 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 6. Date extended HIL/SD/2026-27/49 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 7. Pre-Bid meeting link Edcil/Admin./Empanelment-Advt. Agencies/2026 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 8. Date extended Further HIL/SD/2026-27/43 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 9. 1st Extension of Due date SCI/KOL/P and R/2026 22-Sep-2026 05:00 PM 24-Sep-2026 05:00 PM 10. Corrigendum-1 SCI/L and PS/S195/BRNG 18-Sep-2026 03:00 PM 18-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) 2026/EOI/Pest Control/October 01-Oct-2026 12:00 PM 01-Oct-2026 12:15 PM 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM GEM/2026/B/8030222 22-Sep-2026 02:00 PM 23-Sep-2026 02:00 PM 3. EOI Base Vehicle RM/EOI/323/26-27 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years GEM/2026/B/8041139 26-Sep-2026 12:00 PM 27-Sep-2026 12:00 PM 5. Procurement of Pulsed Phased Array Tracking Radar PXE/IMMD/0007/EOI-RNS/2026-27 08-Oct-2026 01:00 PM 08-Oct-2026 02:00 PM 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years Proc.Indgn.(HPD)/2026/407 08-Oct-2026 12:30 PM 08-Oct-2026 03:00 PM 7. OS/GTVS/ M-18-217/20TON CRANE 9000054585 18-Sep-2026 03:00 PM 18-Sep-2026 04:00 PM 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 BHEL PSSR ENR SEZ 2026 27 SCT 272 23-Sep-2026 11:00 AM 23-Sep-2026 05:00 PM 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) CCI/SGNR/ADMIN/SCRAP/2026-27 06-Oct-2026 02:00 PM 06-Oct-2026 03:00 PM 10. Easy eight sep magnet Pur/PP 2968/e-file 291876/26-27 /JE Lab 21-Sep-2026 11:00 AM 21-Sep-2026 12:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum_1 JNP/TRAFFIC/GMT/HMV/2026/EOI 24-Sep-2026 03:00 PM 24-Sep-2026 03:00 PM 2. Addendum-1 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 30-Sep-2026 02:00 PM 30-Sep-2026 03:00 PM 3. Date extended HIL/SD/2026-27/48 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 4. Date extended HIL/SD/2026-27/52 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 5. Date extended HIL/SD/2026-27/50 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 6. Date extended HIL/SD/2026-27/49 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 7. Pre-Bid meeting link Edcil/Admin./Empanelment-Advt. Agencies/2026 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 8. Date extended Further HIL/SD/2026-27/43 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 9. 1st Extension of Due date SCI/KOL/P and R/2026 22-Sep-2026 05:00 PM 24-Sep-2026 05:00 PM 10. Corrigendum-1 SCI/L and PS/S195/BRNG 18-Sep-2026 03:00 PM 18-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) 2026/EOI/Pest Control/October 01-Oct-2026 12:00 PM 01-Oct-2026 12:15 PM 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM GEM/2026/B/8030222 22-Sep-2026 02:00 PM 23-Sep-2026 02:00 PM 3. EOI Base Vehicle RM/EOI/323/26-27 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years GEM/2026/B/8041139 26-Sep-2026 12:00 PM 27-Sep-2026 12:00 PM 5. Procurement of Pulsed Phased Array Tracking Radar PXE/IMMD/0007/EOI-RNS/2026-27 08-Oct-2026 01:00 PM 08-Oct-2026 02:00 PM 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years Proc.Indgn.(HPD)/2026/407 08-Oct-2026 12:30 PM 08-Oct-2026 03:00 PM 7. OS/GTVS/ M-18-217/20TON CRANE 9000054585 18-Sep-2026 03:00 PM 18-Sep-2026 04:00 PM 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 BHEL PSSR ENR SEZ 2026 27 SCT 272 23-Sep-2026 11:00 AM 23-Sep-2026 05:00 PM 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) CCI/SGNR/ADMIN/SCRAP/2026-27 06-Oct-2026 02:00 PM 06-Oct-2026 03:00 PM 10. Easy eight sep magnet Pur/PP 2968/e-file 291876/26-27 /JE Lab 21-Sep-2026 11:00 AM 21-Sep-2026 12:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) 2026/EOI/Pest Control/October 01-Oct-2026 12:00 PM 01-Oct-2026 12:15 PM 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM GEM/2026/B/8030222 22-Sep-2026 02:00 PM 23-Sep-2026 02:00 PM 3. EOI Base Vehicle RM/EOI/323/26-27 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years GEM/2026/B/8041139 26-Sep-2026 12:00 PM 27-Sep-2026 12:00 PM 5. Procurement of Pulsed Phased Array Tracking Radar PXE/IMMD/0007/EOI-RNS/2026-27 08-Oct-2026 01:00 PM 08-Oct-2026 02:00 PM 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years Proc.Indgn.(HPD)/2026/407 08-Oct-2026 12:30 PM 08-Oct-2026 03:00 PM 7. OS/GTVS/ M-18-217/20TON CRANE 9000054585 18-Sep-2026 03:00 PM 18-Sep-2026 04:00 PM 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 BHEL PSSR ENR SEZ 2026 27 SCT 272 23-Sep-2026 11:00 AM 23-Sep-2026 05:00 PM 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) CCI/SGNR/ADMIN/SCRAP/2026-27 06-Oct-2026 02:00 PM 06-Oct-2026 03:00 PM 10. Easy eight sep magnet Pur/PP 2968/e-file 291876/26-27 /JE Lab 21-Sep-2026 11:00 AM 21-Sep-2026 12:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) 2026/EOI/Pest Control/October 01-Oct-2026 12:00 PM 01-Oct-2026 12:15 PM 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM GEM/2026/B/8030222 22-Sep-2026 02:00 PM 23-Sep-2026 02:00 PM 3. EOI Base Vehicle RM/EOI/323/26-27 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years GEM/2026/B/8041139 26-Sep-2026 12:00 PM 27-Sep-2026 12:00 PM 5. Procurement of Pulsed Phased Array Tracking Radar PXE/IMMD/0007/EOI-RNS/2026-27 08-Oct-2026 01:00 PM 08-Oct-2026 02:00 PM 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years Proc.Indgn.(HPD)/2026/407 08-Oct-2026 12:30 PM 08-Oct-2026 03:00 PM 7. OS/GTVS/ M-18-217/20TON CRANE 9000054585 18-Sep-2026 03:00 PM 18-Sep-2026 04:00 PM 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 BHEL PSSR ENR SEZ 2026 27 SCT 272 23-Sep-2026 11:00 AM 23-Sep-2026 05:00 PM 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) CCI/SGNR/ADMIN/SCRAP/2026-27 06-Oct-2026 02:00 PM 06-Oct-2026 03:00 PM 10. Easy eight sep magnet Pur/PP 2968/e-file 291876/26-27 /JE Lab 21-Sep-2026 11:00 AM 21-Sep-2026 12:00 PM | 1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) | 2026/EOI/Pest Control/October | 01-Oct-2026 12:00 PM | 01-Oct-2026 12:15 PM | 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM | GEM/2026/B/8030222 | 22-Sep-2026 02:00 PM | 23-Sep-2026 02:00 PM | 3. EOI Base Vehicle | RM/EOI/323/26-27 | 15-Oct-2026 11:00 AM | 15-Oct-2026 11:30 AM | 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years | GEM/2026/B/8041139 | 26-Sep-2026 12:00 PM | 27-Sep-2026 12:00 PM | 5. Procurement of Pulsed Phased Array Tracking Radar | PXE/IMMD/0007/EOI-RNS/2026-27 | 08-Oct-2026 01:00 PM | 08-Oct-2026 02:00 PM | 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years | Proc.Indgn.(HPD)/2026/407 | 08-Oct-2026 12:30 PM | 08-Oct-2026 03:00 PM | 7. OS/GTVS/ M-18-217/20TON CRANE | 9000054585 | 18-Sep-2026 03:00 PM | 18-Sep-2026 04:00 PM | 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 | BHEL PSSR ENR SEZ 2026 27 SCT 272 | 23-Sep-2026 11:00 AM | 23-Sep-2026 05:00 PM | 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) | CCI/SGNR/ADMIN/SCRAP/2026-27 | 06-Oct-2026 02:00 PM | 06-Oct-2026 03:00 PM | 10. Easy eight sep magnet | Pur/PP 2968/e-file 291876/26-27 /JE Lab | 21-Sep-2026 11:00 AM | 21-Sep-2026 12:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum_1 JNP/TRAFFIC/GMT/HMV/2026/EOI 24-Sep-2026 03:00 PM 24-Sep-2026 03:00 PM 2. Addendum-1 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 30-Sep-2026 02:00 PM 30-Sep-2026 03:00 PM 3. Date extended HIL/SD/2026-27/48 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 4. Date extended HIL/SD/2026-27/52 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 5. Date extended HIL/SD/2026-27/50 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 6. Date extended HIL/SD/2026-27/49 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 7. Pre-Bid meeting link Edcil/Admin./Empanelment-Advt. Agencies/2026 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 8. Date extended Further HIL/SD/2026-27/43 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 9. 1st Extension of Due date SCI/KOL/P and R/2026 22-Sep-2026 05:00 PM 24-Sep-2026 05:00 PM 10. Corrigendum-1 SCI/L and PS/S195/BRNG 18-Sep-2026 03:00 PM 18-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum_1 JNP/TRAFFIC/GMT/HMV/2026/EOI 24-Sep-2026 03:00 PM 24-Sep-2026 03:00 PM 2. Addendum-1 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 30-Sep-2026 02:00 PM 30-Sep-2026 03:00 PM 3. Date extended HIL/SD/2026-27/48 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 4. Date extended HIL/SD/2026-27/52 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 5. Date extended HIL/SD/2026-27/50 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 6. Date extended HIL/SD/2026-27/49 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 7. Pre-Bid meeting link Edcil/Admin./Empanelment-Advt. Agencies/2026 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 8. Date extended Further HIL/SD/2026-27/43 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 9. 1st Extension of Due date SCI/KOL/P and R/2026 22-Sep-2026 05:00 PM 24-Sep-2026 05:00 PM 10. Corrigendum-1 SCI/L and PS/S195/BRNG 18-Sep-2026 03:00 PM 18-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corrigendum_1 JNP/TRAFFIC/GMT/HMV/2026/EOI 24-Sep-2026 03:00 PM 24-Sep-2026 03:00 PM 2. Addendum-1 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 30-Sep-2026 02:00 PM 30-Sep-2026 03:00 PM 3. Date extended HIL/SD/2026-27/48 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 4. Date extended HIL/SD/2026-27/52 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 5. Date extended HIL/SD/2026-27/50 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 6. Date extended HIL/SD/2026-27/49 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 7. Pre-Bid meeting link Edcil/Admin./Empanelment-Advt. Agencies/2026 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 8. Date extended Further HIL/SD/2026-27/43 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 9. 1st Extension of Due date SCI/KOL/P and R/2026 22-Sep-2026 05:00 PM 24-Sep-2026 05:00 PM 10. Corrigendum-1 SCI/L and PS/S195/BRNG 18-Sep-2026 03:00 PM 18-Sep-2026 05:00 PM | 1. Corrigendum_1 | JNP/TRAFFIC/GMT/HMV/2026/EOI | 24-Sep-2026 03:00 PM | 24-Sep-2026 03:00 PM | 2. Addendum-1 | SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 | 30-Sep-2026 02:00 PM | 30-Sep-2026 03:00 PM | 3. Date extended | HIL/SD/2026-27/48 | 16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM | 4. Date extended | HIL/SD/2026-27/52 | 16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM | 5. Date extended | HIL/SD/2026-27/50 | 16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM | 6. Date extended | HIL/SD/2026-27/49 | 16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM | 7. Pre-Bid meeting link | Edcil/Admin./Empanelment-Advt. Agencies/2026 | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:30 PM | 8. Date extended Further | HIL/SD/2026-27/43 | 16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM | 9. 1st Extension of Due date | SCI/KOL/P and R/2026 | 22-Sep-2026 05:00 PM | 24-Sep-2026 05:00 PM | 10. Corrigendum-1 | SCI/L and PS/S195/BRNG | 18-Sep-2026 03:00 PM | 18-Sep-2026 05:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,112 +520,112 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS NMDC/DONIMALAI/8/ET/283 25-Sep-2026 11:00 AM 25-Sep-2026 11:30 AM 2. Pur/e-file 232460 /2026-27 Pur/e-file 232460 /2026-27 21-Sep-2026 10:00 AM 21-Sep-2026 03:00 PM 3. Procurement of cotton rope GEM/2026/B/8013897 15-Oct-2026 03:00 PM 16-Oct-2026 03:30 PM 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND 91-84/PnW/W/1545 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 F.NO. 12/1/2026-2027/IFFI-2026 06-Oct-2026 12:00 PM 07-Oct-2026 12:00 PM 6. Supply of Muffle Furnace GEM/2026/B/8027439 03-Oct-2026 12:00 PM 04-Oct-2026 12:00 PM 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP GEM/2026/B/8034238 05-Oct-2026 10:00 AM 06-Oct-2026 10:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 18-Sep-2026 12:30 PM 18-Sep-2026 06:00 PM 9. Supply of Riffle splitters at IRERC GEM/2026/B/8020748 23-Sep-2026 01:00 PM 24-Sep-2026 01:00 PM 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves GEM/2026/B/8021601 24-Sep-2026 02:00 PM 25-Sep-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Extension of Tender for External painting at Embassy residence, Mexico City MEX/Adm/551/1/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 2. Extension of Tender for Internal painting at Embassy residence, Mexico City MEX/Adm/551/2/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 3. TCN-01 DT.15/09/2026 PSER-PUR-BRH-S674-26 21-Sep-2026 02:00 PM 21-Sep-2026 04:30 PM 4. ADDNDUM OOT/Circle/133/Drydock/2023 29-Sep-2026 04:00 PM 29-Sep-2026 04:05 PM 5. Corrigendum - 1 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 6. Corrigendum - 1 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 7. 2026_MPPGC_850033_1/C2 91-84/PnW/W/1452 21-Sep-2026 02:00 PM 21-Sep-2026 05:00 PM 8. 2026_MPPGC_848380_4/C6 91-84/PnW/W/1326 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 9. 2026_MPPGC_847729_1/C2 91-84/PnW/P/1247 05-Oct-2026 02:00 PM 05-Oct-2026 06:00 PM 10. 2026_MPPGC_849782_1/C2 91-84/PnW/P/1415 30-Sep-2026 02:00 PM 30-Sep-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) 2026/EOI/Pest Control/October 01-Oct-2026 12:00 PM 01-Oct-2026 12:15 PM 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM GEM/2026/B/8030222 22-Sep-2026 02:00 PM 23-Sep-2026 02:00 PM 3. EOI Base Vehicle RM/EOI/323/26-27 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years GEM/2026/B/8041139 26-Sep-2026 12:00 PM 27-Sep-2026 12:00 PM 5. Procurement of Pulsed Phased Array Tracking Radar PXE/IMMD/0007/EOI-RNS/2026-27 08-Oct-2026 01:00 PM 08-Oct-2026 02:00 PM 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years Proc.Indgn.(HPD)/2026/407 08-Oct-2026 12:30 PM 08-Oct-2026 03:00 PM 7. OS/GTVS/ M-18-217/20TON CRANE 9000054585 18-Sep-2026 03:00 PM 18-Sep-2026 04:00 PM 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 BHEL PSSR ENR SEZ 2026 27 SCT 272 23-Sep-2026 11:00 AM 23-Sep-2026 05:00 PM 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) CCI/SGNR/ADMIN/SCRAP/2026-27 06-Oct-2026 02:00 PM 06-Oct-2026 03:00 PM 10. Easy eight sep magnet Pur/PP 2968/e-file 291876/26-27 /JE Lab 21-Sep-2026 11:00 AM 21-Sep-2026 12:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum_1 JNP/TRAFFIC/GMT/HMV/2026/EOI 24-Sep-2026 03:00 PM 24-Sep-2026 03:00 PM 2. Addendum-1 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 30-Sep-2026 02:00 PM 30-Sep-2026 03:00 PM 3. Date extended HIL/SD/2026-27/48 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 4. Date extended HIL/SD/2026-27/52 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 5. Date extended HIL/SD/2026-27/50 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 6. Date extended HIL/SD/2026-27/49 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 7. Pre-Bid meeting link Edcil/Admin./Empanelment-Advt. Agencies/2026 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 8. Date extended Further HIL/SD/2026-27/43 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 9. 1st Extension of Due date SCI/KOL/P and R/2026 22-Sep-2026 05:00 PM 24-Sep-2026 05:00 PM 10. Corrigendum-1 SCI/L and PS/S195/BRNG 18-Sep-2026 03:00 PM 18-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS NMDC/DONIMALAI/8/ET/283 25-Sep-2026 11:00 AM 25-Sep-2026 11:30 AM 2. Pur/e-file 232460 /2026-27 Pur/e-file 232460 /2026-27 21-Sep-2026 10:00 AM 21-Sep-2026 03:00 PM 3. Procurement of cotton rope GEM/2026/B/8013897 15-Oct-2026 03:00 PM 16-Oct-2026 03:30 PM 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND 91-84/PnW/W/1545 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 F.NO. 12/1/2026-2027/IFFI-2026 06-Oct-2026 12:00 PM 07-Oct-2026 12:00 PM 6. Supply of Muffle Furnace GEM/2026/B/8027439 03-Oct-2026 12:00 PM 04-Oct-2026 12:00 PM 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP GEM/2026/B/8034238 05-Oct-2026 10:00 AM 06-Oct-2026 10:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 18-Sep-2026 12:30 PM 18-Sep-2026 06:00 PM 9. Supply of Riffle splitters at IRERC GEM/2026/B/8020748 23-Sep-2026 01:00 PM 24-Sep-2026 01:00 PM 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves GEM/2026/B/8021601 24-Sep-2026 02:00 PM 25-Sep-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Extension of Tender for External painting at Embassy residence, Mexico City MEX/Adm/551/1/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 2. Extension of Tender for Internal painting at Embassy residence, Mexico City MEX/Adm/551/2/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 3. TCN-01 DT.15/09/2026 PSER-PUR-BRH-S674-26 21-Sep-2026 02:00 PM 21-Sep-2026 04:30 PM 4. ADDNDUM OOT/Circle/133/Drydock/2023 29-Sep-2026 04:00 PM 29-Sep-2026 04:05 PM 5. Corrigendum - 1 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 6. Corrigendum - 1 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 7. 2026_MPPGC_850033_1/C2 91-84/PnW/W/1452 21-Sep-2026 02:00 PM 21-Sep-2026 05:00 PM 8. 2026_MPPGC_848380_4/C6 91-84/PnW/W/1326 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 9. 2026_MPPGC_847729_1/C2 91-84/PnW/P/1247 05-Oct-2026 02:00 PM 05-Oct-2026 06:00 PM 10. 2026_MPPGC_849782_1/C2 91-84/PnW/P/1415 30-Sep-2026 02:00 PM 30-Sep-2026 06:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) 2026/EOI/Pest Control/October 01-Oct-2026 12:00 PM 01-Oct-2026 12:15 PM 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM GEM/2026/B/8030222 22-Sep-2026 02:00 PM 23-Sep-2026 02:00 PM 3. EOI Base Vehicle RM/EOI/323/26-27 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years GEM/2026/B/8041139 26-Sep-2026 12:00 PM 27-Sep-2026 12:00 PM 5. Procurement of Pulsed Phased Array Tracking Radar PXE/IMMD/0007/EOI-RNS/2026-27 08-Oct-2026 01:00 PM 08-Oct-2026 02:00 PM 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years Proc.Indgn.(HPD)/2026/407 08-Oct-2026 12:30 PM 08-Oct-2026 03:00 PM 7. OS/GTVS/ M-18-217/20TON CRANE 9000054585 18-Sep-2026 03:00 PM 18-Sep-2026 04:00 PM 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 BHEL PSSR ENR SEZ 2026 27 SCT 272 23-Sep-2026 11:00 AM 23-Sep-2026 05:00 PM 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) CCI/SGNR/ADMIN/SCRAP/2026-27 06-Oct-2026 02:00 PM 06-Oct-2026 03:00 PM 10. Easy eight sep magnet Pur/PP 2968/e-file 291876/26-27 /JE Lab 21-Sep-2026 11:00 AM 21-Sep-2026 12:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum_1 JNP/TRAFFIC/GMT/HMV/2026/EOI 24-Sep-2026 03:00 PM 24-Sep-2026 03:00 PM 2. Addendum-1 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 30-Sep-2026 02:00 PM 30-Sep-2026 03:00 PM 3. Date extended HIL/SD/2026-27/48 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 4. Date extended HIL/SD/2026-27/52 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 5. Date extended HIL/SD/2026-27/50 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 6. Date extended HIL/SD/2026-27/49 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 7. Pre-Bid meeting link Edcil/Admin./Empanelment-Advt. Agencies/2026 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 8. Date extended Further HIL/SD/2026-27/43 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 9. 1st Extension of Due date SCI/KOL/P and R/2026 22-Sep-2026 05:00 PM 24-Sep-2026 05:00 PM 10. Corrigendum-1 SCI/L and PS/S195/BRNG 18-Sep-2026 03:00 PM 18-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS NMDC/DONIMALAI/8/ET/283 25-Sep-2026 11:00 AM 25-Sep-2026 11:30 AM 2. Pur/e-file 232460 /2026-27 Pur/e-file 232460 /2026-27 21-Sep-2026 10:00 AM 21-Sep-2026 03:00 PM 3. Procurement of cotton rope GEM/2026/B/8013897 15-Oct-2026 03:00 PM 16-Oct-2026 03:30 PM 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND 91-84/PnW/W/1545 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 F.NO. 12/1/2026-2027/IFFI-2026 06-Oct-2026 12:00 PM 07-Oct-2026 12:00 PM 6. Supply of Muffle Furnace GEM/2026/B/8027439 03-Oct-2026 12:00 PM 04-Oct-2026 12:00 PM 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP GEM/2026/B/8034238 05-Oct-2026 10:00 AM 06-Oct-2026 10:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 18-Sep-2026 12:30 PM 18-Sep-2026 06:00 PM 9. Supply of Riffle splitters at IRERC GEM/2026/B/8020748 23-Sep-2026 01:00 PM 24-Sep-2026 01:00 PM 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves GEM/2026/B/8021601 24-Sep-2026 02:00 PM 25-Sep-2026 02:00 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS NMDC/DONIMALAI/8/ET/283 25-Sep-2026 11:00 AM 25-Sep-2026 11:30 AM 2. Pur/e-file 232460 /2026-27 Pur/e-file 232460 /2026-27 21-Sep-2026 10:00 AM 21-Sep-2026 03:00 PM 3. Procurement of cotton rope GEM/2026/B/8013897 15-Oct-2026 03:00 PM 16-Oct-2026 03:30 PM 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND 91-84/PnW/W/1545 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 F.NO. 12/1/2026-2027/IFFI-2026 06-Oct-2026 12:00 PM 07-Oct-2026 12:00 PM 6. Supply of Muffle Furnace GEM/2026/B/8027439 03-Oct-2026 12:00 PM 04-Oct-2026 12:00 PM 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP GEM/2026/B/8034238 05-Oct-2026 10:00 AM 06-Oct-2026 10:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 18-Sep-2026 12:30 PM 18-Sep-2026 06:00 PM 9. Supply of Riffle splitters at IRERC GEM/2026/B/8020748 23-Sep-2026 01:00 PM 24-Sep-2026 01:00 PM 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves GEM/2026/B/8021601 24-Sep-2026 02:00 PM 25-Sep-2026 02:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) 2026/EOI/Pest Control/October 01-Oct-2026 12:00 PM 01-Oct-2026 12:15 PM 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM GEM/2026/B/8030222 22-Sep-2026 02:00 PM 23-Sep-2026 02:00 PM 3. EOI Base Vehicle RM/EOI/323/26-27 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years GEM/2026/B/8041139 26-Sep-2026 12:00 PM 27-Sep-2026 12:00 PM 5. Procurement of Pulsed Phased Array Tracking Radar PXE/IMMD/0007/EOI-RNS/2026-27 08-Oct-2026 01:00 PM 08-Oct-2026 02:00 PM 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years Proc.Indgn.(HPD)/2026/407 08-Oct-2026 12:30 PM 08-Oct-2026 03:00 PM 7. OS/GTVS/ M-18-217/20TON CRANE 9000054585 18-Sep-2026 03:00 PM 18-Sep-2026 04:00 PM 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 BHEL PSSR ENR SEZ 2026 27 SCT 272 23-Sep-2026 11:00 AM 23-Sep-2026 05:00 PM 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) CCI/SGNR/ADMIN/SCRAP/2026-27 06-Oct-2026 02:00 PM 06-Oct-2026 03:00 PM 10. Easy eight sep magnet Pur/PP 2968/e-file 291876/26-27 /JE Lab 21-Sep-2026 11:00 AM 21-Sep-2026 12:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) 2026/EOI/Pest Control/October 01-Oct-2026 12:00 PM 01-Oct-2026 12:15 PM 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM GEM/2026/B/8030222 22-Sep-2026 02:00 PM 23-Sep-2026 02:00 PM 3. EOI Base Vehicle RM/EOI/323/26-27 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years GEM/2026/B/8041139 26-Sep-2026 12:00 PM 27-Sep-2026 12:00 PM 5. Procurement of Pulsed Phased Array Tracking Radar PXE/IMMD/0007/EOI-RNS/2026-27 08-Oct-2026 01:00 PM 08-Oct-2026 02:00 PM 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years Proc.Indgn.(HPD)/2026/407 08-Oct-2026 12:30 PM 08-Oct-2026 03:00 PM 7. OS/GTVS/ M-18-217/20TON CRANE 9000054585 18-Sep-2026 03:00 PM 18-Sep-2026 04:00 PM 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 BHEL PSSR ENR SEZ 2026 27 SCT 272 23-Sep-2026 11:00 AM 23-Sep-2026 05:00 PM 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) CCI/SGNR/ADMIN/SCRAP/2026-27 06-Oct-2026 02:00 PM 06-Oct-2026 03:00 PM 10. Easy eight sep magnet Pur/PP 2968/e-file 291876/26-27 /JE Lab 21-Sep-2026 11:00 AM 21-Sep-2026 12:00 PM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS NMDC/DONIMALAI/8/ET/283 25-Sep-2026 11:00 AM 25-Sep-2026 11:30 AM 2. Pur/e-file 232460 /2026-27 Pur/e-file 232460 /2026-27 21-Sep-2026 10:00 AM 21-Sep-2026 03:00 PM 3. Procurement of cotton rope GEM/2026/B/8013897 15-Oct-2026 03:00 PM 16-Oct-2026 03:30 PM 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND 91-84/PnW/W/1545 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 F.NO. 12/1/2026-2027/IFFI-2026 06-Oct-2026 12:00 PM 07-Oct-2026 12:00 PM 6. Supply of Muffle Furnace GEM/2026/B/8027439 03-Oct-2026 12:00 PM 04-Oct-2026 12:00 PM 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP GEM/2026/B/8034238 05-Oct-2026 10:00 AM 06-Oct-2026 10:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 18-Sep-2026 12:30 PM 18-Sep-2026 06:00 PM 9. Supply of Riffle splitters at IRERC GEM/2026/B/8020748 23-Sep-2026 01:00 PM 24-Sep-2026 01:00 PM 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves GEM/2026/B/8021601 24-Sep-2026 02:00 PM 25-Sep-2026 02:00 PM",
-          "1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS",
-          "NMDC/DONIMALAI/8/ET/283",
-          "25-Sep-2026 11:00 AM",
-          "25-Sep-2026 11:30 AM",
-          "2. Pur/e-file 232460 /2026-27",
-          "Pur/e-file 232460 /2026-27",
-          "21-Sep-2026 10:00 AM",
-          "21-Sep-2026 03:00 PM",
-          "3. Procurement of cotton rope",
-          "GEM/2026/B/8013897",
-          "15-Oct-2026 03:00 PM",
-          "16-Oct-2026 03:30 PM",
-          "4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND",
-          "91-84/PnW/W/1545",
-          "01-Oct-2026 02:00 PM",
-          "01-Oct-2026 05:00 PM",
-          "5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026",
-          "F.NO. 12/1/2026-2027/IFFI-2026",
-          "06-Oct-2026 12:00 PM",
-          "07-Oct-2026 12:00 PM",
-          "6. Supply of Muffle Furnace",
-          "GEM/2026/B/8027439",
-          "03-Oct-2026 12:00 PM",
-          "04-Oct-2026 12:00 PM",
-          "7. Cleaning of spillage sand from floors of MSP/HUP/ZOP",
-          "GEM/2026/B/8034238",
-          "05-Oct-2026 10:00 AM",
-          "06-Oct-2026 10:00 AM",
-          "8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES",
-          "BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133",
-          "18-Sep-2026 12:30 PM",
-          "18-Sep-2026 06:00 PM",
-          "9. Supply of Riffle splitters at IRERC",
-          "GEM/2026/B/8020748",
-          "23-Sep-2026 01:00 PM",
-          "24-Sep-2026 01:00 PM",
-          "10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves",
-          "GEM/2026/B/8021601",
-          "24-Sep-2026 02:00 PM",
-          "25-Sep-2026 02:00 PM",
+          "1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) 2026/EOI/Pest Control/October 01-Oct-2026 12:00 PM 01-Oct-2026 12:15 PM 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM GEM/2026/B/8030222 22-Sep-2026 02:00 PM 23-Sep-2026 02:00 PM 3. EOI Base Vehicle RM/EOI/323/26-27 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years GEM/2026/B/8041139 26-Sep-2026 12:00 PM 27-Sep-2026 12:00 PM 5. Procurement of Pulsed Phased Array Tracking Radar PXE/IMMD/0007/EOI-RNS/2026-27 08-Oct-2026 01:00 PM 08-Oct-2026 02:00 PM 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years Proc.Indgn.(HPD)/2026/407 08-Oct-2026 12:30 PM 08-Oct-2026 03:00 PM 7. OS/GTVS/ M-18-217/20TON CRANE 9000054585 18-Sep-2026 03:00 PM 18-Sep-2026 04:00 PM 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 BHEL PSSR ENR SEZ 2026 27 SCT 272 23-Sep-2026 11:00 AM 23-Sep-2026 05:00 PM 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) CCI/SGNR/ADMIN/SCRAP/2026-27 06-Oct-2026 02:00 PM 06-Oct-2026 03:00 PM 10. Easy eight sep magnet Pur/PP 2968/e-file 291876/26-27 /JE Lab 21-Sep-2026 11:00 AM 21-Sep-2026 12:00 PM",
+          "1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen)",
+          "2026/EOI/Pest Control/October",
+          "01-Oct-2026 12:00 PM",
+          "01-Oct-2026 12:15 PM",
+          "2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM",
+          "GEM/2026/B/8030222",
+          "22-Sep-2026 02:00 PM",
+          "23-Sep-2026 02:00 PM",
+          "3. EOI Base Vehicle",
+          "RM/EOI/323/26-27",
+          "15-Oct-2026 11:00 AM",
+          "15-Oct-2026 11:30 AM",
+          "4. Sampling and Supervision during canalization of minerals from East Coast for 2 years",
+          "GEM/2026/B/8041139",
+          "26-Sep-2026 12:00 PM",
+          "27-Sep-2026 12:00 PM",
+          "5. Procurement of Pulsed Phased Array Tracking Radar",
+          "PXE/IMMD/0007/EOI-RNS/2026-27",
+          "08-Oct-2026 01:00 PM",
+          "08-Oct-2026 02:00 PM",
+          "6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years",
+          "Proc.Indgn.(HPD)/2026/407",
+          "08-Oct-2026 12:30 PM",
+          "08-Oct-2026 03:00 PM",
+          "7. OS/GTVS/ M-18-217/20TON CRANE",
+          "9000054585",
+          "18-Sep-2026 03:00 PM",
+          "18-Sep-2026 04:00 PM",
+          "8. BHEL PSSR ENR SEZ 2026 27 SCT 272",
+          "BHEL PSSR ENR SEZ 2026 27 SCT 272",
+          "23-Sep-2026 11:00 AM",
+          "23-Sep-2026 05:00 PM",
+          "9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE)",
+          "CCI/SGNR/ADMIN/SCRAP/2026-27",
+          "06-Oct-2026 02:00 PM",
+          "06-Oct-2026 03:00 PM",
+          "10. Easy eight sep magnet",
+          "Pur/PP 2968/e-file 291876/26-27 /JE Lab",
+          "21-Sep-2026 11:00 AM",
+          "21-Sep-2026 12:00 PM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
           "",
-          "Corrigendum Title Reference No Closing Date Bid Opening Date 1. Extension of Tender for External painting at Embassy residence, Mexico City MEX/Adm/551/1/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 2. Extension of Tender for Internal painting at Embassy residence, Mexico City MEX/Adm/551/2/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 3. TCN-01 DT.15/09/2026 PSER-PUR-BRH-S674-26 21-Sep-2026 02:00 PM 21-Sep-2026 04:30 PM 4. ADDNDUM OOT/Circle/133/Drydock/2023 29-Sep-2026 04:00 PM 29-Sep-2026 04:05 PM 5. Corrigendum - 1 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 6. Corrigendum - 1 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 7. 2026_MPPGC_850033_1/C2 91-84/PnW/W/1452 21-Sep-2026 02:00 PM 21-Sep-2026 05:00 PM 8. 2026_MPPGC_848380_4/C6 91-84/PnW/W/1326 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 9. 2026_MPPGC_847729_1/C2 91-84/PnW/P/1247 05-Oct-2026 02:00 PM 05-Oct-2026 06:00 PM 10. 2026_MPPGC_849782_1/C2 91-84/PnW/P/1415 30-Sep-2026 02:00 PM 30-Sep-2026 06:00 PM Latest Corrigendum updates every 15 mins. More...",
-          "Corrigendum Title Reference No Closing Date Bid Opening Date 1. Extension of Tender for External painting at Embassy residence, Mexico City MEX/Adm/551/1/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 2. Extension of Tender for Internal painting at Embassy residence, Mexico City MEX/Adm/551/2/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 3. TCN-01 DT.15/09/2026 PSER-PUR-BRH-S674-26 21-Sep-2026 02:00 PM 21-Sep-2026 04:30 PM 4. ADDNDUM OOT/Circle/133/Drydock/2023 29-Sep-2026 04:00 PM 29-Sep-2026 04:05 PM 5. Corrigendum - 1 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 6. Corrigendum - 1 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 7. 2026_MPPGC_850033_1/C2 91-84/PnW/W/1452 21-Sep-2026 02:00 PM 21-Sep-2026 05:00 PM 8. 2026_MPPGC_848380_4/C6 91-84/PnW/W/1326 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 9. 2026_MPPGC_847729_1/C2 91-84/PnW/P/1247 05-Oct-2026 02:00 PM 05-Oct-2026 06:00 PM 10. 2026_MPPGC_849782_1/C2 91-84/PnW/P/1415 30-Sep-2026 02:00 PM 30-Sep-2026 06:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum_1 JNP/TRAFFIC/GMT/HMV/2026/EOI 24-Sep-2026 03:00 PM 24-Sep-2026 03:00 PM 2. Addendum-1 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 30-Sep-2026 02:00 PM 30-Sep-2026 03:00 PM 3. Date extended HIL/SD/2026-27/48 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 4. Date extended HIL/SD/2026-27/52 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 5. Date extended HIL/SD/2026-27/50 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 6. Date extended HIL/SD/2026-27/49 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 7. Pre-Bid meeting link Edcil/Admin./Empanelment-Advt. Agencies/2026 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 8. Date extended Further HIL/SD/2026-27/43 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 9. 1st Extension of Due date SCI/KOL/P and R/2026 22-Sep-2026 05:00 PM 24-Sep-2026 05:00 PM 10. Corrigendum-1 SCI/L and PS/S195/BRNG 18-Sep-2026 03:00 PM 18-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum_1 JNP/TRAFFIC/GMT/HMV/2026/EOI 24-Sep-2026 03:00 PM 24-Sep-2026 03:00 PM 2. Addendum-1 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 30-Sep-2026 02:00 PM 30-Sep-2026 03:00 PM 3. Date extended HIL/SD/2026-27/48 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 4. Date extended HIL/SD/2026-27/52 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 5. Date extended HIL/SD/2026-27/50 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 6. Date extended HIL/SD/2026-27/49 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 7. Pre-Bid meeting link Edcil/Admin./Empanelment-Advt. Agencies/2026 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 8. Date extended Further HIL/SD/2026-27/43 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 9. 1st Extension of Due date SCI/KOL/P and R/2026 22-Sep-2026 05:00 PM 24-Sep-2026 05:00 PM 10. Corrigendum-1 SCI/L and PS/S195/BRNG 18-Sep-2026 03:00 PM 18-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More...",
           "Corrigendum Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. Extension of Tender for External painting at Embassy residence, Mexico City MEX/Adm/551/1/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 2. Extension of Tender for Internal painting at Embassy residence, Mexico City MEX/Adm/551/2/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 3. TCN-01 DT.15/09/2026 PSER-PUR-BRH-S674-26 21-Sep-2026 02:00 PM 21-Sep-2026 04:30 PM 4. ADDNDUM OOT/Circle/133/Drydock/2023 29-Sep-2026 04:00 PM 29-Sep-2026 04:05 PM 5. Corrigendum - 1 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 6. Corrigendum - 1 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 7. 2026_MPPGC_850033_1/C2 91-84/PnW/W/1452 21-Sep-2026 02:00 PM 21-Sep-2026 05:00 PM 8. 2026_MPPGC_848380_4/C6 91-84/PnW/W/1326 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 9. 2026_MPPGC_847729_1/C2 91-84/PnW/P/1247 05-Oct-2026 02:00 PM 05-Oct-2026 06:00 PM 10. 2026_MPPGC_849782_1/C2 91-84/PnW/P/1415 30-Sep-2026 02:00 PM 30-Sep-2026 06:00 PM",
-          "1. Extension of Tender for External painting at Embassy residence, Mexico City",
-          "MEX/Adm/551/1/2026",
-          "22-Sep-2026 02:00 PM",
-          "22-Sep-2026 03:30 PM",
-          "2. Extension of Tender for Internal painting at Embassy residence, Mexico City",
-          "MEX/Adm/551/2/2026",
-          "22-Sep-2026 02:00 PM",
-          "22-Sep-2026 03:30 PM",
-          "3. TCN-01 DT.15/09/2026",
-          "PSER-PUR-BRH-S674-26",
-          "21-Sep-2026 02:00 PM",
-          "21-Sep-2026 04:30 PM",
-          "4. ADDNDUM",
-          "OOT/Circle/133/Drydock/2023",
-          "29-Sep-2026 04:00 PM",
-          "29-Sep-2026 04:05 PM",
-          "5. Corrigendum - 1",
-          "PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27",
-          "22-Sep-2026 06:55 PM",
-          "23-Sep-2026 06:55 PM",
-          "6. Corrigendum - 1",
-          "PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27",
-          "22-Sep-2026 06:55 PM",
-          "23-Sep-2026 06:55 PM",
-          "7. 2026_MPPGC_850033_1/C2",
-          "91-84/PnW/W/1452",
-          "21-Sep-2026 02:00 PM",
-          "21-Sep-2026 05:00 PM",
-          "8. 2026_MPPGC_848380_4/C6",
-          "91-84/PnW/W/1326",
-          "05-Oct-2026 02:00 PM",
-          "05-Oct-2026 05:00 PM",
-          "9. 2026_MPPGC_847729_1/C2",
-          "91-84/PnW/P/1247",
-          "05-Oct-2026 02:00 PM",
-          "05-Oct-2026 06:00 PM",
-          "10. 2026_MPPGC_849782_1/C2",
-          "91-84/PnW/P/1415",
+          "1. Corrigendum_1 JNP/TRAFFIC/GMT/HMV/2026/EOI 24-Sep-2026 03:00 PM 24-Sep-2026 03:00 PM 2. Addendum-1 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 30-Sep-2026 02:00 PM 30-Sep-2026 03:00 PM 3. Date extended HIL/SD/2026-27/48 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 4. Date extended HIL/SD/2026-27/52 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 5. Date extended HIL/SD/2026-27/50 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 6. Date extended HIL/SD/2026-27/49 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 7. Pre-Bid meeting link Edcil/Admin./Empanelment-Advt. Agencies/2026 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 8. Date extended Further HIL/SD/2026-27/43 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 9. 1st Extension of Due date SCI/KOL/P and R/2026 22-Sep-2026 05:00 PM 24-Sep-2026 05:00 PM 10. Corrigendum-1 SCI/L and PS/S195/BRNG 18-Sep-2026 03:00 PM 18-Sep-2026 05:00 PM",
+          "1. Corrigendum_1",
+          "JNP/TRAFFIC/GMT/HMV/2026/EOI",
+          "24-Sep-2026 03:00 PM",
+          "24-Sep-2026 03:00 PM",
+          "2. Addendum-1",
+          "SGEL/CHQ/Contracts/PSPCL-1000 MW/2026",
           "30-Sep-2026 02:00 PM",
-          "30-Sep-2026 06:00 PM",
+          "30-Sep-2026 03:00 PM",
+          "3. Date extended",
+          "HIL/SD/2026-27/48",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM",
+          "4. Date extended",
+          "HIL/SD/2026-27/52",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM",
+          "5. Date extended",
+          "HIL/SD/2026-27/50",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM",
+          "6. Date extended",
+          "HIL/SD/2026-27/49",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM",
+          "7. Pre-Bid meeting link",
+          "Edcil/Admin./Empanelment-Advt. Agencies/2026",
+          "30-Sep-2026 03:00 PM",
+          "30-Sep-2026 03:30 PM",
+          "8. Date extended Further",
+          "HIL/SD/2026-27/43",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM",
+          "9. 1st Extension of Due date",
+          "SCI/KOL/P and R/2026",
+          "22-Sep-2026 05:00 PM",
+          "24-Sep-2026 05:00 PM",
+          "10. Corrigendum-1",
+          "SCI/L and PS/S195/BRNG",
+          "18-Sep-2026 03:00 PM",
+          "18-Sep-2026 05:00 PM",
           "Latest Corrigendum updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.808Z",
-      "evidenceHash": "ab946ceb52c9161942663092df7c69f94000f98986643918fa6c97b12900582d"
+      "observedAt": "2026-09-16T07:40:09.134Z",
+      "evidenceHash": "3c6bb767ab6533a5bab4304e63c71a44283d095b5e55cf4716fa82439ddac93e"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.808Z",
+      "observedAt": "2026-09-16T07:40:09.135Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,298 +727,298 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.809Z",
+      "observedAt": "2026-09-16T07:40:09.136Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-supply,-installation,-testing-and-commissioning-of-110-kv-power-supply-arrangement-from-existing-kptcl-substation-to-integrated-mrss-nmdc/donimalai/8/et/283-25-sep-2026-11:00-am-25-sep-2026-11:30-am-2.-pur/e-file-232460-/2026-27-pur/e-file-232460-/2026-27-21-sep-2026-10:00-am-21-sep-2026-03:00-pm-3.-procurement-of-cotton-rope-gem/2026/b/8013897-15-oct-2026-03:00-pm-16-oct-2026-03:30-pm-4.-enquiry-for-work-contract-to-provide-unskilled-workers-for-cleaning-and-sweeping-of-power-house-and-associated-building-including-residential-colony-and-switchyard-of-3-x-20-mw-bhps-iii,deolond-91-84/pnw/w/1545-01-oct-2026-02:00-pm-01-oct-2026-05:00-pm-5.-hiring-of-catering-services-for-serving-lunch-for-officers-of-pib-during-international-film-festival-of-india,-2026-f.no.-12/1/2026-2027/iffi-2026-06-oct-2026-12:00-pm-07-oct-2026-12:00-pm-6.-supply-of-muffle-furnace-gem/2026/b/8027439-03-oct-2026-12:00-pm-04-oct-2026-12:00-pm-7.-cleaning-of-spillage-sand-from-floors-of-msp/hup/zop-gem/2026/b/8034238-05-oct-2026-10:00-am-06-oct-2026-10:00-am-8.-sale-of-dolomite-lump-size-(15-30mm)-by-rail/road,bslc-mines-bslc/mining/appv/dolomite-lump-15-30-mm/26-27/133-18-sep-2026-12:30-pm-18-sep-2026-06:00-pm-9.-supply-of-riffle-splitters-at-irerc-gem/2026/b/8020748-23-sep-2026-01:00-pm-24-sep-2026-01:00-pm-10.-supply,-installation-and-testing-of-4-nos-of-horizontal-pressure-pipe-wet-samplers-with-pinch-valves-gem/2026/b/8021601-24-sep-2026-02:00-pm-25-sep-2026-02:00-pm:1.-supply,-installation,-testing-and-commissioning-of-110-kv-power-supply-arrangement-from-existing-kptcl-substation-to-integrated-mrss-nmdc/donimalai/8/et/283-25-sep-2026-11:00-am-25-sep-2026-11:30-am-2.-pur/e-file-232460-/2026-27-pur/e-file-232460-/2026-27-21-sep-2026-10:00-am-21-sep-2026-03:00-pm-3.-procurement-of-cotton-rope-gem/2026/b/8013897-15-oct-2026-03:00-pm-16-oct-2026-03:30-pm-4.-enquiry-for-work-contract-to-provide-unskilled-workers-for-cleaning-and-sweeping-of-power-house-and-associated-building-including-residential-colony-and-switchyard-of-3-x-20-mw-bhps-iii,deolond-91-84/pnw/w/1545-01-oct-2026-02:00-pm-01-oct-2026-05:00-pm-5.-hiring-of-catering-services-for-serving-lunch-for-officers-of-pib-during-international-film-festival-of-india,-2026-f.no.-12/1/2026-2027/iffi-2026-06-oct-2026-12:00-pm-07-oct-2026-12:00-pm-6.-supply-of-muffle-furnace-gem/2026/b/8027439-03-oct-2026-12:00-pm-04-oct-2026-12:00-pm-7.-cleaning-of-spillage-sand-from-floors-of-msp/hup/zop-gem/2026/b/8034238-05-oct-2026-10:00-am-06-oct-2026-10:00-am-8.-sale-of-dolomite-lump-size-(15-30mm)-by-rail/road,bslc-mines-bslc/mining/appv/dolomite-lump-15-30-mm/26-27/133-18-sep-2026-12:30-pm-18-sep-2026-06:00-pm-9.-supply-of-riffle-splitters-at-irerc-gem/2026/b/8020748-23-sep-2026-01:00-pm-24-sep-2026-01:00-pm-10.-supply,-installation-and-testing-of-4-nos-of-horizontal-pressure-pipe-wet-samplers-with-pinch-valves-gem/2026/b/8021601-24-sep-2026-02:00-pm-25-sep-2026-02:00-pm",
+      "externalKey": "cppp-procurement:1.-empanelment-form-for-pest-control-in-irctc-catering-service-provider-(base-kitchen)-2026/eoi/pest-control/october-01-oct-2026-12:00-pm-01-oct-2026-12:15-pm-2.-spigot-reservoir-for-bomb-81-mmand-reservoir-for-bomb-120-mm-gem/2026/b/8030222-22-sep-2026-02:00-pm-23-sep-2026-02:00-pm-3.-eoi-base-vehicle-rm/eoi/323/26-27-15-oct-2026-11:00-am-15-oct-2026-11:30-am-4.-sampling-and-supervision-during-canalization-of-minerals-from-east-coast-for-2-years-gem/2026/b/8041139-26-sep-2026-12:00-pm-27-sep-2026-12:00-pm-5.-procurement-of-pulsed-phased-array-tracking-radar-pxe/immd/0007/eoi-rns/2026-27-08-oct-2026-01:00-pm-08-oct-2026-02:00-pm-6.-tender-for-outsourcing-dietary-services-from-advance-cardiac-centre-(acc)-kitchen-for-10-years-proc.indgn.(hpd)/2026/407-08-oct-2026-12:30-pm-08-oct-2026-03:00-pm-7.-os/gtvs/-m-18-217/20ton-crane-9000054585-18-sep-2026-03:00-pm-18-sep-2026-04:00-pm-8.-bhel-pssr-enr-sez-2026-27-sct-272-bhel-pssr-enr-sez-2026-27-sct-272-23-sep-2026-11:00-am-23-sep-2026-05:00-pm-9.-tender-notice-for-sale-of-tarpaulins-and-pallies-(unserviceable)-cci/sgnr/admin/scrap/2026-27-06-oct-2026-02:00-pm-06-oct-2026-03:00-pm-10.-easy-eight-sep-magnet-pur/pp-2968/e-file-291876/26-27-/je-lab-21-sep-2026-11:00-am-21-sep-2026-12:00-pm:1.-empanelment-form-for-pest-control-in-irctc-catering-service-provider-(base-kitchen)-2026/eoi/pest-control/october-01-oct-2026-12:00-pm-01-oct-2026-12:15-pm-2.-spigot-reservoir-for-bomb-81-mmand-reservoir-for-bomb-120-mm-gem/2026/b/8030222-22-sep-2026-02:00-pm-23-sep-2026-02:00-pm-3.-eoi-base-vehicle-rm/eoi/323/26-27-15-oct-2026-11:00-am-15-oct-2026-11:30-am-4.-sampling-and-supervision-during-canalization-of-minerals-from-east-coast-for-2-years-gem/2026/b/8041139-26-sep-2026-12:00-pm-27-sep-2026-12:00-pm-5.-procurement-of-pulsed-phased-array-tracking-radar-pxe/immd/0007/eoi-rns/2026-27-08-oct-2026-01:00-pm-08-oct-2026-02:00-pm-6.-tender-for-outsourcing-dietary-services-from-advance-cardiac-centre-(acc)-kitchen-for-10-years-proc.indgn.(hpd)/2026/407-08-oct-2026-12:30-pm-08-oct-2026-03:00-pm-7.-os/gtvs/-m-18-217/20ton-crane-9000054585-18-sep-2026-03:00-pm-18-sep-2026-04:00-pm-8.-bhel-pssr-enr-sez-2026-27-sct-272-bhel-pssr-enr-sez-2026-27-sct-272-23-sep-2026-11:00-am-23-sep-2026-05:00-pm-9.-tender-notice-for-sale-of-tarpaulins-and-pallies-(unserviceable)-cci/sgnr/admin/scrap/2026-27-06-oct-2026-02:00-pm-06-oct-2026-03:00-pm-10.-easy-eight-sep-magnet-pur/pp-2968/e-file-291876/26-27-/je-lab-21-sep-2026-11:00-am-21-sep-2026-12:00-pm",
       "sensorId": "cppp-procurement",
-      "title": "1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS NMDC/DONIMALAI/8/ET/283 25-Sep-2026 11:00 AM 25-Sep-2026 11:30 AM 2. Pur/e-file 232460 /2026-27 Pur/e-file 232460 /2026-27 21-Sep-2026 10:00 AM 21-Sep-2026 03:00 PM 3. Procurement of cotton rope GEM/2026/B/8013897 15-Oct-2026 03:00 PM 16-Oct-2026 03:30 PM 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOC",
+      "title": "1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) 2026/EOI/Pest Control/October 01-Oct-2026 12:00 PM 01-Oct-2026 12:15 PM 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM GEM/2026/B/8030222 22-Sep-2026 02:00 PM 23-Sep-2026 02:00 PM 3. EOI Base Vehicle RM/EOI/323/26-27 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years GEM/2026/B/8041139 26-Sep-2026 12:00 PM 27-Sep-20",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SOSbZF1lBBvX%2BipRdPHgRVw%3D%3D",
-      "tenderReference": "1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS NMDC/DONIMALAI/8/ET/283 25-Sep-2026 11:00 AM 25-Sep-2026 11:30 AM 2. Pur/e-file 232460 /2026-27 Pur/e-file 232460 /2026-27 21-Sep-2026 10:00 AM 21-Sep-2026 03:00 PM 3. Procurement of cotton rope GEM/2026/B/8013897 15-Oct-2026 03:00 PM 16-Oct-2026 03:30 PM 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND 91-84/PnW/W/1545 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 F.NO. 12/1/2026-2027/IFFI-2026 06-Oct-2026 12:00 PM 07-Oct-2026 12:00 PM 6. Supply of Muffle Furnace GEM/2026/B/8027439 03-Oct-2026 12:00 PM 04-Oct-2026 12:00 PM 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP GEM/2026/B/8034238 05-Oct-2026 10:00 AM 06-Oct-2026 10:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 18-Sep-2026 12:30 PM 18-Sep-2026 06:00 PM 9. Supply of Riffle splitters at IRERC GEM/2026/B/8020748 23-Sep-2026 01:00 PM 24-Sep-2026 01:00 PM 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves GEM/2026/B/8021601 24-Sep-2026 02:00 PM 25-Sep-2026 02:00 PM",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=STaUzCfO2A5R8HovwymdbFQ%3D%3D",
+      "tenderReference": "1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) 2026/EOI/Pest Control/October 01-Oct-2026 12:00 PM 01-Oct-2026 12:15 PM 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM GEM/2026/B/8030222 22-Sep-2026 02:00 PM 23-Sep-2026 02:00 PM 3. EOI Base Vehicle RM/EOI/323/26-27 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years GEM/2026/B/8041139 26-Sep-2026 12:00 PM 27-Sep-2026 12:00 PM 5. Procurement of Pulsed Phased Array Tracking Radar PXE/IMMD/0007/EOI-RNS/2026-27 08-Oct-2026 01:00 PM 08-Oct-2026 02:00 PM 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years Proc.Indgn.(HPD)/2026/407 08-Oct-2026 12:30 PM 08-Oct-2026 03:00 PM 7. OS/GTVS/ M-18-217/20TON CRANE 9000054585 18-Sep-2026 03:00 PM 18-Sep-2026 04:00 PM 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 BHEL PSSR ENR SEZ 2026 27 SCT 272 23-Sep-2026 11:00 AM 23-Sep-2026 05:00 PM 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) CCI/SGNR/ADMIN/SCRAP/2026-27 06-Oct-2026 02:00 PM 06-Oct-2026 03:00 PM 10. Easy eight sep magnet Pur/PP 2968/e-file 291876/26-27 /JE Lab 21-Sep-2026 11:00 AM 21-Sep-2026 12:00 PM",
       "geographicPrecision": "unknown",
-      "note": "NMDC/DONIMALAI/8/ET/283 | 25-Sep-2026 11:00 AM | 25-Sep-2026 11:30 AM | 2. Pur/e-file 232460 /2026-27 | Pur/e-file 232460 /2026-27 | 21-Sep-2026 10:00 AM | 21-Sep-2026 03:00 PM | 3. Procurement of cotton rope | GEM/2026/B/8013897 | 15-Oct-2026 03:00 PM | 16-Oct-2026 03:30 PM | 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND | 91-84/PnW/W/1545 | 01-Oct-2026 02:00 PM | 01-Oct-2026 05:00 PM | 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 | F.NO. 12/1/2026-2027/IFFI-2026 | 06-Oct-2026 12:00 PM | 07-Oct-2026 12:00 PM | 6. Supply of Muffle Furnace | GEM/2026/B/8027439 | 03-Oct-2026 12:00 PM | 04-Oct-2026 12:00 PM | 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP | GEM/2026/B/8034238 | 05-Oct-2026 10:00 AM | 06-Oct-2026 10:00 AM | 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES | BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 | 18-Sep-2026 12:30 PM | 18-Sep-2026 06:00 PM | 9. Supply of Riffle splitters at IRERC | GEM/2026/B/8020748 | 23-Sep-2026 01:00 PM | 24-Sep-2026 01:00 PM | 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves | GEM/2026/B/8021601 | 24-Sep-2026 02:00 PM | 25-Sep-2026 02:00 PM",
+      "note": "2026/EOI/Pest Control/October | 01-Oct-2026 12:00 PM | 01-Oct-2026 12:15 PM | 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM | GEM/2026/B/8030222 | 22-Sep-2026 02:00 PM | 23-Sep-2026 02:00 PM | 3. EOI Base Vehicle | RM/EOI/323/26-27 | 15-Oct-2026 11:00 AM | 15-Oct-2026 11:30 AM | 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years | GEM/2026/B/8041139 | 26-Sep-2026 12:00 PM | 27-Sep-2026 12:00 PM | 5. Procurement of Pulsed Phased Array Tracking Radar | PXE/IMMD/0007/EOI-RNS/2026-27 | 08-Oct-2026 01:00 PM | 08-Oct-2026 02:00 PM | 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years | Proc.Indgn.(HPD)/2026/407 | 08-Oct-2026 12:30 PM | 08-Oct-2026 03:00 PM | 7. OS/GTVS/ M-18-217/20TON CRANE | 9000054585 | 18-Sep-2026 03:00 PM | 18-Sep-2026 04:00 PM | 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 | BHEL PSSR ENR SEZ 2026 27 SCT 272 | 23-Sep-2026 11:00 AM | 23-Sep-2026 05:00 PM | 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) | CCI/SGNR/ADMIN/SCRAP/2026-27 | 06-Oct-2026 02:00 PM | 06-Oct-2026 03:00 PM | 10. Easy eight sep magnet | Pur/PP 2968/e-file 291876/26-27 /JE Lab | 21-Sep-2026 11:00 AM | 21-Sep-2026 12:00 PM",
       "raw": {
         "cells": [
-          "1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS NMDC/DONIMALAI/8/ET/283 25-Sep-2026 11:00 AM 25-Sep-2026 11:30 AM 2. Pur/e-file 232460 /2026-27 Pur/e-file 232460 /2026-27 21-Sep-2026 10:00 AM 21-Sep-2026 03:00 PM 3. Procurement of cotton rope GEM/2026/B/8013897 15-Oct-2026 03:00 PM 16-Oct-2026 03:30 PM 4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND 91-84/PnW/W/1545 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026 F.NO. 12/1/2026-2027/IFFI-2026 06-Oct-2026 12:00 PM 07-Oct-2026 12:00 PM 6. Supply of Muffle Furnace GEM/2026/B/8027439 03-Oct-2026 12:00 PM 04-Oct-2026 12:00 PM 7. Cleaning of spillage sand from floors of MSP/HUP/ZOP GEM/2026/B/8034238 05-Oct-2026 10:00 AM 06-Oct-2026 10:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133 18-Sep-2026 12:30 PM 18-Sep-2026 06:00 PM 9. Supply of Riffle splitters at IRERC GEM/2026/B/8020748 23-Sep-2026 01:00 PM 24-Sep-2026 01:00 PM 10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves GEM/2026/B/8021601 24-Sep-2026 02:00 PM 25-Sep-2026 02:00 PM",
-          "1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS",
-          "NMDC/DONIMALAI/8/ET/283",
-          "25-Sep-2026 11:00 AM",
-          "25-Sep-2026 11:30 AM",
-          "2. Pur/e-file 232460 /2026-27",
-          "Pur/e-file 232460 /2026-27",
-          "21-Sep-2026 10:00 AM",
-          "21-Sep-2026 03:00 PM",
-          "3. Procurement of cotton rope",
-          "GEM/2026/B/8013897",
-          "15-Oct-2026 03:00 PM",
-          "16-Oct-2026 03:30 PM",
-          "4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND",
-          "91-84/PnW/W/1545",
-          "01-Oct-2026 02:00 PM",
-          "01-Oct-2026 05:00 PM",
-          "5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026",
-          "F.NO. 12/1/2026-2027/IFFI-2026",
-          "06-Oct-2026 12:00 PM",
-          "07-Oct-2026 12:00 PM",
-          "6. Supply of Muffle Furnace",
-          "GEM/2026/B/8027439",
-          "03-Oct-2026 12:00 PM",
-          "04-Oct-2026 12:00 PM",
-          "7. Cleaning of spillage sand from floors of MSP/HUP/ZOP",
-          "GEM/2026/B/8034238",
-          "05-Oct-2026 10:00 AM",
-          "06-Oct-2026 10:00 AM",
-          "8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES",
-          "BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133",
-          "18-Sep-2026 12:30 PM",
-          "18-Sep-2026 06:00 PM",
-          "9. Supply of Riffle splitters at IRERC",
-          "GEM/2026/B/8020748",
-          "23-Sep-2026 01:00 PM",
-          "24-Sep-2026 01:00 PM",
-          "10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves",
-          "GEM/2026/B/8021601",
-          "24-Sep-2026 02:00 PM",
-          "25-Sep-2026 02:00 PM"
+          "1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen) 2026/EOI/Pest Control/October 01-Oct-2026 12:00 PM 01-Oct-2026 12:15 PM 2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM GEM/2026/B/8030222 22-Sep-2026 02:00 PM 23-Sep-2026 02:00 PM 3. EOI Base Vehicle RM/EOI/323/26-27 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 4. Sampling and Supervision during canalization of minerals from East Coast for 2 years GEM/2026/B/8041139 26-Sep-2026 12:00 PM 27-Sep-2026 12:00 PM 5. Procurement of Pulsed Phased Array Tracking Radar PXE/IMMD/0007/EOI-RNS/2026-27 08-Oct-2026 01:00 PM 08-Oct-2026 02:00 PM 6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years Proc.Indgn.(HPD)/2026/407 08-Oct-2026 12:30 PM 08-Oct-2026 03:00 PM 7. OS/GTVS/ M-18-217/20TON CRANE 9000054585 18-Sep-2026 03:00 PM 18-Sep-2026 04:00 PM 8. BHEL PSSR ENR SEZ 2026 27 SCT 272 BHEL PSSR ENR SEZ 2026 27 SCT 272 23-Sep-2026 11:00 AM 23-Sep-2026 05:00 PM 9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE) CCI/SGNR/ADMIN/SCRAP/2026-27 06-Oct-2026 02:00 PM 06-Oct-2026 03:00 PM 10. Easy eight sep magnet Pur/PP 2968/e-file 291876/26-27 /JE Lab 21-Sep-2026 11:00 AM 21-Sep-2026 12:00 PM",
+          "1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen)",
+          "2026/EOI/Pest Control/October",
+          "01-Oct-2026 12:00 PM",
+          "01-Oct-2026 12:15 PM",
+          "2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM",
+          "GEM/2026/B/8030222",
+          "22-Sep-2026 02:00 PM",
+          "23-Sep-2026 02:00 PM",
+          "3. EOI Base Vehicle",
+          "RM/EOI/323/26-27",
+          "15-Oct-2026 11:00 AM",
+          "15-Oct-2026 11:30 AM",
+          "4. Sampling and Supervision during canalization of minerals from East Coast for 2 years",
+          "GEM/2026/B/8041139",
+          "26-Sep-2026 12:00 PM",
+          "27-Sep-2026 12:00 PM",
+          "5. Procurement of Pulsed Phased Array Tracking Radar",
+          "PXE/IMMD/0007/EOI-RNS/2026-27",
+          "08-Oct-2026 01:00 PM",
+          "08-Oct-2026 02:00 PM",
+          "6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years",
+          "Proc.Indgn.(HPD)/2026/407",
+          "08-Oct-2026 12:30 PM",
+          "08-Oct-2026 03:00 PM",
+          "7. OS/GTVS/ M-18-217/20TON CRANE",
+          "9000054585",
+          "18-Sep-2026 03:00 PM",
+          "18-Sep-2026 04:00 PM",
+          "8. BHEL PSSR ENR SEZ 2026 27 SCT 272",
+          "BHEL PSSR ENR SEZ 2026 27 SCT 272",
+          "23-Sep-2026 11:00 AM",
+          "23-Sep-2026 05:00 PM",
+          "9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE)",
+          "CCI/SGNR/ADMIN/SCRAP/2026-27",
+          "06-Oct-2026 02:00 PM",
+          "06-Oct-2026 03:00 PM",
+          "10. Easy eight sep magnet",
+          "Pur/PP 2968/e-file 291876/26-27 /JE Lab",
+          "21-Sep-2026 11:00 AM",
+          "21-Sep-2026 12:00 PM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.811Z",
-      "evidenceHash": "9de6f913464fa01e670f8fe8d34ad6adad1327a83ace8d3679f8726ae0aac5ed"
+      "observedAt": "2026-09-16T07:40:09.138Z",
+      "evidenceHash": "10a987ccd5c10aaa2e5765d8433603a4dd119c997fd00658a6daf230f499ab5f"
     },
     {
-      "externalKey": "cppp-procurement:nmdc/donimalai/8/et/283:1.-supply,-installation,-testing-and-commissioning-of-110-kv-power-supply-arrangement-from-existing-kptcl-substation-to-integrated-mrss",
+      "externalKey": "cppp-procurement:2026/eoi/pest-control/october:1.-empanelment-form-for-pest-control-in-irctc-catering-service-provider-(base-kitchen)",
       "sensorId": "cppp-procurement",
-      "title": "1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS",
+      "title": "1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen)",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SOSbZF1lBBvX%2BipRdPHgRVw%3D%3D",
-      "tenderReference": "NMDC/DONIMALAI/8/ET/283",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=STaUzCfO2A5R8HovwymdbFQ%3D%3D",
+      "tenderReference": "2026/EOI/Pest Control/October",
       "geographicPrecision": "unknown",
-      "note": "25-Sep-2026 11:00 AM | 25-Sep-2026 11:30 AM",
+      "note": "01-Oct-2026 12:00 PM | 01-Oct-2026 12:15 PM",
       "raw": {
         "cells": [
-          "1. Supply, Installation, Testing and Commissioning of 110 KV Power supply arrangement from existing KPTCL Substation to Integrated MRSS",
-          "NMDC/DONIMALAI/8/ET/283",
-          "25-Sep-2026 11:00 AM",
-          "25-Sep-2026 11:30 AM"
+          "1. Empanelment Form for Pest Control in IRCTC Catering Service Provider (Base Kitchen)",
+          "2026/EOI/Pest Control/October",
+          "01-Oct-2026 12:00 PM",
+          "01-Oct-2026 12:15 PM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.811Z",
-      "evidenceHash": "3bea6f0fbb80d5b0cbebc40c3f03cd939acb8fc840b5d8b99b2e835dead4ccae"
+      "observedAt": "2026-09-16T07:40:09.138Z",
+      "evidenceHash": "b75b5624ca300c554334d3ada7ec1d6a67a152beb974c9250339524ce5946a6d"
     },
     {
-      "externalKey": "cppp-procurement:pur/e-file-232460-/2026-27:2.-pur/e-file-232460-/2026-27",
+      "externalKey": "cppp-procurement:gem/2026/b/8030222:2.-spigot-reservoir-for-bomb-81-mmand-reservoir-for-bomb-120-mm",
       "sensorId": "cppp-procurement",
-      "title": "2. Pur/e-file 232460 /2026-27",
+      "title": "2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S%2FNvNjDj4s9vZqS0kgg2eAw%3D%3D",
-      "tenderReference": "Pur/e-file 232460 /2026-27",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Sh28lcaQwODPkVsJgqeGOUA%3D%3D",
+      "tenderReference": "GEM/2026/B/8030222",
       "geographicPrecision": "unknown",
-      "note": "21-Sep-2026 10:00 AM | 21-Sep-2026 03:00 PM",
+      "note": "22-Sep-2026 02:00 PM | 23-Sep-2026 02:00 PM",
       "raw": {
         "cells": [
-          "2. Pur/e-file 232460 /2026-27",
-          "Pur/e-file 232460 /2026-27",
-          "21-Sep-2026 10:00 AM",
-          "21-Sep-2026 03:00 PM"
+          "2. SPIGOT RESERVOIR FOR BOMB 81 MMAND RESERVOIR FOR BOMB 120 MM",
+          "GEM/2026/B/8030222",
+          "22-Sep-2026 02:00 PM",
+          "23-Sep-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.811Z",
-      "evidenceHash": "05c1ca50f311f9f435f723649f3587f1a072ad0bd0872b2c380cff30ffae7c45"
+      "observedAt": "2026-09-16T07:40:09.138Z",
+      "evidenceHash": "99d116a184c8ce92f607224a28eb9c7d31d8f22b3f05a2eab80cad2f13ab916a"
     },
     {
-      "externalKey": "cppp-procurement:gem/2026/b/8013897:3.-procurement-of-cotton-rope",
+      "externalKey": "cppp-procurement:rm/eoi/323/26-27:3.-eoi-base-vehicle",
       "sensorId": "cppp-procurement",
-      "title": "3. Procurement of cotton rope",
+      "title": "3. EOI Base Vehicle",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SUjVkYtovC3O7j2pE%2FRUc5g%3D%3D",
-      "tenderReference": "GEM/2026/B/8013897",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Sd%2FBJosknrn9qjPa5hGEcVg%3D%3D",
+      "tenderReference": "RM/EOI/323/26-27",
       "geographicPrecision": "unknown",
-      "note": "15-Oct-2026 03:00 PM | 16-Oct-2026 03:30 PM",
+      "note": "15-Oct-2026 11:00 AM | 15-Oct-2026 11:30 AM",
       "raw": {
         "cells": [
-          "3. Procurement of cotton rope",
-          "GEM/2026/B/8013897",
-          "15-Oct-2026 03:00 PM",
-          "16-Oct-2026 03:30 PM"
+          "3. EOI Base Vehicle",
+          "RM/EOI/323/26-27",
+          "15-Oct-2026 11:00 AM",
+          "15-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.811Z",
-      "evidenceHash": "ad3fa7d510931bf1ecf1143b02de8cc8803060dc947508fb9f46ca7e332442c6"
+      "observedAt": "2026-09-16T07:40:09.138Z",
+      "evidenceHash": "2a1e0fa6e09900a30383c59bce6fa4740769c42e910e6de1394e94ab5440a135"
     },
     {
-      "externalKey": "cppp-procurement:91-84/pnw/w/1545:4.-enquiry-for-work-contract-to-provide-unskilled-workers-for-cleaning-and-sweeping-of-power-house-and-associated-building-including-residential-colony-and-switchyard-of-3-x-20-mw-bhps-iii,deolond",
+      "externalKey": "cppp-procurement:gem/2026/b/8041139:4.-sampling-and-supervision-during-canalization-of-minerals-from-east-coast-for-2-years",
       "sensorId": "cppp-procurement",
-      "title": "4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND",
+      "title": "4. Sampling and Supervision during canalization of minerals from East Coast for 2 years",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SqbMnHawLajEJV0XoXIaagQ%3D%3D",
-      "tenderReference": "91-84/PnW/W/1545",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S1IlaY5RZ%2F4qHYH3r5xB%2BIg%3D%3D",
+      "tenderReference": "GEM/2026/B/8041139",
       "geographicPrecision": "unknown",
-      "note": "01-Oct-2026 02:00 PM | 01-Oct-2026 05:00 PM",
+      "note": "26-Sep-2026 12:00 PM | 27-Sep-2026 12:00 PM",
       "raw": {
         "cells": [
-          "4. ENQUIRY FOR WORK CONTRACT TO PROVIDE UNSKILLED WORKERS FOR CLEANING AND SWEEPING OF POWER HOUSE AND ASSOCIATED BUILDING INCLUDING RESIDENTIAL COLONY AND SWITCHYARD OF 3 X 20 MW BHPS-III,DEOLOND",
-          "91-84/PnW/W/1545",
-          "01-Oct-2026 02:00 PM",
-          "01-Oct-2026 05:00 PM"
+          "4. Sampling and Supervision during canalization of minerals from East Coast for 2 years",
+          "GEM/2026/B/8041139",
+          "26-Sep-2026 12:00 PM",
+          "27-Sep-2026 12:00 PM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.811Z",
-      "evidenceHash": "e375e0d3acc6b6c8a7d4a6501e7d989afcc1ae8d954890a52f618843d3cbb0f3"
+      "observedAt": "2026-09-16T07:40:09.138Z",
+      "evidenceHash": "15bb88af7af1581fb13b83d52e3d38ad1d97ba9c981bcde5e3e7d17446b3cf21"
     },
     {
-      "externalKey": "cppp-procurement:f.no.-12/1/2026-2027/iffi-2026:5.-hiring-of-catering-services-for-serving-lunch-for-officers-of-pib-during-international-film-festival-of-india,-2026",
+      "externalKey": "cppp-procurement:pxe/immd/0007/eoi-rns/2026-27:5.-procurement-of-pulsed-phased-array-tracking-radar",
       "sensorId": "cppp-procurement",
-      "title": "5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026",
+      "title": "5. Procurement of Pulsed Phased Array Tracking Radar",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SP%2F5s89evLfWzygKzoW0Tqw%3D%3D",
-      "tenderReference": "F.NO. 12/1/2026-2027/IFFI-2026",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S3YJX8SOkJWhvsj8rqT%2F%2FQQ%3D%3D",
+      "tenderReference": "PXE/IMMD/0007/EOI-RNS/2026-27",
       "geographicPrecision": "unknown",
-      "note": "06-Oct-2026 12:00 PM | 07-Oct-2026 12:00 PM",
+      "note": "08-Oct-2026 01:00 PM | 08-Oct-2026 02:00 PM",
       "raw": {
         "cells": [
-          "5. Hiring of catering services for serving lunch for Officers of PIB during International Film Festival of India, 2026",
-          "F.NO. 12/1/2026-2027/IFFI-2026",
-          "06-Oct-2026 12:00 PM",
-          "07-Oct-2026 12:00 PM"
+          "5. Procurement of Pulsed Phased Array Tracking Radar",
+          "PXE/IMMD/0007/EOI-RNS/2026-27",
+          "08-Oct-2026 01:00 PM",
+          "08-Oct-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.811Z",
-      "evidenceHash": "05149704856e7c3e01f701a675b686562d6f1a509eff0b4ecf2baa3f09502b63"
+      "observedAt": "2026-09-16T07:40:09.138Z",
+      "evidenceHash": "6257cef40f6e349f72e278a721a6766c71d40e788fae182e8ecb15756c9c1efc"
     },
     {
-      "externalKey": "cppp-procurement:gem/2026/b/8027439:6.-supply-of-muffle-furnace",
+      "externalKey": "cppp-procurement:6.-tender-for-outsourcing-dietary-services-from-advance-cardiac-centre-(acc)-kitchen-for-10-years:6.-tender-for-outsourcing-dietary-services-from-advance-cardiac-centre-(acc)-kitchen-for-10-years",
       "sensorId": "cppp-procurement",
-      "title": "6. Supply of Muffle Furnace",
+      "title": "6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SajtptvSF1syH6DDOOOUg0A%3D%3D",
-      "tenderReference": "GEM/2026/B/8027439",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S1ym23Jj0i6glo2Iwv%2BBLzA%3D%3D",
+      "tenderReference": "6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years",
       "geographicPrecision": "unknown",
-      "note": "03-Oct-2026 12:00 PM | 04-Oct-2026 12:00 PM",
+      "note": "08-Oct-2026 12:30 PM | 08-Oct-2026 03:00 PM",
       "raw": {
         "cells": [
-          "6. Supply of Muffle Furnace",
-          "GEM/2026/B/8027439",
-          "03-Oct-2026 12:00 PM",
-          "04-Oct-2026 12:00 PM"
+          "6. Tender for outsourcing dietary services from Advance Cardiac Centre (ACC) Kitchen for 10 years",
+          "Proc.Indgn.(HPD)/2026/407",
+          "08-Oct-2026 12:30 PM",
+          "08-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.811Z",
-      "evidenceHash": "82dba7439194d69d522eac3584e65bb788fc962a04aeb10c5d19e715aaaf561b"
+      "observedAt": "2026-09-16T07:40:09.138Z",
+      "evidenceHash": "4c39e6654b52fa3375fb518cf3874406f06e0cb0b2f84ed2893de7dafb52b97f"
     },
     {
-      "externalKey": "cppp-procurement:gem/2026/b/8034238:7.-cleaning-of-spillage-sand-from-floors-of-msp/hup/zop",
+      "externalKey": "cppp-procurement:9000054585:7.-os/gtvs/-m-18-217/20ton-crane",
       "sensorId": "cppp-procurement",
-      "title": "7. Cleaning of spillage sand from floors of MSP/HUP/ZOP",
+      "title": "7. OS/GTVS/ M-18-217/20TON CRANE",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=STTMBEpXXKHZiwU6ycqbjtQ%3D%3D",
-      "tenderReference": "GEM/2026/B/8034238",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S4VdPr%2FlSffzljgOhXswX2Q%3D%3D",
+      "tenderReference": "9000054585",
       "geographicPrecision": "unknown",
-      "note": "05-Oct-2026 10:00 AM | 06-Oct-2026 10:00 AM",
+      "note": "18-Sep-2026 03:00 PM | 18-Sep-2026 04:00 PM",
       "raw": {
         "cells": [
-          "7. Cleaning of spillage sand from floors of MSP/HUP/ZOP",
-          "GEM/2026/B/8034238",
-          "05-Oct-2026 10:00 AM",
-          "06-Oct-2026 10:00 AM"
+          "7. OS/GTVS/ M-18-217/20TON CRANE",
+          "9000054585",
+          "18-Sep-2026 03:00 PM",
+          "18-Sep-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.811Z",
-      "evidenceHash": "fb7b25f47828aa08132aa6f6f9fbfeec942e5d9ca1dc7a167c1e91d6fc1eaeda"
+      "observedAt": "2026-09-16T07:40:09.138Z",
+      "evidenceHash": "efeb0e9497fc1cb33d54196adb4c2f9bacef452af8b4282f6957fbf63fc9fbfc"
     },
     {
-      "externalKey": "cppp-procurement:bslc/mining/appv/dolomite-lump-15-30-mm/26-27/133:8.-sale-of-dolomite-lump-size-(15-30mm)-by-rail/road,bslc-mines",
+      "externalKey": "cppp-procurement:bhel-pssr-enr-sez-2026-27-sct-272:8.-bhel-pssr-enr-sez-2026-27-sct-272",
       "sensorId": "cppp-procurement",
-      "title": "8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES",
+      "title": "8. BHEL PSSR ENR SEZ 2026 27 SCT 272",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SQPhhAjyiIfHKwmlrMb4guw%3D%3D",
-      "tenderReference": "BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Siaue00RMbn9yI3t8nl9sSQ%3D%3D",
+      "tenderReference": "BHEL PSSR ENR SEZ 2026 27 SCT 272",
       "geographicPrecision": "unknown",
-      "note": "18-Sep-2026 12:30 PM | 18-Sep-2026 06:00 PM",
+      "note": "23-Sep-2026 11:00 AM | 23-Sep-2026 05:00 PM",
       "raw": {
         "cells": [
-          "8. SALE OF DOLOMITE LUMP SIZE (15-30MM) BY RAIL/ROAD,BSLC MINES",
-          "BSLC/Mining/APPV/Dolomite lump 15-30 MM/26-27/133",
-          "18-Sep-2026 12:30 PM",
-          "18-Sep-2026 06:00 PM"
+          "8. BHEL PSSR ENR SEZ 2026 27 SCT 272",
+          "BHEL PSSR ENR SEZ 2026 27 SCT 272",
+          "23-Sep-2026 11:00 AM",
+          "23-Sep-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.811Z",
-      "evidenceHash": "116de9862093879677da368d342a92d6088dbc5e807703befc9834e388e8ff2b"
+      "observedAt": "2026-09-16T07:40:09.138Z",
+      "evidenceHash": "d97f423b5e8dd29752d952a3820fd33a82ab218cf436036e31e91923eea801fe"
     },
     {
-      "externalKey": "cppp-procurement:gem/2026/b/8020748:9.-supply-of-riffle-splitters-at-irerc",
+      "externalKey": "cppp-procurement:9.-tender-notice-for-sale-of-tarpaulins-and-pallies-(unserviceable):9.-tender-notice-for-sale-of-tarpaulins-and-pallies-(unserviceable)",
       "sensorId": "cppp-procurement",
-      "title": "9. Supply of Riffle splitters at IRERC",
+      "title": "9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE)",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SPZOwnxCvO%2BuhX3gGy7thnA%3D%3D",
-      "tenderReference": "GEM/2026/B/8020748",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S4tirL2VG0XFAibz1C0AkXA%3D%3D",
+      "tenderReference": "9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE)",
       "geographicPrecision": "unknown",
-      "note": "23-Sep-2026 01:00 PM | 24-Sep-2026 01:00 PM",
+      "note": "06-Oct-2026 02:00 PM | 06-Oct-2026 03:00 PM",
       "raw": {
         "cells": [
-          "9. Supply of Riffle splitters at IRERC",
-          "GEM/2026/B/8020748",
-          "23-Sep-2026 01:00 PM",
-          "24-Sep-2026 01:00 PM"
+          "9. TENDER NOTICE FOR SALE OF TARPAULINS AND PALLIES (UNSERVICEABLE)",
+          "CCI/SGNR/ADMIN/SCRAP/2026-27",
+          "06-Oct-2026 02:00 PM",
+          "06-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.812Z",
-      "evidenceHash": "1dccbef1f451ab6818198bded5f900b5580f4057a6df10ee5a9ee717dd3ce741"
+      "observedAt": "2026-09-16T07:40:09.138Z",
+      "evidenceHash": "89a47de99740e32b4586552e61b8bf5a3d1c7591ab4e2ea18092b5700d2ace79"
     },
     {
-      "externalKey": "cppp-procurement:gem/2026/b/8021601:10.-supply,-installation-and-testing-of-4-nos-of-horizontal-pressure-pipe-wet-samplers-with-pinch-valves",
+      "externalKey": "cppp-procurement:pur/pp-2968/e-file-291876/26-27-/je-lab:10.-easy-eight-sep-magnet",
       "sensorId": "cppp-procurement",
-      "title": "10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves",
+      "title": "10. Easy eight sep magnet",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SKXhEaWeKTc%2FqchGDaBsK8g%3D%3D",
-      "tenderReference": "GEM/2026/B/8021601",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SCyAcVyFyY5TYYOw7OxdcNg%3D%3D",
+      "tenderReference": "Pur/PP 2968/e-file 291876/26-27 /JE Lab",
       "geographicPrecision": "unknown",
-      "note": "24-Sep-2026 02:00 PM | 25-Sep-2026 02:00 PM",
+      "note": "21-Sep-2026 11:00 AM | 21-Sep-2026 12:00 PM",
       "raw": {
         "cells": [
-          "10. Supply, installation and testing of 4 nos of Horizontal pressure pipe wet samplers with pinch valves",
-          "GEM/2026/B/8021601",
-          "24-Sep-2026 02:00 PM",
-          "25-Sep-2026 02:00 PM"
+          "10. Easy eight sep magnet",
+          "Pur/PP 2968/e-file 291876/26-27 /JE Lab",
+          "21-Sep-2026 11:00 AM",
+          "21-Sep-2026 12:00 PM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.812Z",
-      "evidenceHash": "a32821e833234c73552d23689877d1d93b9f2794888fdcf58b45a55bf128fb6b"
+      "observedAt": "2026-09-16T07:40:09.138Z",
+      "evidenceHash": "1f131e1418d9107882b23e8a6872f4e0b6d9cb3911ced7116820f7b69054eda2"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.812Z",
+      "observedAt": "2026-09-16T07:40:09.138Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,298 +1060,298 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.812Z",
+      "observedAt": "2026-09-16T07:40:09.139Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
-      "externalKey": "cppp-procurement:1.-extension-of-tender-for-external-painting-at-embassy-residence,-mexico-city-mex/adm/551/1/2026-22-sep-2026-02:00-pm-22-sep-2026-03:30-pm-2.-extension-of-tender-for-internal-painting-at-embassy-residence,-mexico-city-mex/adm/551/2/2026-22-sep-2026-02:00-pm-22-sep-2026-03:30-pm-3.-tcn-01-dt.15/09/2026-pser-pur-brh-s674-26-21-sep-2026-02:00-pm-21-sep-2026-04:30-pm-4.-addndum-oot/circle/133/drydock/2023-29-sep-2026-04:00-pm-29-sep-2026-04:05-pm-5.-corrigendum---1-pur/enq/7638/jb/014/-bb-components/2026-27-22-sep-2026-06:55-pm-23-sep-2026-06:55-pm-6.-corrigendum---1-pur/enq/jb/008/bailey-bridge/7646/2026-27-22-sep-2026-06:55-pm-23-sep-2026-06:55-pm-7.-2026_mppgc_850033_1/c2-91-84/pnw/w/1452-21-sep-2026-02:00-pm-21-sep-2026-05:00-pm-8.-2026_mppgc_848380_4/c6-91-84/pnw/w/1326-05-oct-2026-02:00-pm-05-oct-2026-05:00-pm-9.-2026_mppgc_847729_1/c2-91-84/pnw/p/1247-05-oct-2026-02:00-pm-05-oct-2026-06:00-pm-10.-2026_mppgc_849782_1/c2-91-84/pnw/p/1415-30-sep-2026-02:00-pm-30-sep-2026-06:00-pm:1.-extension-of-tender-for-external-painting-at-embassy-residence,-mexico-city-mex/adm/551/1/2026-22-sep-2026-02:00-pm-22-sep-2026-03:30-pm-2.-extension-of-tender-for-internal-painting-at-embassy-residence,-mexico-city-mex/adm/551/2/2026-22-sep-2026-02:00-pm-22-sep-2026-03:30-pm-3.-tcn-01-dt.15/09/2026-pser-pur-brh-s674-26-21-sep-2026-02:00-pm-21-sep-2026-04:30-pm-4.-addndum-oot/circle/133/drydock/2023-29-sep-2026-04:00-pm-29-sep-2026-04:05-pm-5.-corrigendum---1-pur/enq/7638/jb/014/-bb-components/2026-27-22-sep-2026-06:55-pm-23-sep-2026-06:55-pm-6.-corrigendum---1-pur/enq/jb/008/bailey-bridge/7646/2026-27-22-sep-2026-06:55-pm-23-sep-2026-06:55-pm-7.-2026_mppgc_850033_1/c2-91-84/pnw/w/1452-21-sep-2026-02:00-pm-21-sep-2026-05:00-pm-8.-2026_mppgc_848380_4/c6-91-84/pnw/w/1326-05-oct-2026-02:00-pm-05-oct-2026-05:00-pm-9.-2026_mppgc_847729_1/c2-91-84/pnw/p/1247-05-oct-2026-02:00-pm-05-oct-2026-06:00-pm-10.-2026_mppgc_849782_1/c2-91-84/pnw/p/1415-30-sep-2026-02:00-pm-30-sep-2026-06:00-pm",
+      "externalKey": "cppp-procurement:1.-corrigendum_1-jnp/traffic/gmt/hmv/2026/eoi-24-sep-2026-03:00-pm-24-sep-2026-03:00-pm-2.-addendum-1-sgel/chq/contracts/pspcl-1000-mw/2026-30-sep-2026-02:00-pm-30-sep-2026-03:00-pm-3.-date-extended-hil/sd/2026-27/48-16-sep-2026-05:00-pm-16-sep-2026-05:30-pm-4.-date-extended-hil/sd/2026-27/52-16-sep-2026-05:00-pm-16-sep-2026-05:30-pm-5.-date-extended-hil/sd/2026-27/50-16-sep-2026-05:00-pm-16-sep-2026-05:30-pm-6.-date-extended-hil/sd/2026-27/49-16-sep-2026-05:00-pm-16-sep-2026-05:30-pm-7.-pre-bid-meeting-link-edcil/admin./empanelment-advt.-agencies/2026-30-sep-2026-03:00-pm-30-sep-2026-03:30-pm-8.-date-extended-further-hil/sd/2026-27/43-16-sep-2026-05:00-pm-16-sep-2026-05:30-pm-9.-1st-extension-of-due-date-sci/kol/p-and-r/2026-22-sep-2026-05:00-pm-24-sep-2026-05:00-pm-10.-corrigendum-1-sci/l-and-ps/s195/brng-18-sep-2026-03:00-pm-18-sep-2026-05:00-pm:1.-corrigendum_1-jnp/traffic/gmt/hmv/2026/eoi-24-sep-2026-03:00-pm-24-sep-2026-03:00-pm-2.-addendum-1-sgel/chq/contracts/pspcl-1000-mw/2026-30-sep-2026-02:00-pm-30-sep-2026-03:00-pm-3.-date-extended-hil/sd/2026-27/48-16-sep-2026-05:00-pm-16-sep-2026-05:30-pm-4.-date-extended-hil/sd/2026-27/52-16-sep-2026-05:00-pm-16-sep-2026-05:30-pm-5.-date-extended-hil/sd/2026-27/50-16-sep-2026-05:00-pm-16-sep-2026-05:30-pm-6.-date-extended-hil/sd/2026-27/49-16-sep-2026-05:00-pm-16-sep-2026-05:30-pm-7.-pre-bid-meeting-link-edcil/admin./empanelment-advt.-agencies/2026-30-sep-2026-03:00-pm-30-sep-2026-03:30-pm-8.-date-extended-further-hil/sd/2026-27/43-16-sep-2026-05:00-pm-16-sep-2026-05:30-pm-9.-1st-extension-of-due-date-sci/kol/p-and-r/2026-22-sep-2026-05:00-pm-24-sep-2026-05:00-pm-10.-corrigendum-1-sci/l-and-ps/s195/brng-18-sep-2026-03:00-pm-18-sep-2026-05:00-pm",
       "sensorId": "cppp-procurement",
-      "title": "1. Extension of Tender for External painting at Embassy residence, Mexico City MEX/Adm/551/1/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 2. Extension of Tender for Internal painting at Embassy residence, Mexico City MEX/Adm/551/2/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 3. TCN-01 DT.15/09/2026 PSER-PUR-BRH-S674-26 21-Sep-2026 02:00 PM 21-Sep-2026 04:30 PM 4. ADDNDUM OOT/Circle/133/Drydock/2023 29-Sep-2026 04:00 PM 29-Sep-2026 04:05 PM 5. Corrigendum - 1 PUR/ENQ/7638/JB/014/ BB-COMPONENT",
+      "title": "1. Corrigendum_1 JNP/TRAFFIC/GMT/HMV/2026/EOI 24-Sep-2026 03:00 PM 24-Sep-2026 03:00 PM 2. Addendum-1 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 30-Sep-2026 02:00 PM 30-Sep-2026 03:00 PM 3. Date extended HIL/SD/2026-27/48 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 4. Date extended HIL/SD/2026-27/52 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 5. Date extended HIL/SD/2026-27/50 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 6. Date extended HIL/SD/2026-27/49 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 7. Pre-Bid",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=ScGMbgQnDCZjtIZ5u7bzE6A%3D%3D",
-      "tenderReference": "1. Extension of Tender for External painting at Embassy residence, Mexico City MEX/Adm/551/1/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 2. Extension of Tender for Internal painting at Embassy residence, Mexico City MEX/Adm/551/2/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 3. TCN-01 DT.15/09/2026 PSER-PUR-BRH-S674-26 21-Sep-2026 02:00 PM 21-Sep-2026 04:30 PM 4. ADDNDUM OOT/Circle/133/Drydock/2023 29-Sep-2026 04:00 PM 29-Sep-2026 04:05 PM 5. Corrigendum - 1 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 6. Corrigendum - 1 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 7. 2026_MPPGC_850033_1/C2 91-84/PnW/W/1452 21-Sep-2026 02:00 PM 21-Sep-2026 05:00 PM 8. 2026_MPPGC_848380_4/C6 91-84/PnW/W/1326 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 9. 2026_MPPGC_847729_1/C2 91-84/PnW/P/1247 05-Oct-2026 02:00 PM 05-Oct-2026 06:00 PM 10. 2026_MPPGC_849782_1/C2 91-84/PnW/P/1415 30-Sep-2026 02:00 PM 30-Sep-2026 06:00 PM",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SiyTd%2FDd6Bz7eRRzNR0BveQ%3D%3D",
+      "tenderReference": "1. Corrigendum_1 JNP/TRAFFIC/GMT/HMV/2026/EOI 24-Sep-2026 03:00 PM 24-Sep-2026 03:00 PM 2. Addendum-1 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 30-Sep-2026 02:00 PM 30-Sep-2026 03:00 PM 3. Date extended HIL/SD/2026-27/48 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 4. Date extended HIL/SD/2026-27/52 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 5. Date extended HIL/SD/2026-27/50 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 6. Date extended HIL/SD/2026-27/49 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 7. Pre-Bid meeting link Edcil/Admin./Empanelment-Advt. Agencies/2026 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 8. Date extended Further HIL/SD/2026-27/43 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 9. 1st Extension of Due date SCI/KOL/P and R/2026 22-Sep-2026 05:00 PM 24-Sep-2026 05:00 PM 10. Corrigendum-1 SCI/L and PS/S195/BRNG 18-Sep-2026 03:00 PM 18-Sep-2026 05:00 PM",
       "geographicPrecision": "unknown",
-      "note": "MEX/Adm/551/1/2026 | 22-Sep-2026 02:00 PM | 22-Sep-2026 03:30 PM | 2. Extension of Tender for Internal painting at Embassy residence, Mexico City | MEX/Adm/551/2/2026 | 22-Sep-2026 02:00 PM | 22-Sep-2026 03:30 PM | 3. TCN-01 DT.15/09/2026 | PSER-PUR-BRH-S674-26 | 21-Sep-2026 02:00 PM | 21-Sep-2026 04:30 PM | 4. ADDNDUM | OOT/Circle/133/Drydock/2023 | 29-Sep-2026 04:00 PM | 29-Sep-2026 04:05 PM | 5. Corrigendum - 1 | PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 | 22-Sep-2026 06:55 PM | 23-Sep-2026 06:55 PM | 6. Corrigendum - 1 | PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 | 22-Sep-2026 06:55 PM | 23-Sep-2026 06:55 PM | 7. 2026_MPPGC_850033_1/C2 | 91-84/PnW/W/1452 | 21-Sep-2026 02:00 PM | 21-Sep-2026 05:00 PM | 8. 2026_MPPGC_848380_4/C6 | 91-84/PnW/W/1326 | 05-Oct-2026 02:00 PM | 05-Oct-2026 05:00 PM | 9. 2026_MPPGC_847729_1/C2 | 91-84/PnW/P/1247 | 05-Oct-2026 02:00 PM | 05-Oct-2026 06:00 PM | 10. 2026_MPPGC_849782_1/C2 | 91-84/PnW/P/1415 | 30-Sep-2026 02:00 PM | 30-Sep-2026 06:00 PM",
+      "note": "JNP/TRAFFIC/GMT/HMV/2026/EOI | 24-Sep-2026 03:00 PM | 24-Sep-2026 03:00 PM | 2. Addendum-1 | SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 | 30-Sep-2026 02:00 PM | 30-Sep-2026 03:00 PM | 3. Date extended | HIL/SD/2026-27/48 | 16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM | 4. Date extended | HIL/SD/2026-27/52 | 16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM | 5. Date extended | HIL/SD/2026-27/50 | 16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM | 6. Date extended | HIL/SD/2026-27/49 | 16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM | 7. Pre-Bid meeting link | Edcil/Admin./Empanelment-Advt. Agencies/2026 | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:30 PM | 8. Date extended Further | HIL/SD/2026-27/43 | 16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM | 9. 1st Extension of Due date | SCI/KOL/P and R/2026 | 22-Sep-2026 05:00 PM | 24-Sep-2026 05:00 PM | 10. Corrigendum-1 | SCI/L and PS/S195/BRNG | 18-Sep-2026 03:00 PM | 18-Sep-2026 05:00 PM",
       "raw": {
         "cells": [
-          "1. Extension of Tender for External painting at Embassy residence, Mexico City MEX/Adm/551/1/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 2. Extension of Tender for Internal painting at Embassy residence, Mexico City MEX/Adm/551/2/2026 22-Sep-2026 02:00 PM 22-Sep-2026 03:30 PM 3. TCN-01 DT.15/09/2026 PSER-PUR-BRH-S674-26 21-Sep-2026 02:00 PM 21-Sep-2026 04:30 PM 4. ADDNDUM OOT/Circle/133/Drydock/2023 29-Sep-2026 04:00 PM 29-Sep-2026 04:05 PM 5. Corrigendum - 1 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 6. Corrigendum - 1 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 7. 2026_MPPGC_850033_1/C2 91-84/PnW/W/1452 21-Sep-2026 02:00 PM 21-Sep-2026 05:00 PM 8. 2026_MPPGC_848380_4/C6 91-84/PnW/W/1326 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 9. 2026_MPPGC_847729_1/C2 91-84/PnW/P/1247 05-Oct-2026 02:00 PM 05-Oct-2026 06:00 PM 10. 2026_MPPGC_849782_1/C2 91-84/PnW/P/1415 30-Sep-2026 02:00 PM 30-Sep-2026 06:00 PM",
-          "1. Extension of Tender for External painting at Embassy residence, Mexico City",
-          "MEX/Adm/551/1/2026",
-          "22-Sep-2026 02:00 PM",
-          "22-Sep-2026 03:30 PM",
-          "2. Extension of Tender for Internal painting at Embassy residence, Mexico City",
-          "MEX/Adm/551/2/2026",
-          "22-Sep-2026 02:00 PM",
-          "22-Sep-2026 03:30 PM",
-          "3. TCN-01 DT.15/09/2026",
-          "PSER-PUR-BRH-S674-26",
-          "21-Sep-2026 02:00 PM",
-          "21-Sep-2026 04:30 PM",
-          "4. ADDNDUM",
-          "OOT/Circle/133/Drydock/2023",
-          "29-Sep-2026 04:00 PM",
-          "29-Sep-2026 04:05 PM",
-          "5. Corrigendum - 1",
-          "PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27",
-          "22-Sep-2026 06:55 PM",
-          "23-Sep-2026 06:55 PM",
-          "6. Corrigendum - 1",
-          "PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27",
-          "22-Sep-2026 06:55 PM",
-          "23-Sep-2026 06:55 PM",
-          "7. 2026_MPPGC_850033_1/C2",
-          "91-84/PnW/W/1452",
-          "21-Sep-2026 02:00 PM",
-          "21-Sep-2026 05:00 PM",
-          "8. 2026_MPPGC_848380_4/C6",
-          "91-84/PnW/W/1326",
-          "05-Oct-2026 02:00 PM",
-          "05-Oct-2026 05:00 PM",
-          "9. 2026_MPPGC_847729_1/C2",
-          "91-84/PnW/P/1247",
-          "05-Oct-2026 02:00 PM",
-          "05-Oct-2026 06:00 PM",
-          "10. 2026_MPPGC_849782_1/C2",
-          "91-84/PnW/P/1415",
+          "1. Corrigendum_1 JNP/TRAFFIC/GMT/HMV/2026/EOI 24-Sep-2026 03:00 PM 24-Sep-2026 03:00 PM 2. Addendum-1 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 30-Sep-2026 02:00 PM 30-Sep-2026 03:00 PM 3. Date extended HIL/SD/2026-27/48 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 4. Date extended HIL/SD/2026-27/52 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 5. Date extended HIL/SD/2026-27/50 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 6. Date extended HIL/SD/2026-27/49 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 7. Pre-Bid meeting link Edcil/Admin./Empanelment-Advt. Agencies/2026 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 8. Date extended Further HIL/SD/2026-27/43 16-Sep-2026 05:00 PM 16-Sep-2026 05:30 PM 9. 1st Extension of Due date SCI/KOL/P and R/2026 22-Sep-2026 05:00 PM 24-Sep-2026 05:00 PM 10. Corrigendum-1 SCI/L and PS/S195/BRNG 18-Sep-2026 03:00 PM 18-Sep-2026 05:00 PM",
+          "1. Corrigendum_1",
+          "JNP/TRAFFIC/GMT/HMV/2026/EOI",
+          "24-Sep-2026 03:00 PM",
+          "24-Sep-2026 03:00 PM",
+          "2. Addendum-1",
+          "SGEL/CHQ/Contracts/PSPCL-1000 MW/2026",
           "30-Sep-2026 02:00 PM",
-          "30-Sep-2026 06:00 PM"
+          "30-Sep-2026 03:00 PM",
+          "3. Date extended",
+          "HIL/SD/2026-27/48",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM",
+          "4. Date extended",
+          "HIL/SD/2026-27/52",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM",
+          "5. Date extended",
+          "HIL/SD/2026-27/50",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM",
+          "6. Date extended",
+          "HIL/SD/2026-27/49",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM",
+          "7. Pre-Bid meeting link",
+          "Edcil/Admin./Empanelment-Advt. Agencies/2026",
+          "30-Sep-2026 03:00 PM",
+          "30-Sep-2026 03:30 PM",
+          "8. Date extended Further",
+          "HIL/SD/2026-27/43",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM",
+          "9. 1st Extension of Due date",
+          "SCI/KOL/P and R/2026",
+          "22-Sep-2026 05:00 PM",
+          "24-Sep-2026 05:00 PM",
+          "10. Corrigendum-1",
+          "SCI/L and PS/S195/BRNG",
+          "18-Sep-2026 03:00 PM",
+          "18-Sep-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.812Z",
-      "evidenceHash": "7cc856257dab608b57fd9cfb42ecf0bd01eaf936048f62e34fae811eeac29e9e"
+      "observedAt": "2026-09-16T07:40:09.139Z",
+      "evidenceHash": "f2420b8d207a50487c6d41ba6f75d1d90a7e47bb74e588a0d28bd5ad6541edd1"
     },
     {
-      "externalKey": "cppp-procurement:1.-extension-of-tender-for-external-painting-at-embassy-residence,-mexico-city:1.-extension-of-tender-for-external-painting-at-embassy-residence,-mexico-city",
+      "externalKey": "cppp-procurement:jnp/traffic/gmt/hmv/2026/eoi:1.-corrigendum_1",
       "sensorId": "cppp-procurement",
-      "title": "1. Extension of Tender for External painting at Embassy residence, Mexico City",
+      "title": "1. Corrigendum_1",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=ScGMbgQnDCZjtIZ5u7bzE6A%3D%3D",
-      "tenderReference": "1. Extension of Tender for External painting at Embassy residence, Mexico City",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SiyTd%2FDd6Bz7eRRzNR0BveQ%3D%3D",
+      "tenderReference": "JNP/TRAFFIC/GMT/HMV/2026/EOI",
       "geographicPrecision": "unknown",
-      "note": "22-Sep-2026 02:00 PM | 22-Sep-2026 03:30 PM",
+      "note": "24-Sep-2026 03:00 PM | 24-Sep-2026 03:00 PM",
       "raw": {
         "cells": [
-          "1. Extension of Tender for External painting at Embassy residence, Mexico City",
-          "MEX/Adm/551/1/2026",
-          "22-Sep-2026 02:00 PM",
-          "22-Sep-2026 03:30 PM"
+          "1. Corrigendum_1",
+          "JNP/TRAFFIC/GMT/HMV/2026/EOI",
+          "24-Sep-2026 03:00 PM",
+          "24-Sep-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.812Z",
-      "evidenceHash": "760ccf2c462e3be85a0c38897607f1f3cb247634634797ad1a78236f737fe7ee"
+      "observedAt": "2026-09-16T07:40:09.139Z",
+      "evidenceHash": "cdc558bba263abfcdf57bff1f64f668a50adfba5165c0d337e3076253774e6f1"
     },
     {
-      "externalKey": "cppp-procurement:2.-extension-of-tender-for-internal-painting-at-embassy-residence,-mexico-city:2.-extension-of-tender-for-internal-painting-at-embassy-residence,-mexico-city",
+      "externalKey": "cppp-procurement:sgel/chq/contracts/pspcl-1000-mw/2026:2.-addendum-1",
       "sensorId": "cppp-procurement",
-      "title": "2. Extension of Tender for Internal painting at Embassy residence, Mexico City",
+      "title": "2. Addendum-1",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SOukF2HhdAAoMBaMbIwZf5w%3D%3D",
-      "tenderReference": "2. Extension of Tender for Internal painting at Embassy residence, Mexico City",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SuuEF3mvuuVT4%2F8Q3a0Roww%3D%3D",
+      "tenderReference": "SGEL/CHQ/Contracts/PSPCL-1000 MW/2026",
       "geographicPrecision": "unknown",
-      "note": "22-Sep-2026 02:00 PM | 22-Sep-2026 03:30 PM",
+      "note": "30-Sep-2026 02:00 PM | 30-Sep-2026 03:00 PM",
       "raw": {
         "cells": [
-          "2. Extension of Tender for Internal painting at Embassy residence, Mexico City",
-          "MEX/Adm/551/2/2026",
-          "22-Sep-2026 02:00 PM",
-          "22-Sep-2026 03:30 PM"
-        ]
-      },
-      "observedAt": "2026-09-16T01:23:43.812Z",
-      "evidenceHash": "61a4d74e1c3ed2555c67cc788fbc795152fc7ac32076e59779131f04ced0c935"
-    },
-    {
-      "externalKey": "cppp-procurement:pser-pur-brh-s674-26:3.-tcn-01-dt.15/09/2026",
-      "sensorId": "cppp-procurement",
-      "title": "3. TCN-01 DT.15/09/2026",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=Sc6uLiccv0yOBTYaplD7Y1g%3D%3D",
-      "tenderReference": "PSER-PUR-BRH-S674-26",
-      "geographicPrecision": "unknown",
-      "note": "21-Sep-2026 02:00 PM | 21-Sep-2026 04:30 PM",
-      "raw": {
-        "cells": [
-          "3. TCN-01 DT.15/09/2026",
-          "PSER-PUR-BRH-S674-26",
-          "21-Sep-2026 02:00 PM",
-          "21-Sep-2026 04:30 PM"
-        ]
-      },
-      "observedAt": "2026-09-16T01:23:43.812Z",
-      "evidenceHash": "c5704fee2e0226494203d8dce28d09584ae0f3109f5f739dd75f68249be78cbc"
-    },
-    {
-      "externalKey": "cppp-procurement:oot/circle/133/drydock/2023:4.-addndum",
-      "sensorId": "cppp-procurement",
-      "title": "4. ADDNDUM",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SVBr1adnDiaLuRTxvwRWe%2Fw%3D%3D",
-      "tenderReference": "OOT/Circle/133/Drydock/2023",
-      "geographicPrecision": "unknown",
-      "note": "29-Sep-2026 04:00 PM | 29-Sep-2026 04:05 PM",
-      "raw": {
-        "cells": [
-          "4. ADDNDUM",
-          "OOT/Circle/133/Drydock/2023",
-          "29-Sep-2026 04:00 PM",
-          "29-Sep-2026 04:05 PM"
-        ]
-      },
-      "observedAt": "2026-09-16T01:23:43.812Z",
-      "evidenceHash": "faa1a61b51ae710cada5cdb0ec462ec4dd7c5a5ead84a384c7bd0561036489fd"
-    },
-    {
-      "externalKey": "cppp-procurement:pur/enq/7638/jb/014/-bb-components/2026-27:5.-corrigendum---1",
-      "sensorId": "cppp-procurement",
-      "title": "5. Corrigendum - 1",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=S6Znzhn%2FTleoCXqLoWSkYYQ%3D%3D",
-      "tenderReference": "PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27",
-      "geographicPrecision": "unknown",
-      "note": "22-Sep-2026 06:55 PM | 23-Sep-2026 06:55 PM",
-      "raw": {
-        "cells": [
-          "5. Corrigendum - 1",
-          "PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27",
-          "22-Sep-2026 06:55 PM",
-          "23-Sep-2026 06:55 PM"
-        ]
-      },
-      "observedAt": "2026-09-16T01:23:43.812Z",
-      "evidenceHash": "d23150b0f5162fb5c2a50d96fec63afbe4c5b693c5e0f413512e17d8320bb0e6"
-    },
-    {
-      "externalKey": "cppp-procurement:pur/enq/jb/008/bailey-bridge/7646/2026-27:6.-corrigendum---1",
-      "sensorId": "cppp-procurement",
-      "title": "6. Corrigendum - 1",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SHlx2qMBRz4dAF%2Bq%2FviS7SA%3D%3D",
-      "tenderReference": "PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27",
-      "geographicPrecision": "unknown",
-      "note": "22-Sep-2026 06:55 PM | 23-Sep-2026 06:55 PM",
-      "raw": {
-        "cells": [
-          "6. Corrigendum - 1",
-          "PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27",
-          "22-Sep-2026 06:55 PM",
-          "23-Sep-2026 06:55 PM"
-        ]
-      },
-      "observedAt": "2026-09-16T01:23:43.812Z",
-      "evidenceHash": "25995c476265570d637a2502690517f9946180f590f3a4dc6f739d3698d333ca"
-    },
-    {
-      "externalKey": "cppp-procurement:7.-2026_mppgc_850033_1/c2:7.-2026_mppgc_850033_1/c2",
-      "sensorId": "cppp-procurement",
-      "title": "7. 2026_MPPGC_850033_1/C2",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=S8O%2BXIu6ap%2BFPY%2FjiGGc3BA%3D%3D",
-      "tenderReference": "7. 2026_MPPGC_850033_1/C2",
-      "geographicPrecision": "unknown",
-      "note": "21-Sep-2026 02:00 PM | 21-Sep-2026 05:00 PM",
-      "raw": {
-        "cells": [
-          "7. 2026_MPPGC_850033_1/C2",
-          "91-84/PnW/W/1452",
-          "21-Sep-2026 02:00 PM",
-          "21-Sep-2026 05:00 PM"
-        ]
-      },
-      "observedAt": "2026-09-16T01:23:43.812Z",
-      "evidenceHash": "58923aabcddaadb432da12eb757f27cd0decfd1bdc7da9cb5ac084a23bb0e3a5"
-    },
-    {
-      "externalKey": "cppp-procurement:8.-2026_mppgc_848380_4/c6:8.-2026_mppgc_848380_4/c6",
-      "sensorId": "cppp-procurement",
-      "title": "8. 2026_MPPGC_848380_4/C6",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SWPgNOVfyxtdU4USiDJE%2F%2Fw%3D%3D",
-      "tenderReference": "8. 2026_MPPGC_848380_4/C6",
-      "geographicPrecision": "unknown",
-      "note": "05-Oct-2026 02:00 PM | 05-Oct-2026 05:00 PM",
-      "raw": {
-        "cells": [
-          "8. 2026_MPPGC_848380_4/C6",
-          "91-84/PnW/W/1326",
-          "05-Oct-2026 02:00 PM",
-          "05-Oct-2026 05:00 PM"
-        ]
-      },
-      "observedAt": "2026-09-16T01:23:43.813Z",
-      "evidenceHash": "bb73914fb23c1d3a35333dd5b6ce27c919a8dff37166d50782fc06399465389c"
-    },
-    {
-      "externalKey": "cppp-procurement:9.-2026_mppgc_847729_1/c2:9.-2026_mppgc_847729_1/c2",
-      "sensorId": "cppp-procurement",
-      "title": "9. 2026_MPPGC_847729_1/C2",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SzGbwbbAo044wclNz5ACOCg%3D%3D",
-      "tenderReference": "9. 2026_MPPGC_847729_1/C2",
-      "geographicPrecision": "unknown",
-      "note": "05-Oct-2026 02:00 PM | 05-Oct-2026 06:00 PM",
-      "raw": {
-        "cells": [
-          "9. 2026_MPPGC_847729_1/C2",
-          "91-84/PnW/P/1247",
-          "05-Oct-2026 02:00 PM",
-          "05-Oct-2026 06:00 PM"
-        ]
-      },
-      "observedAt": "2026-09-16T01:23:43.813Z",
-      "evidenceHash": "b8f9438987cadccf31373ec6add8976e65e7d00f85d5253ed3270ecf78c56def"
-    },
-    {
-      "externalKey": "cppp-procurement:10.-2026_mppgc_849782_1/c2:10.-2026_mppgc_849782_1/c2",
-      "sensorId": "cppp-procurement",
-      "title": "10. 2026_MPPGC_849782_1/C2",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SF9KfajF5NhXKFRSmnYAfgQ%3D%3D",
-      "tenderReference": "10. 2026_MPPGC_849782_1/C2",
-      "geographicPrecision": "unknown",
-      "note": "30-Sep-2026 02:00 PM | 30-Sep-2026 06:00 PM",
-      "raw": {
-        "cells": [
-          "10. 2026_MPPGC_849782_1/C2",
-          "91-84/PnW/P/1415",
+          "2. Addendum-1",
+          "SGEL/CHQ/Contracts/PSPCL-1000 MW/2026",
           "30-Sep-2026 02:00 PM",
-          "30-Sep-2026 06:00 PM"
+          "30-Sep-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.813Z",
-      "evidenceHash": "ccd7b934a0fa87ae2abeb86366a417c7cdd835567e019a38c73d5fa6189c48fc"
+      "observedAt": "2026-09-16T07:40:09.139Z",
+      "evidenceHash": "12ea826f1361575bb402066c79b00f54d1e6fd682c48dc9f6c8bd007367f611a"
+    },
+    {
+      "externalKey": "cppp-procurement:hil/sd/2026-27/48:3.-date-extended",
+      "sensorId": "cppp-procurement",
+      "title": "3. Date extended",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SFAiBfRypVF0eFEA6VGC3RQ%3D%3D",
+      "tenderReference": "HIL/SD/2026-27/48",
+      "geographicPrecision": "unknown",
+      "note": "16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM",
+      "raw": {
+        "cells": [
+          "3. Date extended",
+          "HIL/SD/2026-27/48",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-16T07:40:09.139Z",
+      "evidenceHash": "2fd89f12b0a0c543e183fbb22ea4f3af1a107b90e8733d078f26db65ba8583cd"
+    },
+    {
+      "externalKey": "cppp-procurement:hil/sd/2026-27/52:4.-date-extended",
+      "sensorId": "cppp-procurement",
+      "title": "4. Date extended",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=STFar7peG8%2BbnTRRypGVo3g%3D%3D",
+      "tenderReference": "HIL/SD/2026-27/52",
+      "geographicPrecision": "unknown",
+      "note": "16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM",
+      "raw": {
+        "cells": [
+          "4. Date extended",
+          "HIL/SD/2026-27/52",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-16T07:40:09.139Z",
+      "evidenceHash": "8acee4a5280657991aca2689b5b631f10b12e4f666fc9cfa837653f77d4ab83b"
+    },
+    {
+      "externalKey": "cppp-procurement:hil/sd/2026-27/50:5.-date-extended",
+      "sensorId": "cppp-procurement",
+      "title": "5. Date extended",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SUAxb3dsYfBd6dnagvzyYFQ%3D%3D",
+      "tenderReference": "HIL/SD/2026-27/50",
+      "geographicPrecision": "unknown",
+      "note": "16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM",
+      "raw": {
+        "cells": [
+          "5. Date extended",
+          "HIL/SD/2026-27/50",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-16T07:40:09.140Z",
+      "evidenceHash": "df652d1f9a23a590ecc6771cc4e90fedcdf606a1a503ef86fadd9b764a6bddb0"
+    },
+    {
+      "externalKey": "cppp-procurement:hil/sd/2026-27/49:6.-date-extended",
+      "sensorId": "cppp-procurement",
+      "title": "6. Date extended",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SfN6n4vEB4bmvYCvls9DN1Q%3D%3D",
+      "tenderReference": "HIL/SD/2026-27/49",
+      "geographicPrecision": "unknown",
+      "note": "16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM",
+      "raw": {
+        "cells": [
+          "6. Date extended",
+          "HIL/SD/2026-27/49",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-16T07:40:09.140Z",
+      "evidenceHash": "ba00fae01ac3083609be182cccce14d80bc09c37d055eef7157320ae474401fb"
+    },
+    {
+      "externalKey": "cppp-procurement:7.-pre-bid-meeting-link:7.-pre-bid-meeting-link",
+      "sensorId": "cppp-procurement",
+      "title": "7. Pre-Bid meeting link",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=ScDDLY8jvcBVQEDib0JPAGw%3D%3D",
+      "tenderReference": "7. Pre-Bid meeting link",
+      "geographicPrecision": "unknown",
+      "note": "30-Sep-2026 03:00 PM | 30-Sep-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "7. Pre-Bid meeting link",
+          "Edcil/Admin./Empanelment-Advt. Agencies/2026",
+          "30-Sep-2026 03:00 PM",
+          "30-Sep-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-16T07:40:09.140Z",
+      "evidenceHash": "e93cd195c9064a64488b18353833799671741cad8c94c0751c28a7864c17358c"
+    },
+    {
+      "externalKey": "cppp-procurement:hil/sd/2026-27/43:8.-date-extended-further",
+      "sensorId": "cppp-procurement",
+      "title": "8. Date extended Further",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=Sg4OHAlyFzemX9IGgMb9nyA%3D%3D",
+      "tenderReference": "HIL/SD/2026-27/43",
+      "geographicPrecision": "unknown",
+      "note": "16-Sep-2026 05:00 PM | 16-Sep-2026 05:30 PM",
+      "raw": {
+        "cells": [
+          "8. Date extended Further",
+          "HIL/SD/2026-27/43",
+          "16-Sep-2026 05:00 PM",
+          "16-Sep-2026 05:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-16T07:40:09.140Z",
+      "evidenceHash": "69120a8c92372fa64d16173877009a543ac2f1cd88a3f01c1f636e0028342f2c"
+    },
+    {
+      "externalKey": "cppp-procurement:sci/kol/p-and-r/2026:9.-1st-extension-of-due-date",
+      "sensorId": "cppp-procurement",
+      "title": "9. 1st Extension of Due date",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SNs6RF%2F4jKDm5h8tKObuDUg%3D%3D",
+      "tenderReference": "SCI/KOL/P and R/2026",
+      "geographicPrecision": "unknown",
+      "note": "22-Sep-2026 05:00 PM | 24-Sep-2026 05:00 PM",
+      "raw": {
+        "cells": [
+          "9. 1st Extension of Due date",
+          "SCI/KOL/P and R/2026",
+          "22-Sep-2026 05:00 PM",
+          "24-Sep-2026 05:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-16T07:40:09.140Z",
+      "evidenceHash": "0395f87b9220ee35e06c4aa63234986972584f425d3e5ff47d19d9fb1a2cbf79"
+    },
+    {
+      "externalKey": "cppp-procurement:sci/l-and-ps/s195/brng:10.-corrigendum-1",
+      "sensorId": "cppp-procurement",
+      "title": "10. Corrigendum-1",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SlQspXxFoKJNSGlTQfvhdaw%3D%3D",
+      "tenderReference": "SCI/L and PS/S195/BRNG",
+      "geographicPrecision": "unknown",
+      "note": "18-Sep-2026 03:00 PM | 18-Sep-2026 05:00 PM",
+      "raw": {
+        "cells": [
+          "10. Corrigendum-1",
+          "SCI/L and PS/S195/BRNG",
+          "18-Sep-2026 03:00 PM",
+          "18-Sep-2026 05:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-16T07:40:09.140Z",
+      "evidenceHash": "7cfb172428bce257c0606cdbc932e4b890e467a57ff401ac5b37e78f989334ea"
     },
     {
       "externalKey": "cppp-procurement:more...:latest-corrigendum-updates-every-15-mins.",
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.813Z",
+      "observedAt": "2026-09-16T07:40:09.140Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.813Z",
+      "observedAt": "2026-09-16T07:40:09.140Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.813Z",
+      "observedAt": "2026-09-16T07:40:09.140Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.813Z",
+      "observedAt": "2026-09-16T07:40:09.140Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.813Z",
+      "observedAt": "2026-09-16T07:40:09.141Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.813Z",
+      "observedAt": "2026-09-16T07:40:09.141Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.813Z",
+      "observedAt": "2026-09-16T07:40:09.141Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.813Z",
+      "observedAt": "2026-09-16T07:40:09.141Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.813Z",
+      "observedAt": "2026-09-16T07:40:09.141Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.813Z",
+      "observedAt": "2026-09-16T07:40:09.142Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.814Z",
+      "observedAt": "2026-09-16T07:40:09.142Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.814Z",
+      "observedAt": "2026-09-16T07:40:09.142Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-16T01:23:43.814Z",
+      "observedAt": "2026-09-16T07:40:09.142Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "126469"
       },
-      "observedAt": "2026-09-16T01:23:46.141Z",
+      "observedAt": "2026-09-16T07:40:11.574Z",
       "evidenceHash": "1c7d422b591169eb80826592dabb65db5168877db9d1d58f0ef0bcd51dcb5e6f"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "126458"
       },
-      "observedAt": "2026-09-16T01:23:46.141Z",
+      "observedAt": "2026-09-16T07:40:11.574Z",
       "evidenceHash": "e01566022e060c485559292b09732dafecf684c8ad5553baa0e1ac1585824a57"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "126325"
       },
-      "observedAt": "2026-09-16T01:23:46.141Z",
+      "observedAt": "2026-09-16T07:40:11.574Z",
       "evidenceHash": "59cb65fbe0232a895436738f801dbfafdc394a62f0f1b4fbe7e625cc119a4ffa"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "126309"
       },
-      "observedAt": "2026-09-16T01:23:46.141Z",
+      "observedAt": "2026-09-16T07:40:11.574Z",
       "evidenceHash": "c6b423a5a20b11b3e1564f2f839629d82a2937e6326aeb72643d6819bef6cd43"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "126303"
       },
-      "observedAt": "2026-09-16T01:23:46.141Z",
+      "observedAt": "2026-09-16T07:40:11.574Z",
       "evidenceHash": "090e9437e7e90c7f81874103baa7d01e15603ff15948b4f9572575236bac067d"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "126302"
       },
-      "observedAt": "2026-09-16T01:23:46.141Z",
+      "observedAt": "2026-09-16T07:40:11.574Z",
       "evidenceHash": "748a312ce1b84dae7f90b8c2b9377201625fdf33eb2420307ec96ba7cb10fff7"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "126301"
       },
-      "observedAt": "2026-09-16T01:23:46.141Z",
+      "observedAt": "2026-09-16T07:40:11.574Z",
       "evidenceHash": "282ed13302a3052cf4b2f694d2136480716e5bc4d7ca375bfb3f47e4f7423be5"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "126283"
       },
-      "observedAt": "2026-09-16T01:23:46.141Z",
+      "observedAt": "2026-09-16T07:40:11.574Z",
       "evidenceHash": "835ec0a65727e1762a4667c7b0562ffacb5e1854441a4a50f7250e35e751e3fa"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "126269"
       },
-      "observedAt": "2026-09-16T01:23:46.141Z",
+      "observedAt": "2026-09-16T07:40:11.574Z",
       "evidenceHash": "45e7a693e09f448888485a3564527657cc895b2be74863b4d65f00322d147bff"
     },
     {
@@ -1809,7 +1809,7 @@
       "raw": {
         "reportId": "126255"
       },
-      "observedAt": "2026-09-16T01:23:46.141Z",
+      "observedAt": "2026-09-16T07:40:11.574Z",
       "evidenceHash": "f5a3a87979dab783288333f3f23152d2391f4aec7bdacae108f212bbaffdea20"
     },
     {
@@ -1822,7 +1822,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-16T01:23:44.750Z",
+      "observedAt": "2026-09-16T07:40:12.000Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1835,7 +1835,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-16T01:23:44.751Z",
+      "observedAt": "2026-09-16T07:40:12.001Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1848,7 +1848,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-16T01:23:44.751Z",
+      "observedAt": "2026-09-16T07:40:12.001Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1861,7 +1861,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-16T01:23:44.751Z",
+      "observedAt": "2026-09-16T07:40:12.001Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1874,7 +1874,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-16T01:23:44.751Z",
+      "observedAt": "2026-09-16T07:40:12.001Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1888,7 +1888,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-16T01:23:44.751Z",
+      "observedAt": "2026-09-16T07:40:12.001Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1902,7 +1902,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-16T01:23:44.751Z",
+      "observedAt": "2026-09-16T07:40:12.001Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1916,7 +1916,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-16T01:23:44.751Z",
+      "observedAt": "2026-09-16T07:40:12.001Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1935,7 +1935,7 @@
         "anchorText": "Detailed information of points under 100 days Action Plan Programme of Hon. Chief Minister",
         "rowText": ""
       },
-      "observedAt": "2026-09-16T01:24:19.825Z",
+      "observedAt": "2026-09-16T07:40:45.199Z",
       "evidenceHash": "d8f5135f1dd223467673fa54a0f0b2bd2488edeeb7779d616c8217a96c98587b"
     },
     {
@@ -1954,7 +1954,7 @@
         "anchorText": "100 Days Office Improvement Special Campaign Finance Department Maharashtra Government Directorate of Accounts and Treasuries ,Mumbai",
         "rowText": ""
       },
-      "observedAt": "2026-09-16T01:24:19.825Z",
+      "observedAt": "2026-09-16T07:40:45.199Z",
       "evidenceHash": "9f190d28746facab2e62556d0d56dace4b8b4c0eea3f0d43559756bdbe42cc5a"
     },
     {
@@ -1973,7 +1973,7 @@
         "anchorText": "100 Days Office Improvement Special Campaign Finance Department Government of Maharashtra Commissioner State Lottery Directorate, Mumbai.",
         "rowText": ""
       },
-      "observedAt": "2026-09-16T01:24:19.825Z",
+      "observedAt": "2026-09-16T07:40:45.199Z",
       "evidenceHash": "cf748a50cba97155d112067b9c587b4469cacf1309bfba084f93ac0bf0af51b6"
     },
     {
@@ -1992,7 +1992,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-09-16T01:24:19.826Z",
+      "observedAt": "2026-09-16T07:40:45.199Z",
       "evidenceHash": "da9620097a10a7cd8a3c8abc74d37adfa1e9ab21537eb9a192a1f0273327ef75"
     },
     {
@@ -2011,7 +2011,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-09-16T01:24:19.828Z",
+      "observedAt": "2026-09-16T07:40:45.208Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -2030,7 +2030,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-09-16T01:24:19.828Z",
+      "observedAt": "2026-09-16T07:40:45.208Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -2049,7 +2049,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-09-16T01:24:19.828Z",
+      "observedAt": "2026-09-16T07:40:45.208Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -2068,7 +2068,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-09-16T01:24:19.829Z",
+      "observedAt": "2026-09-16T07:40:45.208Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2087,7 +2087,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-09-16T01:24:19.829Z",
+      "observedAt": "2026-09-16T07:40:45.208Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2106,7 +2106,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-09-16T01:24:19.829Z",
+      "observedAt": "2026-09-16T07:40:45.208Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2124,7 +2124,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-09-16T01:24:17.107Z",
+      "observedAt": "2026-09-16T07:40:42.400Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
