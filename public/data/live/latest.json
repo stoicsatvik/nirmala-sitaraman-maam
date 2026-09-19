@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T21:41:39.884Z",
+  "generatedAt": "2026-09-19T00:19:32.329Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -8,7 +8,7 @@
   },
   "summary": {
     "sensors": 10,
-    "healthySensors": 8,
+    "healthySensors": 9,
     "records": 80,
     "reconciledLinks": 2
   },
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-09-18T21:39:56.101Z",
+      "fetchedAt": "2026-09-19T00:18:51.312Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-09-18T21:39:56.109Z",
+      "fetchedAt": "2026-09-19T00:18:51.329Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-09-18T21:39:56.110Z",
+      "fetchedAt": "2026-09-19T00:18:51.330Z",
       "ok": true,
       "recordCount": 45,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-09-18T21:39:56.111Z",
+      "fetchedAt": "2026-09-19T00:18:51.332Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-18T21:39:56.112Z",
+      "fetchedAt": "2026-09-19T00:18:51.333Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-18T21:39:56.114Z",
+      "fetchedAt": "2026-09-19T00:18:51.337Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-18T21:40:29.627Z",
+      "fetchedAt": "2026-09-19T00:19:25.064Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -112,10 +112,10 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-18T21:40:29.626Z",
-      "ok": false,
+      "fetchedAt": "2026-09-19T00:19:25.062Z",
+      "ok": true,
       "recordCount": 0,
-      "error": "Unexpected server response (500) while retrieving PDF \"https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Accountant%20%28Finance%29/Budget/Budget%20Estimate%202026-2027/STANDING%20COMMITTEE%202026-2027.pdf\"."
+      "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
     },
     {
       "id": "cppp-contract-awards",
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-09-18T21:40:29.628Z",
+      "fetchedAt": "2026-09-19T00:19:25.065Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-09-18T21:40:29.628Z",
+      "fetchedAt": "2026-09-19T00:19:25.066Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 13112180000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1209088983",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1209088983",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1047562026",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1047562026",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹13,11,218 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(30.8%)"
         ]
       },
-      "observedAt": "2026-09-18T21:40:01.640Z",
-      "evidenceHash": "2850533a8ebbeb238e4da8b6eb958848ae51112b03098bcb36b63d06ff55a816"
+      "observedAt": "2026-09-19T00:18:57.236Z",
+      "evidenceHash": "f69e3d80ad1f630a5f2317e71a2e133f2dd35c37c8c6ad1c3f5adc81cb30bca3"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:7:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4265660000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1209088983",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1209088983",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1047562026",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1047562026",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,26,566 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(35.0%)"
         ]
       },
-      "observedAt": "2026-09-18T21:40:01.641Z",
-      "evidenceHash": "5644e7d1cb2ad55b47d081d9065994e194052aaf3bdfca02f9890b8011f1aeb9"
+      "observedAt": "2026-09-19T00:18:57.236Z",
+      "evidenceHash": "4e37815d764cfe9819157834c5c59c4156be1e1679f803d7b5e8ce2364d879d5"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:7:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4506350000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1209088983",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1209088983",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1047562026",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1047562026",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,50,635 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-18T21:40:01.641Z",
-      "evidenceHash": "2ec7c7b630394eb5775444ae675a9185a4036e777a77b8db8e4db5d111cbeb59"
+      "observedAt": "2026-09-19T00:18:57.236Z",
+      "evidenceHash": "95da496b8aa00481110c8d37d890cb75dcd8b05aacee31ffe69b5440684c4b82"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:7:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1262720000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1209088983",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1209088983",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1047562026",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1047562026",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,26,272 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(42.8%)"
         ]
       },
-      "observedAt": "2026-09-18T21:40:01.641Z",
-      "evidenceHash": "9b61c5b85437919ffebaf469a69bf450cd58c37a5107456a00bc5b8433912271"
+      "observedAt": "2026-09-19T00:18:57.236Z",
+      "evidenceHash": "50323edab6a4bd414fcfeb5703d0bf23645d14746f3ab50f40a4bd39a9799663"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:7:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 17618530000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1209088983",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1209088983",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1047562026",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1047562026",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹17,61,853 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-18T21:40:01.641Z",
-      "evidenceHash": "c8bf5135395e398e5a2b42b2c73696f8f52fab01449799a88172884b56e150f9"
+      "observedAt": "2026-09-19T00:18:57.236Z",
+      "evidenceHash": "bb01bb5406dc20ffb036e0697c80ba468a5e6bfd6616e70569b9e7bcd509643a"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:7:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1535133400000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1209088983",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1209088983",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1047562026",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1047562026",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,53,513.34 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,8 +323,8 @@
           "(30%)"
         ]
       },
-      "observedAt": "2026-09-18T21:40:01.642Z",
-      "evidenceHash": "723e8c5b074c035e4d7d42cf4897798f57ef4b01f7f0e6410f953fb2466f130e"
+      "observedAt": "2026-09-19T00:18:57.238Z",
+      "evidenceHash": "05b054a4362de3121a27f0832a9c5ed9d9a95ce5801fc99062aee21d0508a287"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access-19-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-19-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
@@ -357,7 +357,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.801Z",
+      "observedAt": "2026-09-19T00:18:53.002Z",
       "evidenceHash": "39d883500d38b70332fceda97447aa32653e4bba823111abe00518490b32d455"
     },
     {
@@ -377,7 +377,7 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.802Z",
+      "observedAt": "2026-09-19T00:18:53.003Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
@@ -403,7 +403,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.802Z",
+      "observedAt": "2026-09-19T00:18:53.004Z",
       "evidenceHash": "b8ba6ebd1c223c076a88f39b7078ef72017f7eb224a8dd44c1dad00e6c929ad9"
     },
     {
@@ -428,7 +428,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.802Z",
+      "observedAt": "2026-09-19T00:18:53.004Z",
       "evidenceHash": "a8cea54685a6be8b94029ffc1f1aa0e04acea9908cb9d53df27ed620f7f99071"
     },
     {
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.803Z",
+      "observedAt": "2026-09-19T00:18:53.004Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.803Z",
+      "observedAt": "2026-09-19T00:18:53.004Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM 5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026 07-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 9. Miscellaneous civil Work in New pitless weigh brige at kandri mine CIVIL/KD/T.E./26-27/151 Date - 16.09.2026 30-Sep-2026 04:00 PM 30-Sep-2026 04:30 PM 10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133 22-Sep-2026 12:30 PM 22-Sep-2026 06:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM 5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026 07-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 9. Miscellaneous civil Work in New pitless weigh brige at kandri mine CIVIL/KD/T.E./26-27/151 Date - 16.09.2026 30-Sep-2026 04:00 PM 30-Sep-2026 04:30 PM 10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133 22-Sep-2026 12:30 PM 22-Sep-2026 06:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM 5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026 07-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 9. Miscellaneous civil Work in New pitless weigh brige at kandri mine CIVIL/KD/T.E./26-27/151 Date - 16.09.2026 30-Sep-2026 04:00 PM 30-Sep-2026 04:30 PM 10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133 22-Sep-2026 12:30 PM 22-Sep-2026 06:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM 5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026 07-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 9. Miscellaneous civil Work in New pitless weigh brige at kandri mine CIVIL/KD/T.E./26-27/151 Date - 16.09.2026 30-Sep-2026 04:00 PM 30-Sep-2026 04:30 PM 10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133 22-Sep-2026 12:30 PM 22-Sep-2026 06:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM 5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026 07-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 9. Miscellaneous civil Work in New pitless weigh brige at kandri mine CIVIL/KD/T.E./26-27/151 Date - 16.09.2026 30-Sep-2026 04:00 PM 30-Sep-2026 04:30 PM 10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133 22-Sep-2026 12:30 PM 22-Sep-2026 06:00 PM | 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) | 6100003146 | 05-Oct-2026 01:00 PM | 05-Oct-2026 04:00 PM | 2. Security Services | Tel/Adm/815/01/2026 | 09-Oct-2026 05:30 PM | 12-Oct-2026 03:00 PM | 3. DRYDOCKING / REPAIRS | SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 | 09-Oct-2026 05:00 PM | 09-Oct-2026 05:15 PM | 4. Force Plate | 2026270361/MM-11/DOD/341 | 05-Oct-2026 11:00 AM | 05-Oct-2026 11:30 AM | 5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda | NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026 | 07-Oct-2026 03:00 PM | 07-Oct-2026 03:00 PM | 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR | STORE-22/26/2026-STPUR SEC/22 | 03-Oct-2026 05:00 PM | 05-Oct-2026 10:00 AM | 7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary | BECILROVSKUFUR20262701 | 29-Sep-2026 12:00 PM | 29-Sep-2026 12:30 PM | 8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). | 91-84/PnW/P/1615 | 16-Oct-2026 02:00 PM | 16-Oct-2026 05:00 PM | 9. Miscellaneous civil Work in New pitless weigh brige at kandri mine | CIVIL/KD/T.E./26-27/151 Date - 16.09.2026 | 30-Sep-2026 04:00 PM | 30-Sep-2026 04:30 PM | 10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES | BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133 | 22-Sep-2026 12:30 PM | 22-Sep-2026 06:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM | 1. Corrigendum 03 | LIC/CO/CRM/CCS/RFP/2026-27 | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:30 PM | 2. Corrigendum 03 | LIC/CO/CRM/CCS/RFP/2026-27 | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:30 PM | 3. Responses to Pre-Bid Queries | LIC/CO/PER ADMN/ASSESEXER/2027-28 | 23-Sep-2026 11:00 AM | 24-Sep-2026 11:30 AM | 4. Revised Notice Inviting Tender | DPL/19/GS/Usmanpur/2026-27 | 28-Sep-2026 06:00 PM | 29-Sep-2026 12:00 PM | 5. Revised Notice Inviting Tender | DPL/18/GS/Tihar/2026-27 | 28-Sep-2026 06:00 PM | 29-Sep-2026 02:00 PM | 6. Extension of Date for submission of Application | HO/SDD/DOC/2026/00037 | 16-Oct-2026 05:00 PM | 19-Oct-2026 03:00 PM | 7. Corrigendum 1 | 01-20004/6/2026-HO - ES Division | 22-Sep-2026 12:00 PM | 23-Sep-2026 12:00 PM | 8. Extension of last date for submission of EOI | EOI Reference No. 65144/2026-27 | 24-Sep-2026 05:00 PM | 25-Sep-2026 11:00 AM | 9. Date Corrigendum | HTC-PSL-18-PR-60005530 | 28-Sep-2026 04:00 PM | 28-Sep-2026 04:30 PM | 10. Extension of last date | 01/2026 | 30-Sep-2026 05:30 PM | 05-Oct-2026 03:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works 2026_IREL_291339_1 10-Oct-2026 11:00 AM 10-Oct-2026 11:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 23-Sep-2026 12:30 PM 23-Sep-2026 06:00 PM 9. Security Manpower Service Watch And Ward GEM/2026/B/7909920 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 10. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works 2026_IREL_291339_1 10-Oct-2026 11:00 AM 10-Oct-2026 11:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 23-Sep-2026 12:30 PM 23-Sep-2026 06:00 PM 9. Security Manpower Service Watch And Ward GEM/2026/B/7909920 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 10. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works 2026_IREL_291339_1 10-Oct-2026 11:00 AM 10-Oct-2026 11:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 23-Sep-2026 12:30 PM 23-Sep-2026 06:00 PM 9. Security Manpower Service Watch And Ward GEM/2026/B/7909920 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 10. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works 2026_IREL_291339_1 10-Oct-2026 11:00 AM 10-Oct-2026 11:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 23-Sep-2026 12:30 PM 23-Sep-2026 06:00 PM 9. Security Manpower Service Watch And Ward GEM/2026/B/7909920 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 10. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works 2026_IREL_291339_1 10-Oct-2026 11:00 AM 10-Oct-2026 11:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 23-Sep-2026 12:30 PM 23-Sep-2026 06:00 PM 9. Security Manpower Service Watch And Ward GEM/2026/B/7909920 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 10. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM | 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) | 6100003146 | 05-Oct-2026 01:00 PM | 05-Oct-2026 04:00 PM | 2. Security Services | Tel/Adm/815/01/2026 | 09-Oct-2026 05:30 PM | 12-Oct-2026 03:00 PM | 3. DRYDOCKING / REPAIRS | SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 | 09-Oct-2026 05:00 PM | 09-Oct-2026 05:15 PM | 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). | 91-84/PnW/P/1615 | 16-Oct-2026 02:00 PM | 16-Oct-2026 05:00 PM | 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary | BECILROVSKUFUR20262701 | 29-Sep-2026 12:00 PM | 29-Sep-2026 12:30 PM | 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR | STORE-22/26/2026-STPUR SEC/22 | 03-Oct-2026 05:00 PM | 05-Oct-2026 10:00 AM | 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works | 2026_IREL_291339_1 | 10-Oct-2026 11:00 AM | 10-Oct-2026 11:00 AM | 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES | BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 | 23-Sep-2026 12:30 PM | 23-Sep-2026 06:00 PM | 9. Security Manpower Service Watch And Ward | GEM/2026/B/7909920 | 09-Oct-2026 04:00 PM | 10-Oct-2026 04:00 PM | 10. Force Plate | 2026270361/MM-11/DOD/341 | 05-Oct-2026 11:00 AM | 05-Oct-2026 11:30 AM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM | 1. Corrigendum 03 | LIC/CO/CRM/CCS/RFP/2026-27 | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:30 PM | 2. Corrigendum 03 | LIC/CO/CRM/CCS/RFP/2026-27 | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:30 PM | 3. Responses to Pre-Bid Queries | LIC/CO/PER ADMN/ASSESEXER/2027-28 | 23-Sep-2026 11:00 AM | 24-Sep-2026 11:30 AM | 4. Revised Notice Inviting Tender | DPL/19/GS/Usmanpur/2026-27 | 28-Sep-2026 06:00 PM | 29-Sep-2026 12:00 PM | 5. Revised Notice Inviting Tender | DPL/18/GS/Tihar/2026-27 | 28-Sep-2026 06:00 PM | 29-Sep-2026 02:00 PM | 6. Extension of Date for submission of Application | HO/SDD/DOC/2026/00037 | 16-Oct-2026 05:00 PM | 19-Oct-2026 03:00 PM | 7. Corrigendum 1 | 01-20004/6/2026-HO - ES Division | 22-Sep-2026 12:00 PM | 23-Sep-2026 12:00 PM | 8. Extension of last date for submission of EOI | EOI Reference No. 65144/2026-27 | 24-Sep-2026 05:00 PM | 25-Sep-2026 11:00 AM | 9. Date Corrigendum | HTC-PSL-18-PR-60005530 | 28-Sep-2026 04:00 PM | 28-Sep-2026 04:30 PM | 10. Extension of last date | 01/2026 | 30-Sep-2026 05:30 PM | 05-Oct-2026 03:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,21 +520,21 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM 5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026 07-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 9. Miscellaneous civil Work in New pitless weigh brige at kandri mine CIVIL/KD/T.E./26-27/151 Date - 16.09.2026 30-Sep-2026 04:00 PM 30-Sep-2026 04:30 PM 10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133 22-Sep-2026 12:30 PM 22-Sep-2026 06:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works 2026_IREL_291339_1 10-Oct-2026 11:00 AM 10-Oct-2026 11:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 23-Sep-2026 12:30 PM 23-Sep-2026 06:00 PM 9. Security Manpower Service Watch And Ward GEM/2026/B/7909920 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 10. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM 5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026 07-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 9. Miscellaneous civil Work in New pitless weigh brige at kandri mine CIVIL/KD/T.E./26-27/151 Date - 16.09.2026 30-Sep-2026 04:00 PM 30-Sep-2026 04:30 PM 10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133 22-Sep-2026 12:30 PM 22-Sep-2026 06:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works 2026_IREL_291339_1 10-Oct-2026 11:00 AM 10-Oct-2026 11:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 23-Sep-2026 12:30 PM 23-Sep-2026 06:00 PM 9. Security Manpower Service Watch And Ward GEM/2026/B/7909920 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 10. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 2. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 3. Responses to Pre-Bid Queries LIC/CO/PER ADMN/ASSESEXER/2027-28 23-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 4. Revised Notice Inviting Tender DPL/19/GS/Usmanpur/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 12:00 PM 5. Revised Notice Inviting Tender DPL/18/GS/Tihar/2026-27 28-Sep-2026 06:00 PM 29-Sep-2026 02:00 PM 6. Extension of Date for submission of Application HO/SDD/DOC/2026/00037 16-Oct-2026 05:00 PM 19-Oct-2026 03:00 PM 7. Corrigendum 1 01-20004/6/2026-HO - ES Division 22-Sep-2026 12:00 PM 23-Sep-2026 12:00 PM 8. Extension of last date for submission of EOI EOI Reference No. 65144/2026-27 24-Sep-2026 05:00 PM 25-Sep-2026 11:00 AM 9. Date Corrigendum HTC-PSL-18-PR-60005530 28-Sep-2026 04:00 PM 28-Sep-2026 04:30 PM 10. Extension of last date 01/2026 30-Sep-2026 05:30 PM 05-Oct-2026 03:00 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM 5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026 07-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 9. Miscellaneous civil Work in New pitless weigh brige at kandri mine CIVIL/KD/T.E./26-27/151 Date - 16.09.2026 30-Sep-2026 04:00 PM 30-Sep-2026 04:30 PM 10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133 22-Sep-2026 12:30 PM 22-Sep-2026 06:00 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM 5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026 07-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 9. Miscellaneous civil Work in New pitless weigh brige at kandri mine CIVIL/KD/T.E./26-27/151 Date - 16.09.2026 30-Sep-2026 04:00 PM 30-Sep-2026 04:30 PM 10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133 22-Sep-2026 12:30 PM 22-Sep-2026 06:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works 2026_IREL_291339_1 10-Oct-2026 11:00 AM 10-Oct-2026 11:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 23-Sep-2026 12:30 PM 23-Sep-2026 06:00 PM 9. Security Manpower Service Watch And Ward GEM/2026/B/7909920 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 10. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works 2026_IREL_291339_1 10-Oct-2026 11:00 AM 10-Oct-2026 11:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 23-Sep-2026 12:30 PM 23-Sep-2026 06:00 PM 9. Security Manpower Service Watch And Ward GEM/2026/B/7909920 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 10. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM 5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026 07-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 9. Miscellaneous civil Work in New pitless weigh brige at kandri mine CIVIL/KD/T.E./26-27/151 Date - 16.09.2026 30-Sep-2026 04:00 PM 30-Sep-2026 04:30 PM 10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133 22-Sep-2026 12:30 PM 22-Sep-2026 06:00 PM",
+          "1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works 2026_IREL_291339_1 10-Oct-2026 11:00 AM 10-Oct-2026 11:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 23-Sep-2026 12:30 PM 23-Sep-2026 06:00 PM 9. Security Manpower Service Watch And Ward GEM/2026/B/7909920 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 10. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM",
           "1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based)",
           "6100003146",
           "05-Oct-2026 01:00 PM",
@@ -547,34 +547,34 @@
           "SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27",
           "09-Oct-2026 05:00 PM",
           "09-Oct-2026 05:15 PM",
-          "4. Force Plate",
-          "2026270361/MM-11/DOD/341",
-          "05-Oct-2026 11:00 AM",
-          "05-Oct-2026 11:30 AM",
-          "5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda",
-          "NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026",
-          "07-Oct-2026 03:00 PM",
-          "07-Oct-2026 03:00 PM",
+          "4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.).",
+          "91-84/PnW/P/1615",
+          "16-Oct-2026 02:00 PM",
+          "16-Oct-2026 05:00 PM",
+          "5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary",
+          "BECILROVSKUFUR20262701",
+          "29-Sep-2026 12:00 PM",
+          "29-Sep-2026 12:30 PM",
           "6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR",
           "STORE-22/26/2026-STPUR SEC/22",
           "03-Oct-2026 05:00 PM",
           "05-Oct-2026 10:00 AM",
-          "7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary",
-          "BECILROVSKUFUR20262701",
-          "29-Sep-2026 12:00 PM",
-          "29-Sep-2026 12:30 PM",
-          "8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.).",
-          "91-84/PnW/P/1615",
-          "16-Oct-2026 02:00 PM",
-          "16-Oct-2026 05:00 PM",
-          "9. Miscellaneous civil Work in New pitless weigh brige at kandri mine",
-          "CIVIL/KD/T.E./26-27/151 Date - 16.09.2026",
-          "30-Sep-2026 04:00 PM",
-          "30-Sep-2026 04:30 PM",
-          "10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES",
-          "BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133",
-          "22-Sep-2026 12:30 PM",
-          "22-Sep-2026 06:00 PM",
+          "7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works",
+          "2026_IREL_291339_1",
+          "10-Oct-2026 11:00 AM",
+          "10-Oct-2026 11:00 AM",
+          "8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES",
+          "BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271",
+          "23-Sep-2026 12:30 PM",
+          "23-Sep-2026 06:00 PM",
+          "9. Security Manpower Service Watch And Ward",
+          "GEM/2026/B/7909920",
+          "09-Oct-2026 04:00 PM",
+          "10-Oct-2026 04:00 PM",
+          "10. Force Plate",
+          "2026270361/MM-11/DOD/341",
+          "05-Oct-2026 11:00 AM",
+          "05-Oct-2026 11:30 AM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.807Z",
-      "evidenceHash": "fcb6993a65f08d064050b7488a52b1cd64f9ebfb4849b4cc6afebc76f1803a0b"
+      "observedAt": "2026-09-19T00:18:53.020Z",
+      "evidenceHash": "4c1d496e7c9fb4985c2542ec3615a6e69e26e5b95ff677c2f98948acabbdec2b"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.807Z",
+      "observedAt": "2026-09-19T00:18:53.021Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,24 +727,24 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.808Z",
+      "observedAt": "2026-09-19T00:18:53.022Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-additional-requirement-of-integrated-student-id-card-access-control-hardware-system-with-accessories-and-service-(rfid-based):1.-additional-requirement-of-integrated-student-id-card-access-control-hardware-system-with-accessories-and-service-(rfid-based)-6100003146-05-oct-2026-01:00-pm-05-oct-2026-04:00-pm-2.-security-services-tel/adm/815/01/2026-09-oct-2026-05:30-pm-12-oct-2026-03:00-pm-3.-drydocking-/-repairs-sci/bnt/dd/vishva-ekta-and-vishva-vikas/2026-27-09-oct-2026-05:00-pm-09-oct-2026-05:15-pm-4.-force-plate-2026270361/mm-11/dod/341-05-oct-2026-11:00-am-05-oct-2026-11:30-am-5.-hydrojet-tubes-cleaning-of-heat-exchangers,-coolers-and-condensers-at-nfl-bathinda-nfb/prod/amm/he/2026-27-dated-16.09.2026-07-oct-2026-03:00-pm-07-oct-2026-03:00-pm-6.-procurement-of-reagents-and-consumables-for-flurorimeter-for-new-born-and-antenatal-screening-on-pac-rc-basis-at-aiims,-bbsr-store-22/26/2026-stpur-sec/22-03-oct-2026-05:00-pm-05-oct-2026-10:00-am-7.-supply-and-fixing-of-hostel-furnitures-library-furnitures-and-furniture-for-other-department-of-the-university-main-campus-of-vijayanagara-sri-krishnadevaraya-university-bellary-becilrovskufur20262701-29-sep-2026-12:00-pm-29-sep-2026-12:30-pm-8.-enquiry-for-supply-of-refrigerant-gas-r-22-cylinders-duly-filled-in-61kg-cylinder-of-61-kg-each-capacity-for-package-air-conditioning-and-ventilation-system-of-3x20mw-bhps-iii,-mppgcl,-deolond,-distt.-shahdol-(m.p.).-91-84/pnw/p/1615-16-oct-2026-02:00-pm-16-oct-2026-05:00-pm-9.-miscellaneous-civil-work-in-new-pitless-weigh-brige-at-kandri-mine-civil/kd/t.e./26-27/151-date---16.09.2026-30-sep-2026-04:00-pm-30-sep-2026-04:30-pm-10.-sale-of-dolomite-lump-size-(30-60mm)-by-rail/road,bslc-mines-bslc/mining/appv/dolomite-lump-30-60-mm/26-27/133-22-sep-2026-12:30-pm-22-sep-2026-06:00-pm",
+      "externalKey": "cppp-procurement:1.-additional-requirement-of-integrated-student-id-card-access-control-hardware-system-with-accessories-and-service-(rfid-based)-6100003146-05-oct-2026-01:00-pm-05-oct-2026-04:00-pm-2.-security-services-tel/adm/815/01/2026-09-oct-2026-05:30-pm-12-oct-2026-03:00-pm-3.-drydocking-/-repairs-sci/bnt/dd/vishva-ekta-and-vishva-vikas/2026-27-09-oct-2026-05:00-pm-09-oct-2026-05:15-pm-4.-enquiry-for-supply-of-refrigerant-gas-r-22-cylinders-duly-filled-in-61kg-cylinder-of-61-kg-each-capacity-for-package-air-conditioning-and-ventilation-system-of-3x20mw-bhps-iii,-mppgcl,-deolond,-distt.-shahdol-(m.p.).-91-84/pnw/p/1615-16-oct-2026-02:00-pm-16-oct-2026-05:00-pm-5.-supply-and-fixing-of-hostel-furnitures-library-furnitures-and-furniture-for-other-department-of-the-university-main-campus-of-vijayanagara-sri-krishnadevaraya-university-bellary-becilrovskufur20262701-29-sep-2026-12:00-pm-29-sep-2026-12:30-pm-6.-procurement-of-reagents-and-consumables-for-flurorimeter-for-new-born-and-antenatal-screening-on-pac-rc-basis-at-aiims,-bbsr-store-22/26/2026-stpur-sec/22-03-oct-2026-05:00-pm-05-oct-2026-10:00-am-7.-supply-installation-testing-and-commissioning-of-80-ton-pit-less-weigh-bridge-including-civil-works-2026_irel_291339_1-10-oct-2026-11:00-am-10-oct-2026-11:00-am-8.-sale-of-dolomite-lump-size-(15-50mm)-by-rail/road,bslc-mines-bslc/mining/appv/dolomite-lump-15-50-mm/25-26/271-23-sep-2026-12:30-pm-23-sep-2026-06:00-pm-9.-security-manpower-service-watch-and-ward-gem/2026/b/7909920-09-oct-2026-04:00-pm-10-oct-2026-04:00-pm-10.-force-plate-2026270361/mm-11/dod/341-05-oct-2026-11:00-am-05-oct-2026-11:30-am:1.-additional-requirement-of-integrated-student-id-card-access-control-hardware-system-with-accessories-and-service-(rfid-based)-6100003146-05-oct-2026-01:00-pm-05-oct-2026-04:00-pm-2.-security-services-tel/adm/815/01/2026-09-oct-2026-05:30-pm-12-oct-2026-03:00-pm-3.-drydocking-/-repairs-sci/bnt/dd/vishva-ekta-and-vishva-vikas/2026-27-09-oct-2026-05:00-pm-09-oct-2026-05:15-pm-4.-enquiry-for-supply-of-refrigerant-gas-r-22-cylinders-duly-filled-in-61kg-cylinder-of-61-kg-each-capacity-for-package-air-conditioning-and-ventilation-system-of-3x20mw-bhps-iii,-mppgcl,-deolond,-distt.-shahdol-(m.p.).-91-84/pnw/p/1615-16-oct-2026-02:00-pm-16-oct-2026-05:00-pm-5.-supply-and-fixing-of-hostel-furnitures-library-furnitures-and-furniture-for-other-department-of-the-university-main-campus-of-vijayanagara-sri-krishnadevaraya-university-bellary-becilrovskufur20262701-29-sep-2026-12:00-pm-29-sep-2026-12:30-pm-6.-procurement-of-reagents-and-consumables-for-flurorimeter-for-new-born-and-antenatal-screening-on-pac-rc-basis-at-aiims,-bbsr-store-22/26/2026-stpur-sec/22-03-oct-2026-05:00-pm-05-oct-2026-10:00-am-7.-supply-installation-testing-and-commissioning-of-80-ton-pit-less-weigh-bridge-including-civil-works-2026_irel_291339_1-10-oct-2026-11:00-am-10-oct-2026-11:00-am-8.-sale-of-dolomite-lump-size-(15-50mm)-by-rail/road,bslc-mines-bslc/mining/appv/dolomite-lump-15-50-mm/25-26/271-23-sep-2026-12:30-pm-23-sep-2026-06:00-pm-9.-security-manpower-service-watch-and-ward-gem/2026/b/7909920-09-oct-2026-04:00-pm-10-oct-2026-04:00-pm-10.-force-plate-2026270361/mm-11/dod/341-05-oct-2026-11:00-am-05-oct-2026-11:30-am",
       "sensorId": "cppp-procurement",
-      "title": "1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM 5. Hydrojet tubes cleaning of Heat Exch",
+      "title": "1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package a",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SZM%2Fsv41c4kT6c2Hsh5Sh7Q%3D%3D",
-      "tenderReference": "1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based)",
+      "tenderReference": "1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works 2026_IREL_291339_1 10-Oct-2026 11:00 AM 10-Oct-2026 11:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 23-Sep-2026 12:30 PM 23-Sep-2026 06:00 PM 9. Security Manpower Service Watch And Ward GEM/2026/B/7909920 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 10. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM",
       "geographicPrecision": "unknown",
-      "note": "6100003146 | 05-Oct-2026 01:00 PM | 05-Oct-2026 04:00 PM | 2. Security Services | Tel/Adm/815/01/2026 | 09-Oct-2026 05:30 PM | 12-Oct-2026 03:00 PM | 3. DRYDOCKING / REPAIRS | SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 | 09-Oct-2026 05:00 PM | 09-Oct-2026 05:15 PM | 4. Force Plate | 2026270361/MM-11/DOD/341 | 05-Oct-2026 11:00 AM | 05-Oct-2026 11:30 AM | 5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda | NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026 | 07-Oct-2026 03:00 PM | 07-Oct-2026 03:00 PM | 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR | STORE-22/26/2026-STPUR SEC/22 | 03-Oct-2026 05:00 PM | 05-Oct-2026 10:00 AM | 7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary | BECILROVSKUFUR20262701 | 29-Sep-2026 12:00 PM | 29-Sep-2026 12:30 PM | 8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). | 91-84/PnW/P/1615 | 16-Oct-2026 02:00 PM | 16-Oct-2026 05:00 PM | 9. Miscellaneous civil Work in New pitless weigh brige at kandri mine | CIVIL/KD/T.E./26-27/151 Date - 16.09.2026 | 30-Sep-2026 04:00 PM | 30-Sep-2026 04:30 PM | 10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES | BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133 | 22-Sep-2026 12:30 PM | 22-Sep-2026 06:00 PM",
+      "note": "6100003146 | 05-Oct-2026 01:00 PM | 05-Oct-2026 04:00 PM | 2. Security Services | Tel/Adm/815/01/2026 | 09-Oct-2026 05:30 PM | 12-Oct-2026 03:00 PM | 3. DRYDOCKING / REPAIRS | SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 | 09-Oct-2026 05:00 PM | 09-Oct-2026 05:15 PM | 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). | 91-84/PnW/P/1615 | 16-Oct-2026 02:00 PM | 16-Oct-2026 05:00 PM | 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary | BECILROVSKUFUR20262701 | 29-Sep-2026 12:00 PM | 29-Sep-2026 12:30 PM | 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR | STORE-22/26/2026-STPUR SEC/22 | 03-Oct-2026 05:00 PM | 05-Oct-2026 10:00 AM | 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works | 2026_IREL_291339_1 | 10-Oct-2026 11:00 AM | 10-Oct-2026 11:00 AM | 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES | BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 | 23-Sep-2026 12:30 PM | 23-Sep-2026 06:00 PM | 9. Security Manpower Service Watch And Ward | GEM/2026/B/7909920 | 09-Oct-2026 04:00 PM | 10-Oct-2026 04:00 PM | 10. Force Plate | 2026270361/MM-11/DOD/341 | 05-Oct-2026 11:00 AM | 05-Oct-2026 11:30 AM",
       "raw": {
         "cells": [
-          "1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM 5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026 07-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 9. Miscellaneous civil Work in New pitless weigh brige at kandri mine CIVIL/KD/T.E./26-27/151 Date - 16.09.2026 30-Sep-2026 04:00 PM 30-Sep-2026 04:30 PM 10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133 22-Sep-2026 12:30 PM 22-Sep-2026 06:00 PM",
+          "1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based) 6100003146 05-Oct-2026 01:00 PM 05-Oct-2026 04:00 PM 2. Security Services Tel/Adm/815/01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 3. DRYDOCKING / REPAIRS SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27 09-Oct-2026 05:00 PM 09-Oct-2026 05:15 PM 4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.). 91-84/PnW/P/1615 16-Oct-2026 02:00 PM 16-Oct-2026 05:00 PM 5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary BECILROVSKUFUR20262701 29-Sep-2026 12:00 PM 29-Sep-2026 12:30 PM 6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR STORE-22/26/2026-STPUR SEC/22 03-Oct-2026 05:00 PM 05-Oct-2026 10:00 AM 7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works 2026_IREL_291339_1 10-Oct-2026 11:00 AM 10-Oct-2026 11:00 AM 8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271 23-Sep-2026 12:30 PM 23-Sep-2026 06:00 PM 9. Security Manpower Service Watch And Ward GEM/2026/B/7909920 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 10. Force Plate 2026270361/MM-11/DOD/341 05-Oct-2026 11:00 AM 05-Oct-2026 11:30 AM",
           "1. Additional Requirement of Integrated Student ID card access control hardware system with accessories and service (RFID-based)",
           "6100003146",
           "05-Oct-2026 01:00 PM",
@@ -757,38 +757,38 @@
           "SCI/BNT/DD/VISHVA EKTA AND VISHVA VIKAS/2026-27",
           "09-Oct-2026 05:00 PM",
           "09-Oct-2026 05:15 PM",
-          "4. Force Plate",
-          "2026270361/MM-11/DOD/341",
-          "05-Oct-2026 11:00 AM",
-          "05-Oct-2026 11:30 AM",
-          "5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda",
-          "NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026",
-          "07-Oct-2026 03:00 PM",
-          "07-Oct-2026 03:00 PM",
+          "4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.).",
+          "91-84/PnW/P/1615",
+          "16-Oct-2026 02:00 PM",
+          "16-Oct-2026 05:00 PM",
+          "5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary",
+          "BECILROVSKUFUR20262701",
+          "29-Sep-2026 12:00 PM",
+          "29-Sep-2026 12:30 PM",
           "6. Procurement of reagents and consumables for Flurorimeter for new born and antenatal screening on PAC RC Basis at AIIMS, BBSR",
           "STORE-22/26/2026-STPUR SEC/22",
           "03-Oct-2026 05:00 PM",
           "05-Oct-2026 10:00 AM",
-          "7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary",
-          "BECILROVSKUFUR20262701",
-          "29-Sep-2026 12:00 PM",
-          "29-Sep-2026 12:30 PM",
-          "8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.).",
-          "91-84/PnW/P/1615",
-          "16-Oct-2026 02:00 PM",
-          "16-Oct-2026 05:00 PM",
-          "9. Miscellaneous civil Work in New pitless weigh brige at kandri mine",
-          "CIVIL/KD/T.E./26-27/151 Date - 16.09.2026",
-          "30-Sep-2026 04:00 PM",
-          "30-Sep-2026 04:30 PM",
-          "10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES",
-          "BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133",
-          "22-Sep-2026 12:30 PM",
-          "22-Sep-2026 06:00 PM"
+          "7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works",
+          "2026_IREL_291339_1",
+          "10-Oct-2026 11:00 AM",
+          "10-Oct-2026 11:00 AM",
+          "8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES",
+          "BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271",
+          "23-Sep-2026 12:30 PM",
+          "23-Sep-2026 06:00 PM",
+          "9. Security Manpower Service Watch And Ward",
+          "GEM/2026/B/7909920",
+          "09-Oct-2026 04:00 PM",
+          "10-Oct-2026 04:00 PM",
+          "10. Force Plate",
+          "2026270361/MM-11/DOD/341",
+          "05-Oct-2026 11:00 AM",
+          "05-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.809Z",
-      "evidenceHash": "e5ec99d1560cfee51ef2653f79a33eaa1ba84004117a565fc778c27431ba8922"
+      "observedAt": "2026-09-19T00:18:53.024Z",
+      "evidenceHash": "101aeebd74c7344ab3d82538ee53e5bec487df77654032ec51a1e1de05f8450b"
     },
     {
       "externalKey": "cppp-procurement:6100003146:1.-additional-requirement-of-integrated-student-id-card-access-control-hardware-system-with-accessories-and-service-(rfid-based)",
@@ -810,7 +810,7 @@
           "05-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.810Z",
+      "observedAt": "2026-09-19T00:18:53.024Z",
       "evidenceHash": "d762a835538176c9d06be87753cb6c2499275ca3e716aa876c28d81995f4291e"
     },
     {
@@ -833,7 +833,7 @@
           "12-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.810Z",
+      "observedAt": "2026-09-19T00:18:53.024Z",
       "evidenceHash": "579258dc6705f9b17986e36f469654482a891fa1cda3459354ec93e91a2dab21"
     },
     {
@@ -856,54 +856,54 @@
           "09-Oct-2026 05:15 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.810Z",
+      "observedAt": "2026-09-19T00:18:53.025Z",
       "evidenceHash": "f892e9078d4754dc9c43884c0984020807473009f585f5e0c6e8a2855eda5b2e"
     },
     {
-      "externalKey": "cppp-procurement:2026270361/mm-11/dod/341:4.-force-plate",
+      "externalKey": "cppp-procurement:91-84/pnw/p/1615:4.-enquiry-for-supply-of-refrigerant-gas-r-22-cylinders-duly-filled-in-61kg-cylinder-of-61-kg-each-capacity-for-package-air-conditioning-and-ventilation-system-of-3x20mw-bhps-iii,-mppgcl,-deolond,-distt.-shahdol-(m.p.).",
       "sensorId": "cppp-procurement",
-      "title": "4. Force Plate",
+      "title": "4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.).",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=ShvrGyL9U336wlgqZVhvFOw%3D%3D",
-      "tenderReference": "2026270361/MM-11/DOD/341",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SHkqV5C9Ez%2F8Wyc1iUaV8Vg%3D%3D",
+      "tenderReference": "91-84/PnW/P/1615",
       "geographicPrecision": "unknown",
-      "note": "05-Oct-2026 11:00 AM | 05-Oct-2026 11:30 AM",
+      "note": "16-Oct-2026 02:00 PM | 16-Oct-2026 05:00 PM",
       "raw": {
         "cells": [
-          "4. Force Plate",
-          "2026270361/MM-11/DOD/341",
-          "05-Oct-2026 11:00 AM",
-          "05-Oct-2026 11:30 AM"
+          "4. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.).",
+          "91-84/PnW/P/1615",
+          "16-Oct-2026 02:00 PM",
+          "16-Oct-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.810Z",
-      "evidenceHash": "1e77271f54606e7e1dc3fdd6750ff55c706f355ad04c41e1686055eb6420e8bf"
+      "observedAt": "2026-09-19T00:18:53.025Z",
+      "evidenceHash": "49ea271e28f9d7ba4b9c879e820faddecfe7cf075752c0956d866c51ae9e699f"
     },
     {
-      "externalKey": "cppp-procurement:nfb/prod/amm/he/2026-27-dated-16.09.2026:5.-hydrojet-tubes-cleaning-of-heat-exchangers,-coolers-and-condensers-at-nfl-bathinda",
+      "externalKey": "cppp-procurement:becilrovskufur20262701:5.-supply-and-fixing-of-hostel-furnitures-library-furnitures-and-furniture-for-other-department-of-the-university-main-campus-of-vijayanagara-sri-krishnadevaraya-university-bellary",
       "sensorId": "cppp-procurement",
-      "title": "5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda",
+      "title": "5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S347yhtupG%2BZwRtjxW2B%2BbQ%3D%3D",
-      "tenderReference": "NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SYTwIQIkBV1ZQGfJRrQeGWA%3D%3D",
+      "tenderReference": "BECILROVSKUFUR20262701",
       "geographicPrecision": "unknown",
-      "note": "07-Oct-2026 03:00 PM | 07-Oct-2026 03:00 PM",
+      "note": "29-Sep-2026 12:00 PM | 29-Sep-2026 12:30 PM",
       "raw": {
         "cells": [
-          "5. Hydrojet tubes cleaning of Heat Exchangers, Coolers and Condensers at NFL Bathinda",
-          "NFB/PROD/AMM/HE/2026-27 Dated 16.09.2026",
-          "07-Oct-2026 03:00 PM",
-          "07-Oct-2026 03:00 PM"
+          "5. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary",
+          "BECILROVSKUFUR20262701",
+          "29-Sep-2026 12:00 PM",
+          "29-Sep-2026 12:30 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.810Z",
-      "evidenceHash": "a62f26e850615148995c22eb0e0b9c40d7cc972508295312af0c25fe3fba33ab"
+      "observedAt": "2026-09-19T00:18:53.025Z",
+      "evidenceHash": "c7493aa11d24c0022ec00bbf94effbe0a8b0e169149504eeac92faa9a91d2748"
     },
     {
       "externalKey": "cppp-procurement:store-22/26/2026-stpur-sec/22:6.-procurement-of-reagents-and-consumables-for-flurorimeter-for-new-born-and-antenatal-screening-on-pac-rc-basis-at-aiims,-bbsr",
@@ -925,100 +925,100 @@
           "05-Oct-2026 10:00 AM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.810Z",
+      "observedAt": "2026-09-19T00:18:53.025Z",
       "evidenceHash": "e2cbb57cf9f68a228c2d0ce67a475db7ecf7ff846be86e5c3d3de930de384b81"
     },
     {
-      "externalKey": "cppp-procurement:becilrovskufur20262701:7.-supply-and-fixing-of-hostel-furnitures-library-furnitures-and-furniture-for-other-department-of-the-university-main-campus-of-vijayanagara-sri-krishnadevaraya-university-bellary",
+      "externalKey": "cppp-procurement:2026_irel_291339_1:7.-supply-installation-testing-and-commissioning-of-80-ton-pit-less-weigh-bridge-including-civil-works",
       "sensorId": "cppp-procurement",
-      "title": "7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary",
+      "title": "7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SYTwIQIkBV1ZQGfJRrQeGWA%3D%3D",
-      "tenderReference": "BECILROVSKUFUR20262701",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S62pddXz4MZuy3bC6%2FeVNpg%3D%3D",
+      "tenderReference": "2026_IREL_291339_1",
       "geographicPrecision": "unknown",
-      "note": "29-Sep-2026 12:00 PM | 29-Sep-2026 12:30 PM",
+      "note": "10-Oct-2026 11:00 AM | 10-Oct-2026 11:00 AM",
       "raw": {
         "cells": [
-          "7. Supply and Fixing of Hostel furnitures library furnitures and furniture for other department of the university main campus of Vijayanagara Sri Krishnadevaraya University Bellary",
-          "BECILROVSKUFUR20262701",
-          "29-Sep-2026 12:00 PM",
-          "29-Sep-2026 12:30 PM"
+          "7. Supply Installation Testing and Commissioning of 80 Ton Pit Less Weigh Bridge Including Civil Works",
+          "2026_IREL_291339_1",
+          "10-Oct-2026 11:00 AM",
+          "10-Oct-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.810Z",
-      "evidenceHash": "6af7664dd19babf99b99a3de6183606c81d59b4555477545a4315b124e3d7a86"
+      "observedAt": "2026-09-19T00:18:53.025Z",
+      "evidenceHash": "fb569158d1f908719ced3f85675d27457c215ac10dd130c8181d47cc4e22a3c9"
     },
     {
-      "externalKey": "cppp-procurement:91-84/pnw/p/1615:8.-enquiry-for-supply-of-refrigerant-gas-r-22-cylinders-duly-filled-in-61kg-cylinder-of-61-kg-each-capacity-for-package-air-conditioning-and-ventilation-system-of-3x20mw-bhps-iii,-mppgcl,-deolond,-distt.-shahdol-(m.p.).",
+      "externalKey": "cppp-procurement:bslc/mining/appv/dolomite-lump-15-50-mm/25-26/271:8.-sale-of-dolomite-lump-size-(15-50mm)-by-rail/road,bslc-mines",
       "sensorId": "cppp-procurement",
-      "title": "8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.).",
+      "title": "8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SHkqV5C9Ez%2F8Wyc1iUaV8Vg%3D%3D",
-      "tenderReference": "91-84/PnW/P/1615",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S4oz0WV1LCAHMnSRUoL7muQ%3D%3D",
+      "tenderReference": "BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271",
       "geographicPrecision": "unknown",
-      "note": "16-Oct-2026 02:00 PM | 16-Oct-2026 05:00 PM",
+      "note": "23-Sep-2026 12:30 PM | 23-Sep-2026 06:00 PM",
       "raw": {
         "cells": [
-          "8. Enquiry for Supply of refrigerant gas R-22 cylinders duly filled in 61kg cylinder of 61 kg each capacity for package air conditioning and ventilation system of 3x20MW BHPS-III, MPPGCL, Deolond, Distt.-Shahdol (M.P.).",
-          "91-84/PnW/P/1615",
-          "16-Oct-2026 02:00 PM",
-          "16-Oct-2026 05:00 PM"
+          "8. SALE OF DOLOMITE LUMP SIZE (15-50MM) BY RAIL/ROAD,BSLC MINES",
+          "BSLC/Mining/APPV/Dolomite lump 15-50 MM/25-26/271",
+          "23-Sep-2026 12:30 PM",
+          "23-Sep-2026 06:00 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.810Z",
-      "evidenceHash": "d4a04a2fbe219b8bdd4ec1748a984590524082e6d1349feaba191242f98b7bb9"
+      "observedAt": "2026-09-19T00:18:53.025Z",
+      "evidenceHash": "38b0ae1d27f1016b649712f8bb324d4e399b0f011e7e1ed3215a54e3ed5d9cce"
     },
     {
-      "externalKey": "cppp-procurement:civil/kd/t.e./26-27/151-date---16.09.2026:9.-miscellaneous-civil-work-in-new-pitless-weigh-brige-at-kandri-mine",
+      "externalKey": "cppp-procurement:gem/2026/b/7909920:9.-security-manpower-service-watch-and-ward",
       "sensorId": "cppp-procurement",
-      "title": "9. Miscellaneous civil Work in New pitless weigh brige at kandri mine",
+      "title": "9. Security Manpower Service Watch And Ward",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S8LONuIO5IfqNXb2tSfTAtA%3D%3D",
-      "tenderReference": "CIVIL/KD/T.E./26-27/151 Date - 16.09.2026",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Spyci%2FZ6P65SU5AUbNGm4rw%3D%3D",
+      "tenderReference": "GEM/2026/B/7909920",
       "geographicPrecision": "unknown",
-      "note": "30-Sep-2026 04:00 PM | 30-Sep-2026 04:30 PM",
+      "note": "09-Oct-2026 04:00 PM | 10-Oct-2026 04:00 PM",
       "raw": {
         "cells": [
-          "9. Miscellaneous civil Work in New pitless weigh brige at kandri mine",
-          "CIVIL/KD/T.E./26-27/151 Date - 16.09.2026",
-          "30-Sep-2026 04:00 PM",
-          "30-Sep-2026 04:30 PM"
+          "9. Security Manpower Service Watch And Ward",
+          "GEM/2026/B/7909920",
+          "09-Oct-2026 04:00 PM",
+          "10-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.810Z",
-      "evidenceHash": "7f3e82347008648690ef6ec68a4d5d2177fe4c7c4ee5bf9304c430c11293c8c8"
+      "observedAt": "2026-09-19T00:18:53.025Z",
+      "evidenceHash": "ce8ff31bd0604824d685f432bcfb52186b27a8a567f917c759995a07664265c8"
     },
     {
-      "externalKey": "cppp-procurement:bslc/mining/appv/dolomite-lump-30-60-mm/26-27/133:10.-sale-of-dolomite-lump-size-(30-60mm)-by-rail/road,bslc-mines",
+      "externalKey": "cppp-procurement:2026270361/mm-11/dod/341:10.-force-plate",
       "sensorId": "cppp-procurement",
-      "title": "10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES",
+      "title": "10. Force Plate",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SSwbW1%2FJ0R3xh%2FJfQ%2FOiByQ%3D%3D",
-      "tenderReference": "BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=ShvrGyL9U336wlgqZVhvFOw%3D%3D",
+      "tenderReference": "2026270361/MM-11/DOD/341",
       "geographicPrecision": "unknown",
-      "note": "22-Sep-2026 12:30 PM | 22-Sep-2026 06:00 PM",
+      "note": "05-Oct-2026 11:00 AM | 05-Oct-2026 11:30 AM",
       "raw": {
         "cells": [
-          "10. SALE OF DOLOMITE LUMP SIZE (30-60MM) BY RAIL/ROAD,BSLC MINES",
-          "BSLC/Mining/APPV/Dolomite lump 30-60 MM/26-27/133",
-          "22-Sep-2026 12:30 PM",
-          "22-Sep-2026 06:00 PM"
+          "10. Force Plate",
+          "2026270361/MM-11/DOD/341",
+          "05-Oct-2026 11:00 AM",
+          "05-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.810Z",
-      "evidenceHash": "d8358250fe971bf4f644596c00eab28e0492bc8e90e4a74c22183674579f4d9b"
+      "observedAt": "2026-09-19T00:18:53.025Z",
+      "evidenceHash": "6eeb03bac012f5b6e144a63d3b601fea1d43ad9f6b149e3e3ed7423313de90d6"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.810Z",
+      "observedAt": "2026-09-19T00:18:53.025Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.814Z",
+      "observedAt": "2026-09-19T00:18:53.026Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1083,7 +1083,7 @@
           "30-Sep-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.814Z",
+      "observedAt": "2026-09-19T00:18:53.026Z",
       "evidenceHash": "da01bee8ffff253a168443928448ab945b168771d413a73c3b175d08b13b14c8"
     },
     {
@@ -1106,7 +1106,7 @@
           "30-Sep-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.814Z",
+      "observedAt": "2026-09-19T00:18:53.026Z",
       "evidenceHash": "f28d3d6adad35af3c3d43e9d1cc73b2bddae66fc31f5216c21e3ecff1dd48294"
     },
     {
@@ -1129,7 +1129,7 @@
           "24-Sep-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.814Z",
+      "observedAt": "2026-09-19T00:18:53.026Z",
       "evidenceHash": "9ff713264d858551c5dcec0090670aed8e9a413deb46800adbbc6864b3095083"
     },
     {
@@ -1152,7 +1152,7 @@
           "29-Sep-2026 12:00 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.814Z",
+      "observedAt": "2026-09-19T00:18:53.027Z",
       "evidenceHash": "e7bdca109abca373df9c9768035d41c462ed625537aa90df17c759d80e7889dc"
     },
     {
@@ -1175,7 +1175,7 @@
           "29-Sep-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.814Z",
+      "observedAt": "2026-09-19T00:18:53.027Z",
       "evidenceHash": "c9be5f531b7de186cbf5c5cb563def0181bf03f532d1350518761552ffbe7e3a"
     },
     {
@@ -1198,7 +1198,7 @@
           "19-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.814Z",
+      "observedAt": "2026-09-19T00:18:53.027Z",
       "evidenceHash": "f84d7c5f1367834788fa3a8d256005aa5e665896babf6397cc9a0dc5f3960ab9"
     },
     {
@@ -1221,7 +1221,7 @@
           "23-Sep-2026 12:00 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.814Z",
+      "observedAt": "2026-09-19T00:18:53.027Z",
       "evidenceHash": "3a8d1b6b9c60587a24b34c3d612be3e77bbdd73a2184022445dc7b4d4f12ba82"
     },
     {
@@ -1244,7 +1244,7 @@
           "25-Sep-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.814Z",
+      "observedAt": "2026-09-19T00:18:53.027Z",
       "evidenceHash": "1b99ce35cf211d53b5a2486604276de9d8818c994bded2fdbf3f5a03035254d9"
     },
     {
@@ -1267,7 +1267,7 @@
           "28-Sep-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.027Z",
       "evidenceHash": "9a6700a30325453d64e02fa3c7b484e6860fc898bd39118bb59ce1b5d18ea5c9"
     },
     {
@@ -1290,7 +1290,7 @@
           "05-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.027Z",
       "evidenceHash": "5930a73a9f595f4f669d28093bb3623980cd5e22d5201e86a7e55bb075391b02"
     },
     {
@@ -1310,7 +1310,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.027Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1333,7 +1333,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.027Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1357,7 +1357,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.027Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1380,7 +1380,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.028Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1402,7 +1402,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.028Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1428,7 +1428,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.028Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1453,7 +1453,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.028Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1476,7 +1476,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.028Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1498,7 +1498,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.028Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1518,7 +1518,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.029Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1544,7 +1544,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.029Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1567,7 +1567,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.029Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1589,7 +1589,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-18T21:39:57.815Z",
+      "observedAt": "2026-09-19T00:18:53.029Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1605,7 +1605,7 @@
       "raw": {
         "reportId": "126469"
       },
-      "observedAt": "2026-09-18T21:40:00.225Z",
+      "observedAt": "2026-09-19T00:18:55.391Z",
       "evidenceHash": "1c7d422b591169eb80826592dabb65db5168877db9d1d58f0ef0bcd51dcb5e6f"
     },
     {
@@ -1621,7 +1621,7 @@
       "raw": {
         "reportId": "126458"
       },
-      "observedAt": "2026-09-18T21:40:00.225Z",
+      "observedAt": "2026-09-19T00:18:55.391Z",
       "evidenceHash": "e01566022e060c485559292b09732dafecf684c8ad5553baa0e1ac1585824a57"
     },
     {
@@ -1637,7 +1637,7 @@
       "raw": {
         "reportId": "126325"
       },
-      "observedAt": "2026-09-18T21:40:00.225Z",
+      "observedAt": "2026-09-19T00:18:55.391Z",
       "evidenceHash": "59cb65fbe0232a895436738f801dbfafdc394a62f0f1b4fbe7e625cc119a4ffa"
     },
     {
@@ -1653,7 +1653,7 @@
       "raw": {
         "reportId": "126309"
       },
-      "observedAt": "2026-09-18T21:40:00.225Z",
+      "observedAt": "2026-09-19T00:18:55.391Z",
       "evidenceHash": "c6b423a5a20b11b3e1564f2f839629d82a2937e6326aeb72643d6819bef6cd43"
     },
     {
@@ -1669,7 +1669,7 @@
       "raw": {
         "reportId": "126303"
       },
-      "observedAt": "2026-09-18T21:40:00.225Z",
+      "observedAt": "2026-09-19T00:18:55.391Z",
       "evidenceHash": "090e9437e7e90c7f81874103baa7d01e15603ff15948b4f9572575236bac067d"
     },
     {
@@ -1685,7 +1685,7 @@
       "raw": {
         "reportId": "126302"
       },
-      "observedAt": "2026-09-18T21:40:00.225Z",
+      "observedAt": "2026-09-19T00:18:55.391Z",
       "evidenceHash": "748a312ce1b84dae7f90b8c2b9377201625fdf33eb2420307ec96ba7cb10fff7"
     },
     {
@@ -1701,7 +1701,7 @@
       "raw": {
         "reportId": "126301"
       },
-      "observedAt": "2026-09-18T21:40:00.225Z",
+      "observedAt": "2026-09-19T00:18:55.391Z",
       "evidenceHash": "282ed13302a3052cf4b2f694d2136480716e5bc4d7ca375bfb3f47e4f7423be5"
     },
     {
@@ -1717,7 +1717,7 @@
       "raw": {
         "reportId": "126283"
       },
-      "observedAt": "2026-09-18T21:40:00.225Z",
+      "observedAt": "2026-09-19T00:18:55.391Z",
       "evidenceHash": "835ec0a65727e1762a4667c7b0562ffacb5e1854441a4a50f7250e35e751e3fa"
     },
     {
@@ -1733,7 +1733,7 @@
       "raw": {
         "reportId": "126269"
       },
-      "observedAt": "2026-09-18T21:40:00.225Z",
+      "observedAt": "2026-09-19T00:18:55.391Z",
       "evidenceHash": "45e7a693e09f448888485a3564527657cc895b2be74863b4d65f00322d147bff"
     },
     {
@@ -1749,7 +1749,7 @@
       "raw": {
         "reportId": "126255"
       },
-      "observedAt": "2026-09-18T21:40:00.225Z",
+      "observedAt": "2026-09-19T00:18:55.391Z",
       "evidenceHash": "f5a3a87979dab783288333f3f23152d2391f4aec7bdacae108f212bbaffdea20"
     },
     {
@@ -1762,7 +1762,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-18T21:40:24.001Z",
+      "observedAt": "2026-09-19T00:18:54.309Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1775,7 +1775,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-18T21:40:24.002Z",
+      "observedAt": "2026-09-19T00:18:54.311Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1788,7 +1788,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-18T21:40:24.002Z",
+      "observedAt": "2026-09-19T00:18:54.311Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1801,7 +1801,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-18T21:40:24.002Z",
+      "observedAt": "2026-09-19T00:18:54.311Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1814,7 +1814,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-18T21:40:24.002Z",
+      "observedAt": "2026-09-19T00:18:54.311Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1828,7 +1828,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-18T21:40:24.002Z",
+      "observedAt": "2026-09-19T00:18:54.311Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1842,7 +1842,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-18T21:40:24.002Z",
+      "observedAt": "2026-09-19T00:18:54.311Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1856,7 +1856,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-18T21:40:24.002Z",
+      "observedAt": "2026-09-19T00:18:54.311Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1875,7 +1875,7 @@
         "anchorText": "Detailed information of points under 100 days Action Plan Programme of Hon. Chief Minister",
         "rowText": ""
       },
-      "observedAt": "2026-09-18T21:40:31.244Z",
+      "observedAt": "2026-09-19T00:19:26.998Z",
       "evidenceHash": "d8f5135f1dd223467673fa54a0f0b2bd2488edeeb7779d616c8217a96c98587b"
     },
     {
@@ -1894,7 +1894,7 @@
         "anchorText": "100 Days Office Improvement Special Campaign Finance Department Maharashtra Government Directorate of Accounts and Treasuries ,Mumbai",
         "rowText": ""
       },
-      "observedAt": "2026-09-18T21:40:31.244Z",
+      "observedAt": "2026-09-19T00:19:26.998Z",
       "evidenceHash": "9f190d28746facab2e62556d0d56dace4b8b4c0eea3f0d43559756bdbe42cc5a"
     },
     {
@@ -1913,7 +1913,7 @@
         "anchorText": "100 Days Office Improvement Special Campaign Finance Department Government of Maharashtra Commissioner State Lottery Directorate, Mumbai.",
         "rowText": ""
       },
-      "observedAt": "2026-09-18T21:40:31.244Z",
+      "observedAt": "2026-09-19T00:19:26.998Z",
       "evidenceHash": "cf748a50cba97155d112067b9c587b4469cacf1309bfba084f93ac0bf0af51b6"
     },
     {
@@ -1932,7 +1932,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-09-18T21:40:31.244Z",
+      "observedAt": "2026-09-19T00:19:26.999Z",
       "evidenceHash": "da9620097a10a7cd8a3c8abc74d37adfa1e9ab21537eb9a192a1f0273327ef75"
     },
     {
@@ -1951,7 +1951,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-09-18T21:40:31.247Z",
+      "observedAt": "2026-09-19T00:19:27.004Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1970,7 +1970,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-09-18T21:40:31.247Z",
+      "observedAt": "2026-09-19T00:19:27.004Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -1989,7 +1989,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-09-18T21:40:31.247Z",
+      "observedAt": "2026-09-19T00:19:27.005Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -2008,7 +2008,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-09-18T21:40:31.247Z",
+      "observedAt": "2026-09-19T00:19:27.005Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2027,7 +2027,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-09-18T21:40:31.247Z",
+      "observedAt": "2026-09-19T00:19:27.005Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2046,7 +2046,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-09-18T21:40:31.247Z",
+      "observedAt": "2026-09-19T00:19:27.005Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2064,7 +2064,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-09-18T21:40:30.789Z",
+      "observedAt": "2026-09-19T00:19:27.184Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
