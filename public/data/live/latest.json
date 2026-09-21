@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T21:31:42.492Z",
+  "generatedAt": "2026-09-21T00:15:36.649Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-09-20T21:31:02.047Z",
+      "fetchedAt": "2026-09-21T00:14:54.739Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-09-20T21:31:02.057Z",
+      "fetchedAt": "2026-09-21T00:14:54.752Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-09-20T21:31:02.059Z",
+      "fetchedAt": "2026-09-21T00:14:54.754Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-09-20T21:31:02.060Z",
+      "fetchedAt": "2026-09-21T00:14:54.755Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-20T21:31:02.061Z",
+      "fetchedAt": "2026-09-21T00:14:54.756Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-20T21:31:02.063Z",
+      "fetchedAt": "2026-09-21T00:14:54.759Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-20T21:31:36.067Z",
+      "fetchedAt": "2026-09-21T00:15:28.489Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-20T21:31:36.066Z",
+      "fetchedAt": "2026-09-21T00:15:28.487Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-09-20T21:31:36.068Z",
+      "fetchedAt": "2026-09-21T00:15:28.490Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-09-20T21:31:36.069Z",
+      "fetchedAt": "2026-09-21T00:15:28.491Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 13112180000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1079283671",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1079283671",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1062687549",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1062687549",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹13,11,218 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(30.8%)"
         ]
       },
-      "observedAt": "2026-09-20T21:31:08.476Z",
-      "evidenceHash": "be37730e851dd40b681c98cabc8331c4ab7084ca7df88df6bee809cd40c09596"
+      "observedAt": "2026-09-21T00:15:00.709Z",
+      "evidenceHash": "2c197b9f49525afad44ec82db5178ba2e2992c0c7571886de6d265c0091cef93"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:7:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4265660000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1079283671",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1079283671",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1062687549",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1062687549",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,26,566 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(35.0%)"
         ]
       },
-      "observedAt": "2026-09-20T21:31:08.476Z",
-      "evidenceHash": "0e4dcd30a322d9cba7a56e6b1ebee116bf6990f7ed95be491e6b7a627187198e"
+      "observedAt": "2026-09-21T00:15:00.709Z",
+      "evidenceHash": "05ed467867d88c6c55197ceb4c55a2a14d4edb349ed9cdf1fa35b99276c33792"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:7:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4506350000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1079283671",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1079283671",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1062687549",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1062687549",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,50,635 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-20T21:31:08.476Z",
-      "evidenceHash": "9bca21071391c931b7dded4293adde3f573172bff9a0b6675d659beacb3518d7"
+      "observedAt": "2026-09-21T00:15:00.709Z",
+      "evidenceHash": "0aa863b58d3a90bf9f1b1b16290eb7ece31d9b4b0f738dba56f9cb1653a96372"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:7:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1262720000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1079283671",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1079283671",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1062687549",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1062687549",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,26,272 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(42.8%)"
         ]
       },
-      "observedAt": "2026-09-20T21:31:08.476Z",
-      "evidenceHash": "f2d8ca70cfef29dfd15d6cc822ddb619f931467ff3c331c36f2074cd6946d508"
+      "observedAt": "2026-09-21T00:15:00.709Z",
+      "evidenceHash": "c41d433dd0b1fc7b3ecefebc49116186f215a4df2486459df81d038ce1ac31b2"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:7:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 17618530000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1079283671",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1079283671",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1062687549",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1062687549",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹17,61,853 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-20T21:31:08.476Z",
-      "evidenceHash": "91fb600d79930a04b5a107e28382c7f767df828040d966cfaf848e9f271043cf"
+      "observedAt": "2026-09-21T00:15:00.709Z",
+      "evidenceHash": "d019a81a24196ed68011c66ca93c979d81bff078b6c718f1c9e4cfc6c12b68a9"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:7:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1535133400000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1079283671",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1079283671",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1062687549",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1062687549",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,53,513.34 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,8 +323,8 @@
           "(30%)"
         ]
       },
-      "observedAt": "2026-09-20T21:31:08.478Z",
-      "evidenceHash": "0eabb7054a2487443eb691d19dfd4ab529a91a1f49ee21dd5702d1deaec9236a"
+      "observedAt": "2026-09-21T00:15:00.711Z",
+      "evidenceHash": "f806331eaa9c657937a62ec3ea722f9e4922a22c2d984b3adae7fe796fd8e57f"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access-21-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-21-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
@@ -357,7 +357,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.055Z",
+      "observedAt": "2026-09-21T00:14:56.814Z",
       "evidenceHash": "cac368298839209b56b6c4fdacb9c301677df68308751915936183f2e2589981"
     },
     {
@@ -377,7 +377,7 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.056Z",
+      "observedAt": "2026-09-21T00:14:56.815Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
@@ -403,7 +403,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.056Z",
+      "observedAt": "2026-09-21T00:14:56.816Z",
       "evidenceHash": "9041535143a0ebcb2de33ca84d5f20fef70e46fc968e88785ef83cde2fd379df"
     },
     {
@@ -428,7 +428,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.056Z",
+      "observedAt": "2026-09-21T00:14:56.816Z",
       "evidenceHash": "adbf65f9be4acd0ceae140a8c3e3c64af989b4bbcd7470b9a7a65412081c301c"
     },
     {
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.056Z",
+      "observedAt": "2026-09-21T00:14:56.817Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.056Z",
+      "observedAt": "2026-09-21T00:14:56.817Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM | 1. DESERT COOLER | GEM/2026/B/8057118 | 06-Oct-2026 02:00 PM | 06-Oct-2026 02:30 PM | 2. Provide Quotation Rate as per Doc | 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION | 22-Sep-2026 03:00 PM | 22-Sep-2026 03:00 PM | 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. | MOIL/SP01/MECH/26-27/551 DT-17/09/2026 | 29-Sep-2026 09:00 AM | 29-Sep-2026 10:00 AM | 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. | MOIL/SP01/MECH/26-27/549 DT-17/09/2026 | 29-Sep-2026 10:00 AM | 29-Sep-2026 10:10 AM | 5. ICMR/CPC/2024-25/Dengue/40 | ICMR/CPC/2024-25/Dengue/40 | 25-Sep-2026 10:40 AM | 25-Sep-2026 11:10 AM | 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine | Mun/Mech/70TPH/2627/1686 | 23-Sep-2026 04:00 PM | 23-Sep-2026 04:30 PM | 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS | LS-08/2026 | 19-Oct-2026 09:00 AM | 19-Oct-2026 09:00 AM | 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA | HMTL/ABDB/ CLOCK/2026-27/01 | 30-Sep-2026 11:00 AM | 30-Sep-2026 11:30 AM | 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya | NSL/CEO/KVS/NIT/2026/949 | 28-Sep-2026 11:00 AM | 28-Sep-2026 11:30 AM | 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA | GEM/2026/B/8059347 DATED 19.09.2026 | 10-Oct-2026 05:00 PM | 12-Oct-2026 05:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM | 1. Cor Adm 02 | NBCC/SBG-MbPT/MbPA/2026/56 | 30-Sep-2026 11:00 AM | 30-Sep-2026 11:30 AM | 2. Corrigendum01 | NBCC/SBGWB/DVC/DGP/2026/405 | 24-Sep-2026 11:00 AM | 24-Sep-2026 11:30 AM | 3. Date Corrigendum 2 | BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 | 22-Sep-2026 06:55 PM | 23-Sep-2026 06:55 PM | 4. CORRIGENDUM I | ITI/PKD/HR/OCT26MAR27/1212 | 24-Sep-2026 02:00 PM | 24-Sep-2026 02:30 PM | 5. Corrigendum3 | 2982 | 25-Sep-2026 01:00 PM | 25-Sep-2026 02:00 PM | 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 | LS-16/2025 | 25-Sep-2026 04:00 PM | 25-Sep-2026 04:00 PM | 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 | LS-10/2026 | 25-Sep-2026 05:00 PM | 25-Sep-2026 05:00 PM | 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 | LS-11/2026 | 25-Sep-2026 12:35 PM | 25-Sep-2026 12:35 PM | 9. Corrigendum 03 | LIC/CO/CRM/CCS/RFP/2026-27 | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:30 PM | 10. Corrigendum 03 | LIC/CO/CRM/CCS/RFP/2026-27 | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:30 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM | 1. DESERT COOLER | GEM/2026/B/8057118 | 06-Oct-2026 02:00 PM | 06-Oct-2026 02:30 PM | 2. Provide Quotation Rate as per Doc | 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION | 22-Sep-2026 03:00 PM | 22-Sep-2026 03:00 PM | 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. | MOIL/SP01/MECH/26-27/551 DT-17/09/2026 | 29-Sep-2026 09:00 AM | 29-Sep-2026 10:00 AM | 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. | MOIL/SP01/MECH/26-27/549 DT-17/09/2026 | 29-Sep-2026 10:00 AM | 29-Sep-2026 10:10 AM | 5. ICMR/CPC/2024-25/Dengue/40 | ICMR/CPC/2024-25/Dengue/40 | 25-Sep-2026 10:40 AM | 25-Sep-2026 11:10 AM | 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine | Mun/Mech/70TPH/2627/1686 | 23-Sep-2026 04:00 PM | 23-Sep-2026 04:30 PM | 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS | LS-08/2026 | 19-Oct-2026 09:00 AM | 19-Oct-2026 09:00 AM | 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA | HMTL/ABDB/ CLOCK/2026-27/01 | 30-Sep-2026 11:00 AM | 30-Sep-2026 11:30 AM | 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA | GEM/2026/B/8059347 DATED 19.09.2026 | 10-Oct-2026 05:00 PM | 12-Oct-2026 05:00 PM | 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya | NSL/CEO/KVS/NIT/2026/949 | 28-Sep-2026 11:00 AM | 28-Sep-2026 11:30 AM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM | 1. Cor Adm 02 | NBCC/SBG-MbPT/MbPA/2026/56 | 30-Sep-2026 11:00 AM | 30-Sep-2026 11:30 AM | 2. Corrigendum01 | NBCC/SBGWB/DVC/DGP/2026/405 | 24-Sep-2026 11:00 AM | 24-Sep-2026 11:30 AM | 3. Date Corrigendum 2 | BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 | 22-Sep-2026 06:55 PM | 23-Sep-2026 06:55 PM | 4. CORRIGENDUM I | ITI/PKD/HR/OCT26MAR27/1212 | 24-Sep-2026 02:00 PM | 24-Sep-2026 02:30 PM | 5. Corrigendum3 | 2982 | 25-Sep-2026 01:00 PM | 25-Sep-2026 02:00 PM | 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 | LS-16/2025 | 25-Sep-2026 04:00 PM | 25-Sep-2026 04:00 PM | 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 | LS-10/2026 | 25-Sep-2026 05:00 PM | 25-Sep-2026 05:00 PM | 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 | LS-11/2026 | 25-Sep-2026 12:35 PM | 25-Sep-2026 12:35 PM | 9. Corrigendum 03 | LIC/CO/CRM/CCS/RFP/2026-27 | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:30 PM | 10. Corrigendum 03 | LIC/CO/CRM/CCS/RFP/2026-27 | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:30 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,21 +520,21 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 02 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Corrigendum01 NBCC/SBGWB/DVC/DGP/2026/405 24-Sep-2026 11:00 AM 24-Sep-2026 11:30 AM 3. Date Corrigendum 2 BANDR/71149/IOCL/ INSTRUMENTATION/SITE/SC/NIT/04 22-Sep-2026 06:55 PM 23-Sep-2026 06:55 PM 4. CORRIGENDUM I ITI/PKD/HR/OCT26MAR27/1212 24-Sep-2026 02:00 PM 24-Sep-2026 02:30 PM 5. Corrigendum3 2982 25-Sep-2026 01:00 PM 25-Sep-2026 02:00 PM 6. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-16/2025 25-Sep-2026 04:00 PM 25-Sep-2026 04:00 PM 7. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-10/2026 25-Sep-2026 05:00 PM 25-Sep-2026 05:00 PM 8. EXTEND DATE OF BID CLOSING up to 25.09.2026 LS-11/2026 25-Sep-2026 12:35 PM 25-Sep-2026 12:35 PM 9. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM 10. Corrigendum 03 LIC/CO/CRM/CCS/RFP/2026-27 30-Sep-2026 03:00 PM 30-Sep-2026 03:30 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM",
+          "1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM",
           "1. DESERT COOLER",
           "GEM/2026/B/8057118",
           "06-Oct-2026 02:00 PM",
@@ -567,14 +567,14 @@
           "HMTL/ABDB/ CLOCK/2026-27/01",
           "30-Sep-2026 11:00 AM",
           "30-Sep-2026 11:30 AM",
-          "9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya",
-          "NSL/CEO/KVS/NIT/2026/949",
-          "28-Sep-2026 11:00 AM",
-          "28-Sep-2026 11:30 AM",
-          "10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA",
+          "9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA",
           "GEM/2026/B/8059347 DATED 19.09.2026",
           "10-Oct-2026 05:00 PM",
           "12-Oct-2026 05:00 PM",
+          "10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya",
+          "NSL/CEO/KVS/NIT/2026/949",
+          "28-Sep-2026 11:00 AM",
+          "28-Sep-2026 11:30 AM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.070Z",
-      "evidenceHash": "a030c55b9bf27a4024b2d7d507577154a14c95e64e0cfcb19c80c86f3fb8c5a8"
+      "observedAt": "2026-09-21T00:14:56.836Z",
+      "evidenceHash": "deaff4d5278b972ffbb817e5e868feb2513b725aa3402f3471a6bf8276baef92"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.070Z",
+      "observedAt": "2026-09-21T00:14:56.837Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,11 +727,11 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.071Z",
+      "observedAt": "2026-09-21T00:14:56.838Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-desert-cooler-gem/2026/b/8057118-06-oct-2026-02:00-pm-06-oct-2026-02:30-pm-2.-provide-quotation-rate-as-per-doc-247/ae-/masso-la-and-env-earth-dam-sub-division-22-sep-2026-03:00-pm-22-sep-2026-03:00-pm-3.-proposal-for-repairing-of-rear-leaf-spring-assembly-of-tipper-no.16-(mp50h1153)at-sitapatore-mine.-moil/sp01/mech/26-27/551-dt-17/09/2026-29-sep-2026-09:00-am-29-sep-2026-10:00-am-4.-proposal-for-repairing-of-rear-leaf-spring-assembly-of-tipper-no.17-(mp50h1301)at-sitapatore-mine.-moil/sp01/mech/26-27/549-dt-17/09/2026-29-sep-2026-10:00-am-29-sep-2026-10:10-am-5.-icmr/cpc/2024-25/dengue/40-icmr/cpc/2024-25/dengue/40-25-sep-2026-10:40-am-25-sep-2026-11:10-am-6.-structural-design-preparation-of-autocad-drawings-and-estimation-sheets-for-proposed-70tph-crushing-and-screening-plant-at-munsar-mine-mun/mech/70tph/2627/1686-23-sep-2026-04:00-pm-23-sep-2026-04:30-pm-7.-tender-no-ls-08-2026-etender-cum-eauction-for-allotment-of-plots-for-various-purpose-situated-at-tuna-on-30-years-lease-on-as-is-where-is-basis-ls-08/2026-19-oct-2026-09:00-am-19-oct-2026-09:00-am-8.-supply,-installation-and-commissioning-of-tower-clocks-at-2-locations,-kolar-town,-karnataka-hmtl/abdb/-clock/2026-27/01-30-sep-2026-11:00-am-30-sep-2026-11:30-am-9.-structural-repair-and-rehabilitation,-internal-and-external-finishing,-terrace-waterproofing,-provision-of-smc-fire-fighting-tank-on-terrace,-demolition-of-the-existing-toilet-blocks-and-construction-of-new-toilet-blocks-at-pm-shri-kendriya-vidyalaya-nsl/ceo/kvs/nit/2026/949-28-sep-2026-11:00-am-28-sep-2026-11:30-am-10.-appointment-of-consultant-for-building-management-system-and-obtaining-indian-green-building-council-certification-(igbc)-for-uco-bank-buildings-across-india-gem/2026/b/8059347-dated-19.09.2026-10-oct-2026-05:00-pm-12-oct-2026-05:00-pm:1.-desert-cooler-gem/2026/b/8057118-06-oct-2026-02:00-pm-06-oct-2026-02:30-pm-2.-provide-quotation-rate-as-per-doc-247/ae-/masso-la-and-env-earth-dam-sub-division-22-sep-2026-03:00-pm-22-sep-2026-03:00-pm-3.-proposal-for-repairing-of-rear-leaf-spring-assembly-of-tipper-no.16-(mp50h1153)at-sitapatore-mine.-moil/sp01/mech/26-27/551-dt-17/09/2026-29-sep-2026-09:00-am-29-sep-2026-10:00-am-4.-proposal-for-repairing-of-rear-leaf-spring-assembly-of-tipper-no.17-(mp50h1301)at-sitapatore-mine.-moil/sp01/mech/26-27/549-dt-17/09/2026-29-sep-2026-10:00-am-29-sep-2026-10:10-am-5.-icmr/cpc/2024-25/dengue/40-icmr/cpc/2024-25/dengue/40-25-sep-2026-10:40-am-25-sep-2026-11:10-am-6.-structural-design-preparation-of-autocad-drawings-and-estimation-sheets-for-proposed-70tph-crushing-and-screening-plant-at-munsar-mine-mun/mech/70tph/2627/1686-23-sep-2026-04:00-pm-23-sep-2026-04:30-pm-7.-tender-no-ls-08-2026-etender-cum-eauction-for-allotment-of-plots-for-various-purpose-situated-at-tuna-on-30-years-lease-on-as-is-where-is-basis-ls-08/2026-19-oct-2026-09:00-am-19-oct-2026-09:00-am-8.-supply,-installation-and-commissioning-of-tower-clocks-at-2-locations,-kolar-town,-karnataka-hmtl/abdb/-clock/2026-27/01-30-sep-2026-11:00-am-30-sep-2026-11:30-am-9.-structural-repair-and-rehabilitation,-internal-and-external-finishing,-terrace-waterproofing,-provision-of-smc-fire-fighting-tank-on-terrace,-demolition-of-the-existing-toilet-blocks-and-construction-of-new-toilet-blocks-at-pm-shri-kendriya-vidyalaya-nsl/ceo/kvs/nit/2026/949-28-sep-2026-11:00-am-28-sep-2026-11:30-am-10.-appointment-of-consultant-for-building-management-system-and-obtaining-indian-green-building-council-certification-(igbc)-for-uco-bank-buildings-across-india-gem/2026/b/8059347-dated-19.09.2026-10-oct-2026-05:00-pm-12-oct-2026-05:00-pm",
+      "externalKey": "cppp-procurement:1.-desert-cooler-gem/2026/b/8057118-06-oct-2026-02:00-pm-06-oct-2026-02:30-pm-2.-provide-quotation-rate-as-per-doc-247/ae-/masso-la-and-env-earth-dam-sub-division-22-sep-2026-03:00-pm-22-sep-2026-03:00-pm-3.-proposal-for-repairing-of-rear-leaf-spring-assembly-of-tipper-no.16-(mp50h1153)at-sitapatore-mine.-moil/sp01/mech/26-27/551-dt-17/09/2026-29-sep-2026-09:00-am-29-sep-2026-10:00-am-4.-proposal-for-repairing-of-rear-leaf-spring-assembly-of-tipper-no.17-(mp50h1301)at-sitapatore-mine.-moil/sp01/mech/26-27/549-dt-17/09/2026-29-sep-2026-10:00-am-29-sep-2026-10:10-am-5.-icmr/cpc/2024-25/dengue/40-icmr/cpc/2024-25/dengue/40-25-sep-2026-10:40-am-25-sep-2026-11:10-am-6.-structural-design-preparation-of-autocad-drawings-and-estimation-sheets-for-proposed-70tph-crushing-and-screening-plant-at-munsar-mine-mun/mech/70tph/2627/1686-23-sep-2026-04:00-pm-23-sep-2026-04:30-pm-7.-tender-no-ls-08-2026-etender-cum-eauction-for-allotment-of-plots-for-various-purpose-situated-at-tuna-on-30-years-lease-on-as-is-where-is-basis-ls-08/2026-19-oct-2026-09:00-am-19-oct-2026-09:00-am-8.-supply,-installation-and-commissioning-of-tower-clocks-at-2-locations,-kolar-town,-karnataka-hmtl/abdb/-clock/2026-27/01-30-sep-2026-11:00-am-30-sep-2026-11:30-am-9.-appointment-of-consultant-for-building-management-system-and-obtaining-indian-green-building-council-certification-(igbc)-for-uco-bank-buildings-across-india-gem/2026/b/8059347-dated-19.09.2026-10-oct-2026-05:00-pm-12-oct-2026-05:00-pm-10.-structural-repair-and-rehabilitation,-internal-and-external-finishing,-terrace-waterproofing,-provision-of-smc-fire-fighting-tank-on-terrace,-demolition-of-the-existing-toilet-blocks-and-construction-of-new-toilet-blocks-at-pm-shri-kendriya-vidyalaya-nsl/ceo/kvs/nit/2026/949-28-sep-2026-11:00-am-28-sep-2026-11:30-am:1.-desert-cooler-gem/2026/b/8057118-06-oct-2026-02:00-pm-06-oct-2026-02:30-pm-2.-provide-quotation-rate-as-per-doc-247/ae-/masso-la-and-env-earth-dam-sub-division-22-sep-2026-03:00-pm-22-sep-2026-03:00-pm-3.-proposal-for-repairing-of-rear-leaf-spring-assembly-of-tipper-no.16-(mp50h1153)at-sitapatore-mine.-moil/sp01/mech/26-27/551-dt-17/09/2026-29-sep-2026-09:00-am-29-sep-2026-10:00-am-4.-proposal-for-repairing-of-rear-leaf-spring-assembly-of-tipper-no.17-(mp50h1301)at-sitapatore-mine.-moil/sp01/mech/26-27/549-dt-17/09/2026-29-sep-2026-10:00-am-29-sep-2026-10:10-am-5.-icmr/cpc/2024-25/dengue/40-icmr/cpc/2024-25/dengue/40-25-sep-2026-10:40-am-25-sep-2026-11:10-am-6.-structural-design-preparation-of-autocad-drawings-and-estimation-sheets-for-proposed-70tph-crushing-and-screening-plant-at-munsar-mine-mun/mech/70tph/2627/1686-23-sep-2026-04:00-pm-23-sep-2026-04:30-pm-7.-tender-no-ls-08-2026-etender-cum-eauction-for-allotment-of-plots-for-various-purpose-situated-at-tuna-on-30-years-lease-on-as-is-where-is-basis-ls-08/2026-19-oct-2026-09:00-am-19-oct-2026-09:00-am-8.-supply,-installation-and-commissioning-of-tower-clocks-at-2-locations,-kolar-town,-karnataka-hmtl/abdb/-clock/2026-27/01-30-sep-2026-11:00-am-30-sep-2026-11:30-am-9.-appointment-of-consultant-for-building-management-system-and-obtaining-indian-green-building-council-certification-(igbc)-for-uco-bank-buildings-across-india-gem/2026/b/8059347-dated-19.09.2026-10-oct-2026-05:00-pm-12-oct-2026-05:00-pm-10.-structural-repair-and-rehabilitation,-internal-and-external-finishing,-terrace-waterproofing,-provision-of-smc-fire-fighting-tank-on-terrace,-demolition-of-the-existing-toilet-blocks-and-construction-of-new-toilet-blocks-at-pm-shri-kendriya-vidyalaya-nsl/ceo/kvs/nit/2026/949-28-sep-2026-11:00-am-28-sep-2026-11:30-am",
       "sensorId": "cppp-procurement",
       "title": "1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/",
       "authority": "Government of India eProcurement System",
@@ -739,12 +739,12 @@
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=ScIhiGGiXCwtECG4KpYRy4Q%3D%3D",
-      "tenderReference": "1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM",
+      "tenderReference": "1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM",
       "geographicPrecision": "unknown",
-      "note": "GEM/2026/B/8057118 | 06-Oct-2026 02:00 PM | 06-Oct-2026 02:30 PM | 2. Provide Quotation Rate as per Doc | 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION | 22-Sep-2026 03:00 PM | 22-Sep-2026 03:00 PM | 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. | MOIL/SP01/MECH/26-27/551 DT-17/09/2026 | 29-Sep-2026 09:00 AM | 29-Sep-2026 10:00 AM | 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. | MOIL/SP01/MECH/26-27/549 DT-17/09/2026 | 29-Sep-2026 10:00 AM | 29-Sep-2026 10:10 AM | 5. ICMR/CPC/2024-25/Dengue/40 | ICMR/CPC/2024-25/Dengue/40 | 25-Sep-2026 10:40 AM | 25-Sep-2026 11:10 AM | 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine | Mun/Mech/70TPH/2627/1686 | 23-Sep-2026 04:00 PM | 23-Sep-2026 04:30 PM | 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS | LS-08/2026 | 19-Oct-2026 09:00 AM | 19-Oct-2026 09:00 AM | 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA | HMTL/ABDB/ CLOCK/2026-27/01 | 30-Sep-2026 11:00 AM | 30-Sep-2026 11:30 AM | 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya | NSL/CEO/KVS/NIT/2026/949 | 28-Sep-2026 11:00 AM | 28-Sep-2026 11:30 AM | 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA | GEM/2026/B/8059347 DATED 19.09.2026 | 10-Oct-2026 05:00 PM | 12-Oct-2026 05:00 PM",
+      "note": "GEM/2026/B/8057118 | 06-Oct-2026 02:00 PM | 06-Oct-2026 02:30 PM | 2. Provide Quotation Rate as per Doc | 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION | 22-Sep-2026 03:00 PM | 22-Sep-2026 03:00 PM | 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. | MOIL/SP01/MECH/26-27/551 DT-17/09/2026 | 29-Sep-2026 09:00 AM | 29-Sep-2026 10:00 AM | 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. | MOIL/SP01/MECH/26-27/549 DT-17/09/2026 | 29-Sep-2026 10:00 AM | 29-Sep-2026 10:10 AM | 5. ICMR/CPC/2024-25/Dengue/40 | ICMR/CPC/2024-25/Dengue/40 | 25-Sep-2026 10:40 AM | 25-Sep-2026 11:10 AM | 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine | Mun/Mech/70TPH/2627/1686 | 23-Sep-2026 04:00 PM | 23-Sep-2026 04:30 PM | 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS | LS-08/2026 | 19-Oct-2026 09:00 AM | 19-Oct-2026 09:00 AM | 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA | HMTL/ABDB/ CLOCK/2026-27/01 | 30-Sep-2026 11:00 AM | 30-Sep-2026 11:30 AM | 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA | GEM/2026/B/8059347 DATED 19.09.2026 | 10-Oct-2026 05:00 PM | 12-Oct-2026 05:00 PM | 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya | NSL/CEO/KVS/NIT/2026/949 | 28-Sep-2026 11:00 AM | 28-Sep-2026 11:30 AM",
       "raw": {
         "cells": [
-          "1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM",
+          "1. DESERT COOLER GEM/2026/B/8057118 06-Oct-2026 02:00 PM 06-Oct-2026 02:30 PM 2. Provide Quotation Rate as per Doc 247/AE /MASSO LA AND ENV EARTH DAM SUB DIVISION 22-Sep-2026 03:00 PM 22-Sep-2026 03:00 PM 3. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.16 (MP50H1153)at sitapatore Mine. MOIL/SP01/MECH/26-27/551 DT-17/09/2026 29-Sep-2026 09:00 AM 29-Sep-2026 10:00 AM 4. Proposal for Repairing of Rear Leaf spring assembly of Tipper No.17 (MP50H1301)at sitapatore Mine. MOIL/SP01/MECH/26-27/549 DT-17/09/2026 29-Sep-2026 10:00 AM 29-Sep-2026 10:10 AM 5. ICMR/CPC/2024-25/Dengue/40 ICMR/CPC/2024-25/Dengue/40 25-Sep-2026 10:40 AM 25-Sep-2026 11:10 AM 6. Structural design preparation of AutoCAD drawings and estimation sheets for proposed 70TPH crushing and screening plant at Munsar Mine Mun/Mech/70TPH/2627/1686 23-Sep-2026 04:00 PM 23-Sep-2026 04:30 PM 7. TENDER NO LS 08 2026 ETENDER CUM EAUCTION FOR ALLOTMENT OF PLOTS FOR VARIOUS PURPOSE SITUATED AT TUNA ON 30 YEARS LEASE ON AS IS WHERE IS BASIS LS-08/2026 19-Oct-2026 09:00 AM 19-Oct-2026 09:00 AM 8. SUPPLY, INSTALLATION AND COMMISSIONING OF TOWER CLOCKS AT 2 LOCATIONS, KOLAR TOWN, KARNATAKA HMTL/ABDB/ CLOCK/2026-27/01 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA GEM/2026/B/8059347 DATED 19.09.2026 10-Oct-2026 05:00 PM 12-Oct-2026 05:00 PM 10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya NSL/CEO/KVS/NIT/2026/949 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM",
           "1. DESERT COOLER",
           "GEM/2026/B/8057118",
           "06-Oct-2026 02:00 PM",
@@ -777,18 +777,18 @@
           "HMTL/ABDB/ CLOCK/2026-27/01",
           "30-Sep-2026 11:00 AM",
           "30-Sep-2026 11:30 AM",
-          "9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya",
-          "NSL/CEO/KVS/NIT/2026/949",
-          "28-Sep-2026 11:00 AM",
-          "28-Sep-2026 11:30 AM",
-          "10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA",
+          "9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA",
           "GEM/2026/B/8059347 DATED 19.09.2026",
           "10-Oct-2026 05:00 PM",
-          "12-Oct-2026 05:00 PM"
+          "12-Oct-2026 05:00 PM",
+          "10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya",
+          "NSL/CEO/KVS/NIT/2026/949",
+          "28-Sep-2026 11:00 AM",
+          "28-Sep-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.072Z",
-      "evidenceHash": "e4f9dafa28bfa1eb3fe58deb858b17b43ddb68f44303ce35e2913a61897e643e"
+      "observedAt": "2026-09-21T00:14:56.840Z",
+      "evidenceHash": "203bcecb975da8423495e492edf6e258e1b454e01dd8396b89f5c270926f37d3"
     },
     {
       "externalKey": "cppp-procurement:gem/2026/b/8057118:1.-desert-cooler",
@@ -810,7 +810,7 @@
           "06-Oct-2026 02:30 PM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.073Z",
+      "observedAt": "2026-09-21T00:14:56.841Z",
       "evidenceHash": "1d1c33d5e59f16a395dad8ef7c535df10b2a33b5296198488c7dba1b898a4cce"
     },
     {
@@ -833,7 +833,7 @@
           "22-Sep-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.073Z",
+      "observedAt": "2026-09-21T00:14:56.841Z",
       "evidenceHash": "38564ebf2e1f704634a0008d41e4eb7049841708840f255eb7eaa0957371972a"
     },
     {
@@ -856,7 +856,7 @@
           "29-Sep-2026 10:00 AM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.073Z",
+      "observedAt": "2026-09-21T00:14:56.841Z",
       "evidenceHash": "f8deb7f9893e5cd1f9e1ff263ae76a9c59b3e6a706bc7272499b70fd5a9f2bd6"
     },
     {
@@ -879,7 +879,7 @@
           "29-Sep-2026 10:10 AM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.073Z",
+      "observedAt": "2026-09-21T00:14:56.841Z",
       "evidenceHash": "50e7c55df77bdd386bea780c5b11a6caa5c0d276b876322352a7a86b17b5b538"
     },
     {
@@ -902,7 +902,7 @@
           "25-Sep-2026 11:10 AM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.073Z",
+      "observedAt": "2026-09-21T00:14:56.841Z",
       "evidenceHash": "d84da27b903179c9a3ff6163ac441cc16c9c1b8f309bd4e00e76b20f95fa1749"
     },
     {
@@ -925,7 +925,7 @@
           "23-Sep-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.073Z",
+      "observedAt": "2026-09-21T00:14:56.842Z",
       "evidenceHash": "c85db1ae440bb12d9ff698c021f0c6726a6c5ed8ffd098901f69445e357ae763"
     },
     {
@@ -948,7 +948,7 @@
           "19-Oct-2026 09:00 AM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.073Z",
+      "observedAt": "2026-09-21T00:14:56.842Z",
       "evidenceHash": "bcae24e3d88cf5f3587ab5a9bc49e3a3b4da7769cd548062f3a4d30c37d2bb27"
     },
     {
@@ -971,36 +971,13 @@
           "30-Sep-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.073Z",
+      "observedAt": "2026-09-21T00:14:56.842Z",
       "evidenceHash": "37e9b58ac20e698ac9af9191e7de438596a8f1b5f4f2295925686fd99bf70293"
     },
     {
-      "externalKey": "cppp-procurement:nsl/ceo/kvs/nit/2026/949:9.-structural-repair-and-rehabilitation,-internal-and-external-finishing,-terrace-waterproofing,-provision-of-smc-fire-fighting-tank-on-terrace,-demolition-of-the-existing-toilet-blocks-and-construction-of-new-toilet-blocks-at-pm-shri-kendriya-vidyalaya",
+      "externalKey": "cppp-procurement:gem/2026/b/8059347-dated-19.09.2026:9.-appointment-of-consultant-for-building-management-system-and-obtaining-indian-green-building-council-certification-(igbc)-for-uco-bank-buildings-across-india",
       "sensorId": "cppp-procurement",
-      "title": "9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Srbd9IFDjFy9xwk24R0xyAQ%3D%3D",
-      "tenderReference": "NSL/CEO/KVS/NIT/2026/949",
-      "geographicPrecision": "unknown",
-      "note": "28-Sep-2026 11:00 AM | 28-Sep-2026 11:30 AM",
-      "raw": {
-        "cells": [
-          "9. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya",
-          "NSL/CEO/KVS/NIT/2026/949",
-          "28-Sep-2026 11:00 AM",
-          "28-Sep-2026 11:30 AM"
-        ]
-      },
-      "observedAt": "2026-09-20T21:31:04.073Z",
-      "evidenceHash": "5beb596ccfaa0d1acb2b1e0c7f63e351a835198ef489bffcc49fef2989c5e641"
-    },
-    {
-      "externalKey": "cppp-procurement:gem/2026/b/8059347-dated-19.09.2026:10.-appointment-of-consultant-for-building-management-system-and-obtaining-indian-green-building-council-certification-(igbc)-for-uco-bank-buildings-across-india",
-      "sensorId": "cppp-procurement",
-      "title": "10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA",
+      "title": "9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -1011,14 +988,37 @@
       "note": "10-Oct-2026 05:00 PM | 12-Oct-2026 05:00 PM",
       "raw": {
         "cells": [
-          "10. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA",
+          "9. APPOINTMENT OF CONSULTANT FOR BUILDING MANAGEMENT SYSTEM AND OBTAINING INDIAN GREEN BUILDING COUNCIL CERTIFICATION (IGBC) FOR UCO BANK BUILDINGS ACROSS INDIA",
           "GEM/2026/B/8059347 DATED 19.09.2026",
           "10-Oct-2026 05:00 PM",
           "12-Oct-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.073Z",
-      "evidenceHash": "0dc144dc87fd48b22b18ace27b51b6cb5b1ba621d10deaa50119098c760301a1"
+      "observedAt": "2026-09-21T00:14:56.842Z",
+      "evidenceHash": "3bb6817c4dae5a4349d385341713af77fc0cde65573fe4b1ddb8553547b25662"
+    },
+    {
+      "externalKey": "cppp-procurement:nsl/ceo/kvs/nit/2026/949:10.-structural-repair-and-rehabilitation,-internal-and-external-finishing,-terrace-waterproofing,-provision-of-smc-fire-fighting-tank-on-terrace,-demolition-of-the-existing-toilet-blocks-and-construction-of-new-toilet-blocks-at-pm-shri-kendriya-vidyalaya",
+      "sensorId": "cppp-procurement",
+      "title": "10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Srbd9IFDjFy9xwk24R0xyAQ%3D%3D",
+      "tenderReference": "NSL/CEO/KVS/NIT/2026/949",
+      "geographicPrecision": "unknown",
+      "note": "28-Sep-2026 11:00 AM | 28-Sep-2026 11:30 AM",
+      "raw": {
+        "cells": [
+          "10. Structural repair and rehabilitation, internal and external finishing, terrace waterproofing, provision of SMC fire fighting tank on terrace, demolition of the existing toilet blocks and construction of new toilet blocks at PM SHRI Kendriya Vidyalaya",
+          "NSL/CEO/KVS/NIT/2026/949",
+          "28-Sep-2026 11:00 AM",
+          "28-Sep-2026 11:30 AM"
+        ]
+      },
+      "observedAt": "2026-09-21T00:14:56.842Z",
+      "evidenceHash": "2a017a723e77100d852611aa86f9955b69d1154b44ff86e80021416abc45341e"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.073Z",
+      "observedAt": "2026-09-21T00:14:56.842Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.073Z",
+      "observedAt": "2026-09-21T00:14:56.843Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "30-Sep-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.843Z",
       "evidenceHash": "578dbaf2e733c8e013349ea61e47bf124437a9dac6c91cbafa07628b3414ec79"
     },
     {
@@ -1143,7 +1143,7 @@
           "30-Sep-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.843Z",
       "evidenceHash": "b3c11428b89a43b95f583893c5c3cd0c7d865417c36ac0bf922a248f3ce958f3"
     },
     {
@@ -1166,7 +1166,7 @@
           "24-Sep-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.843Z",
       "evidenceHash": "3264197021119fe001b97c69e19acec1498980594bfa4c7f660a78ecc37be8cf"
     },
     {
@@ -1189,7 +1189,7 @@
           "23-Sep-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.843Z",
       "evidenceHash": "38bcf225bb2153783292159e48e9b8009f23294260b73cc8f923f7ebcbcd7cf3"
     },
     {
@@ -1212,7 +1212,7 @@
           "24-Sep-2026 02:30 PM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.844Z",
       "evidenceHash": "7fb23884b943a6b44a4ea58cc8552e13d99f38deaa415ec21aece6762af47d13"
     },
     {
@@ -1235,7 +1235,7 @@
           "25-Sep-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.844Z",
       "evidenceHash": "dce0e02a7a3a3280b234ef5633d17f0a96bf4763d33171a28a2e5a1017ebdfcf"
     },
     {
@@ -1258,7 +1258,7 @@
           "25-Sep-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.844Z",
       "evidenceHash": "cc0440c1d0a51f7957387d3347316a25300cf95852d904db7bb3ae6a8b41cec0"
     },
     {
@@ -1281,7 +1281,7 @@
           "25-Sep-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.844Z",
       "evidenceHash": "8afef1f44e3c7e6b327f5362ad006c2f82261eaf6159ec2c3e8a56b30e2d7eec"
     },
     {
@@ -1304,7 +1304,7 @@
           "25-Sep-2026 12:35 PM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.844Z",
       "evidenceHash": "0b53c80e9845035f9a20f1cb9f748b0d0e17e24f890284266be06dadc8ce41c7"
     },
     {
@@ -1327,7 +1327,7 @@
           "30-Sep-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.844Z",
       "evidenceHash": "843dd407d746b52a37e91006a0a3f58e019da974275eaa02efcd028e40696687"
     },
     {
@@ -1350,7 +1350,7 @@
           "30-Sep-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.844Z",
       "evidenceHash": "67a8764bcb01e8665ffcc9930f8669301d0c026100c9446adca744f6337f8adf"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.844Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.844Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.844Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.845Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.074Z",
+      "observedAt": "2026-09-21T00:14:56.845Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.075Z",
+      "observedAt": "2026-09-21T00:14:56.845Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.075Z",
+      "observedAt": "2026-09-21T00:14:56.845Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.075Z",
+      "observedAt": "2026-09-21T00:14:56.845Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.075Z",
+      "observedAt": "2026-09-21T00:14:56.845Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.075Z",
+      "observedAt": "2026-09-21T00:14:56.846Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.075Z",
+      "observedAt": "2026-09-21T00:14:56.846Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.075Z",
+      "observedAt": "2026-09-21T00:14:56.846Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-20T21:31:04.075Z",
+      "observedAt": "2026-09-21T00:14:56.846Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "126469"
       },
-      "observedAt": "2026-09-20T21:31:06.664Z",
+      "observedAt": "2026-09-21T00:14:59.308Z",
       "evidenceHash": "1c7d422b591169eb80826592dabb65db5168877db9d1d58f0ef0bcd51dcb5e6f"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "126458"
       },
-      "observedAt": "2026-09-20T21:31:06.664Z",
+      "observedAt": "2026-09-21T00:14:59.308Z",
       "evidenceHash": "e01566022e060c485559292b09732dafecf684c8ad5553baa0e1ac1585824a57"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "126325"
       },
-      "observedAt": "2026-09-20T21:31:06.664Z",
+      "observedAt": "2026-09-21T00:14:59.308Z",
       "evidenceHash": "59cb65fbe0232a895436738f801dbfafdc394a62f0f1b4fbe7e625cc119a4ffa"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "126309"
       },
-      "observedAt": "2026-09-20T21:31:06.664Z",
+      "observedAt": "2026-09-21T00:14:59.308Z",
       "evidenceHash": "c6b423a5a20b11b3e1564f2f839629d82a2937e6326aeb72643d6819bef6cd43"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "126303"
       },
-      "observedAt": "2026-09-20T21:31:06.664Z",
+      "observedAt": "2026-09-21T00:14:59.308Z",
       "evidenceHash": "090e9437e7e90c7f81874103baa7d01e15603ff15948b4f9572575236bac067d"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "126302"
       },
-      "observedAt": "2026-09-20T21:31:06.664Z",
+      "observedAt": "2026-09-21T00:14:59.308Z",
       "evidenceHash": "748a312ce1b84dae7f90b8c2b9377201625fdf33eb2420307ec96ba7cb10fff7"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "126301"
       },
-      "observedAt": "2026-09-20T21:31:06.664Z",
+      "observedAt": "2026-09-21T00:14:59.308Z",
       "evidenceHash": "282ed13302a3052cf4b2f694d2136480716e5bc4d7ca375bfb3f47e4f7423be5"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "126283"
       },
-      "observedAt": "2026-09-20T21:31:06.664Z",
+      "observedAt": "2026-09-21T00:14:59.308Z",
       "evidenceHash": "835ec0a65727e1762a4667c7b0562ffacb5e1854441a4a50f7250e35e751e3fa"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "126269"
       },
-      "observedAt": "2026-09-20T21:31:06.664Z",
+      "observedAt": "2026-09-21T00:14:59.308Z",
       "evidenceHash": "45e7a693e09f448888485a3564527657cc895b2be74863b4d65f00322d147bff"
     },
     {
@@ -1809,7 +1809,7 @@
       "raw": {
         "reportId": "126255"
       },
-      "observedAt": "2026-09-20T21:31:06.664Z",
+      "observedAt": "2026-09-21T00:14:59.308Z",
       "evidenceHash": "f5a3a87979dab783288333f3f23152d2391f4aec7bdacae108f212bbaffdea20"
     },
     {
@@ -1822,7 +1822,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-20T21:31:05.577Z",
+      "observedAt": "2026-09-21T00:14:58.461Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1835,7 +1835,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-20T21:31:05.578Z",
+      "observedAt": "2026-09-21T00:14:58.463Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1848,7 +1848,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-20T21:31:05.578Z",
+      "observedAt": "2026-09-21T00:14:58.463Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1861,7 +1861,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-20T21:31:05.578Z",
+      "observedAt": "2026-09-21T00:14:58.463Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1874,7 +1874,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-20T21:31:05.578Z",
+      "observedAt": "2026-09-21T00:14:58.463Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1888,7 +1888,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-20T21:31:05.578Z",
+      "observedAt": "2026-09-21T00:14:58.463Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1902,7 +1902,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-20T21:31:05.578Z",
+      "observedAt": "2026-09-21T00:14:58.463Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1916,7 +1916,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-20T21:31:05.578Z",
+      "observedAt": "2026-09-21T00:14:58.463Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1935,7 +1935,7 @@
         "anchorText": "Detailed information of points under 100 days Action Plan Programme of Hon. Chief Minister",
         "rowText": ""
       },
-      "observedAt": "2026-09-20T21:31:37.852Z",
+      "observedAt": "2026-09-21T00:15:30.590Z",
       "evidenceHash": "d8f5135f1dd223467673fa54a0f0b2bd2488edeeb7779d616c8217a96c98587b"
     },
     {
@@ -1954,7 +1954,7 @@
         "anchorText": "100 Days Office Improvement Special Campaign Finance Department Maharashtra Government Directorate of Accounts and Treasuries ,Mumbai",
         "rowText": ""
       },
-      "observedAt": "2026-09-20T21:31:37.852Z",
+      "observedAt": "2026-09-21T00:15:30.590Z",
       "evidenceHash": "9f190d28746facab2e62556d0d56dace4b8b4c0eea3f0d43559756bdbe42cc5a"
     },
     {
@@ -1973,7 +1973,7 @@
         "anchorText": "100 Days Office Improvement Special Campaign Finance Department Government of Maharashtra Commissioner State Lottery Directorate, Mumbai.",
         "rowText": ""
       },
-      "observedAt": "2026-09-20T21:31:37.852Z",
+      "observedAt": "2026-09-21T00:15:30.591Z",
       "evidenceHash": "cf748a50cba97155d112067b9c587b4469cacf1309bfba084f93ac0bf0af51b6"
     },
     {
@@ -1992,7 +1992,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-09-20T21:31:37.853Z",
+      "observedAt": "2026-09-21T00:15:30.591Z",
       "evidenceHash": "da9620097a10a7cd8a3c8abc74d37adfa1e9ab21537eb9a192a1f0273327ef75"
     },
     {
@@ -2011,7 +2011,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-09-20T21:31:37.856Z",
+      "observedAt": "2026-09-21T00:15:30.596Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -2030,7 +2030,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-09-20T21:31:37.856Z",
+      "observedAt": "2026-09-21T00:15:30.596Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -2049,7 +2049,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-09-20T21:31:37.856Z",
+      "observedAt": "2026-09-21T00:15:30.596Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -2068,7 +2068,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-09-20T21:31:37.856Z",
+      "observedAt": "2026-09-21T00:15:30.597Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2087,7 +2087,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-09-20T21:31:37.856Z",
+      "observedAt": "2026-09-21T00:15:30.597Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2106,7 +2106,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-09-20T21:31:37.856Z",
+      "observedAt": "2026-09-21T00:15:30.597Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2124,7 +2124,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-09-20T21:31:36.951Z",
+      "observedAt": "2026-09-21T00:15:29.581Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
