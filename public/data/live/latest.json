@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T18:52:55.242Z",
+  "generatedAt": "2026-09-22T22:07:15.032Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-09-22T18:52:14.074Z",
+      "fetchedAt": "2026-09-22T22:06:33.284Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-09-22T18:52:14.087Z",
+      "fetchedAt": "2026-09-22T22:06:33.297Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-09-22T18:52:14.089Z",
+      "fetchedAt": "2026-09-22T22:06:33.298Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-09-22T18:52:14.090Z",
+      "fetchedAt": "2026-09-22T22:06:33.300Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-22T18:52:14.092Z",
+      "fetchedAt": "2026-09-22T22:06:33.301Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-22T18:52:14.095Z",
+      "fetchedAt": "2026-09-22T22:06:33.305Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-22T18:52:47.823Z",
+      "fetchedAt": "2026-09-22T22:07:07.065Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-22T18:52:47.821Z",
+      "fetchedAt": "2026-09-22T22:07:07.063Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-09-22T18:52:47.824Z",
+      "fetchedAt": "2026-09-22T22:07:07.066Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-09-22T18:52:47.825Z",
+      "fetchedAt": "2026-09-22T22:07:07.067Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 13112180000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=902900308",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=902900308",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1111069057",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1111069057",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹13,11,218 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(30.8%)"
         ]
       },
-      "observedAt": "2026-09-22T18:52:20.207Z",
-      "evidenceHash": "4d8eb7198aa8ee945e9a045decc0b74ec6c0434568d21e661240e63a536a1417"
+      "observedAt": "2026-09-22T22:06:39.625Z",
+      "evidenceHash": "217286fe52ae64ecdedb08ab647a83b0121c43e08d73e2b1493b1051b9965d44"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:7:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4265660000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=902900308",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=902900308",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1111069057",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1111069057",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,26,566 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(35.0%)"
         ]
       },
-      "observedAt": "2026-09-22T18:52:20.208Z",
-      "evidenceHash": "4ebf2a6c6331e72bbb01ae7ff9873aa6031eed057d618b8bba51b37ba2bc1da1"
+      "observedAt": "2026-09-22T22:06:39.625Z",
+      "evidenceHash": "7cf9d2e9b10e08830796fe105de58229c6380205d4489500fd8e175e3ddb3cd6"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:7:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4506350000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=902900308",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=902900308",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1111069057",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1111069057",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,50,635 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-22T18:52:20.208Z",
-      "evidenceHash": "3b3bb7fb9a58746090000eeb7635828837056d0a6169b053d921e50b881136fe"
+      "observedAt": "2026-09-22T22:06:39.625Z",
+      "evidenceHash": "dbf5f7961100b31e31eaaa620d4a3d9752fbed580c4cafcd549fc97acc8cfd90"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:7:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1262720000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=902900308",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=902900308",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1111069057",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1111069057",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,26,272 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(42.8%)"
         ]
       },
-      "observedAt": "2026-09-22T18:52:20.208Z",
-      "evidenceHash": "a4248b7046e98944e33aa427b2c46c0123f726a3d011f79d69aac9cca3ab6989"
+      "observedAt": "2026-09-22T22:06:39.626Z",
+      "evidenceHash": "3df55bc3049c1cb5b649d154a4825777ef977f8f7e11ca3829e4f309ae60a0e9"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:7:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 17618530000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=902900308",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=902900308",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1111069057",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1111069057",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹17,61,853 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-22T18:52:20.208Z",
-      "evidenceHash": "5cbb80c24dc1512ff159b1a526c50e00a06c1d3e85d4090c9306ccd9054abc6a"
+      "observedAt": "2026-09-22T22:06:39.626Z",
+      "evidenceHash": "1fbc0aafd5312a775e412b0cbe41cd0256ede04eebc710b1715ad62593a871c0"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:7:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1535133400000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=902900308",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=902900308",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1111069057",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1111069057",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,53,513.34 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,8 +323,8 @@
           "(30%)"
         ]
       },
-      "observedAt": "2026-09-22T18:52:20.221Z",
-      "evidenceHash": "29470ce247be5dc7a1b4ed29db6cf5615273d0d5cd64bf57e86dde4f6c1a4cd8"
+      "observedAt": "2026-09-22T22:06:39.628Z",
+      "evidenceHash": "b5bb7bca2f8de94bae880ea37573570b2ce5263717e809b96c8045646de70058"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access-23-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-23-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
@@ -357,7 +357,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.652Z",
+      "observedAt": "2026-09-22T22:06:35.436Z",
       "evidenceHash": "269a4d5a0d0864f8fb884fdf9135117d522c4ba2a3abfec062d50c386932c563"
     },
     {
@@ -377,7 +377,7 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.652Z",
+      "observedAt": "2026-09-22T22:06:35.437Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
@@ -403,7 +403,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.653Z",
+      "observedAt": "2026-09-22T22:06:35.438Z",
       "evidenceHash": "c9c865018b2c902d906d09e7e7cff473299af3684af153dd18f073a48fca38c5"
     },
     {
@@ -428,7 +428,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.653Z",
+      "observedAt": "2026-09-22T22:06:35.438Z",
       "evidenceHash": "e6976eb1567c7f26c8b4e22b51e31e9f5427bdc09890b2929f5fcde3ed9eb113"
     },
     {
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.654Z",
+      "observedAt": "2026-09-22T22:06:35.439Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.654Z",
+      "observedAt": "2026-09-22T22:06:35.439Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri 2987 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM 6. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 7. EOI Paper Cutting 21/2026-27 dated 22.09.2026 23-Oct-2026 02:30 PM 23-Oct-2026 03:00 PM 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 29-Sep-2026 04:00 PM 29-Sep-2026 04:30 PM 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 29-Sep-2026 03:30 PM 29-Sep-2026 04:00 PM 10. Comprehensive AMC for EPABX GEM/2026/B/8055094 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri 2987 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM 6. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 7. EOI Paper Cutting 21/2026-27 dated 22.09.2026 23-Oct-2026 02:30 PM 23-Oct-2026 03:00 PM 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 29-Sep-2026 04:00 PM 29-Sep-2026 04:30 PM 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 29-Sep-2026 03:30 PM 29-Sep-2026 04:00 PM 10. Comprehensive AMC for EPABX GEM/2026/B/8055094 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri 2987 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM 6. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 7. EOI Paper Cutting 21/2026-27 dated 22.09.2026 23-Oct-2026 02:30 PM 23-Oct-2026 03:00 PM 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 29-Sep-2026 04:00 PM 29-Sep-2026 04:30 PM 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 29-Sep-2026 03:30 PM 29-Sep-2026 04:00 PM 10. Comprehensive AMC for EPABX GEM/2026/B/8055094 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri 2987 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM 6. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 7. EOI Paper Cutting 21/2026-27 dated 22.09.2026 23-Oct-2026 02:30 PM 23-Oct-2026 03:00 PM 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 29-Sep-2026 04:00 PM 29-Sep-2026 04:30 PM 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 29-Sep-2026 03:30 PM 29-Sep-2026 04:00 PM 10. Comprehensive AMC for EPABX GEM/2026/B/8055094 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri 2987 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM 6. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 7. EOI Paper Cutting 21/2026-27 dated 22.09.2026 23-Oct-2026 02:30 PM 23-Oct-2026 03:00 PM 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 29-Sep-2026 04:00 PM 29-Sep-2026 04:30 PM 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 29-Sep-2026 03:30 PM 29-Sep-2026 04:00 PM 10. Comprehensive AMC for EPABX GEM/2026/B/8055094 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM | 1. Request for Proposal For IS Audit of Bank s IT Systems and applications | GEM/2026/B/8068033 | 16-Oct-2026 03:00 PM | 17-Oct-2026 03:00 PM | 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier | Prodn-03/NSC-KOL/2026-27/Stbry | 28-Sep-2026 02:30 PM | 28-Sep-2026 03:00 PM | 3. BANDR 51110TDSANITARYFITTINGS3 | BANDR 51110TDSANITARYFITTINGS3 | 29-Sep-2026 06:00 PM | 30-Sep-2026 06:00 PM | 4. IIeum Intestinal Organoids | Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:00 PM | 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri | 2987 | 14-Oct-2026 01:00 PM | 14-Oct-2026 02:00 PM | 6. Comprehensive AMC Crossfields make Water Purifiers | GEM/2026/B/8053409 | 03-Oct-2026 02:00 PM | 04-Oct-2026 02:00 PM | 7. EOI Paper Cutting | 21/2026-27 dated 22.09.2026 | 23-Oct-2026 02:30 PM | 23-Oct-2026 03:00 PM | 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials | MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 | 29-Sep-2026 04:00 PM | 29-Sep-2026 04:30 PM | 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. | PE-345 | 29-Sep-2026 03:30 PM | 29-Sep-2026 04:00 PM | 10. Comprehensive AMC for EPABX | GEM/2026/B/8055094 | 03-Oct-2026 02:00 PM | 04-Oct-2026 02:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM | 1. Date Corrigendum 1 | BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 | 25-Sep-2026 06:55 PM | 26-Sep-2026 06:55 PM | 2. Corrigendum - 2 | PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 | 29-Sep-2026 06:55 PM | 30-Sep-2026 06:55 PM | 3. Corrigendum - 2 | PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 | 29-Sep-2026 06:55 PM | 30-Sep-2026 06:55 PM | 4. 2nd extension | WE 437 | 29-Sep-2026 03:30 PM | 30-Sep-2026 03:30 PM | 5. Change of Bid Submission date | 3600003102 | 08-Oct-2026 01:00 PM | 08-Oct-2026 03:00 PM | 6. Date Corrigendum 1 | BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 | 23-Sep-2026 06:55 PM | 24-Sep-2026 06:55 PM | 7. BID EXTENSION NOTICE 6 | GEM/2026/B/7820876 | 07-Oct-2026 04:00 PM | 08-Oct-2026 04:00 PM | 8. Minutes of the Pre-bid Meeting | GEM/2026/B/8024812 | 03-Oct-2026 03:00 PM | 05-Oct-2026 11:00 AM | 9. Corrigendum 03 | NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 | 28-Sep-2026 11:00 AM | 28-Sep-2026 11:30 AM | 10. TN17-SEPT26-WEST1 | BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A | 29-Sep-2026 06:55 PM | 30-Sep-2026 06:55 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. Procurement of Chemicals / Reagent and Lab. Misc. items Q-1.0/966/2024-Proc-NIB 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. IGBT,SCR for class II UPS system GEM/2026/B/8067558(10005319) 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 6. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 7. Providing flooring to the drier at NIFPHATT Kochi. NIF/WORKS/1-3/2025-26 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited MOIL/MOIL LIMITED/Contract Management Cell/26-27/E 19-Oct-2026 03:00 PM 19-Oct-2026 03:30 PM 9. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP 2993 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. Procurement of Chemicals / Reagent and Lab. Misc. items Q-1.0/966/2024-Proc-NIB 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. IGBT,SCR for class II UPS system GEM/2026/B/8067558(10005319) 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 6. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 7. Providing flooring to the drier at NIFPHATT Kochi. NIF/WORKS/1-3/2025-26 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited MOIL/MOIL LIMITED/Contract Management Cell/26-27/E 19-Oct-2026 03:00 PM 19-Oct-2026 03:30 PM 9. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP 2993 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. Procurement of Chemicals / Reagent and Lab. Misc. items Q-1.0/966/2024-Proc-NIB 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. IGBT,SCR for class II UPS system GEM/2026/B/8067558(10005319) 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 6. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 7. Providing flooring to the drier at NIFPHATT Kochi. NIF/WORKS/1-3/2025-26 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited MOIL/MOIL LIMITED/Contract Management Cell/26-27/E 19-Oct-2026 03:00 PM 19-Oct-2026 03:30 PM 9. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP 2993 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. Procurement of Chemicals / Reagent and Lab. Misc. items Q-1.0/966/2024-Proc-NIB 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. IGBT,SCR for class II UPS system GEM/2026/B/8067558(10005319) 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 6. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 7. Providing flooring to the drier at NIFPHATT Kochi. NIF/WORKS/1-3/2025-26 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited MOIL/MOIL LIMITED/Contract Management Cell/26-27/E 19-Oct-2026 03:00 PM 19-Oct-2026 03:30 PM 9. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP 2993 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. Procurement of Chemicals / Reagent and Lab. Misc. items Q-1.0/966/2024-Proc-NIB 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. IGBT,SCR for class II UPS system GEM/2026/B/8067558(10005319) 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 6. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 7. Providing flooring to the drier at NIFPHATT Kochi. NIF/WORKS/1-3/2025-26 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited MOIL/MOIL LIMITED/Contract Management Cell/26-27/E 19-Oct-2026 03:00 PM 19-Oct-2026 03:30 PM 9. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP 2993 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM | 1. Request for Proposal For IS Audit of Bank s IT Systems and applications | GEM/2026/B/8068033 | 16-Oct-2026 03:00 PM | 17-Oct-2026 03:00 PM | 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier | Prodn-03/NSC-KOL/2026-27/Stbry | 28-Sep-2026 02:30 PM | 28-Sep-2026 03:00 PM | 3. BANDR 51110TDSANITARYFITTINGS3 | BANDR 51110TDSANITARYFITTINGS3 | 29-Sep-2026 06:00 PM | 30-Sep-2026 06:00 PM | 4. Procurement of Chemicals / Reagent and Lab. Misc. items | Q-1.0/966/2024-Proc-NIB | 12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM | 5. IGBT,SCR for class II UPS system | GEM/2026/B/8067558(10005319) | 03-Oct-2026 02:00 PM | 04-Oct-2026 02:00 PM | 6. IIeum Intestinal Organoids | Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:00 PM | 7. Providing flooring to the drier at NIFPHATT Kochi. | NIF/WORKS/1-3/2025-26 | 01-Oct-2026 03:00 PM | 01-Oct-2026 03:30 PM | 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited | MOIL/MOIL LIMITED/Contract Management Cell/26-27/E | 19-Oct-2026 03:00 PM | 19-Oct-2026 03:30 PM | 9. Comprehensive AMC Crossfields make Water Purifiers | GEM/2026/B/8053409 | 03-Oct-2026 02:00 PM | 04-Oct-2026 02:00 PM | 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP | 2993 | 14-Oct-2026 01:00 PM | 14-Oct-2026 02:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM | 1. Date Corrigendum 1 | BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 | 25-Sep-2026 06:55 PM | 26-Sep-2026 06:55 PM | 2. Corrigendum - 2 | PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 | 29-Sep-2026 06:55 PM | 30-Sep-2026 06:55 PM | 3. Corrigendum - 2 | PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 | 29-Sep-2026 06:55 PM | 30-Sep-2026 06:55 PM | 4. 2nd extension | WE 437 | 29-Sep-2026 03:30 PM | 30-Sep-2026 03:30 PM | 5. Change of Bid Submission date | 3600003102 | 08-Oct-2026 01:00 PM | 08-Oct-2026 03:00 PM | 6. Date Corrigendum 1 | BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 | 23-Sep-2026 06:55 PM | 24-Sep-2026 06:55 PM | 7. BID EXTENSION NOTICE 6 | GEM/2026/B/7820876 | 07-Oct-2026 04:00 PM | 08-Oct-2026 04:00 PM | 8. Minutes of the Pre-bid Meeting | GEM/2026/B/8024812 | 03-Oct-2026 03:00 PM | 05-Oct-2026 11:00 AM | 9. Corrigendum 03 | NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 | 28-Sep-2026 11:00 AM | 28-Sep-2026 11:30 AM | 10. TN17-SEPT26-WEST1 | BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A | 29-Sep-2026 06:55 PM | 30-Sep-2026 06:55 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,21 +520,21 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri 2987 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM 6. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 7. EOI Paper Cutting 21/2026-27 dated 22.09.2026 23-Oct-2026 02:30 PM 23-Oct-2026 03:00 PM 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 29-Sep-2026 04:00 PM 29-Sep-2026 04:30 PM 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 29-Sep-2026 03:30 PM 29-Sep-2026 04:00 PM 10. Comprehensive AMC for EPABX GEM/2026/B/8055094 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. Procurement of Chemicals / Reagent and Lab. Misc. items Q-1.0/966/2024-Proc-NIB 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. IGBT,SCR for class II UPS system GEM/2026/B/8067558(10005319) 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 6. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 7. Providing flooring to the drier at NIFPHATT Kochi. NIF/WORKS/1-3/2025-26 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited MOIL/MOIL LIMITED/Contract Management Cell/26-27/E 19-Oct-2026 03:00 PM 19-Oct-2026 03:30 PM 9. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP 2993 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri 2987 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM 6. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 7. EOI Paper Cutting 21/2026-27 dated 22.09.2026 23-Oct-2026 02:30 PM 23-Oct-2026 03:00 PM 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 29-Sep-2026 04:00 PM 29-Sep-2026 04:30 PM 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 29-Sep-2026 03:30 PM 29-Sep-2026 04:00 PM 10. Comprehensive AMC for EPABX GEM/2026/B/8055094 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. Procurement of Chemicals / Reagent and Lab. Misc. items Q-1.0/966/2024-Proc-NIB 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. IGBT,SCR for class II UPS system GEM/2026/B/8067558(10005319) 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 6. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 7. Providing flooring to the drier at NIFPHATT Kochi. NIF/WORKS/1-3/2025-26 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited MOIL/MOIL LIMITED/Contract Management Cell/26-27/E 19-Oct-2026 03:00 PM 19-Oct-2026 03:30 PM 9. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP 2993 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Date Corrigendum 1 BANDR/71149/IOCL/SCAFFOLDING/ SITE/SC/NIT/06 25-Sep-2026 06:55 PM 26-Sep-2026 06:55 PM 2. Corrigendum - 2 PUR/ENQ/7638/JB/014/ BB-COMPONENTS/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 3. Corrigendum - 2 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. 2nd extension WE 437 29-Sep-2026 03:30 PM 30-Sep-2026 03:30 PM 5. Change of Bid Submission date 3600003102 08-Oct-2026 01:00 PM 08-Oct-2026 03:00 PM 6. Date Corrigendum 1 BNR/71127/HRRL/PKG-6B/ DISMANTLING WORKS/LC/NIT/01 23-Sep-2026 06:55 PM 24-Sep-2026 06:55 PM 7. BID EXTENSION NOTICE 6 GEM/2026/B/7820876 07-Oct-2026 04:00 PM 08-Oct-2026 04:00 PM 8. Minutes of the Pre-bid Meeting GEM/2026/B/8024812 03-Oct-2026 03:00 PM 05-Oct-2026 11:00 AM 9. Corrigendum 03 NBCC/SBG (UP EAST)/GM/Varanasi/2026/522 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 10. TN17-SEPT26-WEST1 BANDR/MO/71161/ MECHANICAL WORKS/ NIT/SC/02/A 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri 2987 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM 6. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 7. EOI Paper Cutting 21/2026-27 dated 22.09.2026 23-Oct-2026 02:30 PM 23-Oct-2026 03:00 PM 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 29-Sep-2026 04:00 PM 29-Sep-2026 04:30 PM 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 29-Sep-2026 03:30 PM 29-Sep-2026 04:00 PM 10. Comprehensive AMC for EPABX GEM/2026/B/8055094 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri 2987 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM 6. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 7. EOI Paper Cutting 21/2026-27 dated 22.09.2026 23-Oct-2026 02:30 PM 23-Oct-2026 03:00 PM 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 29-Sep-2026 04:00 PM 29-Sep-2026 04:30 PM 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 29-Sep-2026 03:30 PM 29-Sep-2026 04:00 PM 10. Comprehensive AMC for EPABX GEM/2026/B/8055094 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. Procurement of Chemicals / Reagent and Lab. Misc. items Q-1.0/966/2024-Proc-NIB 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. IGBT,SCR for class II UPS system GEM/2026/B/8067558(10005319) 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 6. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 7. Providing flooring to the drier at NIFPHATT Kochi. NIF/WORKS/1-3/2025-26 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited MOIL/MOIL LIMITED/Contract Management Cell/26-27/E 19-Oct-2026 03:00 PM 19-Oct-2026 03:30 PM 9. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP 2993 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. Procurement of Chemicals / Reagent and Lab. Misc. items Q-1.0/966/2024-Proc-NIB 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. IGBT,SCR for class II UPS system GEM/2026/B/8067558(10005319) 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 6. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 7. Providing flooring to the drier at NIFPHATT Kochi. NIF/WORKS/1-3/2025-26 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited MOIL/MOIL LIMITED/Contract Management Cell/26-27/E 19-Oct-2026 03:00 PM 19-Oct-2026 03:30 PM 9. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP 2993 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri 2987 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM 6. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 7. EOI Paper Cutting 21/2026-27 dated 22.09.2026 23-Oct-2026 02:30 PM 23-Oct-2026 03:00 PM 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 29-Sep-2026 04:00 PM 29-Sep-2026 04:30 PM 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 29-Sep-2026 03:30 PM 29-Sep-2026 04:00 PM 10. Comprehensive AMC for EPABX GEM/2026/B/8055094 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM",
+          "1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. Procurement of Chemicals / Reagent and Lab. Misc. items Q-1.0/966/2024-Proc-NIB 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. IGBT,SCR for class II UPS system GEM/2026/B/8067558(10005319) 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 6. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 7. Providing flooring to the drier at NIFPHATT Kochi. NIF/WORKS/1-3/2025-26 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited MOIL/MOIL LIMITED/Contract Management Cell/26-27/E 19-Oct-2026 03:00 PM 19-Oct-2026 03:30 PM 9. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP 2993 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM",
           "1. Request for Proposal For IS Audit of Bank s IT Systems and applications",
           "GEM/2026/B/8068033",
           "16-Oct-2026 03:00 PM",
@@ -547,34 +547,34 @@
           "BANDR 51110TDSANITARYFITTINGS3",
           "29-Sep-2026 06:00 PM",
           "30-Sep-2026 06:00 PM",
-          "4. IIeum Intestinal Organoids",
+          "4. Procurement of Chemicals / Reagent and Lab. Misc. items",
+          "Q-1.0/966/2024-Proc-NIB",
+          "12-Oct-2026 03:00 PM",
+          "12-Oct-2026 03:30 PM",
+          "5. IGBT,SCR for class II UPS system",
+          "GEM/2026/B/8067558(10005319)",
+          "03-Oct-2026 02:00 PM",
+          "04-Oct-2026 02:00 PM",
+          "6. IIeum Intestinal Organoids",
           "Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V",
           "30-Sep-2026 03:00 PM",
           "30-Sep-2026 03:00 PM",
-          "5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri",
-          "2987",
-          "14-Oct-2026 01:00 PM",
-          "14-Oct-2026 02:00 PM",
-          "6. Comprehensive AMC Crossfields make Water Purifiers",
+          "7. Providing flooring to the drier at NIFPHATT Kochi.",
+          "NIF/WORKS/1-3/2025-26",
+          "01-Oct-2026 03:00 PM",
+          "01-Oct-2026 03:30 PM",
+          "8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited",
+          "MOIL/MOIL LIMITED/Contract Management Cell/26-27/E",
+          "19-Oct-2026 03:00 PM",
+          "19-Oct-2026 03:30 PM",
+          "9. Comprehensive AMC Crossfields make Water Purifiers",
           "GEM/2026/B/8053409",
           "03-Oct-2026 02:00 PM",
           "04-Oct-2026 02:00 PM",
-          "7. EOI Paper Cutting",
-          "21/2026-27 dated 22.09.2026",
-          "23-Oct-2026 02:30 PM",
-          "23-Oct-2026 03:00 PM",
-          "8. Proposal forAnnual maintenance contract CAMC of computer and peripherials",
-          "MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026",
-          "29-Sep-2026 04:00 PM",
-          "29-Sep-2026 04:30 PM",
-          "9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia.",
-          "PE-345",
-          "29-Sep-2026 03:30 PM",
-          "29-Sep-2026 04:00 PM",
-          "10. Comprehensive AMC for EPABX",
-          "GEM/2026/B/8055094",
-          "03-Oct-2026 02:00 PM",
-          "04-Oct-2026 02:00 PM",
+          "10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP",
+          "2993",
+          "14-Oct-2026 01:00 PM",
+          "14-Oct-2026 02:00 PM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.662Z",
-      "evidenceHash": "fcf4853cdbf37f3ac1ff3397238ccd1451e8e549e92bf30bc0d7305a2e79cb82"
+      "observedAt": "2026-09-22T22:06:35.460Z",
+      "evidenceHash": "a765bf4b2041d7660eba7840dd3d4e0026659703c3f56c8cd6837b9340685bc0"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.663Z",
+      "observedAt": "2026-09-22T22:06:35.461Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,11 +727,11 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.664Z",
+      "observedAt": "2026-09-22T22:06:35.462Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-request-for-proposal-for-is-audit-of-bank-s-it-systems-and-applications-gem/2026/b/8068033-16-oct-2026-03:00-pm-17-oct-2026-03:00-pm-2.-supply-of-fresh-finished-product-of-various-varieties-of-planting-materials-i.e.-strawberry-plantlets-on-f.o.r-odisha-(up-to-block-level-destinations)-basis,-when-all-the-packing-materials-will-be-arranged/provided-by-the-tenderer-/-bidder-/-supplier-prodn-03/nsc-kol/2026-27/stbry-28-sep-2026-02:30-pm-28-sep-2026-03:00-pm-3.-bandr-51110tdsanitaryfittings3-bandr-51110tdsanitaryfittings3-29-sep-2026-06:00-pm-30-sep-2026-06:00-pm-4.-iieum-intestinal-organoids-pur/pp-pac-3413/26-27/e-file-no.-295122/enteric-v-30-sep-2026-03:00-pm-30-sep-2026-03:00-pm-5.-addition-alteration-at-electrical-maintenance-cell,-renovation-of-toilet-at-dg-set-and-replacement-of-damaged-ceiling-at-sbi-jhakri-2987-14-oct-2026-01:00-pm-14-oct-2026-02:00-pm-6.-comprehensive-amc-crossfields-make-water-purifiers-gem/2026/b/8053409-03-oct-2026-02:00-pm-04-oct-2026-02:00-pm-7.-eoi-paper-cutting-21/2026-27-dated-22.09.2026-23-oct-2026-02:30-pm-23-oct-2026-03:00-pm-8.-proposal-forannual-maintenance-contract-camc-of-computer-and-peripherials-moil/db01/sys/agt/26-27/854-dt20.09.2026-29-sep-2026-04:00-pm-29-sep-2026-04:30-pm-9.-procurement-of-coal-sampling-unit-hammer-set-for-chp-ii,-2x660mw,-sstpp,-mppgcl-dongalia.-pe-345-29-sep-2026-03:30-pm-29-sep-2026-04:00-pm-10.-comprehensive-amc-for-epabx-gem/2026/b/8055094-03-oct-2026-02:00-pm-04-oct-2026-02:00-pm:1.-request-for-proposal-for-is-audit-of-bank-s-it-systems-and-applications-gem/2026/b/8068033-16-oct-2026-03:00-pm-17-oct-2026-03:00-pm-2.-supply-of-fresh-finished-product-of-various-varieties-of-planting-materials-i.e.-strawberry-plantlets-on-f.o.r-odisha-(up-to-block-level-destinations)-basis,-when-all-the-packing-materials-will-be-arranged/provided-by-the-tenderer-/-bidder-/-supplier-prodn-03/nsc-kol/2026-27/stbry-28-sep-2026-02:30-pm-28-sep-2026-03:00-pm-3.-bandr-51110tdsanitaryfittings3-bandr-51110tdsanitaryfittings3-29-sep-2026-06:00-pm-30-sep-2026-06:00-pm-4.-iieum-intestinal-organoids-pur/pp-pac-3413/26-27/e-file-no.-295122/enteric-v-30-sep-2026-03:00-pm-30-sep-2026-03:00-pm-5.-addition-alteration-at-electrical-maintenance-cell,-renovation-of-toilet-at-dg-set-and-replacement-of-damaged-ceiling-at-sbi-jhakri-2987-14-oct-2026-01:00-pm-14-oct-2026-02:00-pm-6.-comprehensive-amc-crossfields-make-water-purifiers-gem/2026/b/8053409-03-oct-2026-02:00-pm-04-oct-2026-02:00-pm-7.-eoi-paper-cutting-21/2026-27-dated-22.09.2026-23-oct-2026-02:30-pm-23-oct-2026-03:00-pm-8.-proposal-forannual-maintenance-contract-camc-of-computer-and-peripherials-moil/db01/sys/agt/26-27/854-dt20.09.2026-29-sep-2026-04:00-pm-29-sep-2026-04:30-pm-9.-procurement-of-coal-sampling-unit-hammer-set-for-chp-ii,-2x660mw,-sstpp,-mppgcl-dongalia.-pe-345-29-sep-2026-03:30-pm-29-sep-2026-04:00-pm-10.-comprehensive-amc-for-epabx-gem/2026/b/8055094-03-oct-2026-02:00-pm-04-oct-2026-02:00-pm",
+      "externalKey": "cppp-procurement:1.-request-for-proposal-for-is-audit-of-bank-s-it-systems-and-applications-gem/2026/b/8068033-16-oct-2026-03:00-pm-17-oct-2026-03:00-pm-2.-supply-of-fresh-finished-product-of-various-varieties-of-planting-materials-i.e.-strawberry-plantlets-on-f.o.r-odisha-(up-to-block-level-destinations)-basis,-when-all-the-packing-materials-will-be-arranged/provided-by-the-tenderer-/-bidder-/-supplier-prodn-03/nsc-kol/2026-27/stbry-28-sep-2026-02:30-pm-28-sep-2026-03:00-pm-3.-bandr-51110tdsanitaryfittings3-bandr-51110tdsanitaryfittings3-29-sep-2026-06:00-pm-30-sep-2026-06:00-pm-4.-procurement-of-chemicals-/-reagent-and-lab.-misc.-items-q-1.0/966/2024-proc-nib-12-oct-2026-03:00-pm-12-oct-2026-03:30-pm-5.-igbt,scr-for-class-ii-ups-system-gem/2026/b/8067558(10005319)-03-oct-2026-02:00-pm-04-oct-2026-02:00-pm-6.-iieum-intestinal-organoids-pur/pp-pac-3413/26-27/e-file-no.-295122/enteric-v-30-sep-2026-03:00-pm-30-sep-2026-03:00-pm-7.-providing-flooring-to-the-drier-at-nifphatt-kochi.-nif/works/1-3/2025-26-01-oct-2026-03:00-pm-01-oct-2026-03:30-pm-8.-comprehensive-annual-maintenance-contract-of-road-weigh-bridges-of-various-mines-of-moil-limited-moil/moil-limited/contract-management-cell/26-27/e-19-oct-2026-03:00-pm-19-oct-2026-03:30-pm-9.-comprehensive-amc-crossfields-make-water-purifiers-gem/2026/b/8053409-03-oct-2026-02:00-pm-04-oct-2026-02:00-pm-10.-restoration-of-catch-pit-for-existing-hume-pipe-culvert-and-check-dams-at-saledha-khadd-across-the-approach-road-to-surge-shaft-of-njhps,-distt-shimla-hp-2993-14-oct-2026-01:00-pm-14-oct-2026-02:00-pm:1.-request-for-proposal-for-is-audit-of-bank-s-it-systems-and-applications-gem/2026/b/8068033-16-oct-2026-03:00-pm-17-oct-2026-03:00-pm-2.-supply-of-fresh-finished-product-of-various-varieties-of-planting-materials-i.e.-strawberry-plantlets-on-f.o.r-odisha-(up-to-block-level-destinations)-basis,-when-all-the-packing-materials-will-be-arranged/provided-by-the-tenderer-/-bidder-/-supplier-prodn-03/nsc-kol/2026-27/stbry-28-sep-2026-02:30-pm-28-sep-2026-03:00-pm-3.-bandr-51110tdsanitaryfittings3-bandr-51110tdsanitaryfittings3-29-sep-2026-06:00-pm-30-sep-2026-06:00-pm-4.-procurement-of-chemicals-/-reagent-and-lab.-misc.-items-q-1.0/966/2024-proc-nib-12-oct-2026-03:00-pm-12-oct-2026-03:30-pm-5.-igbt,scr-for-class-ii-ups-system-gem/2026/b/8067558(10005319)-03-oct-2026-02:00-pm-04-oct-2026-02:00-pm-6.-iieum-intestinal-organoids-pur/pp-pac-3413/26-27/e-file-no.-295122/enteric-v-30-sep-2026-03:00-pm-30-sep-2026-03:00-pm-7.-providing-flooring-to-the-drier-at-nifphatt-kochi.-nif/works/1-3/2025-26-01-oct-2026-03:00-pm-01-oct-2026-03:30-pm-8.-comprehensive-annual-maintenance-contract-of-road-weigh-bridges-of-various-mines-of-moil-limited-moil/moil-limited/contract-management-cell/26-27/e-19-oct-2026-03:00-pm-19-oct-2026-03:30-pm-9.-comprehensive-amc-crossfields-make-water-purifiers-gem/2026/b/8053409-03-oct-2026-02:00-pm-04-oct-2026-02:00-pm-10.-restoration-of-catch-pit-for-existing-hume-pipe-culvert-and-check-dams-at-saledha-khadd-across-the-approach-road-to-surge-shaft-of-njhps,-distt-shimla-hp-2993-14-oct-2026-01:00-pm-14-oct-2026-02:00-pm",
       "sensorId": "cppp-procurement",
       "title": "1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BAN",
       "authority": "Government of India eProcurement System",
@@ -739,12 +739,12 @@
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SOXoIg%2BymbJACYziio70BUw%3D%3D",
-      "tenderReference": "1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri 2987 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM 6. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 7. EOI Paper Cutting 21/2026-27 dated 22.09.2026 23-Oct-2026 02:30 PM 23-Oct-2026 03:00 PM 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 29-Sep-2026 04:00 PM 29-Sep-2026 04:30 PM 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 29-Sep-2026 03:30 PM 29-Sep-2026 04:00 PM 10. Comprehensive AMC for EPABX GEM/2026/B/8055094 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM",
+      "tenderReference": "1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. Procurement of Chemicals / Reagent and Lab. Misc. items Q-1.0/966/2024-Proc-NIB 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. IGBT,SCR for class II UPS system GEM/2026/B/8067558(10005319) 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 6. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 7. Providing flooring to the drier at NIFPHATT Kochi. NIF/WORKS/1-3/2025-26 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited MOIL/MOIL LIMITED/Contract Management Cell/26-27/E 19-Oct-2026 03:00 PM 19-Oct-2026 03:30 PM 9. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP 2993 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM",
       "geographicPrecision": "unknown",
-      "note": "GEM/2026/B/8068033 | 16-Oct-2026 03:00 PM | 17-Oct-2026 03:00 PM | 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier | Prodn-03/NSC-KOL/2026-27/Stbry | 28-Sep-2026 02:30 PM | 28-Sep-2026 03:00 PM | 3. BANDR 51110TDSANITARYFITTINGS3 | BANDR 51110TDSANITARYFITTINGS3 | 29-Sep-2026 06:00 PM | 30-Sep-2026 06:00 PM | 4. IIeum Intestinal Organoids | Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:00 PM | 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri | 2987 | 14-Oct-2026 01:00 PM | 14-Oct-2026 02:00 PM | 6. Comprehensive AMC Crossfields make Water Purifiers | GEM/2026/B/8053409 | 03-Oct-2026 02:00 PM | 04-Oct-2026 02:00 PM | 7. EOI Paper Cutting | 21/2026-27 dated 22.09.2026 | 23-Oct-2026 02:30 PM | 23-Oct-2026 03:00 PM | 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials | MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 | 29-Sep-2026 04:00 PM | 29-Sep-2026 04:30 PM | 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. | PE-345 | 29-Sep-2026 03:30 PM | 29-Sep-2026 04:00 PM | 10. Comprehensive AMC for EPABX | GEM/2026/B/8055094 | 03-Oct-2026 02:00 PM | 04-Oct-2026 02:00 PM",
+      "note": "GEM/2026/B/8068033 | 16-Oct-2026 03:00 PM | 17-Oct-2026 03:00 PM | 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier | Prodn-03/NSC-KOL/2026-27/Stbry | 28-Sep-2026 02:30 PM | 28-Sep-2026 03:00 PM | 3. BANDR 51110TDSANITARYFITTINGS3 | BANDR 51110TDSANITARYFITTINGS3 | 29-Sep-2026 06:00 PM | 30-Sep-2026 06:00 PM | 4. Procurement of Chemicals / Reagent and Lab. Misc. items | Q-1.0/966/2024-Proc-NIB | 12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM | 5. IGBT,SCR for class II UPS system | GEM/2026/B/8067558(10005319) | 03-Oct-2026 02:00 PM | 04-Oct-2026 02:00 PM | 6. IIeum Intestinal Organoids | Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V | 30-Sep-2026 03:00 PM | 30-Sep-2026 03:00 PM | 7. Providing flooring to the drier at NIFPHATT Kochi. | NIF/WORKS/1-3/2025-26 | 01-Oct-2026 03:00 PM | 01-Oct-2026 03:30 PM | 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited | MOIL/MOIL LIMITED/Contract Management Cell/26-27/E | 19-Oct-2026 03:00 PM | 19-Oct-2026 03:30 PM | 9. Comprehensive AMC Crossfields make Water Purifiers | GEM/2026/B/8053409 | 03-Oct-2026 02:00 PM | 04-Oct-2026 02:00 PM | 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP | 2993 | 14-Oct-2026 01:00 PM | 14-Oct-2026 02:00 PM",
       "raw": {
         "cells": [
-          "1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri 2987 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM 6. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 7. EOI Paper Cutting 21/2026-27 dated 22.09.2026 23-Oct-2026 02:30 PM 23-Oct-2026 03:00 PM 8. Proposal forAnnual maintenance contract CAMC of computer and peripherials MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026 29-Sep-2026 04:00 PM 29-Sep-2026 04:30 PM 9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 29-Sep-2026 03:30 PM 29-Sep-2026 04:00 PM 10. Comprehensive AMC for EPABX GEM/2026/B/8055094 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM",
+          "1. Request for Proposal For IS Audit of Bank s IT Systems and applications GEM/2026/B/8068033 16-Oct-2026 03:00 PM 17-Oct-2026 03:00 PM 2. Supply of fresh finished product of various varieties of planting materials i.e. Strawberry Plantlets on F.O.R Odisha (up to Block level destinations) basis, when all the packing materials will be arranged/provided by the tenderer / bidder / supplier Prodn-03/NSC-KOL/2026-27/Stbry 28-Sep-2026 02:30 PM 28-Sep-2026 03:00 PM 3. BANDR 51110TDSANITARYFITTINGS3 BANDR 51110TDSANITARYFITTINGS3 29-Sep-2026 06:00 PM 30-Sep-2026 06:00 PM 4. Procurement of Chemicals / Reagent and Lab. Misc. items Q-1.0/966/2024-Proc-NIB 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. IGBT,SCR for class II UPS system GEM/2026/B/8067558(10005319) 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 6. IIeum Intestinal Organoids Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V 30-Sep-2026 03:00 PM 30-Sep-2026 03:00 PM 7. Providing flooring to the drier at NIFPHATT Kochi. NIF/WORKS/1-3/2025-26 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited MOIL/MOIL LIMITED/Contract Management Cell/26-27/E 19-Oct-2026 03:00 PM 19-Oct-2026 03:30 PM 9. Comprehensive AMC Crossfields make Water Purifiers GEM/2026/B/8053409 03-Oct-2026 02:00 PM 04-Oct-2026 02:00 PM 10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP 2993 14-Oct-2026 01:00 PM 14-Oct-2026 02:00 PM",
           "1. Request for Proposal For IS Audit of Bank s IT Systems and applications",
           "GEM/2026/B/8068033",
           "16-Oct-2026 03:00 PM",
@@ -757,38 +757,38 @@
           "BANDR 51110TDSANITARYFITTINGS3",
           "29-Sep-2026 06:00 PM",
           "30-Sep-2026 06:00 PM",
-          "4. IIeum Intestinal Organoids",
+          "4. Procurement of Chemicals / Reagent and Lab. Misc. items",
+          "Q-1.0/966/2024-Proc-NIB",
+          "12-Oct-2026 03:00 PM",
+          "12-Oct-2026 03:30 PM",
+          "5. IGBT,SCR for class II UPS system",
+          "GEM/2026/B/8067558(10005319)",
+          "03-Oct-2026 02:00 PM",
+          "04-Oct-2026 02:00 PM",
+          "6. IIeum Intestinal Organoids",
           "Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V",
           "30-Sep-2026 03:00 PM",
           "30-Sep-2026 03:00 PM",
-          "5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri",
-          "2987",
-          "14-Oct-2026 01:00 PM",
-          "14-Oct-2026 02:00 PM",
-          "6. Comprehensive AMC Crossfields make Water Purifiers",
+          "7. Providing flooring to the drier at NIFPHATT Kochi.",
+          "NIF/WORKS/1-3/2025-26",
+          "01-Oct-2026 03:00 PM",
+          "01-Oct-2026 03:30 PM",
+          "8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited",
+          "MOIL/MOIL LIMITED/Contract Management Cell/26-27/E",
+          "19-Oct-2026 03:00 PM",
+          "19-Oct-2026 03:30 PM",
+          "9. Comprehensive AMC Crossfields make Water Purifiers",
           "GEM/2026/B/8053409",
           "03-Oct-2026 02:00 PM",
           "04-Oct-2026 02:00 PM",
-          "7. EOI Paper Cutting",
-          "21/2026-27 dated 22.09.2026",
-          "23-Oct-2026 02:30 PM",
-          "23-Oct-2026 03:00 PM",
-          "8. Proposal forAnnual maintenance contract CAMC of computer and peripherials",
-          "MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026",
-          "29-Sep-2026 04:00 PM",
-          "29-Sep-2026 04:30 PM",
-          "9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia.",
-          "PE-345",
-          "29-Sep-2026 03:30 PM",
-          "29-Sep-2026 04:00 PM",
-          "10. Comprehensive AMC for EPABX",
-          "GEM/2026/B/8055094",
-          "03-Oct-2026 02:00 PM",
-          "04-Oct-2026 02:00 PM"
+          "10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP",
+          "2993",
+          "14-Oct-2026 01:00 PM",
+          "14-Oct-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.666Z",
-      "evidenceHash": "7f4148850b725d6a4fd2f1fad02cbbd20b508d08114647b5b4ae6e351c0590e1"
+      "observedAt": "2026-09-22T22:06:35.464Z",
+      "evidenceHash": "25637019a767c90d0bc68baff24e6101f0d7c2f2e52bd4bfb929f4ddb3380ce4"
     },
     {
       "externalKey": "cppp-procurement:gem/2026/b/8068033:1.-request-for-proposal-for-is-audit-of-bank-s-it-systems-and-applications",
@@ -810,7 +810,7 @@
           "17-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.666Z",
+      "observedAt": "2026-09-22T22:06:35.464Z",
       "evidenceHash": "d2199d4684ba42faa100840d73f1a7408da9a6786f42f19dbc28dcc6b515ca20"
     },
     {
@@ -833,7 +833,7 @@
           "28-Sep-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.666Z",
+      "observedAt": "2026-09-22T22:06:35.464Z",
       "evidenceHash": "8b9c01cf3cefa2fcd7096476792fc89407ad66d061e13b3b97973a07c16d9967"
     },
     {
@@ -856,13 +856,59 @@
           "30-Sep-2026 06:00 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.666Z",
+      "observedAt": "2026-09-22T22:06:35.464Z",
       "evidenceHash": "d4af70eeae21714fb087e0ec0803af4c24cc9aef8763798f46bac74dc490c937"
     },
     {
-      "externalKey": "cppp-procurement:pur/pp-pac-3413/26-27/e-file-no.-295122/enteric-v:4.-iieum-intestinal-organoids",
+      "externalKey": "cppp-procurement:q-1.0/966/2024-proc-nib:4.-procurement-of-chemicals-/-reagent-and-lab.-misc.-items",
       "sensorId": "cppp-procurement",
-      "title": "4. IIeum Intestinal Organoids",
+      "title": "4. Procurement of Chemicals / Reagent and Lab. Misc. items",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Shy2cTYHbbkpUAaIXq6dBDg%3D%3D",
+      "tenderReference": "Q-1.0/966/2024-Proc-NIB",
+      "geographicPrecision": "unknown",
+      "note": "12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "4. Procurement of Chemicals / Reagent and Lab. Misc. items",
+          "Q-1.0/966/2024-Proc-NIB",
+          "12-Oct-2026 03:00 PM",
+          "12-Oct-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-22T22:06:35.465Z",
+      "evidenceHash": "03a706d03690b875212fb036011d092720e35652c13cbdccc7b9c5d43bef9ee6"
+    },
+    {
+      "externalKey": "cppp-procurement:gem/2026/b/8067558(10005319):5.-igbt,scr-for-class-ii-ups-system",
+      "sensorId": "cppp-procurement",
+      "title": "5. IGBT,SCR for class II UPS system",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SYee9JPWc17nnOEj5SHLfDA%3D%3D",
+      "tenderReference": "GEM/2026/B/8067558(10005319)",
+      "geographicPrecision": "unknown",
+      "note": "03-Oct-2026 02:00 PM | 04-Oct-2026 02:00 PM",
+      "raw": {
+        "cells": [
+          "5. IGBT,SCR for class II UPS system",
+          "GEM/2026/B/8067558(10005319)",
+          "03-Oct-2026 02:00 PM",
+          "04-Oct-2026 02:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-22T22:06:35.465Z",
+      "evidenceHash": "4b42097170e1ed509015be7c595422c9953f2bb86588dd3e68d0acfb477ad58b"
+    },
+    {
+      "externalKey": "cppp-procurement:pur/pp-pac-3413/26-27/e-file-no.-295122/enteric-v:6.-iieum-intestinal-organoids",
+      "sensorId": "cppp-procurement",
+      "title": "6. IIeum Intestinal Organoids",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -873,42 +919,65 @@
       "note": "30-Sep-2026 03:00 PM | 30-Sep-2026 03:00 PM",
       "raw": {
         "cells": [
-          "4. IIeum Intestinal Organoids",
+          "6. IIeum Intestinal Organoids",
           "Pur/PP PAC 3413/26-27/E File No. 295122/Enteric V",
           "30-Sep-2026 03:00 PM",
           "30-Sep-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.666Z",
-      "evidenceHash": "4e0868b293ae85069e78ecbc885d135393bf9af0f9aac2b867419f9350fd9c67"
+      "observedAt": "2026-09-22T22:06:35.465Z",
+      "evidenceHash": "1a4171d3d1610cea9aa9ddb5c85280c3ebe41a2dfe5c1fa4d226eed19a71b869"
     },
     {
-      "externalKey": "cppp-procurement:2987:5.-addition-alteration-at-electrical-maintenance-cell,-renovation-of-toilet-at-dg-set-and-replacement-of-damaged-ceiling-at-sbi-jhakri",
+      "externalKey": "cppp-procurement:nif/works/1-3/2025-26:7.-providing-flooring-to-the-drier-at-nifphatt-kochi.",
       "sensorId": "cppp-procurement",
-      "title": "5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri",
+      "title": "7. Providing flooring to the drier at NIFPHATT Kochi.",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SZttdtkOG7dF%2BQhMJvm3Dhw%3D%3D",
-      "tenderReference": "2987",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SnXBIY9NFmZ7PAGMeLThO6A%3D%3D",
+      "tenderReference": "NIF/WORKS/1-3/2025-26",
       "geographicPrecision": "unknown",
-      "note": "14-Oct-2026 01:00 PM | 14-Oct-2026 02:00 PM",
+      "note": "01-Oct-2026 03:00 PM | 01-Oct-2026 03:30 PM",
       "raw": {
         "cells": [
-          "5. Addition alteration at Electrical maintenance cell, renovation of toilet at DG set and replacement of damaged ceiling at SBI Jhakri",
-          "2987",
-          "14-Oct-2026 01:00 PM",
-          "14-Oct-2026 02:00 PM"
+          "7. Providing flooring to the drier at NIFPHATT Kochi.",
+          "NIF/WORKS/1-3/2025-26",
+          "01-Oct-2026 03:00 PM",
+          "01-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.667Z",
-      "evidenceHash": "eaf9a50e9db98b6b242ae752adb94ee4e2cc9a9fd8df2bb2d6e8288ca5341ece"
+      "observedAt": "2026-09-22T22:06:35.465Z",
+      "evidenceHash": "c82013cf55ac014d7ff39e9610693194d25ef43e39eebfb18f467f7aed0a38a4"
     },
     {
-      "externalKey": "cppp-procurement:gem/2026/b/8053409:6.-comprehensive-amc-crossfields-make-water-purifiers",
+      "externalKey": "cppp-procurement:moil/moil-limited/contract-management-cell/26-27/e:8.-comprehensive-annual-maintenance-contract-of-road-weigh-bridges-of-various-mines-of-moil-limited",
       "sensorId": "cppp-procurement",
-      "title": "6. Comprehensive AMC Crossfields make Water Purifiers",
+      "title": "8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SdXS0dnWGWKpFo%2FXWqQwjMA%3D%3D",
+      "tenderReference": "MOIL/MOIL LIMITED/Contract Management Cell/26-27/E",
+      "geographicPrecision": "unknown",
+      "note": "19-Oct-2026 03:00 PM | 19-Oct-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "8. Comprehensive Annual Maintenance Contract of Road Weigh Bridges of Various Mines of MOIL Limited",
+          "MOIL/MOIL LIMITED/Contract Management Cell/26-27/E",
+          "19-Oct-2026 03:00 PM",
+          "19-Oct-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-22T22:06:35.465Z",
+      "evidenceHash": "710818ca742e96df1fc6dae9233eb430fa265eb59a56e5d58a5e63794d895ff5"
+    },
+    {
+      "externalKey": "cppp-procurement:gem/2026/b/8053409:9.-comprehensive-amc-crossfields-make-water-purifiers",
+      "sensorId": "cppp-procurement",
+      "title": "9. Comprehensive AMC Crossfields make Water Purifiers",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -919,106 +988,37 @@
       "note": "03-Oct-2026 02:00 PM | 04-Oct-2026 02:00 PM",
       "raw": {
         "cells": [
-          "6. Comprehensive AMC Crossfields make Water Purifiers",
+          "9. Comprehensive AMC Crossfields make Water Purifiers",
           "GEM/2026/B/8053409",
           "03-Oct-2026 02:00 PM",
           "04-Oct-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.667Z",
-      "evidenceHash": "c73f41880a6ee59e4f4bb887749e90c239466a65bb91ba900bad36ecd7158730"
+      "observedAt": "2026-09-22T22:06:35.465Z",
+      "evidenceHash": "f1954cb1c9a4dba1d6b0095343804298899e653171e59beb76fb16e48c6b3864"
     },
     {
-      "externalKey": "cppp-procurement:21/2026-27-dated-22.09.2026:7.-eoi-paper-cutting",
+      "externalKey": "cppp-procurement:2993:10.-restoration-of-catch-pit-for-existing-hume-pipe-culvert-and-check-dams-at-saledha-khadd-across-the-approach-road-to-surge-shaft-of-njhps,-distt-shimla-hp",
       "sensorId": "cppp-procurement",
-      "title": "7. EOI Paper Cutting",
+      "title": "10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SRg5cRdf9hfE4YzinltKXpg%3D%3D",
-      "tenderReference": "21/2026-27 dated 22.09.2026",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S8uK5gW%2FqTAH%2BSQy2osXJ3Q%3D%3D",
+      "tenderReference": "2993",
       "geographicPrecision": "unknown",
-      "note": "23-Oct-2026 02:30 PM | 23-Oct-2026 03:00 PM",
+      "note": "14-Oct-2026 01:00 PM | 14-Oct-2026 02:00 PM",
       "raw": {
         "cells": [
-          "7. EOI Paper Cutting",
-          "21/2026-27 dated 22.09.2026",
-          "23-Oct-2026 02:30 PM",
-          "23-Oct-2026 03:00 PM"
+          "10. Restoration of catch pit for existing Hume pipe culvert and check dams at Saledha Khadd across the approach road to Surge Shaft of NJHPS, Distt Shimla HP",
+          "2993",
+          "14-Oct-2026 01:00 PM",
+          "14-Oct-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.667Z",
-      "evidenceHash": "7939f2814104fd99c6acbc7013599d3c51932b167902a70fad57bd4bcefc608b"
-    },
-    {
-      "externalKey": "cppp-procurement:moil/db01/sys/agt/26-27/854-dt20.09.2026:8.-proposal-forannual-maintenance-contract-camc-of-computer-and-peripherials",
-      "sensorId": "cppp-procurement",
-      "title": "8. Proposal forAnnual maintenance contract CAMC of computer and peripherials",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SFDG9Fnt77cq87BEa%2FVcjMw%3D%3D",
-      "tenderReference": "MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026",
-      "geographicPrecision": "unknown",
-      "note": "29-Sep-2026 04:00 PM | 29-Sep-2026 04:30 PM",
-      "raw": {
-        "cells": [
-          "8. Proposal forAnnual maintenance contract CAMC of computer and peripherials",
-          "MOIL/DB01/SYS/AGT/26-27/854 DT20.09.2026",
-          "29-Sep-2026 04:00 PM",
-          "29-Sep-2026 04:30 PM"
-        ]
-      },
-      "observedAt": "2026-09-22T18:52:15.667Z",
-      "evidenceHash": "982bfe478453ca0f60269f7ccdb3fb6c8192bd6c2fb245a0f23021111d9c328d"
-    },
-    {
-      "externalKey": "cppp-procurement:pe-345:9.-procurement-of-coal-sampling-unit-hammer-set-for-chp-ii,-2x660mw,-sstpp,-mppgcl-dongalia.",
-      "sensorId": "cppp-procurement",
-      "title": "9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia.",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SOgFfa7cDBFeV7%2FdnFMJJZQ%3D%3D",
-      "tenderReference": "PE-345",
-      "geographicPrecision": "unknown",
-      "note": "29-Sep-2026 03:30 PM | 29-Sep-2026 04:00 PM",
-      "raw": {
-        "cells": [
-          "9. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia.",
-          "PE-345",
-          "29-Sep-2026 03:30 PM",
-          "29-Sep-2026 04:00 PM"
-        ]
-      },
-      "observedAt": "2026-09-22T18:52:15.667Z",
-      "evidenceHash": "47228a02071597fd1eb1073abd900db2c0f4c695a55dbb1a18259b7977ff85bc"
-    },
-    {
-      "externalKey": "cppp-procurement:gem/2026/b/8055094:10.-comprehensive-amc-for-epabx",
-      "sensorId": "cppp-procurement",
-      "title": "10. Comprehensive AMC for EPABX",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SGw3%2Bq6SkNkdfJB8Suz%2BWqg%3D%3D",
-      "tenderReference": "GEM/2026/B/8055094",
-      "geographicPrecision": "unknown",
-      "note": "03-Oct-2026 02:00 PM | 04-Oct-2026 02:00 PM",
-      "raw": {
-        "cells": [
-          "10. Comprehensive AMC for EPABX",
-          "GEM/2026/B/8055094",
-          "03-Oct-2026 02:00 PM",
-          "04-Oct-2026 02:00 PM"
-        ]
-      },
-      "observedAt": "2026-09-22T18:52:15.667Z",
-      "evidenceHash": "c38be340116e76406e5c5074c5dffe9b74b194fcb49e9521fd82a5edd3f9e14c"
+      "observedAt": "2026-09-22T22:06:35.465Z",
+      "evidenceHash": "e06ca6c4ced89326485da1f20a6cb8e20eb457b9946f9fa20497b2041b41d731"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.667Z",
+      "observedAt": "2026-09-22T22:06:35.465Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.668Z",
+      "observedAt": "2026-09-22T22:06:35.466Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "30-Sep-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.668Z",
+      "observedAt": "2026-09-22T22:06:35.466Z",
       "evidenceHash": "73d4ccb92cf9727747a89ed161bac2997c0a93d39576e356982316052ce8cfd0"
     },
     {
@@ -1143,7 +1143,7 @@
           "26-Sep-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.668Z",
+      "observedAt": "2026-09-22T22:06:35.466Z",
       "evidenceHash": "6bd05cbdbc37722b6bc4065866a7151105e54fce4e48271468449ee7d5ea87d8"
     },
     {
@@ -1166,7 +1166,7 @@
           "30-Sep-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.668Z",
+      "observedAt": "2026-09-22T22:06:35.466Z",
       "evidenceHash": "6e50e84249739916c36da3a51f94385b3c28080ac41fb541f1eed3ca222d2c52"
     },
     {
@@ -1189,7 +1189,7 @@
           "30-Sep-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.668Z",
+      "observedAt": "2026-09-22T22:06:35.466Z",
       "evidenceHash": "5e58155f1a5fd86541d19fdc573f3ec05df6ecb536ca47595987b57edc6b512f"
     },
     {
@@ -1212,7 +1212,7 @@
           "30-Sep-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.669Z",
+      "observedAt": "2026-09-22T22:06:35.466Z",
       "evidenceHash": "e53bb982d8511bf6b89fe36d3d0f2e4ff5112224fd7868d7508745dd55275337"
     },
     {
@@ -1235,7 +1235,7 @@
           "08-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.669Z",
+      "observedAt": "2026-09-22T22:06:35.466Z",
       "evidenceHash": "3bb85dd7e7d64802d7e1c5dccab735104cb0a7e66c2097dfe9f751370753b338"
     },
     {
@@ -1258,7 +1258,7 @@
           "24-Sep-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.669Z",
+      "observedAt": "2026-09-22T22:06:35.467Z",
       "evidenceHash": "a6e47d2b6e5d5cf7175cb1df340c1668da83075f6fad82084f7e4ce667a7b130"
     },
     {
@@ -1281,7 +1281,7 @@
           "08-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.669Z",
+      "observedAt": "2026-09-22T22:06:35.467Z",
       "evidenceHash": "9424a927872c8427070019a22b6081f43abe5570a3bc409affa852f29b3b2227"
     },
     {
@@ -1304,7 +1304,7 @@
           "05-Oct-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.669Z",
+      "observedAt": "2026-09-22T22:06:35.467Z",
       "evidenceHash": "2ca132e21e6d1d900ee98a879a786e9b22960c6d4a4b694ac3fc8671f25f16a7"
     },
     {
@@ -1327,7 +1327,7 @@
           "28-Sep-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.669Z",
+      "observedAt": "2026-09-22T22:06:35.467Z",
       "evidenceHash": "b8716a18f0ae28f537d57b41cbaf68aa7b20a32a53b568d600f6d9b1313ab017"
     },
     {
@@ -1350,7 +1350,7 @@
           "30-Sep-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.669Z",
+      "observedAt": "2026-09-22T22:06:35.467Z",
       "evidenceHash": "0a1cbdf9b1920dd3a167b4938cbd1d38bd3d0ea13382fefe53676528b476a084"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.669Z",
+      "observedAt": "2026-09-22T22:06:35.467Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.669Z",
+      "observedAt": "2026-09-22T22:06:35.467Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.670Z",
+      "observedAt": "2026-09-22T22:06:35.467Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.670Z",
+      "observedAt": "2026-09-22T22:06:35.467Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.670Z",
+      "observedAt": "2026-09-22T22:06:35.468Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.670Z",
+      "observedAt": "2026-09-22T22:06:35.468Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.670Z",
+      "observedAt": "2026-09-22T22:06:35.468Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.670Z",
+      "observedAt": "2026-09-22T22:06:35.468Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.671Z",
+      "observedAt": "2026-09-22T22:06:35.468Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.671Z",
+      "observedAt": "2026-09-22T22:06:35.468Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.671Z",
+      "observedAt": "2026-09-22T22:06:35.468Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.671Z",
+      "observedAt": "2026-09-22T22:06:35.469Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-22T18:52:15.672Z",
+      "observedAt": "2026-09-22T22:06:35.469Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "126469"
       },
-      "observedAt": "2026-09-22T18:52:18.251Z",
+      "observedAt": "2026-09-22T22:06:37.948Z",
       "evidenceHash": "1c7d422b591169eb80826592dabb65db5168877db9d1d58f0ef0bcd51dcb5e6f"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "126458"
       },
-      "observedAt": "2026-09-22T18:52:18.251Z",
+      "observedAt": "2026-09-22T22:06:37.948Z",
       "evidenceHash": "e01566022e060c485559292b09732dafecf684c8ad5553baa0e1ac1585824a57"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "126325"
       },
-      "observedAt": "2026-09-22T18:52:18.251Z",
+      "observedAt": "2026-09-22T22:06:37.948Z",
       "evidenceHash": "59cb65fbe0232a895436738f801dbfafdc394a62f0f1b4fbe7e625cc119a4ffa"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "126309"
       },
-      "observedAt": "2026-09-22T18:52:18.251Z",
+      "observedAt": "2026-09-22T22:06:37.948Z",
       "evidenceHash": "c6b423a5a20b11b3e1564f2f839629d82a2937e6326aeb72643d6819bef6cd43"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "126303"
       },
-      "observedAt": "2026-09-22T18:52:18.251Z",
+      "observedAt": "2026-09-22T22:06:37.948Z",
       "evidenceHash": "090e9437e7e90c7f81874103baa7d01e15603ff15948b4f9572575236bac067d"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "126302"
       },
-      "observedAt": "2026-09-22T18:52:18.251Z",
+      "observedAt": "2026-09-22T22:06:37.948Z",
       "evidenceHash": "748a312ce1b84dae7f90b8c2b9377201625fdf33eb2420307ec96ba7cb10fff7"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "126301"
       },
-      "observedAt": "2026-09-22T18:52:18.251Z",
+      "observedAt": "2026-09-22T22:06:37.948Z",
       "evidenceHash": "282ed13302a3052cf4b2f694d2136480716e5bc4d7ca375bfb3f47e4f7423be5"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "126283"
       },
-      "observedAt": "2026-09-22T18:52:18.251Z",
+      "observedAt": "2026-09-22T22:06:37.948Z",
       "evidenceHash": "835ec0a65727e1762a4667c7b0562ffacb5e1854441a4a50f7250e35e751e3fa"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "126269"
       },
-      "observedAt": "2026-09-22T18:52:18.251Z",
+      "observedAt": "2026-09-22T22:06:37.948Z",
       "evidenceHash": "45e7a693e09f448888485a3564527657cc895b2be74863b4d65f00322d147bff"
     },
     {
@@ -1809,7 +1809,7 @@
       "raw": {
         "reportId": "126255"
       },
-      "observedAt": "2026-09-22T18:52:18.251Z",
+      "observedAt": "2026-09-22T22:06:37.948Z",
       "evidenceHash": "f5a3a87979dab783288333f3f23152d2391f4aec7bdacae108f212bbaffdea20"
     },
     {
@@ -1822,7 +1822,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-22T18:52:17.068Z",
+      "observedAt": "2026-09-22T22:06:36.930Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1835,7 +1835,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-22T18:52:17.069Z",
+      "observedAt": "2026-09-22T22:06:36.932Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1848,7 +1848,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-22T18:52:17.069Z",
+      "observedAt": "2026-09-22T22:06:36.932Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1861,7 +1861,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-22T18:52:17.069Z",
+      "observedAt": "2026-09-22T22:06:36.932Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1874,7 +1874,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-22T18:52:17.070Z",
+      "observedAt": "2026-09-22T22:06:36.932Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1888,7 +1888,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-22T18:52:17.070Z",
+      "observedAt": "2026-09-22T22:06:36.932Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1902,7 +1902,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-22T18:52:17.070Z",
+      "observedAt": "2026-09-22T22:06:36.932Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1916,7 +1916,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-22T18:52:17.070Z",
+      "observedAt": "2026-09-22T22:06:36.932Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1935,7 +1935,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-09-22T18:52:49.757Z",
+      "observedAt": "2026-09-22T22:07:09.058Z",
       "evidenceHash": "ed71dec9dd5f1a0d35193c12eb0dc18cfef6fb38c68c4acb0f82ae922099d3ad"
     },
     {
@@ -1954,7 +1954,7 @@
         "anchorText": "100 Days Office Improvement Special Campaign Finance Department Maharashtra Government Directorate of Accounts and Treasuries ,Mumbai",
         "rowText": ""
       },
-      "observedAt": "2026-09-22T18:52:49.763Z",
+      "observedAt": "2026-09-22T22:07:09.061Z",
       "evidenceHash": "0a0c3c4797621eb9968690eb61fd6e1f846b17b6e70063d08f9efa5c08da8ff9"
     },
     {
@@ -1973,7 +1973,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-09-22T18:52:49.763Z",
+      "observedAt": "2026-09-22T22:07:09.062Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1992,7 +1992,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-09-22T18:52:49.764Z",
+      "observedAt": "2026-09-22T22:07:09.062Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -2011,7 +2011,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-09-22T18:52:49.764Z",
+      "observedAt": "2026-09-22T22:07:09.062Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -2030,7 +2030,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-09-22T18:52:49.764Z",
+      "observedAt": "2026-09-22T22:07:09.062Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2049,7 +2049,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-09-22T18:52:49.764Z",
+      "observedAt": "2026-09-22T22:07:09.062Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2068,7 +2068,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-09-22T18:52:49.764Z",
+      "observedAt": "2026-09-22T22:07:09.062Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2086,7 +2086,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-09-22T18:52:48.746Z",
+      "observedAt": "2026-09-22T22:07:07.786Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
