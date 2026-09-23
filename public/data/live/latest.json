@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T16:55:19.751Z",
+  "generatedAt": "2026-09-23T20:20:52.387Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "sensors": 10,
-    "healthySensors": 7,
-    "records": 71,
+    "healthySensors": 8,
+    "records": 79,
     "reconciledLinks": 3
   },
   "sensors": [
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-09-23T16:54:42.947Z",
+      "fetchedAt": "2026-09-23T20:20:16.011Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-09-23T16:54:42.961Z",
+      "fetchedAt": "2026-09-23T20:20:16.028Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-09-23T16:54:42.962Z",
+      "fetchedAt": "2026-09-23T20:20:16.029Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-09-23T16:54:42.963Z",
+      "fetchedAt": "2026-09-23T20:20:16.030Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-23T16:54:42.964Z",
+      "fetchedAt": "2026-09-23T20:20:16.032Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -86,10 +86,10 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-23T16:54:42.967Z",
-      "ok": false,
-      "recordCount": 0,
-      "error": "500 Internal Server Error from https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new"
+      "fetchedAt": "2026-09-23T20:20:16.035Z",
+      "ok": true,
+      "recordCount": 8,
+      "error": null
     },
     {
       "id": "maharashtra-program-budget",
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-23T16:55:17.091Z",
+      "fetchedAt": "2026-09-23T20:20:49.809Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-23T16:55:17.090Z",
+      "fetchedAt": "2026-09-23T20:20:49.808Z",
       "ok": false,
       "recordCount": 0,
       "error": "Unexpected server response (500) while retrieving PDF \"https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Accountant%20%28Finance%29/Budget/Budget%20Estimate%202026-2027/STANDING%20COMMITTEE%202026-2027.pdf\"."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-09-23T16:55:17.092Z",
+      "fetchedAt": "2026-09-23T20:20:49.810Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-09-23T16:55:17.093Z",
+      "fetchedAt": "2026-09-23T20:20:49.811Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 13112180000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2048885000",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2048885000",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1141802857",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1141802857",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹13,11,218 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(30.8%)"
         ]
       },
-      "observedAt": "2026-09-23T16:54:49.349Z",
-      "evidenceHash": "246070ecbd001c35fece83bdd242c0bf7f75922ed24396e95112a6f00e708bda"
+      "observedAt": "2026-09-23T20:20:21.863Z",
+      "evidenceHash": "044b517865447eeb8f6aed8606c75a6ecaab1be56dc0c7bd1af53b531b21d662"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:7:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4265660000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2048885000",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2048885000",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1141802857",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1141802857",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,26,566 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(35.0%)"
         ]
       },
-      "observedAt": "2026-09-23T16:54:49.350Z",
-      "evidenceHash": "58d150283633da8b467cadee39740116d51df113157a9afc449a0d9547b38ecd"
+      "observedAt": "2026-09-23T20:20:21.863Z",
+      "evidenceHash": "efd632f1e75e83b39cfb91bf566a32964041f2524d34c949b191fe7344ccc4a9"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:7:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4506350000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2048885000",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2048885000",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1141802857",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1141802857",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,50,635 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-23T16:54:49.350Z",
-      "evidenceHash": "0e0ae4ee0b3a1bc8ac6fb5b46cbccaca829db06266ca6bf01883cd6f6b8b28d9"
+      "observedAt": "2026-09-23T20:20:21.863Z",
+      "evidenceHash": "c2dbe94af7784db98691f27178f49c87a56d17e0127f22ebb536f3b5058512a9"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:7:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1262720000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2048885000",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2048885000",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1141802857",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1141802857",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,26,272 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(42.8%)"
         ]
       },
-      "observedAt": "2026-09-23T16:54:49.350Z",
-      "evidenceHash": "7187b18e152a76a39383f0430e77bc2777950a3247f2af7c4048a6e193a9094a"
+      "observedAt": "2026-09-23T20:20:21.863Z",
+      "evidenceHash": "bd3cfb139d2caa5bcafe07543a05303158dc605923da2408c02e3ddd1b44805e"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:7:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 17618530000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2048885000",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2048885000",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1141802857",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1141802857",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹17,61,853 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-23T16:54:49.350Z",
-      "evidenceHash": "4fff338cf912bb2bd8941a7b2256629874effa85776c2b132eb73c57a5e210c7"
+      "observedAt": "2026-09-23T20:20:21.864Z",
+      "evidenceHash": "5ad126c15dfd00b8a1b7cfdee7b5a49c0f1967a444d8c1e423e7d5f3548b28d3"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:7:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1535133400000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2048885000",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2048885000",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1141802857",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1141802857",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,53,513.34 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,30 +323,30 @@
           "(30%)"
         ]
       },
-      "observedAt": "2026-09-23T16:54:49.353Z",
-      "evidenceHash": "c55b2d27d4f5b30360c55bc9a01ae1d3ed0559b9fa7af84bbd5be4be588f95d5"
+      "observedAt": "2026-09-23T20:20:21.866Z",
+      "evidenceHash": "5efdf9269a46351045b9f33d8c2e77ace5468039031fdafcd2b588b61792a91e"
     },
     {
-      "externalKey": "cppp-procurement:screen-reader-access-23-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-23-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
+      "externalKey": "cppp-procurement:screen-reader-access-24-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-24-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
       "sensorId": "cppp-procurement",
-      "title": "Screen Reader Access 23-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "title": "Screen Reader Access 24-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=WebScreenReaderAccess&service=page",
-      "tenderReference": "Screen Reader Access 23-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "tenderReference": "Screen Reader Access 24-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "geographicPrecision": "unknown",
-      "note": "Screen Reader Access |  |  | 23-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 23-Sep-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
+      "note": "Screen Reader Access |  |  | 24-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 24-Sep-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
       "raw": {
         "cells": [
-          "Screen Reader Access 23-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+          "Screen Reader Access 24-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
           "Screen Reader Access",
           "Screen Reader Access",
           "",
           "",
-          "23-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "23-Sep-2026",
+          "24-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "24-Sep-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -357,8 +357,8 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.920Z",
-      "evidenceHash": "269a4d5a0d0864f8fb884fdf9135117d522c4ba2a3abfec062d50c386932c563"
+      "observedAt": "2026-09-23T20:20:18.144Z",
+      "evidenceHash": "6d6ffc1adcd8ff571573e0fe3f9b70071d0cde4581086e65b3be6b07014402be"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access:screen-reader-access",
@@ -377,25 +377,25 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.921Z",
+      "observedAt": "2026-09-23T20:20:18.144Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
-      "externalKey": "cppp-procurement:23-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:23-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
+      "externalKey": "cppp-procurement:24-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:24-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
       "sensorId": "cppp-procurement",
-      "title": "23-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "title": "24-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "tenderReference": "23-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "tenderReference": "24-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "geographicPrecision": "unknown",
       "note": "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  | ",
       "raw": {
         "cells": [
-          "23-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "23-Sep-2026",
+          "24-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "24-Sep-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -403,13 +403,13 @@
           ""
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.921Z",
-      "evidenceHash": "c9c865018b2c902d906d09e7e7cff473299af3684af153dd18f073a48fca38c5"
+      "observedAt": "2026-09-23T20:20:18.145Z",
+      "evidenceHash": "cc1f1f7ecfd6da7877d12e318d2afb41edaf65a0f1a0f7ff1880aa45281d22de"
     },
     {
-      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:23-sep-2026",
+      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:24-sep-2026",
       "sensorId": "cppp-procurement",
-      "title": "23-Sep-2026",
+      "title": "24-Sep-2026",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -420,7 +420,7 @@
       "note": " |  |  | ",
       "raw": {
         "cells": [
-          "23-Sep-2026",
+          "24-Sep-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -428,8 +428,8 @@
           ""
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.922Z",
-      "evidenceHash": "e6976eb1567c7f26c8b4e22b51e31e9f5427bdc09890b2929f5fcde3ed9eb113"
+      "observedAt": "2026-09-23T20:20:18.145Z",
+      "evidenceHash": "5a0a7984b7ba2a429acb9281693f9ebaab98aa0ca2c316249c7a974058e16ec4"
     },
     {
       "externalKey": "cppp-procurement:epublishing-system,-government-of-india",
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.922Z",
+      "observedAt": "2026-09-23T20:20:18.145Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.922Z",
+      "observedAt": "2026-09-23T20:20:18.146Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Work of servicing/overhauling of dewatering pumps Enq 28 FY 2026 2027 12-Oct-2026 03:30 PM 12-Oct-2026 04:00 PM 10. Reconditioning of OD Spherical area of bearings TDO/MECH/07/3080/2026-27 28-Sep-2026 03:30 PM 28-Sep-2026 03:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Work of servicing/overhauling of dewatering pumps Enq 28 FY 2026 2027 12-Oct-2026 03:30 PM 12-Oct-2026 04:00 PM 10. Reconditioning of OD Spherical area of bearings TDO/MECH/07/3080/2026-27 28-Sep-2026 03:30 PM 28-Sep-2026 03:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Work of servicing/overhauling of dewatering pumps Enq 28 FY 2026 2027 12-Oct-2026 03:30 PM 12-Oct-2026 04:00 PM 10. Reconditioning of OD Spherical area of bearings TDO/MECH/07/3080/2026-27 28-Sep-2026 03:30 PM 28-Sep-2026 03:30 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Work of servicing/overhauling of dewatering pumps Enq 28 FY 2026 2027 12-Oct-2026 03:30 PM 12-Oct-2026 04:00 PM 10. Reconditioning of OD Spherical area of bearings TDO/MECH/07/3080/2026-27 28-Sep-2026 03:30 PM 28-Sep-2026 03:30 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Work of servicing/overhauling of dewatering pumps Enq 28 FY 2026 2027 12-Oct-2026 03:30 PM 12-Oct-2026 04:00 PM 10. Reconditioning of OD Spherical area of bearings TDO/MECH/07/3080/2026-27 28-Sep-2026 03:30 PM 28-Sep-2026 03:30 PM | 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 | NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 | 14-Oct-2026 11:00 AM | 14-Oct-2026 11:30 AM | 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 | B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 | BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 | 29-Sep-2026 06:55 PM | 30-Sep-2026 06:55 PM | 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). | NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | 5. Supply of endless belt for RCF in 210 MW ATPS Chachai | PE-924/1772 | 12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM | 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha | NBCC/SBG/Odisha/NIT/26-27/52 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. | WE-439 | 29-Sep-2026 04:00 PM | 30-Sep-2026 05:00 PM | 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. | NBCC/SBG RE/Govindpuram/2026/48 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | 9. Work of servicing/overhauling of dewatering pumps | Enq 28 FY 2026 2027 | 12-Oct-2026 03:30 PM | 12-Oct-2026 04:00 PM | 10. Reconditioning of OD Spherical area of bearings | TDO/MECH/07/3080/2026-27 | 28-Sep-2026 03:30 PM | 28-Sep-2026 03:30 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM | 1. Cor Adm 03 | NBCC/SBG-MbPT/MbPA/2026/56 | 30-Sep-2026 11:00 AM | 30-Sep-2026 11:30 AM | 2. Cor-Adm-01 | NBCC/JNV/UNAKOTI/TRIPURA/07 | 30-Sep-2026 11:00 AM | 30-Sep-2026 11:30 AM | 3. Corr-Adm-01 | NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 | 01-Oct-2026 11:00 AM | 01-Oct-2026 11:30 AM | 4. Corr-Adm-01 | NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 | 01-Oct-2026 11:00 AM | 01-Oct-2026 11:30 AM | 5. Corrigendum02 | NBCC/SBGWB/DVC/DGP/2026/405 | 28-Sep-2026 11:00 AM | 28-Sep-2026 11:30 AM | 6. Addendum01 | NBCC/SBGWB/DVC/DGP/2026/405 | 28-Sep-2026 11:00 AM | 28-Sep-2026 11:30 AM | 7. Date Corrigendum 1 | BNR/51244/IOCL/ BALANCE GCW/09 | 30-Sep-2026 06:00 PM | 01-Oct-2026 06:00 PM | 8. Corrigendum - 1 | PUR/ENQ/STOCK/7644/JB/ 036/2026-27 | 29-Sep-2026 06:55 PM | 30-Sep-2026 06:55 PM | 9. 2026_MPPGC_848923_1/C2 | 91-84/PnW/W/1377 | 01-Oct-2026 02:00 PM | 01-Oct-2026 05:00 PM | 10. 2026_MPPGC_851447/C1 | 91-84/PnW/W/1595 | 28-Sep-2026 02:00 PM | 28-Sep-2026 05:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Supply of Pulp Density Bucket with Graduation GEM/2026/B/7970074 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler GEM/2026/B/7969884 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Supply of Pulp Density Bucket with Graduation GEM/2026/B/7970074 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler GEM/2026/B/7969884 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Supply of Pulp Density Bucket with Graduation GEM/2026/B/7970074 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler GEM/2026/B/7969884 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Supply of Pulp Density Bucket with Graduation GEM/2026/B/7970074 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler GEM/2026/B/7969884 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Supply of Pulp Density Bucket with Graduation GEM/2026/B/7970074 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler GEM/2026/B/7969884 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM | 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 | NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 | 14-Oct-2026 11:00 AM | 14-Oct-2026 11:30 AM | 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 | B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 | BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 | 29-Sep-2026 06:55 PM | 30-Sep-2026 06:55 PM | 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). | NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | 5. Supply of endless belt for RCF in 210 MW ATPS Chachai | PE-924/1772 | 12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM | 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha | NBCC/SBG/Odisha/NIT/26-27/52 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. | WE-439 | 29-Sep-2026 04:00 PM | 30-Sep-2026 05:00 PM | 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. | NBCC/SBG RE/Govindpuram/2026/48 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | 9. Supply of Pulp Density Bucket with Graduation | GEM/2026/B/7970074 | 25-Sep-2026 04:00 PM | 26-Sep-2026 04:00 PM | 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler | GEM/2026/B/7969884 | 25-Sep-2026 04:00 PM | 26-Sep-2026 04:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM | 1. Cor Adm 03 | NBCC/SBG-MbPT/MbPA/2026/56 | 30-Sep-2026 11:00 AM | 30-Sep-2026 11:30 AM | 2. Cor-Adm-01 | NBCC/JNV/UNAKOTI/TRIPURA/07 | 30-Sep-2026 11:00 AM | 30-Sep-2026 11:30 AM | 3. Corr-Adm-01 | NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 | 01-Oct-2026 11:00 AM | 01-Oct-2026 11:30 AM | 4. Corr-Adm-01 | NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 | 01-Oct-2026 11:00 AM | 01-Oct-2026 11:30 AM | 5. Corrigendum02 | NBCC/SBGWB/DVC/DGP/2026/405 | 28-Sep-2026 11:00 AM | 28-Sep-2026 11:30 AM | 6. Addendum01 | NBCC/SBGWB/DVC/DGP/2026/405 | 28-Sep-2026 11:00 AM | 28-Sep-2026 11:30 AM | 7. Date Corrigendum 1 | BNR/51244/IOCL/ BALANCE GCW/09 | 30-Sep-2026 06:00 PM | 01-Oct-2026 06:00 PM | 8. Corrigendum - 1 | PUR/ENQ/STOCK/7644/JB/ 036/2026-27 | 29-Sep-2026 06:55 PM | 30-Sep-2026 06:55 PM | 9. 2026_MPPGC_848923_1/C2 | 91-84/PnW/W/1377 | 01-Oct-2026 02:00 PM | 01-Oct-2026 05:00 PM | 10. 2026_MPPGC_851447/C1 | 91-84/PnW/W/1595 | 28-Sep-2026 02:00 PM | 28-Sep-2026 05:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,21 +520,21 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Work of servicing/overhauling of dewatering pumps Enq 28 FY 2026 2027 12-Oct-2026 03:30 PM 12-Oct-2026 04:00 PM 10. Reconditioning of OD Spherical area of bearings TDO/MECH/07/3080/2026-27 28-Sep-2026 03:30 PM 28-Sep-2026 03:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Supply of Pulp Density Bucket with Graduation GEM/2026/B/7970074 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler GEM/2026/B/7969884 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Work of servicing/overhauling of dewatering pumps Enq 28 FY 2026 2027 12-Oct-2026 03:30 PM 12-Oct-2026 04:00 PM 10. Reconditioning of OD Spherical area of bearings TDO/MECH/07/3080/2026-27 28-Sep-2026 03:30 PM 28-Sep-2026 03:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Supply of Pulp Density Bucket with Graduation GEM/2026/B/7970074 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler GEM/2026/B/7969884 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Cor Adm 03 NBCC/SBG-MbPT/MbPA/2026/56 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 2. Cor-Adm-01 NBCC/JNV/UNAKOTI/TRIPURA/07 30-Sep-2026 11:00 AM 30-Sep-2026 11:30 AM 3. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 4. Corr-Adm-01 NBCC/CPG/Consultancy /RBI/Amaravati/2026/177 01-Oct-2026 11:00 AM 01-Oct-2026 11:30 AM 5. Corrigendum02 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 6. Addendum01 NBCC/SBGWB/DVC/DGP/2026/405 28-Sep-2026 11:00 AM 28-Sep-2026 11:30 AM 7. Date Corrigendum 1 BNR/51244/IOCL/ BALANCE GCW/09 30-Sep-2026 06:00 PM 01-Oct-2026 06:00 PM 8. Corrigendum - 1 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 9. 2026_MPPGC_848923_1/C2 91-84/PnW/W/1377 01-Oct-2026 02:00 PM 01-Oct-2026 05:00 PM 10. 2026_MPPGC_851447/C1 91-84/PnW/W/1595 28-Sep-2026 02:00 PM 28-Sep-2026 05:00 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Work of servicing/overhauling of dewatering pumps Enq 28 FY 2026 2027 12-Oct-2026 03:30 PM 12-Oct-2026 04:00 PM 10. Reconditioning of OD Spherical area of bearings TDO/MECH/07/3080/2026-27 28-Sep-2026 03:30 PM 28-Sep-2026 03:30 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Work of servicing/overhauling of dewatering pumps Enq 28 FY 2026 2027 12-Oct-2026 03:30 PM 12-Oct-2026 04:00 PM 10. Reconditioning of OD Spherical area of bearings TDO/MECH/07/3080/2026-27 28-Sep-2026 03:30 PM 28-Sep-2026 03:30 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Supply of Pulp Density Bucket with Graduation GEM/2026/B/7970074 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler GEM/2026/B/7969884 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Supply of Pulp Density Bucket with Graduation GEM/2026/B/7970074 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler GEM/2026/B/7969884 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Work of servicing/overhauling of dewatering pumps Enq 28 FY 2026 2027 12-Oct-2026 03:30 PM 12-Oct-2026 04:00 PM 10. Reconditioning of OD Spherical area of bearings TDO/MECH/07/3080/2026-27 28-Sep-2026 03:30 PM 28-Sep-2026 03:30 PM",
+          "1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Supply of Pulp Density Bucket with Graduation GEM/2026/B/7970074 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler GEM/2026/B/7969884 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM",
           "1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001",
           "NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595",
           "14-Oct-2026 11:00 AM",
@@ -567,14 +567,14 @@
           "NBCC/SBG RE/Govindpuram/2026/48",
           "07-Oct-2026 11:00 AM",
           "07-Oct-2026 11:30 AM",
-          "9. Work of servicing/overhauling of dewatering pumps",
-          "Enq 28 FY 2026 2027",
-          "12-Oct-2026 03:30 PM",
-          "12-Oct-2026 04:00 PM",
-          "10. Reconditioning of OD Spherical area of bearings",
-          "TDO/MECH/07/3080/2026-27",
-          "28-Sep-2026 03:30 PM",
-          "28-Sep-2026 03:30 PM",
+          "9. Supply of Pulp Density Bucket with Graduation",
+          "GEM/2026/B/7970074",
+          "25-Sep-2026 04:00 PM",
+          "26-Sep-2026 04:00 PM",
+          "10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler",
+          "GEM/2026/B/7969884",
+          "25-Sep-2026 04:00 PM",
+          "26-Sep-2026 04:00 PM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.929Z",
-      "evidenceHash": "bb6fb36bb553de2f2d8569318c37003ef0c2d5505d55a6f902699d491d895aef"
+      "observedAt": "2026-09-23T20:20:18.152Z",
+      "evidenceHash": "bba9871bd1026f225757e335f08fb921239f90a8e4992f72a98fe49871f19934"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.929Z",
+      "observedAt": "2026-09-23T20:20:18.153Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,11 +727,11 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.930Z",
+      "observedAt": "2026-09-23T20:20:18.153Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-interior-renovation,-refurbishment-including-mep-works-for-port-bhavan-for-mumbai-port-authority-(mbpa)at-shoorji-vallabhdas-marg,-ballard-state,-mumbai-400001:1.-interior-renovation,-refurbishment-including-mep-works-for-port-bhavan-for-mumbai-port-authority-(mbpa)at-shoorji-vallabhdas-marg,-ballard-state,-mumbai-400001-nbcc/cpg/interior/port-bhawan/-mbpa/2026/595-14-oct-2026-11:00-am-14-oct-2026-11:30-am-2.-b-and-r/east/71172/-rock-cutting-/sail/dgp/nit/03-b-and-r/east/71172/-rock-cutting-/sail/dgp/nit/03-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-3.-bnr/71126/hrrl/pkg5/-precommissioning-works/nit/1-bnr/71126/hrrl/pkg5/-precommissioning-works/nit/1-29-sep-2026-06:55-pm-30-sep-2026-06:55-pm-4.-construction-of-icai-bhawan--gorakhpur-situated-at-plot-no-b-11,-taramandal,-near-circuit-house,-opp--ramgarhtal-lake,-gorakhpur-(u.p.).-nbcc/sbg-(up-east)/gm/varanasi/2026/526-07-oct-2026-11:00-am-07-oct-2026-11:30-am-5.-supply-of-endless-belt-for-rcf-in-210-mw-atps-chachai-pe-924/1772-12-oct-2026-03:00-pm-12-oct-2026-03:30-pm-6.-construction-of-400-seated-g-plus-5-boys-hostel-at-govt.-iti-bolangir,-odisha-nbcc/sbg/odisha/nit/26-27/52-07-oct-2026-11:00-am-07-oct-2026-11:30-am-7.-rewiring-work-of-the-addl.-c.e.(construction)-office,-including-supply-of-required-material,-stps,-mppgcl-sarni.-we-439-29-sep-2026-04:00-pm-30-sep-2026-05:00-pm-8.-providing-comprehensive-architectural-and-engineering-consultancy-services-for-mixed-use-plot-at-govindpuram,-ghaziabad,-uttar-pradesh.-nbcc/sbg-re/govindpuram/2026/48-07-oct-2026-11:00-am-07-oct-2026-11:30-am-9.-work-of-servicing/overhauling-of-dewatering-pumps-enq-28-fy-2026-2027-12-oct-2026-03:30-pm-12-oct-2026-04:00-pm-10.-reconditioning-of-od-spherical-area-of-bearings-tdo/mech/07/3080/2026-27-28-sep-2026-03:30-pm-28-sep-2026-03:30-pm",
+      "externalKey": "cppp-procurement:1.-interior-renovation,-refurbishment-including-mep-works-for-port-bhavan-for-mumbai-port-authority-(mbpa)at-shoorji-vallabhdas-marg,-ballard-state,-mumbai-400001-nbcc/cpg/interior/port-bhawan/-mbpa/2026/595-14-oct-2026-11:00-am-14-oct-2026-11:30-am-2.-b-and-r/east/71172/-rock-cutting-/sail/dgp/nit/03-b-and-r/east/71172/-rock-cutting-/sail/dgp/nit/03-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-3.-bnr/71126/hrrl/pkg5/-precommissioning-works/nit/1-bnr/71126/hrrl/pkg5/-precommissioning-works/nit/1-29-sep-2026-06:55-pm-30-sep-2026-06:55-pm-4.-construction-of-icai-bhawan--gorakhpur-situated-at-plot-no-b-11,-taramandal,-near-circuit-house,-opp--ramgarhtal-lake,-gorakhpur-(u.p.).-nbcc/sbg-(up-east)/gm/varanasi/2026/526-07-oct-2026-11:00-am-07-oct-2026-11:30-am-5.-supply-of-endless-belt-for-rcf-in-210-mw-atps-chachai-pe-924/1772-12-oct-2026-03:00-pm-12-oct-2026-03:30-pm-6.-construction-of-400-seated-g-plus-5-boys-hostel-at-govt.-iti-bolangir,-odisha-nbcc/sbg/odisha/nit/26-27/52-07-oct-2026-11:00-am-07-oct-2026-11:30-am-7.-rewiring-work-of-the-addl.-c.e.(construction)-office,-including-supply-of-required-material,-stps,-mppgcl-sarni.-we-439-29-sep-2026-04:00-pm-30-sep-2026-05:00-pm-8.-providing-comprehensive-architectural-and-engineering-consultancy-services-for-mixed-use-plot-at-govindpuram,-ghaziabad,-uttar-pradesh.-nbcc/sbg-re/govindpuram/2026/48-07-oct-2026-11:00-am-07-oct-2026-11:30-am-9.-supply-of-pulp-density-bucket-with-graduation-gem/2026/b/7970074-25-sep-2026-04:00-pm-26-sep-2026-04:00-pm-10.-supply-of-automatic-sample-box-or-pneumatic-cross-cut-sampler-gem/2026/b/7969884-25-sep-2026-04:00-pm-26-sep-2026-04:00-pm:1.-interior-renovation,-refurbishment-including-mep-works-for-port-bhavan-for-mumbai-port-authority-(mbpa)at-shoorji-vallabhdas-marg,-ballard-state,-mumbai-400001-nbcc/cpg/interior/port-bhawan/-mbpa/2026/595-14-oct-2026-11:00-am-14-oct-2026-11:30-am-2.-b-and-r/east/71172/-rock-cutting-/sail/dgp/nit/03-b-and-r/east/71172/-rock-cutting-/sail/dgp/nit/03-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-3.-bnr/71126/hrrl/pkg5/-precommissioning-works/nit/1-bnr/71126/hrrl/pkg5/-precommissioning-works/nit/1-29-sep-2026-06:55-pm-30-sep-2026-06:55-pm-4.-construction-of-icai-bhawan--gorakhpur-situated-at-plot-no-b-11,-taramandal,-near-circuit-house,-opp--ramgarhtal-lake,-gorakhpur-(u.p.).-nbcc/sbg-(up-east)/gm/varanasi/2026/526-07-oct-2026-11:00-am-07-oct-2026-11:30-am-5.-supply-of-endless-belt-for-rcf-in-210-mw-atps-chachai-pe-924/1772-12-oct-2026-03:00-pm-12-oct-2026-03:30-pm-6.-construction-of-400-seated-g-plus-5-boys-hostel-at-govt.-iti-bolangir,-odisha-nbcc/sbg/odisha/nit/26-27/52-07-oct-2026-11:00-am-07-oct-2026-11:30-am-7.-rewiring-work-of-the-addl.-c.e.(construction)-office,-including-supply-of-required-material,-stps,-mppgcl-sarni.-we-439-29-sep-2026-04:00-pm-30-sep-2026-05:00-pm-8.-providing-comprehensive-architectural-and-engineering-consultancy-services-for-mixed-use-plot-at-govindpuram,-ghaziabad,-uttar-pradesh.-nbcc/sbg-re/govindpuram/2026/48-07-oct-2026-11:00-am-07-oct-2026-11:30-am-9.-supply-of-pulp-density-bucket-with-graduation-gem/2026/b/7970074-25-sep-2026-04:00-pm-26-sep-2026-04:00-pm-10.-supply-of-automatic-sample-box-or-pneumatic-cross-cut-sampler-gem/2026/b/7969884-25-sep-2026-04:00-pm-26-sep-2026-04:00-pm",
       "sensorId": "cppp-procurement",
       "title": "1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29",
       "authority": "Government of India eProcurement System",
@@ -739,12 +739,12 @@
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Sjn8z0jkQWKHXJ5YOt0M8fw%3D%3D",
-      "tenderReference": "1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001",
+      "tenderReference": "1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Supply of Pulp Density Bucket with Graduation GEM/2026/B/7970074 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler GEM/2026/B/7969884 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM",
       "geographicPrecision": "unknown",
-      "note": "NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 | 14-Oct-2026 11:00 AM | 14-Oct-2026 11:30 AM | 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 | B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 | BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 | 29-Sep-2026 06:55 PM | 30-Sep-2026 06:55 PM | 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). | NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | 5. Supply of endless belt for RCF in 210 MW ATPS Chachai | PE-924/1772 | 12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM | 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha | NBCC/SBG/Odisha/NIT/26-27/52 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. | WE-439 | 29-Sep-2026 04:00 PM | 30-Sep-2026 05:00 PM | 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. | NBCC/SBG RE/Govindpuram/2026/48 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | 9. Work of servicing/overhauling of dewatering pumps | Enq 28 FY 2026 2027 | 12-Oct-2026 03:30 PM | 12-Oct-2026 04:00 PM | 10. Reconditioning of OD Spherical area of bearings | TDO/MECH/07/3080/2026-27 | 28-Sep-2026 03:30 PM | 28-Sep-2026 03:30 PM",
+      "note": "NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 | 14-Oct-2026 11:00 AM | 14-Oct-2026 11:30 AM | 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 | B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 | BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 | 29-Sep-2026 06:55 PM | 30-Sep-2026 06:55 PM | 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). | NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | 5. Supply of endless belt for RCF in 210 MW ATPS Chachai | PE-924/1772 | 12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM | 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha | NBCC/SBG/Odisha/NIT/26-27/52 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. | WE-439 | 29-Sep-2026 04:00 PM | 30-Sep-2026 05:00 PM | 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. | NBCC/SBG RE/Govindpuram/2026/48 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | 9. Supply of Pulp Density Bucket with Graduation | GEM/2026/B/7970074 | 25-Sep-2026 04:00 PM | 26-Sep-2026 04:00 PM | 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler | GEM/2026/B/7969884 | 25-Sep-2026 04:00 PM | 26-Sep-2026 04:00 PM",
       "raw": {
         "cells": [
-          "1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Work of servicing/overhauling of dewatering pumps Enq 28 FY 2026 2027 12-Oct-2026 03:30 PM 12-Oct-2026 04:00 PM 10. Reconditioning of OD Spherical area of bearings TDO/MECH/07/3080/2026-27 28-Sep-2026 03:30 PM 28-Sep-2026 03:30 PM",
+          "1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001 NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 2. B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 B AND R/EAST/71172/ ROCK CUTTING /SAIL/DGP/NIT/03 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 3. BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 BNR/71126/HRRL/PKG5/ PRECOMMISSIONING WORKS/NIT/1 29-Sep-2026 06:55 PM 30-Sep-2026 06:55 PM 4. Construction of ICAI Bhawan- Gorakhpur situated at plot no-B-11, Taramandal, near circuit house, opp- Ramgarhtal lake, Gorakhpur (U.P.). NBCC/SBG (UP EAST)/GM/VARANASI/2026/526 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 5. Supply of endless belt for RCF in 210 MW ATPS Chachai PE-924/1772 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. Construction of 400 Seated G plus 5 Boys Hostel at Govt. ITI Bolangir, Odisha NBCC/SBG/Odisha/NIT/26-27/52 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 7. Rewiring work of The Addl. C.E.(Construction) office, including supply of required material, STPS, MPPGCL Sarni. WE-439 29-Sep-2026 04:00 PM 30-Sep-2026 05:00 PM 8. Providing Comprehensive Architectural and Engineering consultancy services for Mixed Use Plot at Govindpuram, Ghaziabad, Uttar Pradesh. NBCC/SBG RE/Govindpuram/2026/48 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM 9. Supply of Pulp Density Bucket with Graduation GEM/2026/B/7970074 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM 10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler GEM/2026/B/7969884 25-Sep-2026 04:00 PM 26-Sep-2026 04:00 PM",
           "1. Interior renovation, refurbishment including MEP works for Port Bhavan for Mumbai Port Authority (MbPA)at Shoorji Vallabhdas Marg, Ballard State, Mumbai-400001",
           "NBCC/CPG/Interior/Port-Bhawan/ MbPA/2026/595",
           "14-Oct-2026 11:00 AM",
@@ -777,18 +777,18 @@
           "NBCC/SBG RE/Govindpuram/2026/48",
           "07-Oct-2026 11:00 AM",
           "07-Oct-2026 11:30 AM",
-          "9. Work of servicing/overhauling of dewatering pumps",
-          "Enq 28 FY 2026 2027",
-          "12-Oct-2026 03:30 PM",
-          "12-Oct-2026 04:00 PM",
-          "10. Reconditioning of OD Spherical area of bearings",
-          "TDO/MECH/07/3080/2026-27",
-          "28-Sep-2026 03:30 PM",
-          "28-Sep-2026 03:30 PM"
+          "9. Supply of Pulp Density Bucket with Graduation",
+          "GEM/2026/B/7970074",
+          "25-Sep-2026 04:00 PM",
+          "26-Sep-2026 04:00 PM",
+          "10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler",
+          "GEM/2026/B/7969884",
+          "25-Sep-2026 04:00 PM",
+          "26-Sep-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.932Z",
-      "evidenceHash": "fb6674d9e94aa4806c42f2bde43114bcaa31f53adcf624fe8944f97c8b3deae7"
+      "observedAt": "2026-09-23T20:20:18.156Z",
+      "evidenceHash": "01def69b3bc9045246dd43d12f906a05fe56d4120b0ab930662f956bd258c885"
     },
     {
       "externalKey": "cppp-procurement:nbcc/cpg/interior/port-bhawan/-mbpa/2026/595:1.-interior-renovation,-refurbishment-including-mep-works-for-port-bhavan-for-mumbai-port-authority-(mbpa)at-shoorji-vallabhdas-marg,-ballard-state,-mumbai-400001",
@@ -810,7 +810,7 @@
           "14-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.932Z",
+      "observedAt": "2026-09-23T20:20:18.156Z",
       "evidenceHash": "91b974828335f0260e60fc3e70ee97386eec7b75a629223974a200fc6c01fe2c"
     },
     {
@@ -833,7 +833,7 @@
           "07-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.933Z",
+      "observedAt": "2026-09-23T20:20:18.156Z",
       "evidenceHash": "78bd9ad89aaf7a981f2aa3c104f7d72a95737e26ef6b60321bacc4e0ec1b630f"
     },
     {
@@ -856,7 +856,7 @@
           "30-Sep-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.933Z",
+      "observedAt": "2026-09-23T20:20:18.156Z",
       "evidenceHash": "b80f2f25c010144d9c765408b4fc925db54f47212cdfd4f2543b5e92d3d2ce37"
     },
     {
@@ -879,7 +879,7 @@
           "07-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.933Z",
+      "observedAt": "2026-09-23T20:20:18.156Z",
       "evidenceHash": "494e62b5ed6b70ac64d1b209040fe66b41d79a3c9f9b56998fbb8ef8904a02ee"
     },
     {
@@ -902,7 +902,7 @@
           "12-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.933Z",
+      "observedAt": "2026-09-23T20:20:18.156Z",
       "evidenceHash": "717e180df1b1e6d934278aa1eb6505906dbed049c2fb3c58f2cd72d34ce05dc0"
     },
     {
@@ -925,7 +925,7 @@
           "07-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.933Z",
+      "observedAt": "2026-09-23T20:20:18.156Z",
       "evidenceHash": "1b3ab32ec0a0a4b53a33bfd4d00d5140d1cd088c7a0a958c277024eb9271395d"
     },
     {
@@ -948,7 +948,7 @@
           "30-Sep-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.933Z",
+      "observedAt": "2026-09-23T20:20:18.157Z",
       "evidenceHash": "689abc183539efeb63e5e206b3d5c96381c7911ce9bc057067ea9b427bf12a47"
     },
     {
@@ -971,54 +971,54 @@
           "07-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.933Z",
+      "observedAt": "2026-09-23T20:20:18.157Z",
       "evidenceHash": "848ebeb1f969b2461df97ec64d1f5f39705f5e201f9fae5f65d27ab638760ad7"
     },
     {
-      "externalKey": "cppp-procurement:enq-28-fy-2026-2027:9.-work-of-servicing/overhauling-of-dewatering-pumps",
+      "externalKey": "cppp-procurement:gem/2026/b/7970074:9.-supply-of-pulp-density-bucket-with-graduation",
       "sensorId": "cppp-procurement",
-      "title": "9. Work of servicing/overhauling of dewatering pumps",
+      "title": "9. Supply of Pulp Density Bucket with Graduation",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SIku%2B7IpriQeQqzUF00gAyQ%3D%3D",
-      "tenderReference": "Enq 28 FY 2026 2027",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SV4Xrp4QmYOzxU4EOfT1z8Q%3D%3D",
+      "tenderReference": "GEM/2026/B/7970074",
       "geographicPrecision": "unknown",
-      "note": "12-Oct-2026 03:30 PM | 12-Oct-2026 04:00 PM",
+      "note": "25-Sep-2026 04:00 PM | 26-Sep-2026 04:00 PM",
       "raw": {
         "cells": [
-          "9. Work of servicing/overhauling of dewatering pumps",
-          "Enq 28 FY 2026 2027",
-          "12-Oct-2026 03:30 PM",
-          "12-Oct-2026 04:00 PM"
+          "9. Supply of Pulp Density Bucket with Graduation",
+          "GEM/2026/B/7970074",
+          "25-Sep-2026 04:00 PM",
+          "26-Sep-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.934Z",
-      "evidenceHash": "7d56e7dd0303147bffac64132c4ac6e17d03af221b569ce60a745e8a9894c261"
+      "observedAt": "2026-09-23T20:20:18.157Z",
+      "evidenceHash": "dcf44834c87091998e0b4fae6b937b33aaae0f28b46245b5e34714780902f8d1"
     },
     {
-      "externalKey": "cppp-procurement:tdo/mech/07/3080/2026-27:10.-reconditioning-of-od-spherical-area-of-bearings",
+      "externalKey": "cppp-procurement:gem/2026/b/7969884:10.-supply-of-automatic-sample-box-or-pneumatic-cross-cut-sampler",
       "sensorId": "cppp-procurement",
-      "title": "10. Reconditioning of OD Spherical area of bearings",
+      "title": "10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SSmVRQQE489%2FWIaD1nE%2Bm%2Fw%3D%3D",
-      "tenderReference": "TDO/MECH/07/3080/2026-27",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SfqwRysDFfPFIAn%2FsG%2BThbw%3D%3D",
+      "tenderReference": "GEM/2026/B/7969884",
       "geographicPrecision": "unknown",
-      "note": "28-Sep-2026 03:30 PM | 28-Sep-2026 03:30 PM",
+      "note": "25-Sep-2026 04:00 PM | 26-Sep-2026 04:00 PM",
       "raw": {
         "cells": [
-          "10. Reconditioning of OD Spherical area of bearings",
-          "TDO/MECH/07/3080/2026-27",
-          "28-Sep-2026 03:30 PM",
-          "28-Sep-2026 03:30 PM"
+          "10. Supply of Automatic Sample Box or Pneumatic Cross Cut Sampler",
+          "GEM/2026/B/7969884",
+          "25-Sep-2026 04:00 PM",
+          "26-Sep-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.934Z",
-      "evidenceHash": "9f218316a264e7f7a228ba6d87d62f0b1d0bd4737e69f2728a38625b418e94b8"
+      "observedAt": "2026-09-23T20:20:18.157Z",
+      "evidenceHash": "871f8e9657b702437c54922d7a51794a994d161b51dae2ca1842e0a627210604"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.934Z",
+      "observedAt": "2026-09-23T20:20:18.157Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.934Z",
+      "observedAt": "2026-09-23T20:20:18.158Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "28-Sep-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.935Z",
+      "observedAt": "2026-09-23T20:20:18.158Z",
       "evidenceHash": "cd0ad510c9b0df7c7748b5b19364d46d6e9a7a46c3dd0569c12483dcbd0c2570"
     },
     {
@@ -1143,7 +1143,7 @@
           "30-Sep-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.935Z",
+      "observedAt": "2026-09-23T20:20:18.158Z",
       "evidenceHash": "875dff3d94f7d8067d5d5a766999684540134181c8a1263e4888ca2d0b4e77c5"
     },
     {
@@ -1166,7 +1166,7 @@
           "30-Sep-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.935Z",
+      "observedAt": "2026-09-23T20:20:18.158Z",
       "evidenceHash": "1a0f7729e6d21f4acb6829699ef6f679ce2a92ac718280eaae79578e4a56d201"
     },
     {
@@ -1189,7 +1189,7 @@
           "01-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.935Z",
+      "observedAt": "2026-09-23T20:20:18.158Z",
       "evidenceHash": "c80be638e7f8da73ba7d725a701e50745304ae6b7405c71dc8e67e7abf246015"
     },
     {
@@ -1212,7 +1212,7 @@
           "01-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.935Z",
+      "observedAt": "2026-09-23T20:20:18.158Z",
       "evidenceHash": "aa07305889acb4fa83536b03fef04223f89795d1819d7f1a807546f908286124"
     },
     {
@@ -1235,7 +1235,7 @@
           "28-Sep-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.935Z",
+      "observedAt": "2026-09-23T20:20:18.158Z",
       "evidenceHash": "fac7ebf2961e3eaf2f1299f1aa87e72780399eac3134fd64d43956030f8edce6"
     },
     {
@@ -1258,7 +1258,7 @@
           "28-Sep-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.935Z",
+      "observedAt": "2026-09-23T20:20:18.158Z",
       "evidenceHash": "839191d6935b3d80fb60461162d34d86315be148516863fa8d00d3a42d88743e"
     },
     {
@@ -1281,7 +1281,7 @@
           "01-Oct-2026 06:00 PM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.935Z",
+      "observedAt": "2026-09-23T20:20:18.158Z",
       "evidenceHash": "e08600e5d7ef5926db72d0ce86e56cb9c128def7f58f9e64816bf7aae97c3a83"
     },
     {
@@ -1304,7 +1304,7 @@
           "30-Sep-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.935Z",
+      "observedAt": "2026-09-23T20:20:18.159Z",
       "evidenceHash": "4ad6c515d11b016b2da94ccc4c7aabd31047f84773cdf211dc3b6d5ae246d121"
     },
     {
@@ -1327,7 +1327,7 @@
           "01-Oct-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.935Z",
+      "observedAt": "2026-09-23T20:20:18.159Z",
       "evidenceHash": "bc041ba734506a289036ea18d07f82063fbc397b69f9a3c5fa2a354907e39d0e"
     },
     {
@@ -1350,7 +1350,7 @@
           "28-Sep-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.935Z",
+      "observedAt": "2026-09-23T20:20:18.159Z",
       "evidenceHash": "0da8fc14c897f058a6235e76997cd5741f0d55e868f0d2de5376f1dee363727d"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.935Z",
+      "observedAt": "2026-09-23T20:20:18.159Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.936Z",
+      "observedAt": "2026-09-23T20:20:18.159Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.936Z",
+      "observedAt": "2026-09-23T20:20:18.159Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.936Z",
+      "observedAt": "2026-09-23T20:20:18.159Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.936Z",
+      "observedAt": "2026-09-23T20:20:18.159Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.936Z",
+      "observedAt": "2026-09-23T20:20:18.159Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.936Z",
+      "observedAt": "2026-09-23T20:20:18.160Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.936Z",
+      "observedAt": "2026-09-23T20:20:18.160Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.937Z",
+      "observedAt": "2026-09-23T20:20:18.160Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.937Z",
+      "observedAt": "2026-09-23T20:20:18.160Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.937Z",
+      "observedAt": "2026-09-23T20:20:18.161Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.937Z",
+      "observedAt": "2026-09-23T20:20:18.161Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-23T16:54:44.937Z",
+      "observedAt": "2026-09-23T20:20:18.161Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "126469"
       },
-      "observedAt": "2026-09-23T16:54:47.344Z",
+      "observedAt": "2026-09-23T20:20:20.796Z",
       "evidenceHash": "1c7d422b591169eb80826592dabb65db5168877db9d1d58f0ef0bcd51dcb5e6f"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "126458"
       },
-      "observedAt": "2026-09-23T16:54:47.344Z",
+      "observedAt": "2026-09-23T20:20:20.796Z",
       "evidenceHash": "e01566022e060c485559292b09732dafecf684c8ad5553baa0e1ac1585824a57"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "126325"
       },
-      "observedAt": "2026-09-23T16:54:47.344Z",
+      "observedAt": "2026-09-23T20:20:20.796Z",
       "evidenceHash": "59cb65fbe0232a895436738f801dbfafdc394a62f0f1b4fbe7e625cc119a4ffa"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "126309"
       },
-      "observedAt": "2026-09-23T16:54:47.344Z",
+      "observedAt": "2026-09-23T20:20:20.796Z",
       "evidenceHash": "c6b423a5a20b11b3e1564f2f839629d82a2937e6326aeb72643d6819bef6cd43"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "126303"
       },
-      "observedAt": "2026-09-23T16:54:47.344Z",
+      "observedAt": "2026-09-23T20:20:20.797Z",
       "evidenceHash": "090e9437e7e90c7f81874103baa7d01e15603ff15948b4f9572575236bac067d"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "126302"
       },
-      "observedAt": "2026-09-23T16:54:47.344Z",
+      "observedAt": "2026-09-23T20:20:20.797Z",
       "evidenceHash": "748a312ce1b84dae7f90b8c2b9377201625fdf33eb2420307ec96ba7cb10fff7"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "126301"
       },
-      "observedAt": "2026-09-23T16:54:47.344Z",
+      "observedAt": "2026-09-23T20:20:20.797Z",
       "evidenceHash": "282ed13302a3052cf4b2f694d2136480716e5bc4d7ca375bfb3f47e4f7423be5"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "126283"
       },
-      "observedAt": "2026-09-23T16:54:47.344Z",
+      "observedAt": "2026-09-23T20:20:20.797Z",
       "evidenceHash": "835ec0a65727e1762a4667c7b0562ffacb5e1854441a4a50f7250e35e751e3fa"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "126269"
       },
-      "observedAt": "2026-09-23T16:54:47.345Z",
+      "observedAt": "2026-09-23T20:20:20.797Z",
       "evidenceHash": "45e7a693e09f448888485a3564527657cc895b2be74863b4d65f00322d147bff"
     },
     {
@@ -1809,8 +1809,115 @@
       "raw": {
         "reportId": "126255"
       },
-      "observedAt": "2026-09-23T16:54:47.345Z",
+      "observedAt": "2026-09-23T20:20:20.797Z",
       "evidenceHash": "f5a3a87979dab783288333f3f23152d2391f4aec7bdacae108f212bbaffdea20"
+    },
+    {
+      "externalKey": "bmc-tenders:tender-date-extended-of-estate-dept_sr-cell",
+      "sensorId": "bmc-tenders",
+      "title": "Tender date extended of Estate Dept_SR CELL",
+      "authority": "Brihanmumbai Municipal Corporation",
+      "jurisdiction": "Mumbai",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
+      "geographicPrecision": "unknown",
+      "observedAt": "2026-09-23T20:20:22.121Z",
+      "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
+    },
+    {
+      "externalKey": "bmc-tenders:improvisation-of-interior-of-dy.ch.eng.(swm)-projects-office-at-kotwadi,dadar-(west)-mahatender-id-:-2026_mcgm_1323261",
+      "sensorId": "bmc-tenders",
+      "title": "Improvisation of Interior of Dy.Ch.Eng.(SWM) Projects Office at Kotwadi,Dadar (West) Mahatender Id :-2026_MCGM_1323261",
+      "authority": "Brihanmumbai Municipal Corporation",
+      "jurisdiction": "Mumbai",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
+      "geographicPrecision": "unknown",
+      "observedAt": "2026-09-23T20:20:22.122Z",
+      "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
+    },
+    {
+      "externalKey": "bmc-tenders:work-of-supply,-installation,-testing-and-commissioning-of-1-kld-effluent-treatment-plant-complete-with-all-accessories,-pumps,-blower,-tanks,-piping,-valves,-e",
+      "sensorId": "bmc-tenders",
+      "title": "Work of Supply, Installation, Testing and Commissioning of 1 KLD Effluent Treatment Plant complete with all accessories, pumps, blower, tanks, piping, valves, electrical integration etc and commissioning.Bid No.2026_MCGM_1325657_1.",
+      "authority": "Brihanmumbai Municipal Corporation",
+      "jurisdiction": "Mumbai",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
+      "geographicPrecision": "unknown",
+      "observedAt": "2026-09-23T20:20:22.123Z",
+      "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
+    },
+    {
+      "externalKey": "bmc-tenders:installation-and-commissioning-of-office-cabin-for-the-community-development-cell-(swm)-under-the-dy.-chief-engineer-(swm)-operation.-bid-no.2026_mcgm_1325689_1",
+      "sensorId": "bmc-tenders",
+      "title": "Installation and Commissioning of Office Cabin for the Community Development Cell (SWM) under the Dy. Chief Engineer (SWM) Operation. BId No.2026_MCGM_1325689_1.",
+      "authority": "Brihanmumbai Municipal Corporation",
+      "jurisdiction": "Mumbai",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
+      "geographicPrecision": "unknown",
+      "observedAt": "2026-09-23T20:20:22.123Z",
+      "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
+    },
+    {
+      "externalKey": "bmc-tenders:supply,-installation,-testing-&-commissioning-(sitc)-of-monochrome-printer-(hp-323sdnw)-&-laser-printer-(hp-303d)-for-the-office-of-dy.-chief-engineer-(swm)-ope",
+      "sensorId": "bmc-tenders",
+      "title": "Supply, installation, testing & commissioning (SITC) of Monochrome Printer (HP 323SDNW) & Laser Printer (HP 303D) for the office of Dy. Chief Engineer (SWM) Operation.Bid No. 2026_MCGM_1325678_1.",
+      "authority": "Brihanmumbai Municipal Corporation",
+      "jurisdiction": "Mumbai",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
+      "geographicPrecision": "unknown",
+      "observedAt": "2026-09-23T20:20:22.123Z",
+      "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
+    },
+    {
+      "externalKey": "bmc-tenders:hiring-of-mobile-toilets-at-various-ganesh-immersion-spots-in-t-ward--group-i.e-quotation-bid-id---2026_mcgm_1330073_1.",
+      "sensorId": "bmc-tenders",
+      "title": "Hiring of Mobile Toilets at Various Ganesh immersion spots in T ward- Group-I.E-Quotation Bid ID - 2026_MCGM_1330073_1.",
+      "authority": "Brihanmumbai Municipal Corporation",
+      "jurisdiction": "Mumbai",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
+      "locationText": "T ward, Mumbai, Maharashtra",
+      "geographicPrecision": "locality",
+      "observedAt": "2026-09-23T20:20:22.123Z",
+      "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
+    },
+    {
+      "externalKey": "bmc-tenders:hiring-of-mobile-toilets-at-various-ganesh-immersion-spots-in-t-ward--group-ii.e-quotation-bid-id---2026_mcgm_1330072_1.",
+      "sensorId": "bmc-tenders",
+      "title": "Hiring of Mobile Toilets at Various Ganesh immersion spots in T ward- Group-II.E-Quotation Bid ID - 2026_MCGM_1330072_1.",
+      "authority": "Brihanmumbai Municipal Corporation",
+      "jurisdiction": "Mumbai",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
+      "locationText": "T ward, Mumbai, Maharashtra",
+      "geographicPrecision": "locality",
+      "observedAt": "2026-09-23T20:20:22.123Z",
+      "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
+    },
+    {
+      "externalKey": "bmc-tenders:supply-of-lunch,-dinner,-water-bottles-for-the-staff-deployed-at-ganapati-immersion-talao-/-spots-in-t-ward-during-ganapati-immersion-in-the-year-2026.e-quotati",
+      "sensorId": "bmc-tenders",
+      "title": "Supply of Lunch, Dinner, Water Bottles for the staff deployed at Ganapati Immersion Talao / Spots in T Ward during Ganapati Immersion in the year 2026.E-Quotation Bid ID - 2026_MCGM_1330071_1.",
+      "authority": "Brihanmumbai Municipal Corporation",
+      "jurisdiction": "Mumbai",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
+      "locationText": "T Ward, Mumbai, Maharashtra",
+      "geographicPrecision": "locality",
+      "observedAt": "2026-09-23T20:20:22.123Z",
+      "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
       "externalKey": "maharashtra-program-budget:publications-handbook-rti-rti-contacts-(pios-/-apios-/-aas-)-rti-documents-rts-act-important-links-&-addresses-directorate-of-accounts-and-treasuries-directorate-of-local-fund-account-audit-m:https://finance.maharashtra.gov.in/en/documents/",
@@ -1828,7 +1935,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-09-23T16:55:19.190Z",
+      "observedAt": "2026-09-23T20:20:51.945Z",
       "evidenceHash": "ed71dec9dd5f1a0d35193c12eb0dc18cfef6fb38c68c4acb0f82ae922099d3ad"
     },
     {
@@ -1847,7 +1954,7 @@
         "anchorText": "100 Days Office Improvement Special Campaign Finance Department Maharashtra Government Directorate of Accounts and Treasuries ,Mumbai",
         "rowText": ""
       },
-      "observedAt": "2026-09-23T16:55:19.195Z",
+      "observedAt": "2026-09-23T20:20:51.952Z",
       "evidenceHash": "0a0c3c4797621eb9968690eb61fd6e1f846b17b6e70063d08f9efa5c08da8ff9"
     },
     {
@@ -1866,7 +1973,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-09-23T16:55:19.196Z",
+      "observedAt": "2026-09-23T20:20:51.953Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1885,7 +1992,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-09-23T16:55:19.196Z",
+      "observedAt": "2026-09-23T20:20:51.953Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -1904,7 +2011,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-09-23T16:55:19.196Z",
+      "observedAt": "2026-09-23T20:20:51.953Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -1923,7 +2030,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-09-23T16:55:19.196Z",
+      "observedAt": "2026-09-23T20:20:51.953Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -1942,7 +2049,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-09-23T16:55:19.196Z",
+      "observedAt": "2026-09-23T20:20:51.953Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -1961,7 +2068,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-09-23T16:55:19.197Z",
+      "observedAt": "2026-09-23T20:20:51.953Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -1979,7 +2086,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-09-23T16:55:18.650Z",
+      "observedAt": "2026-09-23T20:20:51.311Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
