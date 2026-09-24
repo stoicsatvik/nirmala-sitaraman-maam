@@ -3,6 +3,7 @@ import {
   fetchText,
   makeObservedRecord,
   recordKey,
+  type PublicMoneyRecord,
   type SensorDefinition,
   type SensorResult
 } from "../lib/ingestion";
@@ -116,6 +117,36 @@ export function parseCgaReport(html: string): CgaParsedRow[] {
   return [...new Map(rows.map((row) => [row.key, row])).values()];
 }
 
+/** Deterministic provenance boundary: the same published row and URL produce the same evidence hash. */
+export function cgaRowToRecord(
+  sensor: SensorDefinition,
+  row: CgaParsedRow,
+  month: number,
+  reportUrl: string
+): PublicMoneyRecord {
+  return makeObservedRecord({
+    externalKey: recordKey(sensor.id, row.key, month, FY),
+    sensorId: sensor.id,
+    title: `${row.label} — actuals up to ${row.period}`,
+    authority: sensor.authority,
+    jurisdiction: "India",
+    fiscalYear: "2026-27",
+    state: "paid",
+    amountInr: row.actualCrore * 10_000_000,
+    sourceUrl: reportUrl,
+    sourceDocument: reportUrl,
+    ministry: "Union Government",
+    note: `CGA provisional unaudited actual: ₹${row.actualCrore.toLocaleString("en-IN")} crore; FY budget estimate ₹${row.budgetEstimateCrore.toLocaleString("en-IN")} crore. Aggregate account figure, not an individual treasury transaction.`,
+    raw: {
+      period: row.period,
+      month,
+      actualCrore: row.actualCrore,
+      budgetEstimateCrore: row.budgetEstimateCrore,
+      sourceCells: row.sourceCells
+    }
+  });
+}
+
 export async function runCgaSensor(sensor: SensorDefinition): Promise<SensorResult> {
   const fetchedAt = new Date().toISOString();
 
@@ -146,29 +177,7 @@ export async function runCgaSensor(sensor: SensorDefinition): Promise<SensorResu
 
     const reportHtml = await fetchText(reportUrl);
     const parsed = parseCgaReport(reportHtml);
-    const records = parsed.map((row) =>
-      makeObservedRecord({
-        externalKey: recordKey(sensor.id, row.key, latest.month, FY),
-        sensorId: sensor.id,
-        title: `${row.label} — actuals up to ${row.period}`,
-        authority: sensor.authority,
-        jurisdiction: "India",
-        fiscalYear: "2026-27",
-        state: "paid",
-        amountInr: row.actualCrore * 10_000_000,
-        sourceUrl: reportUrl,
-        sourceDocument: reportUrl,
-        ministry: "Union Government",
-        note: `CGA provisional unaudited actual: ₹${row.actualCrore.toLocaleString("en-IN")} crore; FY budget estimate ₹${row.budgetEstimateCrore.toLocaleString("en-IN")} crore. Aggregate account figure, not an individual treasury transaction.`,
-        raw: {
-          period: row.period,
-          month: latest.month,
-          actualCrore: row.actualCrore,
-          budgetEstimateCrore: row.budgetEstimateCrore,
-          sourceCells: row.sourceCells
-        }
-      })
-    );
+    const records = parsed.map((row) => cgaRowToRecord(sensor, row, latest.month, reportUrl));
 
     return {
       sensor,
