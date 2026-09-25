@@ -75,6 +75,47 @@ function extractReportPeriod(text: string): string | undefined {
   return clean(text).match(/AS AT THE END\s+OF\s+([A-Z]+\s+20\d{2})/i)?.[1];
 }
 
+export interface CgaParsedRow {
+  key: string;
+  label: string;
+  period: string;
+  budgetEstimateCrore: number;
+  actualCrore: number;
+  sourceCells: string[];
+}
+
+/** Pure parser boundary used by both live ingestion and frozen-fixture tests. */
+export function parseCgaReport(html: string): CgaParsedRow[] {
+  const $ = cheerio.load(html);
+  const period = extractReportPeriod($("body").text());
+  if (!period) return [];
+
+  const rows: CgaParsedRow[] = [];
+  $("tr").each((_, row) => {
+    const cells = $(row).find("th,td").toArray().map((cell) => clean($(cell).text())).filter(Boolean);
+    if (cells.length < 3) return;
+    const joined = cells.join(" ");
+
+    for (const definition of expenditureLabels) {
+      if (!definition.pattern.test(joined)) continue;
+      const labelIndex = cells.findIndex((cell) => definition.pattern.test(cell));
+      if (labelIndex < 0) continue;
+      const values = numbersAfterLabel(cells, labelIndex);
+      if (values.length < 2) continue;
+      rows.push({
+        key: definition.key,
+        label: definition.label,
+        period,
+        budgetEstimateCrore: values[0],
+        actualCrore: values[1],
+        sourceCells: cells
+      });
+    }
+  });
+
+  return [...new Map(rows.map((row) => [row.key, row])).values()];
+}
+
 export async function runCgaSensor(sensor: SensorDefinition): Promise<SensorResult> {
   const fetchedAt = new Date().toISOString();
 
@@ -104,58 +145,37 @@ export async function runCgaSensor(sensor: SensorDefinition): Promise<SensorResu
     }
 
     const reportHtml = await fetchText(reportUrl);
-    const $ = cheerio.load(reportHtml);
-    const bodyText = clean($("body").text());
-    const period = extractReportPeriod(bodyText) ?? `month ${latest.month}, FY 2026-27`;
-    const records: ReturnType<typeof makeObservedRecord>[] = [];
+    const parsed = parseCgaReport(reportHtml);
+    const records = parsed.map((row) =>
+      makeObservedRecord({
+        externalKey: recordKey(sensor.id, row.key, latest.month, FY),
+        sensorId: sensor.id,
+        title: `${row.label} — actuals up to ${row.period}`,
+        authority: sensor.authority,
+        jurisdiction: "India",
+        fiscalYear: "2026-27",
+        state: "paid",
+        amountInr: row.actualCrore * 10_000_000,
+        sourceUrl: reportUrl,
+        sourceDocument: reportUrl,
+        ministry: "Union Government",
+        note: `CGA provisional unaudited actual: ₹${row.actualCrore.toLocaleString("en-IN")} crore; FY budget estimate ₹${row.budgetEstimateCrore.toLocaleString("en-IN")} crore. Aggregate account figure, not an individual treasury transaction.`,
+        raw: {
+          period: row.period,
+          month: latest.month,
+          actualCrore: row.actualCrore,
+          budgetEstimateCrore: row.budgetEstimateCrore,
+          sourceCells: row.sourceCells
+        }
+      })
+    );
 
-    $("tr").each((_, row) => {
-      const cells = $(row).find("th,td").toArray().map((cell) => clean($(cell).text())).filter(Boolean);
-      if (cells.length < 3) return;
-      const joined = cells.join(" ");
-
-      for (const definition of expenditureLabels) {
-        if (!definition.pattern.test(joined)) continue;
-        const labelIndex = cells.findIndex((cell) => definition.pattern.test(cell));
-        if (labelIndex < 0) continue;
-        const values = numbersAfterLabel(cells, labelIndex);
-        if (values.length < 2) continue;
-
-        const budgetCrore = values[0];
-        const actualCrore = values[1];
-        records.push(
-          makeObservedRecord({
-            externalKey: recordKey(sensor.id, definition.key, latest.month, FY),
-            sensorId: sensor.id,
-            title: `${definition.label} — actuals up to ${period}`,
-            authority: sensor.authority,
-            jurisdiction: "India",
-            fiscalYear: "2026-27",
-            state: "paid",
-            amountInr: actualCrore * 10_000_000,
-            sourceUrl: reportUrl,
-            sourceDocument: reportUrl,
-            ministry: "Union Government",
-            note: `CGA provisional unaudited actual: ₹${actualCrore.toLocaleString("en-IN")} crore; FY budget estimate ₹${budgetCrore.toLocaleString("en-IN")} crore. Aggregate account figure, not an individual treasury transaction.`,
-            raw: {
-              period,
-              month: latest.month,
-              actualCrore,
-              budgetEstimateCrore: budgetCrore,
-              sourceCells: cells
-            }
-          })
-        );
-      }
-    });
-
-    const deduped = [...new Map(records.map((record) => [record.externalKey, record])).values()];
     return {
       sensor,
       fetchedAt,
       ok: true,
-      records: deduped,
-      error: deduped.length === 0 ? `CGA report for ${period} was found, but no expenditure rows matched the strict parser.` : undefined
+      records,
+      error: records.length === 0 ? `CGA report for month ${latest.month}, FY 2026-27 was found, but failed the strict period/row parser.` : undefined
     };
   } catch (error) {
     return {
