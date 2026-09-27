@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T18:22:04.429Z",
+  "generatedAt": "2026-09-27T22:08:21.279Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-09-27T18:21:23.814Z",
+      "fetchedAt": "2026-09-27T22:07:39.924Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-09-27T18:21:23.823Z",
+      "fetchedAt": "2026-09-27T22:07:39.939Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-09-27T18:21:23.824Z",
+      "fetchedAt": "2026-09-27T22:07:39.940Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-09-27T18:21:23.825Z",
+      "fetchedAt": "2026-09-27T22:07:39.941Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-27T18:21:23.826Z",
+      "fetchedAt": "2026-09-27T22:07:39.943Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-27T18:21:23.829Z",
+      "fetchedAt": "2026-09-27T22:07:39.946Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-27T18:21:57.586Z",
+      "fetchedAt": "2026-09-27T22:08:13.673Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-27T18:21:57.585Z",
+      "fetchedAt": "2026-09-27T22:08:13.672Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-09-27T18:21:57.587Z",
+      "fetchedAt": "2026-09-27T22:08:13.675Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-09-27T18:21:57.588Z",
+      "fetchedAt": "2026-09-27T22:08:13.675Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 13112180000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1621116841",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1621116841",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=108177748",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=108177748",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹13,11,218 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(30.8%)"
         ]
       },
-      "observedAt": "2026-09-27T18:21:29.973Z",
-      "evidenceHash": "d0dfcc7eb2ed473d1d373d264b80fce94e4a7da9a6452dc9ac9bf38e38d9ffeb"
+      "observedAt": "2026-09-27T22:07:45.803Z",
+      "evidenceHash": "3542bda3ccd239309da2c08feeed8e99b0c24649af16dd3eba100821792eba72"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:7:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4265660000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1621116841",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1621116841",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=108177748",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=108177748",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,26,566 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(35.0%)"
         ]
       },
-      "observedAt": "2026-09-27T18:21:29.973Z",
-      "evidenceHash": "c143ac6c1a977c2eada841dd61d7666a2c1d29e5fe6c832c5c661ff36a5d5c02"
+      "observedAt": "2026-09-27T22:07:45.804Z",
+      "evidenceHash": "6f6d018d33af32f8ebea58f829903dca46e3887ce43a04ff8bab37ac097dc879"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:7:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4506350000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1621116841",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1621116841",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=108177748",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=108177748",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,50,635 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-27T18:21:29.973Z",
-      "evidenceHash": "a37828a5640fe9fc54de5c61447635e7ef4be99e728639479dc1da49531e790b"
+      "observedAt": "2026-09-27T22:07:45.804Z",
+      "evidenceHash": "f5ce9f6b6c33002843f21dc16a983c0cf6382ad7396772afcbab2a482a58e72c"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:7:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1262720000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1621116841",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1621116841",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=108177748",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=108177748",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,26,272 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(42.8%)"
         ]
       },
-      "observedAt": "2026-09-27T18:21:29.973Z",
-      "evidenceHash": "991efaa04641de9965a2d03edb06fcf4abd3914c1cd6c340cff2d354dc4fb551"
+      "observedAt": "2026-09-27T22:07:45.804Z",
+      "evidenceHash": "b823d06d931b0b3a7597f3567ab4afc21ffb2250177eeacabba5311431fbf3d9"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:7:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 17618530000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1621116841",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1621116841",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=108177748",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=108177748",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹17,61,853 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-27T18:21:29.973Z",
-      "evidenceHash": "8ad71945072d6fc42ce1dedbde2f53ab24fe2564bfef4b34627cded612a12e7d"
+      "observedAt": "2026-09-27T22:07:45.804Z",
+      "evidenceHash": "939d067c594f43455621cbb86bba9e443d04be4da315587d5f96dd3940e9ba9d"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:7:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1535133400000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1621116841",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1621116841",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=108177748",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=108177748",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,53,513.34 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,30 +323,30 @@
           "(30%)"
         ]
       },
-      "observedAt": "2026-09-27T18:21:29.974Z",
-      "evidenceHash": "3f352bcc91e21a12118cef85836ae0bcae93a187a14fb9e6492bad9abdb76ae5"
+      "observedAt": "2026-09-27T22:07:45.806Z",
+      "evidenceHash": "7fe7cbeefecd71d5d6c4d8726de061aba5f615438a526d941a808e8ba996a189"
     },
     {
-      "externalKey": "cppp-procurement:screen-reader-access-27-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-27-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
+      "externalKey": "cppp-procurement:screen-reader-access-28-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-28-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
       "sensorId": "cppp-procurement",
-      "title": "Screen Reader Access 27-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "title": "Screen Reader Access 28-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=WebScreenReaderAccess&service=page",
-      "tenderReference": "Screen Reader Access 27-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "tenderReference": "Screen Reader Access 28-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "geographicPrecision": "unknown",
-      "note": "Screen Reader Access |  |  | 27-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 27-Sep-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
+      "note": "Screen Reader Access |  |  | 28-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 28-Sep-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
       "raw": {
         "cells": [
-          "Screen Reader Access 27-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+          "Screen Reader Access 28-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
           "Screen Reader Access",
           "Screen Reader Access",
           "",
           "",
-          "27-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "27-Sep-2026",
+          "28-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "28-Sep-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -357,8 +357,8 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.582Z",
-      "evidenceHash": "333fa72e45f042e6f43d7baa54233fc1fa11af99737305817406dca72c460732"
+      "observedAt": "2026-09-27T22:07:41.725Z",
+      "evidenceHash": "5c8ce249137668c737be6ce77046d205cad0b97333384a02f68b7213c95f6b45"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access:screen-reader-access",
@@ -377,25 +377,25 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.582Z",
+      "observedAt": "2026-09-27T22:07:41.726Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
-      "externalKey": "cppp-procurement:27-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:27-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
+      "externalKey": "cppp-procurement:28-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:28-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
       "sensorId": "cppp-procurement",
-      "title": "27-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "title": "28-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "tenderReference": "27-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "tenderReference": "28-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "geographicPrecision": "unknown",
       "note": "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  | ",
       "raw": {
         "cells": [
-          "27-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "27-Sep-2026",
+          "28-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "28-Sep-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -403,13 +403,13 @@
           ""
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.583Z",
-      "evidenceHash": "2d92dd9d0e53cc8097427988f023176bf0da1b6d04b1cbb169e3bb720245e2a6"
+      "observedAt": "2026-09-27T22:07:41.727Z",
+      "evidenceHash": "63486f529d1d709bd5d438cb5bf247cc7ad049e9fc77edb85c5134d0ffd37942"
     },
     {
-      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:27-sep-2026",
+      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:28-sep-2026",
       "sensorId": "cppp-procurement",
-      "title": "27-Sep-2026",
+      "title": "28-Sep-2026",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -420,7 +420,7 @@
       "note": " |  |  | ",
       "raw": {
         "cells": [
-          "27-Sep-2026",
+          "28-Sep-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -428,8 +428,8 @@
           ""
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.583Z",
-      "evidenceHash": "b13608de1748e2509abcc0e91555e85c17a7b625cef461c89e47f89bfc94754e"
+      "observedAt": "2026-09-27T22:07:41.727Z",
+      "evidenceHash": "e82da5671354d161c6f4413dc3147cd87eabca156ef16c0e1f233cff717b103e"
     },
     {
       "externalKey": "cppp-procurement:epublishing-system,-government-of-india",
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.583Z",
+      "observedAt": "2026-09-27T22:07:41.727Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.583Z",
+      "observedAt": "2026-09-27T22:07:41.727Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM | 1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. | DB/Mech./26-27/7600039136/ | 03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM | 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. | DB/MECH/AGT/26-27/7600039137/ | 03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM | 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka | DAC/ADM/862/01/2026 | 21-Oct-2026 05:30 PM | 22-Oct-2026 03:30 PM | 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines | 23/SY-15-13/2026 | 16-Oct-2026 02:30 PM | 16-Oct-2026 03:00 PM | 5. GEM/2026/B/8054121 | GEM/2026/B/8054121 | 19-Oct-2026 03:00 PM | 20-Oct-2026 03:00 PM | 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine | PUR/MOIL/AGT/DB/26-27/10013707 | 03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM | 7. Tender for acquisition of premises | RORAN OPS 2026 | 17-Oct-2026 03:00 PM | 17-Oct-2026 04:00 PM | 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre | NMDC/Donimalai/Contract/24/26 27/ET/337 | 03-Oct-2026 03:00 PM | 03-Oct-2026 03:05 PM | 9. VSP/WC/RFX. NO. 2600010027/SOT/SP | VSP/WC/RFX. NO. 2600010027/SOT/SP | 05-Oct-2026 03:00 PM | 06-Oct-2026 03:00 PM | 10. FMLM eReverse Auction JNPT 2026 27 177 | FMLM eReverse Auction JNPT 2026 27 177 | 30-Sep-2026 01:30 PM | 30-Sep-2026 01:30 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM | 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU | AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM | 07-Oct-2026 04:00 PM | 07-Oct-2026 04:30 PM | 2. ADDENDUM 1 | PREMISES/TENDER/19/2026-27 | 07-Oct-2026 05:00 PM | 08-Oct-2026 11:30 AM | 3. ADDENDUM 1 | ROLDH/PREMISES/26-27/20 | 07-Oct-2026 05:00 PM | 08-Oct-2026 03:00 PM | 4. ADDENDUM 1 | ROLDH/PREMISES/26-27/21 | 08-Oct-2026 05:00 PM | 09-Oct-2026 03:00 PM | 5. ESTIMATED COST CHANGE | LIC / BBSR / Engg - 24 /2026-27 | 06-Oct-2026 03:00 PM | 06-Oct-2026 03:30 PM | 6. CorrigendumIV | 2982 | 07-Oct-2026 01:00 PM | 07-Oct-2026 02:00 PM | 7. Date Corrigendum | GEM/2026/B/7962744 Dated- 27-08-2026 | 15-Oct-2026 03:00 PM | 16-Oct-2026 03:00 PM | 8. Corrigendum 1 | BECIL/DGM/EOI/AAI/VHF/2026-27 | 06-Oct-2026 12:00 PM | 06-Oct-2026 12:30 PM | 9. Addendum No. 03 to Tender Notice | DGSB/MWC01A/01 of 2026 | 29-Dec-2026 03:00 PM | 29-Dec-2026 03:30 PM | 10. Corr-Adm-03 | NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM | 1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka | DAC/ADM/862/01/2026 | 21-Oct-2026 05:30 PM | 22-Oct-2026 03:30 PM | 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. | DB/Mech./26-27/7600039136/ | 03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM | 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. | DB/MECH/AGT/26-27/7600039137/ | 03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM | 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines | 23/SY-15-13/2026 | 16-Oct-2026 02:30 PM | 16-Oct-2026 03:00 PM | 5. GEM/2026/B/8054121 | GEM/2026/B/8054121 | 19-Oct-2026 03:00 PM | 20-Oct-2026 03:00 PM | 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine | PUR/MOIL/AGT/DB/26-27/10013707 | 03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM | 7. Tender for acquisition of premises | RORAN OPS 2026 | 17-Oct-2026 03:00 PM | 17-Oct-2026 04:00 PM | 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre | NMDC/Donimalai/Contract/24/26 27/ET/337 | 03-Oct-2026 03:00 PM | 03-Oct-2026 03:05 PM | 9. VSP/WC/RFX. NO. 2600010027/SOT/SP | VSP/WC/RFX. NO. 2600010027/SOT/SP | 05-Oct-2026 03:00 PM | 06-Oct-2026 03:00 PM | 10. FMLM eReverse Auction JNPT 2026 27 177 | FMLM eReverse Auction JNPT 2026 27 177 | 30-Sep-2026 01:30 PM | 30-Sep-2026 01:30 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM | 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU | AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM | 07-Oct-2026 04:00 PM | 07-Oct-2026 04:30 PM | 2. ADDENDUM 1 | PREMISES/TENDER/19/2026-27 | 07-Oct-2026 05:00 PM | 08-Oct-2026 11:30 AM | 3. ADDENDUM 1 | ROLDH/PREMISES/26-27/20 | 07-Oct-2026 05:00 PM | 08-Oct-2026 03:00 PM | 4. ADDENDUM 1 | ROLDH/PREMISES/26-27/21 | 08-Oct-2026 05:00 PM | 09-Oct-2026 03:00 PM | 5. ESTIMATED COST CHANGE | LIC / BBSR / Engg - 24 /2026-27 | 06-Oct-2026 03:00 PM | 06-Oct-2026 03:30 PM | 6. CorrigendumIV | 2982 | 07-Oct-2026 01:00 PM | 07-Oct-2026 02:00 PM | 7. Date Corrigendum | GEM/2026/B/7962744 Dated- 27-08-2026 | 15-Oct-2026 03:00 PM | 16-Oct-2026 03:00 PM | 8. Corrigendum 1 | BECIL/DGM/EOI/AAI/VHF/2026-27 | 06-Oct-2026 12:00 PM | 06-Oct-2026 12:30 PM | 9. Addendum No. 03 to Tender Notice | DGSB/MWC01A/01 of 2026 | 29-Dec-2026 03:00 PM | 29-Dec-2026 03:30 PM | 10. Corr-Adm-03 | NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 | 07-Oct-2026 11:00 AM | 07-Oct-2026 11:30 AM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,33 +520,33 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM AC WORK TENDER UBI VELLANADU AIR CONDITIONING WORKS UBI VELLANAD BRANCH TVM 07-Oct-2026 04:00 PM 07-Oct-2026 04:30 PM 2. ADDENDUM 1 PREMISES/TENDER/19/2026-27 07-Oct-2026 05:00 PM 08-Oct-2026 11:30 AM 3. ADDENDUM 1 ROLDH/PREMISES/26-27/20 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. ADDENDUM 1 ROLDH/PREMISES/26-27/21 08-Oct-2026 05:00 PM 09-Oct-2026 03:00 PM 5. ESTIMATED COST CHANGE LIC / BBSR / Engg - 24 /2026-27 06-Oct-2026 03:00 PM 06-Oct-2026 03:30 PM 6. CorrigendumIV 2982 07-Oct-2026 01:00 PM 07-Oct-2026 02:00 PM 7. Date Corrigendum GEM/2026/B/7962744 Dated- 27-08-2026 15-Oct-2026 03:00 PM 16-Oct-2026 03:00 PM 8. Corrigendum 1 BECIL/DGM/EOI/AAI/VHF/2026-27 06-Oct-2026 12:00 PM 06-Oct-2026 12:30 PM 9. Addendum No. 03 to Tender Notice DGSB/MWC01A/01 of 2026 29-Dec-2026 03:00 PM 29-Dec-2026 03:30 PM 10. Corr-Adm-03 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 07-Oct-2026 11:00 AM 07-Oct-2026 11:30 AM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM",
-          "1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator.",
-          "DB/Mech./26-27/7600039136/",
-          "03-Oct-2026 04:00 PM",
-          "03-Oct-2026 04:30 PM",
-          "2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine.",
-          "DB/MECH/AGT/26-27/7600039137/",
-          "03-Oct-2026 04:00 PM",
-          "03-Oct-2026 04:30 PM",
-          "3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka",
+          "1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM",
+          "1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka",
           "DAC/ADM/862/01/2026",
           "21-Oct-2026 05:30 PM",
           "22-Oct-2026 03:30 PM",
+          "2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator.",
+          "DB/Mech./26-27/7600039136/",
+          "03-Oct-2026 04:00 PM",
+          "03-Oct-2026 04:30 PM",
+          "3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine.",
+          "DB/MECH/AGT/26-27/7600039137/",
+          "03-Oct-2026 04:00 PM",
+          "03-Oct-2026 04:30 PM",
           "4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines",
           "23/SY-15-13/2026",
           "16-Oct-2026 02:30 PM",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.595Z",
-      "evidenceHash": "b4d6cec1123cef0e01ec280a95cf4280593e9545e803d9eb915f08cf180a0f34"
+      "observedAt": "2026-09-27T22:07:41.735Z",
+      "evidenceHash": "d0897263d98987283f48936c21237d1e27ec97e26e505d0997008dc6050be81a"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.596Z",
+      "observedAt": "2026-09-27T22:07:41.735Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,36 +727,36 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.596Z",
+      "observedAt": "2026-09-27T22:07:41.736Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-repairing-of-idler-assy-4-nos-of-pc-450-1-and-2-hydraulic-excavator.-db/mech./26-27/7600039136/-03-oct-2026-04:00-pm-03-oct-2026-04:30-pm-2.-repairing-of-bucket-of-tata-hitachi-tata-200-3-hyd.excavator-of-dongri-buzurg-mine.-db/mech/agt/26-27/7600039137/-03-oct-2026-04:00-pm-03-oct-2026-04:30-pm-3.-tender-for-supply-and-fixing-of-chain-link-fence-mounted-with-double-coiled-concertina-razor-wire-with-two-concentric-helical-coils-of-razor-sharp-barbed-tape-on-top-of-boundary-wall-of-high-commission-of-india,-dhaka-dac/adm/862/01/2026-21-oct-2026-05:30-pm-22-oct-2026-03:30-pm-4.-purchase-of-spare-parts-required-for-repairing-of-four-numbers-of-railways-printing-machines-23/sy-15-13/2026-16-oct-2026-02:30-pm-16-oct-2026-03:00-pm-5.-gem/2026/b/8054121-gem/2026/b/8054121-19-oct-2026-03:00-pm-20-oct-2026-03:00-pm-6.-purchase-of-bare-pump-assembly-of-kirloskar-make-(dsm-80/36)-for-imb-plant,-dongri-buzurg-mine-pur/moil/agt/db/26-27/10013707-03-oct-2026-04:00-pm-03-oct-2026-04:30-pm-7.-tender-for-acquisition-of-premises-roran-ops-2026-17-oct-2026-03:00-pm-17-oct-2026-04:00-pm-8.-extension-of-network-and-internet-facility-for-1two-new-weighbridges-at-diom-and-2-robotics-lab-and-automatic-sample-collection-system-centre-nmdc/donimalai/contract/24/26-27/et/337-03-oct-2026-03:00-pm-03-oct-2026-03:05-pm-9.-vsp/wc/rfx.-no.-2600010027/sot/sp-vsp/wc/rfx.-no.-2600010027/sot/sp-05-oct-2026-03:00-pm-06-oct-2026-03:00-pm-10.-fmlm-ereverse-auction-jnpt-2026-27-177-fmlm-ereverse-auction-jnpt-2026-27-177-30-sep-2026-01:30-pm-30-sep-2026-01:30-pm:1.-repairing-of-idler-assy-4-nos-of-pc-450-1-and-2-hydraulic-excavator.-db/mech./26-27/7600039136/-03-oct-2026-04:00-pm-03-oct-2026-04:30-pm-2.-repairing-of-bucket-of-tata-hitachi-tata-200-3-hyd.excavator-of-dongri-buzurg-mine.-db/mech/agt/26-27/7600039137/-03-oct-2026-04:00-pm-03-oct-2026-04:30-pm-3.-tender-for-supply-and-fixing-of-chain-link-fence-mounted-with-double-coiled-concertina-razor-wire-with-two-concentric-helical-coils-of-razor-sharp-barbed-tape-on-top-of-boundary-wall-of-high-commission-of-india,-dhaka-dac/adm/862/01/2026-21-oct-2026-05:30-pm-22-oct-2026-03:30-pm-4.-purchase-of-spare-parts-required-for-repairing-of-four-numbers-of-railways-printing-machines-23/sy-15-13/2026-16-oct-2026-02:30-pm-16-oct-2026-03:00-pm-5.-gem/2026/b/8054121-gem/2026/b/8054121-19-oct-2026-03:00-pm-20-oct-2026-03:00-pm-6.-purchase-of-bare-pump-assembly-of-kirloskar-make-(dsm-80/36)-for-imb-plant,-dongri-buzurg-mine-pur/moil/agt/db/26-27/10013707-03-oct-2026-04:00-pm-03-oct-2026-04:30-pm-7.-tender-for-acquisition-of-premises-roran-ops-2026-17-oct-2026-03:00-pm-17-oct-2026-04:00-pm-8.-extension-of-network-and-internet-facility-for-1two-new-weighbridges-at-diom-and-2-robotics-lab-and-automatic-sample-collection-system-centre-nmdc/donimalai/contract/24/26-27/et/337-03-oct-2026-03:00-pm-03-oct-2026-03:05-pm-9.-vsp/wc/rfx.-no.-2600010027/sot/sp-vsp/wc/rfx.-no.-2600010027/sot/sp-05-oct-2026-03:00-pm-06-oct-2026-03:00-pm-10.-fmlm-ereverse-auction-jnpt-2026-27-177-fmlm-ereverse-auction-jnpt-2026-27-177-30-sep-2026-01:30-pm-30-sep-2026-01:30-pm",
+      "externalKey": "cppp-procurement:1.-tender-for-supply-and-fixing-of-chain-link-fence-mounted-with-double-coiled-concertina-razor-wire-with-two-concentric-helical-coils-of-razor-sharp-barbed-tape-on-top-of-boundary-wall-of-high-commission-of-india,-dhaka-dac/adm/862/01/2026-21-oct-2026-05:30-pm-22-oct-2026-03:30-pm-2.-repairing-of-idler-assy-4-nos-of-pc-450-1-and-2-hydraulic-excavator.-db/mech./26-27/7600039136/-03-oct-2026-04:00-pm-03-oct-2026-04:30-pm-3.-repairing-of-bucket-of-tata-hitachi-tata-200-3-hyd.excavator-of-dongri-buzurg-mine.-db/mech/agt/26-27/7600039137/-03-oct-2026-04:00-pm-03-oct-2026-04:30-pm-4.-purchase-of-spare-parts-required-for-repairing-of-four-numbers-of-railways-printing-machines-23/sy-15-13/2026-16-oct-2026-02:30-pm-16-oct-2026-03:00-pm-5.-gem/2026/b/8054121-gem/2026/b/8054121-19-oct-2026-03:00-pm-20-oct-2026-03:00-pm-6.-purchase-of-bare-pump-assembly-of-kirloskar-make-(dsm-80/36)-for-imb-plant,-dongri-buzurg-mine-pur/moil/agt/db/26-27/10013707-03-oct-2026-04:00-pm-03-oct-2026-04:30-pm-7.-tender-for-acquisition-of-premises-roran-ops-2026-17-oct-2026-03:00-pm-17-oct-2026-04:00-pm-8.-extension-of-network-and-internet-facility-for-1two-new-weighbridges-at-diom-and-2-robotics-lab-and-automatic-sample-collection-system-centre-nmdc/donimalai/contract/24/26-27/et/337-03-oct-2026-03:00-pm-03-oct-2026-03:05-pm-9.-vsp/wc/rfx.-no.-2600010027/sot/sp-vsp/wc/rfx.-no.-2600010027/sot/sp-05-oct-2026-03:00-pm-06-oct-2026-03:00-pm-10.-fmlm-ereverse-auction-jnpt-2026-27-177-fmlm-ereverse-auction-jnpt-2026-27-177-30-sep-2026-01:30-pm-30-sep-2026-01:30-pm:1.-tender-for-supply-and-fixing-of-chain-link-fence-mounted-with-double-coiled-concertina-razor-wire-with-two-concentric-helical-coils-of-razor-sharp-barbed-tape-on-top-of-boundary-wall-of-high-commission-of-india,-dhaka-dac/adm/862/01/2026-21-oct-2026-05:30-pm-22-oct-2026-03:30-pm-2.-repairing-of-idler-assy-4-nos-of-pc-450-1-and-2-hydraulic-excavator.-db/mech./26-27/7600039136/-03-oct-2026-04:00-pm-03-oct-2026-04:30-pm-3.-repairing-of-bucket-of-tata-hitachi-tata-200-3-hyd.excavator-of-dongri-buzurg-mine.-db/mech/agt/26-27/7600039137/-03-oct-2026-04:00-pm-03-oct-2026-04:30-pm-4.-purchase-of-spare-parts-required-for-repairing-of-four-numbers-of-railways-printing-machines-23/sy-15-13/2026-16-oct-2026-02:30-pm-16-oct-2026-03:00-pm-5.-gem/2026/b/8054121-gem/2026/b/8054121-19-oct-2026-03:00-pm-20-oct-2026-03:00-pm-6.-purchase-of-bare-pump-assembly-of-kirloskar-make-(dsm-80/36)-for-imb-plant,-dongri-buzurg-mine-pur/moil/agt/db/26-27/10013707-03-oct-2026-04:00-pm-03-oct-2026-04:30-pm-7.-tender-for-acquisition-of-premises-roran-ops-2026-17-oct-2026-03:00-pm-17-oct-2026-04:00-pm-8.-extension-of-network-and-internet-facility-for-1two-new-weighbridges-at-diom-and-2-robotics-lab-and-automatic-sample-collection-system-centre-nmdc/donimalai/contract/24/26-27/et/337-03-oct-2026-03:00-pm-03-oct-2026-03:05-pm-9.-vsp/wc/rfx.-no.-2600010027/sot/sp-vsp/wc/rfx.-no.-2600010027/sot/sp-05-oct-2026-03:00-pm-06-oct-2026-03:00-pm-10.-fmlm-ereverse-auction-jnpt-2026-27-177-fmlm-ereverse-auction-jnpt-2026-27-177-30-sep-2026-01:30-pm-30-sep-2026-01:30-pm",
       "sensorId": "cppp-procurement",
-      "title": "1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commis",
+      "title": "1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Bu",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Sch0n3hskVFDjZ4NwOmjBPQ%3D%3D",
-      "tenderReference": "1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S%2BppSzB2ACfABoikCB9OjcQ%3D%3D",
+      "tenderReference": "1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM",
       "geographicPrecision": "unknown",
-      "note": "DB/Mech./26-27/7600039136/ | 03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM | 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. | DB/MECH/AGT/26-27/7600039137/ | 03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM | 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka | DAC/ADM/862/01/2026 | 21-Oct-2026 05:30 PM | 22-Oct-2026 03:30 PM | 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines | 23/SY-15-13/2026 | 16-Oct-2026 02:30 PM | 16-Oct-2026 03:00 PM | 5. GEM/2026/B/8054121 | GEM/2026/B/8054121 | 19-Oct-2026 03:00 PM | 20-Oct-2026 03:00 PM | 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine | PUR/MOIL/AGT/DB/26-27/10013707 | 03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM | 7. Tender for acquisition of premises | RORAN OPS 2026 | 17-Oct-2026 03:00 PM | 17-Oct-2026 04:00 PM | 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre | NMDC/Donimalai/Contract/24/26 27/ET/337 | 03-Oct-2026 03:00 PM | 03-Oct-2026 03:05 PM | 9. VSP/WC/RFX. NO. 2600010027/SOT/SP | VSP/WC/RFX. NO. 2600010027/SOT/SP | 05-Oct-2026 03:00 PM | 06-Oct-2026 03:00 PM | 10. FMLM eReverse Auction JNPT 2026 27 177 | FMLM eReverse Auction JNPT 2026 27 177 | 30-Sep-2026 01:30 PM | 30-Sep-2026 01:30 PM",
+      "note": "DAC/ADM/862/01/2026 | 21-Oct-2026 05:30 PM | 22-Oct-2026 03:30 PM | 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. | DB/Mech./26-27/7600039136/ | 03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM | 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. | DB/MECH/AGT/26-27/7600039137/ | 03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM | 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines | 23/SY-15-13/2026 | 16-Oct-2026 02:30 PM | 16-Oct-2026 03:00 PM | 5. GEM/2026/B/8054121 | GEM/2026/B/8054121 | 19-Oct-2026 03:00 PM | 20-Oct-2026 03:00 PM | 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine | PUR/MOIL/AGT/DB/26-27/10013707 | 03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM | 7. Tender for acquisition of premises | RORAN OPS 2026 | 17-Oct-2026 03:00 PM | 17-Oct-2026 04:00 PM | 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre | NMDC/Donimalai/Contract/24/26 27/ET/337 | 03-Oct-2026 03:00 PM | 03-Oct-2026 03:05 PM | 9. VSP/WC/RFX. NO. 2600010027/SOT/SP | VSP/WC/RFX. NO. 2600010027/SOT/SP | 05-Oct-2026 03:00 PM | 06-Oct-2026 03:00 PM | 10. FMLM eReverse Auction JNPT 2026 27 177 | FMLM eReverse Auction JNPT 2026 27 177 | 30-Sep-2026 01:30 PM | 30-Sep-2026 01:30 PM",
       "raw": {
         "cells": [
-          "1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM",
-          "1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator.",
-          "DB/Mech./26-27/7600039136/",
-          "03-Oct-2026 04:00 PM",
-          "03-Oct-2026 04:30 PM",
-          "2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine.",
-          "DB/MECH/AGT/26-27/7600039137/",
-          "03-Oct-2026 04:00 PM",
-          "03-Oct-2026 04:30 PM",
-          "3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka",
+          "1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka DAC/ADM/862/01/2026 21-Oct-2026 05:30 PM 22-Oct-2026 03:30 PM 2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator. DB/Mech./26-27/7600039136/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine. DB/MECH/AGT/26-27/7600039137/ 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines 23/SY-15-13/2026 16-Oct-2026 02:30 PM 16-Oct-2026 03:00 PM 5. GEM/2026/B/8054121 GEM/2026/B/8054121 19-Oct-2026 03:00 PM 20-Oct-2026 03:00 PM 6. Purchase of Bare Pump assembly of Kirloskar Make (DSM 80/36) for IMB Plant, Dongri Buzurg Mine PUR/MOIL/AGT/DB/26-27/10013707 03-Oct-2026 04:00 PM 03-Oct-2026 04:30 PM 7. Tender for acquisition of premises RORAN OPS 2026 17-Oct-2026 03:00 PM 17-Oct-2026 04:00 PM 8. Extension of Network and Internet Facility for 1Two New Weighbridges at DIOM and 2 Robotics Lab and Automatic Sample Collection System Centre NMDC/Donimalai/Contract/24/26 27/ET/337 03-Oct-2026 03:00 PM 03-Oct-2026 03:05 PM 9. VSP/WC/RFX. NO. 2600010027/SOT/SP VSP/WC/RFX. NO. 2600010027/SOT/SP 05-Oct-2026 03:00 PM 06-Oct-2026 03:00 PM 10. FMLM eReverse Auction JNPT 2026 27 177 FMLM eReverse Auction JNPT 2026 27 177 30-Sep-2026 01:30 PM 30-Sep-2026 01:30 PM",
+          "1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka",
           "DAC/ADM/862/01/2026",
           "21-Oct-2026 05:30 PM",
           "22-Oct-2026 03:30 PM",
+          "2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator.",
+          "DB/Mech./26-27/7600039136/",
+          "03-Oct-2026 04:00 PM",
+          "03-Oct-2026 04:30 PM",
+          "3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine.",
+          "DB/MECH/AGT/26-27/7600039137/",
+          "03-Oct-2026 04:00 PM",
+          "03-Oct-2026 04:30 PM",
           "4. Purchase of Spare Parts required for Repairing of Four Numbers of Railways Printing Machines",
           "23/SY-15-13/2026",
           "16-Oct-2026 02:30 PM",
@@ -787,13 +787,36 @@
           "30-Sep-2026 01:30 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.598Z",
-      "evidenceHash": "ad18af33bc8ce73d1ebad63e50b67dca4453a50fb998c32912a2cb807ba31a02"
+      "observedAt": "2026-09-27T22:07:41.738Z",
+      "evidenceHash": "6345fbd0b66b6c662688dd3bd455466e47824339b7c1c27e2ecd1b57f07bc611"
     },
     {
-      "externalKey": "cppp-procurement:db/mech./26-27/7600039136/:1.-repairing-of-idler-assy-4-nos-of-pc-450-1-and-2-hydraulic-excavator.",
+      "externalKey": "cppp-procurement:1.-tender-for-supply-and-fixing-of-chain-link-fence-mounted-with-double-coiled-concertina-razor-wire-with-two-concentric-helical-coils-of-razor-sharp-barbed-tape-on-top-of-boundary-wall-of-high-commission-of-india,-dhaka:1.-tender-for-supply-and-fixing-of-chain-link-fence-mounted-with-double-coiled-concertina-razor-wire-with-two-concentric-helical-coils-of-razor-sharp-barbed-tape-on-top-of-boundary-wall-of-high-commission-of-india,-dhaka",
       "sensorId": "cppp-procurement",
-      "title": "1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator.",
+      "title": "1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S%2BppSzB2ACfABoikCB9OjcQ%3D%3D",
+      "tenderReference": "1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka",
+      "geographicPrecision": "unknown",
+      "note": "21-Oct-2026 05:30 PM | 22-Oct-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "1. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka",
+          "DAC/ADM/862/01/2026",
+          "21-Oct-2026 05:30 PM",
+          "22-Oct-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-27T22:07:41.739Z",
+      "evidenceHash": "e8ece4acc452d09b5f70476e50a358b1f44ce56f148211bc03b9a3d98c3f1d87"
+    },
+    {
+      "externalKey": "cppp-procurement:db/mech./26-27/7600039136/:2.-repairing-of-idler-assy-4-nos-of-pc-450-1-and-2-hydraulic-excavator.",
+      "sensorId": "cppp-procurement",
+      "title": "2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator.",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -804,19 +827,19 @@
       "note": "03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM",
       "raw": {
         "cells": [
-          "1. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator.",
+          "2. Repairing of Idler assy 4 nos of PC 450 1 and 2 Hydraulic excavator.",
           "DB/Mech./26-27/7600039136/",
           "03-Oct-2026 04:00 PM",
           "03-Oct-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.598Z",
-      "evidenceHash": "2357d8f6b0b49b3fd3d0739326a7106cf0d2f4dda55ad6e32973bfac29efc2fb"
+      "observedAt": "2026-09-27T22:07:41.739Z",
+      "evidenceHash": "3b1c7553f64f52243de46b6328f924e1f94f9b9d569e1836489419c90781a3f4"
     },
     {
-      "externalKey": "cppp-procurement:db/mech/agt/26-27/7600039137/:2.-repairing-of-bucket-of-tata-hitachi-tata-200-3-hyd.excavator-of-dongri-buzurg-mine.",
+      "externalKey": "cppp-procurement:db/mech/agt/26-27/7600039137/:3.-repairing-of-bucket-of-tata-hitachi-tata-200-3-hyd.excavator-of-dongri-buzurg-mine.",
       "sensorId": "cppp-procurement",
-      "title": "2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine.",
+      "title": "3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine.",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -827,37 +850,14 @@
       "note": "03-Oct-2026 04:00 PM | 03-Oct-2026 04:30 PM",
       "raw": {
         "cells": [
-          "2. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine.",
+          "3. Repairing of bucket of Tata Hitachi Tata 200-3 Hyd.excavator of Dongri Buzurg Mine.",
           "DB/MECH/AGT/26-27/7600039137/",
           "03-Oct-2026 04:00 PM",
           "03-Oct-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.598Z",
-      "evidenceHash": "61eadff8077e6282dc25025309e6700e833215939f68f730e5542fdbc8860366"
-    },
-    {
-      "externalKey": "cppp-procurement:3.-tender-for-supply-and-fixing-of-chain-link-fence-mounted-with-double-coiled-concertina-razor-wire-with-two-concentric-helical-coils-of-razor-sharp-barbed-tape-on-top-of-boundary-wall-of-high-commission-of-india,-dhaka:3.-tender-for-supply-and-fixing-of-chain-link-fence-mounted-with-double-coiled-concertina-razor-wire-with-two-concentric-helical-coils-of-razor-sharp-barbed-tape-on-top-of-boundary-wall-of-high-commission-of-india,-dhaka",
-      "sensorId": "cppp-procurement",
-      "title": "3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S%2BppSzB2ACfABoikCB9OjcQ%3D%3D",
-      "tenderReference": "3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka",
-      "geographicPrecision": "unknown",
-      "note": "21-Oct-2026 05:30 PM | 22-Oct-2026 03:30 PM",
-      "raw": {
-        "cells": [
-          "3. Tender for supply and fixing of Chain link fence mounted with double coiled concertina razor wire with two concentric helical coils of razor sharp barbed tape on top of boundary wall of High Commission of India, Dhaka",
-          "DAC/ADM/862/01/2026",
-          "21-Oct-2026 05:30 PM",
-          "22-Oct-2026 03:30 PM"
-        ]
-      },
-      "observedAt": "2026-09-27T18:21:25.598Z",
-      "evidenceHash": "956b07967e557cc56fb2423d27e21e6f7e88bb776d06c46c48274dabaa1e3d44"
+      "observedAt": "2026-09-27T22:07:41.739Z",
+      "evidenceHash": "9d547b6dca70f192a96414a96b81db3c8d8389084d2415f5cf85c560c5cd004a"
     },
     {
       "externalKey": "cppp-procurement:23/sy-15-13/2026:4.-purchase-of-spare-parts-required-for-repairing-of-four-numbers-of-railways-printing-machines",
@@ -879,7 +879,7 @@
           "16-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.598Z",
+      "observedAt": "2026-09-27T22:07:41.739Z",
       "evidenceHash": "b70e14f4d48b96e8216135c3cd26b1b537cdb8152464e50336febf94646dd146"
     },
     {
@@ -902,7 +902,7 @@
           "20-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.598Z",
+      "observedAt": "2026-09-27T22:07:41.739Z",
       "evidenceHash": "7a4ec0ac5b42451f2b78b864e6304bc22ddbc40f5b45785977177e8c53c2d2de"
     },
     {
@@ -925,7 +925,7 @@
           "03-Oct-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.598Z",
+      "observedAt": "2026-09-27T22:07:41.739Z",
       "evidenceHash": "50eb22fce8c357effb28235a73bcc1562fa85cae0613ff5f4ae6006b24685a5e"
     },
     {
@@ -948,7 +948,7 @@
           "17-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.598Z",
+      "observedAt": "2026-09-27T22:07:41.740Z",
       "evidenceHash": "7ecd54b62c8d80fc68a4d56c8efc0bdf9facaa28518400bcde9b5928afbcd1a6"
     },
     {
@@ -971,7 +971,7 @@
           "03-Oct-2026 03:05 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.598Z",
+      "observedAt": "2026-09-27T22:07:41.740Z",
       "evidenceHash": "9a8bc54e96dccf9fc15d421c2690a6c2fdb6bd69419ed879c502f9e2476b303f"
     },
     {
@@ -994,7 +994,7 @@
           "06-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.598Z",
+      "observedAt": "2026-09-27T22:07:41.740Z",
       "evidenceHash": "835227a2417f8c187f91d9b6f7b139f284bb6442911832c915d64365a45ae52a"
     },
     {
@@ -1017,7 +1017,7 @@
           "30-Sep-2026 01:30 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.598Z",
+      "observedAt": "2026-09-27T22:07:41.740Z",
       "evidenceHash": "148dd1bc106983db5a5b6ffd0b75bd232c12834b76a4fbca3b407c927ee2366c"
     },
     {
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.598Z",
+      "observedAt": "2026-09-27T22:07:41.740Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.741Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "07-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.741Z",
       "evidenceHash": "e6ddf9d3cb41c6bb8edd93c944bb3f4450c5c30a092230fee9ef29934988373f"
     },
     {
@@ -1143,7 +1143,7 @@
           "07-Oct-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.742Z",
       "evidenceHash": "80a5a5b7d064347f96871db7a4a03ea53b2a37418340d7715c66ed7440a4b283"
     },
     {
@@ -1166,7 +1166,7 @@
           "08-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.742Z",
       "evidenceHash": "efa6f39e674dc6dcf3f25ae94523ae3deaac55a40bde848721f4cfcdd13fcca9"
     },
     {
@@ -1189,7 +1189,7 @@
           "08-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.742Z",
       "evidenceHash": "44ceb9b09225a2ebfce99d5fb31bd575d7c55ed62c2c32be2959533b0e7981e3"
     },
     {
@@ -1212,7 +1212,7 @@
           "09-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.742Z",
       "evidenceHash": "996e98456101d3e198f217b43f71295421ca03fb1aff3465c22c35b21ceeacd5"
     },
     {
@@ -1235,7 +1235,7 @@
           "06-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.742Z",
       "evidenceHash": "424ee4c5003f08e51881cb3f8d489cafd9c9cf62f7392666edb80d5cc8c91610"
     },
     {
@@ -1258,7 +1258,7 @@
           "07-Oct-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.742Z",
       "evidenceHash": "e4a2d44673896d5da5c934369ef99759ab00d9bcd3d1e27ce7bbba5340178e3c"
     },
     {
@@ -1281,7 +1281,7 @@
           "16-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.742Z",
       "evidenceHash": "872bad5c3c27aad7c30f169f04ba5c79328ca75d5d8bde0b0fa0010f4ea81b6b"
     },
     {
@@ -1304,7 +1304,7 @@
           "06-Oct-2026 12:30 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.743Z",
       "evidenceHash": "54813713da9a4058414126ee3279573f8345fa3127da7ba70067f07922a76488"
     },
     {
@@ -1327,7 +1327,7 @@
           "29-Dec-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.743Z",
       "evidenceHash": "e94ba1c5572d314024777bf69c08b66734c183424a6cf7f7a52c72f5b141c3a1"
     },
     {
@@ -1350,7 +1350,7 @@
           "07-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.743Z",
       "evidenceHash": "fd5d06082980629ca4d05a8d0dbc45635f64063de3087bd455cda82e95f33f23"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.743Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.743Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.743Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.743Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.599Z",
+      "observedAt": "2026-09-27T22:07:41.743Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.600Z",
+      "observedAt": "2026-09-27T22:07:41.744Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.600Z",
+      "observedAt": "2026-09-27T22:07:41.744Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.600Z",
+      "observedAt": "2026-09-27T22:07:41.744Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.600Z",
+      "observedAt": "2026-09-27T22:07:41.744Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.600Z",
+      "observedAt": "2026-09-27T22:07:41.744Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.600Z",
+      "observedAt": "2026-09-27T22:07:41.745Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.600Z",
+      "observedAt": "2026-09-27T22:07:41.745Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-27T18:21:25.600Z",
+      "observedAt": "2026-09-27T22:07:41.745Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "126480"
       },
-      "observedAt": "2026-09-27T18:21:27.879Z",
+      "observedAt": "2026-09-27T22:07:44.539Z",
       "evidenceHash": "3ed73790f4725f453c3b9cbaf272eb529a1cc15cf3a119e807a1b6f21ccfd31a"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "126469"
       },
-      "observedAt": "2026-09-27T18:21:27.880Z",
+      "observedAt": "2026-09-27T22:07:44.540Z",
       "evidenceHash": "1c7d422b591169eb80826592dabb65db5168877db9d1d58f0ef0bcd51dcb5e6f"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "126458"
       },
-      "observedAt": "2026-09-27T18:21:27.880Z",
+      "observedAt": "2026-09-27T22:07:44.540Z",
       "evidenceHash": "e01566022e060c485559292b09732dafecf684c8ad5553baa0e1ac1585824a57"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "126325"
       },
-      "observedAt": "2026-09-27T18:21:27.880Z",
+      "observedAt": "2026-09-27T22:07:44.540Z",
       "evidenceHash": "59cb65fbe0232a895436738f801dbfafdc394a62f0f1b4fbe7e625cc119a4ffa"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "126309"
       },
-      "observedAt": "2026-09-27T18:21:27.880Z",
+      "observedAt": "2026-09-27T22:07:44.540Z",
       "evidenceHash": "c6b423a5a20b11b3e1564f2f839629d82a2937e6326aeb72643d6819bef6cd43"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "126303"
       },
-      "observedAt": "2026-09-27T18:21:27.880Z",
+      "observedAt": "2026-09-27T22:07:44.540Z",
       "evidenceHash": "090e9437e7e90c7f81874103baa7d01e15603ff15948b4f9572575236bac067d"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "126302"
       },
-      "observedAt": "2026-09-27T18:21:27.880Z",
+      "observedAt": "2026-09-27T22:07:44.540Z",
       "evidenceHash": "748a312ce1b84dae7f90b8c2b9377201625fdf33eb2420307ec96ba7cb10fff7"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "126301"
       },
-      "observedAt": "2026-09-27T18:21:27.880Z",
+      "observedAt": "2026-09-27T22:07:44.540Z",
       "evidenceHash": "282ed13302a3052cf4b2f694d2136480716e5bc4d7ca375bfb3f47e4f7423be5"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "126283"
       },
-      "observedAt": "2026-09-27T18:21:27.880Z",
+      "observedAt": "2026-09-27T22:07:44.540Z",
       "evidenceHash": "835ec0a65727e1762a4667c7b0562ffacb5e1854441a4a50f7250e35e751e3fa"
     },
     {
@@ -1809,7 +1809,7 @@
       "raw": {
         "reportId": "126269"
       },
-      "observedAt": "2026-09-27T18:21:27.880Z",
+      "observedAt": "2026-09-27T22:07:44.540Z",
       "evidenceHash": "45e7a693e09f448888485a3564527657cc895b2be74863b4d65f00322d147bff"
     },
     {
@@ -1822,7 +1822,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-27T18:21:26.743Z",
+      "observedAt": "2026-09-27T22:07:43.142Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1835,7 +1835,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-27T18:21:26.745Z",
+      "observedAt": "2026-09-27T22:07:43.145Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1848,7 +1848,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-27T18:21:26.745Z",
+      "observedAt": "2026-09-27T22:07:43.145Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1861,7 +1861,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-27T18:21:26.745Z",
+      "observedAt": "2026-09-27T22:07:43.145Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1874,7 +1874,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-27T18:21:26.745Z",
+      "observedAt": "2026-09-27T22:07:43.145Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1888,7 +1888,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-27T18:21:26.745Z",
+      "observedAt": "2026-09-27T22:07:43.145Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1902,7 +1902,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-27T18:21:26.745Z",
+      "observedAt": "2026-09-27T22:07:43.145Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1916,7 +1916,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-27T18:21:26.745Z",
+      "observedAt": "2026-09-27T22:07:43.145Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1935,7 +1935,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-09-27T18:22:01.992Z",
+      "observedAt": "2026-09-27T22:08:17.670Z",
       "evidenceHash": "ed71dec9dd5f1a0d35193c12eb0dc18cfef6fb38c68c4acb0f82ae922099d3ad"
     },
     {
@@ -1954,7 +1954,7 @@
         "anchorText": "100 Days Office Improvement Special Campaign Finance Department Maharashtra Government Directorate of Accounts and Treasuries ,Mumbai",
         "rowText": ""
       },
-      "observedAt": "2026-09-27T18:22:01.997Z",
+      "observedAt": "2026-09-27T22:08:17.675Z",
       "evidenceHash": "0a0c3c4797621eb9968690eb61fd6e1f846b17b6e70063d08f9efa5c08da8ff9"
     },
     {
@@ -1973,7 +1973,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-09-27T18:22:01.998Z",
+      "observedAt": "2026-09-27T22:08:17.680Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1992,7 +1992,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-09-27T18:22:01.998Z",
+      "observedAt": "2026-09-27T22:08:17.680Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -2011,7 +2011,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-09-27T18:22:01.998Z",
+      "observedAt": "2026-09-27T22:08:17.680Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -2030,7 +2030,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-09-27T18:22:01.998Z",
+      "observedAt": "2026-09-27T22:08:17.681Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2049,7 +2049,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-09-27T18:22:01.998Z",
+      "observedAt": "2026-09-27T22:08:17.681Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2068,7 +2068,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-09-27T18:22:01.998Z",
+      "observedAt": "2026-09-27T22:08:17.681Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2086,7 +2086,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-09-27T18:21:59.312Z",
+      "observedAt": "2026-09-27T22:08:15.501Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
