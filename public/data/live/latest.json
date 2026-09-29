@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T15:48:51.599Z",
+  "generatedAt": "2026-09-29T20:45:28.704Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -8,7 +8,7 @@
   },
   "summary": {
     "sensors": 10,
-    "healthySensors": 9,
+    "healthySensors": 8,
     "records": 79,
     "reconciledLinks": 2
   },
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-09-29T15:48:10.621Z",
+      "fetchedAt": "2026-09-29T20:44:52.776Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-09-29T15:48:10.634Z",
+      "fetchedAt": "2026-09-29T20:44:52.792Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-09-29T15:48:10.635Z",
+      "fetchedAt": "2026-09-29T20:44:52.793Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-09-29T15:48:10.636Z",
+      "fetchedAt": "2026-09-29T20:44:52.795Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-29T15:48:10.638Z",
+      "fetchedAt": "2026-09-29T20:44:52.796Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-29T15:48:10.641Z",
+      "fetchedAt": "2026-09-29T20:44:52.799Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-29T15:48:44.424Z",
+      "fetchedAt": "2026-09-29T20:45:26.522Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -112,10 +112,10 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-29T15:48:44.423Z",
-      "ok": true,
+      "fetchedAt": "2026-09-29T20:45:26.520Z",
+      "ok": false,
       "recordCount": 0,
-      "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
+      "error": "Unexpected server response (500) while retrieving PDF \"https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Accountant%20%28Finance%29/Budget/Budget%20Estimate%202026-2027/STANDING%20COMMITTEE%202026-2027.pdf\"."
     },
     {
       "id": "cppp-contract-awards",
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-09-29T15:48:44.426Z",
+      "fetchedAt": "2026-09-29T20:45:26.523Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-09-29T15:48:44.427Z",
+      "fetchedAt": "2026-09-29T20:45:26.524Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 13112180000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2124697823",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2124697823",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1123330758",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1123330758",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹13,11,218 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(30.8%)"
         ]
       },
-      "observedAt": "2026-09-29T15:48:16.678Z",
-      "evidenceHash": "b4d8dc8d12e083a0aefd8ab54cbb2ada4951f272c3c4912c423e82bce25458bf"
+      "observedAt": "2026-09-29T20:44:58.948Z",
+      "evidenceHash": "09b13f0daeb2472c4e15e5f070216eb8b3b3484b10772b6d188bead8caeaaf20"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:7:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4265660000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2124697823",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2124697823",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1123330758",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1123330758",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,26,566 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(35.0%)"
         ]
       },
-      "observedAt": "2026-09-29T15:48:16.679Z",
-      "evidenceHash": "64793b8385ffa6737900b9d3204610606b7614e7585441184fd062f777e48b29"
+      "observedAt": "2026-09-29T20:44:58.948Z",
+      "evidenceHash": "7180e63606da7df461205cddb3e36a7379c088a3c1ccd548d7299f4d33efd391"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:7:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4506350000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2124697823",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2124697823",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1123330758",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1123330758",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,50,635 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-29T15:48:16.679Z",
-      "evidenceHash": "0342e4bfaf4d2fe17141103430c43e31c3c359559c07a312b6225c1033b56008"
+      "observedAt": "2026-09-29T20:44:58.948Z",
+      "evidenceHash": "6bb95783a5c7ffc10a84dbab60fc33565140de28fea7d4cc933e6e382edd631b"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:7:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1262720000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2124697823",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2124697823",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1123330758",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1123330758",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,26,272 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(42.8%)"
         ]
       },
-      "observedAt": "2026-09-29T15:48:16.679Z",
-      "evidenceHash": "0fcc27f08ea6fdddb6b5dd8bc239a29335584c8f68402ddfd14684f8ecc4bd6c"
+      "observedAt": "2026-09-29T20:44:58.948Z",
+      "evidenceHash": "8cadfc0eeba41cee102676f9d49c5c309fdb67eb6d2c89a7e4a79fa2b6087c86"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:7:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 17618530000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2124697823",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2124697823",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1123330758",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1123330758",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹17,61,853 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-29T15:48:16.679Z",
-      "evidenceHash": "1a1b24c1dbfdf15a44f4cfc1141c831d8c2a4160516cd4aab262d7f41ea0d95f"
+      "observedAt": "2026-09-29T20:44:58.948Z",
+      "evidenceHash": "9afd99d763f2c8948f65376d55f1c1cf97305394c6c1bed28cb11e3e152d9874"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:7:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1535133400000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2124697823",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=2124697823",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1123330758",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1123330758",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,53,513.34 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,30 +323,30 @@
           "(30%)"
         ]
       },
-      "observedAt": "2026-09-29T15:48:16.683Z",
-      "evidenceHash": "4b9d99e13d9bd7166e696b7e285ec990cff55a64b98eefc14fb5f2bf7e1c017d"
+      "observedAt": "2026-09-29T20:44:58.962Z",
+      "evidenceHash": "237a51e64453299cbef7131bd70f53d6bda53e380a7e1d5c347228dc12f10c4e"
     },
     {
-      "externalKey": "cppp-procurement:screen-reader-access-29-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-29-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
+      "externalKey": "cppp-procurement:screen-reader-access-30-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-30-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
       "sensorId": "cppp-procurement",
-      "title": "Screen Reader Access 29-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "title": "Screen Reader Access 30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=WebScreenReaderAccess&service=page",
-      "tenderReference": "Screen Reader Access 29-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "tenderReference": "Screen Reader Access 30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "geographicPrecision": "unknown",
-      "note": "Screen Reader Access |  |  | 29-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 29-Sep-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
+      "note": "Screen Reader Access |  |  | 30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 30-Sep-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
       "raw": {
         "cells": [
-          "Screen Reader Access 29-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+          "Screen Reader Access 30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
           "Screen Reader Access",
           "Screen Reader Access",
           "",
           "",
-          "29-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "29-Sep-2026",
+          "30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "30-Sep-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -357,8 +357,8 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.333Z",
-      "evidenceHash": "ed172c5d2cb1a291faaa53b62c7c79751e289988e0159062e01678d4b660d3fb"
+      "observedAt": "2026-09-29T20:44:54.852Z",
+      "evidenceHash": "5bbb4de4ca75f040da80284502ca21424128a296dc3860e3d330ba1c5df2eb1a"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access:screen-reader-access",
@@ -377,25 +377,25 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.334Z",
+      "observedAt": "2026-09-29T20:44:54.853Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
-      "externalKey": "cppp-procurement:29-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:29-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
+      "externalKey": "cppp-procurement:30-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:30-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
       "sensorId": "cppp-procurement",
-      "title": "29-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "title": "30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "tenderReference": "29-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "tenderReference": "30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "geographicPrecision": "unknown",
       "note": "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  | ",
       "raw": {
         "cells": [
-          "29-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "29-Sep-2026",
+          "30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "30-Sep-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -403,13 +403,13 @@
           ""
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.334Z",
-      "evidenceHash": "23a494e09bed4b0d28474eb8e92cf6ab0e9948a6374dcbe0d48be2a1e8302d4e"
+      "observedAt": "2026-09-29T20:44:54.854Z",
+      "evidenceHash": "e63e16501650cc0842986162efb499965d674a7f774ce749667adf9d29c48041"
     },
     {
-      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:29-sep-2026",
+      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:30-sep-2026",
       "sensorId": "cppp-procurement",
-      "title": "29-Sep-2026",
+      "title": "30-Sep-2026",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -420,7 +420,7 @@
       "note": " |  |  | ",
       "raw": {
         "cells": [
-          "29-Sep-2026",
+          "30-Sep-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -428,8 +428,8 @@
           ""
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.335Z",
-      "evidenceHash": "7463a648c5278ed7ce4608142d5a825079a0945a2999b1d9d38733ec80cc25cb"
+      "observedAt": "2026-09-29T20:44:54.854Z",
+      "evidenceHash": "acbd19cba83f12eefd4d38ab9177c52f564fe43e605265ef0da358ede4f505a9"
     },
     {
       "externalKey": "cppp-procurement:epublishing-system,-government-of-india",
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.335Z",
+      "observedAt": "2026-09-29T20:44:54.855Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.335Z",
+      "observedAt": "2026-09-29T20:44:54.855Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura GEM/2026/B/7999969 03-Oct-2026 01:00 PM 04-Oct-2026 01:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia PE-362 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura GEM/2026/B/7999969 03-Oct-2026 01:00 PM 04-Oct-2026 01:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia PE-362 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura GEM/2026/B/7999969 03-Oct-2026 01:00 PM 04-Oct-2026 01:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia PE-362 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura GEM/2026/B/7999969 03-Oct-2026 01:00 PM 04-Oct-2026 01:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia PE-362 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura GEM/2026/B/7999969 03-Oct-2026 01:00 PM 04-Oct-2026 01:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia PE-362 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM | 1. Hiring of Sanitation Service | GEM/2026/B/7866568 | 09-Oct-2026 03:00 PM | 10-Oct-2026 03:00 PM | 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR | NSC/PTN/ENGG/RPR-SKP/2026-27 | 21-Oct-2026 01:00 PM | 21-Oct-2026 03:00 PM | 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 | NCCF-Sgr-Seeds-2026-27 | 03-Oct-2026 02:00 PM | 04-Oct-2026 12:00 PM | 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. | WE-2765 | 01-Oct-2026 03:00 PM | 01-Oct-2026 03:30 PM | 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura | GEM/2026/B/7999969 | 03-Oct-2026 01:00 PM | 04-Oct-2026 01:00 PM | 6. BNR/51244/CONSUMABLE /04 | BNR/51244/CONSUMABLE /04 | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. | PE-345 | 06-Oct-2026 03:30 PM | 06-Oct-2026 04:00 PM | 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning | LIC/BBSR/ENGG-25 /2026-27 | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM | 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia | PE-362 | 06-Oct-2026 03:30 PM | 06-Oct-2026 04:00 PM | 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata | GEM/2026/B/8042862 | 13-Oct-2026 02:00 PM | 14-Oct-2026 02:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM | 1. Corrigendum-1 | RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 | 08-Oct-2026 03:00 PM | 08-Oct-2026 03:30 PM | 2. Corrigendum 04 | LIC/CO/CRM/CCS/RFP/2026-27 | 15-Oct-2026 03:00 PM | 15-Oct-2026 03:30 PM | 3. Corrigendum - III | BNR/40093/NIT/Painting Work/03 | 05-Oct-2026 06:55 PM | 06-Oct-2026 06:55 PM | 4. Addendum-3 | SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 | 14-Oct-2026 02:00 PM | 14-Oct-2026 03:00 PM | 5. Revised NIT | SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 | 14-Oct-2026 02:00 PM | 14-Oct-2026 03:00 PM | 6. Prebid Responses and Corrigendum Addendum | GEM/2026/B/7967752 dated 27.08.2026 | 09-Oct-2026 04:00 PM | 10-Oct-2026 04:00 PM | 7. Corrigendum-I Performance Security Requirement not applicable | MMD/GTIP/SC/2026-27 | 01-Oct-2026 01:00 PM | 01-Oct-2026 03:00 PM | 8. 3rd extension | WE 437 | 06-Oct-2026 03:30 PM | 07-Oct-2026 05:30 PM | 9. Date extension | HR Consultant | 12-Oct-2026 05:00 PM | 12-Oct-2026 05:30 PM | 10. Corrigendum _Site Visit | B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT | 09-Oct-2026 06:55 PM | 10-Oct-2026 06:55 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal GEM/2026/B/8058022 19-Oct-2026 05:00 PM 20-Oct-2026 05:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) 2026/IRCTC/TSV/06/SEPTEMBER/43 30-Sep-2026 12:00 PM 30-Sep-2026 12:15 PM 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal GEM/2026/B/8058022 19-Oct-2026 05:00 PM 20-Oct-2026 05:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) 2026/IRCTC/TSV/06/SEPTEMBER/43 30-Sep-2026 12:00 PM 30-Sep-2026 12:15 PM 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal GEM/2026/B/8058022 19-Oct-2026 05:00 PM 20-Oct-2026 05:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) 2026/IRCTC/TSV/06/SEPTEMBER/43 30-Sep-2026 12:00 PM 30-Sep-2026 12:15 PM 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal GEM/2026/B/8058022 19-Oct-2026 05:00 PM 20-Oct-2026 05:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) 2026/IRCTC/TSV/06/SEPTEMBER/43 30-Sep-2026 12:00 PM 30-Sep-2026 12:15 PM 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal GEM/2026/B/8058022 19-Oct-2026 05:00 PM 20-Oct-2026 05:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) 2026/IRCTC/TSV/06/SEPTEMBER/43 30-Sep-2026 12:00 PM 30-Sep-2026 12:15 PM 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM | 1. Hiring of Sanitation Service | GEM/2026/B/7866568 | 09-Oct-2026 03:00 PM | 10-Oct-2026 03:00 PM | 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR | NSC/PTN/ENGG/RPR-SKP/2026-27 | 21-Oct-2026 01:00 PM | 21-Oct-2026 03:00 PM | 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 | NCCF-Sgr-Seeds-2026-27 | 03-Oct-2026 02:00 PM | 04-Oct-2026 12:00 PM | 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. | WE-2765 | 01-Oct-2026 03:00 PM | 01-Oct-2026 03:30 PM | 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata | GEM/2026/B/8042862 | 13-Oct-2026 02:00 PM | 14-Oct-2026 02:00 PM | 6. BNR/51244/CONSUMABLE /04 | BNR/51244/CONSUMABLE /04 | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. | PE-345 | 06-Oct-2026 03:30 PM | 06-Oct-2026 04:00 PM | 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal | GEM/2026/B/8058022 | 19-Oct-2026 05:00 PM | 20-Oct-2026 05:00 PM | 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) | 2026/IRCTC/TSV/06/SEPTEMBER/43 | 30-Sep-2026 12:00 PM | 30-Sep-2026 12:15 PM | 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning | LIC/BBSR/ENGG-25 /2026-27 | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM | 1. Corrigendum-1 | RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 | 08-Oct-2026 03:00 PM | 08-Oct-2026 03:30 PM | 2. Corrigendum 04 | LIC/CO/CRM/CCS/RFP/2026-27 | 15-Oct-2026 03:00 PM | 15-Oct-2026 03:30 PM | 3. Corrigendum - III | BNR/40093/NIT/Painting Work/03 | 05-Oct-2026 06:55 PM | 06-Oct-2026 06:55 PM | 4. Addendum-3 | SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 | 14-Oct-2026 02:00 PM | 14-Oct-2026 03:00 PM | 5. Revised NIT | SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 | 14-Oct-2026 02:00 PM | 14-Oct-2026 03:00 PM | 6. Prebid Responses and Corrigendum Addendum | GEM/2026/B/7967752 dated 27.08.2026 | 09-Oct-2026 04:00 PM | 10-Oct-2026 04:00 PM | 7. Corrigendum-I Performance Security Requirement not applicable | MMD/GTIP/SC/2026-27 | 01-Oct-2026 01:00 PM | 01-Oct-2026 03:00 PM | 8. 3rd extension | WE 437 | 06-Oct-2026 03:30 PM | 07-Oct-2026 05:30 PM | 9. Date extension | HR Consultant | 12-Oct-2026 05:00 PM | 12-Oct-2026 05:30 PM | 10. Corrigendum _Site Visit | B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT | 09-Oct-2026 06:55 PM | 10-Oct-2026 06:55 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,21 +520,21 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura GEM/2026/B/7999969 03-Oct-2026 01:00 PM 04-Oct-2026 01:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia PE-362 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal GEM/2026/B/8058022 19-Oct-2026 05:00 PM 20-Oct-2026 05:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) 2026/IRCTC/TSV/06/SEPTEMBER/43 30-Sep-2026 12:00 PM 30-Sep-2026 12:15 PM 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura GEM/2026/B/7999969 03-Oct-2026 01:00 PM 04-Oct-2026 01:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia PE-362 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal GEM/2026/B/8058022 19-Oct-2026 05:00 PM 20-Oct-2026 05:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) 2026/IRCTC/TSV/06/SEPTEMBER/43 30-Sep-2026 12:00 PM 30-Sep-2026 12:15 PM 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 2. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 3. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 4. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 5. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 6. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM 7. Corrigendum-I Performance Security Requirement not applicable MMD/GTIP/SC/2026-27 01-Oct-2026 01:00 PM 01-Oct-2026 03:00 PM 8. 3rd extension WE 437 06-Oct-2026 03:30 PM 07-Oct-2026 05:30 PM 9. Date extension HR Consultant 12-Oct-2026 05:00 PM 12-Oct-2026 05:30 PM 10. Corrigendum _Site Visit B AND R/HO/71172/ FDA SYSTEM CCTV/SAIL/DGP/NIT 09-Oct-2026 06:55 PM 10-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura GEM/2026/B/7999969 03-Oct-2026 01:00 PM 04-Oct-2026 01:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia PE-362 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura GEM/2026/B/7999969 03-Oct-2026 01:00 PM 04-Oct-2026 01:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia PE-362 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal GEM/2026/B/8058022 19-Oct-2026 05:00 PM 20-Oct-2026 05:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) 2026/IRCTC/TSV/06/SEPTEMBER/43 30-Sep-2026 12:00 PM 30-Sep-2026 12:15 PM 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal GEM/2026/B/8058022 19-Oct-2026 05:00 PM 20-Oct-2026 05:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) 2026/IRCTC/TSV/06/SEPTEMBER/43 30-Sep-2026 12:00 PM 30-Sep-2026 12:15 PM 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura GEM/2026/B/7999969 03-Oct-2026 01:00 PM 04-Oct-2026 01:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia PE-362 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM",
+          "1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal GEM/2026/B/8058022 19-Oct-2026 05:00 PM 20-Oct-2026 05:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) 2026/IRCTC/TSV/06/SEPTEMBER/43 30-Sep-2026 12:00 PM 30-Sep-2026 12:15 PM 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM",
           "1. Hiring of Sanitation Service",
           "GEM/2026/B/7866568",
           "09-Oct-2026 03:00 PM",
@@ -551,10 +551,10 @@
           "WE-2765",
           "01-Oct-2026 03:00 PM",
           "01-Oct-2026 03:30 PM",
-          "5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura",
-          "GEM/2026/B/7999969",
-          "03-Oct-2026 01:00 PM",
-          "04-Oct-2026 01:00 PM",
+          "5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata",
+          "GEM/2026/B/8042862",
+          "13-Oct-2026 02:00 PM",
+          "14-Oct-2026 02:00 PM",
           "6. BNR/51244/CONSUMABLE /04",
           "BNR/51244/CONSUMABLE /04",
           "06-Oct-2026 06:55 PM",
@@ -563,18 +563,18 @@
           "PE-345",
           "06-Oct-2026 03:30 PM",
           "06-Oct-2026 04:00 PM",
-          "8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning",
+          "8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal",
+          "GEM/2026/B/8058022",
+          "19-Oct-2026 05:00 PM",
+          "20-Oct-2026 05:00 PM",
+          "9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV)",
+          "2026/IRCTC/TSV/06/SEPTEMBER/43",
+          "30-Sep-2026 12:00 PM",
+          "30-Sep-2026 12:15 PM",
+          "10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning",
           "LIC/BBSR/ENGG-25 /2026-27",
           "14-Oct-2026 03:00 PM",
           "14-Oct-2026 03:30 PM",
-          "9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia",
-          "PE-362",
-          "06-Oct-2026 03:30 PM",
-          "06-Oct-2026 04:00 PM",
-          "10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata",
-          "GEM/2026/B/8042862",
-          "13-Oct-2026 02:00 PM",
-          "14-Oct-2026 02:00 PM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.341Z",
-      "evidenceHash": "3364ddd66afb51d4d509c7be75f536f22719d3a5c28b452c1f8d4c8cad283435"
+      "observedAt": "2026-09-29T20:44:54.870Z",
+      "evidenceHash": "fef5b46daef69262b1ea839461c3fddccf2b3adebf7087e20b79475f9f0b3d55"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.342Z",
+      "observedAt": "2026-09-29T20:44:54.871Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,11 +727,11 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.343Z",
+      "observedAt": "2026-09-29T20:44:54.872Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-hiring-of-sanitation-service-gem/2026/b/7866568-09-oct-2026-03:00-pm-10-oct-2026-03:00-pm-2.-repair-and-maintenance-work-of-godown,-processing-plant-building-and-boundary-wall-under-ao,-sheikhpura,patna,-bihar-nsc/ptn/engg/rpr-skp/2026-27-21-oct-2026-01:00-pm-21-oct-2026-03:00-pm-3.-expression-of-interest-eoi-for-supply-of-peas-and-barseem-seeds-rabi-2026-27-nccf-sgr-seeds-2026-27-03-oct-2026-02:00-pm-04-oct-2026-12:00-pm-4.-availing-of-expert-services-visit-for-technical-support-in-esp-impacting-stack-spm-optimization-through-improvement-in-esp-system-at-2x660mw,-sstpp,-mppgcl,-dongalia.-we-2765-01-oct-2026-03:00-pm-01-oct-2026-03:30-pm-5.-excavation,-collection,-heaping,-loading-and-transportation-of-mineral-sand-from-puthenthura-gem/2026/b/7999969-03-oct-2026-01:00-pm-04-oct-2026-01:00-pm-6.-bnr/51244/consumable-/04-bnr/51244/consumable-/04-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-7.-procurement-of-coal-sampling-unit-hammer-set-for-chp-ii,-2x660mw,-sstpp,-mppgcl-dongalia.-pe-345-06-oct-2026-03:30-pm-06-oct-2026-04:00-pm-8.-etender-,-percentage-rate,-refurbishing,-upgradation-of-bargarh-branch-office-under-sambalpur-do,-odisha-of-interior-work-,-modular-furniture,-chairs,-electrical-,-data-,-telephone-cabling-work-,-fire-alarm-,-air-conditioning-lic/bbsr/engg-25-/2026-27-14-oct-2026-03:00-pm-14-oct-2026-03:30-pm-9.-procurement-of-2kva-ups-for-imwb-system,-o/o-s.e.-(services)-ii,-installed-at-sstpp,-mppgcl,-dongalia-pe-362-06-oct-2026-03:30-pm-06-oct-2026-04:00-pm-10.-arc-for-hydrotesting-painting-refilling-and-servicing-of-fire-extinguishers-for-2-years-bgcl-kolkata-gem/2026/b/8042862-13-oct-2026-02:00-pm-14-oct-2026-02:00-pm:1.-hiring-of-sanitation-service-gem/2026/b/7866568-09-oct-2026-03:00-pm-10-oct-2026-03:00-pm-2.-repair-and-maintenance-work-of-godown,-processing-plant-building-and-boundary-wall-under-ao,-sheikhpura,patna,-bihar-nsc/ptn/engg/rpr-skp/2026-27-21-oct-2026-01:00-pm-21-oct-2026-03:00-pm-3.-expression-of-interest-eoi-for-supply-of-peas-and-barseem-seeds-rabi-2026-27-nccf-sgr-seeds-2026-27-03-oct-2026-02:00-pm-04-oct-2026-12:00-pm-4.-availing-of-expert-services-visit-for-technical-support-in-esp-impacting-stack-spm-optimization-through-improvement-in-esp-system-at-2x660mw,-sstpp,-mppgcl,-dongalia.-we-2765-01-oct-2026-03:00-pm-01-oct-2026-03:30-pm-5.-excavation,-collection,-heaping,-loading-and-transportation-of-mineral-sand-from-puthenthura-gem/2026/b/7999969-03-oct-2026-01:00-pm-04-oct-2026-01:00-pm-6.-bnr/51244/consumable-/04-bnr/51244/consumable-/04-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-7.-procurement-of-coal-sampling-unit-hammer-set-for-chp-ii,-2x660mw,-sstpp,-mppgcl-dongalia.-pe-345-06-oct-2026-03:30-pm-06-oct-2026-04:00-pm-8.-etender-,-percentage-rate,-refurbishing,-upgradation-of-bargarh-branch-office-under-sambalpur-do,-odisha-of-interior-work-,-modular-furniture,-chairs,-electrical-,-data-,-telephone-cabling-work-,-fire-alarm-,-air-conditioning-lic/bbsr/engg-25-/2026-27-14-oct-2026-03:00-pm-14-oct-2026-03:30-pm-9.-procurement-of-2kva-ups-for-imwb-system,-o/o-s.e.-(services)-ii,-installed-at-sstpp,-mppgcl,-dongalia-pe-362-06-oct-2026-03:30-pm-06-oct-2026-04:00-pm-10.-arc-for-hydrotesting-painting-refilling-and-servicing-of-fire-extinguishers-for-2-years-bgcl-kolkata-gem/2026/b/8042862-13-oct-2026-02:00-pm-14-oct-2026-02:00-pm",
+      "externalKey": "cppp-procurement:1.-hiring-of-sanitation-service-gem/2026/b/7866568-09-oct-2026-03:00-pm-10-oct-2026-03:00-pm-2.-repair-and-maintenance-work-of-godown,-processing-plant-building-and-boundary-wall-under-ao,-sheikhpura,patna,-bihar-nsc/ptn/engg/rpr-skp/2026-27-21-oct-2026-01:00-pm-21-oct-2026-03:00-pm-3.-expression-of-interest-eoi-for-supply-of-peas-and-barseem-seeds-rabi-2026-27-nccf-sgr-seeds-2026-27-03-oct-2026-02:00-pm-04-oct-2026-12:00-pm-4.-availing-of-expert-services-visit-for-technical-support-in-esp-impacting-stack-spm-optimization-through-improvement-in-esp-system-at-2x660mw,-sstpp,-mppgcl,-dongalia.-we-2765-01-oct-2026-03:00-pm-01-oct-2026-03:30-pm-5.-arc-for-hydrotesting-painting-refilling-and-servicing-of-fire-extinguishers-for-2-years-bgcl-kolkata-gem/2026/b/8042862-13-oct-2026-02:00-pm-14-oct-2026-02:00-pm-6.-bnr/51244/consumable-/04-bnr/51244/consumable-/04-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-7.-procurement-of-coal-sampling-unit-hammer-set-for-chp-ii,-2x660mw,-sstpp,-mppgcl-dongalia.-pe-345-06-oct-2026-03:30-pm-06-oct-2026-04:00-pm-8.-procurement-of-300-nos-computers-and-250-nos-multifunctional-printers-at-aiims-bhopal-gem/2026/b/8058022-19-oct-2026-05:00-pm-20-oct-2026-05:00-pm-9.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-intrains-without-pantry-car-(through-tsv)-2026/irctc/tsv/06/september/43-30-sep-2026-12:00-pm-30-sep-2026-12:15-pm-10.-etender-,-percentage-rate,-refurbishing,-upgradation-of-bargarh-branch-office-under-sambalpur-do,-odisha-of-interior-work-,-modular-furniture,-chairs,-electrical-,-data-,-telephone-cabling-work-,-fire-alarm-,-air-conditioning-lic/bbsr/engg-25-/2026-27-14-oct-2026-03:00-pm-14-oct-2026-03:30-pm:1.-hiring-of-sanitation-service-gem/2026/b/7866568-09-oct-2026-03:00-pm-10-oct-2026-03:00-pm-2.-repair-and-maintenance-work-of-godown,-processing-plant-building-and-boundary-wall-under-ao,-sheikhpura,patna,-bihar-nsc/ptn/engg/rpr-skp/2026-27-21-oct-2026-01:00-pm-21-oct-2026-03:00-pm-3.-expression-of-interest-eoi-for-supply-of-peas-and-barseem-seeds-rabi-2026-27-nccf-sgr-seeds-2026-27-03-oct-2026-02:00-pm-04-oct-2026-12:00-pm-4.-availing-of-expert-services-visit-for-technical-support-in-esp-impacting-stack-spm-optimization-through-improvement-in-esp-system-at-2x660mw,-sstpp,-mppgcl,-dongalia.-we-2765-01-oct-2026-03:00-pm-01-oct-2026-03:30-pm-5.-arc-for-hydrotesting-painting-refilling-and-servicing-of-fire-extinguishers-for-2-years-bgcl-kolkata-gem/2026/b/8042862-13-oct-2026-02:00-pm-14-oct-2026-02:00-pm-6.-bnr/51244/consumable-/04-bnr/51244/consumable-/04-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-7.-procurement-of-coal-sampling-unit-hammer-set-for-chp-ii,-2x660mw,-sstpp,-mppgcl-dongalia.-pe-345-06-oct-2026-03:30-pm-06-oct-2026-04:00-pm-8.-procurement-of-300-nos-computers-and-250-nos-multifunctional-printers-at-aiims-bhopal-gem/2026/b/8058022-19-oct-2026-05:00-pm-20-oct-2026-05:00-pm-9.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-intrains-without-pantry-car-(through-tsv)-2026/irctc/tsv/06/september/43-30-sep-2026-12:00-pm-30-sep-2026-12:15-pm-10.-etender-,-percentage-rate,-refurbishing,-upgradation-of-bargarh-branch-office-under-sambalpur-do,-odisha-of-interior-work-,-modular-furniture,-chairs,-electrical-,-data-,-telephone-cabling-work-,-fire-alarm-,-air-conditioning-lic/bbsr/engg-25-/2026-27-14-oct-2026-03:00-pm-14-oct-2026-03:30-pm",
       "sensorId": "cppp-procurement",
       "title": "1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impac",
       "authority": "Government of India eProcurement System",
@@ -739,12 +739,12 @@
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SPCJg6CcwhldQB9dU3Lq50A%3D%3D",
-      "tenderReference": "1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura GEM/2026/B/7999969 03-Oct-2026 01:00 PM 04-Oct-2026 01:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia PE-362 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM",
+      "tenderReference": "1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal GEM/2026/B/8058022 19-Oct-2026 05:00 PM 20-Oct-2026 05:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) 2026/IRCTC/TSV/06/SEPTEMBER/43 30-Sep-2026 12:00 PM 30-Sep-2026 12:15 PM 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM",
       "geographicPrecision": "unknown",
-      "note": "GEM/2026/B/7866568 | 09-Oct-2026 03:00 PM | 10-Oct-2026 03:00 PM | 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR | NSC/PTN/ENGG/RPR-SKP/2026-27 | 21-Oct-2026 01:00 PM | 21-Oct-2026 03:00 PM | 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 | NCCF-Sgr-Seeds-2026-27 | 03-Oct-2026 02:00 PM | 04-Oct-2026 12:00 PM | 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. | WE-2765 | 01-Oct-2026 03:00 PM | 01-Oct-2026 03:30 PM | 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura | GEM/2026/B/7999969 | 03-Oct-2026 01:00 PM | 04-Oct-2026 01:00 PM | 6. BNR/51244/CONSUMABLE /04 | BNR/51244/CONSUMABLE /04 | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. | PE-345 | 06-Oct-2026 03:30 PM | 06-Oct-2026 04:00 PM | 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning | LIC/BBSR/ENGG-25 /2026-27 | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM | 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia | PE-362 | 06-Oct-2026 03:30 PM | 06-Oct-2026 04:00 PM | 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata | GEM/2026/B/8042862 | 13-Oct-2026 02:00 PM | 14-Oct-2026 02:00 PM",
+      "note": "GEM/2026/B/7866568 | 09-Oct-2026 03:00 PM | 10-Oct-2026 03:00 PM | 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR | NSC/PTN/ENGG/RPR-SKP/2026-27 | 21-Oct-2026 01:00 PM | 21-Oct-2026 03:00 PM | 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 | NCCF-Sgr-Seeds-2026-27 | 03-Oct-2026 02:00 PM | 04-Oct-2026 12:00 PM | 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. | WE-2765 | 01-Oct-2026 03:00 PM | 01-Oct-2026 03:30 PM | 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata | GEM/2026/B/8042862 | 13-Oct-2026 02:00 PM | 14-Oct-2026 02:00 PM | 6. BNR/51244/CONSUMABLE /04 | BNR/51244/CONSUMABLE /04 | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. | PE-345 | 06-Oct-2026 03:30 PM | 06-Oct-2026 04:00 PM | 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal | GEM/2026/B/8058022 | 19-Oct-2026 05:00 PM | 20-Oct-2026 05:00 PM | 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) | 2026/IRCTC/TSV/06/SEPTEMBER/43 | 30-Sep-2026 12:00 PM | 30-Sep-2026 12:15 PM | 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning | LIC/BBSR/ENGG-25 /2026-27 | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM",
       "raw": {
         "cells": [
-          "1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura GEM/2026/B/7999969 03-Oct-2026 01:00 PM 04-Oct-2026 01:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia PE-362 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM",
+          "1. Hiring of Sanitation Service GEM/2026/B/7866568 09-Oct-2026 03:00 PM 10-Oct-2026 03:00 PM 2. Repair and Maintenance work of godown, processing plant building and boundary wall under AO, Sheikhpura,Patna, BIHAR NSC/PTN/ENGG/RPR-SKP/2026-27 21-Oct-2026 01:00 PM 21-Oct-2026 03:00 PM 3. EXPRESSION OF INTEREST EOI FOR SUPPLY OF PEAS AND BARSEEM SEEDS RABI 2026 27 NCCF-Sgr-Seeds-2026-27 03-Oct-2026 02:00 PM 04-Oct-2026 12:00 PM 4. Availing of Expert Services visit for Technical support in ESP impacting Stack SPM Optimization through improvement in ESP system at 2X660MW, SSTPP, MPPGCL, Dongalia. WE-2765 01-Oct-2026 03:00 PM 01-Oct-2026 03:30 PM 5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata GEM/2026/B/8042862 13-Oct-2026 02:00 PM 14-Oct-2026 02:00 PM 6. BNR/51244/CONSUMABLE /04 BNR/51244/CONSUMABLE /04 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Procurement of Coal Sampling Unit Hammer set for CHP-II, 2x660MW, SSTPP, MPPGCL Dongalia. PE-345 06-Oct-2026 03:30 PM 06-Oct-2026 04:00 PM 8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal GEM/2026/B/8058022 19-Oct-2026 05:00 PM 20-Oct-2026 05:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV) 2026/IRCTC/TSV/06/SEPTEMBER/43 30-Sep-2026 12:00 PM 30-Sep-2026 12:15 PM 10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning LIC/BBSR/ENGG-25 /2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM",
           "1. Hiring of Sanitation Service",
           "GEM/2026/B/7866568",
           "09-Oct-2026 03:00 PM",
@@ -761,10 +761,10 @@
           "WE-2765",
           "01-Oct-2026 03:00 PM",
           "01-Oct-2026 03:30 PM",
-          "5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura",
-          "GEM/2026/B/7999969",
-          "03-Oct-2026 01:00 PM",
-          "04-Oct-2026 01:00 PM",
+          "5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata",
+          "GEM/2026/B/8042862",
+          "13-Oct-2026 02:00 PM",
+          "14-Oct-2026 02:00 PM",
           "6. BNR/51244/CONSUMABLE /04",
           "BNR/51244/CONSUMABLE /04",
           "06-Oct-2026 06:55 PM",
@@ -773,22 +773,22 @@
           "PE-345",
           "06-Oct-2026 03:30 PM",
           "06-Oct-2026 04:00 PM",
-          "8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning",
+          "8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal",
+          "GEM/2026/B/8058022",
+          "19-Oct-2026 05:00 PM",
+          "20-Oct-2026 05:00 PM",
+          "9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV)",
+          "2026/IRCTC/TSV/06/SEPTEMBER/43",
+          "30-Sep-2026 12:00 PM",
+          "30-Sep-2026 12:15 PM",
+          "10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning",
           "LIC/BBSR/ENGG-25 /2026-27",
           "14-Oct-2026 03:00 PM",
-          "14-Oct-2026 03:30 PM",
-          "9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia",
-          "PE-362",
-          "06-Oct-2026 03:30 PM",
-          "06-Oct-2026 04:00 PM",
-          "10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata",
-          "GEM/2026/B/8042862",
-          "13-Oct-2026 02:00 PM",
-          "14-Oct-2026 02:00 PM"
+          "14-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.345Z",
-      "evidenceHash": "3f8d39b4e79354f032d824b806eebcba5d191a8e1fa2d27daf1a7283480e0a8a"
+      "observedAt": "2026-09-29T20:44:54.874Z",
+      "evidenceHash": "dba1df19188ea95762793b823acc1bbc84920ba76a1eaade642a1857413eb206"
     },
     {
       "externalKey": "cppp-procurement:gem/2026/b/7866568:1.-hiring-of-sanitation-service",
@@ -810,7 +810,7 @@
           "10-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.345Z",
+      "observedAt": "2026-09-29T20:44:54.874Z",
       "evidenceHash": "a65384032533e277a71eea4c915bab7f7753ea15267956dca032eba62d09b15b"
     },
     {
@@ -833,7 +833,7 @@
           "21-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.345Z",
+      "observedAt": "2026-09-29T20:44:54.874Z",
       "evidenceHash": "182ac180e3c98286d8853383b2aa826196bece593cc17b37635d61f61874bf9b"
     },
     {
@@ -856,7 +856,7 @@
           "04-Oct-2026 12:00 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.345Z",
+      "observedAt": "2026-09-29T20:44:54.874Z",
       "evidenceHash": "f32df8460f179de5a77313fcb9d15591001f07d7086a0d3fe77dea99b765e3eb"
     },
     {
@@ -879,31 +879,31 @@
           "01-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.345Z",
+      "observedAt": "2026-09-29T20:44:54.874Z",
       "evidenceHash": "ae56df79be93527297b3606418fafff614ff21521fbe30ac7ea8bd1a8b611b02"
     },
     {
-      "externalKey": "cppp-procurement:gem/2026/b/7999969:5.-excavation,-collection,-heaping,-loading-and-transportation-of-mineral-sand-from-puthenthura",
+      "externalKey": "cppp-procurement:gem/2026/b/8042862:5.-arc-for-hydrotesting-painting-refilling-and-servicing-of-fire-extinguishers-for-2-years-bgcl-kolkata",
       "sensorId": "cppp-procurement",
-      "title": "5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura",
+      "title": "5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S2%2FRLxM%2FAg0ZiamRBdjtaFg%3D%3D",
-      "tenderReference": "GEM/2026/B/7999969",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SZrR8d5%2ByHJwneMo3uwvx0g%3D%3D",
+      "tenderReference": "GEM/2026/B/8042862",
       "geographicPrecision": "unknown",
-      "note": "03-Oct-2026 01:00 PM | 04-Oct-2026 01:00 PM",
+      "note": "13-Oct-2026 02:00 PM | 14-Oct-2026 02:00 PM",
       "raw": {
         "cells": [
-          "5. Excavation, collection, heaping, loading and transportation of mineral sand from puthenthura",
-          "GEM/2026/B/7999969",
-          "03-Oct-2026 01:00 PM",
-          "04-Oct-2026 01:00 PM"
+          "5. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata",
+          "GEM/2026/B/8042862",
+          "13-Oct-2026 02:00 PM",
+          "14-Oct-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.345Z",
-      "evidenceHash": "1312db54ad0ac32f98e83946e7b88777f698f161c94534cc3803f70ac8703076"
+      "observedAt": "2026-09-29T20:44:54.874Z",
+      "evidenceHash": "ecf5713cc0b48b4406a295529d16bada8ad1bc2e7ec1fc4fba208a8dce0e6124"
     },
     {
       "externalKey": "cppp-procurement:bnr/51244/consumable-/04:6.-bnr/51244/consumable-/04",
@@ -925,7 +925,7 @@
           "07-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.346Z",
+      "observedAt": "2026-09-29T20:44:54.874Z",
       "evidenceHash": "9c1cab02106dfd023a1bf944d5913e7778d66720f14bdde17153d19ee904cfab"
     },
     {
@@ -948,77 +948,77 @@
           "06-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.346Z",
+      "observedAt": "2026-09-29T20:44:54.874Z",
       "evidenceHash": "127a8f6a4444f273c70a20cdb9fa3ab02bfc9c49865fad82a1b0384c1693492f"
     },
     {
-      "externalKey": "cppp-procurement:8.-etender-,-percentage-rate,-refurbishing,-upgradation-of-bargarh-branch-office-under-sambalpur-do,-odisha-of-interior-work-,-modular-furniture,-chairs,-electrical-,-data-,-telephone-cabling-work-,-fire-alarm-,-air-conditioning:8.-etender-,-percentage-rate,-refurbishing,-upgradation-of-bargarh-branch-office-under-sambalpur-do,-odisha-of-interior-work-,-modular-furniture,-chairs,-electrical-,-data-,-telephone-cabling-work-,-fire-alarm-,-air-conditioning",
+      "externalKey": "cppp-procurement:gem/2026/b/8058022:8.-procurement-of-300-nos-computers-and-250-nos-multifunctional-printers-at-aiims-bhopal",
       "sensorId": "cppp-procurement",
-      "title": "8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning",
+      "title": "8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SPcDLvsvZ%2FlfbY0VrgTbXmg%3D%3D",
+      "tenderReference": "GEM/2026/B/8058022",
+      "geographicPrecision": "unknown",
+      "note": "19-Oct-2026 05:00 PM | 20-Oct-2026 05:00 PM",
+      "raw": {
+        "cells": [
+          "8. Procurement of 300 Nos computers and 250 nos multifunctional printers at AIIMS Bhopal",
+          "GEM/2026/B/8058022",
+          "19-Oct-2026 05:00 PM",
+          "20-Oct-2026 05:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-29T20:44:54.875Z",
+      "evidenceHash": "5d54d5e06a0418db4a83e26d920dc02175dabd55fd0ccaca4c3f3cbe8ef7d5a8"
+    },
+    {
+      "externalKey": "cppp-procurement:9.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-intrains-without-pantry-car-(through-tsv):9.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-intrains-without-pantry-car-(through-tsv)",
+      "sensorId": "cppp-procurement",
+      "title": "9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV)",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SfmTLpp8G6PMZA%2B1fHt%2FoFQ%3D%3D",
+      "tenderReference": "9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV)",
+      "geographicPrecision": "unknown",
+      "note": "30-Sep-2026 12:00 PM | 30-Sep-2026 12:15 PM",
+      "raw": {
+        "cells": [
+          "9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES INTRAINS WITHOUT PANTRY CAR (THROUGH TSV)",
+          "2026/IRCTC/TSV/06/SEPTEMBER/43",
+          "30-Sep-2026 12:00 PM",
+          "30-Sep-2026 12:15 PM"
+        ]
+      },
+      "observedAt": "2026-09-29T20:44:54.875Z",
+      "evidenceHash": "30e237ca4489a4d8fbc3fd81aa1e9b5171706c75705008fac6ba352a72dc1ba9"
+    },
+    {
+      "externalKey": "cppp-procurement:10.-etender-,-percentage-rate,-refurbishing,-upgradation-of-bargarh-branch-office-under-sambalpur-do,-odisha-of-interior-work-,-modular-furniture,-chairs,-electrical-,-data-,-telephone-cabling-work-,-fire-alarm-,-air-conditioning:10.-etender-,-percentage-rate,-refurbishing,-upgradation-of-bargarh-branch-office-under-sambalpur-do,-odisha-of-interior-work-,-modular-furniture,-chairs,-electrical-,-data-,-telephone-cabling-work-,-fire-alarm-,-air-conditioning",
+      "sensorId": "cppp-procurement",
+      "title": "10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=ScPZyEe4tS%2BdkxNNSKPz6yA%3D%3D",
-      "tenderReference": "8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning",
+      "tenderReference": "10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning",
       "geographicPrecision": "unknown",
       "note": "14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM",
       "raw": {
         "cells": [
-          "8. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning",
+          "10. ETender , Percentage rate, Refurbishing, Upgradation of Bargarh Branch Office under Sambalpur DO, Odisha of Interior Work , Modular Furniture, Chairs, Electrical , Data , Telephone Cabling Work , Fire Alarm , Air Conditioning",
           "LIC/BBSR/ENGG-25 /2026-27",
           "14-Oct-2026 03:00 PM",
           "14-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.346Z",
-      "evidenceHash": "06b8d2537202bb8eddc0c3412460faaec347e6483ebc9758ae7adbed6fff3d9f"
-    },
-    {
-      "externalKey": "cppp-procurement:pe-362:9.-procurement-of-2kva-ups-for-imwb-system,-o/o-s.e.-(services)-ii,-installed-at-sstpp,-mppgcl,-dongalia",
-      "sensorId": "cppp-procurement",
-      "title": "9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SFAN16NqKUZZpSrY4dkAQDQ%3D%3D",
-      "tenderReference": "PE-362",
-      "geographicPrecision": "unknown",
-      "note": "06-Oct-2026 03:30 PM | 06-Oct-2026 04:00 PM",
-      "raw": {
-        "cells": [
-          "9. Procurement of 2KVA UPS for IMWB system, O/o S.E. (Services)-II, installed at SSTPP, MPPGCL, Dongalia",
-          "PE-362",
-          "06-Oct-2026 03:30 PM",
-          "06-Oct-2026 04:00 PM"
-        ]
-      },
-      "observedAt": "2026-09-29T15:48:12.346Z",
-      "evidenceHash": "334b1f595594b980487cb1b4c0892beb307fc8be20f0aceeb3d85b4826893f2c"
-    },
-    {
-      "externalKey": "cppp-procurement:gem/2026/b/8042862:10.-arc-for-hydrotesting-painting-refilling-and-servicing-of-fire-extinguishers-for-2-years-bgcl-kolkata",
-      "sensorId": "cppp-procurement",
-      "title": "10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SZrR8d5%2ByHJwneMo3uwvx0g%3D%3D",
-      "tenderReference": "GEM/2026/B/8042862",
-      "geographicPrecision": "unknown",
-      "note": "13-Oct-2026 02:00 PM | 14-Oct-2026 02:00 PM",
-      "raw": {
-        "cells": [
-          "10. ARC for Hydrotesting Painting Refilling and Servicing of Fire Extinguishers for 2 Years BGCL Kolkata",
-          "GEM/2026/B/8042862",
-          "13-Oct-2026 02:00 PM",
-          "14-Oct-2026 02:00 PM"
-        ]
-      },
-      "observedAt": "2026-09-29T15:48:12.346Z",
-      "evidenceHash": "9b994566912ee49fce163c8b212f2bcfc8ec553dceb4ed97f9c4d0f9f9e9e33a"
+      "observedAt": "2026-09-29T20:44:54.875Z",
+      "evidenceHash": "3240442890c2878afafc764b5863c22d521f931c341b6bbbc398488b01d1d5fb"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.346Z",
+      "observedAt": "2026-09-29T20:44:54.875Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.346Z",
+      "observedAt": "2026-09-29T20:44:54.876Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "10-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.347Z",
+      "observedAt": "2026-09-29T20:44:54.876Z",
       "evidenceHash": "31f50b34b2c9445254f190bdc6dd1371161255e99be3ecf56019c4ae0cc05613"
     },
     {
@@ -1143,7 +1143,7 @@
           "08-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.347Z",
+      "observedAt": "2026-09-29T20:44:54.876Z",
       "evidenceHash": "2e06c904c031a6f665db6611f83a5290e461805875141b1f5b8d2472ec933218"
     },
     {
@@ -1166,7 +1166,7 @@
           "15-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.347Z",
+      "observedAt": "2026-09-29T20:44:54.876Z",
       "evidenceHash": "7a1b9435dd69bb61bf467eb3d8c16f58b336ed26f6a6fd37a2e1ed63805153e2"
     },
     {
@@ -1189,7 +1189,7 @@
           "06-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.347Z",
+      "observedAt": "2026-09-29T20:44:54.876Z",
       "evidenceHash": "72f35333e1be63780ec4dac70015136dfce14c1d77196a562ba5c5db66ad7cee"
     },
     {
@@ -1212,7 +1212,7 @@
           "14-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.347Z",
+      "observedAt": "2026-09-29T20:44:54.876Z",
       "evidenceHash": "21b4f15dfb8dd93de6603cc2b89ce5ac1543162b6cc208fa7ec1672c4f1c06d1"
     },
     {
@@ -1235,7 +1235,7 @@
           "14-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.347Z",
+      "observedAt": "2026-09-29T20:44:54.876Z",
       "evidenceHash": "5478bc544ff3683a592955d9b35c09a259b59bd56d4b10d6c8a1e1fe24002343"
     },
     {
@@ -1258,7 +1258,7 @@
           "10-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.347Z",
+      "observedAt": "2026-09-29T20:44:54.876Z",
       "evidenceHash": "30b6615c4d3668dbbcf3499b67b8df79caed0fdf69c3c70cd635d975a103a215"
     },
     {
@@ -1281,7 +1281,7 @@
           "01-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.347Z",
+      "observedAt": "2026-09-29T20:44:54.876Z",
       "evidenceHash": "2c4f0183f759e80fa2a4ff5faa27866a09be0f67f5591821be8fdc785591427f"
     },
     {
@@ -1304,7 +1304,7 @@
           "07-Oct-2026 05:30 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.347Z",
+      "observedAt": "2026-09-29T20:44:54.877Z",
       "evidenceHash": "e316742d1e73ca6009510e5577ba34007e279a9d10d16611f4ac068cbed15eb4"
     },
     {
@@ -1327,7 +1327,7 @@
           "12-Oct-2026 05:30 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.347Z",
+      "observedAt": "2026-09-29T20:44:54.877Z",
       "evidenceHash": "1615bc321c57a20655e930bc4766d5b870d5b01056e3a3f15833fe4ed13163ec"
     },
     {
@@ -1350,7 +1350,7 @@
           "10-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.348Z",
+      "observedAt": "2026-09-29T20:44:54.877Z",
       "evidenceHash": "1755e6fcaedf1904befde5ce7dd2beea335135b7a3da2fb44877a84185793af9"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.348Z",
+      "observedAt": "2026-09-29T20:44:54.877Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.348Z",
+      "observedAt": "2026-09-29T20:44:54.877Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.348Z",
+      "observedAt": "2026-09-29T20:44:54.877Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.348Z",
+      "observedAt": "2026-09-29T20:44:54.877Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.348Z",
+      "observedAt": "2026-09-29T20:44:54.877Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.348Z",
+      "observedAt": "2026-09-29T20:44:54.878Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.348Z",
+      "observedAt": "2026-09-29T20:44:54.878Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.349Z",
+      "observedAt": "2026-09-29T20:44:54.878Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.349Z",
+      "observedAt": "2026-09-29T20:44:54.878Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.349Z",
+      "observedAt": "2026-09-29T20:44:54.878Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.349Z",
+      "observedAt": "2026-09-29T20:44:54.879Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.349Z",
+      "observedAt": "2026-09-29T20:44:54.879Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-29T15:48:12.350Z",
+      "observedAt": "2026-09-29T20:44:54.879Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "126509"
       },
-      "observedAt": "2026-09-29T15:48:14.781Z",
+      "observedAt": "2026-09-29T20:44:57.645Z",
       "evidenceHash": "18fa2ff4e23566cef34aa180523097b14b8739d9bc6b789cd62b0bed4600bc3d"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "126501"
       },
-      "observedAt": "2026-09-29T15:48:14.781Z",
+      "observedAt": "2026-09-29T20:44:57.645Z",
       "evidenceHash": "a488b2149632fc695a06b3596f206447eaabc32801a513bf9d5df45f567bb310"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "126486"
       },
-      "observedAt": "2026-09-29T15:48:14.781Z",
+      "observedAt": "2026-09-29T20:44:57.645Z",
       "evidenceHash": "dd7ba0c15bb7e502d1152d5261e4a6a2345ac8af8e74ae095f1640375d697b87"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "126482"
       },
-      "observedAt": "2026-09-29T15:48:14.781Z",
+      "observedAt": "2026-09-29T20:44:57.645Z",
       "evidenceHash": "d2068a7011b08a6d7be6ec0a19d6dd7da365db96d1f1f9ce77769853b600ea2d"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "126480"
       },
-      "observedAt": "2026-09-29T15:48:14.781Z",
+      "observedAt": "2026-09-29T20:44:57.645Z",
       "evidenceHash": "3ed73790f4725f453c3b9cbaf272eb529a1cc15cf3a119e807a1b6f21ccfd31a"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "126469"
       },
-      "observedAt": "2026-09-29T15:48:14.781Z",
+      "observedAt": "2026-09-29T20:44:57.646Z",
       "evidenceHash": "1c7d422b591169eb80826592dabb65db5168877db9d1d58f0ef0bcd51dcb5e6f"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "126458"
       },
-      "observedAt": "2026-09-29T15:48:14.781Z",
+      "observedAt": "2026-09-29T20:44:57.646Z",
       "evidenceHash": "e01566022e060c485559292b09732dafecf684c8ad5553baa0e1ac1585824a57"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "126325"
       },
-      "observedAt": "2026-09-29T15:48:14.781Z",
+      "observedAt": "2026-09-29T20:44:57.646Z",
       "evidenceHash": "59cb65fbe0232a895436738f801dbfafdc394a62f0f1b4fbe7e625cc119a4ffa"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "126309"
       },
-      "observedAt": "2026-09-29T15:48:14.781Z",
+      "observedAt": "2026-09-29T20:44:57.646Z",
       "evidenceHash": "c6b423a5a20b11b3e1564f2f839629d82a2937e6326aeb72643d6819bef6cd43"
     },
     {
@@ -1809,7 +1809,7 @@
       "raw": {
         "reportId": "126303"
       },
-      "observedAt": "2026-09-29T15:48:14.781Z",
+      "observedAt": "2026-09-29T20:44:57.646Z",
       "evidenceHash": "090e9437e7e90c7f81874103baa7d01e15603ff15948b4f9572575236bac067d"
     },
     {
@@ -1822,7 +1822,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-29T15:48:13.357Z",
+      "observedAt": "2026-09-29T20:44:56.532Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1835,7 +1835,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-29T15:48:13.359Z",
+      "observedAt": "2026-09-29T20:44:56.533Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1848,7 +1848,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-29T15:48:13.359Z",
+      "observedAt": "2026-09-29T20:44:56.534Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1861,7 +1861,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-29T15:48:13.359Z",
+      "observedAt": "2026-09-29T20:44:56.534Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1874,7 +1874,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-29T15:48:13.359Z",
+      "observedAt": "2026-09-29T20:44:56.534Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1888,7 +1888,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-29T15:48:13.359Z",
+      "observedAt": "2026-09-29T20:44:56.534Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1902,7 +1902,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-29T15:48:13.359Z",
+      "observedAt": "2026-09-29T20:44:56.534Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1916,7 +1916,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-29T15:48:13.359Z",
+      "observedAt": "2026-09-29T20:44:56.534Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1935,7 +1935,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-09-29T15:48:46.333Z",
+      "observedAt": "2026-09-29T20:45:28.613Z",
       "evidenceHash": "ed71dec9dd5f1a0d35193c12eb0dc18cfef6fb38c68c4acb0f82ae922099d3ad"
     },
     {
@@ -1954,7 +1954,7 @@
         "anchorText": "100 Days Office Improvement Special Campaign Finance Department Maharashtra Government Directorate of Accounts and Treasuries ,Mumbai",
         "rowText": ""
       },
-      "observedAt": "2026-09-29T15:48:46.340Z",
+      "observedAt": "2026-09-29T20:45:28.616Z",
       "evidenceHash": "0a0c3c4797621eb9968690eb61fd6e1f846b17b6e70063d08f9efa5c08da8ff9"
     },
     {
@@ -1973,7 +1973,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-09-29T15:48:46.341Z",
+      "observedAt": "2026-09-29T20:45:28.617Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1992,7 +1992,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-09-29T15:48:46.341Z",
+      "observedAt": "2026-09-29T20:45:28.617Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -2011,7 +2011,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-09-29T15:48:46.341Z",
+      "observedAt": "2026-09-29T20:45:28.617Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -2030,7 +2030,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-09-29T15:48:46.341Z",
+      "observedAt": "2026-09-29T20:45:28.617Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2049,7 +2049,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-09-29T15:48:46.341Z",
+      "observedAt": "2026-09-29T20:45:28.617Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2068,7 +2068,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-09-29T15:48:46.341Z",
+      "observedAt": "2026-09-29T20:45:28.617Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2086,7 +2086,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-09-29T15:48:45.656Z",
+      "observedAt": "2026-09-29T20:45:27.574Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
