@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T00:25:37.030Z",
+  "generatedAt": "2026-09-30T06:41:30.585Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -9,8 +9,8 @@
   "summary": {
     "sensors": 10,
     "healthySensors": 9,
-    "records": 33,
-    "reconciledLinks": 0
+    "records": 79,
+    "reconciledLinks": 3
   },
   "sensors": [
     {
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-09-30T00:24:41.104Z",
+      "fetchedAt": "2026-09-30T06:40:49.175Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-09-30T00:24:41.113Z",
+      "fetchedAt": "2026-09-30T06:40:49.195Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,9 +47,9 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-09-30T00:24:41.114Z",
+      "fetchedAt": "2026-09-30T06:40:49.196Z",
       "ok": true,
-      "recordCount": 0,
+      "recordCount": 46,
       "error": null
     },
     {
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-09-30T00:24:41.115Z",
+      "fetchedAt": "2026-09-30T06:40:49.198Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-30T00:24:41.116Z",
+      "fetchedAt": "2026-09-30T06:40:49.199Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-30T00:24:41.119Z",
+      "fetchedAt": "2026-09-30T06:40:49.203Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-30T00:25:14.433Z",
+      "fetchedAt": "2026-09-30T06:41:22.943Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-30T00:25:14.432Z",
+      "fetchedAt": "2026-09-30T06:41:22.941Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-09-30T00:25:14.434Z",
+      "fetchedAt": "2026-09-30T06:41:22.944Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-09-30T00:25:14.435Z",
+      "fetchedAt": "2026-09-30T06:41:22.945Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 13112180000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1291677822",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1291677822",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1588930942",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1588930942",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹13,11,218 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(30.8%)"
         ]
       },
-      "observedAt": "2026-09-30T00:24:47.006Z",
-      "evidenceHash": "984f3b4256926a5e45a6d5ef138e14b0cfa8df5247ad05e5e3e31101a3a26e46"
+      "observedAt": "2026-09-30T06:40:55.321Z",
+      "evidenceHash": "4e3168fd5f05fe880c64b9e5e03e04f5e4587ca4fb0134776050ae5d0cfce252"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:7:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4265660000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1291677822",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1291677822",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1588930942",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1588930942",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,26,566 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(35.0%)"
         ]
       },
-      "observedAt": "2026-09-30T00:24:47.006Z",
-      "evidenceHash": "7c2fe1a561220855dd924428b854e28a0effe9b3b8cfc4a81f4800ba6bc32d84"
+      "observedAt": "2026-09-30T06:40:55.322Z",
+      "evidenceHash": "4d954797a813febcdbcc61063bb14ff7033995c68833595bb8e69a03675cd471"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:7:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 4506350000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1291677822",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1291677822",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1588930942",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1588930942",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹4,50,635 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-30T00:24:47.006Z",
-      "evidenceHash": "6482649198eaff0463855e688cd9fb4feb075252f6f05a5b25d3b8b68ec256b3"
+      "observedAt": "2026-09-30T06:40:55.322Z",
+      "evidenceHash": "44b08e6ff15c21b5647509bb2626017d7e6dec7eab9258bdeff8fa0c0f8d228f"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:7:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1262720000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1291677822",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1291677822",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1588930942",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1588930942",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,26,272 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(42.8%)"
         ]
       },
-      "observedAt": "2026-09-30T00:24:47.006Z",
-      "evidenceHash": "be986f9a8e953de7403a9a5d0b296fe1359bba2bfce6634f404ff3975d95283f"
+      "observedAt": "2026-09-30T06:40:55.322Z",
+      "evidenceHash": "880e3cbc59a9a41f717566cc9917c22cdbab7084581cec032df3db415ccd7a53"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:7:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 17618530000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1291677822",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1291677822",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1588930942",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1588930942",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹17,61,853 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(30.9%)"
         ]
       },
-      "observedAt": "2026-09-30T00:24:47.006Z",
-      "evidenceHash": "85d2b965b38fccc473fb227149c7f46a1faf2fd64048d527c46afabf78ad23c8"
+      "observedAt": "2026-09-30T06:40:55.322Z",
+      "evidenceHash": "52e33689f4216cc9ef0f77586110a75ff1d5d8cd8d4935cf67b3b93cadf6703c"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:7:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1535133400000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1291677822",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1291677822",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1588930942",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/72026/DATA2627.htm?rand=1588930942",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,53,513.34 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,8 +323,1334 @@
           "(30%)"
         ]
       },
-      "observedAt": "2026-09-30T00:24:47.008Z",
-      "evidenceHash": "867227be241828487bd152c129f7f98ba191d6cd7abc75afc4203d0a3badf54e"
+      "observedAt": "2026-09-30T06:40:55.324Z",
+      "evidenceHash": "6a1a47ae3af8e8991078eef7d33aa6f0f78c8a1b804ba29e8a4e7bd738a5f49c"
+    },
+    {
+      "externalKey": "cppp-procurement:screen-reader-access-30-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-30-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
+      "sensorId": "cppp-procurement",
+      "title": "Screen Reader Access 30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=WebScreenReaderAccess&service=page",
+      "tenderReference": "Screen Reader Access 30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "geographicPrecision": "unknown",
+      "note": "Screen Reader Access |  |  | 30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 30-Sep-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
+      "raw": {
+        "cells": [
+          "Screen Reader Access 30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+          "Screen Reader Access",
+          "Screen Reader Access",
+          "",
+          "",
+          "30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "30-Sep-2026",
+          "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "",
+          "",
+          "",
+          "",
+          "ePublishing System, Government of India",
+          "",
+          "ePublishing System, Government of India"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.112Z",
+      "evidenceHash": "5bbb4de4ca75f040da80284502ca21424128a296dc3860e3d330ba1c5df2eb1a"
+    },
+    {
+      "externalKey": "cppp-procurement:screen-reader-access:screen-reader-access",
+      "sensorId": "cppp-procurement",
+      "title": "Screen Reader Access",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=WebScreenReaderAccess&service=page",
+      "tenderReference": "Screen Reader Access",
+      "geographicPrecision": "unknown",
+      "raw": {
+        "cells": [
+          "Screen Reader Access",
+          "Screen Reader Access"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.113Z",
+      "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
+    },
+    {
+      "externalKey": "cppp-procurement:30-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:30-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
+      "sensorId": "cppp-procurement",
+      "title": "30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
+      "tenderReference": "30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "geographicPrecision": "unknown",
+      "note": "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  | ",
+      "raw": {
+        "cells": [
+          "30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "30-Sep-2026",
+          "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.114Z",
+      "evidenceHash": "e63e16501650cc0842986162efb499965d674a7f774ce749667adf9d29c48041"
+    },
+    {
+      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:30-sep-2026",
+      "sensorId": "cppp-procurement",
+      "title": "30-Sep-2026",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
+      "tenderReference": "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "geographicPrecision": "unknown",
+      "note": " |  |  | ",
+      "raw": {
+        "cells": [
+          "30-Sep-2026",
+          "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.114Z",
+      "evidenceHash": "acbd19cba83f12eefd4d38ab9177c52f564fe43e605265ef0da358ede4f505a9"
+    },
+    {
+      "externalKey": "cppp-procurement:epublishing-system,-government-of-india",
+      "sensorId": "cppp-procurement",
+      "title": "ePublishing System, Government of India",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
+      "geographicPrecision": "unknown",
+      "note": "ePublishing System, Government of India",
+      "raw": {
+        "cells": [
+          "ePublishing System, Government of India",
+          "",
+          "ePublishing System, Government of India"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.115Z",
+      "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
+    },
+    {
+      "externalKey": "cppp-procurement:epublishing-system,-government-of-india:epublishing-system,-government-of-india",
+      "sensorId": "cppp-procurement",
+      "title": "ePublishing System, Government of India",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
+      "tenderReference": "ePublishing System, Government of India",
+      "geographicPrecision": "unknown",
+      "raw": {
+        "cells": [
+          "",
+          "ePublishing System, Government of India"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.115Z",
+      "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
+    },
+    {
+      "externalKey": "cppp-procurement://-script-to-view-document-in-popup-function-popup(mylink,-windowname)-{-if-(!-window.focus)return-true;-var-href;-if-(typeof(mylink)-==-'string')-href=mylink;-else-href=mylink.href;-window.open(href,-\"popup\",-'location=no,-scrollbars=yes,-toolbar=no,-width=700,-height=550,-directories=no,-menubar=no,-resizable=yes,-status=no,-titlebar=yes');-return-false;-}-mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links://-script-to-view-document-in-popup-function-popup(mylink,-windowname)-{-if-(!-window.focus)return-true;-var-href;-if-(typeof(mylink)-==-'string')-href=mylink;-else-href=mylink.href;-window.open(href,-\"popup\",-'location=no,-scrollbars=yes,-toolbar=no,-width=700,-height=550,-directories=no,-menubar=no,-resizable=yes,-status=no,-titlebar=yes');-return-false;-}-mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
+      "sensorId": "cppp-procurement",
+      "title": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Re",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
+      "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
+      "geographicPrecision": "unknown",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Multi-Wavelength refractometer with optical bench and accessories VS202600026001 28-Oct-2026 02:00 PM 28-Oct-2026 02:05 PM 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida HSCC/DandE/HSCC HO/NOIDA/2026/137 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES 20-Oct-2026 03:00 PM 20-Oct-2026 03:30 PM 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 12-Oct-2026 03:30 PM 12-Oct-2026 03:30 PM 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). WE-2761 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. GEM/2026/B/8085330 14-Oct-2026 06:00 PM 15-Oct-2026 06:00 PM 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND ROAND/OPS/KHEDA 21-Oct-2026 03:00 PM 21-Oct-2026 03:30 PM 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. PSER-PUR-MJA-S678-26 03-Oct-2026 02:00 PM 03-Oct-2026 04:30 PM 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. ch3153-enm-0018-2026-27 05-Oct-2026 04:30 PM 05-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 3 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 08-Oct-2026 06:55 PM 09-Oct-2026 06:55 PM 2. Place of work ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 3. Date Extension Corregendum IISER/PUR/0824/26 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. Corrigendum-3 RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 6. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 7. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 8. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 9. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 10. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Multi-Wavelength refractometer with optical bench and accessories VS202600026001 28-Oct-2026 02:00 PM 28-Oct-2026 02:05 PM 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida HSCC/DandE/HSCC HO/NOIDA/2026/137 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES 20-Oct-2026 03:00 PM 20-Oct-2026 03:30 PM 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 12-Oct-2026 03:30 PM 12-Oct-2026 03:30 PM 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). WE-2761 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. GEM/2026/B/8085330 14-Oct-2026 06:00 PM 15-Oct-2026 06:00 PM 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND ROAND/OPS/KHEDA 21-Oct-2026 03:00 PM 21-Oct-2026 03:30 PM 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. PSER-PUR-MJA-S678-26 03-Oct-2026 02:00 PM 03-Oct-2026 04:30 PM 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. ch3153-enm-0018-2026-27 05-Oct-2026 04:30 PM 05-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 3 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 08-Oct-2026 06:55 PM 09-Oct-2026 06:55 PM 2. Place of work ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 3. Date Extension Corregendum IISER/PUR/0824/26 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. Corrigendum-3 RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 6. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 7. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 8. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 9. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 10. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Multi-Wavelength refractometer with optical bench and accessories VS202600026001 28-Oct-2026 02:00 PM 28-Oct-2026 02:05 PM 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida HSCC/DandE/HSCC HO/NOIDA/2026/137 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES 20-Oct-2026 03:00 PM 20-Oct-2026 03:30 PM 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 12-Oct-2026 03:30 PM 12-Oct-2026 03:30 PM 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). WE-2761 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. GEM/2026/B/8085330 14-Oct-2026 06:00 PM 15-Oct-2026 06:00 PM 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND ROAND/OPS/KHEDA 21-Oct-2026 03:00 PM 21-Oct-2026 03:30 PM 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. PSER-PUR-MJA-S678-26 03-Oct-2026 02:00 PM 03-Oct-2026 04:30 PM 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. ch3153-enm-0018-2026-27 05-Oct-2026 04:30 PM 05-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Multi-Wavelength refractometer with optical bench and accessories VS202600026001 28-Oct-2026 02:00 PM 28-Oct-2026 02:05 PM 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida HSCC/DandE/HSCC HO/NOIDA/2026/137 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES 20-Oct-2026 03:00 PM 20-Oct-2026 03:30 PM 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 12-Oct-2026 03:30 PM 12-Oct-2026 03:30 PM 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). WE-2761 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. GEM/2026/B/8085330 14-Oct-2026 06:00 PM 15-Oct-2026 06:00 PM 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND ROAND/OPS/KHEDA 21-Oct-2026 03:00 PM 21-Oct-2026 03:30 PM 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. PSER-PUR-MJA-S678-26 03-Oct-2026 02:00 PM 03-Oct-2026 04:30 PM 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. ch3153-enm-0018-2026-27 05-Oct-2026 04:30 PM 05-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Multi-Wavelength refractometer with optical bench and accessories VS202600026001 28-Oct-2026 02:00 PM 28-Oct-2026 02:05 PM 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida HSCC/DandE/HSCC HO/NOIDA/2026/137 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES 20-Oct-2026 03:00 PM 20-Oct-2026 03:30 PM 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 12-Oct-2026 03:30 PM 12-Oct-2026 03:30 PM 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). WE-2761 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. GEM/2026/B/8085330 14-Oct-2026 06:00 PM 15-Oct-2026 06:00 PM 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND ROAND/OPS/KHEDA 21-Oct-2026 03:00 PM 21-Oct-2026 03:30 PM 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. PSER-PUR-MJA-S678-26 03-Oct-2026 02:00 PM 03-Oct-2026 04:30 PM 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. ch3153-enm-0018-2026-27 05-Oct-2026 04:30 PM 05-Oct-2026 05:00 PM | 1. Multi-Wavelength refractometer with optical bench and accessories | VS202600026001 | 28-Oct-2026 02:00 PM | 28-Oct-2026 02:05 PM | 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida | HSCC/DandE/HSCC HO/NOIDA/2026/137 | 15-Oct-2026 11:00 AM | 15-Oct-2026 11:30 AM | 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA | TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES | 20-Oct-2026 03:00 PM | 20-Oct-2026 03:30 PM | 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel | UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 | 12-Oct-2026 03:30 PM | 12-Oct-2026 03:30 PM | 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). | WE-2761 | 12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM | 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. | GEM/2026/B/8085330 | 14-Oct-2026 06:00 PM | 15-Oct-2026 06:00 PM | 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND | ROAND/OPS/KHEDA | 21-Oct-2026 03:00 PM | 21-Oct-2026 03:30 PM | 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. | PSER-PUR-MJA-S678-26 | 03-Oct-2026 02:00 PM | 03-Oct-2026 04:30 PM | 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS | ROSOPRN382202627DT17092026 | 09-Oct-2026 02:00 PM | 09-Oct-2026 04:00 PM | 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. | ch3153-enm-0018-2026-27 | 05-Oct-2026 04:30 PM | 05-Oct-2026 05:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 3 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 08-Oct-2026 06:55 PM 09-Oct-2026 06:55 PM 2. Place of work ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 3. Date Extension Corregendum IISER/PUR/0824/26 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. Corrigendum-3 RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 6. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 7. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 8. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 9. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 10. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 3 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 08-Oct-2026 06:55 PM 09-Oct-2026 06:55 PM 2. Place of work ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 3. Date Extension Corregendum IISER/PUR/0824/26 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. Corrigendum-3 RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 6. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 7. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 8. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 9. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 10. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corrigendum - 3 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 08-Oct-2026 06:55 PM 09-Oct-2026 06:55 PM 2. Place of work ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 3. Date Extension Corregendum IISER/PUR/0824/26 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. Corrigendum-3 RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 6. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 7. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 8. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 9. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 10. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM | 1. Corrigendum - 3 | PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 | 08-Oct-2026 06:55 PM | 09-Oct-2026 06:55 PM | 2. Place of work | ROSOPRN382202627DT17092026 | 09-Oct-2026 02:00 PM | 09-Oct-2026 04:00 PM | 3. Date Extension Corregendum | IISER/PUR/0824/26 | 07-Oct-2026 05:00 PM | 08-Oct-2026 03:00 PM | 4. Corrigendum-3 | RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 | 12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM | 5. Corrigendum-1 | RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 | 08-Oct-2026 03:00 PM | 08-Oct-2026 03:30 PM | 6. Corrigendum 04 | LIC/CO/CRM/CCS/RFP/2026-27 | 15-Oct-2026 03:00 PM | 15-Oct-2026 03:30 PM | 7. Corrigendum - III | BNR/40093/NIT/Painting Work/03 | 05-Oct-2026 06:55 PM | 06-Oct-2026 06:55 PM | 8. Addendum-3 | SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 | 14-Oct-2026 02:00 PM | 14-Oct-2026 03:00 PM | 9. Revised NIT | SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 | 14-Oct-2026 02:00 PM | 14-Oct-2026 03:00 PM | 10. Prebid Responses and Corrigendum Addendum | GEM/2026/B/7967752 dated 27.08.2026 | 09-Oct-2026 04:00 PM | 10-Oct-2026 04:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "raw": {
+        "cells": [
+          "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
+          "",
+          "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
+          "MIS Reports",
+          "",
+          "Tenders by Location",
+          "",
+          "Tenders by Classification",
+          "",
+          "Tenders in Archive",
+          "",
+          "Cancelled/Retendered",
+          "",
+          "Downloads",
+          "",
+          "Debarment List",
+          "",
+          "Announcements",
+          "",
+          "Recognitions",
+          "",
+          "Site compatibility",
+          "",
+          "Related Links",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Multi-Wavelength refractometer with optical bench and accessories VS202600026001 28-Oct-2026 02:00 PM 28-Oct-2026 02:05 PM 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida HSCC/DandE/HSCC HO/NOIDA/2026/137 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES 20-Oct-2026 03:00 PM 20-Oct-2026 03:30 PM 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 12-Oct-2026 03:30 PM 12-Oct-2026 03:30 PM 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). WE-2761 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. GEM/2026/B/8085330 14-Oct-2026 06:00 PM 15-Oct-2026 06:00 PM 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND ROAND/OPS/KHEDA 21-Oct-2026 03:00 PM 21-Oct-2026 03:30 PM 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. PSER-PUR-MJA-S678-26 03-Oct-2026 02:00 PM 03-Oct-2026 04:30 PM 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. ch3153-enm-0018-2026-27 05-Oct-2026 04:30 PM 05-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 3 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 08-Oct-2026 06:55 PM 09-Oct-2026 06:55 PM 2. Place of work ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 3. Date Extension Corregendum IISER/PUR/0824/26 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. Corrigendum-3 RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 6. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 7. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 8. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 9. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 10. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
+          "ePublishing System",
+          "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
+          "",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Multi-Wavelength refractometer with optical bench and accessories VS202600026001 28-Oct-2026 02:00 PM 28-Oct-2026 02:05 PM 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida HSCC/DandE/HSCC HO/NOIDA/2026/137 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES 20-Oct-2026 03:00 PM 20-Oct-2026 03:30 PM 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 12-Oct-2026 03:30 PM 12-Oct-2026 03:30 PM 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). WE-2761 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. GEM/2026/B/8085330 14-Oct-2026 06:00 PM 15-Oct-2026 06:00 PM 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND ROAND/OPS/KHEDA 21-Oct-2026 03:00 PM 21-Oct-2026 03:30 PM 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. PSER-PUR-MJA-S678-26 03-Oct-2026 02:00 PM 03-Oct-2026 04:30 PM 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. ch3153-enm-0018-2026-27 05-Oct-2026 04:30 PM 05-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 3 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 08-Oct-2026 06:55 PM 09-Oct-2026 06:55 PM 2. Place of work ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 3. Date Extension Corregendum IISER/PUR/0824/26 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. Corrigendum-3 RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 6. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 7. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 8. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 9. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 10. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "",
+          "",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Multi-Wavelength refractometer with optical bench and accessories VS202600026001 28-Oct-2026 02:00 PM 28-Oct-2026 02:05 PM 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida HSCC/DandE/HSCC HO/NOIDA/2026/137 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES 20-Oct-2026 03:00 PM 20-Oct-2026 03:30 PM 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 12-Oct-2026 03:30 PM 12-Oct-2026 03:30 PM 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). WE-2761 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. GEM/2026/B/8085330 14-Oct-2026 06:00 PM 15-Oct-2026 06:00 PM 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND ROAND/OPS/KHEDA 21-Oct-2026 03:00 PM 21-Oct-2026 03:30 PM 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. PSER-PUR-MJA-S678-26 03-Oct-2026 02:00 PM 03-Oct-2026 04:30 PM 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. ch3153-enm-0018-2026-27 05-Oct-2026 04:30 PM 05-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Multi-Wavelength refractometer with optical bench and accessories VS202600026001 28-Oct-2026 02:00 PM 28-Oct-2026 02:05 PM 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida HSCC/DandE/HSCC HO/NOIDA/2026/137 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES 20-Oct-2026 03:00 PM 20-Oct-2026 03:30 PM 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 12-Oct-2026 03:30 PM 12-Oct-2026 03:30 PM 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). WE-2761 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. GEM/2026/B/8085330 14-Oct-2026 06:00 PM 15-Oct-2026 06:00 PM 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND ROAND/OPS/KHEDA 21-Oct-2026 03:00 PM 21-Oct-2026 03:30 PM 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. PSER-PUR-MJA-S678-26 03-Oct-2026 02:00 PM 03-Oct-2026 04:30 PM 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. ch3153-enm-0018-2026-27 05-Oct-2026 04:30 PM 05-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title",
+          "Reference No",
+          "Closing Date",
+          "Bid Opening Date",
+          "1. Multi-Wavelength refractometer with optical bench and accessories VS202600026001 28-Oct-2026 02:00 PM 28-Oct-2026 02:05 PM 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida HSCC/DandE/HSCC HO/NOIDA/2026/137 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES 20-Oct-2026 03:00 PM 20-Oct-2026 03:30 PM 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 12-Oct-2026 03:30 PM 12-Oct-2026 03:30 PM 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). WE-2761 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. GEM/2026/B/8085330 14-Oct-2026 06:00 PM 15-Oct-2026 06:00 PM 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND ROAND/OPS/KHEDA 21-Oct-2026 03:00 PM 21-Oct-2026 03:30 PM 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. PSER-PUR-MJA-S678-26 03-Oct-2026 02:00 PM 03-Oct-2026 04:30 PM 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. ch3153-enm-0018-2026-27 05-Oct-2026 04:30 PM 05-Oct-2026 05:00 PM",
+          "1. Multi-Wavelength refractometer with optical bench and accessories",
+          "VS202600026001",
+          "28-Oct-2026 02:00 PM",
+          "28-Oct-2026 02:05 PM",
+          "2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida",
+          "HSCC/DandE/HSCC HO/NOIDA/2026/137",
+          "15-Oct-2026 11:00 AM",
+          "15-Oct-2026 11:30 AM",
+          "3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA",
+          "TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES",
+          "20-Oct-2026 03:00 PM",
+          "20-Oct-2026 03:30 PM",
+          "4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel",
+          "UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026",
+          "12-Oct-2026 03:30 PM",
+          "12-Oct-2026 03:30 PM",
+          "5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.).",
+          "WE-2761",
+          "12-Oct-2026 03:00 PM",
+          "12-Oct-2026 03:30 PM",
+          "6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram.",
+          "GEM/2026/B/8085330",
+          "14-Oct-2026 06:00 PM",
+          "15-Oct-2026 06:00 PM",
+          "7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND",
+          "ROAND/OPS/KHEDA",
+          "21-Oct-2026 03:00 PM",
+          "21-Oct-2026 03:30 PM",
+          "8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL.",
+          "PSER-PUR-MJA-S678-26",
+          "03-Oct-2026 02:00 PM",
+          "03-Oct-2026 04:30 PM",
+          "9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS",
+          "ROSOPRN382202627DT17092026",
+          "09-Oct-2026 02:00 PM",
+          "09-Oct-2026 04:00 PM",
+          "10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA.",
+          "ch3153-enm-0018-2026-27",
+          "05-Oct-2026 04:30 PM",
+          "05-Oct-2026 05:00 PM",
+          "Latest Tenders updates every 15 mins.",
+          "More...",
+          "",
+          "",
+          "Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 3 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 08-Oct-2026 06:55 PM 09-Oct-2026 06:55 PM 2. Place of work ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 3. Date Extension Corregendum IISER/PUR/0824/26 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. Corrigendum-3 RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 6. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 7. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 8. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 9. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 10. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 3 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 08-Oct-2026 06:55 PM 09-Oct-2026 06:55 PM 2. Place of work ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 3. Date Extension Corregendum IISER/PUR/0824/26 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. Corrigendum-3 RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 6. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 7. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 8. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 9. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 10. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Corrigendum Title",
+          "Reference No",
+          "Closing Date",
+          "Bid Opening Date",
+          "1. Corrigendum - 3 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 08-Oct-2026 06:55 PM 09-Oct-2026 06:55 PM 2. Place of work ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 3. Date Extension Corregendum IISER/PUR/0824/26 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. Corrigendum-3 RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 6. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 7. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 8. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 9. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 10. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM",
+          "1. Corrigendum - 3",
+          "PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27",
+          "08-Oct-2026 06:55 PM",
+          "09-Oct-2026 06:55 PM",
+          "2. Place of work",
+          "ROSOPRN382202627DT17092026",
+          "09-Oct-2026 02:00 PM",
+          "09-Oct-2026 04:00 PM",
+          "3. Date Extension Corregendum",
+          "IISER/PUR/0824/26",
+          "07-Oct-2026 05:00 PM",
+          "08-Oct-2026 03:00 PM",
+          "4. Corrigendum-3",
+          "RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8",
+          "12-Oct-2026 03:00 PM",
+          "12-Oct-2026 03:30 PM",
+          "5. Corrigendum-1",
+          "RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02",
+          "08-Oct-2026 03:00 PM",
+          "08-Oct-2026 03:30 PM",
+          "6. Corrigendum 04",
+          "LIC/CO/CRM/CCS/RFP/2026-27",
+          "15-Oct-2026 03:00 PM",
+          "15-Oct-2026 03:30 PM",
+          "7. Corrigendum - III",
+          "BNR/40093/NIT/Painting Work/03",
+          "05-Oct-2026 06:55 PM",
+          "06-Oct-2026 06:55 PM",
+          "8. Addendum-3",
+          "SGEL/CHQ/Contracts/PSPCL-1000 MW/2026",
+          "14-Oct-2026 02:00 PM",
+          "14-Oct-2026 03:00 PM",
+          "9. Revised NIT",
+          "SGEL/CHQ/Contracts/PSPCL-1000 MW/2026",
+          "14-Oct-2026 02:00 PM",
+          "14-Oct-2026 03:00 PM",
+          "10. Prebid Responses and Corrigendum Addendum",
+          "GEM/2026/B/7967752 dated 27.08.2026",
+          "09-Oct-2026 04:00 PM",
+          "10-Oct-2026 04:00 PM",
+          "Latest Corrigendum updates every 15 mins.",
+          "More...",
+          "",
+          "Certifying Agency",
+          "Certifying Agency",
+          "",
+          "",
+          "function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback",
+          "function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; }",
+          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
+          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
+          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>",
+          "Find My Nodal Officer",
+          "Search with ID/Title/Reference no",
+          "Advanced Search",
+          "",
+          "Advanced Search",
+          "Advanced Search",
+          "",
+          "",
+          "",
+          "Advanced Search",
+          "FAQ Feedback",
+          "FAQ Feedback",
+          "FAQ Feedback"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.132Z",
+      "evidenceHash": "7ba78a3fc5c4083d0812ad90150c3b41f3717355156f7ab6199f170af6063b03"
+    },
+    {
+      "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
+      "sensorId": "cppp-procurement",
+      "title": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
+      "tenderReference": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
+      "geographicPrecision": "unknown",
+      "note": " | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  | ",
+      "raw": {
+        "cells": [
+          "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
+          "MIS Reports",
+          "",
+          "Tenders by Location",
+          "",
+          "Tenders by Classification",
+          "",
+          "Tenders in Archive",
+          "",
+          "Cancelled/Retendered",
+          "",
+          "Downloads",
+          "",
+          "Debarment List",
+          "",
+          "Announcements",
+          "",
+          "Recognitions",
+          "",
+          "Site compatibility",
+          "",
+          "Related Links",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.133Z",
+      "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
+    },
+    {
+      "externalKey": "cppp-procurement:epublishing-system-the-central-public-procurement-portal-of-government-of-india-facilitates-all-the-central-government-organisations-to-publish-their-tender-enquiries,-corrigenda-and-award-of-contract-details.-the-system-also-enables-users-to-migrate-to-total-electronic-procurement-mode.:epublishing-system-the-central-public-procurement-portal-of-government-of-india-facilitates-all-the-central-government-organisations-to-publish-their-tender-enquiries,-corrigenda-and-award-of-contract-details.-the-system-also-enables-users-to-migrate-to-total-electronic-procurement-mode.",
+      "sensorId": "cppp-procurement",
+      "title": "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
+      "tenderReference": "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
+      "locationText": "Award, Mumbai, Maharashtra",
+      "geographicPrecision": "locality",
+      "note": "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
+      "raw": {
+        "cells": [
+          "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
+          "ePublishing System",
+          "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.134Z",
+      "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
+    },
+    {
+      "externalKey": "cppp-procurement:1.-multi-wavelength-refractometer-with-optical-bench-and-accessories-vs202600026001-28-oct-2026-02:00-pm-28-oct-2026-02:05-pm-2.-annual-comprehensive-maintenance-and-operation-services-at-hscc-head-office,-noida-hscc/dande/hscc-ho/noida/2026/137-15-oct-2026-11:00-am-15-oct-2026-11:30-am-3.-atm-premises-of-06-branches-under-ro-greater-kolkata-tender-for-atms_crms-premises-of-06-branches-20-oct-2026-03:00-pm-20-oct-2026-03:30-pm-4.-tender-for-hiring-of-load-bank-for-trials-of-diesel-generator-of-6300dwt-general-cargo-vessel-ucsl/cc/sb/t/175-182/279-1a-/2026-dt.28th-sep-2026-12-oct-2026-03:30-pm-12-oct-2026-03:30-pm-5.-work-proposal-for-annual-work-contract-for-servicing-and-maintenance-of-60-mt-capacity-electronic-road-weighbridge-and-01-mt-cpacity-weighing-scale-including-supply-of-spares-at-office-of-ee-(o-and-m)-store-i-sstpp-mppgcl-distt--khandwa.-(m.p.).-we-2761-12-oct-2026-03:00-pm-12-oct-2026-03:30-pm-6.-gem-bid-no-gem/2026/b/8085330-pulished-for-leasing-of-electric-and-hybrid-category-vehicle---(dry-lease)-on-monthly-basis-for-rec-corporate-office,-gurugram.-gem/2026/b/8085330-14-oct-2026-06:00-pm-15-oct-2026-06:00-pm-7.-tender-for-alternate-premises-of-kheda-branch-under-union-bank-of-india-ro-anand-roand/ops/kheda-21-oct-2026-03:00-pm-21-oct-2026-03:30-pm-8.-overhauling-of-one-number-drive-turbine-of-bfp-(tdbfp-8a)-of-u-8,-mtps,-dvc,-mejia-west-bengal.-pser-pur-mja-s678-26-03-oct-2026-02:00-pm-03-oct-2026-04:30-pm-9.-interior-furnishing-electrical-air-conditioning-works-rosoprn382202627dt17092026-09-oct-2026-02:00-pm-09-oct-2026-04:00-pm-10.-work-of-strengthening-of-structures-and-columns-of-chp-bunker-at-nandgoan-incline-mine-of-hlsa.-ch3153-enm-0018-2026-27-05-oct-2026-04:30-pm-05-oct-2026-05:00-pm:1.-multi-wavelength-refractometer-with-optical-bench-and-accessories-vs202600026001-28-oct-2026-02:00-pm-28-oct-2026-02:05-pm-2.-annual-comprehensive-maintenance-and-operation-services-at-hscc-head-office,-noida-hscc/dande/hscc-ho/noida/2026/137-15-oct-2026-11:00-am-15-oct-2026-11:30-am-3.-atm-premises-of-06-branches-under-ro-greater-kolkata-tender-for-atms_crms-premises-of-06-branches-20-oct-2026-03:00-pm-20-oct-2026-03:30-pm-4.-tender-for-hiring-of-load-bank-for-trials-of-diesel-generator-of-6300dwt-general-cargo-vessel-ucsl/cc/sb/t/175-182/279-1a-/2026-dt.28th-sep-2026-12-oct-2026-03:30-pm-12-oct-2026-03:30-pm-5.-work-proposal-for-annual-work-contract-for-servicing-and-maintenance-of-60-mt-capacity-electronic-road-weighbridge-and-01-mt-cpacity-weighing-scale-including-supply-of-spares-at-office-of-ee-(o-and-m)-store-i-sstpp-mppgcl-distt--khandwa.-(m.p.).-we-2761-12-oct-2026-03:00-pm-12-oct-2026-03:30-pm-6.-gem-bid-no-gem/2026/b/8085330-pulished-for-leasing-of-electric-and-hybrid-category-vehicle---(dry-lease)-on-monthly-basis-for-rec-corporate-office,-gurugram.-gem/2026/b/8085330-14-oct-2026-06:00-pm-15-oct-2026-06:00-pm-7.-tender-for-alternate-premises-of-kheda-branch-under-union-bank-of-india-ro-anand-roand/ops/kheda-21-oct-2026-03:00-pm-21-oct-2026-03:30-pm-8.-overhauling-of-one-number-drive-turbine-of-bfp-(tdbfp-8a)-of-u-8,-mtps,-dvc,-mejia-west-bengal.-pser-pur-mja-s678-26-03-oct-2026-02:00-pm-03-oct-2026-04:30-pm-9.-interior-furnishing-electrical-air-conditioning-works-rosoprn382202627dt17092026-09-oct-2026-02:00-pm-09-oct-2026-04:00-pm-10.-work-of-strengthening-of-structures-and-columns-of-chp-bunker-at-nandgoan-incline-mine-of-hlsa.-ch3153-enm-0018-2026-27-05-oct-2026-04:30-pm-05-oct-2026-05:00-pm",
+      "sensorId": "cppp-procurement",
+      "title": "1. Multi-Wavelength refractometer with optical bench and accessories VS202600026001 28-Oct-2026 02:00 PM 28-Oct-2026 02:05 PM 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida HSCC/DandE/HSCC HO/NOIDA/2026/137 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES 20-Oct-2026 03:00 PM 20-Oct-2026 03:30 PM 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SCXrVj2YOBs3bDKHH6BII%2Bw%3D%3D",
+      "tenderReference": "1. Multi-Wavelength refractometer with optical bench and accessories VS202600026001 28-Oct-2026 02:00 PM 28-Oct-2026 02:05 PM 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida HSCC/DandE/HSCC HO/NOIDA/2026/137 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES 20-Oct-2026 03:00 PM 20-Oct-2026 03:30 PM 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 12-Oct-2026 03:30 PM 12-Oct-2026 03:30 PM 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). WE-2761 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. GEM/2026/B/8085330 14-Oct-2026 06:00 PM 15-Oct-2026 06:00 PM 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND ROAND/OPS/KHEDA 21-Oct-2026 03:00 PM 21-Oct-2026 03:30 PM 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. PSER-PUR-MJA-S678-26 03-Oct-2026 02:00 PM 03-Oct-2026 04:30 PM 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. ch3153-enm-0018-2026-27 05-Oct-2026 04:30 PM 05-Oct-2026 05:00 PM",
+      "geographicPrecision": "unknown",
+      "note": "VS202600026001 | 28-Oct-2026 02:00 PM | 28-Oct-2026 02:05 PM | 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida | HSCC/DandE/HSCC HO/NOIDA/2026/137 | 15-Oct-2026 11:00 AM | 15-Oct-2026 11:30 AM | 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA | TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES | 20-Oct-2026 03:00 PM | 20-Oct-2026 03:30 PM | 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel | UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 | 12-Oct-2026 03:30 PM | 12-Oct-2026 03:30 PM | 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). | WE-2761 | 12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM | 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. | GEM/2026/B/8085330 | 14-Oct-2026 06:00 PM | 15-Oct-2026 06:00 PM | 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND | ROAND/OPS/KHEDA | 21-Oct-2026 03:00 PM | 21-Oct-2026 03:30 PM | 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. | PSER-PUR-MJA-S678-26 | 03-Oct-2026 02:00 PM | 03-Oct-2026 04:30 PM | 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS | ROSOPRN382202627DT17092026 | 09-Oct-2026 02:00 PM | 09-Oct-2026 04:00 PM | 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. | ch3153-enm-0018-2026-27 | 05-Oct-2026 04:30 PM | 05-Oct-2026 05:00 PM",
+      "raw": {
+        "cells": [
+          "1. Multi-Wavelength refractometer with optical bench and accessories VS202600026001 28-Oct-2026 02:00 PM 28-Oct-2026 02:05 PM 2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida HSCC/DandE/HSCC HO/NOIDA/2026/137 15-Oct-2026 11:00 AM 15-Oct-2026 11:30 AM 3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES 20-Oct-2026 03:00 PM 20-Oct-2026 03:30 PM 4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026 12-Oct-2026 03:30 PM 12-Oct-2026 03:30 PM 5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.). WE-2761 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram. GEM/2026/B/8085330 14-Oct-2026 06:00 PM 15-Oct-2026 06:00 PM 7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND ROAND/OPS/KHEDA 21-Oct-2026 03:00 PM 21-Oct-2026 03:30 PM 8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL. PSER-PUR-MJA-S678-26 03-Oct-2026 02:00 PM 03-Oct-2026 04:30 PM 9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA. ch3153-enm-0018-2026-27 05-Oct-2026 04:30 PM 05-Oct-2026 05:00 PM",
+          "1. Multi-Wavelength refractometer with optical bench and accessories",
+          "VS202600026001",
+          "28-Oct-2026 02:00 PM",
+          "28-Oct-2026 02:05 PM",
+          "2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida",
+          "HSCC/DandE/HSCC HO/NOIDA/2026/137",
+          "15-Oct-2026 11:00 AM",
+          "15-Oct-2026 11:30 AM",
+          "3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA",
+          "TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES",
+          "20-Oct-2026 03:00 PM",
+          "20-Oct-2026 03:30 PM",
+          "4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel",
+          "UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026",
+          "12-Oct-2026 03:30 PM",
+          "12-Oct-2026 03:30 PM",
+          "5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.).",
+          "WE-2761",
+          "12-Oct-2026 03:00 PM",
+          "12-Oct-2026 03:30 PM",
+          "6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram.",
+          "GEM/2026/B/8085330",
+          "14-Oct-2026 06:00 PM",
+          "15-Oct-2026 06:00 PM",
+          "7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND",
+          "ROAND/OPS/KHEDA",
+          "21-Oct-2026 03:00 PM",
+          "21-Oct-2026 03:30 PM",
+          "8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL.",
+          "PSER-PUR-MJA-S678-26",
+          "03-Oct-2026 02:00 PM",
+          "03-Oct-2026 04:30 PM",
+          "9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS",
+          "ROSOPRN382202627DT17092026",
+          "09-Oct-2026 02:00 PM",
+          "09-Oct-2026 04:00 PM",
+          "10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA.",
+          "ch3153-enm-0018-2026-27",
+          "05-Oct-2026 04:30 PM",
+          "05-Oct-2026 05:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.136Z",
+      "evidenceHash": "c22431c421441fdf3c4b9f7e43c3a8ca339cce6c5bf57efde054277da58ce8c6"
+    },
+    {
+      "externalKey": "cppp-procurement:vs202600026001:1.-multi-wavelength-refractometer-with-optical-bench-and-accessories",
+      "sensorId": "cppp-procurement",
+      "title": "1. Multi-Wavelength refractometer with optical bench and accessories",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SCXrVj2YOBs3bDKHH6BII%2Bw%3D%3D",
+      "tenderReference": "VS202600026001",
+      "geographicPrecision": "unknown",
+      "note": "28-Oct-2026 02:00 PM | 28-Oct-2026 02:05 PM",
+      "raw": {
+        "cells": [
+          "1. Multi-Wavelength refractometer with optical bench and accessories",
+          "VS202600026001",
+          "28-Oct-2026 02:00 PM",
+          "28-Oct-2026 02:05 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.136Z",
+      "evidenceHash": "ba269cc5ef344174442a72c49b0792c3c56888ff03cd35723a070cdd172bfd5a"
+    },
+    {
+      "externalKey": "cppp-procurement:hscc/dande/hscc-ho/noida/2026/137:2.-annual-comprehensive-maintenance-and-operation-services-at-hscc-head-office,-noida",
+      "sensorId": "cppp-procurement",
+      "title": "2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SPZWJLbdfeWKJc6YE62fbsQ%3D%3D",
+      "tenderReference": "HSCC/DandE/HSCC HO/NOIDA/2026/137",
+      "geographicPrecision": "unknown",
+      "note": "15-Oct-2026 11:00 AM | 15-Oct-2026 11:30 AM",
+      "raw": {
+        "cells": [
+          "2. Annual Comprehensive Maintenance and Operation Services at HSCC Head Office, Noida",
+          "HSCC/DandE/HSCC HO/NOIDA/2026/137",
+          "15-Oct-2026 11:00 AM",
+          "15-Oct-2026 11:30 AM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.136Z",
+      "evidenceHash": "905f84c94d2b6aa3b578be994841c1886d11ac05fc77439cc19808b4b5c64d2a"
+    },
+    {
+      "externalKey": "cppp-procurement:tender-for-atms_crms-premises-of-06-branches:3.-atm-premises-of-06-branches-under-ro-greater-kolkata",
+      "sensorId": "cppp-procurement",
+      "title": "3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SlDoszsFJC4G4jjgmgHb8dw%3D%3D",
+      "tenderReference": "TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES",
+      "geographicPrecision": "unknown",
+      "note": "20-Oct-2026 03:00 PM | 20-Oct-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "3. ATM PREMISES OF 06 BRANCHES UNDER RO GREATER KOLKATA",
+          "TENDER FOR ATMs_CRMs PREMISES OF 06 BRANCHES",
+          "20-Oct-2026 03:00 PM",
+          "20-Oct-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.136Z",
+      "evidenceHash": "5a2332e152b62f92b8c45e6b119b154269cd60037cddbb47ceddc1c2ffbedad3"
+    },
+    {
+      "externalKey": "cppp-procurement:4.-tender-for-hiring-of-load-bank-for-trials-of-diesel-generator-of-6300dwt-general-cargo-vessel:4.-tender-for-hiring-of-load-bank-for-trials-of-diesel-generator-of-6300dwt-general-cargo-vessel",
+      "sensorId": "cppp-procurement",
+      "title": "4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SFAZzjjJKkrl3V2%2Fh%2FU4Tdw%3D%3D",
+      "tenderReference": "4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel",
+      "geographicPrecision": "unknown",
+      "note": "12-Oct-2026 03:30 PM | 12-Oct-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "4. Tender for Hiring of Load Bank for Trials of Diesel generator of 6300DWT General Cargo Vessel",
+          "UCSL/CC/SB/T/175-182/279-1A /2026 Dt.28TH SEP-2026",
+          "12-Oct-2026 03:30 PM",
+          "12-Oct-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.136Z",
+      "evidenceHash": "be644d76f78bb05986ab028102a0c2890830aea70574ad3dfb27bf9fd5a0d286"
+    },
+    {
+      "externalKey": "cppp-procurement:we-2761:5.-work-proposal-for-annual-work-contract-for-servicing-and-maintenance-of-60-mt-capacity-electronic-road-weighbridge-and-01-mt-cpacity-weighing-scale-including-supply-of-spares-at-office-of-ee-(o-and-m)-store-i-sstpp-mppgcl-distt--khandwa.-(m.p.).",
+      "sensorId": "cppp-procurement",
+      "title": "5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.).",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Smh%2BXeyEJNxIPMReE23aXzw%3D%3D",
+      "tenderReference": "WE-2761",
+      "geographicPrecision": "unknown",
+      "note": "12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "5. Work proposal for Annual work contract for servicing and maintenance of 60 MT capacity Electronic Road Weighbridge and 01 MT cpacity Weighing Scale including supply of spares at Office of EE (O and M) Store-I SSTPP MPPGCL Distt- Khandwa. (M.P.).",
+          "WE-2761",
+          "12-Oct-2026 03:00 PM",
+          "12-Oct-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.136Z",
+      "evidenceHash": "6d644f3ea72a5900d2cc6ebe4111363199028848931a68c359ca46d4f8500728"
+    },
+    {
+      "externalKey": "cppp-procurement:6.-gem-bid-no-gem/2026/b/8085330-pulished-for-leasing-of-electric-and-hybrid-category-vehicle---(dry-lease)-on-monthly-basis-for-rec-corporate-office,-gurugram.:6.-gem-bid-no-gem/2026/b/8085330-pulished-for-leasing-of-electric-and-hybrid-category-vehicle---(dry-lease)-on-monthly-basis-for-rec-corporate-office,-gurugram.",
+      "sensorId": "cppp-procurement",
+      "title": "6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram.",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S1bpaAvNsrXVDJKT7JiKHaA%3D%3D",
+      "tenderReference": "6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram.",
+      "geographicPrecision": "unknown",
+      "note": "14-Oct-2026 06:00 PM | 15-Oct-2026 06:00 PM",
+      "raw": {
+        "cells": [
+          "6. GeM bid No GEM/2026/B/8085330 pulished for leasing of Electric and Hybrid Category Vehicle - (Dry Lease) on Monthly Basis for REC Corporate Office, Gurugram.",
+          "GEM/2026/B/8085330",
+          "14-Oct-2026 06:00 PM",
+          "15-Oct-2026 06:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.136Z",
+      "evidenceHash": "eead59e763212adca953440123c50d837c776d69d26cbecdd6f5d8f9cff6617e"
+    },
+    {
+      "externalKey": "cppp-procurement:7.-tender-for-alternate-premises-of-kheda-branch-under-union-bank-of-india-ro-anand:7.-tender-for-alternate-premises-of-kheda-branch-under-union-bank-of-india-ro-anand",
+      "sensorId": "cppp-procurement",
+      "title": "7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SXGCfaZD4MKY33N1N1MuZUQ%3D%3D",
+      "tenderReference": "7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND",
+      "geographicPrecision": "unknown",
+      "note": "21-Oct-2026 03:00 PM | 21-Oct-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "7. TENDER FOR ALTERNATE PREMISES OF KHEDA BRANCH UNDER UNION BANK OF INDIA RO ANAND",
+          "ROAND/OPS/KHEDA",
+          "21-Oct-2026 03:00 PM",
+          "21-Oct-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.137Z",
+      "evidenceHash": "e54f52755b41ebb885e23ad721124de639afd6bb567abb17b9688f01b195be9e"
+    },
+    {
+      "externalKey": "cppp-procurement:pser-pur-mja-s678-26:8.-overhauling-of-one-number-drive-turbine-of-bfp-(tdbfp-8a)-of-u-8,-mtps,-dvc,-mejia-west-bengal.",
+      "sensorId": "cppp-procurement",
+      "title": "8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL.",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SzYJlrC3pAoT6NlQ2P2at4A%3D%3D",
+      "tenderReference": "PSER-PUR-MJA-S678-26",
+      "geographicPrecision": "unknown",
+      "note": "03-Oct-2026 02:00 PM | 03-Oct-2026 04:30 PM",
+      "raw": {
+        "cells": [
+          "8. OVERHAULING OF ONE NUMBER DRIVE TURBINE OF BFP (TDBFP-8A) OF U-8, MTPS, DVC, MEJIA-WEST BENGAL.",
+          "PSER-PUR-MJA-S678-26",
+          "03-Oct-2026 02:00 PM",
+          "03-Oct-2026 04:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.137Z",
+      "evidenceHash": "78a60a6862f2a8727c8ee82b3137cb9ca9c09af398eb39cf604dae4fe1b090be"
+    },
+    {
+      "externalKey": "cppp-procurement:rosoprn382202627dt17092026:9.-interior-furnishing-electrical-air-conditioning-works",
+      "sensorId": "cppp-procurement",
+      "title": "9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SpZ2GgHmoFWSa996IAs0PMw%3D%3D",
+      "tenderReference": "ROSOPRN382202627DT17092026",
+      "geographicPrecision": "unknown",
+      "note": "09-Oct-2026 02:00 PM | 09-Oct-2026 04:00 PM",
+      "raw": {
+        "cells": [
+          "9. INTERIOR FURNISHING ELECTRICAL AIR CONDITIONING WORKS",
+          "ROSOPRN382202627DT17092026",
+          "09-Oct-2026 02:00 PM",
+          "09-Oct-2026 04:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.137Z",
+      "evidenceHash": "28b31a9d7aa78f14d46bd186e4bc78217fa7c6e0f61a8320b1c7f44d3cee3fa2"
+    },
+    {
+      "externalKey": "cppp-procurement:ch3153-enm-0018-2026-27:10.-work-of-strengthening-of-structures-and-columns-of-chp-bunker-at-nandgoan-incline-mine-of-hlsa.",
+      "sensorId": "cppp-procurement",
+      "title": "10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA.",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SW%2F5QYkaj4Dm5pG1cUoLT5w%3D%3D",
+      "tenderReference": "ch3153-enm-0018-2026-27",
+      "geographicPrecision": "unknown",
+      "note": "05-Oct-2026 04:30 PM | 05-Oct-2026 05:00 PM",
+      "raw": {
+        "cells": [
+          "10. Work of Strengthening of structures and columns of CHP Bunker at Nandgoan Incline Mine of HLSA.",
+          "ch3153-enm-0018-2026-27",
+          "05-Oct-2026 04:30 PM",
+          "05-Oct-2026 05:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.137Z",
+      "evidenceHash": "863ec8929119b14e27ed0dc2fa76394e2da8f32fdb75c5c3401a48175ff19a1c"
+    },
+    {
+      "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
+      "sensorId": "cppp-procurement",
+      "title": "Latest Tenders updates every 15 mins.",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndLatestActiveTenders&service=page",
+      "tenderReference": "Latest Tenders updates every 15 mins.",
+      "geographicPrecision": "unknown",
+      "raw": {
+        "cells": [
+          "Latest Tenders updates every 15 mins.",
+          "More..."
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.137Z",
+      "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
+    },
+    {
+      "externalKey": "cppp-procurement:bid-opening-date:corrigendum-title",
+      "sensorId": "cppp-procurement",
+      "title": "Corrigendum Title",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
+      "tenderReference": "Bid Opening Date",
+      "geographicPrecision": "unknown",
+      "note": "Closing Date | Bid Opening Date",
+      "raw": {
+        "cells": [
+          "Corrigendum Title",
+          "Reference No",
+          "Closing Date",
+          "Bid Opening Date"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.138Z",
+      "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
+    },
+    {
+      "externalKey": "cppp-procurement:1.-corrigendum---3-pur/enq/jb/008/bailey-bridge/7646/2026-27-08-oct-2026-06:55-pm-09-oct-2026-06:55-pm-2.-place-of-work-rosoprn382202627dt17092026-09-oct-2026-02:00-pm-09-oct-2026-04:00-pm-3.-date-extension-corregendum-iiser/pur/0824/26-07-oct-2026-05:00-pm-08-oct-2026-03:00-pm-4.-corrigendum-3-railtel/tender/ot/co/tp-/26-27/railway-board-lan/8-12-oct-2026-03:00-pm-12-oct-2026-03:30-pm-5.-corrigendum-1-railtel/tender/ot/co/it/cust-app-dev,-amc/26-27/02-08-oct-2026-03:00-pm-08-oct-2026-03:30-pm-6.-corrigendum-04-lic/co/crm/ccs/rfp/2026-27-15-oct-2026-03:00-pm-15-oct-2026-03:30-pm-7.-corrigendum---iii-bnr/40093/nit/painting-work/03-05-oct-2026-06:55-pm-06-oct-2026-06:55-pm-8.-addendum-3-sgel/chq/contracts/pspcl-1000-mw/2026-14-oct-2026-02:00-pm-14-oct-2026-03:00-pm-9.-revised-nit-sgel/chq/contracts/pspcl-1000-mw/2026-14-oct-2026-02:00-pm-14-oct-2026-03:00-pm-10.-prebid-responses-and-corrigendum-addendum-gem/2026/b/7967752-dated-27.08.2026-09-oct-2026-04:00-pm-10-oct-2026-04:00-pm:1.-corrigendum---3-pur/enq/jb/008/bailey-bridge/7646/2026-27-08-oct-2026-06:55-pm-09-oct-2026-06:55-pm-2.-place-of-work-rosoprn382202627dt17092026-09-oct-2026-02:00-pm-09-oct-2026-04:00-pm-3.-date-extension-corregendum-iiser/pur/0824/26-07-oct-2026-05:00-pm-08-oct-2026-03:00-pm-4.-corrigendum-3-railtel/tender/ot/co/tp-/26-27/railway-board-lan/8-12-oct-2026-03:00-pm-12-oct-2026-03:30-pm-5.-corrigendum-1-railtel/tender/ot/co/it/cust-app-dev,-amc/26-27/02-08-oct-2026-03:00-pm-08-oct-2026-03:30-pm-6.-corrigendum-04-lic/co/crm/ccs/rfp/2026-27-15-oct-2026-03:00-pm-15-oct-2026-03:30-pm-7.-corrigendum---iii-bnr/40093/nit/painting-work/03-05-oct-2026-06:55-pm-06-oct-2026-06:55-pm-8.-addendum-3-sgel/chq/contracts/pspcl-1000-mw/2026-14-oct-2026-02:00-pm-14-oct-2026-03:00-pm-9.-revised-nit-sgel/chq/contracts/pspcl-1000-mw/2026-14-oct-2026-02:00-pm-14-oct-2026-03:00-pm-10.-prebid-responses-and-corrigendum-addendum-gem/2026/b/7967752-dated-27.08.2026-09-oct-2026-04:00-pm-10-oct-2026-04:00-pm",
+      "sensorId": "cppp-procurement",
+      "title": "1. Corrigendum - 3 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 08-Oct-2026 06:55 PM 09-Oct-2026 06:55 PM 2. Place of work ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 3. Date Extension Corregendum IISER/PUR/0824/26 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. Corrigendum-3 RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 6",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SR%2BISrttFAsntUhcDq8oVwQ%3D%3D",
+      "tenderReference": "1. Corrigendum - 3 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 08-Oct-2026 06:55 PM 09-Oct-2026 06:55 PM 2. Place of work ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 3. Date Extension Corregendum IISER/PUR/0824/26 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. Corrigendum-3 RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 6. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 7. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 8. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 9. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 10. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM",
+      "geographicPrecision": "unknown",
+      "note": "PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 | 08-Oct-2026 06:55 PM | 09-Oct-2026 06:55 PM | 2. Place of work | ROSOPRN382202627DT17092026 | 09-Oct-2026 02:00 PM | 09-Oct-2026 04:00 PM | 3. Date Extension Corregendum | IISER/PUR/0824/26 | 07-Oct-2026 05:00 PM | 08-Oct-2026 03:00 PM | 4. Corrigendum-3 | RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 | 12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM | 5. Corrigendum-1 | RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 | 08-Oct-2026 03:00 PM | 08-Oct-2026 03:30 PM | 6. Corrigendum 04 | LIC/CO/CRM/CCS/RFP/2026-27 | 15-Oct-2026 03:00 PM | 15-Oct-2026 03:30 PM | 7. Corrigendum - III | BNR/40093/NIT/Painting Work/03 | 05-Oct-2026 06:55 PM | 06-Oct-2026 06:55 PM | 8. Addendum-3 | SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 | 14-Oct-2026 02:00 PM | 14-Oct-2026 03:00 PM | 9. Revised NIT | SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 | 14-Oct-2026 02:00 PM | 14-Oct-2026 03:00 PM | 10. Prebid Responses and Corrigendum Addendum | GEM/2026/B/7967752 dated 27.08.2026 | 09-Oct-2026 04:00 PM | 10-Oct-2026 04:00 PM",
+      "raw": {
+        "cells": [
+          "1. Corrigendum - 3 PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27 08-Oct-2026 06:55 PM 09-Oct-2026 06:55 PM 2. Place of work ROSOPRN382202627DT17092026 09-Oct-2026 02:00 PM 09-Oct-2026 04:00 PM 3. Date Extension Corregendum IISER/PUR/0824/26 07-Oct-2026 05:00 PM 08-Oct-2026 03:00 PM 4. Corrigendum-3 RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corrigendum-1 RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02 08-Oct-2026 03:00 PM 08-Oct-2026 03:30 PM 6. Corrigendum 04 LIC/CO/CRM/CCS/RFP/2026-27 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 7. Corrigendum - III BNR/40093/NIT/Painting Work/03 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 8. Addendum-3 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 9. Revised NIT SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 14-Oct-2026 02:00 PM 14-Oct-2026 03:00 PM 10. Prebid Responses and Corrigendum Addendum GEM/2026/B/7967752 dated 27.08.2026 09-Oct-2026 04:00 PM 10-Oct-2026 04:00 PM",
+          "1. Corrigendum - 3",
+          "PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27",
+          "08-Oct-2026 06:55 PM",
+          "09-Oct-2026 06:55 PM",
+          "2. Place of work",
+          "ROSOPRN382202627DT17092026",
+          "09-Oct-2026 02:00 PM",
+          "09-Oct-2026 04:00 PM",
+          "3. Date Extension Corregendum",
+          "IISER/PUR/0824/26",
+          "07-Oct-2026 05:00 PM",
+          "08-Oct-2026 03:00 PM",
+          "4. Corrigendum-3",
+          "RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8",
+          "12-Oct-2026 03:00 PM",
+          "12-Oct-2026 03:30 PM",
+          "5. Corrigendum-1",
+          "RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02",
+          "08-Oct-2026 03:00 PM",
+          "08-Oct-2026 03:30 PM",
+          "6. Corrigendum 04",
+          "LIC/CO/CRM/CCS/RFP/2026-27",
+          "15-Oct-2026 03:00 PM",
+          "15-Oct-2026 03:30 PM",
+          "7. Corrigendum - III",
+          "BNR/40093/NIT/Painting Work/03",
+          "05-Oct-2026 06:55 PM",
+          "06-Oct-2026 06:55 PM",
+          "8. Addendum-3",
+          "SGEL/CHQ/Contracts/PSPCL-1000 MW/2026",
+          "14-Oct-2026 02:00 PM",
+          "14-Oct-2026 03:00 PM",
+          "9. Revised NIT",
+          "SGEL/CHQ/Contracts/PSPCL-1000 MW/2026",
+          "14-Oct-2026 02:00 PM",
+          "14-Oct-2026 03:00 PM",
+          "10. Prebid Responses and Corrigendum Addendum",
+          "GEM/2026/B/7967752 dated 27.08.2026",
+          "09-Oct-2026 04:00 PM",
+          "10-Oct-2026 04:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.138Z",
+      "evidenceHash": "ae7a97cac4db95e72e6ee7d4a0375f2b59fa9f4961173b1967a4367ddf786629"
+    },
+    {
+      "externalKey": "cppp-procurement:pur/enq/jb/008/bailey-bridge/7646/2026-27:1.-corrigendum---3",
+      "sensorId": "cppp-procurement",
+      "title": "1. Corrigendum - 3",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SR%2BISrttFAsntUhcDq8oVwQ%3D%3D",
+      "tenderReference": "PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27",
+      "geographicPrecision": "unknown",
+      "note": "08-Oct-2026 06:55 PM | 09-Oct-2026 06:55 PM",
+      "raw": {
+        "cells": [
+          "1. Corrigendum - 3",
+          "PUR/ENQ/JB/008/BAILEY BRIDGE/7646/2026-27",
+          "08-Oct-2026 06:55 PM",
+          "09-Oct-2026 06:55 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.138Z",
+      "evidenceHash": "0585763bab2b54fcd227d11b9abc19fd2a52e4ec86f2721af00d0d2552d77496"
+    },
+    {
+      "externalKey": "cppp-procurement:rosoprn382202627dt17092026:2.-place-of-work",
+      "sensorId": "cppp-procurement",
+      "title": "2. Place of work",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SttPXwymFCmKKw83IIwbflA%3D%3D",
+      "tenderReference": "ROSOPRN382202627DT17092026",
+      "geographicPrecision": "unknown",
+      "note": "09-Oct-2026 02:00 PM | 09-Oct-2026 04:00 PM",
+      "raw": {
+        "cells": [
+          "2. Place of work",
+          "ROSOPRN382202627DT17092026",
+          "09-Oct-2026 02:00 PM",
+          "09-Oct-2026 04:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.138Z",
+      "evidenceHash": "1e69f6a3bfaab91a6398da0642e53fdc595a1ae472e84140aca1ea5708653ddd"
+    },
+    {
+      "externalKey": "cppp-procurement:iiser/pur/0824/26:3.-date-extension-corregendum",
+      "sensorId": "cppp-procurement",
+      "title": "3. Date Extension Corregendum",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SyMJ42G2wrU9GIxOKRHBU0A%3D%3D",
+      "tenderReference": "IISER/PUR/0824/26",
+      "geographicPrecision": "unknown",
+      "note": "07-Oct-2026 05:00 PM | 08-Oct-2026 03:00 PM",
+      "raw": {
+        "cells": [
+          "3. Date Extension Corregendum",
+          "IISER/PUR/0824/26",
+          "07-Oct-2026 05:00 PM",
+          "08-Oct-2026 03:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.138Z",
+      "evidenceHash": "0ce35379339d912d5497e5a7076ab6bcea9f86a5b96d9d9ae745008cd4a4a3d6"
+    },
+    {
+      "externalKey": "cppp-procurement:railtel/tender/ot/co/tp-/26-27/railway-board-lan/8:4.-corrigendum-3",
+      "sensorId": "cppp-procurement",
+      "title": "4. Corrigendum-3",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=ShkwDvaiAkHeAWyDlj3vw8w%3D%3D",
+      "tenderReference": "RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8",
+      "geographicPrecision": "unknown",
+      "note": "12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "4. Corrigendum-3",
+          "RailTel/Tender/OT/CO/TP /26-27/Railway Board LAN/8",
+          "12-Oct-2026 03:00 PM",
+          "12-Oct-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.138Z",
+      "evidenceHash": "61ffac47b550ca5135cc7f6c95a9653ccbfbe26b33dae611c27c496c550d9b42"
+    },
+    {
+      "externalKey": "cppp-procurement:railtel/tender/ot/co/it/cust-app-dev,-amc/26-27/02:5.-corrigendum-1",
+      "sensorId": "cppp-procurement",
+      "title": "5. Corrigendum-1",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=Sc7zRRaRNG2p%2FlmLoDLCQlA%3D%3D",
+      "tenderReference": "RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02",
+      "geographicPrecision": "unknown",
+      "note": "08-Oct-2026 03:00 PM | 08-Oct-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "5. Corrigendum-1",
+          "RailTel/Tender/OT/CO/IT/Cust app dev, AMC/26-27/02",
+          "08-Oct-2026 03:00 PM",
+          "08-Oct-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.138Z",
+      "evidenceHash": "6a12b561df430bc7a2d28984f240d0d91f3ce1d3cc933c132f1ce6d7b89b1134"
+    },
+    {
+      "externalKey": "cppp-procurement:lic/co/crm/ccs/rfp/2026-27:6.-corrigendum-04",
+      "sensorId": "cppp-procurement",
+      "title": "6. Corrigendum 04",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=S0%2Fno1BeGZI9XBcJhbC%2Fdxw%3D%3D",
+      "tenderReference": "LIC/CO/CRM/CCS/RFP/2026-27",
+      "geographicPrecision": "unknown",
+      "note": "15-Oct-2026 03:00 PM | 15-Oct-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "6. Corrigendum 04",
+          "LIC/CO/CRM/CCS/RFP/2026-27",
+          "15-Oct-2026 03:00 PM",
+          "15-Oct-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.138Z",
+      "evidenceHash": "19604ce39336c81efab9c568cf7831591fa96d7afcc86667444f8a9c18331165"
+    },
+    {
+      "externalKey": "cppp-procurement:bnr/40093/nit/painting-work/03:7.-corrigendum---iii",
+      "sensorId": "cppp-procurement",
+      "title": "7. Corrigendum - III",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SuEFCvIHgFK87LE%2FsdmRpQQ%3D%3D",
+      "tenderReference": "BNR/40093/NIT/Painting Work/03",
+      "geographicPrecision": "unknown",
+      "note": "05-Oct-2026 06:55 PM | 06-Oct-2026 06:55 PM",
+      "raw": {
+        "cells": [
+          "7. Corrigendum - III",
+          "BNR/40093/NIT/Painting Work/03",
+          "05-Oct-2026 06:55 PM",
+          "06-Oct-2026 06:55 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.139Z",
+      "evidenceHash": "41f24105188e991e68c8954ab0cdb510d3cece9e769e4ee7d2b1c9bca7ff0461"
+    },
+    {
+      "externalKey": "cppp-procurement:sgel/chq/contracts/pspcl-1000-mw/2026:8.-addendum-3",
+      "sensorId": "cppp-procurement",
+      "title": "8. Addendum-3",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SkEaGue%2FGORsnSgwUkyonFA%3D%3D",
+      "tenderReference": "SGEL/CHQ/Contracts/PSPCL-1000 MW/2026",
+      "geographicPrecision": "unknown",
+      "note": "14-Oct-2026 02:00 PM | 14-Oct-2026 03:00 PM",
+      "raw": {
+        "cells": [
+          "8. Addendum-3",
+          "SGEL/CHQ/Contracts/PSPCL-1000 MW/2026",
+          "14-Oct-2026 02:00 PM",
+          "14-Oct-2026 03:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.139Z",
+      "evidenceHash": "3aca60f364e4ee326056ffa29e4bd04a19e09809e659a79239977414d65ff6bb"
+    },
+    {
+      "externalKey": "cppp-procurement:sgel/chq/contracts/pspcl-1000-mw/2026:9.-revised-nit",
+      "sensorId": "cppp-procurement",
+      "title": "9. Revised NIT",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=S9na1j5A9iOxpx50krpSBbw%3D%3D",
+      "tenderReference": "SGEL/CHQ/Contracts/PSPCL-1000 MW/2026",
+      "geographicPrecision": "unknown",
+      "note": "14-Oct-2026 02:00 PM | 14-Oct-2026 03:00 PM",
+      "raw": {
+        "cells": [
+          "9. Revised NIT",
+          "SGEL/CHQ/Contracts/PSPCL-1000 MW/2026",
+          "14-Oct-2026 02:00 PM",
+          "14-Oct-2026 03:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.139Z",
+      "evidenceHash": "cb013da52fba60c8e1a47be2f0a13a7010b9b6bb643422649805a4ca10bd92c3"
+    },
+    {
+      "externalKey": "cppp-procurement:10.-prebid-responses-and-corrigendum-addendum:10.-prebid-responses-and-corrigendum-addendum",
+      "sensorId": "cppp-procurement",
+      "title": "10. Prebid Responses and Corrigendum Addendum",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SLBp01ceCf5qGaHth0ylqkA%3D%3D",
+      "tenderReference": "10. Prebid Responses and Corrigendum Addendum",
+      "geographicPrecision": "unknown",
+      "note": "09-Oct-2026 04:00 PM | 10-Oct-2026 04:00 PM",
+      "raw": {
+        "cells": [
+          "10. Prebid Responses and Corrigendum Addendum",
+          "GEM/2026/B/7967752 dated 27.08.2026",
+          "09-Oct-2026 04:00 PM",
+          "10-Oct-2026 04:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.139Z",
+      "evidenceHash": "51cc57173f435b9ec66fb88fb6c7fc31aed76f40c63582c5501dc014a9a0fc00"
+    },
+    {
+      "externalKey": "cppp-procurement:more...:latest-corrigendum-updates-every-15-mins.",
+      "sensorId": "cppp-procurement",
+      "title": "Latest Corrigendum updates every 15 mins.",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndLatestActiveCorrigendums&service=page",
+      "tenderReference": "More...",
+      "geographicPrecision": "unknown",
+      "raw": {
+        "cells": [
+          "Latest Corrigendum updates every 15 mins.",
+          "More..."
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.139Z",
+      "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
+    },
+    {
+      "externalKey": "cppp-procurement:certifying-agency:certifying-agency",
+      "sensorId": "cppp-procurement",
+      "title": "Certifying Agency",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_3&page=Home&service=direct&session=T&sp=SSTQC_Audit_Report.pdf",
+      "tenderReference": "Certifying Agency",
+      "geographicPrecision": "unknown",
+      "note": " | ",
+      "raw": {
+        "cells": [
+          "Certifying Agency",
+          "Certifying Agency",
+          "",
+          ""
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.139Z",
+      "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
+    },
+    {
+      "externalKey": "cppp-procurement:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer:function-formsubmit(){-var-f-=-document.getelementbyid(\"webrightmenunodsc_0\");-if(f.captchatext.value-==-\"\"-&&-f.username.value-==-\"\")-{-alert(\"please-enter-all-the-fields\");-return-false;-}-if(f.captchatext.value-==-\"\")-{-alert(\"captcha-cannot-be-blank.\");-return-false;-}-if(f.captchatext.value.length-!=-6)-{-alert(\"please-enter-valid-captcha\");-f.captchatext.value-=-\"\";-f.captchatext.focus();-return-false;-}-if(f.username.value-==-\"\")-{-alert(\"login-id-cannot-be-blank.\");-return-false;-}-var-atpos=f.username.value.indexof(\"@\");-if(f.username.value-!=-\"\"-&&-atpos<1)-{-alert(\"please-enter-valid-login-id-\");-f.username.value-=-\"\";-return-false;-}-}-<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer-document.getelementbyid(\"login\").style.display='block';-var-all-=-document.getelementsbyclassname(\"clickhere\");-for-(var-i-=-0;-i-<-all.length;-i++)-{-all[i].style.display-=-'block';-}",
+      "sensorId": "cppp-procurement",
+      "title": "function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var a",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24WebHomeBorder.%24WebRightMenuNoDSC.login&page=Home&service=direct&session=T",
+      "tenderReference": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
+      "geographicPrecision": "unknown",
+      "note": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer",
+      "raw": {
+        "cells": [
+          "function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; }",
+          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
+          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
+          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>",
+          "Find My Nodal Officer"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.139Z",
+      "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
+    },
+    {
+      "externalKey": "cppp-procurement:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer",
+      "sensorId": "cppp-procurement",
+      "title": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24WebHomeBorder.%24WebRightMenuNoDSC.login&page=Home&service=direct&session=T",
+      "tenderReference": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
+      "geographicPrecision": "unknown",
+      "note": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer",
+      "raw": {
+        "cells": [
+          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
+          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
+          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>",
+          "Find My Nodal Officer"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.139Z",
+      "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
+    },
+    {
+      "externalKey": "cppp-procurement:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer",
+      "sensorId": "cppp-procurement",
+      "title": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24WebHomeBorder.%24WebRightMenuNoDSC.login&page=Home&service=direct&session=T",
+      "tenderReference": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>",
+      "geographicPrecision": "unknown",
+      "note": "Find My Nodal Officer",
+      "raw": {
+        "cells": [
+          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
+          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>",
+          "Find My Nodal Officer"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.139Z",
+      "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
+    },
+    {
+      "externalKey": "cppp-procurement:advanced-search",
+      "sensorId": "cppp-procurement",
+      "title": "Advanced Search",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
+      "geographicPrecision": "unknown",
+      "note": "Advanced Search | Advanced Search |  |  |  | Advanced Search",
+      "raw": {
+        "cells": [
+          "Advanced Search",
+          "",
+          "Advanced Search",
+          "Advanced Search",
+          "",
+          "",
+          "",
+          "Advanced Search"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.140Z",
+      "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
+    },
+    {
+      "externalKey": "cppp-procurement:advanced-search:advanced-search",
+      "sensorId": "cppp-procurement",
+      "title": "Advanced Search",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
+      "tenderReference": "Advanced Search",
+      "geographicPrecision": "unknown",
+      "note": " |  |  | Advanced Search",
+      "raw": {
+        "cells": [
+          "Advanced Search",
+          "Advanced Search",
+          "",
+          "",
+          "",
+          "Advanced Search"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.140Z",
+      "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
+    },
+    {
+      "externalKey": "cppp-procurement:advanced-search",
+      "sensorId": "cppp-procurement",
+      "title": "Advanced Search",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
+      "geographicPrecision": "unknown",
+      "note": " |  | Advanced Search",
+      "raw": {
+        "cells": [
+          "Advanced Search",
+          "",
+          "",
+          "",
+          "Advanced Search"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.140Z",
+      "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
+    },
+    {
+      "externalKey": "cppp-procurement:faq-feedback:faq-feedback",
+      "sensorId": "cppp-procurement",
+      "title": "FAQ Feedback",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FAQFrontEnd&service=page",
+      "tenderReference": "FAQ Feedback",
+      "geographicPrecision": "unknown",
+      "note": "FAQ Feedback",
+      "raw": {
+        "cells": [
+          "FAQ Feedback",
+          "FAQ Feedback",
+          "FAQ Feedback"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.140Z",
+      "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
+    },
+    {
+      "externalKey": "cppp-procurement:faq-feedback:faq-feedback",
+      "sensorId": "cppp-procurement",
+      "title": "FAQ Feedback",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FAQFrontEnd&service=page",
+      "tenderReference": "FAQ Feedback",
+      "geographicPrecision": "unknown",
+      "raw": {
+        "cells": [
+          "FAQ Feedback",
+          "FAQ Feedback"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.140Z",
+      "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
+    },
+    {
+      "externalKey": "cppp-procurement:visitor-no:1446827-contents-owned-and-maintained-by-concerned-departments-in-coordination-with-finance-department-and-information-technology-department,-government-of-india-designed,-developed-and-hosted-by-national-informatics-centre-version-:-1.09.21-30-apr-2024-(c)-2017-tenders-nic,-all-rights-reserved.site-best-viewed-in-ie-10-and-above,-with-a-screen-resolution-1024-x-768.-portal-policies:visitor-no:1446827-contents-owned-and-maintained-by-concerned-departments-in-coordination-with-finance-department-and-information-technology-department,-government-of-india-designed,-developed-and-hosted-by-national-informatics-centre-version-:-1.09.21-30-apr-2024-(c)-2017-tenders-nic,-all-rights-reserved.site-best-viewed-in-ie-10-and-above,-with-a-screen-resolution-1024-x-768.-portal-policies",
+      "sensorId": "cppp-procurement",
+      "title": "Visitor No:1446827 Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "http://www.nic.in/",
+      "tenderReference": "Visitor No:1446827 Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
+      "geographicPrecision": "unknown",
+      "note": "Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India | Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies | Designed, Developed and Hosted by National Informatics Centre | Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. | Portal policies",
+      "raw": {
+        "cells": [
+          "Visitor No:1446827 Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
+          "Visitor No:1446827",
+          "Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India",
+          "Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
+          "Designed, Developed and Hosted by National Informatics Centre",
+          "Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.",
+          "Portal policies"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.141Z",
+      "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
+    },
+    {
+      "externalKey": "cppp-procurement:designed,-developed-and-hosted-by-national-informatics-centre-version-:-1.09.21-30-apr-2024-(c)-2017-tenders-nic,-all-rights-reserved.site-best-viewed-in-ie-10-and-above,-with-a-screen-resolution-1024-x-768.-portal-policies:designed,-developed-and-hosted-by-national-informatics-centre-version-:-1.09.21-30-apr-2024-(c)-2017-tenders-nic,-all-rights-reserved.site-best-viewed-in-ie-10-and-above,-with-a-screen-resolution-1024-x-768.-portal-policies",
+      "sensorId": "cppp-procurement",
+      "title": "Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "http://www.nic.in/",
+      "tenderReference": "Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
+      "geographicPrecision": "unknown",
+      "note": "Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. | Portal policies",
+      "raw": {
+        "cells": [
+          "Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
+          "Designed, Developed and Hosted by National Informatics Centre",
+          "Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.",
+          "Portal policies"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.141Z",
+      "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
+    },
+    {
+      "externalKey": "cppp-procurement:version-:-1.09.21-30-apr-2024-(c)-2017-tenders-nic,-all-rights-reserved.site-best-viewed-in-ie-10-and-above,-with-a-screen-resolution-1024-x-768.:designed,-developed-and-hosted-by-national-informatics-centre",
+      "sensorId": "cppp-procurement",
+      "title": "Designed, Developed and Hosted by National Informatics Centre",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "http://www.nic.in/",
+      "tenderReference": "Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.",
+      "geographicPrecision": "unknown",
+      "note": "Portal policies",
+      "raw": {
+        "cells": [
+          "Designed, Developed and Hosted by National Informatics Centre",
+          "Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.",
+          "Portal policies"
+        ]
+      },
+      "observedAt": "2026-09-30T06:40:51.141Z",
+      "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
       "externalKey": "cag-audits:126509",
@@ -339,7 +1665,7 @@
       "raw": {
         "reportId": "126509"
       },
-      "observedAt": "2026-09-30T00:24:45.778Z",
+      "observedAt": "2026-09-30T06:40:53.811Z",
       "evidenceHash": "18fa2ff4e23566cef34aa180523097b14b8739d9bc6b789cd62b0bed4600bc3d"
     },
     {
@@ -355,7 +1681,7 @@
       "raw": {
         "reportId": "126501"
       },
-      "observedAt": "2026-09-30T00:24:45.778Z",
+      "observedAt": "2026-09-30T06:40:53.811Z",
       "evidenceHash": "a488b2149632fc695a06b3596f206447eaabc32801a513bf9d5df45f567bb310"
     },
     {
@@ -371,7 +1697,7 @@
       "raw": {
         "reportId": "126486"
       },
-      "observedAt": "2026-09-30T00:24:45.778Z",
+      "observedAt": "2026-09-30T06:40:53.811Z",
       "evidenceHash": "dd7ba0c15bb7e502d1152d5261e4a6a2345ac8af8e74ae095f1640375d697b87"
     },
     {
@@ -387,7 +1713,7 @@
       "raw": {
         "reportId": "126482"
       },
-      "observedAt": "2026-09-30T00:24:45.778Z",
+      "observedAt": "2026-09-30T06:40:53.811Z",
       "evidenceHash": "d2068a7011b08a6d7be6ec0a19d6dd7da365db96d1f1f9ce77769853b600ea2d"
     },
     {
@@ -403,7 +1729,7 @@
       "raw": {
         "reportId": "126480"
       },
-      "observedAt": "2026-09-30T00:24:45.778Z",
+      "observedAt": "2026-09-30T06:40:53.811Z",
       "evidenceHash": "3ed73790f4725f453c3b9cbaf272eb529a1cc15cf3a119e807a1b6f21ccfd31a"
     },
     {
@@ -419,7 +1745,7 @@
       "raw": {
         "reportId": "126469"
       },
-      "observedAt": "2026-09-30T00:24:45.778Z",
+      "observedAt": "2026-09-30T06:40:53.811Z",
       "evidenceHash": "1c7d422b591169eb80826592dabb65db5168877db9d1d58f0ef0bcd51dcb5e6f"
     },
     {
@@ -435,7 +1761,7 @@
       "raw": {
         "reportId": "126458"
       },
-      "observedAt": "2026-09-30T00:24:45.778Z",
+      "observedAt": "2026-09-30T06:40:53.811Z",
       "evidenceHash": "e01566022e060c485559292b09732dafecf684c8ad5553baa0e1ac1585824a57"
     },
     {
@@ -451,7 +1777,7 @@
       "raw": {
         "reportId": "126325"
       },
-      "observedAt": "2026-09-30T00:24:45.778Z",
+      "observedAt": "2026-09-30T06:40:53.811Z",
       "evidenceHash": "59cb65fbe0232a895436738f801dbfafdc394a62f0f1b4fbe7e625cc119a4ffa"
     },
     {
@@ -467,7 +1793,7 @@
       "raw": {
         "reportId": "126309"
       },
-      "observedAt": "2026-09-30T00:24:45.778Z",
+      "observedAt": "2026-09-30T06:40:53.811Z",
       "evidenceHash": "c6b423a5a20b11b3e1564f2f839629d82a2937e6326aeb72643d6819bef6cd43"
     },
     {
@@ -483,7 +1809,7 @@
       "raw": {
         "reportId": "126303"
       },
-      "observedAt": "2026-09-30T00:24:45.778Z",
+      "observedAt": "2026-09-30T06:40:53.811Z",
       "evidenceHash": "090e9437e7e90c7f81874103baa7d01e15603ff15948b4f9572575236bac067d"
     },
     {
@@ -496,7 +1822,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-30T00:24:44.352Z",
+      "observedAt": "2026-09-30T06:40:54.523Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -509,7 +1835,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-30T00:24:44.354Z",
+      "observedAt": "2026-09-30T06:40:54.531Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -522,7 +1848,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-30T00:24:44.354Z",
+      "observedAt": "2026-09-30T06:40:54.531Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -535,7 +1861,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-30T00:24:44.354Z",
+      "observedAt": "2026-09-30T06:40:54.531Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -548,7 +1874,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-30T00:24:44.354Z",
+      "observedAt": "2026-09-30T06:40:54.531Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -562,7 +1888,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-30T00:24:44.354Z",
+      "observedAt": "2026-09-30T06:40:54.531Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -576,7 +1902,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-30T00:24:44.354Z",
+      "observedAt": "2026-09-30T06:40:54.531Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -590,7 +1916,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-30T00:24:44.354Z",
+      "observedAt": "2026-09-30T06:40:54.531Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -609,7 +1935,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-09-30T00:25:16.320Z",
+      "observedAt": "2026-09-30T06:41:24.948Z",
       "evidenceHash": "ed71dec9dd5f1a0d35193c12eb0dc18cfef6fb38c68c4acb0f82ae922099d3ad"
     },
     {
@@ -628,7 +1954,7 @@
         "anchorText": "100 Days Office Improvement Special Campaign Finance Department Maharashtra Government Directorate of Accounts and Treasuries ,Mumbai",
         "rowText": ""
       },
-      "observedAt": "2026-09-30T00:25:16.322Z",
+      "observedAt": "2026-09-30T06:41:24.952Z",
       "evidenceHash": "0a0c3c4797621eb9968690eb61fd6e1f846b17b6e70063d08f9efa5c08da8ff9"
     },
     {
@@ -647,7 +1973,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-09-30T00:25:16.323Z",
+      "observedAt": "2026-09-30T06:41:24.953Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -666,7 +1992,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-09-30T00:25:16.323Z",
+      "observedAt": "2026-09-30T06:41:24.953Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -685,7 +2011,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-09-30T00:25:16.323Z",
+      "observedAt": "2026-09-30T06:41:24.953Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -704,7 +2030,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-09-30T00:25:16.323Z",
+      "observedAt": "2026-09-30T06:41:24.953Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -723,7 +2049,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-09-30T00:25:16.323Z",
+      "observedAt": "2026-09-30T06:41:24.953Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -742,7 +2068,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-09-30T00:25:16.323Z",
+      "observedAt": "2026-09-30T06:41:24.953Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -760,9 +2086,34 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-09-30T00:25:16.220Z",
+      "observedAt": "2026-09-30T06:41:23.834Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
-  "links": []
+  "links": [
+    {
+      "fromExternalKey": "cppp-procurement:rosoprn382202627dt17092026:9.-interior-furnishing-electrical-air-conditioning-works",
+      "toExternalKey": "cppp-procurement:rosoprn382202627dt17092026:2.-place-of-work",
+      "relation": "procured → procured",
+      "basis": "exact_tender_reference",
+      "confidence": 1,
+      "reference": "ROSOPRN382202627DT17092026"
+    },
+    {
+      "fromExternalKey": "cppp-procurement:sgel/chq/contracts/pspcl-1000-mw/2026:8.-addendum-3",
+      "toExternalKey": "cppp-procurement:sgel/chq/contracts/pspcl-1000-mw/2026:9.-revised-nit",
+      "relation": "procured → procured",
+      "basis": "exact_tender_reference",
+      "confidence": 1,
+      "reference": "SGEL/CHQ/CONTRACTS/PSPCL-1000MW/2026"
+    },
+    {
+      "fromExternalKey": "cppp-procurement:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer:function-formsubmit(){-var-f-=-document.getelementbyid(\"webrightmenunodsc_0\");-if(f.captchatext.value-==-\"\"-&&-f.username.value-==-\"\")-{-alert(\"please-enter-all-the-fields\");-return-false;-}-if(f.captchatext.value-==-\"\")-{-alert(\"captcha-cannot-be-blank.\");-return-false;-}-if(f.captchatext.value.length-!=-6)-{-alert(\"please-enter-valid-captcha\");-f.captchatext.value-=-\"\";-f.captchatext.focus();-return-false;-}-if(f.username.value-==-\"\")-{-alert(\"login-id-cannot-be-blank.\");-return-false;-}-var-atpos=f.username.value.indexof(\"@\");-if(f.username.value-!=-\"\"-&&-atpos<1)-{-alert(\"please-enter-valid-login-id-\");-f.username.value-=-\"\";-return-false;-}-}-<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer-document.getelementbyid(\"login\").style.display='block';-var-all-=-document.getelementsbyclassname(\"clickhere\");-for-(var-i-=-0;-i-<-all.length;-i++)-{-all[i].style.display-=-'block';-}",
+      "toExternalKey": "cppp-procurement:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer",
+      "relation": "procured → procured",
+      "basis": "exact_tender_reference",
+      "confidence": 1,
+      "reference": "<AHREF=\"\"TITLE=\"LOGIN\"><IMGSRC=\"IMAGES/HOME_LOGIN_BUTTON_2.PNG\"ALIGN=\"ABSMIDDLE\"BORDER=\"0\"></A><PALIGN=\"JUSTIFY\"STYLE=\"COLOR:RED;\">YOURBROWSERJAVASCRIPTHASBEENDISABLED.KINDLYENABLESCRIPTFORFURTHERPROCESS.</P>FINDMYNODALOFFICER"
+    }
+  ]
 }
