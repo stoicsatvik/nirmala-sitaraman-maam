@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T13:40:31.000Z",
+  "generatedAt": "2026-09-30T19:17:39.216Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-09-30T13:39:49.542Z",
+      "fetchedAt": "2026-09-30T19:16:57.888Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-09-30T13:39:49.555Z",
+      "fetchedAt": "2026-09-30T19:16:57.900Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-09-30T13:39:49.556Z",
+      "fetchedAt": "2026-09-30T19:16:57.901Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-09-30T13:39:49.557Z",
+      "fetchedAt": "2026-09-30T19:16:57.902Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-30T13:39:49.558Z",
+      "fetchedAt": "2026-09-30T19:16:57.903Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-30T13:39:49.561Z",
+      "fetchedAt": "2026-09-30T19:16:57.906Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-30T13:40:23.056Z",
+      "fetchedAt": "2026-09-30T19:17:31.628Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-09-30T13:40:23.054Z",
+      "fetchedAt": "2026-09-30T19:17:31.627Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-09-30T13:40:23.057Z",
+      "fetchedAt": "2026-09-30T19:17:31.629Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-09-30T13:40:23.058Z",
+      "fetchedAt": "2026-09-30T19:17:31.630Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 15680090000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=791711927",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=791711927",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=82749323",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=82749323",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹15,68,009 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(36.7%)"
         ]
       },
-      "observedAt": "2026-09-30T13:39:56.057Z",
-      "evidenceHash": "701dc926d2f05d54c2dfdc82a46c1ea3b7d52f4adc64db4f1a83190b2b9b25be"
+      "observedAt": "2026-09-30T19:17:04.832Z",
+      "evidenceHash": "843a223c8dc99a87f95f679d3a1385d74eeb66c915ec5ed20679e832f93c163c"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:8:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5148100000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=791711927",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=791711927",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=82749323",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=82749323",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,14,810 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(41.4%)"
         ]
       },
-      "observedAt": "2026-09-30T13:39:56.057Z",
-      "evidenceHash": "aaf9b312237799df69844c45cd04ee9518a941de9c9ca6608607da006d11a76e"
+      "observedAt": "2026-09-30T19:17:04.832Z",
+      "evidenceHash": "e9eaf9a69f0c52c2181ccadda9fc3f72cb507e21e481c3aaaa2c9468dc87637a"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:8:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5099490000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=791711927",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=791711927",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=82749323",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=82749323",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,09,949 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(38.5%)"
         ]
       },
-      "observedAt": "2026-09-30T13:39:56.057Z",
-      "evidenceHash": "308a8ab6bca525459c4402c6339ad8ec63e6201f91b4ea3ca3885e4f85b9a937"
+      "observedAt": "2026-09-30T19:17:04.832Z",
+      "evidenceHash": "69ba4a72388f2f602d5155e2c4ab56806f8797cb5eb9d51879de309db511d2f6"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:8:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1394170000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=791711927",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=791711927",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=82749323",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=82749323",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,39,417 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(48.6%)"
         ]
       },
-      "observedAt": "2026-09-30T13:39:56.058Z",
-      "evidenceHash": "2ab88d2fd6c0e70cd27563ad28f3a05a6e464238391ddaadefd83e3abec08094"
+      "observedAt": "2026-09-30T19:17:04.832Z",
+      "evidenceHash": "edf54c74e75db2f5eb2ec8815a27eee055cf02e0e93c12b39329f6a19f47b2c3"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:8:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 20779580000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=791711927",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=791711927",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=82749323",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=82749323",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹20,77,958 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(37.1%)"
         ]
       },
-      "observedAt": "2026-09-30T13:39:56.058Z",
-      "evidenceHash": "cf1b364675c53497456fdc436bd807784267267f6a668e6d68e2c67e62127e70"
+      "observedAt": "2026-09-30T19:17:04.832Z",
+      "evidenceHash": "c2608bc4b9056d6e769d329fc65c51dd40b6a7af4fe350ce0be4dc49c9b96da1"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:8:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1870374200000.0002,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=791711927",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=791711927",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=82749323",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=82749323",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,87,037.42 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,30 +323,30 @@
           "(39%)"
         ]
       },
-      "observedAt": "2026-09-30T13:39:56.068Z",
-      "evidenceHash": "b86cf0357561cc7a5fb58bea18ac1f95a96321fd41633f5217c67f073447da20"
+      "observedAt": "2026-09-30T19:17:04.834Z",
+      "evidenceHash": "71d0e9ce1a287c4837f482ef3c2db54c0afe1457e3cfbfce4adf8b8d87c3e061"
     },
     {
-      "externalKey": "cppp-procurement:screen-reader-access-30-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-30-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
+      "externalKey": "cppp-procurement:screen-reader-access-01-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-01-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
       "sensorId": "cppp-procurement",
-      "title": "Screen Reader Access 30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "title": "Screen Reader Access 01-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=WebScreenReaderAccess&service=page",
-      "tenderReference": "Screen Reader Access 30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "tenderReference": "Screen Reader Access 01-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "geographicPrecision": "unknown",
-      "note": "Screen Reader Access |  |  | 30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 30-Sep-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
+      "note": "Screen Reader Access |  |  | 01-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 01-Oct-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
       "raw": {
         "cells": [
-          "Screen Reader Access 30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+          "Screen Reader Access 01-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
           "Screen Reader Access",
           "Screen Reader Access",
           "",
           "",
-          "30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "30-Sep-2026",
+          "01-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "01-Oct-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -357,8 +357,8 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.429Z",
-      "evidenceHash": "5bbb4de4ca75f040da80284502ca21424128a296dc3860e3d330ba1c5df2eb1a"
+      "observedAt": "2026-09-30T19:17:00.972Z",
+      "evidenceHash": "ee0b970d175ac2afe8fa4e734cdcec864c5237d7816d49b51c0cb74417c8fffb"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access:screen-reader-access",
@@ -377,25 +377,25 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.430Z",
+      "observedAt": "2026-09-30T19:17:00.973Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
-      "externalKey": "cppp-procurement:30-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:30-sep-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
+      "externalKey": "cppp-procurement:01-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:01-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
       "sensorId": "cppp-procurement",
-      "title": "30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "title": "01-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "tenderReference": "30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "tenderReference": "01-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "geographicPrecision": "unknown",
       "note": "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  | ",
       "raw": {
         "cells": [
-          "30-Sep-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "30-Sep-2026",
+          "01-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "01-Oct-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -403,13 +403,13 @@
           ""
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.431Z",
-      "evidenceHash": "e63e16501650cc0842986162efb499965d674a7f774ce749667adf9d29c48041"
+      "observedAt": "2026-09-30T19:17:00.973Z",
+      "evidenceHash": "5769328690d69a8a8f403cdb0a738db0ec462a7ebfe21aae9654d3fc1b45b1a5"
     },
     {
-      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:30-sep-2026",
+      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:01-oct-2026",
       "sensorId": "cppp-procurement",
-      "title": "30-Sep-2026",
+      "title": "01-Oct-2026",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -420,7 +420,7 @@
       "note": " |  |  | ",
       "raw": {
         "cells": [
-          "30-Sep-2026",
+          "01-Oct-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -428,8 +428,8 @@
           ""
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.431Z",
-      "evidenceHash": "acbd19cba83f12eefd4d38ab9177c52f564fe43e605265ef0da358ede4f505a9"
+      "observedAt": "2026-09-30T19:17:00.974Z",
+      "evidenceHash": "5e2331bc61adc83fccf005352ce4213e85245d4167925530ed5d208312f5bb87"
     },
     {
       "externalKey": "cppp-procurement:epublishing-system,-government-of-india",
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.431Z",
+      "observedAt": "2026-09-30T19:17:00.974Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.431Z",
+      "observedAt": "2026-09-30T19:17:00.974Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Group Medical Insurance for Students (Cashless) NITANP/SMMD/TENDER/2026-27/32 21-Oct-2026 05:00 PM 23-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Group Medical Insurance for Students (Cashless) NITANP/SMMD/TENDER/2026-27/32 21-Oct-2026 05:00 PM 23-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Group Medical Insurance for Students (Cashless) NITANP/SMMD/TENDER/2026-27/32 21-Oct-2026 05:00 PM 23-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Group Medical Insurance for Students (Cashless) NITANP/SMMD/TENDER/2026-27/32 21-Oct-2026 05:00 PM 23-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Group Medical Insurance for Students (Cashless) NITANP/SMMD/TENDER/2026-27/32 21-Oct-2026 05:00 PM 23-Oct-2026 03:30 PM | 1. HIRE/15MT FARANA/NIT/974/65 | HIRE/15MT FARANA/NIT/974/65 | 05-Oct-2026 06:55 PM | 06-Oct-2026 06:55 PM | 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. | Prodn-03/NSC-KOL/2026-27/Field Pea | 05-Oct-2026 02:30 PM | 05-Oct-2026 03:00 PM | 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam | F-Abhayapuri-Maturenuts-10-26 | 06-Oct-2026 10:30 AM | 06-Oct-2026 11:00 AM | 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES | BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 | 08-Oct-2026 12:30 PM | 08-Oct-2026 06:00 PM | 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. | 91-84/PnW/W/1698 | 05-Oct-2026 02:00 PM | 05-Oct-2026 05:00 PM | 6. BANDR/NALCO/STRL/71120/NIT/029 | BANDR/NALCO/STRL/71120/NIT/029 | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. | IACS/CIVIL/925/2026-27/35 | 09-Oct-2026 03:00 PM | 09-Oct-2026 03:30 PM | 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing | Corrigendum No 2 to RFx No 2800001331 | 07-Oct-2026 03:00 PM | 07-Oct-2026 03:30 PM | 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 | MO/PLL/51291/ENABLING WORK/SC/NIT/03, | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 10. Group Medical Insurance for Students (Cashless) | NITANP/SMMD/TENDER/2026-27/32 | 21-Oct-2026 05:00 PM | 23-Oct-2026 03:30 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM | 1. Corrigendum | CHC | 06-Oct-2026 03:00 PM | 07-Oct-2026 03:00 PM | 2. Extension of Last Date | 02/2026 | 09-Oct-2026 05:00 PM | 12-Oct-2026 11:00 AM | 3. Addendum 1 | T10/T-2113/2026-C | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM | 4. Extension of Last Date | 01/2026 | 09-Oct-2026 05:30 PM | 12-Oct-2026 03:00 PM | 5. TN14-SEPT26-WEST3 | MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 | 07-Oct-2026 06:55 PM | 08-Oct-2026 06:55 PM | 6. TN06-SEPT26-WEST2 | MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 | 07-Oct-2026 06:55 PM | 08-Oct-2026 06:55 PM | 7. TN04-AUG26-WEST4 | B AND R/71159/Mech. Works/NIT/SC/01 | 07-Oct-2026 06:55 PM | 08-Oct-2026 06:55 PM | 8. TN02-SEPT26-WEST4 | MO/71168/VEHICLE/NIT/2670 | 07-Oct-2026 06:55 PM | 08-Oct-2026 06:55 PM | 9. 2026_MPPGC_852502_1/C1 | 91-84/PnW/W/V/1679 | 05-Oct-2026 02:00 PM | 05-Oct-2026 05:00 PM | 10. Extension of Dates related | NITM.1/(46-Proj)/ANRF/004253 | 06-Oct-2026 05:00 PM | 07-Oct-2026 02:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 2. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market OPF/EoI/RnD/13/2026-27 29-Oct-2026 05:00 PM 30-Oct-2026 10:00 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 2. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market OPF/EoI/RnD/13/2026-27 29-Oct-2026 05:00 PM 30-Oct-2026 10:00 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 2. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market OPF/EoI/RnD/13/2026-27 29-Oct-2026 05:00 PM 30-Oct-2026 10:00 AM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 2. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market OPF/EoI/RnD/13/2026-27 29-Oct-2026 05:00 PM 30-Oct-2026 10:00 AM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 2. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market OPF/EoI/RnD/13/2026-27 29-Oct-2026 05:00 PM 30-Oct-2026 10:00 AM | 1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. | Prodn-03/NSC-KOL/2026-27/Field Pea | 05-Oct-2026 02:30 PM | 05-Oct-2026 03:00 PM | 2. HIRE/15MT FARANA/NIT/974/65 | HIRE/15MT FARANA/NIT/974/65 | 05-Oct-2026 06:55 PM | 06-Oct-2026 06:55 PM | 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam | F-Abhayapuri-Maturenuts-10-26 | 06-Oct-2026 10:30 AM | 06-Oct-2026 11:00 AM | 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. | 91-84/PnW/W/1698 | 05-Oct-2026 02:00 PM | 05-Oct-2026 05:00 PM | 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES | BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 | 08-Oct-2026 12:30 PM | 08-Oct-2026 06:00 PM | 6. BANDR/NALCO/STRL/71120/NIT/029 | BANDR/NALCO/STRL/71120/NIT/029 | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. | IACS/CIVIL/925/2026-27/35 | 09-Oct-2026 03:00 PM | 09-Oct-2026 03:30 PM | 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing | Corrigendum No 2 to RFx No 2800001331 | 07-Oct-2026 03:00 PM | 07-Oct-2026 03:30 PM | 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 | MO/PLL/51291/ENABLING WORK/SC/NIT/03, | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market | OPF/EoI/RnD/13/2026-27 | 29-Oct-2026 05:00 PM | 30-Oct-2026 10:00 AM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM | 1. Corrigendum | CHC | 06-Oct-2026 03:00 PM | 07-Oct-2026 03:00 PM | 2. Extension of Last Date | 02/2026 | 09-Oct-2026 05:00 PM | 12-Oct-2026 11:00 AM | 3. Addendum 1 | T10/T-2113/2026-C | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM | 4. Extension of Last Date | 01/2026 | 09-Oct-2026 05:30 PM | 12-Oct-2026 03:00 PM | 5. TN14-SEPT26-WEST3 | MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 | 07-Oct-2026 06:55 PM | 08-Oct-2026 06:55 PM | 6. TN06-SEPT26-WEST2 | MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 | 07-Oct-2026 06:55 PM | 08-Oct-2026 06:55 PM | 7. TN04-AUG26-WEST4 | B AND R/71159/Mech. Works/NIT/SC/01 | 07-Oct-2026 06:55 PM | 08-Oct-2026 06:55 PM | 8. TN02-SEPT26-WEST4 | MO/71168/VEHICLE/NIT/2670 | 07-Oct-2026 06:55 PM | 08-Oct-2026 06:55 PM | 9. 2026_MPPGC_852502_1/C1 | 91-84/PnW/W/V/1679 | 05-Oct-2026 02:00 PM | 05-Oct-2026 05:00 PM | 10. Extension of Dates related | NITM.1/(46-Proj)/ANRF/004253 | 06-Oct-2026 05:00 PM | 07-Oct-2026 02:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,41 +520,41 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Group Medical Insurance for Students (Cashless) NITANP/SMMD/TENDER/2026-27/32 21-Oct-2026 05:00 PM 23-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 2. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market OPF/EoI/RnD/13/2026-27 29-Oct-2026 05:00 PM 30-Oct-2026 10:00 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Group Medical Insurance for Students (Cashless) NITANP/SMMD/TENDER/2026-27/32 21-Oct-2026 05:00 PM 23-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 2. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market OPF/EoI/RnD/13/2026-27 29-Oct-2026 05:00 PM 30-Oct-2026 10:00 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum CHC 06-Oct-2026 03:00 PM 07-Oct-2026 03:00 PM 2. Extension of Last Date 02/2026 09-Oct-2026 05:00 PM 12-Oct-2026 11:00 AM 3. Addendum 1 T10/T-2113/2026-C 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 4. Extension of Last Date 01/2026 09-Oct-2026 05:30 PM 12-Oct-2026 03:00 PM 5. TN14-SEPT26-WEST3 MO/NTPC-SOL/51211/FLUSH DOOR/NIT/03 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 6. TN06-SEPT26-WEST2 MO/GAIL-USAR/71147/MAST CLIMBING PLATFORM/NIT/2682 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 7. TN04-AUG26-WEST4 B AND R/71159/Mech. Works/NIT/SC/01 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 8. TN02-SEPT26-WEST4 MO/71168/VEHICLE/NIT/2670 07-Oct-2026 06:55 PM 08-Oct-2026 06:55 PM 9. 2026_MPPGC_852502_1/C1 91-84/PnW/W/V/1679 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 10. Extension of Dates related NITM.1/(46-Proj)/ANRF/004253 06-Oct-2026 05:00 PM 07-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Group Medical Insurance for Students (Cashless) NITANP/SMMD/TENDER/2026-27/32 21-Oct-2026 05:00 PM 23-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Group Medical Insurance for Students (Cashless) NITANP/SMMD/TENDER/2026-27/32 21-Oct-2026 05:00 PM 23-Oct-2026 03:30 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 2. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market OPF/EoI/RnD/13/2026-27 29-Oct-2026 05:00 PM 30-Oct-2026 10:00 AM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 2. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market OPF/EoI/RnD/13/2026-27 29-Oct-2026 05:00 PM 30-Oct-2026 10:00 AM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Group Medical Insurance for Students (Cashless) NITANP/SMMD/TENDER/2026-27/32 21-Oct-2026 05:00 PM 23-Oct-2026 03:30 PM",
-          "1. HIRE/15MT FARANA/NIT/974/65",
-          "HIRE/15MT FARANA/NIT/974/65",
-          "05-Oct-2026 06:55 PM",
-          "06-Oct-2026 06:55 PM",
-          "2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis.",
+          "1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 2. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market OPF/EoI/RnD/13/2026-27 29-Oct-2026 05:00 PM 30-Oct-2026 10:00 AM",
+          "1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis.",
           "Prodn-03/NSC-KOL/2026-27/Field Pea",
           "05-Oct-2026 02:30 PM",
           "05-Oct-2026 03:00 PM",
+          "2. HIRE/15MT FARANA/NIT/974/65",
+          "HIRE/15MT FARANA/NIT/974/65",
+          "05-Oct-2026 06:55 PM",
+          "06-Oct-2026 06:55 PM",
           "3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam",
           "F-Abhayapuri-Maturenuts-10-26",
           "06-Oct-2026 10:30 AM",
           "06-Oct-2026 11:00 AM",
-          "4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
-          "BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323",
-          "08-Oct-2026 12:30 PM",
-          "08-Oct-2026 06:00 PM",
-          "5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna.",
+          "4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna.",
           "91-84/PnW/W/1698",
           "05-Oct-2026 02:00 PM",
           "05-Oct-2026 05:00 PM",
+          "5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
+          "BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323",
+          "08-Oct-2026 12:30 PM",
+          "08-Oct-2026 06:00 PM",
           "6. BANDR/NALCO/STRL/71120/NIT/029",
           "BANDR/NALCO/STRL/71120/NIT/029",
           "06-Oct-2026 06:55 PM",
@@ -571,10 +571,10 @@
           "MO/PLL/51291/ENABLING WORK/SC/NIT/03,",
           "06-Oct-2026 06:55 PM",
           "07-Oct-2026 06:55 PM",
-          "10. Group Medical Insurance for Students (Cashless)",
-          "NITANP/SMMD/TENDER/2026-27/32",
-          "21-Oct-2026 05:00 PM",
-          "23-Oct-2026 03:30 PM",
+          "10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market",
+          "OPF/EoI/RnD/13/2026-27",
+          "29-Oct-2026 05:00 PM",
+          "30-Oct-2026 10:00 AM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.438Z",
-      "evidenceHash": "e50daced8f377f0913d403c9e1da65e400ec59cc29473ef2309b532050dc49ee"
+      "observedAt": "2026-09-30T19:17:00.982Z",
+      "evidenceHash": "e1eb5977d695a86366d126405919482761711893dd0de7217de0752bf31f6297"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.439Z",
+      "observedAt": "2026-09-30T19:17:00.982Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,44 +727,44 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.440Z",
+      "observedAt": "2026-09-30T19:17:00.983Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-hire/15mt-farana/nit/974/65-hire/15mt-farana/nit/974/65-05-oct-2026-06:55-pm-06-oct-2026-06:55-pm-2.-supply-of-fresh-finished-product-of-various-varieties-of-cs-category-seeds-of-field-pea,-on-ex-godown-basis-and-f.o.r-odisha-(up-to-block-level-destinations)-basis.-prodn-03/nsc-kol/2026-27/field-pea-05-oct-2026-02:30-pm-05-oct-2026-03:00-pm-3.-tender-for-sale-of-21115-numbers-of-matured-coconuts---8973-big-size-and-12142-small-size---at-coconut-development-board-dsp-farm,-abhayapuri,-bongaigoan,-assam-f-abhayapuri-maturenuts-10-26-06-oct-2026-10:30-am-06-oct-2026-11:00-am-4.-sale-of-limestone-size-(0-50mm)-by-road,bslc-mines-bslc/mining/appv/limestone-0-50-mm-/25-26/323-08-oct-2026-12:30-pm-08-oct-2026-06:00-pm-5.-work-contract-for-assistance-in-unit-operations-and-maintenance-related-works-at-2x10-mw,-bhps-iv,-mppgcl,-jhinna.-91-84/pnw/w/1698-05-oct-2026-02:00-pm-05-oct-2026-05:00-pm-6.-bandr/nalco/strl/71120/nit/029-bandr/nalco/strl/71120/nit/029-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-7.-proposed-repair-and-renovation-of-room-no--m--154-at-first-floor-of-the-main-building.-iacs/civil/925/2026-27/35-09-oct-2026-03:00-pm-09-oct-2026-03:30-pm-8.-corrigendum-no-2-to-rfx-no-2800001331-eoi-for-establishment-of-shipping-container-manufacturing-corrigendum-no-2-to-rfx-no-2800001331-07-oct-2026-03:00-pm-07-oct-2026-03:30-pm-9.-mo/pll/51291/enabling-work/sc/nit/03-mo/pll/51291/enabling-work/sc/nit/03,-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-10.-group-medical-insurance-for-students-(cashless)-nitanp/smmd/tender/2026-27/32-21-oct-2026-05:00-pm-23-oct-2026-03:30-pm:1.-hire/15mt-farana/nit/974/65-hire/15mt-farana/nit/974/65-05-oct-2026-06:55-pm-06-oct-2026-06:55-pm-2.-supply-of-fresh-finished-product-of-various-varieties-of-cs-category-seeds-of-field-pea,-on-ex-godown-basis-and-f.o.r-odisha-(up-to-block-level-destinations)-basis.-prodn-03/nsc-kol/2026-27/field-pea-05-oct-2026-02:30-pm-05-oct-2026-03:00-pm-3.-tender-for-sale-of-21115-numbers-of-matured-coconuts---8973-big-size-and-12142-small-size---at-coconut-development-board-dsp-farm,-abhayapuri,-bongaigoan,-assam-f-abhayapuri-maturenuts-10-26-06-oct-2026-10:30-am-06-oct-2026-11:00-am-4.-sale-of-limestone-size-(0-50mm)-by-road,bslc-mines-bslc/mining/appv/limestone-0-50-mm-/25-26/323-08-oct-2026-12:30-pm-08-oct-2026-06:00-pm-5.-work-contract-for-assistance-in-unit-operations-and-maintenance-related-works-at-2x10-mw,-bhps-iv,-mppgcl,-jhinna.-91-84/pnw/w/1698-05-oct-2026-02:00-pm-05-oct-2026-05:00-pm-6.-bandr/nalco/strl/71120/nit/029-bandr/nalco/strl/71120/nit/029-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-7.-proposed-repair-and-renovation-of-room-no--m--154-at-first-floor-of-the-main-building.-iacs/civil/925/2026-27/35-09-oct-2026-03:00-pm-09-oct-2026-03:30-pm-8.-corrigendum-no-2-to-rfx-no-2800001331-eoi-for-establishment-of-shipping-container-manufacturing-corrigendum-no-2-to-rfx-no-2800001331-07-oct-2026-03:00-pm-07-oct-2026-03:30-pm-9.-mo/pll/51291/enabling-work/sc/nit/03-mo/pll/51291/enabling-work/sc/nit/03,-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-10.-group-medical-insurance-for-students-(cashless)-nitanp/smmd/tender/2026-27/32-21-oct-2026-05:00-pm-23-oct-2026-03:30-pm",
+      "externalKey": "cppp-procurement:1.-supply-of-fresh-finished-product-of-various-varieties-of-cs-category-seeds-of-field-pea,-on-ex-godown-basis-and-f.o.r-odisha-(up-to-block-level-destinations)-basis.-prodn-03/nsc-kol/2026-27/field-pea-05-oct-2026-02:30-pm-05-oct-2026-03:00-pm-2.-hire/15mt-farana/nit/974/65-hire/15mt-farana/nit/974/65-05-oct-2026-06:55-pm-06-oct-2026-06:55-pm-3.-tender-for-sale-of-21115-numbers-of-matured-coconuts---8973-big-size-and-12142-small-size---at-coconut-development-board-dsp-farm,-abhayapuri,-bongaigoan,-assam-f-abhayapuri-maturenuts-10-26-06-oct-2026-10:30-am-06-oct-2026-11:00-am-4.-work-contract-for-assistance-in-unit-operations-and-maintenance-related-works-at-2x10-mw,-bhps-iv,-mppgcl,-jhinna.-91-84/pnw/w/1698-05-oct-2026-02:00-pm-05-oct-2026-05:00-pm-5.-sale-of-limestone-size-(0-50mm)-by-road,bslc-mines-bslc/mining/appv/limestone-0-50-mm-/25-26/323-08-oct-2026-12:30-pm-08-oct-2026-06:00-pm-6.-bandr/nalco/strl/71120/nit/029-bandr/nalco/strl/71120/nit/029-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-7.-proposed-repair-and-renovation-of-room-no--m--154-at-first-floor-of-the-main-building.-iacs/civil/925/2026-27/35-09-oct-2026-03:00-pm-09-oct-2026-03:30-pm-8.-corrigendum-no-2-to-rfx-no-2800001331-eoi-for-establishment-of-shipping-container-manufacturing-corrigendum-no-2-to-rfx-no-2800001331-07-oct-2026-03:00-pm-07-oct-2026-03:30-pm-9.-mo/pll/51291/enabling-work/sc/nit/03-mo/pll/51291/enabling-work/sc/nit/03,-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-10.-expression-of-interest-(eoi)-for-collaboration-in-design,-development,-manufacturing-and-marketing-of-products-for-civilian-market-opf/eoi/rnd/13/2026-27-29-oct-2026-05:00-pm-30-oct-2026-10:00-am:1.-supply-of-fresh-finished-product-of-various-varieties-of-cs-category-seeds-of-field-pea,-on-ex-godown-basis-and-f.o.r-odisha-(up-to-block-level-destinations)-basis.-prodn-03/nsc-kol/2026-27/field-pea-05-oct-2026-02:30-pm-05-oct-2026-03:00-pm-2.-hire/15mt-farana/nit/974/65-hire/15mt-farana/nit/974/65-05-oct-2026-06:55-pm-06-oct-2026-06:55-pm-3.-tender-for-sale-of-21115-numbers-of-matured-coconuts---8973-big-size-and-12142-small-size---at-coconut-development-board-dsp-farm,-abhayapuri,-bongaigoan,-assam-f-abhayapuri-maturenuts-10-26-06-oct-2026-10:30-am-06-oct-2026-11:00-am-4.-work-contract-for-assistance-in-unit-operations-and-maintenance-related-works-at-2x10-mw,-bhps-iv,-mppgcl,-jhinna.-91-84/pnw/w/1698-05-oct-2026-02:00-pm-05-oct-2026-05:00-pm-5.-sale-of-limestone-size-(0-50mm)-by-road,bslc-mines-bslc/mining/appv/limestone-0-50-mm-/25-26/323-08-oct-2026-12:30-pm-08-oct-2026-06:00-pm-6.-bandr/nalco/strl/71120/nit/029-bandr/nalco/strl/71120/nit/029-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-7.-proposed-repair-and-renovation-of-room-no--m--154-at-first-floor-of-the-main-building.-iacs/civil/925/2026-27/35-09-oct-2026-03:00-pm-09-oct-2026-03:30-pm-8.-corrigendum-no-2-to-rfx-no-2800001331-eoi-for-establishment-of-shipping-container-manufacturing-corrigendum-no-2-to-rfx-no-2800001331-07-oct-2026-03:00-pm-07-oct-2026-03:30-pm-9.-mo/pll/51291/enabling-work/sc/nit/03-mo/pll/51291/enabling-work/sc/nit/03,-06-oct-2026-06:55-pm-07-oct-2026-06:55-pm-10.-expression-of-interest-(eoi)-for-collaboration-in-design,-development,-manufacturing-and-marketing-of-products-for-civilian-market-opf/eoi/rnd/13/2026-27-29-oct-2026-05:00-pm-30-oct-2026-10:00-am",
       "sensorId": "cppp-procurement",
-      "title": "1. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigo",
+      "title": "1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 2. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigo",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SzBkEa5%2FuXYJRGxFNC4Mdug%3D%3D",
-      "tenderReference": "1. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Group Medical Insurance for Students (Cashless) NITANP/SMMD/TENDER/2026-27/32 21-Oct-2026 05:00 PM 23-Oct-2026 03:30 PM",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S3l4I2unIeEzRG0G3LVgVPQ%3D%3D",
+      "tenderReference": "1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 2. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market OPF/EoI/RnD/13/2026-27 29-Oct-2026 05:00 PM 30-Oct-2026 10:00 AM",
       "geographicPrecision": "unknown",
-      "note": "HIRE/15MT FARANA/NIT/974/65 | 05-Oct-2026 06:55 PM | 06-Oct-2026 06:55 PM | 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. | Prodn-03/NSC-KOL/2026-27/Field Pea | 05-Oct-2026 02:30 PM | 05-Oct-2026 03:00 PM | 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam | F-Abhayapuri-Maturenuts-10-26 | 06-Oct-2026 10:30 AM | 06-Oct-2026 11:00 AM | 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES | BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 | 08-Oct-2026 12:30 PM | 08-Oct-2026 06:00 PM | 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. | 91-84/PnW/W/1698 | 05-Oct-2026 02:00 PM | 05-Oct-2026 05:00 PM | 6. BANDR/NALCO/STRL/71120/NIT/029 | BANDR/NALCO/STRL/71120/NIT/029 | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. | IACS/CIVIL/925/2026-27/35 | 09-Oct-2026 03:00 PM | 09-Oct-2026 03:30 PM | 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing | Corrigendum No 2 to RFx No 2800001331 | 07-Oct-2026 03:00 PM | 07-Oct-2026 03:30 PM | 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 | MO/PLL/51291/ENABLING WORK/SC/NIT/03, | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 10. Group Medical Insurance for Students (Cashless) | NITANP/SMMD/TENDER/2026-27/32 | 21-Oct-2026 05:00 PM | 23-Oct-2026 03:30 PM",
+      "note": "Prodn-03/NSC-KOL/2026-27/Field Pea | 05-Oct-2026 02:30 PM | 05-Oct-2026 03:00 PM | 2. HIRE/15MT FARANA/NIT/974/65 | HIRE/15MT FARANA/NIT/974/65 | 05-Oct-2026 06:55 PM | 06-Oct-2026 06:55 PM | 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam | F-Abhayapuri-Maturenuts-10-26 | 06-Oct-2026 10:30 AM | 06-Oct-2026 11:00 AM | 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. | 91-84/PnW/W/1698 | 05-Oct-2026 02:00 PM | 05-Oct-2026 05:00 PM | 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES | BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 | 08-Oct-2026 12:30 PM | 08-Oct-2026 06:00 PM | 6. BANDR/NALCO/STRL/71120/NIT/029 | BANDR/NALCO/STRL/71120/NIT/029 | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. | IACS/CIVIL/925/2026-27/35 | 09-Oct-2026 03:00 PM | 09-Oct-2026 03:30 PM | 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing | Corrigendum No 2 to RFx No 2800001331 | 07-Oct-2026 03:00 PM | 07-Oct-2026 03:30 PM | 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 | MO/PLL/51291/ENABLING WORK/SC/NIT/03, | 06-Oct-2026 06:55 PM | 07-Oct-2026 06:55 PM | 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market | OPF/EoI/RnD/13/2026-27 | 29-Oct-2026 05:00 PM | 30-Oct-2026 10:00 AM",
       "raw": {
         "cells": [
-          "1. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Group Medical Insurance for Students (Cashless) NITANP/SMMD/TENDER/2026-27/32 21-Oct-2026 05:00 PM 23-Oct-2026 03:30 PM",
-          "1. HIRE/15MT FARANA/NIT/974/65",
-          "HIRE/15MT FARANA/NIT/974/65",
-          "05-Oct-2026 06:55 PM",
-          "06-Oct-2026 06:55 PM",
-          "2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis.",
+          "1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis. Prodn-03/NSC-KOL/2026-27/Field Pea 05-Oct-2026 02:30 PM 05-Oct-2026 03:00 PM 2. HIRE/15MT FARANA/NIT/974/65 HIRE/15MT FARANA/NIT/974/65 05-Oct-2026 06:55 PM 06-Oct-2026 06:55 PM 3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam F-Abhayapuri-Maturenuts-10-26 06-Oct-2026 10:30 AM 06-Oct-2026 11:00 AM 4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna. 91-84/PnW/W/1698 05-Oct-2026 02:00 PM 05-Oct-2026 05:00 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323 08-Oct-2026 12:30 PM 08-Oct-2026 06:00 PM 6. BANDR/NALCO/STRL/71120/NIT/029 BANDR/NALCO/STRL/71120/NIT/029 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 7. Proposed repair and renovation of Room No- M- 154 at first floor of the Main Building. IACS/CIVIL/925/2026-27/35 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 8. Corrigendum No 2 to RFx No 2800001331 EOI for Establishment of Shipping Container Manufacturing Corrigendum No 2 to RFx No 2800001331 07-Oct-2026 03:00 PM 07-Oct-2026 03:30 PM 9. MO/PLL/51291/ENABLING WORK/SC/NIT/03 MO/PLL/51291/ENABLING WORK/SC/NIT/03, 06-Oct-2026 06:55 PM 07-Oct-2026 06:55 PM 10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market OPF/EoI/RnD/13/2026-27 29-Oct-2026 05:00 PM 30-Oct-2026 10:00 AM",
+          "1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis.",
           "Prodn-03/NSC-KOL/2026-27/Field Pea",
           "05-Oct-2026 02:30 PM",
           "05-Oct-2026 03:00 PM",
+          "2. HIRE/15MT FARANA/NIT/974/65",
+          "HIRE/15MT FARANA/NIT/974/65",
+          "05-Oct-2026 06:55 PM",
+          "06-Oct-2026 06:55 PM",
           "3. Tender for sale of 21115 numbers of Matured Coconuts - 8973 big size and 12142 small size - at Coconut Development Board DSP Farm, Abhayapuri, Bongaigoan, Assam",
           "F-Abhayapuri-Maturenuts-10-26",
           "06-Oct-2026 10:30 AM",
           "06-Oct-2026 11:00 AM",
-          "4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
-          "BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323",
-          "08-Oct-2026 12:30 PM",
-          "08-Oct-2026 06:00 PM",
-          "5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna.",
+          "4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna.",
           "91-84/PnW/W/1698",
           "05-Oct-2026 02:00 PM",
           "05-Oct-2026 05:00 PM",
+          "5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
+          "BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323",
+          "08-Oct-2026 12:30 PM",
+          "08-Oct-2026 06:00 PM",
           "6. BANDR/NALCO/STRL/71120/NIT/029",
           "BANDR/NALCO/STRL/71120/NIT/029",
           "06-Oct-2026 06:55 PM",
@@ -781,42 +781,19 @@
           "MO/PLL/51291/ENABLING WORK/SC/NIT/03,",
           "06-Oct-2026 06:55 PM",
           "07-Oct-2026 06:55 PM",
-          "10. Group Medical Insurance for Students (Cashless)",
-          "NITANP/SMMD/TENDER/2026-27/32",
-          "21-Oct-2026 05:00 PM",
-          "23-Oct-2026 03:30 PM"
+          "10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market",
+          "OPF/EoI/RnD/13/2026-27",
+          "29-Oct-2026 05:00 PM",
+          "30-Oct-2026 10:00 AM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.442Z",
-      "evidenceHash": "7894ebaaefc7ae5a3114afa4ed2900b88bc2d83e453690a96114cd161b168ec8"
+      "observedAt": "2026-09-30T19:17:00.987Z",
+      "evidenceHash": "549e1dd2d57eb8cdd915f15a900ff424f79c4f2a620a59062c74c7e74a7aa14f"
     },
     {
-      "externalKey": "cppp-procurement:hire/15mt-farana/nit/974/65:1.-hire/15mt-farana/nit/974/65",
+      "externalKey": "cppp-procurement:prodn-03/nsc-kol/2026-27/field-pea:1.-supply-of-fresh-finished-product-of-various-varieties-of-cs-category-seeds-of-field-pea,-on-ex-godown-basis-and-f.o.r-odisha-(up-to-block-level-destinations)-basis.",
       "sensorId": "cppp-procurement",
-      "title": "1. HIRE/15MT FARANA/NIT/974/65",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SzBkEa5%2FuXYJRGxFNC4Mdug%3D%3D",
-      "tenderReference": "HIRE/15MT FARANA/NIT/974/65",
-      "geographicPrecision": "unknown",
-      "note": "05-Oct-2026 06:55 PM | 06-Oct-2026 06:55 PM",
-      "raw": {
-        "cells": [
-          "1. HIRE/15MT FARANA/NIT/974/65",
-          "HIRE/15MT FARANA/NIT/974/65",
-          "05-Oct-2026 06:55 PM",
-          "06-Oct-2026 06:55 PM"
-        ]
-      },
-      "observedAt": "2026-09-30T13:39:51.442Z",
-      "evidenceHash": "4e3f50a63d6b5839d7e1bb8aa005412c6678269fef2ab8a57ca86d377059a7df"
-    },
-    {
-      "externalKey": "cppp-procurement:prodn-03/nsc-kol/2026-27/field-pea:2.-supply-of-fresh-finished-product-of-various-varieties-of-cs-category-seeds-of-field-pea,-on-ex-godown-basis-and-f.o.r-odisha-(up-to-block-level-destinations)-basis.",
-      "sensorId": "cppp-procurement",
-      "title": "2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis.",
+      "title": "1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis.",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -827,14 +804,37 @@
       "note": "05-Oct-2026 02:30 PM | 05-Oct-2026 03:00 PM",
       "raw": {
         "cells": [
-          "2. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis.",
+          "1. Supply of fresh finished product of various varieties of CS category seeds of Field Pea, on Ex-Godown Basis and F.O.R Odisha (Up to Block level Destinations) basis.",
           "Prodn-03/NSC-KOL/2026-27/Field Pea",
           "05-Oct-2026 02:30 PM",
           "05-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.442Z",
-      "evidenceHash": "cb00b83c3ba1e6452da314b33f183b8c39db60f0cacd08df68c776e33dc4fa5f"
+      "observedAt": "2026-09-30T19:17:00.988Z",
+      "evidenceHash": "07a3a43bc0f9073c9a9f4073df91f17ff8c18dfbc1b63e6a26d11581c71a95b8"
+    },
+    {
+      "externalKey": "cppp-procurement:hire/15mt-farana/nit/974/65:2.-hire/15mt-farana/nit/974/65",
+      "sensorId": "cppp-procurement",
+      "title": "2. HIRE/15MT FARANA/NIT/974/65",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SzBkEa5%2FuXYJRGxFNC4Mdug%3D%3D",
+      "tenderReference": "HIRE/15MT FARANA/NIT/974/65",
+      "geographicPrecision": "unknown",
+      "note": "05-Oct-2026 06:55 PM | 06-Oct-2026 06:55 PM",
+      "raw": {
+        "cells": [
+          "2. HIRE/15MT FARANA/NIT/974/65",
+          "HIRE/15MT FARANA/NIT/974/65",
+          "05-Oct-2026 06:55 PM",
+          "06-Oct-2026 06:55 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T19:17:00.988Z",
+      "evidenceHash": "3dfd116c59b5cd8092df50e41822e9782c0f92f184b70d7cacacb3a266d232fe"
     },
     {
       "externalKey": "cppp-procurement:3.-tender-for-sale-of-21115-numbers-of-matured-coconuts---8973-big-size-and-12142-small-size---at-coconut-development-board-dsp-farm,-abhayapuri,-bongaigoan,-assam:3.-tender-for-sale-of-21115-numbers-of-matured-coconuts---8973-big-size-and-12142-small-size---at-coconut-development-board-dsp-farm,-abhayapuri,-bongaigoan,-assam",
@@ -856,36 +856,13 @@
           "06-Oct-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.442Z",
+      "observedAt": "2026-09-30T19:17:00.988Z",
       "evidenceHash": "1822959d66949128fe24c3913a69ec88c8f4b0a9527d24e0258a9fcc42571e12"
     },
     {
-      "externalKey": "cppp-procurement:bslc/mining/appv/limestone-0-50-mm-/25-26/323:4.-sale-of-limestone-size-(0-50mm)-by-road,bslc-mines",
+      "externalKey": "cppp-procurement:91-84/pnw/w/1698:4.-work-contract-for-assistance-in-unit-operations-and-maintenance-related-works-at-2x10-mw,-bhps-iv,-mppgcl,-jhinna.",
       "sensorId": "cppp-procurement",
-      "title": "4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SBQS47wehFnte1uTokCMERg%3D%3D",
-      "tenderReference": "BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323",
-      "geographicPrecision": "unknown",
-      "note": "08-Oct-2026 12:30 PM | 08-Oct-2026 06:00 PM",
-      "raw": {
-        "cells": [
-          "4. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
-          "BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323",
-          "08-Oct-2026 12:30 PM",
-          "08-Oct-2026 06:00 PM"
-        ]
-      },
-      "observedAt": "2026-09-30T13:39:51.442Z",
-      "evidenceHash": "d2af74f27d5d5d081bf5da212b98efdfda22536505e8ef85e17416614696af5a"
-    },
-    {
-      "externalKey": "cppp-procurement:91-84/pnw/w/1698:5.-work-contract-for-assistance-in-unit-operations-and-maintenance-related-works-at-2x10-mw,-bhps-iv,-mppgcl,-jhinna.",
-      "sensorId": "cppp-procurement",
-      "title": "5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna.",
+      "title": "4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna.",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -896,14 +873,37 @@
       "note": "05-Oct-2026 02:00 PM | 05-Oct-2026 05:00 PM",
       "raw": {
         "cells": [
-          "5. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna.",
+          "4. Work-Contract for assistance in unit operations and maintenance related works at 2x10 MW, BHPS-IV, MPPGCL, Jhinna.",
           "91-84/PnW/W/1698",
           "05-Oct-2026 02:00 PM",
           "05-Oct-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.443Z",
-      "evidenceHash": "4a267eec303ad85d85d68b9cfde7ef05e787b9c31d3e83b5b338d5d430e99409"
+      "observedAt": "2026-09-30T19:17:00.988Z",
+      "evidenceHash": "5bed05324d50e4da14c66ea5f5cc2087aac7cbc5c2e423ecfa6684f61fc7f70c"
+    },
+    {
+      "externalKey": "cppp-procurement:bslc/mining/appv/limestone-0-50-mm-/25-26/323:5.-sale-of-limestone-size-(0-50mm)-by-road,bslc-mines",
+      "sensorId": "cppp-procurement",
+      "title": "5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SBQS47wehFnte1uTokCMERg%3D%3D",
+      "tenderReference": "BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323",
+      "geographicPrecision": "unknown",
+      "note": "08-Oct-2026 12:30 PM | 08-Oct-2026 06:00 PM",
+      "raw": {
+        "cells": [
+          "5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
+          "BSLC/Mining/APPV/LIMESTONE 0-50 MM /25-26/323",
+          "08-Oct-2026 12:30 PM",
+          "08-Oct-2026 06:00 PM"
+        ]
+      },
+      "observedAt": "2026-09-30T19:17:00.988Z",
+      "evidenceHash": "db81e7db2d6104e2954d6d57ec4f65262ca647d0425374c3e50fe9fee3093918"
     },
     {
       "externalKey": "cppp-procurement:bandr/nalco/strl/71120/nit/029:6.-bandr/nalco/strl/71120/nit/029",
@@ -925,7 +925,7 @@
           "07-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.443Z",
+      "observedAt": "2026-09-30T19:17:00.988Z",
       "evidenceHash": "3ca5ba8873e6c4f1ed5d10a225663f44f86bbe9630ab1212d58634c13a37e3b4"
     },
     {
@@ -948,7 +948,7 @@
           "09-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.443Z",
+      "observedAt": "2026-09-30T19:17:00.988Z",
       "evidenceHash": "84afde243805fe20c88797ee4e809e9281a6218aa5db6cfc27ed5c09ff835812"
     },
     {
@@ -971,7 +971,7 @@
           "07-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.443Z",
+      "observedAt": "2026-09-30T19:17:00.988Z",
       "evidenceHash": "8db9c83282fbdc1db9c5e76d386bcaa364b59f4ae971d04d8ccf7c4ff6a1a1ee"
     },
     {
@@ -994,31 +994,31 @@
           "07-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.443Z",
+      "observedAt": "2026-09-30T19:17:00.988Z",
       "evidenceHash": "f6c6f88486245ad5dd7a70c55dd4f7e39c024d580af86be238d961c1a1f4fcd3"
     },
     {
-      "externalKey": "cppp-procurement:nitanp/smmd/tender/2026-27/32:10.-group-medical-insurance-for-students-(cashless)",
+      "externalKey": "cppp-procurement:opf/eoi/rnd/13/2026-27:10.-expression-of-interest-(eoi)-for-collaboration-in-design,-development,-manufacturing-and-marketing-of-products-for-civilian-market",
       "sensorId": "cppp-procurement",
-      "title": "10. Group Medical Insurance for Students (Cashless)",
+      "title": "10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SQLLvhoi%2Bd32g3MLiaR7fQw%3D%3D",
-      "tenderReference": "NITANP/SMMD/TENDER/2026-27/32",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SabsFK6zjzkwgO10EB6aiiA%3D%3D",
+      "tenderReference": "OPF/EoI/RnD/13/2026-27",
       "geographicPrecision": "unknown",
-      "note": "21-Oct-2026 05:00 PM | 23-Oct-2026 03:30 PM",
+      "note": "29-Oct-2026 05:00 PM | 30-Oct-2026 10:00 AM",
       "raw": {
         "cells": [
-          "10. Group Medical Insurance for Students (Cashless)",
-          "NITANP/SMMD/TENDER/2026-27/32",
-          "21-Oct-2026 05:00 PM",
-          "23-Oct-2026 03:30 PM"
+          "10. Expression of Interest (EoI) for Collaboration in Design, Development, Manufacturing and Marketing of Products for Civilian Market",
+          "OPF/EoI/RnD/13/2026-27",
+          "29-Oct-2026 05:00 PM",
+          "30-Oct-2026 10:00 AM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.443Z",
-      "evidenceHash": "ebf3b28afe298d886336e9421a6119ecc0536cdf2f42c73260cc9f1c80b89ab2"
+      "observedAt": "2026-09-30T19:17:00.988Z",
+      "evidenceHash": "d0968fdbfb3197039f0b4f02018502d9d571cd696e11b12ab1f48dff9558f528"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.443Z",
+      "observedAt": "2026-09-30T19:17:00.988Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.444Z",
+      "observedAt": "2026-09-30T19:17:00.989Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "07-Oct-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.444Z",
+      "observedAt": "2026-09-30T19:17:00.989Z",
       "evidenceHash": "cfcf4b8e6f21ee1852b55b0e35ccbd84ec380ab8d530ba32ae2afa92eed92718"
     },
     {
@@ -1143,7 +1143,7 @@
           "07-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.444Z",
+      "observedAt": "2026-09-30T19:17:00.989Z",
       "evidenceHash": "382204924397955b6f6b0d8a6a9f40ed3562e0cde80f123140ea82d5205f61b9"
     },
     {
@@ -1166,7 +1166,7 @@
           "12-Oct-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.444Z",
+      "observedAt": "2026-09-30T19:17:00.990Z",
       "evidenceHash": "255f658216a2354c9839d27dd6565e77af5a52c35c178d37ed06b99818f6ac89"
     },
     {
@@ -1189,7 +1189,7 @@
           "14-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.444Z",
+      "observedAt": "2026-09-30T19:17:00.990Z",
       "evidenceHash": "cb8fe1df427c11e74ea75682d10b5ce72814f149fab0b51e6a225b8bb102395e"
     },
     {
@@ -1212,7 +1212,7 @@
           "12-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.444Z",
+      "observedAt": "2026-09-30T19:17:00.990Z",
       "evidenceHash": "4f895a4f0ca84016162b238d2e63dcfdf11a284ee4f312f9f44345f74baa6fd2"
     },
     {
@@ -1235,7 +1235,7 @@
           "08-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.444Z",
+      "observedAt": "2026-09-30T19:17:00.990Z",
       "evidenceHash": "58c3b75c54cc23bb3869e9bdc67f0c6c4ccc55be4167885adad6e547ee58843e"
     },
     {
@@ -1258,7 +1258,7 @@
           "08-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.444Z",
+      "observedAt": "2026-09-30T19:17:00.990Z",
       "evidenceHash": "7bb2c7a748026e0344ad94204d826510624a7fa79ecdc6022ce8b8d45989affd"
     },
     {
@@ -1281,7 +1281,7 @@
           "08-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.444Z",
+      "observedAt": "2026-09-30T19:17:00.990Z",
       "evidenceHash": "1f166a6a3b106b7ca5d62012a3e258ed8ce75c54bb9899a6e7e1a8c47100250a"
     },
     {
@@ -1304,7 +1304,7 @@
           "08-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.444Z",
+      "observedAt": "2026-09-30T19:17:00.990Z",
       "evidenceHash": "2b0816fa63d155bc05c22a446612215e13c4ee1397c34d33883c158519a157a2"
     },
     {
@@ -1327,7 +1327,7 @@
           "05-Oct-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.444Z",
+      "observedAt": "2026-09-30T19:17:00.990Z",
       "evidenceHash": "95c3c53287c06f26faec5cc41b0a0ce309460c3c0a4a4d5dda10e09a87f375a4"
     },
     {
@@ -1350,7 +1350,7 @@
           "07-Oct-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.444Z",
+      "observedAt": "2026-09-30T19:17:00.990Z",
       "evidenceHash": "79ff4edea54fb8cfab0cd155092c979eb0be67b5f19f4e66d4b113845fd684d1"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.445Z",
+      "observedAt": "2026-09-30T19:17:00.990Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.445Z",
+      "observedAt": "2026-09-30T19:17:00.990Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.445Z",
+      "observedAt": "2026-09-30T19:17:00.990Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.445Z",
+      "observedAt": "2026-09-30T19:17:00.991Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.445Z",
+      "observedAt": "2026-09-30T19:17:00.991Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.446Z",
+      "observedAt": "2026-09-30T19:17:00.991Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.446Z",
+      "observedAt": "2026-09-30T19:17:00.991Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.446Z",
+      "observedAt": "2026-09-30T19:17:00.991Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.446Z",
+      "observedAt": "2026-09-30T19:17:00.991Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.446Z",
+      "observedAt": "2026-09-30T19:17:00.991Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.447Z",
+      "observedAt": "2026-09-30T19:17:00.991Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.447Z",
+      "observedAt": "2026-09-30T19:17:00.992Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-09-30T13:39:51.447Z",
+      "observedAt": "2026-09-30T19:17:00.992Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "126518"
       },
-      "observedAt": "2026-09-30T13:39:57.969Z",
+      "observedAt": "2026-09-30T19:17:03.765Z",
       "evidenceHash": "10a5f72081a40849e4f0bf7a4f68284565ee42ab7b759e41ee77071467920ed0"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "126517"
       },
-      "observedAt": "2026-09-30T13:39:57.969Z",
+      "observedAt": "2026-09-30T19:17:03.765Z",
       "evidenceHash": "a0e05251a8a9096d599125efc64c6c8042d97e25476ef77ece8f9f59be934d4e"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "126509"
       },
-      "observedAt": "2026-09-30T13:39:57.969Z",
+      "observedAt": "2026-09-30T19:17:03.765Z",
       "evidenceHash": "18fa2ff4e23566cef34aa180523097b14b8739d9bc6b789cd62b0bed4600bc3d"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "126501"
       },
-      "observedAt": "2026-09-30T13:39:57.969Z",
+      "observedAt": "2026-09-30T19:17:03.765Z",
       "evidenceHash": "a488b2149632fc695a06b3596f206447eaabc32801a513bf9d5df45f567bb310"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "126486"
       },
-      "observedAt": "2026-09-30T13:39:57.969Z",
+      "observedAt": "2026-09-30T19:17:03.765Z",
       "evidenceHash": "dd7ba0c15bb7e502d1152d5261e4a6a2345ac8af8e74ae095f1640375d697b87"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "126482"
       },
-      "observedAt": "2026-09-30T13:39:57.969Z",
+      "observedAt": "2026-09-30T19:17:03.765Z",
       "evidenceHash": "d2068a7011b08a6d7be6ec0a19d6dd7da365db96d1f1f9ce77769853b600ea2d"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "126480"
       },
-      "observedAt": "2026-09-30T13:39:57.969Z",
+      "observedAt": "2026-09-30T19:17:03.766Z",
       "evidenceHash": "3ed73790f4725f453c3b9cbaf272eb529a1cc15cf3a119e807a1b6f21ccfd31a"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "126469"
       },
-      "observedAt": "2026-09-30T13:39:57.969Z",
+      "observedAt": "2026-09-30T19:17:03.766Z",
       "evidenceHash": "1c7d422b591169eb80826592dabb65db5168877db9d1d58f0ef0bcd51dcb5e6f"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "126458"
       },
-      "observedAt": "2026-09-30T13:39:57.969Z",
+      "observedAt": "2026-09-30T19:17:03.766Z",
       "evidenceHash": "e01566022e060c485559292b09732dafecf684c8ad5553baa0e1ac1585824a57"
     },
     {
@@ -1809,7 +1809,7 @@
       "raw": {
         "reportId": "126325"
       },
-      "observedAt": "2026-09-30T13:39:57.969Z",
+      "observedAt": "2026-09-30T19:17:03.766Z",
       "evidenceHash": "59cb65fbe0232a895436738f801dbfafdc394a62f0f1b4fbe7e625cc119a4ffa"
     },
     {
@@ -1822,7 +1822,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-30T13:39:58.776Z",
+      "observedAt": "2026-09-30T19:17:01.279Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1835,7 +1835,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-30T13:39:58.778Z",
+      "observedAt": "2026-09-30T19:17:01.281Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1848,7 +1848,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-30T13:39:58.778Z",
+      "observedAt": "2026-09-30T19:17:01.281Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1861,7 +1861,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-30T13:39:58.778Z",
+      "observedAt": "2026-09-30T19:17:01.281Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1874,7 +1874,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-09-30T13:39:58.778Z",
+      "observedAt": "2026-09-30T19:17:01.281Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1888,7 +1888,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-30T13:39:58.778Z",
+      "observedAt": "2026-09-30T19:17:01.281Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1902,7 +1902,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-30T13:39:58.778Z",
+      "observedAt": "2026-09-30T19:17:01.281Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1916,7 +1916,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-09-30T13:39:58.778Z",
+      "observedAt": "2026-09-30T19:17:01.281Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1935,7 +1935,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-09-30T13:40:27.003Z",
+      "observedAt": "2026-09-30T19:17:33.605Z",
       "evidenceHash": "ed71dec9dd5f1a0d35193c12eb0dc18cfef6fb38c68c4acb0f82ae922099d3ad"
     },
     {
@@ -1954,7 +1954,7 @@
         "anchorText": "100 Days Office Improvement Special Campaign Finance Department Maharashtra Government Directorate of Accounts and Treasuries ,Mumbai",
         "rowText": ""
       },
-      "observedAt": "2026-09-30T13:40:27.008Z",
+      "observedAt": "2026-09-30T19:17:33.608Z",
       "evidenceHash": "0a0c3c4797621eb9968690eb61fd6e1f846b17b6e70063d08f9efa5c08da8ff9"
     },
     {
@@ -1973,7 +1973,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-09-30T13:40:27.009Z",
+      "observedAt": "2026-09-30T19:17:33.609Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1992,7 +1992,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-09-30T13:40:27.009Z",
+      "observedAt": "2026-09-30T19:17:33.609Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -2011,7 +2011,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-09-30T13:40:27.009Z",
+      "observedAt": "2026-09-30T19:17:33.609Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -2030,7 +2030,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-09-30T13:40:27.009Z",
+      "observedAt": "2026-09-30T19:17:33.609Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2049,7 +2049,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-09-30T13:40:27.009Z",
+      "observedAt": "2026-09-30T19:17:33.609Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2068,7 +2068,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-09-30T13:40:27.009Z",
+      "observedAt": "2026-09-30T19:17:33.609Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2086,7 +2086,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-09-30T13:40:24.900Z",
+      "observedAt": "2026-09-30T19:17:33.341Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
