@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T20:17:19.642Z",
+  "generatedAt": "2026-10-06T23:51:08.346Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -8,7 +8,7 @@
   },
   "summary": {
     "sensors": 10,
-    "healthySensors": 7,
+    "healthySensors": 8,
     "records": 68,
     "reconciledLinks": 1
   },
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-10-06T20:16:41.501Z",
+      "fetchedAt": "2026-10-06T23:50:28.259Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-10-06T20:16:41.514Z",
+      "fetchedAt": "2026-10-06T23:50:28.267Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-10-06T20:16:41.516Z",
+      "fetchedAt": "2026-10-06T23:50:28.268Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-10-06T20:16:41.517Z",
+      "fetchedAt": "2026-10-06T23:50:28.269Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-06T20:16:41.518Z",
+      "fetchedAt": "2026-10-06T23:50:28.269Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-06T20:16:41.521Z",
+      "fetchedAt": "2026-10-06T23:50:28.271Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-06T20:17:15.275Z",
+      "fetchedAt": "2026-10-06T23:51:01.992Z",
       "ok": true,
       "recordCount": 7,
       "error": null
@@ -112,10 +112,10 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-06T20:17:15.274Z",
-      "ok": false,
+      "fetchedAt": "2026-10-06T23:51:01.991Z",
+      "ok": true,
       "recordCount": 0,
-      "error": "Unexpected server response (500) while retrieving PDF \"https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Accountant%20%28Finance%29/Budget/Budget%20Estimate%202026-2027/STANDING%20COMMITTEE%202026-2027.pdf\"."
+      "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
     },
     {
       "id": "cppp-contract-awards",
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-10-06T20:17:15.277Z",
+      "fetchedAt": "2026-10-06T23:51:01.993Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-10-06T20:17:15.277Z",
+      "fetchedAt": "2026-10-06T23:51:01.993Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 15680090000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1637006367",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1637006367",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1494503403",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1494503403",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹15,68,009 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(36.7%)"
         ]
       },
-      "observedAt": "2026-10-06T20:16:47.034Z",
-      "evidenceHash": "d1e959b7f2a6bad8de73f80c801abef76026996cf2db226bd01a1e36c7147d08"
+      "observedAt": "2026-10-06T23:50:34.083Z",
+      "evidenceHash": "c211ed3b3e88f3f6cc7ce79adb8bdcff2a2a56ae4ea4c4521353aa0fdc726808"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:8:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5148100000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1637006367",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1637006367",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1494503403",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1494503403",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,14,810 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(41.4%)"
         ]
       },
-      "observedAt": "2026-10-06T20:16:47.035Z",
-      "evidenceHash": "87b80d70e10298c7c6689218a3fe740be77cfb5eae7c9d5e681fb0cc5b12c853"
+      "observedAt": "2026-10-06T23:50:34.083Z",
+      "evidenceHash": "558656dd403af017f7c977f96b9ebe393a5e779897f55b835a72ce5ca3b929ba"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:8:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5099490000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1637006367",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1637006367",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1494503403",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1494503403",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,09,949 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(38.5%)"
         ]
       },
-      "observedAt": "2026-10-06T20:16:47.035Z",
-      "evidenceHash": "799cc82af173e60caf0181ad88f033ad021620fa39a4f0f9aa5923d33d7073b9"
+      "observedAt": "2026-10-06T23:50:34.084Z",
+      "evidenceHash": "28f163e3a8fd89278db962652de2b12eba416b50b1e0bf0f260d3370feb80d57"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:8:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1394170000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1637006367",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1637006367",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1494503403",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1494503403",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,39,417 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(48.6%)"
         ]
       },
-      "observedAt": "2026-10-06T20:16:47.035Z",
-      "evidenceHash": "9c221402a5d7a774f6757127e0ee6674e53a0d50fcc81cce411bbc6fe3575a77"
+      "observedAt": "2026-10-06T23:50:34.084Z",
+      "evidenceHash": "9c76d083b71c3afaad3dbad5ed79f598e4500ddf824b1f23dd0731db2f9c17ba"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:8:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 20779580000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1637006367",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1637006367",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1494503403",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1494503403",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹20,77,958 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(37.1%)"
         ]
       },
-      "observedAt": "2026-10-06T20:16:47.035Z",
-      "evidenceHash": "984277a8807d46ea227d318f1f42348fefd41dc2a0a8a20dc977f486c17fec78"
+      "observedAt": "2026-10-06T23:50:34.084Z",
+      "evidenceHash": "c6290b03b47bf2427a96594621f90b0e60862b88512c90974ddb736d1af9009d"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:8:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1870374200000.0002,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1637006367",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1637006367",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1494503403",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1494503403",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,87,037.42 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,8 +323,8 @@
           "(39%)"
         ]
       },
-      "observedAt": "2026-10-06T20:16:47.037Z",
-      "evidenceHash": "f96b53d4768cb5378d1a21150bb0ccf2473b447a86c38027f8e1611956c67d25"
+      "observedAt": "2026-10-06T23:50:34.085Z",
+      "evidenceHash": "11784d4d6cee74a20980a9e1779efffd1c012a9827b706cc2d2642f90023d1ab"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access-07-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-07-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
@@ -357,7 +357,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.230Z",
+      "observedAt": "2026-10-06T23:50:30.079Z",
       "evidenceHash": "e1cd1ce43a64d21dc840fa3f11d53e0a431695aa6c2c1d6963b919e9aec35a56"
     },
     {
@@ -377,7 +377,7 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.231Z",
+      "observedAt": "2026-10-06T23:50:30.079Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
@@ -403,7 +403,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.231Z",
+      "observedAt": "2026-10-06T23:50:30.079Z",
       "evidenceHash": "61839efc8142345839f45323092ed3379d5e54715fffc598fb1a17a7da93add9"
     },
     {
@@ -428,7 +428,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.232Z",
+      "observedAt": "2026-10-06T23:50:30.080Z",
       "evidenceHash": "4f3bd533539b1ea3c321ca3bcb1b0bcdea882a0c008fe206299b23f872f03a27"
     },
     {
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.232Z",
+      "observedAt": "2026-10-06T23:50:30.080Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.232Z",
+      "observedAt": "2026-10-06T23:50:30.080Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. ITI/MSP-C/EOI-030/2026-27 ITI/MSP-C/EOI-030/2026-27 22-Oct-2026 11:00 AM 22-Oct-2026 11:30 AM 10. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. ITI/MSP-C/EOI-030/2026-27 ITI/MSP-C/EOI-030/2026-27 22-Oct-2026 11:00 AM 22-Oct-2026 11:30 AM 10. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. ITI/MSP-C/EOI-030/2026-27 ITI/MSP-C/EOI-030/2026-27 22-Oct-2026 11:00 AM 22-Oct-2026 11:30 AM 10. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. ITI/MSP-C/EOI-030/2026-27 ITI/MSP-C/EOI-030/2026-27 22-Oct-2026 11:00 AM 22-Oct-2026 11:30 AM 10. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. ITI/MSP-C/EOI-030/2026-27 ITI/MSP-C/EOI-030/2026-27 22-Oct-2026 11:00 AM 22-Oct-2026 11:30 AM 10. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM | 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai | WE-87 | 15-Oct-2026 03:00 PM | 15-Oct-2026 03:30 PM | 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. | AGM/UK/MECH/2026-27/911 | 15-Oct-2026 04:00 PM | 15-Oct-2026 04:30 PM | 3. IHP 130nm Fabrication | 2026270387/MM-9/EC/364 | 03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM | 4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. | AGM/UK/MECH/2026-27/910 | 15-Oct-2026 04:00 PM | 15-Oct-2026 04:30 PM | 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. | 37/EE(C)/BSNL/JP/2026-27 | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM | 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. | 38/EE(C)/BSNL/JP/2026-27 | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM | 7. BANDR /COIT/40089/NIT/ DISMANTLING | BANDR /COIT/40089/NIT/ DISMANTLING | 15-Oct-2026 06:55 PM | 16-Oct-2026 06:55 PM | 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF | VSP/WC/ESF/SPT/2600010045 | 12-Oct-2026 03:00 PM | 13-Oct-2026 03:00 PM | 9. ITI/MSP-C/EOI-030/2026-27 | ITI/MSP-C/EOI-030/2026-27 | 22-Oct-2026 11:00 AM | 22-Oct-2026 11:30 AM | 10. CME/MECH.DIVISION/1935 | CME/MECH.DIVISION/1935 | 05-Nov-2026 04:00 PM | 05-Nov-2026 04:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM | 1. Response to Pre-bid queries | EdCIL/DES/SL ICT/003 | 09-Oct-2026 03:00 PM | 09-Oct-2026 03:30 PM | 2. Corr-Adm-04 | NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 | 14-Oct-2026 11:00 AM | 14-Oct-2026 11:30 AM | 3. Corr-Adm-04 | NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 | 14-Oct-2026 11:00 AM | 14-Oct-2026 11:30 AM | 4. Pre Bid query Response | EdCIL/DES/RC Studio Solution/2026/001 | 12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM | 5. Corr-Adm-04 | NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 | 14-Oct-2026 11:00 AM | 14-Oct-2026 11:30 AM | 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 | CCI/ADB/Mktg./GandP/2026-27 | 15-Oct-2026 02:00 PM | 15-Oct-2026 03:00 PM | 7. Extn of Due date | B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT | 14-Oct-2026 05:00 PM | 15-Oct-2026 05:00 PM | 8. Extn of Due date | B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR | 13-Oct-2026 04:00 PM | 14-Oct-2026 04:00 PM | 9. Extn of Due date | B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE | 13-Oct-2026 05:00 PM | 14-Oct-2026 05:00 PM | 10. Extn | B AND R/51282/BPCL/CIVIL/SC/NIT/10 | 13-Oct-2026 04:00 PM | 14-Oct-2026 04:30 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 4. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM 10. Tender notice for new premises at Sarnath 1494/26-27 30-Oct-2026 04:00 PM 30-Oct-2026 04:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 4. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM 10. Tender notice for new premises at Sarnath 1494/26-27 30-Oct-2026 04:00 PM 30-Oct-2026 04:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 4. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM 10. Tender notice for new premises at Sarnath 1494/26-27 30-Oct-2026 04:00 PM 30-Oct-2026 04:30 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 4. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM 10. Tender notice for new premises at Sarnath 1494/26-27 30-Oct-2026 04:00 PM 30-Oct-2026 04:30 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 4. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM 10. Tender notice for new premises at Sarnath 1494/26-27 30-Oct-2026 04:00 PM 30-Oct-2026 04:30 PM | 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai | WE-87 | 15-Oct-2026 03:00 PM | 15-Oct-2026 03:30 PM | 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. | AGM/UK/MECH/2026-27/911 | 15-Oct-2026 04:00 PM | 15-Oct-2026 04:30 PM | 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. | AGM/UK/MECH/2026-27/910 | 15-Oct-2026 04:00 PM | 15-Oct-2026 04:30 PM | 4. IHP 130nm Fabrication | 2026270387/MM-9/EC/364 | 03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM | 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. | 37/EE(C)/BSNL/JP/2026-27 | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM | 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. | 38/EE(C)/BSNL/JP/2026-27 | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM | 7. BANDR /COIT/40089/NIT/ DISMANTLING | BANDR /COIT/40089/NIT/ DISMANTLING | 15-Oct-2026 06:55 PM | 16-Oct-2026 06:55 PM | 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF | VSP/WC/ESF/SPT/2600010045 | 12-Oct-2026 03:00 PM | 13-Oct-2026 03:00 PM | 9. CME/MECH.DIVISION/1935 | CME/MECH.DIVISION/1935 | 05-Nov-2026 04:00 PM | 05-Nov-2026 04:00 PM | 10. Tender notice for new premises at Sarnath | 1494/26-27 | 30-Oct-2026 04:00 PM | 30-Oct-2026 04:30 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM | 1. Response to Pre-bid queries | EdCIL/DES/SL ICT/003 | 09-Oct-2026 03:00 PM | 09-Oct-2026 03:30 PM | 2. Corr-Adm-04 | NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 | 14-Oct-2026 11:00 AM | 14-Oct-2026 11:30 AM | 3. Corr-Adm-04 | NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 | 14-Oct-2026 11:00 AM | 14-Oct-2026 11:30 AM | 4. Pre Bid query Response | EdCIL/DES/RC Studio Solution/2026/001 | 12-Oct-2026 03:00 PM | 12-Oct-2026 03:30 PM | 5. Corr-Adm-04 | NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 | 14-Oct-2026 11:00 AM | 14-Oct-2026 11:30 AM | 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 | CCI/ADB/Mktg./GandP/2026-27 | 15-Oct-2026 02:00 PM | 15-Oct-2026 03:00 PM | 7. Extn of Due date | B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT | 14-Oct-2026 05:00 PM | 15-Oct-2026 05:00 PM | 8. Extn of Due date | B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR | 13-Oct-2026 04:00 PM | 14-Oct-2026 04:00 PM | 9. Extn of Due date | B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE | 13-Oct-2026 05:00 PM | 14-Oct-2026 05:00 PM | 10. Extn | B AND R/51282/BPCL/CIVIL/SC/NIT/10 | 13-Oct-2026 04:00 PM | 14-Oct-2026 04:30 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,21 +520,21 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. ITI/MSP-C/EOI-030/2026-27 ITI/MSP-C/EOI-030/2026-27 22-Oct-2026 11:00 AM 22-Oct-2026 11:30 AM 10. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 4. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM 10. Tender notice for new premises at Sarnath 1494/26-27 30-Oct-2026 04:00 PM 30-Oct-2026 04:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. ITI/MSP-C/EOI-030/2026-27 ITI/MSP-C/EOI-030/2026-27 22-Oct-2026 11:00 AM 22-Oct-2026 11:30 AM 10. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 4. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM 10. Tender notice for new premises at Sarnath 1494/26-27 30-Oct-2026 04:00 PM 30-Oct-2026 04:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to Pre-bid queries EdCIL/DES/SL ICT/003 09-Oct-2026 03:00 PM 09-Oct-2026 03:30 PM 2. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-6/2026/589 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 3. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Pkg-3 /2026/588 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 4. Pre Bid query Response EdCIL/DES/RC Studio Solution/2026/001 12-Oct-2026 03:00 PM 12-Oct-2026 03:30 PM 5. Corr-Adm-04 NBCC/CPG/Bemina/JandK/Ph-1 /Pkg-2/2026/587 14-Oct-2026 11:00 AM 14-Oct-2026 11:30 AM 6. CORRIGENDUM TO TENDER No. NO. CCI/ADB/Mktg./GandP/2026-27/ 30.09.2026 CCI/ADB/Mktg./GandP/2026-27 15-Oct-2026 02:00 PM 15-Oct-2026 03:00 PM 7. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / ELECT 14-Oct-2026 05:00 PM 15-Oct-2026 05:00 PM 8. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / SOLAR 13-Oct-2026 04:00 PM 14-Oct-2026 04:00 PM 9. Extn of Due date B AND R / ERE / BPCL / 51282 / KOCHI / NIT / IT SE 13-Oct-2026 05:00 PM 14-Oct-2026 05:00 PM 10. Extn B AND R/51282/BPCL/CIVIL/SC/NIT/10 13-Oct-2026 04:00 PM 14-Oct-2026 04:30 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. ITI/MSP-C/EOI-030/2026-27 ITI/MSP-C/EOI-030/2026-27 22-Oct-2026 11:00 AM 22-Oct-2026 11:30 AM 10. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. ITI/MSP-C/EOI-030/2026-27 ITI/MSP-C/EOI-030/2026-27 22-Oct-2026 11:00 AM 22-Oct-2026 11:30 AM 10. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 4. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM 10. Tender notice for new premises at Sarnath 1494/26-27 30-Oct-2026 04:00 PM 30-Oct-2026 04:30 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 4. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM 10. Tender notice for new premises at Sarnath 1494/26-27 30-Oct-2026 04:00 PM 30-Oct-2026 04:30 PM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. ITI/MSP-C/EOI-030/2026-27 ITI/MSP-C/EOI-030/2026-27 22-Oct-2026 11:00 AM 22-Oct-2026 11:30 AM 10. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM",
+          "1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 4. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM 10. Tender notice for new premises at Sarnath 1494/26-27 30-Oct-2026 04:00 PM 30-Oct-2026 04:30 PM",
           "1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai",
           "WE-87",
           "15-Oct-2026 03:00 PM",
@@ -543,14 +543,14 @@
           "AGM/UK/MECH/2026-27/911",
           "15-Oct-2026 04:00 PM",
           "15-Oct-2026 04:30 PM",
-          "3. IHP 130nm Fabrication",
-          "2026270387/MM-9/EC/364",
-          "03-Nov-2026 03:00 PM",
-          "03-Nov-2026 03:30 PM",
-          "4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine.",
+          "3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine.",
           "AGM/UK/MECH/2026-27/910",
           "15-Oct-2026 04:00 PM",
           "15-Oct-2026 04:30 PM",
+          "4. IHP 130nm Fabrication",
+          "2026270387/MM-9/EC/364",
+          "03-Nov-2026 03:00 PM",
+          "03-Nov-2026 03:30 PM",
           "5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur.",
           "37/EE(C)/BSNL/JP/2026-27",
           "14-Oct-2026 03:00 PM",
@@ -567,14 +567,14 @@
           "VSP/WC/ESF/SPT/2600010045",
           "12-Oct-2026 03:00 PM",
           "13-Oct-2026 03:00 PM",
-          "9. ITI/MSP-C/EOI-030/2026-27",
-          "ITI/MSP-C/EOI-030/2026-27",
-          "22-Oct-2026 11:00 AM",
-          "22-Oct-2026 11:30 AM",
-          "10. CME/MECH.DIVISION/1935",
+          "9. CME/MECH.DIVISION/1935",
           "CME/MECH.DIVISION/1935",
           "05-Nov-2026 04:00 PM",
           "05-Nov-2026 04:00 PM",
+          "10. Tender notice for new premises at Sarnath",
+          "1494/26-27",
+          "30-Oct-2026 04:00 PM",
+          "30-Oct-2026 04:30 PM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.238Z",
-      "evidenceHash": "b5d287fe2431104b892cd771f7180c9b396004a9019b4cbe2307d2d9555447d9"
+      "observedAt": "2026-10-06T23:50:30.084Z",
+      "evidenceHash": "1fc86b6a44d64aa9b5e70d6530abbc2d8c3985559ea7b11aa32bb2ba1008a668"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.239Z",
+      "observedAt": "2026-10-06T23:50:30.085Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,24 +727,24 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.240Z",
+      "observedAt": "2026-10-06T23:50:30.085Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-providing,-fixing-and-replacement-of-aluminium-partition,-false-ceiling-white-face-board-at-firefighting-and-frp-chajja-work-as-new-ecr-building-at-atps-chachai:1.-providing,-fixing-and-replacement-of-aluminium-partition,-false-ceiling-white-face-board-at-firefighting-and-frp-chajja-work-as-new-ecr-building-at-atps-chachai-we-87-15-oct-2026-03:00-pm-15-oct-2026-03:30-pm-2.-structure-stability-test-and-conditional-assessment-of-foundation-concrete-of-2nd-vertical-shaft-head-gear-of-ukwa-mine.-agm/uk/mech/2026-27/911-15-oct-2026-04:00-pm-15-oct-2026-04:30-pm-3.-ihp-130nm-fabrication-2026270387/mm-9/ec/364-03-nov-2026-03:00-pm-03-nov-2026-03:30-pm-4.-magnetic-defect-graph-testing-of-36mm-flc-type-man-winding-rope-of-2nd-vertical-shaft-winder-of-ukwa-mine.-agm/uk/mech/2026-27/910-15-oct-2026-04:00-pm-15-oct-2026-04:30-pm-5.-replacement-of-water-supply-lines-for-second-floor-(leased-out-to-gst)-in-admin.-bldg-sawaimadhopur.-37/ee(c)/bsnl/jp/2026-27-14-oct-2026-03:00-pm-14-oct-2026-03:30-pm-6.-closing-of-doors/windows-by-brick-work-in-te-bldg-lada-ka-bas,-distt.-kotputli-behrore-due-to-theft-incident.-38/ee(c)/bsnl/jp/2026-27-14-oct-2026-03:00-pm-14-oct-2026-03:30-pm-7.-bandr-/coit/40089/nit/-dismantling-bandr-/coit/40089/nit/-dismantling-15-oct-2026-06:55-pm-16-oct-2026-06:55-pm-8.-technological-assistance-in-cms/esf-vsp/wc/esf/spt/2600010045-12-oct-2026-03:00-pm-13-oct-2026-03:00-pm-9.-iti/msp-c/eoi-030/2026-27-iti/msp-c/eoi-030/2026-27-22-oct-2026-11:00-am-22-oct-2026-11:30-am-10.-cme/mech.division/1935-cme/mech.division/1935-05-nov-2026-04:00-pm-05-nov-2026-04:00-pm",
+      "externalKey": "cppp-procurement:1.-providing,-fixing-and-replacement-of-aluminium-partition,-false-ceiling-white-face-board-at-firefighting-and-frp-chajja-work-as-new-ecr-building-at-atps-chachai-we-87-15-oct-2026-03:00-pm-15-oct-2026-03:30-pm-2.-structure-stability-test-and-conditional-assessment-of-foundation-concrete-of-2nd-vertical-shaft-head-gear-of-ukwa-mine.-agm/uk/mech/2026-27/911-15-oct-2026-04:00-pm-15-oct-2026-04:30-pm-3.-magnetic-defect-graph-testing-of-36mm-flc-type-man-winding-rope-of-2nd-vertical-shaft-winder-of-ukwa-mine.-agm/uk/mech/2026-27/910-15-oct-2026-04:00-pm-15-oct-2026-04:30-pm-4.-ihp-130nm-fabrication-2026270387/mm-9/ec/364-03-nov-2026-03:00-pm-03-nov-2026-03:30-pm-5.-replacement-of-water-supply-lines-for-second-floor-(leased-out-to-gst)-in-admin.-bldg-sawaimadhopur.-37/ee(c)/bsnl/jp/2026-27-14-oct-2026-03:00-pm-14-oct-2026-03:30-pm-6.-closing-of-doors/windows-by-brick-work-in-te-bldg-lada-ka-bas,-distt.-kotputli-behrore-due-to-theft-incident.-38/ee(c)/bsnl/jp/2026-27-14-oct-2026-03:00-pm-14-oct-2026-03:30-pm-7.-bandr-/coit/40089/nit/-dismantling-bandr-/coit/40089/nit/-dismantling-15-oct-2026-06:55-pm-16-oct-2026-06:55-pm-8.-technological-assistance-in-cms/esf-vsp/wc/esf/spt/2600010045-12-oct-2026-03:00-pm-13-oct-2026-03:00-pm-9.-cme/mech.division/1935-cme/mech.division/1935-05-nov-2026-04:00-pm-05-nov-2026-04:00-pm-10.-tender-notice-for-new-premises-at-sarnath-1494/26-27-30-oct-2026-04:00-pm-30-oct-2026-04:30-pm:1.-providing,-fixing-and-replacement-of-aluminium-partition,-false-ceiling-white-face-board-at-firefighting-and-frp-chajja-work-as-new-ecr-building-at-atps-chachai-we-87-15-oct-2026-03:00-pm-15-oct-2026-03:30-pm-2.-structure-stability-test-and-conditional-assessment-of-foundation-concrete-of-2nd-vertical-shaft-head-gear-of-ukwa-mine.-agm/uk/mech/2026-27/911-15-oct-2026-04:00-pm-15-oct-2026-04:30-pm-3.-magnetic-defect-graph-testing-of-36mm-flc-type-man-winding-rope-of-2nd-vertical-shaft-winder-of-ukwa-mine.-agm/uk/mech/2026-27/910-15-oct-2026-04:00-pm-15-oct-2026-04:30-pm-4.-ihp-130nm-fabrication-2026270387/mm-9/ec/364-03-nov-2026-03:00-pm-03-nov-2026-03:30-pm-5.-replacement-of-water-supply-lines-for-second-floor-(leased-out-to-gst)-in-admin.-bldg-sawaimadhopur.-37/ee(c)/bsnl/jp/2026-27-14-oct-2026-03:00-pm-14-oct-2026-03:30-pm-6.-closing-of-doors/windows-by-brick-work-in-te-bldg-lada-ka-bas,-distt.-kotputli-behrore-due-to-theft-incident.-38/ee(c)/bsnl/jp/2026-27-14-oct-2026-03:00-pm-14-oct-2026-03:30-pm-7.-bandr-/coit/40089/nit/-dismantling-bandr-/coit/40089/nit/-dismantling-15-oct-2026-06:55-pm-16-oct-2026-06:55-pm-8.-technological-assistance-in-cms/esf-vsp/wc/esf/spt/2600010045-12-oct-2026-03:00-pm-13-oct-2026-03:00-pm-9.-cme/mech.division/1935-cme/mech.division/1935-05-nov-2026-04:00-pm-05-nov-2026-04:00-pm-10.-tender-notice-for-new-premises-at-sarnath-1494/26-27-30-oct-2026-04:00-pm-30-oct-2026-04:30-pm",
       "sensorId": "cppp-procurement",
-      "title": "1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Magne",
+      "title": "1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SIR8BIgr55XrbfnoUibogIA%3D%3D",
-      "tenderReference": "1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai",
+      "tenderReference": "1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 4. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM 10. Tender notice for new premises at Sarnath 1494/26-27 30-Oct-2026 04:00 PM 30-Oct-2026 04:30 PM",
       "geographicPrecision": "unknown",
-      "note": "WE-87 | 15-Oct-2026 03:00 PM | 15-Oct-2026 03:30 PM | 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. | AGM/UK/MECH/2026-27/911 | 15-Oct-2026 04:00 PM | 15-Oct-2026 04:30 PM | 3. IHP 130nm Fabrication | 2026270387/MM-9/EC/364 | 03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM | 4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. | AGM/UK/MECH/2026-27/910 | 15-Oct-2026 04:00 PM | 15-Oct-2026 04:30 PM | 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. | 37/EE(C)/BSNL/JP/2026-27 | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM | 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. | 38/EE(C)/BSNL/JP/2026-27 | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM | 7. BANDR /COIT/40089/NIT/ DISMANTLING | BANDR /COIT/40089/NIT/ DISMANTLING | 15-Oct-2026 06:55 PM | 16-Oct-2026 06:55 PM | 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF | VSP/WC/ESF/SPT/2600010045 | 12-Oct-2026 03:00 PM | 13-Oct-2026 03:00 PM | 9. ITI/MSP-C/EOI-030/2026-27 | ITI/MSP-C/EOI-030/2026-27 | 22-Oct-2026 11:00 AM | 22-Oct-2026 11:30 AM | 10. CME/MECH.DIVISION/1935 | CME/MECH.DIVISION/1935 | 05-Nov-2026 04:00 PM | 05-Nov-2026 04:00 PM",
+      "note": "WE-87 | 15-Oct-2026 03:00 PM | 15-Oct-2026 03:30 PM | 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. | AGM/UK/MECH/2026-27/911 | 15-Oct-2026 04:00 PM | 15-Oct-2026 04:30 PM | 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. | AGM/UK/MECH/2026-27/910 | 15-Oct-2026 04:00 PM | 15-Oct-2026 04:30 PM | 4. IHP 130nm Fabrication | 2026270387/MM-9/EC/364 | 03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM | 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. | 37/EE(C)/BSNL/JP/2026-27 | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM | 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. | 38/EE(C)/BSNL/JP/2026-27 | 14-Oct-2026 03:00 PM | 14-Oct-2026 03:30 PM | 7. BANDR /COIT/40089/NIT/ DISMANTLING | BANDR /COIT/40089/NIT/ DISMANTLING | 15-Oct-2026 06:55 PM | 16-Oct-2026 06:55 PM | 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF | VSP/WC/ESF/SPT/2600010045 | 12-Oct-2026 03:00 PM | 13-Oct-2026 03:00 PM | 9. CME/MECH.DIVISION/1935 | CME/MECH.DIVISION/1935 | 05-Nov-2026 04:00 PM | 05-Nov-2026 04:00 PM | 10. Tender notice for new premises at Sarnath | 1494/26-27 | 30-Oct-2026 04:00 PM | 30-Oct-2026 04:30 PM",
       "raw": {
         "cells": [
-          "1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. ITI/MSP-C/EOI-030/2026-27 ITI/MSP-C/EOI-030/2026-27 22-Oct-2026 11:00 AM 22-Oct-2026 11:30 AM 10. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM",
+          "1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai WE-87 15-Oct-2026 03:00 PM 15-Oct-2026 03:30 PM 2. Structure Stability Test and Conditional Assessment of Foundation Concrete of 2nd vertical Shaft Head Gear of Ukwa Mine. AGM/UK/MECH/2026-27/911 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine. AGM/UK/MECH/2026-27/910 15-Oct-2026 04:00 PM 15-Oct-2026 04:30 PM 4. IHP 130nm Fabrication 2026270387/MM-9/EC/364 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur. 37/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 6. Closing of doors/windows by brick work in TE bldg Lada ka bas, distt. Kotputli-Behrore due to theft incident. 38/EE(C)/BSNL/JP/2026-27 14-Oct-2026 03:00 PM 14-Oct-2026 03:30 PM 7. BANDR /COIT/40089/NIT/ DISMANTLING BANDR /COIT/40089/NIT/ DISMANTLING 15-Oct-2026 06:55 PM 16-Oct-2026 06:55 PM 8. TECHNOLOGICAL ASSISTANCE IN CMS/ESF VSP/WC/ESF/SPT/2600010045 12-Oct-2026 03:00 PM 13-Oct-2026 03:00 PM 9. CME/MECH.DIVISION/1935 CME/MECH.DIVISION/1935 05-Nov-2026 04:00 PM 05-Nov-2026 04:00 PM 10. Tender notice for new premises at Sarnath 1494/26-27 30-Oct-2026 04:00 PM 30-Oct-2026 04:30 PM",
           "1. Providing, fixing and replacement of aluminium partition, false ceiling white face board at firefighting and FRP chajja work as NEW ECR building at ATPS Chachai",
           "WE-87",
           "15-Oct-2026 03:00 PM",
@@ -753,14 +753,14 @@
           "AGM/UK/MECH/2026-27/911",
           "15-Oct-2026 04:00 PM",
           "15-Oct-2026 04:30 PM",
-          "3. IHP 130nm Fabrication",
-          "2026270387/MM-9/EC/364",
-          "03-Nov-2026 03:00 PM",
-          "03-Nov-2026 03:30 PM",
-          "4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine.",
+          "3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine.",
           "AGM/UK/MECH/2026-27/910",
           "15-Oct-2026 04:00 PM",
           "15-Oct-2026 04:30 PM",
+          "4. IHP 130nm Fabrication",
+          "2026270387/MM-9/EC/364",
+          "03-Nov-2026 03:00 PM",
+          "03-Nov-2026 03:30 PM",
           "5. Replacement of water supply lines for second floor (Leased out to GST) in Admin. Bldg Sawaimadhopur.",
           "37/EE(C)/BSNL/JP/2026-27",
           "14-Oct-2026 03:00 PM",
@@ -777,18 +777,18 @@
           "VSP/WC/ESF/SPT/2600010045",
           "12-Oct-2026 03:00 PM",
           "13-Oct-2026 03:00 PM",
-          "9. ITI/MSP-C/EOI-030/2026-27",
-          "ITI/MSP-C/EOI-030/2026-27",
-          "22-Oct-2026 11:00 AM",
-          "22-Oct-2026 11:30 AM",
-          "10. CME/MECH.DIVISION/1935",
+          "9. CME/MECH.DIVISION/1935",
           "CME/MECH.DIVISION/1935",
           "05-Nov-2026 04:00 PM",
-          "05-Nov-2026 04:00 PM"
+          "05-Nov-2026 04:00 PM",
+          "10. Tender notice for new premises at Sarnath",
+          "1494/26-27",
+          "30-Oct-2026 04:00 PM",
+          "30-Oct-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.242Z",
-      "evidenceHash": "d222c751f709b5e82bda53c2748c83a0d55fc1ef457defa52d168163fa5b0447"
+      "observedAt": "2026-10-06T23:50:30.086Z",
+      "evidenceHash": "ecb1ce2fc6e05e48275ff918d682641945cb014e926636ecfda98cfdfe92ddf5"
     },
     {
       "externalKey": "cppp-procurement:we-87:1.-providing,-fixing-and-replacement-of-aluminium-partition,-false-ceiling-white-face-board-at-firefighting-and-frp-chajja-work-as-new-ecr-building-at-atps-chachai",
@@ -810,7 +810,7 @@
           "15-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.243Z",
+      "observedAt": "2026-10-06T23:50:30.086Z",
       "evidenceHash": "f4ea09eb7de0556bc069331851cb5cc0cb777c18c9ac11b10ffded790d52d845"
     },
     {
@@ -833,36 +833,13 @@
           "15-Oct-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.243Z",
+      "observedAt": "2026-10-06T23:50:30.086Z",
       "evidenceHash": "a59ada85832bfcc9d5cb29263f5c03705106133f7f582bcb1dfee8504e3f5150"
     },
     {
-      "externalKey": "cppp-procurement:2026270387/mm-9/ec/364:3.-ihp-130nm-fabrication",
+      "externalKey": "cppp-procurement:agm/uk/mech/2026-27/910:3.-magnetic-defect-graph-testing-of-36mm-flc-type-man-winding-rope-of-2nd-vertical-shaft-winder-of-ukwa-mine.",
       "sensorId": "cppp-procurement",
-      "title": "3. IHP 130nm Fabrication",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SxxlCkk%2Fvl5%2F1ITa348QXsg%3D%3D",
-      "tenderReference": "2026270387/MM-9/EC/364",
-      "geographicPrecision": "unknown",
-      "note": "03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM",
-      "raw": {
-        "cells": [
-          "3. IHP 130nm Fabrication",
-          "2026270387/MM-9/EC/364",
-          "03-Nov-2026 03:00 PM",
-          "03-Nov-2026 03:30 PM"
-        ]
-      },
-      "observedAt": "2026-10-06T20:16:43.243Z",
-      "evidenceHash": "e3bf8fc5cb1d55e940f234de1e781063f61aaabefab4d68725ba3374ba4d0a74"
-    },
-    {
-      "externalKey": "cppp-procurement:agm/uk/mech/2026-27/910:4.-magnetic-defect-graph-testing-of-36mm-flc-type-man-winding-rope-of-2nd-vertical-shaft-winder-of-ukwa-mine.",
-      "sensorId": "cppp-procurement",
-      "title": "4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine.",
+      "title": "3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine.",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -873,14 +850,37 @@
       "note": "15-Oct-2026 04:00 PM | 15-Oct-2026 04:30 PM",
       "raw": {
         "cells": [
-          "4. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine.",
+          "3. Magnetic Defect Graph Testing of 36mm FLC type Man winding Rope of 2nd Vertical Shaft winder of Ukwa Mine.",
           "AGM/UK/MECH/2026-27/910",
           "15-Oct-2026 04:00 PM",
           "15-Oct-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.243Z",
-      "evidenceHash": "378657255e477c0e66c413d0ac3c3dfd3ddadaf2e077cae2323a50b66cd3b6e1"
+      "observedAt": "2026-10-06T23:50:30.086Z",
+      "evidenceHash": "64d46f0d906406f03065c5205e7f48a2fa64598869cf62f579b4683b08e96ba8"
+    },
+    {
+      "externalKey": "cppp-procurement:2026270387/mm-9/ec/364:4.-ihp-130nm-fabrication",
+      "sensorId": "cppp-procurement",
+      "title": "4. IHP 130nm Fabrication",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SxxlCkk%2Fvl5%2F1ITa348QXsg%3D%3D",
+      "tenderReference": "2026270387/MM-9/EC/364",
+      "geographicPrecision": "unknown",
+      "note": "03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "4. IHP 130nm Fabrication",
+          "2026270387/MM-9/EC/364",
+          "03-Nov-2026 03:00 PM",
+          "03-Nov-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-10-06T23:50:30.086Z",
+      "evidenceHash": "55e2184bf382900db622a40b46adfdf5767dcf189e5e47b5746c0642ec7d9c20"
     },
     {
       "externalKey": "cppp-procurement:37/ee(c)/bsnl/jp/2026-27:5.-replacement-of-water-supply-lines-for-second-floor-(leased-out-to-gst)-in-admin.-bldg-sawaimadhopur.",
@@ -902,7 +902,7 @@
           "14-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.243Z",
+      "observedAt": "2026-10-06T23:50:30.086Z",
       "evidenceHash": "2ad77fe62d2601dedf66ceafa57613cabeca5b073de7d929c04cd4f9585c125c"
     },
     {
@@ -925,7 +925,7 @@
           "14-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.243Z",
+      "observedAt": "2026-10-06T23:50:30.086Z",
       "evidenceHash": "53b4d8f17cbefb0e52affda8ed744665d8738929506eafe8d4721b5183e15e3c"
     },
     {
@@ -948,7 +948,7 @@
           "16-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.243Z",
+      "observedAt": "2026-10-06T23:50:30.086Z",
       "evidenceHash": "52924787bd660b89cfdb5cec3378bd0b5c2bbb9befacd2e4707bd0e9bb37f40d"
     },
     {
@@ -971,36 +971,13 @@
           "13-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.243Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "781c62baeb7aa6d3d040c6409936f4a7bc6fc484d66c88cc52bb3dd50b7f0af9"
     },
     {
-      "externalKey": "cppp-procurement:iti/msp-c/eoi-030/2026-27:9.-iti/msp-c/eoi-030/2026-27",
+      "externalKey": "cppp-procurement:cme/mech.division/1935:9.-cme/mech.division/1935",
       "sensorId": "cppp-procurement",
-      "title": "9. ITI/MSP-C/EOI-030/2026-27",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SrC%2FLiVjYqUdJ88VA5ISeaQ%3D%3D",
-      "tenderReference": "ITI/MSP-C/EOI-030/2026-27",
-      "geographicPrecision": "unknown",
-      "note": "22-Oct-2026 11:00 AM | 22-Oct-2026 11:30 AM",
-      "raw": {
-        "cells": [
-          "9. ITI/MSP-C/EOI-030/2026-27",
-          "ITI/MSP-C/EOI-030/2026-27",
-          "22-Oct-2026 11:00 AM",
-          "22-Oct-2026 11:30 AM"
-        ]
-      },
-      "observedAt": "2026-10-06T20:16:43.244Z",
-      "evidenceHash": "dfac9a6244719d9c900d9e9efe5fe63a1452a0c19cb2ef6c8dd4ff612c2a7c80"
-    },
-    {
-      "externalKey": "cppp-procurement:cme/mech.division/1935:10.-cme/mech.division/1935",
-      "sensorId": "cppp-procurement",
-      "title": "10. CME/MECH.DIVISION/1935",
+      "title": "9. CME/MECH.DIVISION/1935",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -1011,14 +988,37 @@
       "note": "05-Nov-2026 04:00 PM | 05-Nov-2026 04:00 PM",
       "raw": {
         "cells": [
-          "10. CME/MECH.DIVISION/1935",
+          "9. CME/MECH.DIVISION/1935",
           "CME/MECH.DIVISION/1935",
           "05-Nov-2026 04:00 PM",
           "05-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.244Z",
-      "evidenceHash": "48f860c7e587a5f88365421e1ab76d2f4eb62d1bb180d2b85d07a21f51846f6f"
+      "observedAt": "2026-10-06T23:50:30.087Z",
+      "evidenceHash": "faec24ff5c72c240694da12eb931bbe53a78721a1c4bef0714e3f9f0c2251b31"
+    },
+    {
+      "externalKey": "cppp-procurement:10.-tender-notice-for-new-premises-at-sarnath:10.-tender-notice-for-new-premises-at-sarnath",
+      "sensorId": "cppp-procurement",
+      "title": "10. Tender notice for new premises at Sarnath",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Smn9Ej7tfz3whXwd6fl9yXA%3D%3D",
+      "tenderReference": "10. Tender notice for new premises at Sarnath",
+      "geographicPrecision": "unknown",
+      "note": "30-Oct-2026 04:00 PM | 30-Oct-2026 04:30 PM",
+      "raw": {
+        "cells": [
+          "10. Tender notice for new premises at Sarnath",
+          "1494/26-27",
+          "30-Oct-2026 04:00 PM",
+          "30-Oct-2026 04:30 PM"
+        ]
+      },
+      "observedAt": "2026-10-06T23:50:30.087Z",
+      "evidenceHash": "a1e2aff29d96fa50f2ddc9f167547dc0252b01937d98e4aea957a223ccc95b9c"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.244Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.244Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "14-Oct-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.245Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "16d2a9bfab4abc1cf4c740abc84a82bd7436d7916951007c4de0c7836e4fef34"
     },
     {
@@ -1143,7 +1143,7 @@
           "09-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.245Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "47045a0a46b9f2b1d341f37aa17bf9e642fbfa63168b826ccfdcd9e2b6d9fcf0"
     },
     {
@@ -1166,7 +1166,7 @@
           "14-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.245Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "26bf075e26524f477da9371aa1d489d3aa541a6900ba2439f2bda5f1c025489c"
     },
     {
@@ -1189,7 +1189,7 @@
           "14-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.245Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "a3369d6c1e9c3377d351435c8c32324f257ce70a9b8f878bd97171c1cd4b1566"
     },
     {
@@ -1212,7 +1212,7 @@
           "12-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.245Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "693c28b80c8f7885468733425e5267643d0213e7db617b6dc52744c93348f6e1"
     },
     {
@@ -1235,7 +1235,7 @@
           "14-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.245Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "972ddbab3b72f4203101418f3b15a256366610275481130d239f2489cd04089f"
     },
     {
@@ -1258,7 +1258,7 @@
           "15-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.245Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "3bfbf2a7d5c09f4f4ae0cb606c84ebb283e9b95e1cf31224952d0f9e878ed72a"
     },
     {
@@ -1281,7 +1281,7 @@
           "15-Oct-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.245Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "ee3136af110143eef847db75aa1476f1b4ed36a0212c067070cf58390a617e9e"
     },
     {
@@ -1304,7 +1304,7 @@
           "14-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.245Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "f15369955acb6a5f838cba1121fd0759f2a1a0c78aaf4ad95389a55f59c3ecaf"
     },
     {
@@ -1327,7 +1327,7 @@
           "14-Oct-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.245Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "7cc0d3fa26abd66eae78a7bb32865e359c736db7b890cd233cea761d2d1a419b"
     },
     {
@@ -1350,7 +1350,7 @@
           "14-Oct-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.246Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "6ef5e7cd45a1190d94c9d160d8adbe1725f7915f05e4118985699741128a2d40"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.246Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.246Z",
+      "observedAt": "2026-10-06T23:50:30.087Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.246Z",
+      "observedAt": "2026-10-06T23:50:30.088Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.246Z",
+      "observedAt": "2026-10-06T23:50:30.088Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.246Z",
+      "observedAt": "2026-10-06T23:50:30.088Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.246Z",
+      "observedAt": "2026-10-06T23:50:30.088Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.247Z",
+      "observedAt": "2026-10-06T23:50:30.088Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.247Z",
+      "observedAt": "2026-10-06T23:50:30.088Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.247Z",
+      "observedAt": "2026-10-06T23:50:30.088Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.247Z",
+      "observedAt": "2026-10-06T23:50:30.088Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.247Z",
+      "observedAt": "2026-10-06T23:50:30.088Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.247Z",
+      "observedAt": "2026-10-06T23:50:30.088Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-06T20:16:43.248Z",
+      "observedAt": "2026-10-06T23:50:30.088Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1662,7 +1662,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-06T20:16:46.948Z",
+      "observedAt": "2026-10-06T23:50:31.531Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1675,7 +1675,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-06T20:16:46.949Z",
+      "observedAt": "2026-10-06T23:50:31.531Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1688,7 +1688,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-06T20:16:46.949Z",
+      "observedAt": "2026-10-06T23:50:31.531Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1701,7 +1701,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-06T20:16:46.949Z",
+      "observedAt": "2026-10-06T23:50:31.531Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1714,7 +1714,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-06T20:16:46.949Z",
+      "observedAt": "2026-10-06T23:50:31.531Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1728,7 +1728,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-06T20:16:46.949Z",
+      "observedAt": "2026-10-06T23:50:31.531Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1742,7 +1742,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-06T20:16:46.949Z",
+      "observedAt": "2026-10-06T23:50:31.531Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1756,7 +1756,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-06T20:16:46.950Z",
+      "observedAt": "2026-10-06T23:50:31.531Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1775,7 +1775,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-10-06T20:17:17.216Z",
+      "observedAt": "2026-10-06T23:51:03.707Z",
       "evidenceHash": "61bd51e18f1d42812bd6bab3510326a0780d9cf2164adb00f40f68d4d1cf50ea"
     },
     {
@@ -1794,7 +1794,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-10-06T20:17:17.221Z",
+      "observedAt": "2026-10-06T23:51:03.710Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1813,7 +1813,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-10-06T20:17:17.221Z",
+      "observedAt": "2026-10-06T23:51:03.710Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -1832,7 +1832,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-10-06T20:17:17.221Z",
+      "observedAt": "2026-10-06T23:51:03.710Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -1851,7 +1851,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-10-06T20:17:17.221Z",
+      "observedAt": "2026-10-06T23:51:03.711Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -1870,7 +1870,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-10-06T20:17:17.221Z",
+      "observedAt": "2026-10-06T23:51:03.711Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -1889,7 +1889,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-10-06T20:17:17.221Z",
+      "observedAt": "2026-10-06T23:51:03.711Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -1907,7 +1907,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-10-06T20:17:16.604Z",
+      "observedAt": "2026-10-06T23:51:03.154Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
