@@ -1,0 +1,113 @@
+{
+  "schema": "public-ledger/cga-hash-churn-audit/v1",
+  "audit_date": "2026-10-10",
+  "repo_source_path": "public/data/live/latest.json",
+  "snapshots": 12,
+  "consecutive_transitions": 11,
+  "paired_shared_record_comparisons": 548,
+  "changed_evidence_hashes": 101,
+  "changed_after_narrow_cga_url_normalization": 35,
+  "false_hash_churn_events": 66,
+  "false_churn_fraction_of_changed_hashes": 0.6534653465346535,
+  "source": "11 adjacent snapshot pairs from commits ac23f5b1 through d0131e1f, 2026-10-06 to 2026-10-09",
+  "comparison_method": "Join records on externalKey. Exclude observedAt/evidenceHash. For CGA monthly-account URLs only, remove the rand cache-busting query parameter from sourceUrl/sourceDocument. Compare all remaining record fields via JSON serialization.",
+  "per_transition": [
+    {
+      "newer_commit_prefix": "ac23f5b1",
+      "older_commit_prefix": "1e924b72",
+      "shared_keys": 58,
+      "changed_hashes": 9,
+      "changed_after_normalization": 3,
+      "false_churn": 6
+    },
+    {
+      "newer_commit_prefix": "1e924b72",
+      "older_commit_prefix": "ed67d2c2",
+      "shared_keys": 46,
+      "changed_hashes": 9,
+      "changed_after_normalization": 3,
+      "false_churn": 6
+    },
+    {
+      "newer_commit_prefix": "ed67d2c2",
+      "older_commit_prefix": "ea6c4d59",
+      "shared_keys": 46,
+      "changed_hashes": 9,
+      "changed_after_normalization": 3,
+      "false_churn": 6
+    },
+    {
+      "newer_commit_prefix": "ea6c4d59",
+      "older_commit_prefix": "928e7bfa",
+      "shared_keys": 63,
+      "changed_hashes": 9,
+      "changed_after_normalization": 3,
+      "false_churn": 6
+    },
+    {
+      "newer_commit_prefix": "928e7bfa",
+      "older_commit_prefix": "444ee26b",
+      "shared_keys": 47,
+      "changed_hashes": 9,
+      "changed_after_normalization": 3,
+      "false_churn": 6
+    },
+    {
+      "newer_commit_prefix": "444ee26b",
+      "older_commit_prefix": "011feee1",
+      "shared_keys": 46,
+      "changed_hashes": 9,
+      "changed_after_normalization": 3,
+      "false_churn": 6
+    },
+    {
+      "newer_commit_prefix": "011feee1",
+      "older_commit_prefix": "8492fdff",
+      "shared_keys": 46,
+      "changed_hashes": 9,
+      "changed_after_normalization": 3,
+      "false_churn": 6
+    },
+    {
+      "newer_commit_prefix": "8492fdff",
+      "older_commit_prefix": "0131814f",
+      "shared_keys": 59,
+      "changed_hashes": 9,
+      "changed_after_normalization": 3,
+      "false_churn": 6
+    },
+    {
+      "newer_commit_prefix": "0131814f",
+      "older_commit_prefix": "2118fb50",
+      "shared_keys": 45,
+      "changed_hashes": 11,
+      "changed_after_normalization": 5,
+      "false_churn": 6
+    },
+    {
+      "newer_commit_prefix": "2118fb50",
+      "older_commit_prefix": "a64326de",
+      "shared_keys": 46,
+      "changed_hashes": 9,
+      "changed_after_normalization": 3,
+      "false_churn": 6
+    },
+    {
+      "newer_commit_prefix": "a64326de",
+      "older_commit_prefix": "d0131e1f",
+      "shared_keys": 46,
+      "changed_hashes": 9,
+      "changed_after_normalization": 3,
+      "false_churn": 6
+    }
+  ],
+  "observed_pattern": "Six unchanged CGA aggregate records receive new evidence hashes in every adjacent snapshot pair, solely because the URL rand query parameter changes.",
+  "claim_state": "SUPPORTED: repeated false evidence-hash churn in archived CGA sensor snapshots",
+  "caveats": [
+    "66 is repeated record-transition events, not 66 unique government records.",
+    "The 35 remaining changed hashes may reflect changes in parsed content or ingestion metadata; they are not validated as genuine government financial revisions.",
+    "Retain original retrieval URLs; canonicalization is for evidence identity only.",
+    "No inference of wrongdoing or transaction-level traceability."
+  ],
+  "next_action": "Add narrowly scoped canonical evidence identity, preserve retrieval URL separately, and run exact-head snapshot regression tests before treating hash changes as revisions."
+}
