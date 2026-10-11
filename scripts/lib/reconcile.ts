@@ -7,60 +7,56 @@ export interface ReconciledLink {
   toExternalKey: string;
   relation: string;
   basis: ReconciliationBasis;
+  /** Exact identifier equality, not proof of a fund transfer. */
   confidence: 1;
   reference: string;
 }
-
-const STATE_ORDER = new Map([
-  ["budgeted", 0],
-  ["revised", 1],
-  ["sanctioned", 2],
-  ["released", 3],
-  ["procured", 4],
-  ["paid", 5],
-  ["delivered", 6],
-  ["audited", 7]
-]);
 
 function normalizeReference(value: string): string {
   return value.trim().replace(/\s+/g, "").toUpperCase();
 }
 
+/**
+ * Emit only independently sourced, unambiguous shared tender references.
+ * Identical identifiers do not prove chronological public-money movement.
+ */
 export function reconcileRecords(records: PublicMoneyRecord[]): ReconciledLink[] {
-  const byTender = new Map<string, PublicMoneyRecord[]>();
-
+  const byReference = new Map<string, PublicMoneyRecord[]>();
   for (const record of records) {
-    if (!record.tenderReference) continue;
+    if (!record.tenderReference || !record.fiscalYear || !record.jurisdiction) continue;
     const reference = normalizeReference(record.tenderReference);
     if (reference.length < 5) continue;
-    const group = byTender.get(reference) ?? [];
+    const key = JSON.stringify([
+      reference,
+      record.fiscalYear.trim(),
+      record.jurisdiction.trim().toUpperCase()
+    ]);
+    const group = byReference.get(key) ?? [];
     group.push(record);
-    byTender.set(reference, group);
+    byReference.set(key, group);
   }
 
   const links: ReconciledLink[] = [];
-
-  for (const [reference, group] of byTender) {
-    const unique = [...new Map(group.map((record) => [record.externalKey, record])).values()];
-    if (unique.length < 2) continue;
-
-    unique.sort((a, b) => (STATE_ORDER.get(a.state) ?? 99) - (STATE_ORDER.get(b.state) ?? 99));
-
-    for (let index = 0; index < unique.length - 1; index += 1) {
-      const from = unique[index];
-      const to = unique[index + 1];
-      if (from.externalKey === to.externalKey) continue;
-
-      links.push({
-        fromExternalKey: from.externalKey,
-        toExternalKey: to.externalKey,
-        relation: `${from.state} → ${to.state}`,
-        basis: "exact_tender_reference",
-        confidence: 1,
-        reference
-      });
-    }
+  for (const group of byReference.values()) {
+    const unique = [
+      ...new Map(group.map(record => [`${record.sensorId}:${record.externalKey}`, record])).values()
+    ];
+    // Ambiguous references and same-source replays are not corroboration.
+    if (unique.length !== 2) continue;
+    const [a, b] = unique.sort((x, y) =>
+      `${x.sensorId}:${x.externalKey}`.localeCompare(`${y.sensorId}:${y.externalKey}`)
+    );
+    if (a.sensorId === b.sensorId || a.externalKey === b.externalKey || a.sourceUrl === b.sourceUrl) continue;
+    links.push({
+      fromExternalKey: a.externalKey,
+      toExternalKey: b.externalKey,
+      relation: "shared tender reference (no inferred fund transfer)",
+      basis: "exact_tender_reference",
+      confidence: 1,
+      reference: normalizeReference(a.tenderReference!)
+    });
   }
-
-  return links;
+  return links.sort((a, b) =>
+    `${a.reference}:${a.fromExternalKey}`.localeCompare(`${b.reference}:${b.fromExternalKey}`)
+  );
 }
