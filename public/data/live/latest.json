@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T17:35:35.976Z",
+  "generatedAt": "2026-10-13T22:42:08.939Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-10-13T17:34:55.142Z",
+      "fetchedAt": "2026-10-13T22:41:28.025Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-10-13T17:34:55.155Z",
+      "fetchedAt": "2026-10-13T22:41:28.039Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-10-13T17:34:55.157Z",
+      "fetchedAt": "2026-10-13T22:41:28.040Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-10-13T17:34:55.158Z",
+      "fetchedAt": "2026-10-13T22:41:28.041Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-13T17:34:55.159Z",
+      "fetchedAt": "2026-10-13T22:41:28.042Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-13T17:34:55.162Z",
+      "fetchedAt": "2026-10-13T22:41:28.045Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-13T17:35:28.889Z",
+      "fetchedAt": "2026-10-13T22:42:01.776Z",
       "ok": true,
       "recordCount": 7,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-13T17:35:28.888Z",
+      "fetchedAt": "2026-10-13T22:42:01.775Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-10-13T17:35:28.890Z",
+      "fetchedAt": "2026-10-13T22:42:01.777Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-10-13T17:35:28.891Z",
+      "fetchedAt": "2026-10-13T22:42:01.778Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 15680090000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1370642578",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1370642578",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1883939587",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1883939587",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹15,68,009 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(36.7%)"
         ]
       },
-      "observedAt": "2026-10-13T17:35:01.750Z",
-      "evidenceHash": "a7bfc0743c6537458af3c3372092a41979e45515b8bece9d0a6c587777cf4b96"
+      "observedAt": "2026-10-13T22:41:33.638Z",
+      "evidenceHash": "b1d5655b5475a3ad6fe73acba04ee67624a51d2e99c3495acce5957f6781fbf5"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:8:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5148100000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1370642578",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1370642578",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1883939587",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1883939587",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,14,810 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(41.4%)"
         ]
       },
-      "observedAt": "2026-10-13T17:35:01.750Z",
-      "evidenceHash": "9d5d2c6ffb0c50c3d2c12361dff726584ded52913254ce66428d31523ca3875b"
+      "observedAt": "2026-10-13T22:41:33.638Z",
+      "evidenceHash": "3b14b3edc6b089882724b7c9470071a1d0d640da8c08effd5ddfea58cc20132e"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:8:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5099490000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1370642578",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1370642578",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1883939587",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1883939587",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,09,949 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(38.5%)"
         ]
       },
-      "observedAt": "2026-10-13T17:35:01.750Z",
-      "evidenceHash": "26c1336b7a0bd065970fa33552946c3b88445fe661103799d78daaf43df3cc04"
+      "observedAt": "2026-10-13T22:41:33.638Z",
+      "evidenceHash": "d71b995a280809e5dc0f3d056fc58f5ba55ca9a98b3027f179a9fae6d51935b3"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:8:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1394170000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1370642578",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1370642578",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1883939587",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1883939587",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,39,417 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(48.6%)"
         ]
       },
-      "observedAt": "2026-10-13T17:35:01.750Z",
-      "evidenceHash": "40c54760f5928a416b5e0ab1c65065b57c251a741cfce3b43994be2f3c2118f6"
+      "observedAt": "2026-10-13T22:41:33.638Z",
+      "evidenceHash": "2538495f1098569a37620c70fa08cee9db154d79095594ee333f141dfb3cfc04"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:8:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 20779580000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1370642578",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1370642578",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1883939587",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1883939587",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹20,77,958 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(37.1%)"
         ]
       },
-      "observedAt": "2026-10-13T17:35:01.750Z",
-      "evidenceHash": "6c90f68227f192d45dca462bbd7501986529740e344283c6d5caaee051f66a2b"
+      "observedAt": "2026-10-13T22:41:33.638Z",
+      "evidenceHash": "fc05f5e7c3365a728f009cc8c09b73522ea993c5b9eac174258973b4430e1650"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:8:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1870374200000.0002,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1370642578",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1370642578",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1883939587",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1883939587",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,87,037.42 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,30 +323,30 @@
           "(39%)"
         ]
       },
-      "observedAt": "2026-10-13T17:35:01.752Z",
-      "evidenceHash": "90d6afc000292926a19d840382c8af40f52f4aa0138c16dd9de54bad50de735a"
+      "observedAt": "2026-10-13T22:41:33.640Z",
+      "evidenceHash": "f4d01358a8c6ed26f735605d12a6388de52b1e92fc987a97e067d21fcb4967e3"
     },
     {
-      "externalKey": "cppp-procurement:screen-reader-access-13-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-13-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
+      "externalKey": "cppp-procurement:screen-reader-access-14-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-14-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
       "sensorId": "cppp-procurement",
-      "title": "Screen Reader Access 13-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "title": "Screen Reader Access 14-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=WebScreenReaderAccess&service=page",
-      "tenderReference": "Screen Reader Access 13-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "tenderReference": "Screen Reader Access 14-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "geographicPrecision": "unknown",
-      "note": "Screen Reader Access |  |  | 13-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 13-Oct-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
+      "note": "Screen Reader Access |  |  | 14-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 14-Oct-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
       "raw": {
         "cells": [
-          "Screen Reader Access 13-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+          "Screen Reader Access 14-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
           "Screen Reader Access",
           "Screen Reader Access",
           "",
           "",
-          "13-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "13-Oct-2026",
+          "14-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "14-Oct-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -357,8 +357,8 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.224Z",
-      "evidenceHash": "394a456e98b878fb318116c658cb5e9f4837811a6a6ff8755da4ef0114804308"
+      "observedAt": "2026-10-13T22:41:31.465Z",
+      "evidenceHash": "09b5aa7bfd99fb29f623182ea5e1abe1cd7c69afd10a3f4a917ef924a5d23127"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access:screen-reader-access",
@@ -377,25 +377,25 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.225Z",
+      "observedAt": "2026-10-13T22:41:31.465Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
-      "externalKey": "cppp-procurement:13-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:13-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
+      "externalKey": "cppp-procurement:14-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:14-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
       "sensorId": "cppp-procurement",
-      "title": "13-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "title": "14-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "tenderReference": "13-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "tenderReference": "14-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "geographicPrecision": "unknown",
       "note": "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  | ",
       "raw": {
         "cells": [
-          "13-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "13-Oct-2026",
+          "14-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "14-Oct-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -403,13 +403,13 @@
           ""
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.225Z",
-      "evidenceHash": "f8f4cc776f7e8df48d67576b23b8bd2919eaf2b5f0aaa374cf5a46ef9a3679a5"
+      "observedAt": "2026-10-13T22:41:31.466Z",
+      "evidenceHash": "4908ceb1bf49ab125f611af04875fcddac3911bb9f189a8e62ff3a24cb2109bb"
     },
     {
-      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:13-oct-2026",
+      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:14-oct-2026",
       "sensorId": "cppp-procurement",
-      "title": "13-Oct-2026",
+      "title": "14-Oct-2026",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -420,7 +420,7 @@
       "note": " |  |  | ",
       "raw": {
         "cells": [
-          "13-Oct-2026",
+          "14-Oct-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -428,8 +428,8 @@
           ""
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.225Z",
-      "evidenceHash": "2f14aab352b21d17f17b4da2b0790b2dccee9779900f5a681329caba57a43b61"
+      "observedAt": "2026-10-13T22:41:31.466Z",
+      "evidenceHash": "1ae724c44868e30f99a418c716612cc458f898ba4122283f2b3e3689ddc29225"
     },
     {
       "externalKey": "cppp-procurement:epublishing-system,-government-of-india",
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.226Z",
+      "observedAt": "2026-10-13T22:41:31.466Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.226Z",
+      "observedAt": "2026-10-13T22:41:31.466Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. BARIUM NITRATE GRADE 1 GEM/2026/B/8154596 27-Oct-2026 03:00 PM 28-Oct-2026 03:30 PM 9. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 10. Cell Counter Pur/PP 5906/e file 272369/26-27 30-Oct-2026 03:00 PM 30-Oct-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. BARIUM NITRATE GRADE 1 GEM/2026/B/8154596 27-Oct-2026 03:00 PM 28-Oct-2026 03:30 PM 9. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 10. Cell Counter Pur/PP 5906/e file 272369/26-27 30-Oct-2026 03:00 PM 30-Oct-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. BARIUM NITRATE GRADE 1 GEM/2026/B/8154596 27-Oct-2026 03:00 PM 28-Oct-2026 03:30 PM 9. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 10. Cell Counter Pur/PP 5906/e file 272369/26-27 30-Oct-2026 03:00 PM 30-Oct-2026 04:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. BARIUM NITRATE GRADE 1 GEM/2026/B/8154596 27-Oct-2026 03:00 PM 28-Oct-2026 03:30 PM 9. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 10. Cell Counter Pur/PP 5906/e file 272369/26-27 30-Oct-2026 03:00 PM 30-Oct-2026 04:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. BARIUM NITRATE GRADE 1 GEM/2026/B/8154596 27-Oct-2026 03:00 PM 28-Oct-2026 03:30 PM 9. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 10. Cell Counter Pur/PP 5906/e file 272369/26-27 30-Oct-2026 03:00 PM 30-Oct-2026 04:00 PM | 1. Selection of Vendor for ATM Managed Services | GEM/2026/B/8156058 | 03-Nov-2026 04:00 PM | 04-Nov-2026 04:00 PM | 2. BANDR/71149/MAN-LIFTER/NIT/11 | BANDR/71149/MAN-LIFTER/NIT/11 | 20-Oct-2026 06:55 PM | 21-Oct-2026 06:55 PM | 3. BANDR/71149/MAN-LIFTER/NIT/12 | BANDR/71149/MAN-LIFTER/NIT/12 | 20-Oct-2026 06:55 PM | 21-Oct-2026 06:55 PM | 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM | NBCC/SBG/Odisha/NIT/26-27/62 | 03-Nov-2026 11:00 AM | 03-Nov-2026 11:30 AM | 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works | GEM/2026/B/8153658 | 03-Nov-2026 02:00 PM | 04-Nov-2026 02:00 PM | 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. | GEM 2026 B 8147021 DT 13 10 2026 | 03-Nov-2026 01:00 PM | 04-Nov-2026 01:00 PM | 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu | DSPF-Dhalli-maturenuts-10-2026 | 22-Oct-2026 02:30 PM | 22-Oct-2026 03:00 PM | 8. BARIUM NITRATE GRADE 1 | GEM/2026/B/8154596 | 27-Oct-2026 03:00 PM | 28-Oct-2026 03:30 PM | 9. KAPL/MKPMD/05/1279 | KAPL/MKPMD/05/1279 | 15-Oct-2026 06:00 PM | 16-Oct-2026 09:05 AM | 10. Cell Counter | Pur/PP 5906/e file 272369/26-27 | 30-Oct-2026 03:00 PM | 30-Oct-2026 04:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM | 1. Bid Extension Notice 2 | GEM/2026/B/8064164 dated 21.09.2026 | 23-Oct-2026 04:00 PM | 24-Oct-2026 04:00 PM | 2. Pre-bid responses, Corrigendum/Addendum | GEM/2026/B/8064164 dated 21.09.2026 | 23-Oct-2026 04:00 PM | 24-Oct-2026 04:00 PM | 3. Technical Corrigendum | IITM/SPS/GATE/016/2026-27/SPL | 19-Oct-2026 04:00 PM | 20-Oct-2026 04:00 PM | 4. Prebid Minutes | IITM/SPS/GATE/016/2026-27/SPL | 19-Oct-2026 04:00 PM | 20-Oct-2026 04:00 PM | 5. Corrigendum 2 | GEM/2026/B/8094325 | 20-Oct-2026 11:00 AM | 21-Oct-2026 11:00 AM | 6. Addendum-4 | SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 | 28-Oct-2026 02:00 PM | 28-Oct-2026 03:00 PM | 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 | 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 | 22-Oct-2026 05:00 PM | 26-Oct-2026 12:00 PM | 8. Corrigendum 1 | EdCIL/DES/LL/2026/006 | 21-Oct-2026 03:30 PM | 21-Oct-2026 04:00 PM | 9. TN42-SEPT26-WEST1 | MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 | 22-Oct-2026 06:55 PM | 23-Oct-2026 06:55 PM | 10. TN37-SEPT26-WEST2 | MO/GAIL/71130/Strl.Work/ SC/NIT/01 | 22-Oct-2026 06:55 PM | 23-Oct-2026 06:55 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 9. BANDR/71149/HYDRA/NIT/09 BANDR/71149/HYDRA/NIT/09 19-Oct-2026 06:55 PM 20-Oct-2026 06:55 PM 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services CH/EOI86/2026/PMOSDSASRS 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 9. BANDR/71149/HYDRA/NIT/09 BANDR/71149/HYDRA/NIT/09 19-Oct-2026 06:55 PM 20-Oct-2026 06:55 PM 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services CH/EOI86/2026/PMOSDSASRS 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 9. BANDR/71149/HYDRA/NIT/09 BANDR/71149/HYDRA/NIT/09 19-Oct-2026 06:55 PM 20-Oct-2026 06:55 PM 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services CH/EOI86/2026/PMOSDSASRS 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 9. BANDR/71149/HYDRA/NIT/09 BANDR/71149/HYDRA/NIT/09 19-Oct-2026 06:55 PM 20-Oct-2026 06:55 PM 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services CH/EOI86/2026/PMOSDSASRS 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 9. BANDR/71149/HYDRA/NIT/09 BANDR/71149/HYDRA/NIT/09 19-Oct-2026 06:55 PM 20-Oct-2026 06:55 PM 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services CH/EOI86/2026/PMOSDSASRS 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM | 1. Selection of Vendor for ATM Managed Services | GEM/2026/B/8156058 | 03-Nov-2026 04:00 PM | 04-Nov-2026 04:00 PM | 2. BANDR/71149/MAN-LIFTER/NIT/11 | BANDR/71149/MAN-LIFTER/NIT/11 | 20-Oct-2026 06:55 PM | 21-Oct-2026 06:55 PM | 3. BANDR/71149/MAN-LIFTER/NIT/12 | BANDR/71149/MAN-LIFTER/NIT/12 | 20-Oct-2026 06:55 PM | 21-Oct-2026 06:55 PM | 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works | GEM/2026/B/8153658 | 03-Nov-2026 02:00 PM | 04-Nov-2026 02:00 PM | 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM | NBCC/SBG/Odisha/NIT/26-27/62 | 03-Nov-2026 11:00 AM | 03-Nov-2026 11:30 AM | 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. | GEM 2026 B 8147021 DT 13 10 2026 | 03-Nov-2026 01:00 PM | 04-Nov-2026 01:00 PM | 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu | DSPF-Dhalli-maturenuts-10-2026 | 22-Oct-2026 02:30 PM | 22-Oct-2026 03:00 PM | 8. KAPL/MKPMD/05/1279 | KAPL/MKPMD/05/1279 | 15-Oct-2026 06:00 PM | 16-Oct-2026 09:05 AM | 9. BANDR/71149/HYDRA/NIT/09 | BANDR/71149/HYDRA/NIT/09 | 19-Oct-2026 06:55 PM | 20-Oct-2026 06:55 PM | 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services | CH/EOI86/2026/PMOSDSASRS | 03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM | 1. Bid Extension Notice 2 | GEM/2026/B/8064164 dated 21.09.2026 | 23-Oct-2026 04:00 PM | 24-Oct-2026 04:00 PM | 2. Pre-bid responses, Corrigendum/Addendum | GEM/2026/B/8064164 dated 21.09.2026 | 23-Oct-2026 04:00 PM | 24-Oct-2026 04:00 PM | 3. Technical Corrigendum | IITM/SPS/GATE/016/2026-27/SPL | 19-Oct-2026 04:00 PM | 20-Oct-2026 04:00 PM | 4. Prebid Minutes | IITM/SPS/GATE/016/2026-27/SPL | 19-Oct-2026 04:00 PM | 20-Oct-2026 04:00 PM | 5. Corrigendum 2 | GEM/2026/B/8094325 | 20-Oct-2026 11:00 AM | 21-Oct-2026 11:00 AM | 6. Addendum-4 | SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 | 28-Oct-2026 02:00 PM | 28-Oct-2026 03:00 PM | 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 | 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 | 22-Oct-2026 05:00 PM | 26-Oct-2026 12:00 PM | 8. Corrigendum 1 | EdCIL/DES/LL/2026/006 | 21-Oct-2026 03:30 PM | 21-Oct-2026 04:00 PM | 9. TN42-SEPT26-WEST1 | MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 | 22-Oct-2026 06:55 PM | 23-Oct-2026 06:55 PM | 10. TN37-SEPT26-WEST2 | MO/GAIL/71130/Strl.Work/ SC/NIT/01 | 22-Oct-2026 06:55 PM | 23-Oct-2026 06:55 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,21 +520,21 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. BARIUM NITRATE GRADE 1 GEM/2026/B/8154596 27-Oct-2026 03:00 PM 28-Oct-2026 03:30 PM 9. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 10. Cell Counter Pur/PP 5906/e file 272369/26-27 30-Oct-2026 03:00 PM 30-Oct-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 9. BANDR/71149/HYDRA/NIT/09 BANDR/71149/HYDRA/NIT/09 19-Oct-2026 06:55 PM 20-Oct-2026 06:55 PM 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services CH/EOI86/2026/PMOSDSASRS 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. BARIUM NITRATE GRADE 1 GEM/2026/B/8154596 27-Oct-2026 03:00 PM 28-Oct-2026 03:30 PM 9. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 10. Cell Counter Pur/PP 5906/e file 272369/26-27 30-Oct-2026 03:00 PM 30-Oct-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 9. BANDR/71149/HYDRA/NIT/09 BANDR/71149/HYDRA/NIT/09 19-Oct-2026 06:55 PM 20-Oct-2026 06:55 PM 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services CH/EOI86/2026/PMOSDSASRS 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Bid Extension Notice 2 GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 2. Pre-bid responses, Corrigendum/Addendum GEM/2026/B/8064164 dated 21.09.2026 23-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 3. Technical Corrigendum IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 4. Prebid Minutes IITM/SPS/GATE/016/2026-27/SPL 19-Oct-2026 04:00 PM 20-Oct-2026 04:00 PM 5. Corrigendum 2 GEM/2026/B/8094325 20-Oct-2026 11:00 AM 21-Oct-2026 11:00 AM 6. Addendum-4 SGEL/CHQ/Contracts/PSPCL-1000 MW/2026 28-Oct-2026 02:00 PM 28-Oct-2026 03:00 PM 7. CORRIGENDUM ISSUED AGAINST ENQ NO 30003/DTK/19TF/ENQ-31/E3ES DT 28 SEP 2026 30003/DTK/19TF/ENQ-31/E3ES DATED 28 SEP 2026 22-Oct-2026 05:00 PM 26-Oct-2026 12:00 PM 8. Corrigendum 1 EdCIL/DES/LL/2026/006 21-Oct-2026 03:30 PM 21-Oct-2026 04:00 PM 9. TN42-SEPT26-WEST1 MO/GAIL-USAR/71147/MISC. STRL WORK/LC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM 10. TN37-SEPT26-WEST2 MO/GAIL/71130/Strl.Work/ SC/NIT/01 22-Oct-2026 06:55 PM 23-Oct-2026 06:55 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. BARIUM NITRATE GRADE 1 GEM/2026/B/8154596 27-Oct-2026 03:00 PM 28-Oct-2026 03:30 PM 9. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 10. Cell Counter Pur/PP 5906/e file 272369/26-27 30-Oct-2026 03:00 PM 30-Oct-2026 04:00 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. BARIUM NITRATE GRADE 1 GEM/2026/B/8154596 27-Oct-2026 03:00 PM 28-Oct-2026 03:30 PM 9. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 10. Cell Counter Pur/PP 5906/e file 272369/26-27 30-Oct-2026 03:00 PM 30-Oct-2026 04:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 9. BANDR/71149/HYDRA/NIT/09 BANDR/71149/HYDRA/NIT/09 19-Oct-2026 06:55 PM 20-Oct-2026 06:55 PM 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services CH/EOI86/2026/PMOSDSASRS 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 9. BANDR/71149/HYDRA/NIT/09 BANDR/71149/HYDRA/NIT/09 19-Oct-2026 06:55 PM 20-Oct-2026 06:55 PM 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services CH/EOI86/2026/PMOSDSASRS 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. BARIUM NITRATE GRADE 1 GEM/2026/B/8154596 27-Oct-2026 03:00 PM 28-Oct-2026 03:30 PM 9. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 10. Cell Counter Pur/PP 5906/e file 272369/26-27 30-Oct-2026 03:00 PM 30-Oct-2026 04:00 PM",
+          "1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 9. BANDR/71149/HYDRA/NIT/09 BANDR/71149/HYDRA/NIT/09 19-Oct-2026 06:55 PM 20-Oct-2026 06:55 PM 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services CH/EOI86/2026/PMOSDSASRS 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM",
           "1. Selection of Vendor for ATM Managed Services",
           "GEM/2026/B/8156058",
           "03-Nov-2026 04:00 PM",
@@ -547,14 +547,14 @@
           "BANDR/71149/MAN-LIFTER/NIT/12",
           "20-Oct-2026 06:55 PM",
           "21-Oct-2026 06:55 PM",
-          "4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM",
-          "NBCC/SBG/Odisha/NIT/26-27/62",
-          "03-Nov-2026 11:00 AM",
-          "03-Nov-2026 11:30 AM",
-          "5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works",
+          "4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works",
           "GEM/2026/B/8153658",
           "03-Nov-2026 02:00 PM",
           "04-Nov-2026 02:00 PM",
+          "5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM",
+          "NBCC/SBG/Odisha/NIT/26-27/62",
+          "03-Nov-2026 11:00 AM",
+          "03-Nov-2026 11:30 AM",
           "6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai.",
           "GEM 2026 B 8147021 DT 13 10 2026",
           "03-Nov-2026 01:00 PM",
@@ -563,18 +563,18 @@
           "DSPF-Dhalli-maturenuts-10-2026",
           "22-Oct-2026 02:30 PM",
           "22-Oct-2026 03:00 PM",
-          "8. BARIUM NITRATE GRADE 1",
-          "GEM/2026/B/8154596",
-          "27-Oct-2026 03:00 PM",
-          "28-Oct-2026 03:30 PM",
-          "9. KAPL/MKPMD/05/1279",
+          "8. KAPL/MKPMD/05/1279",
           "KAPL/MKPMD/05/1279",
           "15-Oct-2026 06:00 PM",
           "16-Oct-2026 09:05 AM",
-          "10. Cell Counter",
-          "Pur/PP 5906/e file 272369/26-27",
-          "30-Oct-2026 03:00 PM",
-          "30-Oct-2026 04:00 PM",
+          "9. BANDR/71149/HYDRA/NIT/09",
+          "BANDR/71149/HYDRA/NIT/09",
+          "19-Oct-2026 06:55 PM",
+          "20-Oct-2026 06:55 PM",
+          "10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services",
+          "CH/EOI86/2026/PMOSDSASRS",
+          "03-Nov-2026 03:00 PM",
+          "04-Nov-2026 03:00 PM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.231Z",
-      "evidenceHash": "3e4ec2319b5db801ae13730ef65f77e0bfb2059b6bb3c31eba088a2c62947cea"
+      "observedAt": "2026-10-13T22:41:31.472Z",
+      "evidenceHash": "d2d44ed743db62b08dd8f7064ea41245df7bb93cc9d2e4be12c31344c0647bfc"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.232Z",
+      "observedAt": "2026-10-13T22:41:31.473Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,24 +727,24 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.233Z",
+      "observedAt": "2026-10-13T22:41:31.474Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-selection-of-vendor-for-atm-managed-services-gem/2026/b/8156058-03-nov-2026-04:00-pm-04-nov-2026-04:00-pm-2.-bandr/71149/man-lifter/nit/11-bandr/71149/man-lifter/nit/11-20-oct-2026-06:55-pm-21-oct-2026-06:55-pm-3.-bandr/71149/man-lifter/nit/12-bandr/71149/man-lifter/nit/12-20-oct-2026-06:55-pm-21-oct-2026-06:55-pm-4.-construction,-repair/renovation-a-development-of-various-buildings,-roads-and-drains-including-electrical-and-mechanical-work-in-maharaja-sriram-chandra-bhanja-deo-university-mscbu,-sriram-chandra-vihar,-takatpur,-baripada,-mayurbhanj-under-pm-nbcc/sbg/odisha/nit/26-27/62-03-nov-2026-11:00-am-03-nov-2026-11:30-am-5.-structural-engineering-renovation-works-at-tatra-hangar-beml-bangalore-complex---pvc-down-take-pipes-replacing-the-existing-ac-roof-sheets-other-associated-civil-works-gem/2026/b/8153658-03-nov-2026-02:00-pm-04-nov-2026-02:00-pm-6.-procurement-of-abode-premier-pro-business-licenses-qty-4-at-ddk,-mumbai.-gem-2026-b-8147021-dt-13-10-2026-03-nov-2026-01:00-pm-04-nov-2026-01:00-pm-7.-tender-for-sale-of-5257-numbers-of-tall-and-hybrid-matured-coconuts-at-coconut-development-board-dsp-farm,-dhali,-udumalpet,-tamil-nadu-dspf-dhalli-maturenuts-10-2026-22-oct-2026-02:30-pm-22-oct-2026-03:00-pm-8.-barium-nitrate-grade-1-gem/2026/b/8154596-27-oct-2026-03:00-pm-28-oct-2026-03:30-pm-9.-kapl/mkpmd/05/1279-kapl/mkpmd/05/1279-15-oct-2026-06:00-pm-16-oct-2026-09:05-am-10.-cell-counter-pur/pp-5906/e-file-272369/26-27-30-oct-2026-03:00-pm-30-oct-2026-04:00-pm:1.-selection-of-vendor-for-atm-managed-services-gem/2026/b/8156058-03-nov-2026-04:00-pm-04-nov-2026-04:00-pm-2.-bandr/71149/man-lifter/nit/11-bandr/71149/man-lifter/nit/11-20-oct-2026-06:55-pm-21-oct-2026-06:55-pm-3.-bandr/71149/man-lifter/nit/12-bandr/71149/man-lifter/nit/12-20-oct-2026-06:55-pm-21-oct-2026-06:55-pm-4.-construction,-repair/renovation-a-development-of-various-buildings,-roads-and-drains-including-electrical-and-mechanical-work-in-maharaja-sriram-chandra-bhanja-deo-university-mscbu,-sriram-chandra-vihar,-takatpur,-baripada,-mayurbhanj-under-pm-nbcc/sbg/odisha/nit/26-27/62-03-nov-2026-11:00-am-03-nov-2026-11:30-am-5.-structural-engineering-renovation-works-at-tatra-hangar-beml-bangalore-complex---pvc-down-take-pipes-replacing-the-existing-ac-roof-sheets-other-associated-civil-works-gem/2026/b/8153658-03-nov-2026-02:00-pm-04-nov-2026-02:00-pm-6.-procurement-of-abode-premier-pro-business-licenses-qty-4-at-ddk,-mumbai.-gem-2026-b-8147021-dt-13-10-2026-03-nov-2026-01:00-pm-04-nov-2026-01:00-pm-7.-tender-for-sale-of-5257-numbers-of-tall-and-hybrid-matured-coconuts-at-coconut-development-board-dsp-farm,-dhali,-udumalpet,-tamil-nadu-dspf-dhalli-maturenuts-10-2026-22-oct-2026-02:30-pm-22-oct-2026-03:00-pm-8.-barium-nitrate-grade-1-gem/2026/b/8154596-27-oct-2026-03:00-pm-28-oct-2026-03:30-pm-9.-kapl/mkpmd/05/1279-kapl/mkpmd/05/1279-15-oct-2026-06:00-pm-16-oct-2026-09:05-am-10.-cell-counter-pur/pp-5906/e-file-272369/26-27-30-oct-2026-03:00-pm-30-oct-2026-04:00-pm",
+      "externalKey": "cppp-procurement:1.-selection-of-vendor-for-atm-managed-services-gem/2026/b/8156058-03-nov-2026-04:00-pm-04-nov-2026-04:00-pm-2.-bandr/71149/man-lifter/nit/11-bandr/71149/man-lifter/nit/11-20-oct-2026-06:55-pm-21-oct-2026-06:55-pm-3.-bandr/71149/man-lifter/nit/12-bandr/71149/man-lifter/nit/12-20-oct-2026-06:55-pm-21-oct-2026-06:55-pm-4.-structural-engineering-renovation-works-at-tatra-hangar-beml-bangalore-complex---pvc-down-take-pipes-replacing-the-existing-ac-roof-sheets-other-associated-civil-works-gem/2026/b/8153658-03-nov-2026-02:00-pm-04-nov-2026-02:00-pm-5.-construction,-repair/renovation-a-development-of-various-buildings,-roads-and-drains-including-electrical-and-mechanical-work-in-maharaja-sriram-chandra-bhanja-deo-university-mscbu,-sriram-chandra-vihar,-takatpur,-baripada,-mayurbhanj-under-pm-nbcc/sbg/odisha/nit/26-27/62-03-nov-2026-11:00-am-03-nov-2026-11:30-am-6.-procurement-of-abode-premier-pro-business-licenses-qty-4-at-ddk,-mumbai.-gem-2026-b-8147021-dt-13-10-2026-03-nov-2026-01:00-pm-04-nov-2026-01:00-pm-7.-tender-for-sale-of-5257-numbers-of-tall-and-hybrid-matured-coconuts-at-coconut-development-board-dsp-farm,-dhali,-udumalpet,-tamil-nadu-dspf-dhalli-maturenuts-10-2026-22-oct-2026-02:30-pm-22-oct-2026-03:00-pm-8.-kapl/mkpmd/05/1279-kapl/mkpmd/05/1279-15-oct-2026-06:00-pm-16-oct-2026-09:05-am-9.-bandr/71149/hydra/nit/09-bandr/71149/hydra/nit/09-19-oct-2026-06:55-pm-20-oct-2026-06:55-pm-10.-expression-of-interest-is-invited-for-empanelment-of-companies-to-provide-manpower-power-outsourcing-service-for-data-science-and-associated-software-related-services-ch/eoi86/2026/pmosdsasrs-03-nov-2026-03:00-pm-04-nov-2026-03:00-pm:1.-selection-of-vendor-for-atm-managed-services-gem/2026/b/8156058-03-nov-2026-04:00-pm-04-nov-2026-04:00-pm-2.-bandr/71149/man-lifter/nit/11-bandr/71149/man-lifter/nit/11-20-oct-2026-06:55-pm-21-oct-2026-06:55-pm-3.-bandr/71149/man-lifter/nit/12-bandr/71149/man-lifter/nit/12-20-oct-2026-06:55-pm-21-oct-2026-06:55-pm-4.-structural-engineering-renovation-works-at-tatra-hangar-beml-bangalore-complex---pvc-down-take-pipes-replacing-the-existing-ac-roof-sheets-other-associated-civil-works-gem/2026/b/8153658-03-nov-2026-02:00-pm-04-nov-2026-02:00-pm-5.-construction,-repair/renovation-a-development-of-various-buildings,-roads-and-drains-including-electrical-and-mechanical-work-in-maharaja-sriram-chandra-bhanja-deo-university-mscbu,-sriram-chandra-vihar,-takatpur,-baripada,-mayurbhanj-under-pm-nbcc/sbg/odisha/nit/26-27/62-03-nov-2026-11:00-am-03-nov-2026-11:30-am-6.-procurement-of-abode-premier-pro-business-licenses-qty-4-at-ddk,-mumbai.-gem-2026-b-8147021-dt-13-10-2026-03-nov-2026-01:00-pm-04-nov-2026-01:00-pm-7.-tender-for-sale-of-5257-numbers-of-tall-and-hybrid-matured-coconuts-at-coconut-development-board-dsp-farm,-dhali,-udumalpet,-tamil-nadu-dspf-dhalli-maturenuts-10-2026-22-oct-2026-02:30-pm-22-oct-2026-03:00-pm-8.-kapl/mkpmd/05/1279-kapl/mkpmd/05/1279-15-oct-2026-06:00-pm-16-oct-2026-09:05-am-9.-bandr/71149/hydra/nit/09-bandr/71149/hydra/nit/09-19-oct-2026-06:55-pm-20-oct-2026-06:55-pm-10.-expression-of-interest-is-invited-for-empanelment-of-companies-to-provide-manpower-power-outsourcing-service-for-data-science-and-associated-software-related-services-ch/eoi86/2026/pmosdsasrs-03-nov-2026-03:00-pm-04-nov-2026-03:00-pm",
       "sensorId": "cppp-procurement",
-      "title": "1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSC",
+      "title": "1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SNMi%2BAztjqpC88qWlVQFL2Q%3D%3D",
-      "tenderReference": "1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. BARIUM NITRATE GRADE 1 GEM/2026/B/8154596 27-Oct-2026 03:00 PM 28-Oct-2026 03:30 PM 9. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 10. Cell Counter Pur/PP 5906/e file 272369/26-27 30-Oct-2026 03:00 PM 30-Oct-2026 04:00 PM",
+      "tenderReference": "1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 9. BANDR/71149/HYDRA/NIT/09 BANDR/71149/HYDRA/NIT/09 19-Oct-2026 06:55 PM 20-Oct-2026 06:55 PM 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services CH/EOI86/2026/PMOSDSASRS 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM",
       "geographicPrecision": "unknown",
-      "note": "GEM/2026/B/8156058 | 03-Nov-2026 04:00 PM | 04-Nov-2026 04:00 PM | 2. BANDR/71149/MAN-LIFTER/NIT/11 | BANDR/71149/MAN-LIFTER/NIT/11 | 20-Oct-2026 06:55 PM | 21-Oct-2026 06:55 PM | 3. BANDR/71149/MAN-LIFTER/NIT/12 | BANDR/71149/MAN-LIFTER/NIT/12 | 20-Oct-2026 06:55 PM | 21-Oct-2026 06:55 PM | 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM | NBCC/SBG/Odisha/NIT/26-27/62 | 03-Nov-2026 11:00 AM | 03-Nov-2026 11:30 AM | 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works | GEM/2026/B/8153658 | 03-Nov-2026 02:00 PM | 04-Nov-2026 02:00 PM | 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. | GEM 2026 B 8147021 DT 13 10 2026 | 03-Nov-2026 01:00 PM | 04-Nov-2026 01:00 PM | 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu | DSPF-Dhalli-maturenuts-10-2026 | 22-Oct-2026 02:30 PM | 22-Oct-2026 03:00 PM | 8. BARIUM NITRATE GRADE 1 | GEM/2026/B/8154596 | 27-Oct-2026 03:00 PM | 28-Oct-2026 03:30 PM | 9. KAPL/MKPMD/05/1279 | KAPL/MKPMD/05/1279 | 15-Oct-2026 06:00 PM | 16-Oct-2026 09:05 AM | 10. Cell Counter | Pur/PP 5906/e file 272369/26-27 | 30-Oct-2026 03:00 PM | 30-Oct-2026 04:00 PM",
+      "note": "GEM/2026/B/8156058 | 03-Nov-2026 04:00 PM | 04-Nov-2026 04:00 PM | 2. BANDR/71149/MAN-LIFTER/NIT/11 | BANDR/71149/MAN-LIFTER/NIT/11 | 20-Oct-2026 06:55 PM | 21-Oct-2026 06:55 PM | 3. BANDR/71149/MAN-LIFTER/NIT/12 | BANDR/71149/MAN-LIFTER/NIT/12 | 20-Oct-2026 06:55 PM | 21-Oct-2026 06:55 PM | 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works | GEM/2026/B/8153658 | 03-Nov-2026 02:00 PM | 04-Nov-2026 02:00 PM | 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM | NBCC/SBG/Odisha/NIT/26-27/62 | 03-Nov-2026 11:00 AM | 03-Nov-2026 11:30 AM | 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. | GEM 2026 B 8147021 DT 13 10 2026 | 03-Nov-2026 01:00 PM | 04-Nov-2026 01:00 PM | 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu | DSPF-Dhalli-maturenuts-10-2026 | 22-Oct-2026 02:30 PM | 22-Oct-2026 03:00 PM | 8. KAPL/MKPMD/05/1279 | KAPL/MKPMD/05/1279 | 15-Oct-2026 06:00 PM | 16-Oct-2026 09:05 AM | 9. BANDR/71149/HYDRA/NIT/09 | BANDR/71149/HYDRA/NIT/09 | 19-Oct-2026 06:55 PM | 20-Oct-2026 06:55 PM | 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services | CH/EOI86/2026/PMOSDSASRS | 03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM",
       "raw": {
         "cells": [
-          "1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. BARIUM NITRATE GRADE 1 GEM/2026/B/8154596 27-Oct-2026 03:00 PM 28-Oct-2026 03:30 PM 9. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 10. Cell Counter Pur/PP 5906/e file 272369/26-27 30-Oct-2026 03:00 PM 30-Oct-2026 04:00 PM",
+          "1. Selection of Vendor for ATM Managed Services GEM/2026/B/8156058 03-Nov-2026 04:00 PM 04-Nov-2026 04:00 PM 2. BANDR/71149/MAN-LIFTER/NIT/11 BANDR/71149/MAN-LIFTER/NIT/11 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 3. BANDR/71149/MAN-LIFTER/NIT/12 BANDR/71149/MAN-LIFTER/NIT/12 20-Oct-2026 06:55 PM 21-Oct-2026 06:55 PM 4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works GEM/2026/B/8153658 03-Nov-2026 02:00 PM 04-Nov-2026 02:00 PM 5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM NBCC/SBG/Odisha/NIT/26-27/62 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai. GEM 2026 B 8147021 DT 13 10 2026 03-Nov-2026 01:00 PM 04-Nov-2026 01:00 PM 7. Tender for sale of 5257 numbers of Tall and Hybrid matured coconuts at Coconut Development Board DSP Farm, Dhali, Udumalpet, Tamil Nadu DSPF-Dhalli-maturenuts-10-2026 22-Oct-2026 02:30 PM 22-Oct-2026 03:00 PM 8. KAPL/MKPMD/05/1279 KAPL/MKPMD/05/1279 15-Oct-2026 06:00 PM 16-Oct-2026 09:05 AM 9. BANDR/71149/HYDRA/NIT/09 BANDR/71149/HYDRA/NIT/09 19-Oct-2026 06:55 PM 20-Oct-2026 06:55 PM 10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services CH/EOI86/2026/PMOSDSASRS 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM",
           "1. Selection of Vendor for ATM Managed Services",
           "GEM/2026/B/8156058",
           "03-Nov-2026 04:00 PM",
@@ -757,14 +757,14 @@
           "BANDR/71149/MAN-LIFTER/NIT/12",
           "20-Oct-2026 06:55 PM",
           "21-Oct-2026 06:55 PM",
-          "4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM",
-          "NBCC/SBG/Odisha/NIT/26-27/62",
-          "03-Nov-2026 11:00 AM",
-          "03-Nov-2026 11:30 AM",
-          "5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works",
+          "4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works",
           "GEM/2026/B/8153658",
           "03-Nov-2026 02:00 PM",
           "04-Nov-2026 02:00 PM",
+          "5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM",
+          "NBCC/SBG/Odisha/NIT/26-27/62",
+          "03-Nov-2026 11:00 AM",
+          "03-Nov-2026 11:30 AM",
           "6. Procurement of Abode Premier Pro Business Licenses Qty-4 at DDK, Mumbai.",
           "GEM 2026 B 8147021 DT 13 10 2026",
           "03-Nov-2026 01:00 PM",
@@ -773,22 +773,22 @@
           "DSPF-Dhalli-maturenuts-10-2026",
           "22-Oct-2026 02:30 PM",
           "22-Oct-2026 03:00 PM",
-          "8. BARIUM NITRATE GRADE 1",
-          "GEM/2026/B/8154596",
-          "27-Oct-2026 03:00 PM",
-          "28-Oct-2026 03:30 PM",
-          "9. KAPL/MKPMD/05/1279",
+          "8. KAPL/MKPMD/05/1279",
           "KAPL/MKPMD/05/1279",
           "15-Oct-2026 06:00 PM",
           "16-Oct-2026 09:05 AM",
-          "10. Cell Counter",
-          "Pur/PP 5906/e file 272369/26-27",
-          "30-Oct-2026 03:00 PM",
-          "30-Oct-2026 04:00 PM"
+          "9. BANDR/71149/HYDRA/NIT/09",
+          "BANDR/71149/HYDRA/NIT/09",
+          "19-Oct-2026 06:55 PM",
+          "20-Oct-2026 06:55 PM",
+          "10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services",
+          "CH/EOI86/2026/PMOSDSASRS",
+          "03-Nov-2026 03:00 PM",
+          "04-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.234Z",
-      "evidenceHash": "2efb0f5f1b5f2a798347c536b81840fa1b5a8ef2625c051f57d8ceb86e8f26ea"
+      "observedAt": "2026-10-13T22:41:31.483Z",
+      "evidenceHash": "2d9d2744de9a71f70a8fb7cb764d13d097275619eadeef693ed42b17a26d22a9"
     },
     {
       "externalKey": "cppp-procurement:gem/2026/b/8156058:1.-selection-of-vendor-for-atm-managed-services",
@@ -810,7 +810,7 @@
           "04-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.235Z",
+      "observedAt": "2026-10-13T22:41:31.484Z",
       "evidenceHash": "f5c67d64fdd269260044e1383d6888cb2b649a0feb28e2fed259a04546d43768"
     },
     {
@@ -833,7 +833,7 @@
           "21-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.235Z",
+      "observedAt": "2026-10-13T22:41:31.484Z",
       "evidenceHash": "4b0b1cb0d3868e2a638f286d8a2d31434b2e2e1fa03b37bbae7cb58c287f6c9c"
     },
     {
@@ -856,36 +856,13 @@
           "21-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.235Z",
+      "observedAt": "2026-10-13T22:41:31.484Z",
       "evidenceHash": "26f8f1cc7f03ca2de99dd878b803c63c81033fdd236230e2c83cf81c5c1555e7"
     },
     {
-      "externalKey": "cppp-procurement:nbcc/sbg/odisha/nit/26-27/62:4.-construction,-repair/renovation-a-development-of-various-buildings,-roads-and-drains-including-electrical-and-mechanical-work-in-maharaja-sriram-chandra-bhanja-deo-university-mscbu,-sriram-chandra-vihar,-takatpur,-baripada,-mayurbhanj-under-pm",
+      "externalKey": "cppp-procurement:gem/2026/b/8153658:4.-structural-engineering-renovation-works-at-tatra-hangar-beml-bangalore-complex---pvc-down-take-pipes-replacing-the-existing-ac-roof-sheets-other-associated-civil-works",
       "sensorId": "cppp-procurement",
-      "title": "4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SmlVCk0rnPz1j2rOLs6s4vQ%3D%3D",
-      "tenderReference": "NBCC/SBG/Odisha/NIT/26-27/62",
-      "geographicPrecision": "unknown",
-      "note": "03-Nov-2026 11:00 AM | 03-Nov-2026 11:30 AM",
-      "raw": {
-        "cells": [
-          "4. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM",
-          "NBCC/SBG/Odisha/NIT/26-27/62",
-          "03-Nov-2026 11:00 AM",
-          "03-Nov-2026 11:30 AM"
-        ]
-      },
-      "observedAt": "2026-10-13T17:34:57.235Z",
-      "evidenceHash": "dd39aab3e7300edca29cf08e439d6905982cd6da5b9380842c658a113f96a2f7"
-    },
-    {
-      "externalKey": "cppp-procurement:gem/2026/b/8153658:5.-structural-engineering-renovation-works-at-tatra-hangar-beml-bangalore-complex---pvc-down-take-pipes-replacing-the-existing-ac-roof-sheets-other-associated-civil-works",
-      "sensorId": "cppp-procurement",
-      "title": "5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works",
+      "title": "4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -896,14 +873,37 @@
       "note": "03-Nov-2026 02:00 PM | 04-Nov-2026 02:00 PM",
       "raw": {
         "cells": [
-          "5. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works",
+          "4. Structural Engineering Renovation works at Tatra Hangar BEML Bangalore Complex - PVC Down take pipes Replacing the existing AC roof sheets other associated Civil works",
           "GEM/2026/B/8153658",
           "03-Nov-2026 02:00 PM",
           "04-Nov-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.235Z",
-      "evidenceHash": "19c7d68b32d68d166dbd8a6e45b153d087ad7dbaee9e34e81995209321e40ae9"
+      "observedAt": "2026-10-13T22:41:31.484Z",
+      "evidenceHash": "24ac91f6decf96b7ded5ebcfcbc3a0b2c7aa6dd3ce8372f3a929626fc235ebb6"
+    },
+    {
+      "externalKey": "cppp-procurement:nbcc/sbg/odisha/nit/26-27/62:5.-construction,-repair/renovation-a-development-of-various-buildings,-roads-and-drains-including-electrical-and-mechanical-work-in-maharaja-sriram-chandra-bhanja-deo-university-mscbu,-sriram-chandra-vihar,-takatpur,-baripada,-mayurbhanj-under-pm",
+      "sensorId": "cppp-procurement",
+      "title": "5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SmlVCk0rnPz1j2rOLs6s4vQ%3D%3D",
+      "tenderReference": "NBCC/SBG/Odisha/NIT/26-27/62",
+      "geographicPrecision": "unknown",
+      "note": "03-Nov-2026 11:00 AM | 03-Nov-2026 11:30 AM",
+      "raw": {
+        "cells": [
+          "5. Construction, Repair/Renovation a Development of various buildings, roads and drains including Electrical and Mechanical work in Maharaja Sriram Chandra Bhanja Deo University MSCBU, Sriram Chandra Vihar, Takatpur, Baripada, Mayurbhanj under PM",
+          "NBCC/SBG/Odisha/NIT/26-27/62",
+          "03-Nov-2026 11:00 AM",
+          "03-Nov-2026 11:30 AM"
+        ]
+      },
+      "observedAt": "2026-10-13T22:41:31.484Z",
+      "evidenceHash": "23b10f28f7e14d53e0434c51fcc60bcae5d04aa084bac8e65dd13c89abe5dc60"
     },
     {
       "externalKey": "cppp-procurement:gem-2026-b-8147021-dt-13-10-2026:6.-procurement-of-abode-premier-pro-business-licenses-qty-4-at-ddk,-mumbai.",
@@ -925,7 +925,7 @@
           "04-Nov-2026 01:00 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.235Z",
+      "observedAt": "2026-10-13T22:41:31.484Z",
       "evidenceHash": "4e3f7f0256bda91a98942252b493e85db8b4f7aee58e746258f31381c0b29bf2"
     },
     {
@@ -948,36 +948,13 @@
           "22-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.235Z",
+      "observedAt": "2026-10-13T22:41:31.484Z",
       "evidenceHash": "6b569dd626056915799c3e8a2a8b9a25916df66d58eb9ceee352319862c53505"
     },
     {
-      "externalKey": "cppp-procurement:gem/2026/b/8154596:8.-barium-nitrate-grade-1",
+      "externalKey": "cppp-procurement:kapl/mkpmd/05/1279:8.-kapl/mkpmd/05/1279",
       "sensorId": "cppp-procurement",
-      "title": "8. BARIUM NITRATE GRADE 1",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SkKUR%2FrSlnYr2OZnb%2BKPeaQ%3D%3D",
-      "tenderReference": "GEM/2026/B/8154596",
-      "geographicPrecision": "unknown",
-      "note": "27-Oct-2026 03:00 PM | 28-Oct-2026 03:30 PM",
-      "raw": {
-        "cells": [
-          "8. BARIUM NITRATE GRADE 1",
-          "GEM/2026/B/8154596",
-          "27-Oct-2026 03:00 PM",
-          "28-Oct-2026 03:30 PM"
-        ]
-      },
-      "observedAt": "2026-10-13T17:34:57.235Z",
-      "evidenceHash": "36fb2ad6e5fe1f91fdda24749c67f3cd5fa63de1e47c4674c5a4ca4973eb5828"
-    },
-    {
-      "externalKey": "cppp-procurement:kapl/mkpmd/05/1279:9.-kapl/mkpmd/05/1279",
-      "sensorId": "cppp-procurement",
-      "title": "9. KAPL/MKPMD/05/1279",
+      "title": "8. KAPL/MKPMD/05/1279",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -988,37 +965,60 @@
       "note": "15-Oct-2026 06:00 PM | 16-Oct-2026 09:05 AM",
       "raw": {
         "cells": [
-          "9. KAPL/MKPMD/05/1279",
+          "8. KAPL/MKPMD/05/1279",
           "KAPL/MKPMD/05/1279",
           "15-Oct-2026 06:00 PM",
           "16-Oct-2026 09:05 AM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.235Z",
-      "evidenceHash": "599a880e2aef1ed19e5f90db7f60c79336295d0b37ac86d14c2422b0999ccc9c"
+      "observedAt": "2026-10-13T22:41:31.484Z",
+      "evidenceHash": "a3610f664ec6650e896817362a5d8707eb8bccad7232b88e95516e2b54107c51"
     },
     {
-      "externalKey": "cppp-procurement:pur/pp-5906/e-file-272369/26-27:10.-cell-counter",
+      "externalKey": "cppp-procurement:bandr/71149/hydra/nit/09:9.-bandr/71149/hydra/nit/09",
       "sensorId": "cppp-procurement",
-      "title": "10. Cell Counter",
+      "title": "9. BANDR/71149/HYDRA/NIT/09",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SI6o8ssLxGSpLAcmoOsEtJA%3D%3D",
-      "tenderReference": "Pur/PP 5906/e file 272369/26-27",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SKrAtx9Vnw03BGZT0k8QsEQ%3D%3D",
+      "tenderReference": "BANDR/71149/HYDRA/NIT/09",
       "geographicPrecision": "unknown",
-      "note": "30-Oct-2026 03:00 PM | 30-Oct-2026 04:00 PM",
+      "note": "19-Oct-2026 06:55 PM | 20-Oct-2026 06:55 PM",
       "raw": {
         "cells": [
-          "10. Cell Counter",
-          "Pur/PP 5906/e file 272369/26-27",
-          "30-Oct-2026 03:00 PM",
-          "30-Oct-2026 04:00 PM"
+          "9. BANDR/71149/HYDRA/NIT/09",
+          "BANDR/71149/HYDRA/NIT/09",
+          "19-Oct-2026 06:55 PM",
+          "20-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.235Z",
-      "evidenceHash": "adb553221e18c0a67259079f7ba5f27cd4104b0008297919be363ec2e72782c7"
+      "observedAt": "2026-10-13T22:41:31.484Z",
+      "evidenceHash": "a6ad335be7c36b3a982147bc6d2eebd0d8b73c7e5f168262c33f0527e854ae63"
+    },
+    {
+      "externalKey": "cppp-procurement:ch/eoi86/2026/pmosdsasrs:10.-expression-of-interest-is-invited-for-empanelment-of-companies-to-provide-manpower-power-outsourcing-service-for-data-science-and-associated-software-related-services",
+      "sensorId": "cppp-procurement",
+      "title": "10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Szj%2B%2BUWkg2VKpQ%2FCGWiVyqw%3D%3D",
+      "tenderReference": "CH/EOI86/2026/PMOSDSASRS",
+      "geographicPrecision": "unknown",
+      "note": "03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM",
+      "raw": {
+        "cells": [
+          "10. Expression of Interest is invited for Empanelment of companies to provide Manpower power Outsourcing Service-for Data science and Associated software related services",
+          "CH/EOI86/2026/PMOSDSASRS",
+          "03-Nov-2026 03:00 PM",
+          "04-Nov-2026 03:00 PM"
+        ]
+      },
+      "observedAt": "2026-10-13T22:41:31.484Z",
+      "evidenceHash": "10e19552d0ca056ea388af00109c6f01c571986bcd5be252e073a3470ccddf9b"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.235Z",
+      "observedAt": "2026-10-13T22:41:31.485Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.236Z",
+      "observedAt": "2026-10-13T22:41:31.485Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "23-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.236Z",
+      "observedAt": "2026-10-13T22:41:31.485Z",
       "evidenceHash": "1fe28cfcc4d36e94076a44708235eea06e2cfca0f739d92d8dcb7f3772d51a01"
     },
     {
@@ -1143,7 +1143,7 @@
           "24-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.236Z",
+      "observedAt": "2026-10-13T22:41:31.485Z",
       "evidenceHash": "b83bf53698c6a8d870a65226b2864c16c540c1b68b0bb9d543b33d94807d1178"
     },
     {
@@ -1166,7 +1166,7 @@
           "24-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.236Z",
+      "observedAt": "2026-10-13T22:41:31.486Z",
       "evidenceHash": "c268b6062425fdaee480f78caa557852bc1d560c9f7c1ffa2e729bada2491d53"
     },
     {
@@ -1189,7 +1189,7 @@
           "20-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.236Z",
+      "observedAt": "2026-10-13T22:41:31.486Z",
       "evidenceHash": "df0b36e25aa3bd1ed9ce522658be4076f7a12e2cfee1ee0ccf4d3407566c7f2f"
     },
     {
@@ -1212,7 +1212,7 @@
           "20-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.236Z",
+      "observedAt": "2026-10-13T22:41:31.486Z",
       "evidenceHash": "f942414c5a45a715679ebac07b95c55e60bedf70ab30e823151e3a4de919f582"
     },
     {
@@ -1235,7 +1235,7 @@
           "21-Oct-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.236Z",
+      "observedAt": "2026-10-13T22:41:31.486Z",
       "evidenceHash": "f9a79e0ca7b853f8154d8894d8ee84fe011e2ffc4715608ffddbaf14387476b3"
     },
     {
@@ -1258,7 +1258,7 @@
           "28-Oct-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.236Z",
+      "observedAt": "2026-10-13T22:41:31.486Z",
       "evidenceHash": "9a8838da07d2bd1b95bd26db55cb89be2fba6a3a041762e3fcbba035686a5e7c"
     },
     {
@@ -1281,7 +1281,7 @@
           "26-Oct-2026 12:00 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.236Z",
+      "observedAt": "2026-10-13T22:41:31.486Z",
       "evidenceHash": "4ee0e11b07ada0150a32be372112a5cad38a770a1c015fb580795ba2e9a62ef3"
     },
     {
@@ -1304,7 +1304,7 @@
           "21-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.236Z",
+      "observedAt": "2026-10-13T22:41:31.486Z",
       "evidenceHash": "454aa3bcd2da4c8cccb8f19f27f5036a273879c153914e0dd2a9874a88d714c7"
     },
     {
@@ -1327,7 +1327,7 @@
           "23-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.236Z",
+      "observedAt": "2026-10-13T22:41:31.486Z",
       "evidenceHash": "2169a548c435831b2f96464165070c7c20ec4f1af4d3e7622bbbf5140906a294"
     },
     {
@@ -1350,7 +1350,7 @@
           "23-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.236Z",
+      "observedAt": "2026-10-13T22:41:31.486Z",
       "evidenceHash": "8c51df031ff89bd964570897f15c4f96952bc5fdf5c58bbf7c7193a7b70b8069"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.236Z",
+      "observedAt": "2026-10-13T22:41:31.486Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.237Z",
+      "observedAt": "2026-10-13T22:41:31.486Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.237Z",
+      "observedAt": "2026-10-13T22:41:31.487Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.237Z",
+      "observedAt": "2026-10-13T22:41:31.487Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.237Z",
+      "observedAt": "2026-10-13T22:41:31.487Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.237Z",
+      "observedAt": "2026-10-13T22:41:31.487Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.237Z",
+      "observedAt": "2026-10-13T22:41:31.488Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.237Z",
+      "observedAt": "2026-10-13T22:41:31.488Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.238Z",
+      "observedAt": "2026-10-13T22:41:31.488Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.238Z",
+      "observedAt": "2026-10-13T22:41:31.488Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.238Z",
+      "observedAt": "2026-10-13T22:41:31.488Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.238Z",
+      "observedAt": "2026-10-13T22:41:31.489Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-13T17:34:57.238Z",
+      "observedAt": "2026-10-13T22:41:31.489Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "125830"
       },
-      "observedAt": "2026-10-13T17:34:59.274Z",
+      "observedAt": "2026-10-13T22:41:29.982Z",
       "evidenceHash": "5cfbd2ce08b6de0ff1d70c251045d519312b60a68b5b53ad8ebbad71ee82f064"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "125829"
       },
-      "observedAt": "2026-10-13T17:34:59.274Z",
+      "observedAt": "2026-10-13T22:41:29.982Z",
       "evidenceHash": "2f0b6182addd14efa4bdb5ca4f16fa2a2c0feeea4a21d9900843072f9bd8df90"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "125828"
       },
-      "observedAt": "2026-10-13T17:34:59.274Z",
+      "observedAt": "2026-10-13T22:41:29.982Z",
       "evidenceHash": "5d28e4d26249fb281735dac989a06f0501292736cba1936d235185bccd9afc41"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "125827"
       },
-      "observedAt": "2026-10-13T17:34:59.274Z",
+      "observedAt": "2026-10-13T22:41:29.982Z",
       "evidenceHash": "2db2e1f6ae23af8dab9b08c7d2975228f077034603fb4f0360e269c58fdb02a0"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "125728"
       },
-      "observedAt": "2026-10-13T17:34:59.274Z",
+      "observedAt": "2026-10-13T22:41:29.983Z",
       "evidenceHash": "83e9b943800eeec78a0206b4045e1b74d45424412151a3e51ef79c8123ef8d20"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "125712"
       },
-      "observedAt": "2026-10-13T17:34:59.274Z",
+      "observedAt": "2026-10-13T22:41:29.983Z",
       "evidenceHash": "49fead40de686e1e2e7056517252cdbc91195f214b26fdfdbc038e4e3115e80d"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "125624"
       },
-      "observedAt": "2026-10-13T17:34:59.274Z",
+      "observedAt": "2026-10-13T22:41:29.983Z",
       "evidenceHash": "fd060fe7ff79e5a2837873cf49572c82f56ac410a4fa0c9d40381174facaa68d"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "125602"
       },
-      "observedAt": "2026-10-13T17:34:59.274Z",
+      "observedAt": "2026-10-13T22:41:29.983Z",
       "evidenceHash": "857698c208374a8e9f7558e800c4c1d89679206247d8e9d3a0ff39787ea05ca6"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "125600"
       },
-      "observedAt": "2026-10-13T17:34:59.274Z",
+      "observedAt": "2026-10-13T22:41:29.983Z",
       "evidenceHash": "0f96061c565a4f7eb21d5cb5c6ff799a1bb14533b0b14a8dd569270de7bc9fb7"
     },
     {
@@ -1809,7 +1809,7 @@
       "raw": {
         "reportId": "125598"
       },
-      "observedAt": "2026-10-13T17:34:59.274Z",
+      "observedAt": "2026-10-13T22:41:29.983Z",
       "evidenceHash": "2d2e2023f9deb47d503c0cf74665110aeb49c93357b3820ea99cca96c4714619"
     },
     {
@@ -1822,7 +1822,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-13T17:35:01.392Z",
+      "observedAt": "2026-10-13T22:41:30.705Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1835,7 +1835,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-13T17:35:01.393Z",
+      "observedAt": "2026-10-13T22:41:30.707Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1848,7 +1848,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-13T17:35:01.393Z",
+      "observedAt": "2026-10-13T22:41:30.707Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1861,7 +1861,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-13T17:35:01.393Z",
+      "observedAt": "2026-10-13T22:41:30.707Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1874,7 +1874,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-13T17:35:01.393Z",
+      "observedAt": "2026-10-13T22:41:30.707Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1888,7 +1888,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-13T17:35:01.393Z",
+      "observedAt": "2026-10-13T22:41:30.707Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1902,7 +1902,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-13T17:35:01.393Z",
+      "observedAt": "2026-10-13T22:41:30.707Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1916,7 +1916,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-13T17:35:01.393Z",
+      "observedAt": "2026-10-13T22:41:30.707Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1935,7 +1935,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-10-13T17:35:30.785Z",
+      "observedAt": "2026-10-13T22:42:03.748Z",
       "evidenceHash": "61bd51e18f1d42812bd6bab3510326a0780d9cf2164adb00f40f68d4d1cf50ea"
     },
     {
@@ -1954,7 +1954,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-10-13T17:35:30.788Z",
+      "observedAt": "2026-10-13T22:42:03.753Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1973,7 +1973,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-10-13T17:35:30.789Z",
+      "observedAt": "2026-10-13T22:42:03.753Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -1992,7 +1992,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-10-13T17:35:30.789Z",
+      "observedAt": "2026-10-13T22:42:03.753Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -2011,7 +2011,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-10-13T17:35:30.789Z",
+      "observedAt": "2026-10-13T22:42:03.753Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2030,7 +2030,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-10-13T17:35:30.789Z",
+      "observedAt": "2026-10-13T22:42:03.753Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2049,7 +2049,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-10-13T17:35:30.789Z",
+      "observedAt": "2026-10-13T22:42:03.753Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2067,7 +2067,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-10-13T17:35:30.276Z",
+      "observedAt": "2026-10-13T22:42:03.307Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
