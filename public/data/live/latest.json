@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T04:27:56.517Z",
+  "generatedAt": "2026-10-18T09:34:22.769Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -9,7 +9,7 @@
   "summary": {
     "sensors": 10,
     "healthySensors": 9,
-    "records": 77,
+    "records": 67,
     "reconciledLinks": 2
   },
   "sensors": [
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-10-18T04:27:16.759Z",
+      "fetchedAt": "2026-10-18T09:33:42.942Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-10-18T04:27:16.767Z",
+      "fetchedAt": "2026-10-18T09:33:42.950Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,9 +47,9 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-10-18T04:27:16.768Z",
+      "fetchedAt": "2026-10-18T09:33:42.951Z",
       "ok": true,
-      "recordCount": 46,
+      "recordCount": 36,
       "error": null
     },
     {
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-10-18T04:27:16.769Z",
+      "fetchedAt": "2026-10-18T09:33:42.951Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-18T04:27:16.770Z",
+      "fetchedAt": "2026-10-18T09:33:42.952Z",
       "ok": true,
       "recordCount": 9,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-18T04:27:16.772Z",
+      "fetchedAt": "2026-10-18T09:33:42.954Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-18T04:27:50.348Z",
+      "fetchedAt": "2026-10-18T09:34:16.681Z",
       "ok": true,
       "recordCount": 7,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-18T04:27:50.347Z",
+      "fetchedAt": "2026-10-18T09:34:16.680Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-10-18T04:27:50.349Z",
+      "fetchedAt": "2026-10-18T09:34:16.682Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-10-18T04:27:50.350Z",
+      "fetchedAt": "2026-10-18T09:34:16.683Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 15680090000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=81092915",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=81092915",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=905668949",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=905668949",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹15,68,009 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(36.7%)"
         ]
       },
-      "observedAt": "2026-10-18T04:27:22.859Z",
-      "evidenceHash": "fd71e2401be3bbc0c22225806566d03458412e29dbbed815fab43dba3396495a"
+      "observedAt": "2026-10-18T09:33:49.217Z",
+      "evidenceHash": "d20ac9dff01ed456f405ff63eeb17707e15728493d8cf96a4e8d7f6ef510267d"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:8:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5148100000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=81092915",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=81092915",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=905668949",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=905668949",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,14,810 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(41.4%)"
         ]
       },
-      "observedAt": "2026-10-18T04:27:22.859Z",
-      "evidenceHash": "4ac2e70f64631e2b2baece6965214efe37c539b26f5d82bd9f489c4bdab036a7"
+      "observedAt": "2026-10-18T09:33:49.218Z",
+      "evidenceHash": "2ff5fc50e04cced35bed95e4d2cef3bccf3b6b51c26436dff8d6758f57c6b9cf"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:8:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5099490000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=81092915",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=81092915",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=905668949",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=905668949",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,09,949 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(38.5%)"
         ]
       },
-      "observedAt": "2026-10-18T04:27:22.860Z",
-      "evidenceHash": "5d5931a8d60e405c9f6a4202ac28f4e4eb4b9e45911390e8a3ff18a90ab33494"
+      "observedAt": "2026-10-18T09:33:49.218Z",
+      "evidenceHash": "b3623d73c635a52671f52a166ee0726313b237e44e5a0e845394119e392df436"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:8:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1394170000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=81092915",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=81092915",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=905668949",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=905668949",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,39,417 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(48.6%)"
         ]
       },
-      "observedAt": "2026-10-18T04:27:22.860Z",
-      "evidenceHash": "333466cb48301076a90acfde9ca7328ec1de40e186736b15f8d3138477003019"
+      "observedAt": "2026-10-18T09:33:49.218Z",
+      "evidenceHash": "ace923db7dda804a145167f2f9817e2ada8f025b5a784f664e4ca4fd5b62b72d"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:8:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 20779580000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=81092915",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=81092915",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=905668949",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=905668949",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹20,77,958 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(37.1%)"
         ]
       },
-      "observedAt": "2026-10-18T04:27:22.860Z",
-      "evidenceHash": "aa787f464e7ffcb7506a1a58eeca258a1c74f1877b9f05999c1b5c78811c5120"
+      "observedAt": "2026-10-18T09:33:49.218Z",
+      "evidenceHash": "8c709c5bcf3de54a73deb0a9e688734f237039d54c98595bc5428559d179b652"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:8:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1870374200000.0002,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=81092915",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=81092915",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=905668949",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=905668949",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,87,037.42 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,8 +323,8 @@
           "(39%)"
         ]
       },
-      "observedAt": "2026-10-18T04:27:22.861Z",
-      "evidenceHash": "8da2c80f0681e6c84fbfc8d42deb806e47b9b8723ef6c5ee4fe859b62ac8a4f6"
+      "observedAt": "2026-10-18T09:33:49.226Z",
+      "evidenceHash": "f2567e7c1c8ff9cc4d24c7b0da0ca1e695a2f48df63dd359076a3219547a2cd1"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access-18-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-18-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
@@ -357,7 +357,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.721Z",
+      "observedAt": "2026-10-18T09:33:44.548Z",
       "evidenceHash": "c817f39604bc75478e747a3d626b8c069ac9fe3aaec86e86e4c31a153c1ef241"
     },
     {
@@ -377,7 +377,7 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.721Z",
+      "observedAt": "2026-10-18T09:33:44.548Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
@@ -403,7 +403,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.722Z",
+      "observedAt": "2026-10-18T09:33:44.549Z",
       "evidenceHash": "5a5aab8fb43c828e14b91976895c93a42e593b7d2afac17c7b00a38a8296dfff"
     },
     {
@@ -428,7 +428,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.722Z",
+      "observedAt": "2026-10-18T09:33:44.549Z",
       "evidenceHash": "2ba7aabf0a30b63f03f54b13650489a4ab734d837363e05d8eda29a5e2a1616d"
     },
     {
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.722Z",
+      "observedAt": "2026-10-18T09:33:44.549Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.722Z",
+      "observedAt": "2026-10-18T09:33:44.549Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II NBCC/SBG/Odisha/NIT/26-27/66 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 23-Oct-2026 06:55 PM 24-Oct-2026 06:55 PM 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 HIRE/ROCK BODY DUMPER/NIT/1378/11 21-Oct-2026 06:55 PM 22-Oct-2026 06:55 PM 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- NBCC/SBG/Odisha/NIT/26-27/65 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/38 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA MD/HQ/NIQ/2026-27/1340-41 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/39 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/36 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans GEM/2026/B/8147332 02-Nov-2026 10:00 AM 03-Nov-2026 10:00 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II NBCC/SBG/Odisha/NIT/26-27/66 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 23-Oct-2026 06:55 PM 24-Oct-2026 06:55 PM 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 HIRE/ROCK BODY DUMPER/NIT/1378/11 21-Oct-2026 06:55 PM 22-Oct-2026 06:55 PM 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- NBCC/SBG/Odisha/NIT/26-27/65 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/38 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA MD/HQ/NIQ/2026-27/1340-41 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/39 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/36 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans GEM/2026/B/8147332 02-Nov-2026 10:00 AM 03-Nov-2026 10:00 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II NBCC/SBG/Odisha/NIT/26-27/66 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 23-Oct-2026 06:55 PM 24-Oct-2026 06:55 PM 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 HIRE/ROCK BODY DUMPER/NIT/1378/11 21-Oct-2026 06:55 PM 22-Oct-2026 06:55 PM 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- NBCC/SBG/Odisha/NIT/26-27/65 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/38 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA MD/HQ/NIQ/2026-27/1340-41 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/39 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/36 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans GEM/2026/B/8147332 02-Nov-2026 10:00 AM 03-Nov-2026 10:00 AM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II NBCC/SBG/Odisha/NIT/26-27/66 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 23-Oct-2026 06:55 PM 24-Oct-2026 06:55 PM 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 HIRE/ROCK BODY DUMPER/NIT/1378/11 21-Oct-2026 06:55 PM 22-Oct-2026 06:55 PM 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- NBCC/SBG/Odisha/NIT/26-27/65 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/38 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA MD/HQ/NIQ/2026-27/1340-41 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/39 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/36 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans GEM/2026/B/8147332 02-Nov-2026 10:00 AM 03-Nov-2026 10:00 AM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II NBCC/SBG/Odisha/NIT/26-27/66 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 23-Oct-2026 06:55 PM 24-Oct-2026 06:55 PM 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 HIRE/ROCK BODY DUMPER/NIT/1378/11 21-Oct-2026 06:55 PM 22-Oct-2026 06:55 PM 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- NBCC/SBG/Odisha/NIT/26-27/65 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/38 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA MD/HQ/NIQ/2026-27/1340-41 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/39 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/36 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans GEM/2026/B/8147332 02-Nov-2026 10:00 AM 03-Nov-2026 10:00 AM | 1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II | NBCC/SBG/Odisha/NIT/26-27/66 | 07-Nov-2026 11:00 AM | 07-Nov-2026 11:30 AM | 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 | BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 | 23-Oct-2026 06:55 PM | 24-Oct-2026 06:55 PM | 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 | HIRE/ROCK BODY DUMPER/NIT/1378/11 | 21-Oct-2026 06:55 PM | 22-Oct-2026 06:55 PM | 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- | NBCC/SBG/Odisha/NIT/26-27/65 | 07-Nov-2026 11:00 AM | 07-Nov-2026 11:30 AM | 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT | 2026/IRCTC/TSV/06/OCTOBER/38 | 19-Oct-2026 12:00 PM | 19-Oct-2026 12:15 PM | 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA | MD/HQ/NIQ/2026-27/1340-41 | 26-Oct-2026 04:00 PM | 26-Oct-2026 04:30 PM | 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT | 2026/IRCTC/TSV/06/OCTOBER/39 | 19-Oct-2026 12:00 PM | 19-Oct-2026 12:15 PM | 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri | 2994 | 23-Oct-2026 01:00 PM | 23-Oct-2026 02:00 PM | 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT | 2026/IRCTC/TSV/06/OCTOBER/36 | 19-Oct-2026 12:00 PM | 19-Oct-2026 12:15 PM | 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans | GEM/2026/B/8147332 | 02-Nov-2026 10:00 AM | 03-Nov-2026 10:00 AM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM | 1. Corrigendum-I | NaBFID /Admin/2026-27/03 | 26-Oct-2026 03:00 PM | 26-Oct-2026 05:00 PM | 2. Corrigendum1 | 2994 | 23-Oct-2026 01:00 PM | 23-Oct-2026 02:00 PM | 3. TN14-OCT26-WEST1 | MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 | 29-Oct-2026 06:55 PM | 30-Oct-2026 06:55 PM | 4. Bank Guarantee | B AND R/MDS/51304/NPCIL/NIT-GI FLAT | 26-Oct-2026 04:00 PM | 27-Oct-2026 04:00 PM | 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING | PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY | 26-Oct-2026 04:00 PM | 26-Oct-2026 04:30 PM | 6. BANK DETAILS AND BID GUARANTEE FORMAT | PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY | 26-Oct-2026 04:00 PM | 26-Oct-2026 04:30 PM | 7. Due Date Extension | B AND R/MDS/51304/NPCIL/NIT-GI FLAT | 26-Oct-2026 04:00 PM | 27-Oct-2026 04:00 PM | 8. DateExt | 7169 | 02-Nov-2026 03:30 PM | 02-Nov-2026 04:00 PM | 9. Corrigendum-4 | T and OS/CC 8000 TEU/2026 | 16-Nov-2026 05:00 PM | 17-Nov-2026 03:00 PM | 10. Due date is extended III | MMD/IPR/SC/2026-29 | 28-Oct-2026 01:00 PM | 28-Oct-2026 04:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date No active tenders available. Latest Tenders updates every 15 mins. Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date No active tenders available. Latest Tenders updates every 15 mins. Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date No active tenders available. Latest Tenders updates every 15 mins. | Tender Title Reference No Closing Date Bid Opening Date No active tenders available. Latest Tenders updates every 15 mins. | Tender Title | Reference No | Closing Date | Bid Opening Date | No active tenders available. | No active tenders available. | Latest Tenders updates every 15 mins. |  |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM | 1. Corrigendum-I | NaBFID /Admin/2026-27/03 | 26-Oct-2026 03:00 PM | 26-Oct-2026 05:00 PM | 2. Corrigendum1 | 2994 | 23-Oct-2026 01:00 PM | 23-Oct-2026 02:00 PM | 3. TN14-OCT26-WEST1 | MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 | 29-Oct-2026 06:55 PM | 30-Oct-2026 06:55 PM | 4. Bank Guarantee | B AND R/MDS/51304/NPCIL/NIT-GI FLAT | 26-Oct-2026 04:00 PM | 27-Oct-2026 04:00 PM | 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING | PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY | 26-Oct-2026 04:00 PM | 26-Oct-2026 04:30 PM | 6. BANK DETAILS AND BID GUARANTEE FORMAT | PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY | 26-Oct-2026 04:00 PM | 26-Oct-2026 04:30 PM | 7. Due Date Extension | B AND R/MDS/51304/NPCIL/NIT-GI FLAT | 26-Oct-2026 04:00 PM | 27-Oct-2026 04:00 PM | 8. DateExt | 7169 | 02-Nov-2026 03:30 PM | 02-Nov-2026 04:00 PM | 9. Corrigendum-4 | T and OS/CC 8000 TEU/2026 | 16-Nov-2026 05:00 PM | 17-Nov-2026 03:00 PM | 10. Due date is extended III | MMD/IPR/SC/2026-29 | 28-Oct-2026 01:00 PM | 28-Oct-2026 04:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,63 +520,24 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II NBCC/SBG/Odisha/NIT/26-27/66 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 23-Oct-2026 06:55 PM 24-Oct-2026 06:55 PM 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 HIRE/ROCK BODY DUMPER/NIT/1378/11 21-Oct-2026 06:55 PM 22-Oct-2026 06:55 PM 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- NBCC/SBG/Odisha/NIT/26-27/65 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/38 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA MD/HQ/NIQ/2026-27/1340-41 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/39 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/36 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans GEM/2026/B/8147332 02-Nov-2026 10:00 AM 03-Nov-2026 10:00 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date No active tenders available. Latest Tenders updates every 15 mins. Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II NBCC/SBG/Odisha/NIT/26-27/66 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 23-Oct-2026 06:55 PM 24-Oct-2026 06:55 PM 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 HIRE/ROCK BODY DUMPER/NIT/1378/11 21-Oct-2026 06:55 PM 22-Oct-2026 06:55 PM 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- NBCC/SBG/Odisha/NIT/26-27/65 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/38 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA MD/HQ/NIQ/2026-27/1340-41 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/39 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/36 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans GEM/2026/B/8147332 02-Nov-2026 10:00 AM 03-Nov-2026 10:00 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date No active tenders available. Latest Tenders updates every 15 mins. Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II NBCC/SBG/Odisha/NIT/26-27/66 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 23-Oct-2026 06:55 PM 24-Oct-2026 06:55 PM 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 HIRE/ROCK BODY DUMPER/NIT/1378/11 21-Oct-2026 06:55 PM 22-Oct-2026 06:55 PM 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- NBCC/SBG/Odisha/NIT/26-27/65 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/38 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA MD/HQ/NIQ/2026-27/1340-41 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/39 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/36 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans GEM/2026/B/8147332 02-Nov-2026 10:00 AM 03-Nov-2026 10:00 AM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II NBCC/SBG/Odisha/NIT/26-27/66 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 23-Oct-2026 06:55 PM 24-Oct-2026 06:55 PM 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 HIRE/ROCK BODY DUMPER/NIT/1378/11 21-Oct-2026 06:55 PM 22-Oct-2026 06:55 PM 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- NBCC/SBG/Odisha/NIT/26-27/65 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/38 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA MD/HQ/NIQ/2026-27/1340-41 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/39 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/36 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans GEM/2026/B/8147332 02-Nov-2026 10:00 AM 03-Nov-2026 10:00 AM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date No active tenders available. Latest Tenders updates every 15 mins.",
+          "Tender Title Reference No Closing Date Bid Opening Date No active tenders available. Latest Tenders updates every 15 mins.",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II NBCC/SBG/Odisha/NIT/26-27/66 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 23-Oct-2026 06:55 PM 24-Oct-2026 06:55 PM 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 HIRE/ROCK BODY DUMPER/NIT/1378/11 21-Oct-2026 06:55 PM 22-Oct-2026 06:55 PM 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- NBCC/SBG/Odisha/NIT/26-27/65 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/38 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA MD/HQ/NIQ/2026-27/1340-41 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/39 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/36 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans GEM/2026/B/8147332 02-Nov-2026 10:00 AM 03-Nov-2026 10:00 AM",
-          "1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II",
-          "NBCC/SBG/Odisha/NIT/26-27/66",
-          "07-Nov-2026 11:00 AM",
-          "07-Nov-2026 11:30 AM",
-          "2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41",
-          "BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41",
-          "23-Oct-2026 06:55 PM",
-          "24-Oct-2026 06:55 PM",
-          "3. HIRE/ROCK BODY DUMPER/NIT/1378/11",
-          "HIRE/ROCK BODY DUMPER/NIT/1378/11",
-          "21-Oct-2026 06:55 PM",
-          "22-Oct-2026 06:55 PM",
-          "4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase-",
-          "NBCC/SBG/Odisha/NIT/26-27/65",
-          "07-Nov-2026 11:00 AM",
-          "07-Nov-2026 11:30 AM",
-          "5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-          "2026/IRCTC/TSV/06/OCTOBER/38",
-          "19-Oct-2026 12:00 PM",
-          "19-Oct-2026 12:15 PM",
-          "6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA",
-          "MD/HQ/NIQ/2026-27/1340-41",
-          "26-Oct-2026 04:00 PM",
-          "26-Oct-2026 04:30 PM",
-          "7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-          "2026/IRCTC/TSV/06/OCTOBER/39",
-          "19-Oct-2026 12:00 PM",
-          "19-Oct-2026 12:15 PM",
-          "8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri",
-          "2994",
-          "23-Oct-2026 01:00 PM",
-          "23-Oct-2026 02:00 PM",
-          "9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-          "2026/IRCTC/TSV/06/OCTOBER/36",
-          "19-Oct-2026 12:00 PM",
-          "19-Oct-2026 12:15 PM",
-          "10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans",
-          "GEM/2026/B/8147332",
-          "02-Nov-2026 10:00 AM",
-          "03-Nov-2026 10:00 AM",
+          "No active tenders available.",
+          "No active tenders available.",
           "Latest Tenders updates every 15 mins.",
-          "More...",
+          "",
           "",
           "",
           "Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum-I NaBFID /Admin/2026-27/03 26-Oct-2026 03:00 PM 26-Oct-2026 05:00 PM 2. Corrigendum1 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 3. TN14-OCT26-WEST1 MO/NTPC-SOL/51211/NIT-FIXING CLADDING SHEET /LC/01 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 4. Bank Guarantee B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. POINTS DISCUSSED AND CLARIFICATION GIVEN ON PREBID MEETING PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 6. BANK DETAILS AND BID GUARANTEE FORMAT PM4/2026/CAPEX/FIRE HYDRANT SYSTEM INCLUDING PA SY 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. Due Date Extension B AND R/MDS/51304/NPCIL/NIT-GI FLAT 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 8. DateExt 7169 02-Nov-2026 03:30 PM 02-Nov-2026 04:00 PM 9. Corrigendum-4 T and OS/CC 8000 TEU/2026 16-Nov-2026 05:00 PM 17-Nov-2026 03:00 PM 10. Due date is extended III MMD/IPR/SC/2026-29 28-Oct-2026 01:00 PM 28-Oct-2026 04:00 PM Latest Corrigendum updates every 15 mins. More...",
@@ -653,8 +614,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.732Z",
-      "evidenceHash": "cf12aebc0a54c1298e9415fc2aaf9a860fd6db7187585d7f1d498d4e7cd65dda"
+      "observedAt": "2026-10-18T09:33:44.552Z",
+      "evidenceHash": "0183559a960ea87c7e04947e85b82df338bfece05fd807a2c80f92a1025b16ac"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +665,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.732Z",
+      "observedAt": "2026-10-18T09:33:44.553Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,298 +688,28 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.732Z",
+      "observedAt": "2026-10-18T09:33:44.553Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-construction-of-03-nos.-g-plus-5-double-occupancy-hostels-at-iim-sambalpur,-odisha-under-phase-ii-nbcc/sbg/odisha/nit/26-27/66-07-nov-2026-11:00-am-07-nov-2026-11:30-am-2.-bal.strl-erection/digestion/1384/nit/-41-bal.strl-erection/digestion/1384/nit/-41-23-oct-2026-06:55-pm-24-oct-2026-06:55-pm-3.-hire/rock-body-dumper/nit/1378/11-hire/rock-body-dumper/nit/1378/11-21-oct-2026-06:55-pm-22-oct-2026-06:55-pm-4.-development-of-vss-cricket-stadium,-sambalpur--relaying-work-of-cricket-fop-field-of-play,-phase--nbcc/sbg/odisha/nit/26-27/65-07-nov-2026-11:00-am-07-nov-2026-11:30-am-5.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement-2026/irctc/tsv/06/october/38-19-oct-2026-12:00-pm-19-oct-2026-12:15-pm-6.-proposal-for-aaa-and-es-of-amc-for-son-tek-adcp-for-period-of-one-year-in-mahanadi-division-cwc-burla-md/hq/niq/2026-27/1340-41-26-oct-2026-04:00-pm-26-oct-2026-04:30-pm-7.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement-2026/irctc/tsv/06/october/39-19-oct-2026-12:00-pm-19-oct-2026-12:15-pm-8.-construction-of-water-level-gauge-station-in-river-satluj,-protective-shotcreting-works-at-trt-outfall-and-spillway-tunnel-area,-and-restoration-of-retaining-walls-near-trt-pond-area-of-njhps-(1500-mw),-jhakri-2994-23-oct-2026-01:00-pm-23-oct-2026-02:00-pm-9.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement-2026/irctc/tsv/06/october/36-19-oct-2026-12:00-pm-19-oct-2026-12:15-pm-10.-carrying-out-field-survey-of-mining-lease-areas-and-mining-sites-preparation-and-updation-of-statutory-plans-gem/2026/b/8147332-02-nov-2026-10:00-am-03-nov-2026-10:00-am:1.-construction-of-03-nos.-g-plus-5-double-occupancy-hostels-at-iim-sambalpur,-odisha-under-phase-ii-nbcc/sbg/odisha/nit/26-27/66-07-nov-2026-11:00-am-07-nov-2026-11:30-am-2.-bal.strl-erection/digestion/1384/nit/-41-bal.strl-erection/digestion/1384/nit/-41-23-oct-2026-06:55-pm-24-oct-2026-06:55-pm-3.-hire/rock-body-dumper/nit/1378/11-hire/rock-body-dumper/nit/1378/11-21-oct-2026-06:55-pm-22-oct-2026-06:55-pm-4.-development-of-vss-cricket-stadium,-sambalpur--relaying-work-of-cricket-fop-field-of-play,-phase--nbcc/sbg/odisha/nit/26-27/65-07-nov-2026-11:00-am-07-nov-2026-11:30-am-5.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement-2026/irctc/tsv/06/october/38-19-oct-2026-12:00-pm-19-oct-2026-12:15-pm-6.-proposal-for-aaa-and-es-of-amc-for-son-tek-adcp-for-period-of-one-year-in-mahanadi-division-cwc-burla-md/hq/niq/2026-27/1340-41-26-oct-2026-04:00-pm-26-oct-2026-04:30-pm-7.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement-2026/irctc/tsv/06/october/39-19-oct-2026-12:00-pm-19-oct-2026-12:15-pm-8.-construction-of-water-level-gauge-station-in-river-satluj,-protective-shotcreting-works-at-trt-outfall-and-spillway-tunnel-area,-and-restoration-of-retaining-walls-near-trt-pond-area-of-njhps-(1500-mw),-jhakri-2994-23-oct-2026-01:00-pm-23-oct-2026-02:00-pm-9.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement-2026/irctc/tsv/06/october/36-19-oct-2026-12:00-pm-19-oct-2026-12:15-pm-10.-carrying-out-field-survey-of-mining-lease-areas-and-mining-sites-preparation-and-updation-of-statutory-plans-gem/2026/b/8147332-02-nov-2026-10:00-am-03-nov-2026-10:00-am",
+      "externalKey": "cppp-procurement:no-active-tenders-available.:no-active-tenders-available.",
       "sensorId": "cppp-procurement",
-      "title": "1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II NBCC/SBG/Odisha/NIT/26-27/66 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 23-Oct-2026 06:55 PM 24-Oct-2026 06:55 PM 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 HIRE/ROCK BODY DUMPER/NIT/1378/11 21-Oct-2026 06:55 PM 22-Oct-2026 06:55 PM 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of ",
+      "title": "No active tenders available.",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SzR0EqZVzEHS6D21To2wwwg%3D%3D",
-      "tenderReference": "1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II NBCC/SBG/Odisha/NIT/26-27/66 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 23-Oct-2026 06:55 PM 24-Oct-2026 06:55 PM 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 HIRE/ROCK BODY DUMPER/NIT/1378/11 21-Oct-2026 06:55 PM 22-Oct-2026 06:55 PM 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- NBCC/SBG/Odisha/NIT/26-27/65 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/38 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA MD/HQ/NIQ/2026-27/1340-41 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/39 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/36 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans GEM/2026/B/8147332 02-Nov-2026 10:00 AM 03-Nov-2026 10:00 AM",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
+      "tenderReference": "No active tenders available.",
       "geographicPrecision": "unknown",
-      "note": "NBCC/SBG/Odisha/NIT/26-27/66 | 07-Nov-2026 11:00 AM | 07-Nov-2026 11:30 AM | 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 | BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 | 23-Oct-2026 06:55 PM | 24-Oct-2026 06:55 PM | 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 | HIRE/ROCK BODY DUMPER/NIT/1378/11 | 21-Oct-2026 06:55 PM | 22-Oct-2026 06:55 PM | 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- | NBCC/SBG/Odisha/NIT/26-27/65 | 07-Nov-2026 11:00 AM | 07-Nov-2026 11:30 AM | 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT | 2026/IRCTC/TSV/06/OCTOBER/38 | 19-Oct-2026 12:00 PM | 19-Oct-2026 12:15 PM | 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA | MD/HQ/NIQ/2026-27/1340-41 | 26-Oct-2026 04:00 PM | 26-Oct-2026 04:30 PM | 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT | 2026/IRCTC/TSV/06/OCTOBER/39 | 19-Oct-2026 12:00 PM | 19-Oct-2026 12:15 PM | 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri | 2994 | 23-Oct-2026 01:00 PM | 23-Oct-2026 02:00 PM | 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT | 2026/IRCTC/TSV/06/OCTOBER/36 | 19-Oct-2026 12:00 PM | 19-Oct-2026 12:15 PM | 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans | GEM/2026/B/8147332 | 02-Nov-2026 10:00 AM | 03-Nov-2026 10:00 AM",
       "raw": {
         "cells": [
-          "1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II NBCC/SBG/Odisha/NIT/26-27/66 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41 23-Oct-2026 06:55 PM 24-Oct-2026 06:55 PM 3. HIRE/ROCK BODY DUMPER/NIT/1378/11 HIRE/ROCK BODY DUMPER/NIT/1378/11 21-Oct-2026 06:55 PM 22-Oct-2026 06:55 PM 4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase- NBCC/SBG/Odisha/NIT/26-27/65 07-Nov-2026 11:00 AM 07-Nov-2026 11:30 AM 5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/38 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA MD/HQ/NIQ/2026-27/1340-41 26-Oct-2026 04:00 PM 26-Oct-2026 04:30 PM 7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/39 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri 2994 23-Oct-2026 01:00 PM 23-Oct-2026 02:00 PM 9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT 2026/IRCTC/TSV/06/OCTOBER/36 19-Oct-2026 12:00 PM 19-Oct-2026 12:15 PM 10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans GEM/2026/B/8147332 02-Nov-2026 10:00 AM 03-Nov-2026 10:00 AM",
-          "1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II",
-          "NBCC/SBG/Odisha/NIT/26-27/66",
-          "07-Nov-2026 11:00 AM",
-          "07-Nov-2026 11:30 AM",
-          "2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41",
-          "BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41",
-          "23-Oct-2026 06:55 PM",
-          "24-Oct-2026 06:55 PM",
-          "3. HIRE/ROCK BODY DUMPER/NIT/1378/11",
-          "HIRE/ROCK BODY DUMPER/NIT/1378/11",
-          "21-Oct-2026 06:55 PM",
-          "22-Oct-2026 06:55 PM",
-          "4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase-",
-          "NBCC/SBG/Odisha/NIT/26-27/65",
-          "07-Nov-2026 11:00 AM",
-          "07-Nov-2026 11:30 AM",
-          "5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-          "2026/IRCTC/TSV/06/OCTOBER/38",
-          "19-Oct-2026 12:00 PM",
-          "19-Oct-2026 12:15 PM",
-          "6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA",
-          "MD/HQ/NIQ/2026-27/1340-41",
-          "26-Oct-2026 04:00 PM",
-          "26-Oct-2026 04:30 PM",
-          "7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-          "2026/IRCTC/TSV/06/OCTOBER/39",
-          "19-Oct-2026 12:00 PM",
-          "19-Oct-2026 12:15 PM",
-          "8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri",
-          "2994",
-          "23-Oct-2026 01:00 PM",
-          "23-Oct-2026 02:00 PM",
-          "9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-          "2026/IRCTC/TSV/06/OCTOBER/36",
-          "19-Oct-2026 12:00 PM",
-          "19-Oct-2026 12:15 PM",
-          "10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans",
-          "GEM/2026/B/8147332",
-          "02-Nov-2026 10:00 AM",
-          "03-Nov-2026 10:00 AM"
+          "No active tenders available.",
+          "No active tenders available."
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.733Z",
-      "evidenceHash": "564a7b07042135584b5255b8516bdc0ef0e4dbb22cc4c14a9889940e76c6c41a"
-    },
-    {
-      "externalKey": "cppp-procurement:nbcc/sbg/odisha/nit/26-27/66:1.-construction-of-03-nos.-g-plus-5-double-occupancy-hostels-at-iim-sambalpur,-odisha-under-phase-ii",
-      "sensorId": "cppp-procurement",
-      "title": "1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SzR0EqZVzEHS6D21To2wwwg%3D%3D",
-      "tenderReference": "NBCC/SBG/Odisha/NIT/26-27/66",
-      "geographicPrecision": "unknown",
-      "note": "07-Nov-2026 11:00 AM | 07-Nov-2026 11:30 AM",
-      "raw": {
-        "cells": [
-          "1. Construction of 03 nos. G plus 5 Double Occupancy Hostels at IIM Sambalpur, Odisha Under Phase-II",
-          "NBCC/SBG/Odisha/NIT/26-27/66",
-          "07-Nov-2026 11:00 AM",
-          "07-Nov-2026 11:30 AM"
-        ]
-      },
-      "observedAt": "2026-10-18T04:27:18.734Z",
-      "evidenceHash": "873849316be8cad0c0d3ba28eb6eaa3f56863f4563534ceda520b39f3b999540"
-    },
-    {
-      "externalKey": "cppp-procurement:bal.strl-erection/digestion/1384/nit/-41:2.-bal.strl-erection/digestion/1384/nit/-41",
-      "sensorId": "cppp-procurement",
-      "title": "2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SMXCBBMI0eTqj0IFpGcIrkg%3D%3D",
-      "tenderReference": "BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41",
-      "geographicPrecision": "unknown",
-      "note": "23-Oct-2026 06:55 PM | 24-Oct-2026 06:55 PM",
-      "raw": {
-        "cells": [
-          "2. BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41",
-          "BAL.STRL ERECTION/DIGESTION/1384/NIT/ 41",
-          "23-Oct-2026 06:55 PM",
-          "24-Oct-2026 06:55 PM"
-        ]
-      },
-      "observedAt": "2026-10-18T04:27:18.734Z",
-      "evidenceHash": "e7ad4109c579038f48bd264679462f9cc79c3312e77bc512ab724155207e6cf8"
-    },
-    {
-      "externalKey": "cppp-procurement:hire/rock-body-dumper/nit/1378/11:3.-hire/rock-body-dumper/nit/1378/11",
-      "sensorId": "cppp-procurement",
-      "title": "3. HIRE/ROCK BODY DUMPER/NIT/1378/11",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SqUPAh8OmqP48nV9zFE3j7g%3D%3D",
-      "tenderReference": "HIRE/ROCK BODY DUMPER/NIT/1378/11",
-      "geographicPrecision": "unknown",
-      "note": "21-Oct-2026 06:55 PM | 22-Oct-2026 06:55 PM",
-      "raw": {
-        "cells": [
-          "3. HIRE/ROCK BODY DUMPER/NIT/1378/11",
-          "HIRE/ROCK BODY DUMPER/NIT/1378/11",
-          "21-Oct-2026 06:55 PM",
-          "22-Oct-2026 06:55 PM"
-        ]
-      },
-      "observedAt": "2026-10-18T04:27:18.734Z",
-      "evidenceHash": "8718bfdc0d8dc2ff3854e1cbd213808ddd634371901176e441c84d785000db95"
-    },
-    {
-      "externalKey": "cppp-procurement:nbcc/sbg/odisha/nit/26-27/65:4.-development-of-vss-cricket-stadium,-sambalpur--relaying-work-of-cricket-fop-field-of-play,-phase-",
-      "sensorId": "cppp-procurement",
-      "title": "4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase-",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Sued%2B3k%2BsCcb%2FmnI%2BSmEhnw%3D%3D",
-      "tenderReference": "NBCC/SBG/Odisha/NIT/26-27/65",
-      "geographicPrecision": "unknown",
-      "note": "07-Nov-2026 11:00 AM | 07-Nov-2026 11:30 AM",
-      "raw": {
-        "cells": [
-          "4. Development of VSS Cricket Stadium, Sambalpur- Relaying work of Cricket FoP Field of Play, Phase-",
-          "NBCC/SBG/Odisha/NIT/26-27/65",
-          "07-Nov-2026 11:00 AM",
-          "07-Nov-2026 11:30 AM"
-        ]
-      },
-      "observedAt": "2026-10-18T04:27:18.734Z",
-      "evidenceHash": "cc77583bf213cf143e4873aa912f230c9f45e68f1526a1185eb168328df14d6e"
-    },
-    {
-      "externalKey": "cppp-procurement:5.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement:5.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement",
-      "sensorId": "cppp-procurement",
-      "title": "5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SACY8TO0xVW7FAtflYTQsJw%3D%3D",
-      "tenderReference": "5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-      "geographicPrecision": "unknown",
-      "note": "19-Oct-2026 12:00 PM | 19-Oct-2026 12:15 PM",
-      "raw": {
-        "cells": [
-          "5. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-          "2026/IRCTC/TSV/06/OCTOBER/38",
-          "19-Oct-2026 12:00 PM",
-          "19-Oct-2026 12:15 PM"
-        ]
-      },
-      "observedAt": "2026-10-18T04:27:18.734Z",
-      "evidenceHash": "dc1c9513bb489c7e5ce0f8bf45309a0ad7f8db8b2a3adbdde8cf5208f06d4bad"
-    },
-    {
-      "externalKey": "cppp-procurement:md/hq/niq/2026-27/1340-41:6.-proposal-for-aaa-and-es-of-amc-for-son-tek-adcp-for-period-of-one-year-in-mahanadi-division-cwc-burla",
-      "sensorId": "cppp-procurement",
-      "title": "6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SjIcJ2DWGANIzkti15CEm4w%3D%3D",
-      "tenderReference": "MD/HQ/NIQ/2026-27/1340-41",
-      "geographicPrecision": "unknown",
-      "note": "26-Oct-2026 04:00 PM | 26-Oct-2026 04:30 PM",
-      "raw": {
-        "cells": [
-          "6. PROPOSAL FOR AAA AND ES OF AMC FOR SON TEK ADCP FOR PERIOD OF ONE YEAR IN MAHANADI DIVISION CWC BURLA",
-          "MD/HQ/NIQ/2026-27/1340-41",
-          "26-Oct-2026 04:00 PM",
-          "26-Oct-2026 04:30 PM"
-        ]
-      },
-      "observedAt": "2026-10-18T04:27:18.734Z",
-      "evidenceHash": "31e6ff9a9ecfa98dfdd3168d2dc1c334043f60bb9f8c9c8e34d5a81be4c96df4"
-    },
-    {
-      "externalKey": "cppp-procurement:7.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement:7.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement",
-      "sensorId": "cppp-procurement",
-      "title": "7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SGKymF%2F8KTC2%2FxL8J%2FAyA0w%3D%3D",
-      "tenderReference": "7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-      "geographicPrecision": "unknown",
-      "note": "19-Oct-2026 12:00 PM | 19-Oct-2026 12:15 PM",
-      "raw": {
-        "cells": [
-          "7. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-          "2026/IRCTC/TSV/06/OCTOBER/39",
-          "19-Oct-2026 12:00 PM",
-          "19-Oct-2026 12:15 PM"
-        ]
-      },
-      "observedAt": "2026-10-18T04:27:18.734Z",
-      "evidenceHash": "c82a134585b9c823733711de80e81a786da0ae3714cfc870e5b26fb1fc0b5891"
-    },
-    {
-      "externalKey": "cppp-procurement:2994:8.-construction-of-water-level-gauge-station-in-river-satluj,-protective-shotcreting-works-at-trt-outfall-and-spillway-tunnel-area,-and-restoration-of-retaining-walls-near-trt-pond-area-of-njhps-(1500-mw),-jhakri",
-      "sensorId": "cppp-procurement",
-      "title": "8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S4EVQlsRCzwXzT1EhlomX6g%3D%3D",
-      "tenderReference": "2994",
-      "geographicPrecision": "unknown",
-      "note": "23-Oct-2026 01:00 PM | 23-Oct-2026 02:00 PM",
-      "raw": {
-        "cells": [
-          "8. Construction of Water Level Gauge Station in River Satluj, Protective Shotcreting Works at TRT Outfall and Spillway Tunnel Area, and Restoration of Retaining Walls near TRT Pond Area of NJHPS (1500 MW), Jhakri",
-          "2994",
-          "23-Oct-2026 01:00 PM",
-          "23-Oct-2026 02:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-18T04:27:18.734Z",
-      "evidenceHash": "e12ec7b1dc4a8e8e29d29d48a2f5fae5f605ad171f2aca9cfe7111d64ce75515"
-    },
-    {
-      "externalKey": "cppp-procurement:9.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement:9.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement",
-      "sensorId": "cppp-procurement",
-      "title": "9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S52FNZjJywOZ7%2FcyqxbfaCg%3D%3D",
-      "tenderReference": "9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-      "geographicPrecision": "unknown",
-      "note": "19-Oct-2026 12:00 PM | 19-Oct-2026 12:15 PM",
-      "raw": {
-        "cells": [
-          "9. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT",
-          "2026/IRCTC/TSV/06/OCTOBER/36",
-          "19-Oct-2026 12:00 PM",
-          "19-Oct-2026 12:15 PM"
-        ]
-      },
-      "observedAt": "2026-10-18T04:27:18.734Z",
-      "evidenceHash": "bd3ea2f41a9331ca6f0cc578b51e3f38a48033edad49b6fae8b697df5a52e2b5"
-    },
-    {
-      "externalKey": "cppp-procurement:gem/2026/b/8147332:10.-carrying-out-field-survey-of-mining-lease-areas-and-mining-sites-preparation-and-updation-of-statutory-plans",
-      "sensorId": "cppp-procurement",
-      "title": "10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SdJ26y%2F8kcyMtV31FaykTOA%3D%3D",
-      "tenderReference": "GEM/2026/B/8147332",
-      "geographicPrecision": "unknown",
-      "note": "02-Nov-2026 10:00 AM | 03-Nov-2026 10:00 AM",
-      "raw": {
-        "cells": [
-          "10. Carrying out field survey of mining lease areas and mining sites preparation and updation of statutory plans",
-          "GEM/2026/B/8147332",
-          "02-Nov-2026 10:00 AM",
-          "03-Nov-2026 10:00 AM"
-        ]
-      },
-      "observedAt": "2026-10-18T04:27:18.734Z",
-      "evidenceHash": "6d4247264558f6f8e722f6def93d4a011784158f02be64fdd2db2a3722d89d30"
+      "observedAt": "2026-10-18T09:33:44.554Z",
+      "evidenceHash": "983f902c291c6871e82c3ef16db396625409b41c433f9ba96330b2cc7d1677fe"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1028,17 +719,17 @@
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndLatestActiveTenders&service=page",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "tenderReference": "Latest Tenders updates every 15 mins.",
       "geographicPrecision": "unknown",
       "raw": {
         "cells": [
           "Latest Tenders updates every 15 mins.",
-          "More..."
+          ""
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.734Z",
-      "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
+      "observedAt": "2026-10-18T09:33:44.554Z",
+      "evidenceHash": "38d1d8f36e2d72120605b4e46ecff5dddf9d15dd8a64be96d1cb8df325b8eba8"
     },
     {
       "externalKey": "cppp-procurement:bid-opening-date:corrigendum-title",
@@ -1060,7 +751,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.554Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +811,7 @@
           "28-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "b85b090fa4044456bb9031306b444b0874fad9e544303ec0948c560ea8f6ae3e"
     },
     {
@@ -1143,7 +834,7 @@
           "26-Oct-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "90ee802493f3a29c6550670e962119134efa57f82d09b01b4e42b707cff0f8f8"
     },
     {
@@ -1166,7 +857,7 @@
           "23-Oct-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "52c388814c930c7cf5607ce96033ea0a4aeceab0de61b03c7a0550639606b29d"
     },
     {
@@ -1189,7 +880,7 @@
           "30-Oct-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "3b6a09b197544d6fdf723eea94bb5496289a43527fd3870213e054aa8fd5d8e8"
     },
     {
@@ -1212,7 +903,7 @@
           "27-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "a5443cd78e8ff2bbe0af7ec6655b1745a095e81e86f62ac512bc11702fb19597"
     },
     {
@@ -1235,7 +926,7 @@
           "26-Oct-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "f8dee71c6ed0175fc7606f30318e73115c11a1dd7f77869dccff74d1c7a51ea5"
     },
     {
@@ -1258,7 +949,7 @@
           "26-Oct-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "e2eb91e40b1e3e8a3a3a1c5ff205fd91b8c33c7fdc84a846a3024290241e1c6c"
     },
     {
@@ -1281,7 +972,7 @@
           "27-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "144a385f88305b2542b64ae0c82a167a5de1636a7e12c4c43a8f63bca2f7a77a"
     },
     {
@@ -1304,7 +995,7 @@
           "02-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "a03e29f529a5410234f7b6588773fb7712ed6665936b43272fb868dd0a0bd8f4"
     },
     {
@@ -1327,7 +1018,7 @@
           "17-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "18de41427a62ba065306f532443f3501eea8281377c250881733d403fc97ae5a"
     },
     {
@@ -1350,7 +1041,7 @@
           "28-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "6a22d930eb77275ca52f45de9c5f77ceab2e2996320a1b5aafb89e1d3b454180"
     },
     {
@@ -1370,7 +1061,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1084,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1108,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1131,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.555Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1153,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.556Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1179,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.556Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1204,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.556Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1227,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.556Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1249,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.556Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1269,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.735Z",
+      "observedAt": "2026-10-18T09:33:44.556Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1295,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.736Z",
+      "observedAt": "2026-10-18T09:33:44.556Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1318,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.736Z",
+      "observedAt": "2026-10-18T09:33:44.556Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1340,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-18T04:27:18.736Z",
+      "observedAt": "2026-10-18T09:33:44.556Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1356,7 @@
       "raw": {
         "reportId": "125835"
       },
-      "observedAt": "2026-10-18T04:27:18.991Z",
+      "observedAt": "2026-10-18T09:33:44.928Z",
       "evidenceHash": "693f8076419a13c59c4aad4c4a8f8a7323f33d55903c9e7d63b5a135a75ecfa2"
     },
     {
@@ -1681,7 +1372,7 @@
       "raw": {
         "reportId": "125830"
       },
-      "observedAt": "2026-10-18T04:27:18.991Z",
+      "observedAt": "2026-10-18T09:33:44.928Z",
       "evidenceHash": "5cfbd2ce08b6de0ff1d70c251045d519312b60a68b5b53ad8ebbad71ee82f064"
     },
     {
@@ -1697,7 +1388,7 @@
       "raw": {
         "reportId": "125829"
       },
-      "observedAt": "2026-10-18T04:27:18.991Z",
+      "observedAt": "2026-10-18T09:33:44.928Z",
       "evidenceHash": "2f0b6182addd14efa4bdb5ca4f16fa2a2c0feeea4a21d9900843072f9bd8df90"
     },
     {
@@ -1713,7 +1404,7 @@
       "raw": {
         "reportId": "125828"
       },
-      "observedAt": "2026-10-18T04:27:18.991Z",
+      "observedAt": "2026-10-18T09:33:44.928Z",
       "evidenceHash": "5d28e4d26249fb281735dac989a06f0501292736cba1936d235185bccd9afc41"
     },
     {
@@ -1729,7 +1420,7 @@
       "raw": {
         "reportId": "125827"
       },
-      "observedAt": "2026-10-18T04:27:18.991Z",
+      "observedAt": "2026-10-18T09:33:44.928Z",
       "evidenceHash": "2db2e1f6ae23af8dab9b08c7d2975228f077034603fb4f0360e269c58fdb02a0"
     },
     {
@@ -1745,7 +1436,7 @@
       "raw": {
         "reportId": "125728"
       },
-      "observedAt": "2026-10-18T04:27:18.991Z",
+      "observedAt": "2026-10-18T09:33:44.928Z",
       "evidenceHash": "83e9b943800eeec78a0206b4045e1b74d45424412151a3e51ef79c8123ef8d20"
     },
     {
@@ -1761,7 +1452,7 @@
       "raw": {
         "reportId": "125712"
       },
-      "observedAt": "2026-10-18T04:27:18.991Z",
+      "observedAt": "2026-10-18T09:33:44.928Z",
       "evidenceHash": "49fead40de686e1e2e7056517252cdbc91195f214b26fdfdbc038e4e3115e80d"
     },
     {
@@ -1777,7 +1468,7 @@
       "raw": {
         "reportId": "125624"
       },
-      "observedAt": "2026-10-18T04:27:18.991Z",
+      "observedAt": "2026-10-18T09:33:44.928Z",
       "evidenceHash": "fd060fe7ff79e5a2837873cf49572c82f56ac410a4fa0c9d40381174facaa68d"
     },
     {
@@ -1793,7 +1484,7 @@
       "raw": {
         "reportId": "125602"
       },
-      "observedAt": "2026-10-18T04:27:18.991Z",
+      "observedAt": "2026-10-18T09:33:44.928Z",
       "evidenceHash": "857698c208374a8e9f7558e800c4c1d89679206247d8e9d3a0ff39787ea05ca6"
     },
     {
@@ -1806,7 +1497,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-18T04:27:27.879Z",
+      "observedAt": "2026-10-18T09:33:46.124Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1819,7 +1510,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-18T04:27:27.880Z",
+      "observedAt": "2026-10-18T09:33:46.125Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1832,7 +1523,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-18T04:27:27.880Z",
+      "observedAt": "2026-10-18T09:33:46.125Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1845,7 +1536,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-18T04:27:27.880Z",
+      "observedAt": "2026-10-18T09:33:46.125Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1858,7 +1549,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-18T04:27:27.880Z",
+      "observedAt": "2026-10-18T09:33:46.125Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1872,7 +1563,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-18T04:27:27.880Z",
+      "observedAt": "2026-10-18T09:33:46.125Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1886,7 +1577,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-18T04:27:27.880Z",
+      "observedAt": "2026-10-18T09:33:46.125Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1900,7 +1591,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-18T04:27:27.880Z",
+      "observedAt": "2026-10-18T09:33:46.125Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1919,7 +1610,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-10-18T04:27:52.066Z",
+      "observedAt": "2026-10-18T09:34:18.430Z",
       "evidenceHash": "61bd51e18f1d42812bd6bab3510326a0780d9cf2164adb00f40f68d4d1cf50ea"
     },
     {
@@ -1938,7 +1629,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-10-18T04:27:52.068Z",
+      "observedAt": "2026-10-18T09:34:18.432Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1957,7 +1648,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-10-18T04:27:52.068Z",
+      "observedAt": "2026-10-18T09:34:18.432Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -1976,7 +1667,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-10-18T04:27:52.068Z",
+      "observedAt": "2026-10-18T09:34:18.432Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -1995,7 +1686,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-10-18T04:27:52.068Z",
+      "observedAt": "2026-10-18T09:34:18.432Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2014,7 +1705,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-10-18T04:27:52.068Z",
+      "observedAt": "2026-10-18T09:34:18.432Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2033,7 +1724,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-10-18T04:27:52.068Z",
+      "observedAt": "2026-10-18T09:34:18.432Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2051,7 +1742,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-10-18T04:27:50.976Z",
+      "observedAt": "2026-10-18T09:34:17.276Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
