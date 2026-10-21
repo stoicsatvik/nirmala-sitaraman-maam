@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T17:09:08.222Z",
+  "generatedAt": "2026-10-21T20:37:55.375Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-10-21T17:08:28.146Z",
+      "fetchedAt": "2026-10-21T20:37:14.251Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-10-21T17:08:28.156Z",
+      "fetchedAt": "2026-10-21T20:37:14.261Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-10-21T17:08:28.157Z",
+      "fetchedAt": "2026-10-21T20:37:14.262Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-10-21T17:08:28.158Z",
+      "fetchedAt": "2026-10-21T20:37:14.263Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-21T17:08:28.159Z",
+      "fetchedAt": "2026-10-21T20:37:14.264Z",
       "ok": true,
       "recordCount": 9,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-21T17:08:28.162Z",
+      "fetchedAt": "2026-10-21T20:37:14.266Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-21T17:09:01.886Z",
+      "fetchedAt": "2026-10-21T20:37:48.582Z",
       "ok": true,
       "recordCount": 7,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-21T17:09:01.885Z",
+      "fetchedAt": "2026-10-21T20:37:48.581Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-10-21T17:09:01.887Z",
+      "fetchedAt": "2026-10-21T20:37:48.583Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-10-21T17:09:01.888Z",
+      "fetchedAt": "2026-10-21T20:37:48.584Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 15680090000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=527807998",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=527807998",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1757754099",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1757754099",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹15,68,009 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(36.7%)"
         ]
       },
-      "observedAt": "2026-10-21T17:08:34.506Z",
-      "evidenceHash": "b06af89d966d6c36b9bb23ec97189b5ff23d59da4715e3cb85289372c30dba13"
+      "observedAt": "2026-10-21T20:37:21.339Z",
+      "evidenceHash": "e8236a827cdd925a0eab6f68a15690bb911b170e31489b2f39d383d456679a03"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:8:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5148100000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=527807998",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=527807998",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1757754099",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1757754099",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,14,810 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(41.4%)"
         ]
       },
-      "observedAt": "2026-10-21T17:08:34.507Z",
-      "evidenceHash": "cb22fde92366fd672f06e1ae59c22d777c9c53d5e9c0c015549ab83c9e035c17"
+      "observedAt": "2026-10-21T20:37:21.340Z",
+      "evidenceHash": "1719e2332929c85792a1fbc81a967274d632b58dd96840534e2890ae629cc30a"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:8:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5099490000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=527807998",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=527807998",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1757754099",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1757754099",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,09,949 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(38.5%)"
         ]
       },
-      "observedAt": "2026-10-21T17:08:34.507Z",
-      "evidenceHash": "8b8d8ff4437811dc05fa34651662d73d89bc80f6032c8e7c6ac17f106337329e"
+      "observedAt": "2026-10-21T20:37:21.340Z",
+      "evidenceHash": "18d2e52482117c55cf13a8bc38169aec9e4fb10d0fe2713ddeeaa1249b332dc6"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:8:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1394170000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=527807998",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=527807998",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1757754099",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1757754099",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,39,417 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(48.6%)"
         ]
       },
-      "observedAt": "2026-10-21T17:08:34.507Z",
-      "evidenceHash": "5e9a0bce2697faa513cc63ec1bb4b94e6e8bf3149177bc39ba889a4dd79da03f"
+      "observedAt": "2026-10-21T20:37:21.340Z",
+      "evidenceHash": "01c5d63a4e38a404b61f6223835385d161402a98b079248b99f5be74144b3d70"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:8:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 20779580000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=527807998",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=527807998",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1757754099",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1757754099",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹20,77,958 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(37.1%)"
         ]
       },
-      "observedAt": "2026-10-21T17:08:34.507Z",
-      "evidenceHash": "ddf596e5f593893323b2713c475c9f31b84be0c54c9a6db6b127033506dbf10f"
+      "observedAt": "2026-10-21T20:37:21.340Z",
+      "evidenceHash": "0a699659c229a69be42b95a7eaa8a3ddf0cbef8fdeece6c1c753a878455fe2c5"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:8:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1870374200000.0002,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=527807998",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=527807998",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1757754099",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1757754099",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,87,037.42 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,30 +323,30 @@
           "(39%)"
         ]
       },
-      "observedAt": "2026-10-21T17:08:34.509Z",
-      "evidenceHash": "cf294a44eb7bf142d00ff7c8c29d941ea1c8eb1d2cf383451597a80cacf95064"
+      "observedAt": "2026-10-21T20:37:21.342Z",
+      "evidenceHash": "5f971243758d045c7aa9025194a59d5dce6d58c8e092d2db1c57d398422f8c13"
     },
     {
-      "externalKey": "cppp-procurement:screen-reader-access-21-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-21-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
+      "externalKey": "cppp-procurement:screen-reader-access-22-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-22-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
       "sensorId": "cppp-procurement",
-      "title": "Screen Reader Access 21-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "title": "Screen Reader Access 22-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=WebScreenReaderAccess&service=page",
-      "tenderReference": "Screen Reader Access 21-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "tenderReference": "Screen Reader Access 22-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "geographicPrecision": "unknown",
-      "note": "Screen Reader Access |  |  | 21-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 21-Oct-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
+      "note": "Screen Reader Access |  |  | 22-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 22-Oct-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
       "raw": {
         "cells": [
-          "Screen Reader Access 21-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+          "Screen Reader Access 22-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
           "Screen Reader Access",
           "Screen Reader Access",
           "",
           "",
-          "21-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "21-Oct-2026",
+          "22-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "22-Oct-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -357,8 +357,8 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.258Z",
-      "evidenceHash": "2434ad9faa568682b32a8a543a338caa24faab84a56998731c0e5170fa0288ae"
+      "observedAt": "2026-10-21T20:37:16.165Z",
+      "evidenceHash": "839f11af40c550709503c596d06e2499b9aa4e8066e29b7b5890235c05193b8b"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access:screen-reader-access",
@@ -377,25 +377,25 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.258Z",
+      "observedAt": "2026-10-21T20:37:16.166Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
-      "externalKey": "cppp-procurement:21-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:21-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
+      "externalKey": "cppp-procurement:22-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:22-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
       "sensorId": "cppp-procurement",
-      "title": "21-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "title": "22-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "tenderReference": "21-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "tenderReference": "22-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "geographicPrecision": "unknown",
       "note": "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  | ",
       "raw": {
         "cells": [
-          "21-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "21-Oct-2026",
+          "22-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "22-Oct-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -403,13 +403,13 @@
           ""
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.259Z",
-      "evidenceHash": "4b88e3947c8bfd558fc191d22d66ea4c2f4227644fa64656024ad61e744e2a03"
+      "observedAt": "2026-10-21T20:37:16.166Z",
+      "evidenceHash": "f2803cf90edb0eeec107c29f25f00854bff82536b26b76a24b5c9e6b0eb389ee"
     },
     {
-      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:21-oct-2026",
+      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:22-oct-2026",
       "sensorId": "cppp-procurement",
-      "title": "21-Oct-2026",
+      "title": "22-Oct-2026",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -420,7 +420,7 @@
       "note": " |  |  | ",
       "raw": {
         "cells": [
-          "21-Oct-2026",
+          "22-Oct-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -428,8 +428,8 @@
           ""
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.259Z",
-      "evidenceHash": "92270d08ad5b22a2dbd74b09330562c150a6700ee5b697e387e1bc6f9bdf7c23"
+      "observedAt": "2026-10-21T20:37:16.167Z",
+      "evidenceHash": "698f7314c49c4c097cf361f38b4b18e95caa0d87794bbe5c4cbf25e7e1ae08bc"
     },
     {
       "externalKey": "cppp-procurement:epublishing-system,-government-of-india",
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.260Z",
+      "observedAt": "2026-10-21T20:37:16.167Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.260Z",
+      "observedAt": "2026-10-21T20:37:16.167Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min VSP/WC/Mines MDM/OT/2600010064 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 PSB/H9025/Tender/Calendr/26-27 11-Nov-2026 03:00 PM 17-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min VSP/WC/Mines MDM/OT/2600010064 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 PSB/H9025/Tender/Calendr/26-27 11-Nov-2026 03:00 PM 17-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min VSP/WC/Mines MDM/OT/2600010064 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 PSB/H9025/Tender/Calendr/26-27 11-Nov-2026 03:00 PM 17-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min VSP/WC/Mines MDM/OT/2600010064 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 PSB/H9025/Tender/Calendr/26-27 11-Nov-2026 03:00 PM 17-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min VSP/WC/Mines MDM/OT/2600010064 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 PSB/H9025/Tender/Calendr/26-27 11-Nov-2026 03:00 PM 17-Nov-2026 03:00 PM | 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH | P and S/SGW/GSTR/2026/9000054914 | 26-Oct-2026 10:00 AM | 26-Oct-2026 10:05 AM | 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH | P and S/SGW/GSTR/2026/9000054916 | 26-Oct-2026 10:00 AM | 26-Oct-2026 10:05 AM | 3. PSB/ PREMISES/2026-27/03 | PSB TENDER/2026-27/03 | 03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM | 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. | 91-84/PnW/W/1873 | 23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM | 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR | 91-84/PnW/W/1872 | 23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM | 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA | P and S/SGW/GSTR/2026/9000054917 | 26-Oct-2026 10:00 AM | 26-Oct-2026 10:05 AM | 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus | NID/NIQG/07 /26-27 | 04-Nov-2026 05:00 PM | 05-Nov-2026 11:00 AM | 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year | 12011/121/26/E20560/CONT-1575 | 11-Nov-2026 03:00 PM | 11-Nov-2026 03:30 PM | 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min | VSP/WC/Mines MDM/OT/2600010064 | 03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM | 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 | PSB/H9025/Tender/Calendr/26-27 | 11-Nov-2026 03:00 PM | 17-Nov-2026 03:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM | 1. Corr-Adm-02 | NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 | 26-Oct-2026 11:00 AM | 26-Oct-2026 11:30 AM | 2. Corr-Adm-02 | NBCC/CPG/Supertech/ Araville/2026/603 | 26-Oct-2026 11:00 AM | 26-Oct-2026 11:30 AM | 3. Corr-Adm-02 | NBCC/CPG/Supertech/Up country/PkgIII/2026/612 | 26-Oct-2026 11:00 AM | 26-Oct-2026 11:30 AM | 4. Cor-1 | RFP PSB PREMISES INSURANCE 2026-2027/01 | 28-Oct-2026 05:00 PM | 29-Oct-2026 05:00 PM | 5. Offline Tender 6100003162/3000015477 | 6100003162 | 23-Oct-2026 01:00 PM | 23-Oct-2026 04:00 PM | 6. Corrigendum 2 | GEM/2026/B/8061163 | 09-Nov-2026 11:00 AM | 10-Nov-2026 11:00 AM | 7. Corrigendum 1 | GEM/2026/B/8061163 | 09-Nov-2026 11:00 AM | 10-Nov-2026 11:00 AM | 8. Minutes of Pre-bid Meeting. | TC- EMD Term contract | 28-Oct-2026 03:00 PM | 28-Oct-2026 03:05 PM | 9. Corrigendum-1 | RailTel/e-Tender/SR /MAS/OT/2026-27/29 | 29-Oct-2026 03:00 PM | 29-Oct-2026 03:30 PM | 10. CorrigendumII | 2993 | 28-Oct-2026 01:00 PM | 28-Oct-2026 02:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 4. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Procurement of Optogenetic System IISER/PUR/0961/26 28-Oct-2026 05:30 PM 29-Oct-2026 03:30 PM 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 4. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Procurement of Optogenetic System IISER/PUR/0961/26 28-Oct-2026 05:30 PM 29-Oct-2026 03:30 PM 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 4. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Procurement of Optogenetic System IISER/PUR/0961/26 28-Oct-2026 05:30 PM 29-Oct-2026 03:30 PM 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 4. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Procurement of Optogenetic System IISER/PUR/0961/26 28-Oct-2026 05:30 PM 29-Oct-2026 03:30 PM 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 4. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Procurement of Optogenetic System IISER/PUR/0961/26 28-Oct-2026 05:30 PM 29-Oct-2026 03:30 PM 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM | 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH | P and S/SGW/GSTR/2026/9000054914 | 26-Oct-2026 10:00 AM | 26-Oct-2026 10:05 AM | 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH | P and S/SGW/GSTR/2026/9000054916 | 26-Oct-2026 10:00 AM | 26-Oct-2026 10:05 AM | 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR | 91-84/PnW/W/1872 | 23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM | 4. PSB/ PREMISES/2026-27/03 | PSB TENDER/2026-27/03 | 03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM | 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA | P and S/SGW/GSTR/2026/9000054917 | 26-Oct-2026 10:00 AM | 26-Oct-2026 10:05 AM | 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. | 91-84/PnW/W/1873 | 23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM | 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus | NID/NIQG/07 /26-27 | 04-Nov-2026 05:00 PM | 05-Nov-2026 11:00 AM | 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year | 12011/121/26/E20560/CONT-1575 | 11-Nov-2026 03:00 PM | 11-Nov-2026 03:30 PM | 9. Procurement of Optogenetic System | IISER/PUR/0961/26 | 28-Oct-2026 05:30 PM | 29-Oct-2026 03:30 PM | 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) | 91-84/PnW/P/1869 | 23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM | 1. Corr-Adm-02 | NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 | 26-Oct-2026 11:00 AM | 26-Oct-2026 11:30 AM | 2. Corr-Adm-02 | NBCC/CPG/Supertech/ Araville/2026/603 | 26-Oct-2026 11:00 AM | 26-Oct-2026 11:30 AM | 3. Corr-Adm-02 | NBCC/CPG/Supertech/Up country/PkgIII/2026/612 | 26-Oct-2026 11:00 AM | 26-Oct-2026 11:30 AM | 4. Cor-1 | RFP PSB PREMISES INSURANCE 2026-2027/01 | 28-Oct-2026 05:00 PM | 29-Oct-2026 05:00 PM | 5. Offline Tender 6100003162/3000015477 | 6100003162 | 23-Oct-2026 01:00 PM | 23-Oct-2026 04:00 PM | 6. Corrigendum 2 | GEM/2026/B/8061163 | 09-Nov-2026 11:00 AM | 10-Nov-2026 11:00 AM | 7. Corrigendum 1 | GEM/2026/B/8061163 | 09-Nov-2026 11:00 AM | 10-Nov-2026 11:00 AM | 8. Minutes of Pre-bid Meeting. | TC- EMD Term contract | 28-Oct-2026 03:00 PM | 28-Oct-2026 03:05 PM | 9. Corrigendum-1 | RailTel/e-Tender/SR /MAS/OT/2026-27/29 | 29-Oct-2026 03:00 PM | 29-Oct-2026 03:30 PM | 10. CorrigendumII | 2993 | 28-Oct-2026 01:00 PM | 28-Oct-2026 02:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,21 +520,21 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min VSP/WC/Mines MDM/OT/2600010064 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 PSB/H9025/Tender/Calendr/26-27 11-Nov-2026 03:00 PM 17-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 4. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Procurement of Optogenetic System IISER/PUR/0961/26 28-Oct-2026 05:30 PM 29-Oct-2026 03:30 PM 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min VSP/WC/Mines MDM/OT/2600010064 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 PSB/H9025/Tender/Calendr/26-27 11-Nov-2026 03:00 PM 17-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 4. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Procurement of Optogenetic System IISER/PUR/0961/26 28-Oct-2026 05:30 PM 29-Oct-2026 03:30 PM 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Sports-City/2026/597 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 2. Corr-Adm-02 NBCC/CPG/Supertech/ Araville/2026/603 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 3. Corr-Adm-02 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 26-Oct-2026 11:00 AM 26-Oct-2026 11:30 AM 4. Cor-1 RFP PSB PREMISES INSURANCE 2026-2027/01 28-Oct-2026 05:00 PM 29-Oct-2026 05:00 PM 5. Offline Tender 6100003162/3000015477 6100003162 23-Oct-2026 01:00 PM 23-Oct-2026 04:00 PM 6. Corrigendum 2 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 7. Corrigendum 1 GEM/2026/B/8061163 09-Nov-2026 11:00 AM 10-Nov-2026 11:00 AM 8. Minutes of Pre-bid Meeting. TC- EMD Term contract 28-Oct-2026 03:00 PM 28-Oct-2026 03:05 PM 9. Corrigendum-1 RailTel/e-Tender/SR /MAS/OT/2026-27/29 29-Oct-2026 03:00 PM 29-Oct-2026 03:30 PM 10. CorrigendumII 2993 28-Oct-2026 01:00 PM 28-Oct-2026 02:00 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min VSP/WC/Mines MDM/OT/2600010064 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 PSB/H9025/Tender/Calendr/26-27 11-Nov-2026 03:00 PM 17-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min VSP/WC/Mines MDM/OT/2600010064 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 PSB/H9025/Tender/Calendr/26-27 11-Nov-2026 03:00 PM 17-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 4. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Procurement of Optogenetic System IISER/PUR/0961/26 28-Oct-2026 05:30 PM 29-Oct-2026 03:30 PM 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 4. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Procurement of Optogenetic System IISER/PUR/0961/26 28-Oct-2026 05:30 PM 29-Oct-2026 03:30 PM 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min VSP/WC/Mines MDM/OT/2600010064 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 PSB/H9025/Tender/Calendr/26-27 11-Nov-2026 03:00 PM 17-Nov-2026 03:00 PM",
+          "1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 4. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Procurement of Optogenetic System IISER/PUR/0961/26 28-Oct-2026 05:30 PM 29-Oct-2026 03:30 PM 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM",
           "1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH",
           "P and S/SGW/GSTR/2026/9000054914",
           "26-Oct-2026 10:00 AM",
@@ -543,22 +543,22 @@
           "P and S/SGW/GSTR/2026/9000054916",
           "26-Oct-2026 10:00 AM",
           "26-Oct-2026 10:05 AM",
-          "3. PSB/ PREMISES/2026-27/03",
-          "PSB TENDER/2026-27/03",
-          "03-Nov-2026 03:00 PM",
-          "03-Nov-2026 03:30 PM",
-          "4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR.",
-          "91-84/PnW/W/1873",
-          "23-Oct-2026 02:00 PM",
-          "23-Oct-2026 05:00 PM",
-          "5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR",
+          "3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR",
           "91-84/PnW/W/1872",
           "23-Oct-2026 02:00 PM",
           "23-Oct-2026 05:00 PM",
-          "6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA",
+          "4. PSB/ PREMISES/2026-27/03",
+          "PSB TENDER/2026-27/03",
+          "03-Nov-2026 03:00 PM",
+          "03-Nov-2026 03:30 PM",
+          "5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA",
           "P and S/SGW/GSTR/2026/9000054917",
           "26-Oct-2026 10:00 AM",
           "26-Oct-2026 10:05 AM",
+          "6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR.",
+          "91-84/PnW/W/1873",
+          "23-Oct-2026 02:00 PM",
+          "23-Oct-2026 05:00 PM",
           "7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus",
           "NID/NIQG/07 /26-27",
           "04-Nov-2026 05:00 PM",
@@ -567,14 +567,14 @@
           "12011/121/26/E20560/CONT-1575",
           "11-Nov-2026 03:00 PM",
           "11-Nov-2026 03:30 PM",
-          "9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min",
-          "VSP/WC/Mines MDM/OT/2600010064",
-          "03-Nov-2026 03:00 PM",
-          "04-Nov-2026 03:00 PM",
-          "10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027",
-          "PSB/H9025/Tender/Calendr/26-27",
-          "11-Nov-2026 03:00 PM",
-          "17-Nov-2026 03:00 PM",
+          "9. Procurement of Optogenetic System",
+          "IISER/PUR/0961/26",
+          "28-Oct-2026 05:30 PM",
+          "29-Oct-2026 03:30 PM",
+          "10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.)",
+          "91-84/PnW/P/1869",
+          "23-Oct-2026 02:00 PM",
+          "23-Oct-2026 05:00 PM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.271Z",
-      "evidenceHash": "6c4068a03b4ff56edc1388b12aa397cc39031ad4e6181062c3b5822d0c6c3c2b"
+      "observedAt": "2026-10-21T20:37:16.185Z",
+      "evidenceHash": "0753abb89b01355d498df46ea240047be722e7853660cda0fa16ece0d1101e9d"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.272Z",
+      "observedAt": "2026-10-21T20:37:16.185Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,24 +727,24 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.273Z",
+      "observedAt": "2026-10-21T20:37:16.186Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-quotation-for-fob-supply-of-stores---desh-bhakt-at-fujairah-p-and-s/sgw/gstr/2026/9000054914-26-oct-2026-10:00-am-26-oct-2026-10:05-am-2.-quotation-for-fob-supply-of-pp-ropes---desh-bhakt-at-fujairah-p-and-s/sgw/gstr/2026/9000054916-26-oct-2026-10:00-am-26-oct-2026-10:05-am-3.-psb/-premises/2026-27/03-psb-tender/2026-27/03-03-nov-2026-03:00-pm-03-nov-2026-03:30-pm-4.-work-contract-for-removing-rusted-balancing-pipe-of-draft-tube-and-replacement-of-flange-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3x105-mw,-thps--i-mppgcl-sirmour.-91-84/pnw/w/1873-23-oct-2026-02:00-pm-23-oct-2026-05:00-pm-5.-enquiry-for-sealing-of-draft-tube-gates-of-unit-no-3-art-3-x-105-mw-thps-sirmour-91-84/pnw/w/1872-23-oct-2026-02:00-pm-23-oct-2026-05:00-pm-6.-swarna-kalash---quotation-for-supply-of-stores-at-sikka-p-and-s/sgw/gstr/2026/9000054917-26-oct-2026-10:00-am-26-oct-2026-10:05-am-7.-a-p-p-o-intment-of-structural-engineering-consultancy-firm-for-providing-comprehensive-structural-consultancy-services-for-proposed-indoor-sports-activity-centre-at-nid-gandhinagar-campus-nid/niqg/07-/26-27-04-nov-2026-05:00-pm-05-nov-2026-11:00-am-8.-annual-rate-contract-for-attending-emergent/breakdown-hp-line-leakage-rectification-and-repairing-jobs-in-amm-iii-plant-on-as-and-when-required-basis-for-a-period-of-one-year-12011/121/26/e20560/cont-1575-11-nov-2026-03:00-pm-11-nov-2026-03:30-pm-9.-comprehensive-technical-management-of-water-supply-activities,-horticulture-works,-250-kld-sewage-treatment-plant,-mineral-water-plant-and-repairs-and-day-to-day-maintenance-works-to-roads,-buildings,-sanitary-and-sewage-lines-in-the-township-and-min-vsp/wc/mines-mdm/ot/2600010064-03-nov-2026-03:00-pm-04-nov-2026-03:00-pm-10.-open-tender-notice-for-printing,-packaging-and-dispatch-of-banks-wall-table-calendars-2027-psb/h9025/tender/calendr/26-27-11-nov-2026-03:00-pm-17-nov-2026-03:00-pm:1.-quotation-for-fob-supply-of-stores---desh-bhakt-at-fujairah-p-and-s/sgw/gstr/2026/9000054914-26-oct-2026-10:00-am-26-oct-2026-10:05-am-2.-quotation-for-fob-supply-of-pp-ropes---desh-bhakt-at-fujairah-p-and-s/sgw/gstr/2026/9000054916-26-oct-2026-10:00-am-26-oct-2026-10:05-am-3.-psb/-premises/2026-27/03-psb-tender/2026-27/03-03-nov-2026-03:00-pm-03-nov-2026-03:30-pm-4.-work-contract-for-removing-rusted-balancing-pipe-of-draft-tube-and-replacement-of-flange-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3x105-mw,-thps--i-mppgcl-sirmour.-91-84/pnw/w/1873-23-oct-2026-02:00-pm-23-oct-2026-05:00-pm-5.-enquiry-for-sealing-of-draft-tube-gates-of-unit-no-3-art-3-x-105-mw-thps-sirmour-91-84/pnw/w/1872-23-oct-2026-02:00-pm-23-oct-2026-05:00-pm-6.-swarna-kalash---quotation-for-supply-of-stores-at-sikka-p-and-s/sgw/gstr/2026/9000054917-26-oct-2026-10:00-am-26-oct-2026-10:05-am-7.-a-p-p-o-intment-of-structural-engineering-consultancy-firm-for-providing-comprehensive-structural-consultancy-services-for-proposed-indoor-sports-activity-centre-at-nid-gandhinagar-campus-nid/niqg/07-/26-27-04-nov-2026-05:00-pm-05-nov-2026-11:00-am-8.-annual-rate-contract-for-attending-emergent/breakdown-hp-line-leakage-rectification-and-repairing-jobs-in-amm-iii-plant-on-as-and-when-required-basis-for-a-period-of-one-year-12011/121/26/e20560/cont-1575-11-nov-2026-03:00-pm-11-nov-2026-03:30-pm-9.-comprehensive-technical-management-of-water-supply-activities,-horticulture-works,-250-kld-sewage-treatment-plant,-mineral-water-plant-and-repairs-and-day-to-day-maintenance-works-to-roads,-buildings,-sanitary-and-sewage-lines-in-the-township-and-min-vsp/wc/mines-mdm/ot/2600010064-03-nov-2026-03:00-pm-04-nov-2026-03:00-pm-10.-open-tender-notice-for-printing,-packaging-and-dispatch-of-banks-wall-table-calendars-2027-psb/h9025/tender/calendr/26-27-11-nov-2026-03:00-pm-17-nov-2026-03:00-pm",
+      "externalKey": "cppp-procurement:1.-quotation-for-fob-supply-of-stores---desh-bhakt-at-fujairah-p-and-s/sgw/gstr/2026/9000054914-26-oct-2026-10:00-am-26-oct-2026-10:05-am-2.-quotation-for-fob-supply-of-pp-ropes---desh-bhakt-at-fujairah-p-and-s/sgw/gstr/2026/9000054916-26-oct-2026-10:00-am-26-oct-2026-10:05-am-3.-enquiry-for-sealing-of-draft-tube-gates-of-unit-no-3-art-3-x-105-mw-thps-sirmour-91-84/pnw/w/1872-23-oct-2026-02:00-pm-23-oct-2026-05:00-pm-4.-psb/-premises/2026-27/03-psb-tender/2026-27/03-03-nov-2026-03:00-pm-03-nov-2026-03:30-pm-5.-swarna-kalash---quotation-for-supply-of-stores-at-sikka-p-and-s/sgw/gstr/2026/9000054917-26-oct-2026-10:00-am-26-oct-2026-10:05-am-6.-work-contract-for-removing-rusted-balancing-pipe-of-draft-tube-and-replacement-of-flange-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3x105-mw,-thps--i-mppgcl-sirmour.-91-84/pnw/w/1873-23-oct-2026-02:00-pm-23-oct-2026-05:00-pm-7.-a-p-p-o-intment-of-structural-engineering-consultancy-firm-for-providing-comprehensive-structural-consultancy-services-for-proposed-indoor-sports-activity-centre-at-nid-gandhinagar-campus-nid/niqg/07-/26-27-04-nov-2026-05:00-pm-05-nov-2026-11:00-am-8.-annual-rate-contract-for-attending-emergent/breakdown-hp-line-leakage-rectification-and-repairing-jobs-in-amm-iii-plant-on-as-and-when-required-basis-for-a-period-of-one-year-12011/121/26/e20560/cont-1575-11-nov-2026-03:00-pm-11-nov-2026-03:30-pm-9.-procurement-of-optogenetic-system-iiser/pur/0961/26-28-oct-2026-05:30-pm-29-oct-2026-03:30-pm-10.-enquiry-for-supply-of-pipe-flange-and-reducer-for-replacement-of-balancing-pipe-and-flange-of-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3-x-105-mw-thps-i,-mppgcl,-sirmour,-distt.-rewa-(m.p.)-91-84/pnw/p/1869-23-oct-2026-02:00-pm-23-oct-2026-05:00-pm:1.-quotation-for-fob-supply-of-stores---desh-bhakt-at-fujairah-p-and-s/sgw/gstr/2026/9000054914-26-oct-2026-10:00-am-26-oct-2026-10:05-am-2.-quotation-for-fob-supply-of-pp-ropes---desh-bhakt-at-fujairah-p-and-s/sgw/gstr/2026/9000054916-26-oct-2026-10:00-am-26-oct-2026-10:05-am-3.-enquiry-for-sealing-of-draft-tube-gates-of-unit-no-3-art-3-x-105-mw-thps-sirmour-91-84/pnw/w/1872-23-oct-2026-02:00-pm-23-oct-2026-05:00-pm-4.-psb/-premises/2026-27/03-psb-tender/2026-27/03-03-nov-2026-03:00-pm-03-nov-2026-03:30-pm-5.-swarna-kalash---quotation-for-supply-of-stores-at-sikka-p-and-s/sgw/gstr/2026/9000054917-26-oct-2026-10:00-am-26-oct-2026-10:05-am-6.-work-contract-for-removing-rusted-balancing-pipe-of-draft-tube-and-replacement-of-flange-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3x105-mw,-thps--i-mppgcl-sirmour.-91-84/pnw/w/1873-23-oct-2026-02:00-pm-23-oct-2026-05:00-pm-7.-a-p-p-o-intment-of-structural-engineering-consultancy-firm-for-providing-comprehensive-structural-consultancy-services-for-proposed-indoor-sports-activity-centre-at-nid-gandhinagar-campus-nid/niqg/07-/26-27-04-nov-2026-05:00-pm-05-nov-2026-11:00-am-8.-annual-rate-contract-for-attending-emergent/breakdown-hp-line-leakage-rectification-and-repairing-jobs-in-amm-iii-plant-on-as-and-when-required-basis-for-a-period-of-one-year-12011/121/26/e20560/cont-1575-11-nov-2026-03:00-pm-11-nov-2026-03:30-pm-9.-procurement-of-optogenetic-system-iiser/pur/0961/26-28-oct-2026-05:30-pm-29-oct-2026-03:30-pm-10.-enquiry-for-supply-of-pipe-flange-and-reducer-for-replacement-of-balancing-pipe-and-flange-of-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3-x-105-mw-thps-i,-mppgcl,-sirmour,-distt.-rewa-(m.p.)-91-84/pnw/p/1869-23-oct-2026-02:00-pm-23-oct-2026-05:00-pm",
       "sensorId": "cppp-procurement",
-      "title": "1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line ",
+      "title": "1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 4. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SWOxTi1uEc1MMPNkkoEGUzg%3D%3D",
-      "tenderReference": "1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min VSP/WC/Mines MDM/OT/2600010064 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 PSB/H9025/Tender/Calendr/26-27 11-Nov-2026 03:00 PM 17-Nov-2026 03:00 PM",
+      "tenderReference": "1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 4. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Procurement of Optogenetic System IISER/PUR/0961/26 28-Oct-2026 05:30 PM 29-Oct-2026 03:30 PM 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM",
       "geographicPrecision": "unknown",
-      "note": "P and S/SGW/GSTR/2026/9000054914 | 26-Oct-2026 10:00 AM | 26-Oct-2026 10:05 AM | 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH | P and S/SGW/GSTR/2026/9000054916 | 26-Oct-2026 10:00 AM | 26-Oct-2026 10:05 AM | 3. PSB/ PREMISES/2026-27/03 | PSB TENDER/2026-27/03 | 03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM | 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. | 91-84/PnW/W/1873 | 23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM | 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR | 91-84/PnW/W/1872 | 23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM | 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA | P and S/SGW/GSTR/2026/9000054917 | 26-Oct-2026 10:00 AM | 26-Oct-2026 10:05 AM | 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus | NID/NIQG/07 /26-27 | 04-Nov-2026 05:00 PM | 05-Nov-2026 11:00 AM | 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year | 12011/121/26/E20560/CONT-1575 | 11-Nov-2026 03:00 PM | 11-Nov-2026 03:30 PM | 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min | VSP/WC/Mines MDM/OT/2600010064 | 03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM | 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 | PSB/H9025/Tender/Calendr/26-27 | 11-Nov-2026 03:00 PM | 17-Nov-2026 03:00 PM",
+      "note": "P and S/SGW/GSTR/2026/9000054914 | 26-Oct-2026 10:00 AM | 26-Oct-2026 10:05 AM | 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH | P and S/SGW/GSTR/2026/9000054916 | 26-Oct-2026 10:00 AM | 26-Oct-2026 10:05 AM | 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR | 91-84/PnW/W/1872 | 23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM | 4. PSB/ PREMISES/2026-27/03 | PSB TENDER/2026-27/03 | 03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM | 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA | P and S/SGW/GSTR/2026/9000054917 | 26-Oct-2026 10:00 AM | 26-Oct-2026 10:05 AM | 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. | 91-84/PnW/W/1873 | 23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM | 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus | NID/NIQG/07 /26-27 | 04-Nov-2026 05:00 PM | 05-Nov-2026 11:00 AM | 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year | 12011/121/26/E20560/CONT-1575 | 11-Nov-2026 03:00 PM | 11-Nov-2026 03:30 PM | 9. Procurement of Optogenetic System | IISER/PUR/0961/26 | 28-Oct-2026 05:30 PM | 29-Oct-2026 03:30 PM | 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) | 91-84/PnW/P/1869 | 23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM",
       "raw": {
         "cells": [
-          "1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min VSP/WC/Mines MDM/OT/2600010064 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027 PSB/H9025/Tender/Calendr/26-27 11-Nov-2026 03:00 PM 17-Nov-2026 03:00 PM",
+          "1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054914 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 2. QUOTATION FOR FOB SUPPLY OF PP ROPES - DESH BHAKT AT FUJAIRAH P and S/SGW/GSTR/2026/9000054916 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR 91-84/PnW/W/1872 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 4. PSB/ PREMISES/2026-27/03 PSB TENDER/2026-27/03 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA P and S/SGW/GSTR/2026/9000054917 26-Oct-2026 10:00 AM 26-Oct-2026 10:05 AM 6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM 7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus NID/NIQG/07 /26-27 04-Nov-2026 05:00 PM 05-Nov-2026 11:00 AM 8. Annual rate contract for attending emergent/breakdown HP line leakage rectification and repairing jobs in AMM-III plant on as and when required basis for a period of one year 12011/121/26/E20560/CONT-1575 11-Nov-2026 03:00 PM 11-Nov-2026 03:30 PM 9. Procurement of Optogenetic System IISER/PUR/0961/26 28-Oct-2026 05:30 PM 29-Oct-2026 03:30 PM 10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 23-Oct-2026 02:00 PM 23-Oct-2026 05:00 PM",
           "1. QUOTATION FOR FOB SUPPLY OF STORES - DESH BHAKT AT FUJAIRAH",
           "P and S/SGW/GSTR/2026/9000054914",
           "26-Oct-2026 10:00 AM",
@@ -753,22 +753,22 @@
           "P and S/SGW/GSTR/2026/9000054916",
           "26-Oct-2026 10:00 AM",
           "26-Oct-2026 10:05 AM",
-          "3. PSB/ PREMISES/2026-27/03",
-          "PSB TENDER/2026-27/03",
-          "03-Nov-2026 03:00 PM",
-          "03-Nov-2026 03:30 PM",
-          "4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR.",
-          "91-84/PnW/W/1873",
-          "23-Oct-2026 02:00 PM",
-          "23-Oct-2026 05:00 PM",
-          "5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR",
+          "3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR",
           "91-84/PnW/W/1872",
           "23-Oct-2026 02:00 PM",
           "23-Oct-2026 05:00 PM",
-          "6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA",
+          "4. PSB/ PREMISES/2026-27/03",
+          "PSB TENDER/2026-27/03",
+          "03-Nov-2026 03:00 PM",
+          "03-Nov-2026 03:30 PM",
+          "5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA",
           "P and S/SGW/GSTR/2026/9000054917",
           "26-Oct-2026 10:00 AM",
           "26-Oct-2026 10:05 AM",
+          "6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR.",
+          "91-84/PnW/W/1873",
+          "23-Oct-2026 02:00 PM",
+          "23-Oct-2026 05:00 PM",
           "7. A p p o intment of Structural Engineering Consultancy firm for providing comprehensive Structural consultancy services for proposed indoor sports activity centre at NID Gandhinagar campus",
           "NID/NIQG/07 /26-27",
           "04-Nov-2026 05:00 PM",
@@ -777,18 +777,18 @@
           "12011/121/26/E20560/CONT-1575",
           "11-Nov-2026 03:00 PM",
           "11-Nov-2026 03:30 PM",
-          "9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min",
-          "VSP/WC/Mines MDM/OT/2600010064",
-          "03-Nov-2026 03:00 PM",
-          "04-Nov-2026 03:00 PM",
-          "10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027",
-          "PSB/H9025/Tender/Calendr/26-27",
-          "11-Nov-2026 03:00 PM",
-          "17-Nov-2026 03:00 PM"
+          "9. Procurement of Optogenetic System",
+          "IISER/PUR/0961/26",
+          "28-Oct-2026 05:30 PM",
+          "29-Oct-2026 03:30 PM",
+          "10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.)",
+          "91-84/PnW/P/1869",
+          "23-Oct-2026 02:00 PM",
+          "23-Oct-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.274Z",
-      "evidenceHash": "432ddd875eaf1ee4eaacb3d4d5a5d3e876d9d43ecc4f1c529c898d79a843937a"
+      "observedAt": "2026-10-21T20:37:16.187Z",
+      "evidenceHash": "edda81e00beb3692437d4b63c6b4b5e96fbcb4efb82cbfb5ebceee4c19bbf651"
     },
     {
       "externalKey": "cppp-procurement:p-and-s/sgw/gstr/2026/9000054914:1.-quotation-for-fob-supply-of-stores---desh-bhakt-at-fujairah",
@@ -810,7 +810,7 @@
           "26-Oct-2026 10:05 AM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.275Z",
+      "observedAt": "2026-10-21T20:37:16.188Z",
       "evidenceHash": "62258262594a1e219289cce5b3ba2bbd836b9a685873c6a2a38bba3b933c157f"
     },
     {
@@ -833,59 +833,13 @@
           "26-Oct-2026 10:05 AM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.275Z",
+      "observedAt": "2026-10-21T20:37:16.188Z",
       "evidenceHash": "df018036b397ff542eac39bc50300a3de27dde30ba82490b1fbd6dc1cdae71e8"
     },
     {
-      "externalKey": "cppp-procurement:psb-tender/2026-27/03:3.-psb/-premises/2026-27/03",
+      "externalKey": "cppp-procurement:91-84/pnw/w/1872:3.-enquiry-for-sealing-of-draft-tube-gates-of-unit-no-3-art-3-x-105-mw-thps-sirmour",
       "sensorId": "cppp-procurement",
-      "title": "3. PSB/ PREMISES/2026-27/03",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SedeED%2B%2BDqCEkbZAuEaBoDw%3D%3D",
-      "tenderReference": "PSB TENDER/2026-27/03",
-      "geographicPrecision": "unknown",
-      "note": "03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM",
-      "raw": {
-        "cells": [
-          "3. PSB/ PREMISES/2026-27/03",
-          "PSB TENDER/2026-27/03",
-          "03-Nov-2026 03:00 PM",
-          "03-Nov-2026 03:30 PM"
-        ]
-      },
-      "observedAt": "2026-10-21T17:08:30.275Z",
-      "evidenceHash": "847a450c1a2d98e46dd3a2e0e9571320581d2ddd10f115f1a61781c5259e00f5"
-    },
-    {
-      "externalKey": "cppp-procurement:91-84/pnw/w/1873:4.-work-contract-for-removing-rusted-balancing-pipe-of-draft-tube-and-replacement-of-flange-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3x105-mw,-thps--i-mppgcl-sirmour.",
-      "sensorId": "cppp-procurement",
-      "title": "4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR.",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S2vPOmzTGWRWyRdYpHe8SVA%3D%3D",
-      "tenderReference": "91-84/PnW/W/1873",
-      "geographicPrecision": "unknown",
-      "note": "23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM",
-      "raw": {
-        "cells": [
-          "4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR.",
-          "91-84/PnW/W/1873",
-          "23-Oct-2026 02:00 PM",
-          "23-Oct-2026 05:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-21T17:08:30.275Z",
-      "evidenceHash": "136820c279b33f4cfddd25cb4a2361f6fd03120633c534978b1916c1bec5cbca"
-    },
-    {
-      "externalKey": "cppp-procurement:91-84/pnw/w/1872:5.-enquiry-for-sealing-of-draft-tube-gates-of-unit-no-3-art-3-x-105-mw-thps-sirmour",
-      "sensorId": "cppp-procurement",
-      "title": "5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR",
+      "title": "3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -896,19 +850,42 @@
       "note": "23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM",
       "raw": {
         "cells": [
-          "5. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR",
+          "3. ENQUIRY FOR SEALING OF DRAFT TUBE GATES OF UNIT NO 3 ART 3 X 105 MW THPS SIRMOUR",
           "91-84/PnW/W/1872",
           "23-Oct-2026 02:00 PM",
           "23-Oct-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.275Z",
-      "evidenceHash": "4500b9f2b69541aa28943fa202e675141b952526a0cb8417717f3adbbb687c12"
+      "observedAt": "2026-10-21T20:37:16.188Z",
+      "evidenceHash": "6d91f7d187501a819eb129952532abd18151602a5f8a2100422610bb60a11849"
     },
     {
-      "externalKey": "cppp-procurement:p-and-s/sgw/gstr/2026/9000054917:6.-swarna-kalash---quotation-for-supply-of-stores-at-sikka",
+      "externalKey": "cppp-procurement:psb-tender/2026-27/03:4.-psb/-premises/2026-27/03",
       "sensorId": "cppp-procurement",
-      "title": "6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA",
+      "title": "4. PSB/ PREMISES/2026-27/03",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SedeED%2B%2BDqCEkbZAuEaBoDw%3D%3D",
+      "tenderReference": "PSB TENDER/2026-27/03",
+      "geographicPrecision": "unknown",
+      "note": "03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "4. PSB/ PREMISES/2026-27/03",
+          "PSB TENDER/2026-27/03",
+          "03-Nov-2026 03:00 PM",
+          "03-Nov-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-10-21T20:37:16.188Z",
+      "evidenceHash": "27db065678f264c112151a7a99b9d7a68e06eb574ecac88276e81eb64e8afde8"
+    },
+    {
+      "externalKey": "cppp-procurement:p-and-s/sgw/gstr/2026/9000054917:5.-swarna-kalash---quotation-for-supply-of-stores-at-sikka",
+      "sensorId": "cppp-procurement",
+      "title": "5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -919,14 +896,37 @@
       "note": "26-Oct-2026 10:00 AM | 26-Oct-2026 10:05 AM",
       "raw": {
         "cells": [
-          "6. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA",
+          "5. SWARNA KALASH - QUOTATION FOR SUPPLY OF STORES AT SIKKA",
           "P and S/SGW/GSTR/2026/9000054917",
           "26-Oct-2026 10:00 AM",
           "26-Oct-2026 10:05 AM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.275Z",
-      "evidenceHash": "030eaf6c4361f572b5c49bfe96d6191f087c235fad9476db8309684eb6de16c8"
+      "observedAt": "2026-10-21T20:37:16.188Z",
+      "evidenceHash": "570494db0547619c170d1b9b2a3d02889eda50fd9f28eae0117ed8085e99267f"
+    },
+    {
+      "externalKey": "cppp-procurement:91-84/pnw/w/1873:6.-work-contract-for-removing-rusted-balancing-pipe-of-draft-tube-and-replacement-of-flange-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3x105-mw,-thps--i-mppgcl-sirmour.",
+      "sensorId": "cppp-procurement",
+      "title": "6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR.",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S2vPOmzTGWRWyRdYpHe8SVA%3D%3D",
+      "tenderReference": "91-84/PnW/W/1873",
+      "geographicPrecision": "unknown",
+      "note": "23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM",
+      "raw": {
+        "cells": [
+          "6. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR.",
+          "91-84/PnW/W/1873",
+          "23-Oct-2026 02:00 PM",
+          "23-Oct-2026 05:00 PM"
+        ]
+      },
+      "observedAt": "2026-10-21T20:37:16.188Z",
+      "evidenceHash": "4a701f42db356026286f9ad97de5232685e4eb9969a8dde97c1a86bde7c31563"
     },
     {
       "externalKey": "cppp-procurement:nid/niqg/07-/26-27:7.-a-p-p-o-intment-of-structural-engineering-consultancy-firm-for-providing-comprehensive-structural-consultancy-services-for-proposed-indoor-sports-activity-centre-at-nid-gandhinagar-campus",
@@ -948,7 +948,7 @@
           "05-Nov-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.275Z",
+      "observedAt": "2026-10-21T20:37:16.188Z",
       "evidenceHash": "7a8ab1585e9a3927c3edc22552e62845a2ad611e4ce57d13cdc2585dc357cdd9"
     },
     {
@@ -971,54 +971,54 @@
           "11-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.275Z",
+      "observedAt": "2026-10-21T20:37:16.188Z",
       "evidenceHash": "b5b0d73ab7d3be1d7b8688e2c52c25f8c429cb1adbbf63170cbb7e7d57276c63"
     },
     {
-      "externalKey": "cppp-procurement:vsp/wc/mines-mdm/ot/2600010064:9.-comprehensive-technical-management-of-water-supply-activities,-horticulture-works,-250-kld-sewage-treatment-plant,-mineral-water-plant-and-repairs-and-day-to-day-maintenance-works-to-roads,-buildings,-sanitary-and-sewage-lines-in-the-township-and-min",
+      "externalKey": "cppp-procurement:iiser/pur/0961/26:9.-procurement-of-optogenetic-system",
       "sensorId": "cppp-procurement",
-      "title": "9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min",
+      "title": "9. Procurement of Optogenetic System",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=ScLyZWnP01sdZYNvstEI29A%3D%3D",
-      "tenderReference": "VSP/WC/Mines MDM/OT/2600010064",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SzqPewoV4MrtZ8MYcMYiqMg%3D%3D",
+      "tenderReference": "IISER/PUR/0961/26",
       "geographicPrecision": "unknown",
-      "note": "03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM",
+      "note": "28-Oct-2026 05:30 PM | 29-Oct-2026 03:30 PM",
       "raw": {
         "cells": [
-          "9. Comprehensive Technical Management of Water supply activities, Horticulture works, 250 KLD sewage treatment plant, Mineral water plant and Repairs and day to day Maintenance works to Roads, Buildings, Sanitary and Sewage lines in the Township and Min",
-          "VSP/WC/Mines MDM/OT/2600010064",
-          "03-Nov-2026 03:00 PM",
-          "04-Nov-2026 03:00 PM"
+          "9. Procurement of Optogenetic System",
+          "IISER/PUR/0961/26",
+          "28-Oct-2026 05:30 PM",
+          "29-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.275Z",
-      "evidenceHash": "cb6a450360675cb2d7f57a96d3ed9b7fb6331c6769a48326a508fb1f16555dc3"
+      "observedAt": "2026-10-21T20:37:16.188Z",
+      "evidenceHash": "68f7752dce117508e4510ea48d80b4e4af785f6d82aa6d14b2966fdee5c3d54d"
     },
     {
-      "externalKey": "cppp-procurement:10.-open-tender-notice-for-printing,-packaging-and-dispatch-of-banks-wall-table-calendars-2027:10.-open-tender-notice-for-printing,-packaging-and-dispatch-of-banks-wall-table-calendars-2027",
+      "externalKey": "cppp-procurement:91-84/pnw/p/1869:10.-enquiry-for-supply-of-pipe-flange-and-reducer-for-replacement-of-balancing-pipe-and-flange-of-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3-x-105-mw-thps-i,-mppgcl,-sirmour,-distt.-rewa-(m.p.)",
       "sensorId": "cppp-procurement",
-      "title": "10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027",
+      "title": "10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.)",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S2sTUONZeeEFfK7y1eq5rtw%3D%3D",
-      "tenderReference": "10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S8W0gaGHuRPEZokLNIDf0nw%3D%3D",
+      "tenderReference": "91-84/PnW/P/1869",
       "geographicPrecision": "unknown",
-      "note": "11-Nov-2026 03:00 PM | 17-Nov-2026 03:00 PM",
+      "note": "23-Oct-2026 02:00 PM | 23-Oct-2026 05:00 PM",
       "raw": {
         "cells": [
-          "10. OPEN TENDER NOTICE FOR PRINTING, PACKAGING AND DISPATCH OF BANKS WALL TABLE CALENDARS 2027",
-          "PSB/H9025/Tender/Calendr/26-27",
-          "11-Nov-2026 03:00 PM",
-          "17-Nov-2026 03:00 PM"
+          "10. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.)",
+          "91-84/PnW/P/1869",
+          "23-Oct-2026 02:00 PM",
+          "23-Oct-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.275Z",
-      "evidenceHash": "843e2ce3047e9a6a1cc8a61984069c4045fb53988fd79c72c6b63734da22bb5b"
+      "observedAt": "2026-10-21T20:37:16.188Z",
+      "evidenceHash": "749234d3a95692bc26e45b10f68c5df57ea1261acd12d0d3a0bd5f84330a0507"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.275Z",
+      "observedAt": "2026-10-21T20:37:16.188Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.276Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "28-Oct-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.276Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "5fd284dc581326c1d0aaacd000fd99d99d38fd6be407cd248f8fce581b300f77"
     },
     {
@@ -1143,7 +1143,7 @@
           "26-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.276Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "229e64e4f7e63d2c98f0cacd5d19d0536138d01ecddbd44695e81354f83c8bfd"
     },
     {
@@ -1166,7 +1166,7 @@
           "26-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.276Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "acbb90c42f082a3143513a03aeb409162e555e7c3f0d49603b40ecfe89a0dbfc"
     },
     {
@@ -1189,7 +1189,7 @@
           "26-Oct-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.276Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "26920ad14728844f8d0ab3363066d52e3c1876bbd37c2403741f36ba56b262f3"
     },
     {
@@ -1212,7 +1212,7 @@
           "29-Oct-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.276Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "2ea051f81bae1ed86937a9d9173576193aab2f080fc28c63b4ff13ce545405bc"
     },
     {
@@ -1235,7 +1235,7 @@
           "23-Oct-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.276Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "fa50800c6c804c6bb2c9b8680edd4d5299d8fac97a74e54ccc49e5bd17dcd478"
     },
     {
@@ -1258,7 +1258,7 @@
           "10-Nov-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.276Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "a438abf14dcd46599dbde372728cd5bd6993a4aaf3c4cdfb767bab3819f74a17"
     },
     {
@@ -1281,7 +1281,7 @@
           "10-Nov-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.276Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "be02378bceeac8d8842b9ee90b86ae4603b3c428b0a57bc9b5bda87a80a4fb54"
     },
     {
@@ -1304,7 +1304,7 @@
           "28-Oct-2026 03:05 PM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.276Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "e13197fac33108a6b15dc5637331c3bd9df726294c760431adaa681fa8041464"
     },
     {
@@ -1327,7 +1327,7 @@
           "29-Oct-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.276Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "336b5aa1286d7b8e170e78a7e06a0d073c32a98e58a6ec994c41e8643eff5b15"
     },
     {
@@ -1350,7 +1350,7 @@
           "28-Oct-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.277Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "d939d6c223f1d3c8964c07b5163082c559b12bab9aeb93f128756135a5b87c51"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.277Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.277Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.277Z",
+      "observedAt": "2026-10-21T20:37:16.189Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.277Z",
+      "observedAt": "2026-10-21T20:37:16.190Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.277Z",
+      "observedAt": "2026-10-21T20:37:16.190Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.277Z",
+      "observedAt": "2026-10-21T20:37:16.190Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.277Z",
+      "observedAt": "2026-10-21T20:37:16.190Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.277Z",
+      "observedAt": "2026-10-21T20:37:16.190Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.277Z",
+      "observedAt": "2026-10-21T20:37:16.190Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.277Z",
+      "observedAt": "2026-10-21T20:37:16.190Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.278Z",
+      "observedAt": "2026-10-21T20:37:16.190Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.278Z",
+      "observedAt": "2026-10-21T20:37:16.190Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-21T17:08:30.278Z",
+      "observedAt": "2026-10-21T20:37:16.190Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "125835"
       },
-      "observedAt": "2026-10-21T17:08:30.441Z",
+      "observedAt": "2026-10-21T20:37:16.378Z",
       "evidenceHash": "693f8076419a13c59c4aad4c4a8f8a7323f33d55903c9e7d63b5a135a75ecfa2"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "125830"
       },
-      "observedAt": "2026-10-21T17:08:30.441Z",
+      "observedAt": "2026-10-21T20:37:16.378Z",
       "evidenceHash": "5cfbd2ce08b6de0ff1d70c251045d519312b60a68b5b53ad8ebbad71ee82f064"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "125829"
       },
-      "observedAt": "2026-10-21T17:08:30.441Z",
+      "observedAt": "2026-10-21T20:37:16.378Z",
       "evidenceHash": "2f0b6182addd14efa4bdb5ca4f16fa2a2c0feeea4a21d9900843072f9bd8df90"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "125828"
       },
-      "observedAt": "2026-10-21T17:08:30.441Z",
+      "observedAt": "2026-10-21T20:37:16.378Z",
       "evidenceHash": "5d28e4d26249fb281735dac989a06f0501292736cba1936d235185bccd9afc41"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "125827"
       },
-      "observedAt": "2026-10-21T17:08:30.441Z",
+      "observedAt": "2026-10-21T20:37:16.378Z",
       "evidenceHash": "2db2e1f6ae23af8dab9b08c7d2975228f077034603fb4f0360e269c58fdb02a0"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "125728"
       },
-      "observedAt": "2026-10-21T17:08:30.441Z",
+      "observedAt": "2026-10-21T20:37:16.378Z",
       "evidenceHash": "83e9b943800eeec78a0206b4045e1b74d45424412151a3e51ef79c8123ef8d20"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "125712"
       },
-      "observedAt": "2026-10-21T17:08:30.441Z",
+      "observedAt": "2026-10-21T20:37:16.378Z",
       "evidenceHash": "49fead40de686e1e2e7056517252cdbc91195f214b26fdfdbc038e4e3115e80d"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "125624"
       },
-      "observedAt": "2026-10-21T17:08:30.441Z",
+      "observedAt": "2026-10-21T20:37:16.378Z",
       "evidenceHash": "fd060fe7ff79e5a2837873cf49572c82f56ac410a4fa0c9d40381174facaa68d"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "125602"
       },
-      "observedAt": "2026-10-21T17:08:30.441Z",
+      "observedAt": "2026-10-21T20:37:16.378Z",
       "evidenceHash": "857698c208374a8e9f7558e800c4c1d89679206247d8e9d3a0ff39787ea05ca6"
     },
     {
@@ -1806,7 +1806,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-21T17:08:31.704Z",
+      "observedAt": "2026-10-21T20:37:17.542Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1819,7 +1819,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-21T17:08:31.705Z",
+      "observedAt": "2026-10-21T20:37:17.544Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1832,7 +1832,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-21T17:08:31.705Z",
+      "observedAt": "2026-10-21T20:37:17.544Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1845,7 +1845,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-21T17:08:31.705Z",
+      "observedAt": "2026-10-21T20:37:17.544Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1858,7 +1858,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-21T17:08:31.705Z",
+      "observedAt": "2026-10-21T20:37:17.544Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1872,7 +1872,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-21T17:08:31.706Z",
+      "observedAt": "2026-10-21T20:37:17.544Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1886,7 +1886,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-21T17:08:31.706Z",
+      "observedAt": "2026-10-21T20:37:17.544Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1900,7 +1900,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-21T17:08:31.706Z",
+      "observedAt": "2026-10-21T20:37:17.544Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1919,7 +1919,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-10-21T17:09:03.800Z",
+      "observedAt": "2026-10-21T20:37:50.610Z",
       "evidenceHash": "61bd51e18f1d42812bd6bab3510326a0780d9cf2164adb00f40f68d4d1cf50ea"
     },
     {
@@ -1938,7 +1938,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-10-21T17:09:03.806Z",
+      "observedAt": "2026-10-21T20:37:50.614Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1957,7 +1957,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-10-21T17:09:03.807Z",
+      "observedAt": "2026-10-21T20:37:50.614Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -1976,7 +1976,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-10-21T17:09:03.807Z",
+      "observedAt": "2026-10-21T20:37:50.614Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -1995,7 +1995,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-10-21T17:09:03.807Z",
+      "observedAt": "2026-10-21T20:37:50.614Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2014,7 +2014,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-10-21T17:09:03.807Z",
+      "observedAt": "2026-10-21T20:37:50.615Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2033,7 +2033,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-10-21T17:09:03.807Z",
+      "observedAt": "2026-10-21T20:37:50.615Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2051,7 +2051,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-10-21T17:09:02.628Z",
+      "observedAt": "2026-10-21T20:37:49.845Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
