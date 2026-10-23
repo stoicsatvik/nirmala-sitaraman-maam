@@ -14,7 +14,7 @@ Never pretend that a citizen's individual tax rupee can literally be traced afte
 - **Audited** — supported by an audit finding.
 - **Unknown** — not publicly disclosed or not yet reconciled.
 
-Likewise, `budgeted`, `revised`, `sanctioned`, `released`, `procured`, `paid`, `delivered`, and `audited` are separate states. They must never be silently collapsed into one number.
+Likewise, `budgeted`, `revised`, `sanctioned`, `released`, `tender_published`, `procured`, `paid`, `delivered`, and `audited` are separate states. They must never be silently collapsed into one number.
 
 ## What is implemented
 
@@ -67,7 +67,7 @@ Every live record can carry amount, state, authority, fiscal year, vendor, tende
 | Budget → ministry → scheme graph | Implemented data model |
 | Sanctions/releases | PFMS source monitoring; structured public extraction still partial |
 | CGA actual expenditure | Publication monitoring; granular monthly parser still partial |
-| Tenders | CPPP + GeM + BMC public-source polling |
+| Tenders | CPPP + GeM + BMC public-source polling; publication is `tender_published`, **not** evidence of an awarded contract |
 | Contract awards | CPPP award surface monitored; search results remain source-gated where captcha/search input is required |
 | Vendor/payee | Fields/schema ready; populated only when primary evidence exposes it |
 | Government payments | Schema ready; no claim of bank/treasury telemetry |
