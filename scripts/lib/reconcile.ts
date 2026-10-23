@@ -1,4 +1,5 @@
 import type { PublicMoneyRecord } from "./ingestion";
+import { stageForObservation } from "./stages.ts";
 
 export type ReconciliationBasis = "exact_tender_reference" | "exact_external_reference";
 
@@ -16,45 +17,66 @@ const STATE_ORDER = new Map([
   ["revised", 1],
   ["sanctioned", 2],
   ["released", 3],
-  ["procured", 4],
-  ["paid", 5],
-  ["delivered", 6],
-  ["audited", 7]
+  ["tender_published", 4],
+  ["procured", 5],
+  ["paid", 6],
+  ["delivered", 7],
+  ["audited", 8]
 ]);
 
 function normalizeReference(value: string): string {
   return value.trim().replace(/\s+/g, "").toUpperCase();
 }
 
+/** Never promote page furniture, HTML, scripts or generic labels to exact identifiers. */
+function validTenderReference(value: string): boolean {
+  const reference = value.trim();
+  if (reference.length < 5 || reference.length > 100 || !/[0-9]/.test(reference)) return false;
+  if (/[<>"'{}=;\\]|\b(?:javascript|function|document|window|captcha|login)\b/i.test(reference)) return false;
+  return /^[\p{L}\p{N}][\p{L}\p{N}._/\- ]*$/u.test(reference);
+}
+
 export function reconcileRecords(records: PublicMoneyRecord[]): ReconciledLink[] {
-  const byTender = new Map<string, PublicMoneyRecord[]>();
+  // Exact identifiers alone do not establish that two authorities/jurisdictions
+  // refer to the same award. Fail closed across jurisdiction boundaries.
+  const byJurisdictionAndTender = new Map<string, PublicMoneyRecord[]>();
 
   for (const record of records) {
-    if (!record.tenderReference) continue;
+    if (!record.tenderReference || !validTenderReference(record.tenderReference)) continue;
+    const jurisdiction = record.jurisdiction?.trim().toUpperCase();
+    if (!jurisdiction) continue;
     const reference = normalizeReference(record.tenderReference);
-    if (reference.length < 5) continue;
-    const group = byTender.get(reference) ?? [];
+    const groupKey = JSON.stringify([jurisdiction, reference]);
+    const group = byJurisdictionAndTender.get(groupKey) ?? [];
     group.push(record);
-    byTender.set(reference, group);
+    byJurisdictionAndTender.set(groupKey, group);
   }
 
   const links: ReconciledLink[] = [];
 
-  for (const [reference, group] of byTender) {
+  for (const group of byJurisdictionAndTender.values()) {
+    const reference = normalizeReference(group[0].tenderReference!);
     const unique = [...new Map(group.map((record) => [record.externalKey, record])).values()];
     if (unique.length < 2) continue;
 
-    unique.sort((a, b) => (STATE_ORDER.get(a.state) ?? 99) - (STATE_ORDER.get(b.state) ?? 99));
+    unique.sort((a, b) =>
+      (STATE_ORDER.get(stageForObservation(a.sensorId, a.state)) ?? 99) -
+      (STATE_ORDER.get(stageForObservation(b.sensorId, b.state)) ?? 99)
+    );
 
     for (let index = 0; index < unique.length - 1; index += 1) {
       const from = unique[index];
       const to = unique[index + 1];
-      if (from.externalKey === to.externalKey) continue;
+      if (
+        from.externalKey === to.externalKey ||
+        stageForObservation(from.sensorId, from.state) === stageForObservation(to.sensorId, to.state) ||
+        from.sensorId === to.sensorId
+      ) continue;
 
       links.push({
         fromExternalKey: from.externalKey,
         toExternalKey: to.externalKey,
-        relation: `${from.state} → ${to.state}`,
+        relation: [stageForObservation(from.sensorId, from.state), "→", stageForObservation(to.sensorId, to.state)].join(" "),
         basis: "exact_tender_reference",
         confidence: 1,
         reference

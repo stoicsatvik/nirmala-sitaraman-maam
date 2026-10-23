@@ -1,0 +1,39 @@
+name: Evidence integrity contracts
+
+on:
+  pull_request:
+    paths:
+      - "scripts/lib/**"
+      - "scripts/sensors/**"
+      - "src/**"
+      - "supabase/migrations/**"
+      - "tests/**"
+      - ".github/workflows/evidence-integrity.yml"
+  push:
+    branches: ["foundry/e170-evidence-link-validity-20261023"]
+    paths:
+      - "scripts/lib/**"
+      - "scripts/sensors/**"
+      - "src/**"
+      - "supabase/migrations/**"
+      - "tests/**"
+      - ".github/workflows/evidence-integrity.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run offline deterministic reconciliation tests
+        run: node --experimental-strip-types --test tests/*.test.ts
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Typecheck and build
+        run: npm run build
