@@ -1,4 +1,5 @@
 import "./live.css";
+import { stageForObservation } from "../scripts/lib/stages";
 
 type LiveSensor = {
   id: string;
@@ -97,7 +98,9 @@ function buildCoverage(snapshot: LiveSnapshot): CoverageRow[] {
   const tenderSensorIds = new Set(["cppp-procurement", "gem-bids", "bmc-tenders"]);
 
   const tenderRecords = snapshot.records.filter((record) => tenderSensorIds.has(record.sensorId));
-  const awardRecords = snapshot.records.filter((record) => record.sensorId === "cppp-contract-awards");
+  const awardRecords = snapshot.records.filter(
+    (record) => record.sensorId === "cppp-contract-awards" && stageForObservation(record.sensorId, record.state) === "procured"
+  );
   const vendorRecords = snapshot.records.filter((record) => Boolean(record.vendor));
   const paymentRecords = snapshot.records.filter((record) => record.state === "paid");
   const locationRecords = snapshot.records.filter((record) => Boolean(record.locationText));
@@ -254,7 +257,7 @@ export async function mountLiveTracking(): Promise<void> {
         (record) => `
           <article class="live-record">
             <div class="allocation-topline">
-              <span class="status status-observed">${escapeHtml(record.state)}</span>
+              <span class="status status-observed">${escapeHtml(stageForObservation(record.sensorId, record.state))}</span>
               <span class="muted">${escapeHtml(record.jurisdiction)}</span>
             </div>
             <h3>${escapeHtml(record.title)}</h3>
