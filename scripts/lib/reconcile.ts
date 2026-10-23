@@ -35,19 +35,25 @@ function validTenderReference(value: string): boolean {
 }
 
 export function reconcileRecords(records: PublicMoneyRecord[]): ReconciledLink[] {
-  const byTender = new Map<string, PublicMoneyRecord[]>();
+  // Exact identifiers alone do not establish that two authorities/jurisdictions
+  // refer to the same award. Fail closed across jurisdiction boundaries.
+  const byJurisdictionAndTender = new Map<string, PublicMoneyRecord[]>();
 
   for (const record of records) {
     if (!record.tenderReference || !validTenderReference(record.tenderReference)) continue;
+    const jurisdiction = record.jurisdiction?.trim().toUpperCase();
+    if (!jurisdiction) continue;
     const reference = normalizeReference(record.tenderReference);
-    const group = byTender.get(reference) ?? [];
+    const groupKey = JSON.stringify([jurisdiction, reference]);
+    const group = byJurisdictionAndTender.get(groupKey) ?? [];
     group.push(record);
-    byTender.set(reference, group);
+    byJurisdictionAndTender.set(groupKey, group);
   }
 
   const links: ReconciledLink[] = [];
 
-  for (const [reference, group] of byTender) {
+  for (const group of byJurisdictionAndTender.values()) {
+    const reference = normalizeReference(group[0].tenderReference!);
     const unique = [...new Map(group.map((record) => [record.externalKey, record])).values()];
     if (unique.length < 2) continue;
 
@@ -56,7 +62,6 @@ export function reconcileRecords(records: PublicMoneyRecord[]): ReconciledLink[]
     for (let index = 0; index < unique.length - 1; index += 1) {
       const from = unique[index];
       const to = unique[index + 1];
-      // A chain edge requires a distinct source and an actual evidence-state transition.
       if (from.externalKey === to.externalKey || from.state === to.state || from.sensorId === to.sensorId) continue;
 
       links.push({
