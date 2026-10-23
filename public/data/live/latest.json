@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T13:23:17.814Z",
+  "generatedAt": "2026-10-23T18:18:59.679Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -8,9 +8,9 @@
   },
   "summary": {
     "sensors": 10,
-    "healthySensors": 9,
-    "records": 77,
-    "reconciledLinks": 2
+    "healthySensors": 7,
+    "records": 31,
+    "reconciledLinks": 0
   },
   "sensors": [
     {
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-10-23T13:22:37.180Z",
+      "fetchedAt": "2026-10-23T18:17:51.323Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-10-23T13:22:37.189Z",
+      "fetchedAt": "2026-10-23T18:17:51.332Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,10 +47,10 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-10-23T13:22:37.190Z",
-      "ok": true,
-      "recordCount": 46,
-      "error": null
+      "fetchedAt": "2026-10-23T18:17:51.333Z",
+      "ok": false,
+      "recordCount": 0,
+      "error": "fetch failed"
     },
     {
       "id": "gem-bids",
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-10-23T13:22:37.191Z",
+      "fetchedAt": "2026-10-23T18:17:51.334Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-23T13:22:37.192Z",
+      "fetchedAt": "2026-10-23T18:17:51.334Z",
       "ok": true,
       "recordCount": 9,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-23T13:22:37.193Z",
+      "fetchedAt": "2026-10-23T18:17:51.337Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-23T13:23:11.065Z",
+      "fetchedAt": "2026-10-23T18:18:25.104Z",
       "ok": true,
       "recordCount": 7,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-23T13:23:11.064Z",
+      "fetchedAt": "2026-10-23T18:18:25.103Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,10 +125,10 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-10-23T13:23:11.066Z",
-      "ok": true,
+      "fetchedAt": "2026-10-23T18:18:25.105Z",
+      "ok": false,
       "recordCount": 0,
-      "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
+      "error": "fetch failed"
     },
     {
       "id": "union-output-outcomes",
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-10-23T13:23:11.067Z",
+      "fetchedAt": "2026-10-23T18:18:25.106Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 15680090000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1801506344",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1801506344",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=809139829",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=809139829",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹15,68,009 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(36.7%)"
         ]
       },
-      "observedAt": "2026-10-23T13:22:44.326Z",
-      "evidenceHash": "ab581a4e7c21fe1480ca3e9f41560ba80a12380605b890abd89a44955ba6ec2f"
+      "observedAt": "2026-10-23T18:17:57.361Z",
+      "evidenceHash": "4e672ab88b00cff20bed0127612e2b7050f122b143d83bdb42513936fde25120"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:8:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5148100000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1801506344",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1801506344",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=809139829",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=809139829",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,14,810 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(41.4%)"
         ]
       },
-      "observedAt": "2026-10-23T13:22:44.326Z",
-      "evidenceHash": "8bfbb7029498ee71e6da540a50518647404ee7557d4a904f6c8744bbb9f2711c"
+      "observedAt": "2026-10-23T18:17:57.361Z",
+      "evidenceHash": "f25baf2f0eb141278075a2caf8aa95c7534273d80d5eed44ba7a90ac912b666c"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:8:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5099490000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1801506344",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1801506344",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=809139829",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=809139829",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,09,949 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(38.5%)"
         ]
       },
-      "observedAt": "2026-10-23T13:22:44.326Z",
-      "evidenceHash": "2bb519b3756ffda19f70856d584ec24abd573b43444f3c15e123705e4fade10e"
+      "observedAt": "2026-10-23T18:17:57.361Z",
+      "evidenceHash": "2ab4a3a539a366f00151514fc971d5199e3724f3136bd01e124d66f8d52f0058"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:8:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1394170000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1801506344",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1801506344",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=809139829",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=809139829",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,39,417 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(48.6%)"
         ]
       },
-      "observedAt": "2026-10-23T13:22:44.326Z",
-      "evidenceHash": "dc6c101ee776be8cd620061d73f1e862ee27cbb4a0415161e05f6eac72be6e19"
+      "observedAt": "2026-10-23T18:17:57.361Z",
+      "evidenceHash": "da34809364a1330a4c750d9f00bff7fdb965665f5ea0ec39200cf33a551bb6c2"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:8:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 20779580000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1801506344",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1801506344",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=809139829",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=809139829",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹20,77,958 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(37.1%)"
         ]
       },
-      "observedAt": "2026-10-23T13:22:44.326Z",
-      "evidenceHash": "55e8c573ca3d6fcc947d25f3e3ee12186484704316d1b0e0daaa9e82c2802fa7"
+      "observedAt": "2026-10-23T18:17:57.361Z",
+      "evidenceHash": "ec82fd6e36d6074610a51f2c9669a7899438b687258e0bda21789b7a938bf1ee"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:8:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1870374200000.0002,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1801506344",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1801506344",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=809139829",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=809139829",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,87,037.42 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,1334 +323,8 @@
           "(39%)"
         ]
       },
-      "observedAt": "2026-10-23T13:22:44.327Z",
-      "evidenceHash": "cb0afa211d75963a387a15be466fa084011c60f87e7a0c2cd16e03a1e191902b"
-    },
-    {
-      "externalKey": "cppp-procurement:screen-reader-access-23-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-23-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
-      "sensorId": "cppp-procurement",
-      "title": "Screen Reader Access 23-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=WebScreenReaderAccess&service=page",
-      "tenderReference": "Screen Reader Access 23-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
-      "geographicPrecision": "unknown",
-      "note": "Screen Reader Access |  |  | 23-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 23-Oct-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
-      "raw": {
-        "cells": [
-          "Screen Reader Access 23-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
-          "Screen Reader Access",
-          "Screen Reader Access",
-          "",
-          "",
-          "23-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "23-Oct-2026",
-          "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "",
-          "",
-          "",
-          "",
-          "ePublishing System, Government of India",
-          "",
-          "ePublishing System, Government of India"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.196Z",
-      "evidenceHash": "36eeccca3f2aa13bff13faf33e6a6e007cc4a307b3633ac08d37029bf3c36f9b"
-    },
-    {
-      "externalKey": "cppp-procurement:screen-reader-access:screen-reader-access",
-      "sensorId": "cppp-procurement",
-      "title": "Screen Reader Access",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=WebScreenReaderAccess&service=page",
-      "tenderReference": "Screen Reader Access",
-      "geographicPrecision": "unknown",
-      "raw": {
-        "cells": [
-          "Screen Reader Access",
-          "Screen Reader Access"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.196Z",
-      "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
-    },
-    {
-      "externalKey": "cppp-procurement:23-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:23-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
-      "sensorId": "cppp-procurement",
-      "title": "23-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "tenderReference": "23-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-      "geographicPrecision": "unknown",
-      "note": "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  | ",
-      "raw": {
-        "cells": [
-          "23-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "23-Oct-2026",
-          "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "",
-          "",
-          "",
-          ""
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.196Z",
-      "evidenceHash": "58a0b5efd6a849576bdba8dad89114ac9de07b8cc301ae72a612e333d62b343f"
-    },
-    {
-      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:23-oct-2026",
-      "sensorId": "cppp-procurement",
-      "title": "23-Oct-2026",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "tenderReference": "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-      "geographicPrecision": "unknown",
-      "note": " |  |  | ",
-      "raw": {
-        "cells": [
-          "23-Oct-2026",
-          "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "",
-          "",
-          "",
-          ""
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.197Z",
-      "evidenceHash": "08c70c3e0bc01977dabe9ffaa2dea1165d377d9ec584127b39706c55f96929a6"
-    },
-    {
-      "externalKey": "cppp-procurement:epublishing-system,-government-of-india",
-      "sensorId": "cppp-procurement",
-      "title": "ePublishing System, Government of India",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
-      "geographicPrecision": "unknown",
-      "note": "ePublishing System, Government of India",
-      "raw": {
-        "cells": [
-          "ePublishing System, Government of India",
-          "",
-          "ePublishing System, Government of India"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.197Z",
-      "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
-    },
-    {
-      "externalKey": "cppp-procurement:epublishing-system,-government-of-india:epublishing-system,-government-of-india",
-      "sensorId": "cppp-procurement",
-      "title": "ePublishing System, Government of India",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
-      "tenderReference": "ePublishing System, Government of India",
-      "geographicPrecision": "unknown",
-      "raw": {
-        "cells": [
-          "",
-          "ePublishing System, Government of India"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.197Z",
-      "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
-    },
-    {
-      "externalKey": "cppp-procurement://-script-to-view-document-in-popup-function-popup(mylink,-windowname)-{-if-(!-window.focus)return-true;-var-href;-if-(typeof(mylink)-==-'string')-href=mylink;-else-href=mylink.href;-window.open(href,-\"popup\",-'location=no,-scrollbars=yes,-toolbar=no,-width=700,-height=550,-directories=no,-menubar=no,-resizable=yes,-status=no,-titlebar=yes');-return-false;-}-mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links://-script-to-view-document-in-popup-function-popup(mylink,-windowname)-{-if-(!-window.focus)return-true;-var-href;-if-(typeof(mylink)-==-'string')-href=mylink;-else-href=mylink.href;-window.open(href,-\"popup\",-'location=no,-scrollbars=yes,-toolbar=no,-width=700,-height=550,-directories=no,-menubar=no,-resizable=yes,-status=no,-titlebar=yes');-return-false;-}-mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
-      "sensorId": "cppp-procurement",
-      "title": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Re",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
-      "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
-      "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 GEM/2026/B/8067242dt.23102026 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. PE-370 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 3. Purchase of Lentil, Gram and Pea good quality Certified seeds Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT 27-Oct-2026 03:00 PM 27-Oct-2026 04:00 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 5. BANDR/71157/NIT/PAUT/NIT/02 BANDR/71157/NIT/PAUT/NIT/02 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 6. BANDR/71149/TRAILER/NIT/09 BANDR/71149/TRAILER/NIT/09 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 7. Measurement and Control Data Logger 2026270480/MM-11/EQE/4S7 10-Nov-2026 11:00 AM 10-Nov-2026 11:30 AM 8. FMLM eReverseAuctionJNPT 2026 27 178 FMLM eReverseAuctionJNPT 2026 27 178 24-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 10. STORE FOB SWARNA GANGA PNS/DDV/GSTR/2026/9000054950 28-Oct-2026 04:00 PM 28-Oct-2026 04:05 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. BOQ CORRIGENDUM IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 2. DATE CORRIGENDUM 2 IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 3. CORRIGENDUM 1 AIRHQ/85059/1/ENGM(M2) BM-I 10-Nov-2026 11:00 AM 10-Nov-2026 12:00 PM 4. TCN-03 DT.23/10/2026 GEM/2026/B/8115871 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. Corrigendum - 2 TCIL/MUR/EOI/2026/T-40 26-Oct-2026 05:00 PM 26-Oct-2026 05:30 PM 6. Minutes of Pre-Bid Meeting IEW2027 IndianOil Pavilion 03-Nov-2026 05:00 PM 04-Nov-2026 09:00 AM 7. Technical specs DCI/GST Outsourcing/Tender/2027 06-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 8. Date 2 PSB/HO DPO/2026-27/RFP/RGI 30-Oct-2026 03:00 PM 31-Oct-2026 03:00 PM 9. Corrigendum - 2 PUR/ENQ/JB/041/STOCK/ 7697/2026-27 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 10. VC Link CME/Electrical/2759 13-Nov-2026 04:00 PM 14-Nov-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 GEM/2026/B/8067242dt.23102026 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. PE-370 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 3. Purchase of Lentil, Gram and Pea good quality Certified seeds Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT 27-Oct-2026 03:00 PM 27-Oct-2026 04:00 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 5. BANDR/71157/NIT/PAUT/NIT/02 BANDR/71157/NIT/PAUT/NIT/02 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 6. BANDR/71149/TRAILER/NIT/09 BANDR/71149/TRAILER/NIT/09 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 7. Measurement and Control Data Logger 2026270480/MM-11/EQE/4S7 10-Nov-2026 11:00 AM 10-Nov-2026 11:30 AM 8. FMLM eReverseAuctionJNPT 2026 27 178 FMLM eReverseAuctionJNPT 2026 27 178 24-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 10. STORE FOB SWARNA GANGA PNS/DDV/GSTR/2026/9000054950 28-Oct-2026 04:00 PM 28-Oct-2026 04:05 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. BOQ CORRIGENDUM IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 2. DATE CORRIGENDUM 2 IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 3. CORRIGENDUM 1 AIRHQ/85059/1/ENGM(M2) BM-I 10-Nov-2026 11:00 AM 10-Nov-2026 12:00 PM 4. TCN-03 DT.23/10/2026 GEM/2026/B/8115871 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. Corrigendum - 2 TCIL/MUR/EOI/2026/T-40 26-Oct-2026 05:00 PM 26-Oct-2026 05:30 PM 6. Minutes of Pre-Bid Meeting IEW2027 IndianOil Pavilion 03-Nov-2026 05:00 PM 04-Nov-2026 09:00 AM 7. Technical specs DCI/GST Outsourcing/Tender/2027 06-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 8. Date 2 PSB/HO DPO/2026-27/RFP/RGI 30-Oct-2026 03:00 PM 31-Oct-2026 03:00 PM 9. Corrigendum - 2 PUR/ENQ/JB/041/STOCK/ 7697/2026-27 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 10. VC Link CME/Electrical/2759 13-Nov-2026 04:00 PM 14-Nov-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 GEM/2026/B/8067242dt.23102026 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. PE-370 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 3. Purchase of Lentil, Gram and Pea good quality Certified seeds Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT 27-Oct-2026 03:00 PM 27-Oct-2026 04:00 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 5. BANDR/71157/NIT/PAUT/NIT/02 BANDR/71157/NIT/PAUT/NIT/02 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 6. BANDR/71149/TRAILER/NIT/09 BANDR/71149/TRAILER/NIT/09 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 7. Measurement and Control Data Logger 2026270480/MM-11/EQE/4S7 10-Nov-2026 11:00 AM 10-Nov-2026 11:30 AM 8. FMLM eReverseAuctionJNPT 2026 27 178 FMLM eReverseAuctionJNPT 2026 27 178 24-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 10. STORE FOB SWARNA GANGA PNS/DDV/GSTR/2026/9000054950 28-Oct-2026 04:00 PM 28-Oct-2026 04:05 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 GEM/2026/B/8067242dt.23102026 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. PE-370 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 3. Purchase of Lentil, Gram and Pea good quality Certified seeds Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT 27-Oct-2026 03:00 PM 27-Oct-2026 04:00 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 5. BANDR/71157/NIT/PAUT/NIT/02 BANDR/71157/NIT/PAUT/NIT/02 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 6. BANDR/71149/TRAILER/NIT/09 BANDR/71149/TRAILER/NIT/09 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 7. Measurement and Control Data Logger 2026270480/MM-11/EQE/4S7 10-Nov-2026 11:00 AM 10-Nov-2026 11:30 AM 8. FMLM eReverseAuctionJNPT 2026 27 178 FMLM eReverseAuctionJNPT 2026 27 178 24-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 10. STORE FOB SWARNA GANGA PNS/DDV/GSTR/2026/9000054950 28-Oct-2026 04:00 PM 28-Oct-2026 04:05 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 GEM/2026/B/8067242dt.23102026 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. PE-370 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 3. Purchase of Lentil, Gram and Pea good quality Certified seeds Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT 27-Oct-2026 03:00 PM 27-Oct-2026 04:00 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 5. BANDR/71157/NIT/PAUT/NIT/02 BANDR/71157/NIT/PAUT/NIT/02 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 6. BANDR/71149/TRAILER/NIT/09 BANDR/71149/TRAILER/NIT/09 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 7. Measurement and Control Data Logger 2026270480/MM-11/EQE/4S7 10-Nov-2026 11:00 AM 10-Nov-2026 11:30 AM 8. FMLM eReverseAuctionJNPT 2026 27 178 FMLM eReverseAuctionJNPT 2026 27 178 24-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 10. STORE FOB SWARNA GANGA PNS/DDV/GSTR/2026/9000054950 28-Oct-2026 04:00 PM 28-Oct-2026 04:05 PM | 1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 | GEM/2026/B/8067242dt.23102026 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. | PE-370 | 16-Nov-2026 03:30 PM | 16-Nov-2026 04:00 PM | 3. Purchase of Lentil, Gram and Pea good quality Certified seeds | Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT | 27-Oct-2026 03:00 PM | 27-Oct-2026 04:00 PM | 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. | 91-84/PnW/W/1873 | 27-Oct-2026 02:00 PM | 27-Oct-2026 05:00 PM | 5. BANDR/71157/NIT/PAUT/NIT/02 | BANDR/71157/NIT/PAUT/NIT/02 | 30-Oct-2026 06:55 PM | 31-Oct-2026 06:55 PM | 6. BANDR/71149/TRAILER/NIT/09 | BANDR/71149/TRAILER/NIT/09 | 29-Oct-2026 06:55 PM | 30-Oct-2026 06:55 PM | 7. Measurement and Control Data Logger | 2026270480/MM-11/EQE/4S7 | 10-Nov-2026 11:00 AM | 10-Nov-2026 11:30 AM | 8. FMLM eReverseAuctionJNPT 2026 27 178 | FMLM eReverseAuctionJNPT 2026 27 178 | 24-Oct-2026 04:00 PM | 24-Oct-2026 04:00 PM | 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) | 91-84/PnW/P/1869 | 27-Oct-2026 02:00 PM | 27-Oct-2026 05:00 PM | 10. STORE FOB SWARNA GANGA | PNS/DDV/GSTR/2026/9000054950 | 28-Oct-2026 04:00 PM | 28-Oct-2026 04:05 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. BOQ CORRIGENDUM IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 2. DATE CORRIGENDUM 2 IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 3. CORRIGENDUM 1 AIRHQ/85059/1/ENGM(M2) BM-I 10-Nov-2026 11:00 AM 10-Nov-2026 12:00 PM 4. TCN-03 DT.23/10/2026 GEM/2026/B/8115871 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. Corrigendum - 2 TCIL/MUR/EOI/2026/T-40 26-Oct-2026 05:00 PM 26-Oct-2026 05:30 PM 6. Minutes of Pre-Bid Meeting IEW2027 IndianOil Pavilion 03-Nov-2026 05:00 PM 04-Nov-2026 09:00 AM 7. Technical specs DCI/GST Outsourcing/Tender/2027 06-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 8. Date 2 PSB/HO DPO/2026-27/RFP/RGI 30-Oct-2026 03:00 PM 31-Oct-2026 03:00 PM 9. Corrigendum - 2 PUR/ENQ/JB/041/STOCK/ 7697/2026-27 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 10. VC Link CME/Electrical/2759 13-Nov-2026 04:00 PM 14-Nov-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. BOQ CORRIGENDUM IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 2. DATE CORRIGENDUM 2 IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 3. CORRIGENDUM 1 AIRHQ/85059/1/ENGM(M2) BM-I 10-Nov-2026 11:00 AM 10-Nov-2026 12:00 PM 4. TCN-03 DT.23/10/2026 GEM/2026/B/8115871 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. Corrigendum - 2 TCIL/MUR/EOI/2026/T-40 26-Oct-2026 05:00 PM 26-Oct-2026 05:30 PM 6. Minutes of Pre-Bid Meeting IEW2027 IndianOil Pavilion 03-Nov-2026 05:00 PM 04-Nov-2026 09:00 AM 7. Technical specs DCI/GST Outsourcing/Tender/2027 06-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 8. Date 2 PSB/HO DPO/2026-27/RFP/RGI 30-Oct-2026 03:00 PM 31-Oct-2026 03:00 PM 9. Corrigendum - 2 PUR/ENQ/JB/041/STOCK/ 7697/2026-27 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 10. VC Link CME/Electrical/2759 13-Nov-2026 04:00 PM 14-Nov-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. BOQ CORRIGENDUM IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 2. DATE CORRIGENDUM 2 IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 3. CORRIGENDUM 1 AIRHQ/85059/1/ENGM(M2) BM-I 10-Nov-2026 11:00 AM 10-Nov-2026 12:00 PM 4. TCN-03 DT.23/10/2026 GEM/2026/B/8115871 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. Corrigendum - 2 TCIL/MUR/EOI/2026/T-40 26-Oct-2026 05:00 PM 26-Oct-2026 05:30 PM 6. Minutes of Pre-Bid Meeting IEW2027 IndianOil Pavilion 03-Nov-2026 05:00 PM 04-Nov-2026 09:00 AM 7. Technical specs DCI/GST Outsourcing/Tender/2027 06-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 8. Date 2 PSB/HO DPO/2026-27/RFP/RGI 30-Oct-2026 03:00 PM 31-Oct-2026 03:00 PM 9. Corrigendum - 2 PUR/ENQ/JB/041/STOCK/ 7697/2026-27 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 10. VC Link CME/Electrical/2759 13-Nov-2026 04:00 PM 14-Nov-2026 04:30 PM | 1. BOQ CORRIGENDUM | IITM/UPS-CAMC_AMC/14/2627/SPL | 27-Oct-2026 04:00 PM | 28-Oct-2026 04:00 PM | 2. DATE CORRIGENDUM 2 | IITM/UPS-CAMC_AMC/14/2627/SPL | 27-Oct-2026 04:00 PM | 28-Oct-2026 04:00 PM | 3. CORRIGENDUM 1 | AIRHQ/85059/1/ENGM(M2) BM-I | 10-Nov-2026 11:00 AM | 10-Nov-2026 12:00 PM | 4. TCN-03 DT.23/10/2026 | GEM/2026/B/8115871 | 26-Oct-2026 04:00 PM | 27-Oct-2026 04:00 PM | 5. Corrigendum - 2 | TCIL/MUR/EOI/2026/T-40 | 26-Oct-2026 05:00 PM | 26-Oct-2026 05:30 PM | 6. Minutes of Pre-Bid Meeting | IEW2027 IndianOil Pavilion | 03-Nov-2026 05:00 PM | 04-Nov-2026 09:00 AM | 7. Technical specs | DCI/GST Outsourcing/Tender/2027 | 06-Nov-2026 03:00 PM | 06-Nov-2026 03:30 PM | 8. Date 2 | PSB/HO DPO/2026-27/RFP/RGI | 30-Oct-2026 03:00 PM | 31-Oct-2026 03:00 PM | 9. Corrigendum - 2 | PUR/ENQ/JB/041/STOCK/ 7697/2026-27 | 30-Oct-2026 06:55 PM | 31-Oct-2026 06:55 PM | 10. VC Link | CME/Electrical/2759 | 13-Nov-2026 04:00 PM | 14-Nov-2026 04:30 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
-      "raw": {
-        "cells": [
-          "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
-          "",
-          "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
-          "MIS Reports",
-          "",
-          "Tenders by Location",
-          "",
-          "Tenders by Classification",
-          "",
-          "Tenders in Archive",
-          "",
-          "Cancelled/Retendered",
-          "",
-          "Downloads",
-          "",
-          "Debarment List",
-          "",
-          "Announcements",
-          "",
-          "Recognitions",
-          "",
-          "Site compatibility",
-          "",
-          "Related Links",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 GEM/2026/B/8067242dt.23102026 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. PE-370 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 3. Purchase of Lentil, Gram and Pea good quality Certified seeds Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT 27-Oct-2026 03:00 PM 27-Oct-2026 04:00 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 5. BANDR/71157/NIT/PAUT/NIT/02 BANDR/71157/NIT/PAUT/NIT/02 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 6. BANDR/71149/TRAILER/NIT/09 BANDR/71149/TRAILER/NIT/09 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 7. Measurement and Control Data Logger 2026270480/MM-11/EQE/4S7 10-Nov-2026 11:00 AM 10-Nov-2026 11:30 AM 8. FMLM eReverseAuctionJNPT 2026 27 178 FMLM eReverseAuctionJNPT 2026 27 178 24-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 10. STORE FOB SWARNA GANGA PNS/DDV/GSTR/2026/9000054950 28-Oct-2026 04:00 PM 28-Oct-2026 04:05 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. BOQ CORRIGENDUM IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 2. DATE CORRIGENDUM 2 IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 3. CORRIGENDUM 1 AIRHQ/85059/1/ENGM(M2) BM-I 10-Nov-2026 11:00 AM 10-Nov-2026 12:00 PM 4. TCN-03 DT.23/10/2026 GEM/2026/B/8115871 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. Corrigendum - 2 TCIL/MUR/EOI/2026/T-40 26-Oct-2026 05:00 PM 26-Oct-2026 05:30 PM 6. Minutes of Pre-Bid Meeting IEW2027 IndianOil Pavilion 03-Nov-2026 05:00 PM 04-Nov-2026 09:00 AM 7. Technical specs DCI/GST Outsourcing/Tender/2027 06-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 8. Date 2 PSB/HO DPO/2026-27/RFP/RGI 30-Oct-2026 03:00 PM 31-Oct-2026 03:00 PM 9. Corrigendum - 2 PUR/ENQ/JB/041/STOCK/ 7697/2026-27 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 10. VC Link CME/Electrical/2759 13-Nov-2026 04:00 PM 14-Nov-2026 04:30 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
-          "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
-          "ePublishing System",
-          "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
-          "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 GEM/2026/B/8067242dt.23102026 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. PE-370 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 3. Purchase of Lentil, Gram and Pea good quality Certified seeds Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT 27-Oct-2026 03:00 PM 27-Oct-2026 04:00 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 5. BANDR/71157/NIT/PAUT/NIT/02 BANDR/71157/NIT/PAUT/NIT/02 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 6. BANDR/71149/TRAILER/NIT/09 BANDR/71149/TRAILER/NIT/09 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 7. Measurement and Control Data Logger 2026270480/MM-11/EQE/4S7 10-Nov-2026 11:00 AM 10-Nov-2026 11:30 AM 8. FMLM eReverseAuctionJNPT 2026 27 178 FMLM eReverseAuctionJNPT 2026 27 178 24-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 10. STORE FOB SWARNA GANGA PNS/DDV/GSTR/2026/9000054950 28-Oct-2026 04:00 PM 28-Oct-2026 04:05 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. BOQ CORRIGENDUM IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 2. DATE CORRIGENDUM 2 IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 3. CORRIGENDUM 1 AIRHQ/85059/1/ENGM(M2) BM-I 10-Nov-2026 11:00 AM 10-Nov-2026 12:00 PM 4. TCN-03 DT.23/10/2026 GEM/2026/B/8115871 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. Corrigendum - 2 TCIL/MUR/EOI/2026/T-40 26-Oct-2026 05:00 PM 26-Oct-2026 05:30 PM 6. Minutes of Pre-Bid Meeting IEW2027 IndianOil Pavilion 03-Nov-2026 05:00 PM 04-Nov-2026 09:00 AM 7. Technical specs DCI/GST Outsourcing/Tender/2027 06-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 8. Date 2 PSB/HO DPO/2026-27/RFP/RGI 30-Oct-2026 03:00 PM 31-Oct-2026 03:00 PM 9. Corrigendum - 2 PUR/ENQ/JB/041/STOCK/ 7697/2026-27 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 10. VC Link CME/Electrical/2759 13-Nov-2026 04:00 PM 14-Nov-2026 04:30 PM Latest Corrigendum updates every 15 mins. More...",
-          "",
-          "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 GEM/2026/B/8067242dt.23102026 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. PE-370 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 3. Purchase of Lentil, Gram and Pea good quality Certified seeds Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT 27-Oct-2026 03:00 PM 27-Oct-2026 04:00 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 5. BANDR/71157/NIT/PAUT/NIT/02 BANDR/71157/NIT/PAUT/NIT/02 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 6. BANDR/71149/TRAILER/NIT/09 BANDR/71149/TRAILER/NIT/09 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 7. Measurement and Control Data Logger 2026270480/MM-11/EQE/4S7 10-Nov-2026 11:00 AM 10-Nov-2026 11:30 AM 8. FMLM eReverseAuctionJNPT 2026 27 178 FMLM eReverseAuctionJNPT 2026 27 178 24-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 10. STORE FOB SWARNA GANGA PNS/DDV/GSTR/2026/9000054950 28-Oct-2026 04:00 PM 28-Oct-2026 04:05 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 GEM/2026/B/8067242dt.23102026 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. PE-370 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 3. Purchase of Lentil, Gram and Pea good quality Certified seeds Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT 27-Oct-2026 03:00 PM 27-Oct-2026 04:00 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 5. BANDR/71157/NIT/PAUT/NIT/02 BANDR/71157/NIT/PAUT/NIT/02 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 6. BANDR/71149/TRAILER/NIT/09 BANDR/71149/TRAILER/NIT/09 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 7. Measurement and Control Data Logger 2026270480/MM-11/EQE/4S7 10-Nov-2026 11:00 AM 10-Nov-2026 11:30 AM 8. FMLM eReverseAuctionJNPT 2026 27 178 FMLM eReverseAuctionJNPT 2026 27 178 24-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 10. STORE FOB SWARNA GANGA PNS/DDV/GSTR/2026/9000054950 28-Oct-2026 04:00 PM 28-Oct-2026 04:05 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title",
-          "Reference No",
-          "Closing Date",
-          "Bid Opening Date",
-          "1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 GEM/2026/B/8067242dt.23102026 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. PE-370 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 3. Purchase of Lentil, Gram and Pea good quality Certified seeds Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT 27-Oct-2026 03:00 PM 27-Oct-2026 04:00 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 5. BANDR/71157/NIT/PAUT/NIT/02 BANDR/71157/NIT/PAUT/NIT/02 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 6. BANDR/71149/TRAILER/NIT/09 BANDR/71149/TRAILER/NIT/09 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 7. Measurement and Control Data Logger 2026270480/MM-11/EQE/4S7 10-Nov-2026 11:00 AM 10-Nov-2026 11:30 AM 8. FMLM eReverseAuctionJNPT 2026 27 178 FMLM eReverseAuctionJNPT 2026 27 178 24-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 10. STORE FOB SWARNA GANGA PNS/DDV/GSTR/2026/9000054950 28-Oct-2026 04:00 PM 28-Oct-2026 04:05 PM",
-          "1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173",
-          "GEM/2026/B/8067242dt.23102026",
-          "02-Nov-2026 06:55 PM",
-          "03-Nov-2026 06:55 PM",
-          "2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL.",
-          "PE-370",
-          "16-Nov-2026 03:30 PM",
-          "16-Nov-2026 04:00 PM",
-          "3. Purchase of Lentil, Gram and Pea good quality Certified seeds",
-          "Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT",
-          "27-Oct-2026 03:00 PM",
-          "27-Oct-2026 04:00 PM",
-          "4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR.",
-          "91-84/PnW/W/1873",
-          "27-Oct-2026 02:00 PM",
-          "27-Oct-2026 05:00 PM",
-          "5. BANDR/71157/NIT/PAUT/NIT/02",
-          "BANDR/71157/NIT/PAUT/NIT/02",
-          "30-Oct-2026 06:55 PM",
-          "31-Oct-2026 06:55 PM",
-          "6. BANDR/71149/TRAILER/NIT/09",
-          "BANDR/71149/TRAILER/NIT/09",
-          "29-Oct-2026 06:55 PM",
-          "30-Oct-2026 06:55 PM",
-          "7. Measurement and Control Data Logger",
-          "2026270480/MM-11/EQE/4S7",
-          "10-Nov-2026 11:00 AM",
-          "10-Nov-2026 11:30 AM",
-          "8. FMLM eReverseAuctionJNPT 2026 27 178",
-          "FMLM eReverseAuctionJNPT 2026 27 178",
-          "24-Oct-2026 04:00 PM",
-          "24-Oct-2026 04:00 PM",
-          "9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.)",
-          "91-84/PnW/P/1869",
-          "27-Oct-2026 02:00 PM",
-          "27-Oct-2026 05:00 PM",
-          "10. STORE FOB SWARNA GANGA",
-          "PNS/DDV/GSTR/2026/9000054950",
-          "28-Oct-2026 04:00 PM",
-          "28-Oct-2026 04:05 PM",
-          "Latest Tenders updates every 15 mins.",
-          "More...",
-          "",
-          "",
-          "Corrigendum Title Reference No Closing Date Bid Opening Date 1. BOQ CORRIGENDUM IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 2. DATE CORRIGENDUM 2 IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 3. CORRIGENDUM 1 AIRHQ/85059/1/ENGM(M2) BM-I 10-Nov-2026 11:00 AM 10-Nov-2026 12:00 PM 4. TCN-03 DT.23/10/2026 GEM/2026/B/8115871 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. Corrigendum - 2 TCIL/MUR/EOI/2026/T-40 26-Oct-2026 05:00 PM 26-Oct-2026 05:30 PM 6. Minutes of Pre-Bid Meeting IEW2027 IndianOil Pavilion 03-Nov-2026 05:00 PM 04-Nov-2026 09:00 AM 7. Technical specs DCI/GST Outsourcing/Tender/2027 06-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 8. Date 2 PSB/HO DPO/2026-27/RFP/RGI 30-Oct-2026 03:00 PM 31-Oct-2026 03:00 PM 9. Corrigendum - 2 PUR/ENQ/JB/041/STOCK/ 7697/2026-27 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 10. VC Link CME/Electrical/2759 13-Nov-2026 04:00 PM 14-Nov-2026 04:30 PM Latest Corrigendum updates every 15 mins. More...",
-          "Corrigendum Title Reference No Closing Date Bid Opening Date 1. BOQ CORRIGENDUM IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 2. DATE CORRIGENDUM 2 IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 3. CORRIGENDUM 1 AIRHQ/85059/1/ENGM(M2) BM-I 10-Nov-2026 11:00 AM 10-Nov-2026 12:00 PM 4. TCN-03 DT.23/10/2026 GEM/2026/B/8115871 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. Corrigendum - 2 TCIL/MUR/EOI/2026/T-40 26-Oct-2026 05:00 PM 26-Oct-2026 05:30 PM 6. Minutes of Pre-Bid Meeting IEW2027 IndianOil Pavilion 03-Nov-2026 05:00 PM 04-Nov-2026 09:00 AM 7. Technical specs DCI/GST Outsourcing/Tender/2027 06-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 8. Date 2 PSB/HO DPO/2026-27/RFP/RGI 30-Oct-2026 03:00 PM 31-Oct-2026 03:00 PM 9. Corrigendum - 2 PUR/ENQ/JB/041/STOCK/ 7697/2026-27 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 10. VC Link CME/Electrical/2759 13-Nov-2026 04:00 PM 14-Nov-2026 04:30 PM Latest Corrigendum updates every 15 mins. More...",
-          "Corrigendum Title",
-          "Reference No",
-          "Closing Date",
-          "Bid Opening Date",
-          "1. BOQ CORRIGENDUM IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 2. DATE CORRIGENDUM 2 IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 3. CORRIGENDUM 1 AIRHQ/85059/1/ENGM(M2) BM-I 10-Nov-2026 11:00 AM 10-Nov-2026 12:00 PM 4. TCN-03 DT.23/10/2026 GEM/2026/B/8115871 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. Corrigendum - 2 TCIL/MUR/EOI/2026/T-40 26-Oct-2026 05:00 PM 26-Oct-2026 05:30 PM 6. Minutes of Pre-Bid Meeting IEW2027 IndianOil Pavilion 03-Nov-2026 05:00 PM 04-Nov-2026 09:00 AM 7. Technical specs DCI/GST Outsourcing/Tender/2027 06-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 8. Date 2 PSB/HO DPO/2026-27/RFP/RGI 30-Oct-2026 03:00 PM 31-Oct-2026 03:00 PM 9. Corrigendum - 2 PUR/ENQ/JB/041/STOCK/ 7697/2026-27 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 10. VC Link CME/Electrical/2759 13-Nov-2026 04:00 PM 14-Nov-2026 04:30 PM",
-          "1. BOQ CORRIGENDUM",
-          "IITM/UPS-CAMC_AMC/14/2627/SPL",
-          "27-Oct-2026 04:00 PM",
-          "28-Oct-2026 04:00 PM",
-          "2. DATE CORRIGENDUM 2",
-          "IITM/UPS-CAMC_AMC/14/2627/SPL",
-          "27-Oct-2026 04:00 PM",
-          "28-Oct-2026 04:00 PM",
-          "3. CORRIGENDUM 1",
-          "AIRHQ/85059/1/ENGM(M2) BM-I",
-          "10-Nov-2026 11:00 AM",
-          "10-Nov-2026 12:00 PM",
-          "4. TCN-03 DT.23/10/2026",
-          "GEM/2026/B/8115871",
-          "26-Oct-2026 04:00 PM",
-          "27-Oct-2026 04:00 PM",
-          "5. Corrigendum - 2",
-          "TCIL/MUR/EOI/2026/T-40",
-          "26-Oct-2026 05:00 PM",
-          "26-Oct-2026 05:30 PM",
-          "6. Minutes of Pre-Bid Meeting",
-          "IEW2027 IndianOil Pavilion",
-          "03-Nov-2026 05:00 PM",
-          "04-Nov-2026 09:00 AM",
-          "7. Technical specs",
-          "DCI/GST Outsourcing/Tender/2027",
-          "06-Nov-2026 03:00 PM",
-          "06-Nov-2026 03:30 PM",
-          "8. Date 2",
-          "PSB/HO DPO/2026-27/RFP/RGI",
-          "30-Oct-2026 03:00 PM",
-          "31-Oct-2026 03:00 PM",
-          "9. Corrigendum - 2",
-          "PUR/ENQ/JB/041/STOCK/ 7697/2026-27",
-          "30-Oct-2026 06:55 PM",
-          "31-Oct-2026 06:55 PM",
-          "10. VC Link",
-          "CME/Electrical/2759",
-          "13-Nov-2026 04:00 PM",
-          "14-Nov-2026 04:30 PM",
-          "Latest Corrigendum updates every 15 mins.",
-          "More...",
-          "",
-          "Certifying Agency",
-          "Certifying Agency",
-          "",
-          "",
-          "function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback",
-          "function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; }",
-          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
-          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
-          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>",
-          "Find My Nodal Officer",
-          "Search with ID/Title/Reference no",
-          "Advanced Search",
-          "",
-          "Advanced Search",
-          "Advanced Search",
-          "",
-          "",
-          "",
-          "Advanced Search",
-          "FAQ Feedback",
-          "FAQ Feedback",
-          "FAQ Feedback"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.201Z",
-      "evidenceHash": "4e6b46b83ee48f36e71302d5047f69acef3a4e44db52457aef503c20428084c2"
-    },
-    {
-      "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
-      "sensorId": "cppp-procurement",
-      "title": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
-      "tenderReference": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
-      "geographicPrecision": "unknown",
-      "note": " | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  | ",
-      "raw": {
-        "cells": [
-          "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
-          "MIS Reports",
-          "",
-          "Tenders by Location",
-          "",
-          "Tenders by Classification",
-          "",
-          "Tenders in Archive",
-          "",
-          "Cancelled/Retendered",
-          "",
-          "Downloads",
-          "",
-          "Debarment List",
-          "",
-          "Announcements",
-          "",
-          "Recognitions",
-          "",
-          "Site compatibility",
-          "",
-          "Related Links",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.201Z",
-      "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
-    },
-    {
-      "externalKey": "cppp-procurement:epublishing-system-the-central-public-procurement-portal-of-government-of-india-facilitates-all-the-central-government-organisations-to-publish-their-tender-enquiries,-corrigenda-and-award-of-contract-details.-the-system-also-enables-users-to-migrate-to-total-electronic-procurement-mode.:epublishing-system-the-central-public-procurement-portal-of-government-of-india-facilitates-all-the-central-government-organisations-to-publish-their-tender-enquiries,-corrigenda-and-award-of-contract-details.-the-system-also-enables-users-to-migrate-to-total-electronic-procurement-mode.",
-      "sensorId": "cppp-procurement",
-      "title": "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
-      "tenderReference": "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
-      "locationText": "Award, Mumbai, Maharashtra",
-      "geographicPrecision": "locality",
-      "note": "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
-      "raw": {
-        "cells": [
-          "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
-          "ePublishing System",
-          "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.201Z",
-      "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
-    },
-    {
-      "externalKey": "cppp-procurement:1.-bid-for-providing-short-term-cab-and-taxi-hiring-services-through-gem-bidding-9928173-gem/2026/b/8067242dt.23102026-02-nov-2026-06:55-pm-03-nov-2026-06:55-pm-2.-procurement-of-submersible-sewage-pump-for-sewage-tank-of-colony-2x600-mw,-sstpp,-mppgcl.-pe-370-16-nov-2026-03:30-pm-16-nov-2026-04:00-pm-3.-purchase-of-lentil,-gram-and-pea-good-quality-certified-seeds-mktg-3/-(fodder_pulses_oilseeds)-/e-tender/nscl-pt-27-oct-2026-03:00-pm-27-oct-2026-04:00-pm-4.-work-contract-for-removing-rusted-balancing-pipe-of-draft-tube-and-replacement-of-flange-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3x105-mw,-thps--i-mppgcl-sirmour.-91-84/pnw/w/1873-27-oct-2026-02:00-pm-27-oct-2026-05:00-pm-5.-bandr/71157/nit/paut/nit/02-bandr/71157/nit/paut/nit/02-30-oct-2026-06:55-pm-31-oct-2026-06:55-pm-6.-bandr/71149/trailer/nit/09-bandr/71149/trailer/nit/09-29-oct-2026-06:55-pm-30-oct-2026-06:55-pm-7.-measurement-and-control-data-logger-2026270480/mm-11/eqe/4s7-10-nov-2026-11:00-am-10-nov-2026-11:30-am-8.-fmlm-ereverseauctionjnpt-2026-27-178-fmlm-ereverseauctionjnpt-2026-27-178-24-oct-2026-04:00-pm-24-oct-2026-04:00-pm-9.-enquiry-for-supply-of-pipe-flange-and-reducer-for-replacement-of-balancing-pipe-and-flange-of-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3-x-105-mw-thps-i,-mppgcl,-sirmour,-distt.-rewa-(m.p.)-91-84/pnw/p/1869-27-oct-2026-02:00-pm-27-oct-2026-05:00-pm-10.-store-fob-swarna-ganga-pns/ddv/gstr/2026/9000054950-28-oct-2026-04:00-pm-28-oct-2026-04:05-pm:1.-bid-for-providing-short-term-cab-and-taxi-hiring-services-through-gem-bidding-9928173-gem/2026/b/8067242dt.23102026-02-nov-2026-06:55-pm-03-nov-2026-06:55-pm-2.-procurement-of-submersible-sewage-pump-for-sewage-tank-of-colony-2x600-mw,-sstpp,-mppgcl.-pe-370-16-nov-2026-03:30-pm-16-nov-2026-04:00-pm-3.-purchase-of-lentil,-gram-and-pea-good-quality-certified-seeds-mktg-3/-(fodder_pulses_oilseeds)-/e-tender/nscl-pt-27-oct-2026-03:00-pm-27-oct-2026-04:00-pm-4.-work-contract-for-removing-rusted-balancing-pipe-of-draft-tube-and-replacement-of-flange-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3x105-mw,-thps--i-mppgcl-sirmour.-91-84/pnw/w/1873-27-oct-2026-02:00-pm-27-oct-2026-05:00-pm-5.-bandr/71157/nit/paut/nit/02-bandr/71157/nit/paut/nit/02-30-oct-2026-06:55-pm-31-oct-2026-06:55-pm-6.-bandr/71149/trailer/nit/09-bandr/71149/trailer/nit/09-29-oct-2026-06:55-pm-30-oct-2026-06:55-pm-7.-measurement-and-control-data-logger-2026270480/mm-11/eqe/4s7-10-nov-2026-11:00-am-10-nov-2026-11:30-am-8.-fmlm-ereverseauctionjnpt-2026-27-178-fmlm-ereverseauctionjnpt-2026-27-178-24-oct-2026-04:00-pm-24-oct-2026-04:00-pm-9.-enquiry-for-supply-of-pipe-flange-and-reducer-for-replacement-of-balancing-pipe-and-flange-of-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3-x-105-mw-thps-i,-mppgcl,-sirmour,-distt.-rewa-(m.p.)-91-84/pnw/p/1869-27-oct-2026-02:00-pm-27-oct-2026-05:00-pm-10.-store-fob-swarna-ganga-pns/ddv/gstr/2026/9000054950-28-oct-2026-04:00-pm-28-oct-2026-04:05-pm",
-      "sensorId": "cppp-procurement",
-      "title": "1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 GEM/2026/B/8067242dt.23102026 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. PE-370 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 3. Purchase of Lentil, Gram and Pea good quality Certified seeds Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT 27-Oct-2026 03:00 PM 27-Oct-2026 04:00 PM 4. Work contract for removing rusted ba",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SlUoMKOgK4ZKDEg%2B3HzGrog%3D%3D",
-      "tenderReference": "1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 GEM/2026/B/8067242dt.23102026 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. PE-370 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 3. Purchase of Lentil, Gram and Pea good quality Certified seeds Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT 27-Oct-2026 03:00 PM 27-Oct-2026 04:00 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 5. BANDR/71157/NIT/PAUT/NIT/02 BANDR/71157/NIT/PAUT/NIT/02 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 6. BANDR/71149/TRAILER/NIT/09 BANDR/71149/TRAILER/NIT/09 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 7. Measurement and Control Data Logger 2026270480/MM-11/EQE/4S7 10-Nov-2026 11:00 AM 10-Nov-2026 11:30 AM 8. FMLM eReverseAuctionJNPT 2026 27 178 FMLM eReverseAuctionJNPT 2026 27 178 24-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 10. STORE FOB SWARNA GANGA PNS/DDV/GSTR/2026/9000054950 28-Oct-2026 04:00 PM 28-Oct-2026 04:05 PM",
-      "geographicPrecision": "unknown",
-      "note": "GEM/2026/B/8067242dt.23102026 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. | PE-370 | 16-Nov-2026 03:30 PM | 16-Nov-2026 04:00 PM | 3. Purchase of Lentil, Gram and Pea good quality Certified seeds | Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT | 27-Oct-2026 03:00 PM | 27-Oct-2026 04:00 PM | 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. | 91-84/PnW/W/1873 | 27-Oct-2026 02:00 PM | 27-Oct-2026 05:00 PM | 5. BANDR/71157/NIT/PAUT/NIT/02 | BANDR/71157/NIT/PAUT/NIT/02 | 30-Oct-2026 06:55 PM | 31-Oct-2026 06:55 PM | 6. BANDR/71149/TRAILER/NIT/09 | BANDR/71149/TRAILER/NIT/09 | 29-Oct-2026 06:55 PM | 30-Oct-2026 06:55 PM | 7. Measurement and Control Data Logger | 2026270480/MM-11/EQE/4S7 | 10-Nov-2026 11:00 AM | 10-Nov-2026 11:30 AM | 8. FMLM eReverseAuctionJNPT 2026 27 178 | FMLM eReverseAuctionJNPT 2026 27 178 | 24-Oct-2026 04:00 PM | 24-Oct-2026 04:00 PM | 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) | 91-84/PnW/P/1869 | 27-Oct-2026 02:00 PM | 27-Oct-2026 05:00 PM | 10. STORE FOB SWARNA GANGA | PNS/DDV/GSTR/2026/9000054950 | 28-Oct-2026 04:00 PM | 28-Oct-2026 04:05 PM",
-      "raw": {
-        "cells": [
-          "1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173 GEM/2026/B/8067242dt.23102026 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL. PE-370 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 3. Purchase of Lentil, Gram and Pea good quality Certified seeds Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT 27-Oct-2026 03:00 PM 27-Oct-2026 04:00 PM 4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR. 91-84/PnW/W/1873 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 5. BANDR/71157/NIT/PAUT/NIT/02 BANDR/71157/NIT/PAUT/NIT/02 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 6. BANDR/71149/TRAILER/NIT/09 BANDR/71149/TRAILER/NIT/09 29-Oct-2026 06:55 PM 30-Oct-2026 06:55 PM 7. Measurement and Control Data Logger 2026270480/MM-11/EQE/4S7 10-Nov-2026 11:00 AM 10-Nov-2026 11:30 AM 8. FMLM eReverseAuctionJNPT 2026 27 178 FMLM eReverseAuctionJNPT 2026 27 178 24-Oct-2026 04:00 PM 24-Oct-2026 04:00 PM 9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.) 91-84/PnW/P/1869 27-Oct-2026 02:00 PM 27-Oct-2026 05:00 PM 10. STORE FOB SWARNA GANGA PNS/DDV/GSTR/2026/9000054950 28-Oct-2026 04:00 PM 28-Oct-2026 04:05 PM",
-          "1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173",
-          "GEM/2026/B/8067242dt.23102026",
-          "02-Nov-2026 06:55 PM",
-          "03-Nov-2026 06:55 PM",
-          "2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL.",
-          "PE-370",
-          "16-Nov-2026 03:30 PM",
-          "16-Nov-2026 04:00 PM",
-          "3. Purchase of Lentil, Gram and Pea good quality Certified seeds",
-          "Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT",
-          "27-Oct-2026 03:00 PM",
-          "27-Oct-2026 04:00 PM",
-          "4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR.",
-          "91-84/PnW/W/1873",
-          "27-Oct-2026 02:00 PM",
-          "27-Oct-2026 05:00 PM",
-          "5. BANDR/71157/NIT/PAUT/NIT/02",
-          "BANDR/71157/NIT/PAUT/NIT/02",
-          "30-Oct-2026 06:55 PM",
-          "31-Oct-2026 06:55 PM",
-          "6. BANDR/71149/TRAILER/NIT/09",
-          "BANDR/71149/TRAILER/NIT/09",
-          "29-Oct-2026 06:55 PM",
-          "30-Oct-2026 06:55 PM",
-          "7. Measurement and Control Data Logger",
-          "2026270480/MM-11/EQE/4S7",
-          "10-Nov-2026 11:00 AM",
-          "10-Nov-2026 11:30 AM",
-          "8. FMLM eReverseAuctionJNPT 2026 27 178",
-          "FMLM eReverseAuctionJNPT 2026 27 178",
-          "24-Oct-2026 04:00 PM",
-          "24-Oct-2026 04:00 PM",
-          "9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.)",
-          "91-84/PnW/P/1869",
-          "27-Oct-2026 02:00 PM",
-          "27-Oct-2026 05:00 PM",
-          "10. STORE FOB SWARNA GANGA",
-          "PNS/DDV/GSTR/2026/9000054950",
-          "28-Oct-2026 04:00 PM",
-          "28-Oct-2026 04:05 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.202Z",
-      "evidenceHash": "b98628f2267fb2e658dc634ed03098e3b9acbada509ff4f36b2ea4e4e64f7f43"
-    },
-    {
-      "externalKey": "cppp-procurement:1.-bid-for-providing-short-term-cab-and-taxi-hiring-services-through-gem-bidding-9928173:1.-bid-for-providing-short-term-cab-and-taxi-hiring-services-through-gem-bidding-9928173",
-      "sensorId": "cppp-procurement",
-      "title": "1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SlUoMKOgK4ZKDEg%2B3HzGrog%3D%3D",
-      "tenderReference": "1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173",
-      "geographicPrecision": "unknown",
-      "note": "02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM",
-      "raw": {
-        "cells": [
-          "1. Bid for providing Short Term Cab and Taxi Hiring Services through GeM-Bidding-9928173",
-          "GEM/2026/B/8067242dt.23102026",
-          "02-Nov-2026 06:55 PM",
-          "03-Nov-2026 06:55 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.203Z",
-      "evidenceHash": "ea8b2b48ca7d8dbb4c3c0341b2d1667d6ce0a8655f279805887145fcb7872fd7"
-    },
-    {
-      "externalKey": "cppp-procurement:pe-370:2.-procurement-of-submersible-sewage-pump-for-sewage-tank-of-colony-2x600-mw,-sstpp,-mppgcl.",
-      "sensorId": "cppp-procurement",
-      "title": "2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL.",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=ScnLqgq6urnW67VFjH0Yc8Q%3D%3D",
-      "tenderReference": "PE-370",
-      "geographicPrecision": "unknown",
-      "note": "16-Nov-2026 03:30 PM | 16-Nov-2026 04:00 PM",
-      "raw": {
-        "cells": [
-          "2. Procurement of submersible sewage pump for sewage tank of colony 2x600 MW, SSTPP, MPPGCL.",
-          "PE-370",
-          "16-Nov-2026 03:30 PM",
-          "16-Nov-2026 04:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.203Z",
-      "evidenceHash": "836f8075503d0e8aed3e072e4e0d31d9a06ee207de961e96ea19aff99d7ddd38"
-    },
-    {
-      "externalKey": "cppp-procurement:mktg-3/-(fodder_pulses_oilseeds)-/e-tender/nscl-pt:3.-purchase-of-lentil,-gram-and-pea-good-quality-certified-seeds",
-      "sensorId": "cppp-procurement",
-      "title": "3. Purchase of Lentil, Gram and Pea good quality Certified seeds",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SOySXnbgCmaLAc9CAD3IuRw%3D%3D",
-      "tenderReference": "Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT",
-      "geographicPrecision": "unknown",
-      "note": "27-Oct-2026 03:00 PM | 27-Oct-2026 04:00 PM",
-      "raw": {
-        "cells": [
-          "3. Purchase of Lentil, Gram and Pea good quality Certified seeds",
-          "Mktg-3/ (Fodder_Pulses_Oilseeds) /e-tender/NSCL-PT",
-          "27-Oct-2026 03:00 PM",
-          "27-Oct-2026 04:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.203Z",
-      "evidenceHash": "50feb5af8235583e1d179aafbccf04cd79a0bce32d021ada84bbeaf305348af7"
-    },
-    {
-      "externalKey": "cppp-procurement:91-84/pnw/w/1873:4.-work-contract-for-removing-rusted-balancing-pipe-of-draft-tube-and-replacement-of-flange-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3x105-mw,-thps--i-mppgcl-sirmour.",
-      "sensorId": "cppp-procurement",
-      "title": "4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR.",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SRXK6v98QWK8r%2FOHAFHxf6w%3D%3D",
-      "tenderReference": "91-84/PnW/W/1873",
-      "geographicPrecision": "unknown",
-      "note": "27-Oct-2026 02:00 PM | 27-Oct-2026 05:00 PM",
-      "raw": {
-        "cells": [
-          "4. Work contract for removing rusted balancing pipe of draft tube and replacement of flange penstock by pass gate valve pipe line of Unit#3 at 3x105 MW, THPS- I MPPGCL SIRMOUR.",
-          "91-84/PnW/W/1873",
-          "27-Oct-2026 02:00 PM",
-          "27-Oct-2026 05:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.203Z",
-      "evidenceHash": "b5c5c54d09312d9338986b8ba9a3ee585a7f5eae6a50ad1e3fbd77d0df07e46f"
-    },
-    {
-      "externalKey": "cppp-procurement:bandr/71157/nit/paut/nit/02:5.-bandr/71157/nit/paut/nit/02",
-      "sensorId": "cppp-procurement",
-      "title": "5. BANDR/71157/NIT/PAUT/NIT/02",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=ScMhOHYzpvfen2TkScKS%2BJQ%3D%3D",
-      "tenderReference": "BANDR/71157/NIT/PAUT/NIT/02",
-      "geographicPrecision": "unknown",
-      "note": "30-Oct-2026 06:55 PM | 31-Oct-2026 06:55 PM",
-      "raw": {
-        "cells": [
-          "5. BANDR/71157/NIT/PAUT/NIT/02",
-          "BANDR/71157/NIT/PAUT/NIT/02",
-          "30-Oct-2026 06:55 PM",
-          "31-Oct-2026 06:55 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.203Z",
-      "evidenceHash": "e5610e9a297b571b9e3819ec3977b863045f7080bbf80a9d716d37617986d392"
-    },
-    {
-      "externalKey": "cppp-procurement:bandr/71149/trailer/nit/09:6.-bandr/71149/trailer/nit/09",
-      "sensorId": "cppp-procurement",
-      "title": "6. BANDR/71149/TRAILER/NIT/09",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S9zIS2MrboN8XTJmjn%2BUh9A%3D%3D",
-      "tenderReference": "BANDR/71149/TRAILER/NIT/09",
-      "geographicPrecision": "unknown",
-      "note": "29-Oct-2026 06:55 PM | 30-Oct-2026 06:55 PM",
-      "raw": {
-        "cells": [
-          "6. BANDR/71149/TRAILER/NIT/09",
-          "BANDR/71149/TRAILER/NIT/09",
-          "29-Oct-2026 06:55 PM",
-          "30-Oct-2026 06:55 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.203Z",
-      "evidenceHash": "297c5ef51a5e2b251107225e71355da97cf667bdff9b6cdbab49046e4f16a8d0"
-    },
-    {
-      "externalKey": "cppp-procurement:2026270480/mm-11/eqe/4s7:7.-measurement-and-control-data-logger",
-      "sensorId": "cppp-procurement",
-      "title": "7. Measurement and Control Data Logger",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SIfR3XeZBkSe7d0gIXRFW%2FA%3D%3D",
-      "tenderReference": "2026270480/MM-11/EQE/4S7",
-      "geographicPrecision": "unknown",
-      "note": "10-Nov-2026 11:00 AM | 10-Nov-2026 11:30 AM",
-      "raw": {
-        "cells": [
-          "7. Measurement and Control Data Logger",
-          "2026270480/MM-11/EQE/4S7",
-          "10-Nov-2026 11:00 AM",
-          "10-Nov-2026 11:30 AM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.203Z",
-      "evidenceHash": "339affbeb866ebcb7c12842f507f02d0a3305e21eb1b5006867a918ee8f2e254"
-    },
-    {
-      "externalKey": "cppp-procurement:fmlm-ereverseauctionjnpt-2026-27-178:8.-fmlm-ereverseauctionjnpt-2026-27-178",
-      "sensorId": "cppp-procurement",
-      "title": "8. FMLM eReverseAuctionJNPT 2026 27 178",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SdADqPG2g7nJpeoBODTSb7w%3D%3D",
-      "tenderReference": "FMLM eReverseAuctionJNPT 2026 27 178",
-      "geographicPrecision": "unknown",
-      "note": "24-Oct-2026 04:00 PM | 24-Oct-2026 04:00 PM",
-      "raw": {
-        "cells": [
-          "8. FMLM eReverseAuctionJNPT 2026 27 178",
-          "FMLM eReverseAuctionJNPT 2026 27 178",
-          "24-Oct-2026 04:00 PM",
-          "24-Oct-2026 04:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.203Z",
-      "evidenceHash": "9c2dcf64e9e7e009d48314aa173ac80e528158aa68135a29df53d110f3e504c1"
-    },
-    {
-      "externalKey": "cppp-procurement:91-84/pnw/p/1869:9.-enquiry-for-supply-of-pipe-flange-and-reducer-for-replacement-of-balancing-pipe-and-flange-of-penstock-by-pass-gate-valve-pipe-line-of-unit#3-at-3-x-105-mw-thps-i,-mppgcl,-sirmour,-distt.-rewa-(m.p.)",
-      "sensorId": "cppp-procurement",
-      "title": "9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.)",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=StB7X5rEmtEj%2FHN3YFp%2F2fQ%3D%3D",
-      "tenderReference": "91-84/PnW/P/1869",
-      "geographicPrecision": "unknown",
-      "note": "27-Oct-2026 02:00 PM | 27-Oct-2026 05:00 PM",
-      "raw": {
-        "cells": [
-          "9. Enquiry for supply of pipe flange and reducer for replacement of balancing pipe and flange of penstock by pass gate valve pipe line of Unit#3 at 3 x 105 MW THPS-I, MPPGCL, Sirmour, Distt. Rewa (M.P.)",
-          "91-84/PnW/P/1869",
-          "27-Oct-2026 02:00 PM",
-          "27-Oct-2026 05:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.203Z",
-      "evidenceHash": "d643721a610f3c2b5fc35e42db4d3afb1a968b73195223534696c49197fd700d"
-    },
-    {
-      "externalKey": "cppp-procurement:pns/ddv/gstr/2026/9000054950:10.-store-fob-swarna-ganga",
-      "sensorId": "cppp-procurement",
-      "title": "10. STORE FOB SWARNA GANGA",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SsQs8uARRaRo4%2BPNAR2kh3Q%3D%3D",
-      "tenderReference": "PNS/DDV/GSTR/2026/9000054950",
-      "geographicPrecision": "unknown",
-      "note": "28-Oct-2026 04:00 PM | 28-Oct-2026 04:05 PM",
-      "raw": {
-        "cells": [
-          "10. STORE FOB SWARNA GANGA",
-          "PNS/DDV/GSTR/2026/9000054950",
-          "28-Oct-2026 04:00 PM",
-          "28-Oct-2026 04:05 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.203Z",
-      "evidenceHash": "ec12d5474b0c1b7bbd1ad199138d63367262afc179229df3183ee49580043848"
-    },
-    {
-      "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
-      "sensorId": "cppp-procurement",
-      "title": "Latest Tenders updates every 15 mins.",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndLatestActiveTenders&service=page",
-      "tenderReference": "Latest Tenders updates every 15 mins.",
-      "geographicPrecision": "unknown",
-      "raw": {
-        "cells": [
-          "Latest Tenders updates every 15 mins.",
-          "More..."
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.203Z",
-      "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
-    },
-    {
-      "externalKey": "cppp-procurement:bid-opening-date:corrigendum-title",
-      "sensorId": "cppp-procurement",
-      "title": "Corrigendum Title",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
-      "tenderReference": "Bid Opening Date",
-      "geographicPrecision": "unknown",
-      "note": "Closing Date | Bid Opening Date",
-      "raw": {
-        "cells": [
-          "Corrigendum Title",
-          "Reference No",
-          "Closing Date",
-          "Bid Opening Date"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.203Z",
-      "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
-    },
-    {
-      "externalKey": "cppp-procurement:1.-boq-corrigendum-iitm/ups-camc_amc/14/2627/spl-27-oct-2026-04:00-pm-28-oct-2026-04:00-pm-2.-date-corrigendum-2-iitm/ups-camc_amc/14/2627/spl-27-oct-2026-04:00-pm-28-oct-2026-04:00-pm-3.-corrigendum-1-airhq/85059/1/engm(m2)-bm-i-10-nov-2026-11:00-am-10-nov-2026-12:00-pm-4.-tcn-03-dt.23/10/2026-gem/2026/b/8115871-26-oct-2026-04:00-pm-27-oct-2026-04:00-pm-5.-corrigendum---2-tcil/mur/eoi/2026/t-40-26-oct-2026-05:00-pm-26-oct-2026-05:30-pm-6.-minutes-of-pre-bid-meeting-iew2027-indianoil-pavilion-03-nov-2026-05:00-pm-04-nov-2026-09:00-am-7.-technical-specs-dci/gst-outsourcing/tender/2027-06-nov-2026-03:00-pm-06-nov-2026-03:30-pm-8.-date-2-psb/ho-dpo/2026-27/rfp/rgi-30-oct-2026-03:00-pm-31-oct-2026-03:00-pm-9.-corrigendum---2-pur/enq/jb/041/stock/-7697/2026-27-30-oct-2026-06:55-pm-31-oct-2026-06:55-pm-10.-vc-link-cme/electrical/2759-13-nov-2026-04:00-pm-14-nov-2026-04:30-pm:1.-boq-corrigendum-iitm/ups-camc_amc/14/2627/spl-27-oct-2026-04:00-pm-28-oct-2026-04:00-pm-2.-date-corrigendum-2-iitm/ups-camc_amc/14/2627/spl-27-oct-2026-04:00-pm-28-oct-2026-04:00-pm-3.-corrigendum-1-airhq/85059/1/engm(m2)-bm-i-10-nov-2026-11:00-am-10-nov-2026-12:00-pm-4.-tcn-03-dt.23/10/2026-gem/2026/b/8115871-26-oct-2026-04:00-pm-27-oct-2026-04:00-pm-5.-corrigendum---2-tcil/mur/eoi/2026/t-40-26-oct-2026-05:00-pm-26-oct-2026-05:30-pm-6.-minutes-of-pre-bid-meeting-iew2027-indianoil-pavilion-03-nov-2026-05:00-pm-04-nov-2026-09:00-am-7.-technical-specs-dci/gst-outsourcing/tender/2027-06-nov-2026-03:00-pm-06-nov-2026-03:30-pm-8.-date-2-psb/ho-dpo/2026-27/rfp/rgi-30-oct-2026-03:00-pm-31-oct-2026-03:00-pm-9.-corrigendum---2-pur/enq/jb/041/stock/-7697/2026-27-30-oct-2026-06:55-pm-31-oct-2026-06:55-pm-10.-vc-link-cme/electrical/2759-13-nov-2026-04:00-pm-14-nov-2026-04:30-pm",
-      "sensorId": "cppp-procurement",
-      "title": "1. BOQ CORRIGENDUM IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 2. DATE CORRIGENDUM 2 IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 3. CORRIGENDUM 1 AIRHQ/85059/1/ENGM(M2) BM-I 10-Nov-2026 11:00 AM 10-Nov-2026 12:00 PM 4. TCN-03 DT.23/10/2026 GEM/2026/B/8115871 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. Corrigendum - 2 TCIL/MUR/EOI/2026/T-40 26-Oct-2026 05:00 PM 26-Oct-2026 05:30 PM 6. Minutes of Pre-Bid Meeting IEW2027 IndianOil Pavilion 03",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SSM%2FajHOCjFQ849coIVLJLA%3D%3D",
-      "tenderReference": "1. BOQ CORRIGENDUM IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 2. DATE CORRIGENDUM 2 IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 3. CORRIGENDUM 1 AIRHQ/85059/1/ENGM(M2) BM-I 10-Nov-2026 11:00 AM 10-Nov-2026 12:00 PM 4. TCN-03 DT.23/10/2026 GEM/2026/B/8115871 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. Corrigendum - 2 TCIL/MUR/EOI/2026/T-40 26-Oct-2026 05:00 PM 26-Oct-2026 05:30 PM 6. Minutes of Pre-Bid Meeting IEW2027 IndianOil Pavilion 03-Nov-2026 05:00 PM 04-Nov-2026 09:00 AM 7. Technical specs DCI/GST Outsourcing/Tender/2027 06-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 8. Date 2 PSB/HO DPO/2026-27/RFP/RGI 30-Oct-2026 03:00 PM 31-Oct-2026 03:00 PM 9. Corrigendum - 2 PUR/ENQ/JB/041/STOCK/ 7697/2026-27 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 10. VC Link CME/Electrical/2759 13-Nov-2026 04:00 PM 14-Nov-2026 04:30 PM",
-      "geographicPrecision": "unknown",
-      "note": "IITM/UPS-CAMC_AMC/14/2627/SPL | 27-Oct-2026 04:00 PM | 28-Oct-2026 04:00 PM | 2. DATE CORRIGENDUM 2 | IITM/UPS-CAMC_AMC/14/2627/SPL | 27-Oct-2026 04:00 PM | 28-Oct-2026 04:00 PM | 3. CORRIGENDUM 1 | AIRHQ/85059/1/ENGM(M2) BM-I | 10-Nov-2026 11:00 AM | 10-Nov-2026 12:00 PM | 4. TCN-03 DT.23/10/2026 | GEM/2026/B/8115871 | 26-Oct-2026 04:00 PM | 27-Oct-2026 04:00 PM | 5. Corrigendum - 2 | TCIL/MUR/EOI/2026/T-40 | 26-Oct-2026 05:00 PM | 26-Oct-2026 05:30 PM | 6. Minutes of Pre-Bid Meeting | IEW2027 IndianOil Pavilion | 03-Nov-2026 05:00 PM | 04-Nov-2026 09:00 AM | 7. Technical specs | DCI/GST Outsourcing/Tender/2027 | 06-Nov-2026 03:00 PM | 06-Nov-2026 03:30 PM | 8. Date 2 | PSB/HO DPO/2026-27/RFP/RGI | 30-Oct-2026 03:00 PM | 31-Oct-2026 03:00 PM | 9. Corrigendum - 2 | PUR/ENQ/JB/041/STOCK/ 7697/2026-27 | 30-Oct-2026 06:55 PM | 31-Oct-2026 06:55 PM | 10. VC Link | CME/Electrical/2759 | 13-Nov-2026 04:00 PM | 14-Nov-2026 04:30 PM",
-      "raw": {
-        "cells": [
-          "1. BOQ CORRIGENDUM IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 2. DATE CORRIGENDUM 2 IITM/UPS-CAMC_AMC/14/2627/SPL 27-Oct-2026 04:00 PM 28-Oct-2026 04:00 PM 3. CORRIGENDUM 1 AIRHQ/85059/1/ENGM(M2) BM-I 10-Nov-2026 11:00 AM 10-Nov-2026 12:00 PM 4. TCN-03 DT.23/10/2026 GEM/2026/B/8115871 26-Oct-2026 04:00 PM 27-Oct-2026 04:00 PM 5. Corrigendum - 2 TCIL/MUR/EOI/2026/T-40 26-Oct-2026 05:00 PM 26-Oct-2026 05:30 PM 6. Minutes of Pre-Bid Meeting IEW2027 IndianOil Pavilion 03-Nov-2026 05:00 PM 04-Nov-2026 09:00 AM 7. Technical specs DCI/GST Outsourcing/Tender/2027 06-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 8. Date 2 PSB/HO DPO/2026-27/RFP/RGI 30-Oct-2026 03:00 PM 31-Oct-2026 03:00 PM 9. Corrigendum - 2 PUR/ENQ/JB/041/STOCK/ 7697/2026-27 30-Oct-2026 06:55 PM 31-Oct-2026 06:55 PM 10. VC Link CME/Electrical/2759 13-Nov-2026 04:00 PM 14-Nov-2026 04:30 PM",
-          "1. BOQ CORRIGENDUM",
-          "IITM/UPS-CAMC_AMC/14/2627/SPL",
-          "27-Oct-2026 04:00 PM",
-          "28-Oct-2026 04:00 PM",
-          "2. DATE CORRIGENDUM 2",
-          "IITM/UPS-CAMC_AMC/14/2627/SPL",
-          "27-Oct-2026 04:00 PM",
-          "28-Oct-2026 04:00 PM",
-          "3. CORRIGENDUM 1",
-          "AIRHQ/85059/1/ENGM(M2) BM-I",
-          "10-Nov-2026 11:00 AM",
-          "10-Nov-2026 12:00 PM",
-          "4. TCN-03 DT.23/10/2026",
-          "GEM/2026/B/8115871",
-          "26-Oct-2026 04:00 PM",
-          "27-Oct-2026 04:00 PM",
-          "5. Corrigendum - 2",
-          "TCIL/MUR/EOI/2026/T-40",
-          "26-Oct-2026 05:00 PM",
-          "26-Oct-2026 05:30 PM",
-          "6. Minutes of Pre-Bid Meeting",
-          "IEW2027 IndianOil Pavilion",
-          "03-Nov-2026 05:00 PM",
-          "04-Nov-2026 09:00 AM",
-          "7. Technical specs",
-          "DCI/GST Outsourcing/Tender/2027",
-          "06-Nov-2026 03:00 PM",
-          "06-Nov-2026 03:30 PM",
-          "8. Date 2",
-          "PSB/HO DPO/2026-27/RFP/RGI",
-          "30-Oct-2026 03:00 PM",
-          "31-Oct-2026 03:00 PM",
-          "9. Corrigendum - 2",
-          "PUR/ENQ/JB/041/STOCK/ 7697/2026-27",
-          "30-Oct-2026 06:55 PM",
-          "31-Oct-2026 06:55 PM",
-          "10. VC Link",
-          "CME/Electrical/2759",
-          "13-Nov-2026 04:00 PM",
-          "14-Nov-2026 04:30 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "19830414ed0955af74d3bf0c6d48c2f249e95a0bbf471ab8eb937da92da3b547"
-    },
-    {
-      "externalKey": "cppp-procurement:iitm/ups-camc_amc/14/2627/spl:1.-boq-corrigendum",
-      "sensorId": "cppp-procurement",
-      "title": "1. BOQ CORRIGENDUM",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SSM%2FajHOCjFQ849coIVLJLA%3D%3D",
-      "tenderReference": "IITM/UPS-CAMC_AMC/14/2627/SPL",
-      "geographicPrecision": "unknown",
-      "note": "27-Oct-2026 04:00 PM | 28-Oct-2026 04:00 PM",
-      "raw": {
-        "cells": [
-          "1. BOQ CORRIGENDUM",
-          "IITM/UPS-CAMC_AMC/14/2627/SPL",
-          "27-Oct-2026 04:00 PM",
-          "28-Oct-2026 04:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "8d5559973cd89c895a7f1b21620a268fb78d393ea2e6d01792f2a8327181df67"
-    },
-    {
-      "externalKey": "cppp-procurement:iitm/ups-camc_amc/14/2627/spl:2.-date-corrigendum-2",
-      "sensorId": "cppp-procurement",
-      "title": "2. DATE CORRIGENDUM 2",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=Sud%2F5Tw1Z%2FgLCrx7ZmPauqw%3D%3D",
-      "tenderReference": "IITM/UPS-CAMC_AMC/14/2627/SPL",
-      "geographicPrecision": "unknown",
-      "note": "27-Oct-2026 04:00 PM | 28-Oct-2026 04:00 PM",
-      "raw": {
-        "cells": [
-          "2. DATE CORRIGENDUM 2",
-          "IITM/UPS-CAMC_AMC/14/2627/SPL",
-          "27-Oct-2026 04:00 PM",
-          "28-Oct-2026 04:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "0960364de855fb864eab89c385ac9bfacb3cadb656019cd47a62737f1da1c7dc"
-    },
-    {
-      "externalKey": "cppp-procurement:airhq/85059/1/engm(m2)-bm-i:3.-corrigendum-1",
-      "sensorId": "cppp-procurement",
-      "title": "3. CORRIGENDUM 1",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=Scb%2F3o0jlDng9hg%2BlvgejUQ%3D%3D",
-      "tenderReference": "AIRHQ/85059/1/ENGM(M2) BM-I",
-      "geographicPrecision": "unknown",
-      "note": "10-Nov-2026 11:00 AM | 10-Nov-2026 12:00 PM",
-      "raw": {
-        "cells": [
-          "3. CORRIGENDUM 1",
-          "AIRHQ/85059/1/ENGM(M2) BM-I",
-          "10-Nov-2026 11:00 AM",
-          "10-Nov-2026 12:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "0b7c575fbe0b0735a1219ea0dc7bafe10721807cd64a98e257550819b00cf02b"
-    },
-    {
-      "externalKey": "cppp-procurement:gem/2026/b/8115871:4.-tcn-03-dt.23/10/2026",
-      "sensorId": "cppp-procurement",
-      "title": "4. TCN-03 DT.23/10/2026",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SrQHwTWIGkq0CVGUhfnykTA%3D%3D",
-      "tenderReference": "GEM/2026/B/8115871",
-      "geographicPrecision": "unknown",
-      "note": "26-Oct-2026 04:00 PM | 27-Oct-2026 04:00 PM",
-      "raw": {
-        "cells": [
-          "4. TCN-03 DT.23/10/2026",
-          "GEM/2026/B/8115871",
-          "26-Oct-2026 04:00 PM",
-          "27-Oct-2026 04:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "15cfcf1a041a589885443850da133da8f543270e34262f9776ca5de73dbdc76c"
-    },
-    {
-      "externalKey": "cppp-procurement:tcil/mur/eoi/2026/t-40:5.-corrigendum---2",
-      "sensorId": "cppp-procurement",
-      "title": "5. Corrigendum - 2",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=S6F87R%2F0M9CL7p4bzf8Ln2w%3D%3D",
-      "tenderReference": "TCIL/MUR/EOI/2026/T-40",
-      "geographicPrecision": "unknown",
-      "note": "26-Oct-2026 05:00 PM | 26-Oct-2026 05:30 PM",
-      "raw": {
-        "cells": [
-          "5. Corrigendum - 2",
-          "TCIL/MUR/EOI/2026/T-40",
-          "26-Oct-2026 05:00 PM",
-          "26-Oct-2026 05:30 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "1007a59814a7d5437de56dcca686bde129aad372623e5ba298b7a1f5b475fd96"
-    },
-    {
-      "externalKey": "cppp-procurement:6.-minutes-of-pre-bid-meeting:6.-minutes-of-pre-bid-meeting",
-      "sensorId": "cppp-procurement",
-      "title": "6. Minutes of Pre-Bid Meeting",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SQvbU6VtuxZ7pnAJtgL2jgQ%3D%3D",
-      "tenderReference": "6. Minutes of Pre-Bid Meeting",
-      "geographicPrecision": "unknown",
-      "note": "03-Nov-2026 05:00 PM | 04-Nov-2026 09:00 AM",
-      "raw": {
-        "cells": [
-          "6. Minutes of Pre-Bid Meeting",
-          "IEW2027 IndianOil Pavilion",
-          "03-Nov-2026 05:00 PM",
-          "04-Nov-2026 09:00 AM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "580ebaa9c909e683e10ebee4ed5a532d402b88f6ccdd028bd8e069cf253e7b09"
-    },
-    {
-      "externalKey": "cppp-procurement:dci/gst-outsourcing/tender/2027:7.-technical-specs",
-      "sensorId": "cppp-procurement",
-      "title": "7. Technical specs",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=S6he1%2BLavErFFEfJ5UwwiJw%3D%3D",
-      "tenderReference": "DCI/GST Outsourcing/Tender/2027",
-      "geographicPrecision": "unknown",
-      "note": "06-Nov-2026 03:00 PM | 06-Nov-2026 03:30 PM",
-      "raw": {
-        "cells": [
-          "7. Technical specs",
-          "DCI/GST Outsourcing/Tender/2027",
-          "06-Nov-2026 03:00 PM",
-          "06-Nov-2026 03:30 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "a972f6eb7fdb9fe3c498c8a99ae54365bf456f8b178954d626caf867637227d6"
-    },
-    {
-      "externalKey": "cppp-procurement:psb/ho-dpo/2026-27/rfp/rgi:8.-date-2",
-      "sensorId": "cppp-procurement",
-      "title": "8. Date 2",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=S6mxElfF6ZZRAMlaECcq3AA%3D%3D",
-      "tenderReference": "PSB/HO DPO/2026-27/RFP/RGI",
-      "geographicPrecision": "unknown",
-      "note": "30-Oct-2026 03:00 PM | 31-Oct-2026 03:00 PM",
-      "raw": {
-        "cells": [
-          "8. Date 2",
-          "PSB/HO DPO/2026-27/RFP/RGI",
-          "30-Oct-2026 03:00 PM",
-          "31-Oct-2026 03:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "664983299dc5229876c815a595ec7dfb58086253bf233109f8d5f27ebe63793a"
-    },
-    {
-      "externalKey": "cppp-procurement:pur/enq/jb/041/stock/-7697/2026-27:9.-corrigendum---2",
-      "sensorId": "cppp-procurement",
-      "title": "9. Corrigendum - 2",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SbDqvuVoRwwGROI8IUDT7PA%3D%3D",
-      "tenderReference": "PUR/ENQ/JB/041/STOCK/ 7697/2026-27",
-      "geographicPrecision": "unknown",
-      "note": "30-Oct-2026 06:55 PM | 31-Oct-2026 06:55 PM",
-      "raw": {
-        "cells": [
-          "9. Corrigendum - 2",
-          "PUR/ENQ/JB/041/STOCK/ 7697/2026-27",
-          "30-Oct-2026 06:55 PM",
-          "31-Oct-2026 06:55 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "017b0ea6bf45391deb8e9346eb604323acc1b54b6bb2530c953b3ddd6bbd9839"
-    },
-    {
-      "externalKey": "cppp-procurement:cme/electrical/2759:10.-vc-link",
-      "sensorId": "cppp-procurement",
-      "title": "10. VC Link",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=S3tU%2BXImSGzue5ILJZ%2FNFCQ%3D%3D",
-      "tenderReference": "CME/Electrical/2759",
-      "geographicPrecision": "unknown",
-      "note": "13-Nov-2026 04:00 PM | 14-Nov-2026 04:30 PM",
-      "raw": {
-        "cells": [
-          "10. VC Link",
-          "CME/Electrical/2759",
-          "13-Nov-2026 04:00 PM",
-          "14-Nov-2026 04:30 PM"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "bd0250fd0bc28bc534847e1332a5a5cf211b3c890efdf50ce246bb2d5eb360ae"
-    },
-    {
-      "externalKey": "cppp-procurement:more...:latest-corrigendum-updates-every-15-mins.",
-      "sensorId": "cppp-procurement",
-      "title": "Latest Corrigendum updates every 15 mins.",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndLatestActiveCorrigendums&service=page",
-      "tenderReference": "More...",
-      "geographicPrecision": "unknown",
-      "raw": {
-        "cells": [
-          "Latest Corrigendum updates every 15 mins.",
-          "More..."
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
-    },
-    {
-      "externalKey": "cppp-procurement:certifying-agency:certifying-agency",
-      "sensorId": "cppp-procurement",
-      "title": "Certifying Agency",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_3&page=Home&service=direct&session=T&sp=SSTQC_Audit_Report.pdf",
-      "tenderReference": "Certifying Agency",
-      "geographicPrecision": "unknown",
-      "note": " | ",
-      "raw": {
-        "cells": [
-          "Certifying Agency",
-          "Certifying Agency",
-          "",
-          ""
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
-    },
-    {
-      "externalKey": "cppp-procurement:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer:function-formsubmit(){-var-f-=-document.getelementbyid(\"webrightmenunodsc_0\");-if(f.captchatext.value-==-\"\"-&&-f.username.value-==-\"\")-{-alert(\"please-enter-all-the-fields\");-return-false;-}-if(f.captchatext.value-==-\"\")-{-alert(\"captcha-cannot-be-blank.\");-return-false;-}-if(f.captchatext.value.length-!=-6)-{-alert(\"please-enter-valid-captcha\");-f.captchatext.value-=-\"\";-f.captchatext.focus();-return-false;-}-if(f.username.value-==-\"\")-{-alert(\"login-id-cannot-be-blank.\");-return-false;-}-var-atpos=f.username.value.indexof(\"@\");-if(f.username.value-!=-\"\"-&&-atpos<1)-{-alert(\"please-enter-valid-login-id-\");-f.username.value-=-\"\";-return-false;-}-}-<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer-document.getelementbyid(\"login\").style.display='block';-var-all-=-document.getelementsbyclassname(\"clickhere\");-for-(var-i-=-0;-i-<-all.length;-i++)-{-all[i].style.display-=-'block';-}",
-      "sensorId": "cppp-procurement",
-      "title": "function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var a",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24WebHomeBorder.%24WebRightMenuNoDSC.login&page=Home&service=direct&session=T",
-      "tenderReference": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
-      "geographicPrecision": "unknown",
-      "note": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer",
-      "raw": {
-        "cells": [
-          "function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; }",
-          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
-          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
-          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>",
-          "Find My Nodal Officer"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
-    },
-    {
-      "externalKey": "cppp-procurement:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer",
-      "sensorId": "cppp-procurement",
-      "title": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24WebHomeBorder.%24WebRightMenuNoDSC.login&page=Home&service=direct&session=T",
-      "tenderReference": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
-      "geographicPrecision": "unknown",
-      "note": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer",
-      "raw": {
-        "cells": [
-          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
-          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
-          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>",
-          "Find My Nodal Officer"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
-    },
-    {
-      "externalKey": "cppp-procurement:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer",
-      "sensorId": "cppp-procurement",
-      "title": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24WebHomeBorder.%24WebRightMenuNoDSC.login&page=Home&service=direct&session=T",
-      "tenderReference": "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>",
-      "geographicPrecision": "unknown",
-      "note": "Find My Nodal Officer",
-      "raw": {
-        "cells": [
-          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer",
-          "<a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>",
-          "Find My Nodal Officer"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
-    },
-    {
-      "externalKey": "cppp-procurement:advanced-search",
-      "sensorId": "cppp-procurement",
-      "title": "Advanced Search",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "geographicPrecision": "unknown",
-      "note": "Advanced Search | Advanced Search |  |  |  | Advanced Search",
-      "raw": {
-        "cells": [
-          "Advanced Search",
-          "",
-          "Advanced Search",
-          "Advanced Search",
-          "",
-          "",
-          "",
-          "Advanced Search"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
-    },
-    {
-      "externalKey": "cppp-procurement:advanced-search:advanced-search",
-      "sensorId": "cppp-procurement",
-      "title": "Advanced Search",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "tenderReference": "Advanced Search",
-      "geographicPrecision": "unknown",
-      "note": " |  |  | Advanced Search",
-      "raw": {
-        "cells": [
-          "Advanced Search",
-          "Advanced Search",
-          "",
-          "",
-          "",
-          "Advanced Search"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
-    },
-    {
-      "externalKey": "cppp-procurement:advanced-search",
-      "sensorId": "cppp-procurement",
-      "title": "Advanced Search",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "geographicPrecision": "unknown",
-      "note": " |  | Advanced Search",
-      "raw": {
-        "cells": [
-          "Advanced Search",
-          "",
-          "",
-          "",
-          "Advanced Search"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
-    },
-    {
-      "externalKey": "cppp-procurement:faq-feedback:faq-feedback",
-      "sensorId": "cppp-procurement",
-      "title": "FAQ Feedback",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FAQFrontEnd&service=page",
-      "tenderReference": "FAQ Feedback",
-      "geographicPrecision": "unknown",
-      "note": "FAQ Feedback",
-      "raw": {
-        "cells": [
-          "FAQ Feedback",
-          "FAQ Feedback",
-          "FAQ Feedback"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.204Z",
-      "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
-    },
-    {
-      "externalKey": "cppp-procurement:faq-feedback:faq-feedback",
-      "sensorId": "cppp-procurement",
-      "title": "FAQ Feedback",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FAQFrontEnd&service=page",
-      "tenderReference": "FAQ Feedback",
-      "geographicPrecision": "unknown",
-      "raw": {
-        "cells": [
-          "FAQ Feedback",
-          "FAQ Feedback"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.205Z",
-      "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
-    },
-    {
-      "externalKey": "cppp-procurement:visitor-no:1446827-contents-owned-and-maintained-by-concerned-departments-in-coordination-with-finance-department-and-information-technology-department,-government-of-india-designed,-developed-and-hosted-by-national-informatics-centre-version-:-1.09.21-30-apr-2024-(c)-2017-tenders-nic,-all-rights-reserved.site-best-viewed-in-ie-10-and-above,-with-a-screen-resolution-1024-x-768.-portal-policies:visitor-no:1446827-contents-owned-and-maintained-by-concerned-departments-in-coordination-with-finance-department-and-information-technology-department,-government-of-india-designed,-developed-and-hosted-by-national-informatics-centre-version-:-1.09.21-30-apr-2024-(c)-2017-tenders-nic,-all-rights-reserved.site-best-viewed-in-ie-10-and-above,-with-a-screen-resolution-1024-x-768.-portal-policies",
-      "sensorId": "cppp-procurement",
-      "title": "Visitor No:1446827 Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "http://www.nic.in/",
-      "tenderReference": "Visitor No:1446827 Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
-      "geographicPrecision": "unknown",
-      "note": "Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India | Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies | Designed, Developed and Hosted by National Informatics Centre | Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. | Portal policies",
-      "raw": {
-        "cells": [
-          "Visitor No:1446827 Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
-          "Visitor No:1446827",
-          "Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India",
-          "Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
-          "Designed, Developed and Hosted by National Informatics Centre",
-          "Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.",
-          "Portal policies"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.205Z",
-      "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
-    },
-    {
-      "externalKey": "cppp-procurement:designed,-developed-and-hosted-by-national-informatics-centre-version-:-1.09.21-30-apr-2024-(c)-2017-tenders-nic,-all-rights-reserved.site-best-viewed-in-ie-10-and-above,-with-a-screen-resolution-1024-x-768.-portal-policies:designed,-developed-and-hosted-by-national-informatics-centre-version-:-1.09.21-30-apr-2024-(c)-2017-tenders-nic,-all-rights-reserved.site-best-viewed-in-ie-10-and-above,-with-a-screen-resolution-1024-x-768.-portal-policies",
-      "sensorId": "cppp-procurement",
-      "title": "Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "http://www.nic.in/",
-      "tenderReference": "Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
-      "geographicPrecision": "unknown",
-      "note": "Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. | Portal policies",
-      "raw": {
-        "cells": [
-          "Designed, Developed and Hosted by National Informatics Centre Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768. Portal policies",
-          "Designed, Developed and Hosted by National Informatics Centre",
-          "Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.",
-          "Portal policies"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.205Z",
-      "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
-    },
-    {
-      "externalKey": "cppp-procurement:version-:-1.09.21-30-apr-2024-(c)-2017-tenders-nic,-all-rights-reserved.site-best-viewed-in-ie-10-and-above,-with-a-screen-resolution-1024-x-768.:designed,-developed-and-hosted-by-national-informatics-centre",
-      "sensorId": "cppp-procurement",
-      "title": "Designed, Developed and Hosted by National Informatics Centre",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "http://www.nic.in/",
-      "tenderReference": "Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.",
-      "geographicPrecision": "unknown",
-      "note": "Portal policies",
-      "raw": {
-        "cells": [
-          "Designed, Developed and Hosted by National Informatics Centre",
-          "Version : 1.09.21 30-Apr-2024 (c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.",
-          "Portal policies"
-        ]
-      },
-      "observedAt": "2026-10-23T13:22:39.205Z",
-      "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
+      "observedAt": "2026-10-23T18:17:57.372Z",
+      "evidenceHash": "cd5cd3d2ac23cd09fd16c3c0b90839d2ed33692aeddc8f2fc145accda653a17f"
     },
     {
       "externalKey": "cag-audits:125835",
@@ -1665,7 +339,7 @@
       "raw": {
         "reportId": "125835"
       },
-      "observedAt": "2026-10-23T13:22:41.317Z",
+      "observedAt": "2026-10-23T18:17:57.537Z",
       "evidenceHash": "693f8076419a13c59c4aad4c4a8f8a7323f33d55903c9e7d63b5a135a75ecfa2"
     },
     {
@@ -1681,7 +355,7 @@
       "raw": {
         "reportId": "125830"
       },
-      "observedAt": "2026-10-23T13:22:41.317Z",
+      "observedAt": "2026-10-23T18:17:57.537Z",
       "evidenceHash": "5cfbd2ce08b6de0ff1d70c251045d519312b60a68b5b53ad8ebbad71ee82f064"
     },
     {
@@ -1697,7 +371,7 @@
       "raw": {
         "reportId": "125829"
       },
-      "observedAt": "2026-10-23T13:22:41.317Z",
+      "observedAt": "2026-10-23T18:17:57.537Z",
       "evidenceHash": "2f0b6182addd14efa4bdb5ca4f16fa2a2c0feeea4a21d9900843072f9bd8df90"
     },
     {
@@ -1713,7 +387,7 @@
       "raw": {
         "reportId": "125828"
       },
-      "observedAt": "2026-10-23T13:22:41.318Z",
+      "observedAt": "2026-10-23T18:17:57.537Z",
       "evidenceHash": "5d28e4d26249fb281735dac989a06f0501292736cba1936d235185bccd9afc41"
     },
     {
@@ -1729,7 +403,7 @@
       "raw": {
         "reportId": "125827"
       },
-      "observedAt": "2026-10-23T13:22:41.318Z",
+      "observedAt": "2026-10-23T18:17:57.537Z",
       "evidenceHash": "2db2e1f6ae23af8dab9b08c7d2975228f077034603fb4f0360e269c58fdb02a0"
     },
     {
@@ -1745,7 +419,7 @@
       "raw": {
         "reportId": "125728"
       },
-      "observedAt": "2026-10-23T13:22:41.318Z",
+      "observedAt": "2026-10-23T18:17:57.537Z",
       "evidenceHash": "83e9b943800eeec78a0206b4045e1b74d45424412151a3e51ef79c8123ef8d20"
     },
     {
@@ -1761,7 +435,7 @@
       "raw": {
         "reportId": "125712"
       },
-      "observedAt": "2026-10-23T13:22:41.318Z",
+      "observedAt": "2026-10-23T18:17:57.537Z",
       "evidenceHash": "49fead40de686e1e2e7056517252cdbc91195f214b26fdfdbc038e4e3115e80d"
     },
     {
@@ -1777,7 +451,7 @@
       "raw": {
         "reportId": "125624"
       },
-      "observedAt": "2026-10-23T13:22:41.318Z",
+      "observedAt": "2026-10-23T18:17:57.537Z",
       "evidenceHash": "fd060fe7ff79e5a2837873cf49572c82f56ac410a4fa0c9d40381174facaa68d"
     },
     {
@@ -1793,7 +467,7 @@
       "raw": {
         "reportId": "125602"
       },
-      "observedAt": "2026-10-23T13:22:41.318Z",
+      "observedAt": "2026-10-23T18:17:57.537Z",
       "evidenceHash": "857698c208374a8e9f7558e800c4c1d89679206247d8e9d3a0ff39787ea05ca6"
     },
     {
@@ -1806,7 +480,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-23T13:22:40.417Z",
+      "observedAt": "2026-10-23T18:17:54.776Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1819,7 +493,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-23T13:22:40.418Z",
+      "observedAt": "2026-10-23T18:17:54.777Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1832,7 +506,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-23T13:22:40.418Z",
+      "observedAt": "2026-10-23T18:17:54.777Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1845,7 +519,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-23T13:22:40.418Z",
+      "observedAt": "2026-10-23T18:17:54.777Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1858,7 +532,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-23T13:22:40.418Z",
+      "observedAt": "2026-10-23T18:17:54.777Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1872,7 +546,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-23T13:22:40.418Z",
+      "observedAt": "2026-10-23T18:17:54.777Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1886,7 +560,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-23T13:22:40.418Z",
+      "observedAt": "2026-10-23T18:17:54.777Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1900,7 +574,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-23T13:22:40.418Z",
+      "observedAt": "2026-10-23T18:17:54.777Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1919,7 +593,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-10-23T13:23:13.072Z",
+      "observedAt": "2026-10-23T18:18:26.833Z",
       "evidenceHash": "61bd51e18f1d42812bd6bab3510326a0780d9cf2164adb00f40f68d4d1cf50ea"
     },
     {
@@ -1938,7 +612,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-10-23T13:23:13.075Z",
+      "observedAt": "2026-10-23T18:18:26.835Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1957,7 +631,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-10-23T13:23:13.075Z",
+      "observedAt": "2026-10-23T18:18:26.835Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -1976,7 +650,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-10-23T13:23:13.075Z",
+      "observedAt": "2026-10-23T18:18:26.835Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -1995,7 +669,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-10-23T13:23:13.075Z",
+      "observedAt": "2026-10-23T18:18:26.835Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2014,7 +688,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-10-23T13:23:13.075Z",
+      "observedAt": "2026-10-23T18:18:26.835Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2033,7 +707,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-10-23T13:23:13.076Z",
+      "observedAt": "2026-10-23T18:18:26.835Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2051,26 +725,9 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-10-23T13:23:12.416Z",
+      "observedAt": "2026-10-23T18:18:26.086Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
-  "links": [
-    {
-      "fromExternalKey": "cppp-procurement:iitm/ups-camc_amc/14/2627/spl:1.-boq-corrigendum",
-      "toExternalKey": "cppp-procurement:iitm/ups-camc_amc/14/2627/spl:2.-date-corrigendum-2",
-      "relation": "procured → procured",
-      "basis": "exact_tender_reference",
-      "confidence": 1,
-      "reference": "IITM/UPS-CAMC_AMC/14/2627/SPL"
-    },
-    {
-      "fromExternalKey": "cppp-procurement:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer:function-formsubmit(){-var-f-=-document.getelementbyid(\"webrightmenunodsc_0\");-if(f.captchatext.value-==-\"\"-&&-f.username.value-==-\"\")-{-alert(\"please-enter-all-the-fields\");-return-false;-}-if(f.captchatext.value-==-\"\")-{-alert(\"captcha-cannot-be-blank.\");-return-false;-}-if(f.captchatext.value.length-!=-6)-{-alert(\"please-enter-valid-captcha\");-f.captchatext.value-=-\"\";-f.captchatext.focus();-return-false;-}-if(f.username.value-==-\"\")-{-alert(\"login-id-cannot-be-blank.\");-return-false;-}-var-atpos=f.username.value.indexof(\"@\");-if(f.username.value-!=-\"\"-&&-atpos<1)-{-alert(\"please-enter-valid-login-id-\");-f.username.value-=-\"\";-return-false;-}-}-<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer-document.getelementbyid(\"login\").style.display='block';-var-all-=-document.getelementsbyclassname(\"clickhere\");-for-(var-i-=-0;-i-<-all.length;-i++)-{-all[i].style.display-=-'block';-}",
-      "toExternalKey": "cppp-procurement:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer",
-      "relation": "procured → procured",
-      "basis": "exact_tender_reference",
-      "confidence": 1,
-      "reference": "<AHREF=\"\"TITLE=\"LOGIN\"><IMGSRC=\"IMAGES/HOME_LOGIN_BUTTON_2.PNG\"ALIGN=\"ABSMIDDLE\"BORDER=\"0\"></A><PALIGN=\"JUSTIFY\"STYLE=\"COLOR:RED;\">YOURBROWSERJAVASCRIPTHASBEENDISABLED.KINDLYENABLESCRIPTFORFURTHERPROCESS.</P>FINDMYNODALOFFICER"
-    }
-  ]
+  "links": []
 }
