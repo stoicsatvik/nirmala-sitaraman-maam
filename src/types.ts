@@ -10,6 +10,7 @@ export type MoneyState =
   | "revised"
   | "sanctioned"
   | "released"
+  | "tender_published"
   | "procured"
   | "paid"
   | "delivered"
