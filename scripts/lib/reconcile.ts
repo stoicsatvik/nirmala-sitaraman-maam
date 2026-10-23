@@ -1,5 +1,5 @@
 import type { PublicMoneyRecord } from "./ingestion";
-import { stageForObservation } from "./stages";
+import { stageForObservation } from "./stages.ts";
 
 export type ReconciliationBasis = "exact_tender_reference" | "exact_external_reference";
 
