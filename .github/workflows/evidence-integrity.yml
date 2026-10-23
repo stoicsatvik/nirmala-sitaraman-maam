@@ -1,0 +1,29 @@
+name: Evidence integrity contracts
+
+on:
+  pull_request:
+    paths:
+      - "scripts/lib/reconcile.ts"
+      - "tests/reconcile.test.ts"
+      - ".github/workflows/evidence-integrity.yml"
+  push:
+    branches: ["foundry/e170-evidence-link-validity-20261023"]
+    paths:
+      - "scripts/lib/reconcile.ts"
+      - "tests/reconcile.test.ts"
+      - ".github/workflows/evidence-integrity.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run offline deterministic reconciliation tests
+        run: node --experimental-strip-types --test tests/reconcile.test.ts
