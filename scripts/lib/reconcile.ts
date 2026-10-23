@@ -1,4 +1,5 @@
 import type { PublicMoneyRecord } from "./ingestion";
+import { stageForObservation } from "./stages";
 
 export type ReconciliationBasis = "exact_tender_reference" | "exact_external_reference";
 
@@ -16,10 +17,11 @@ const STATE_ORDER = new Map([
   ["revised", 1],
   ["sanctioned", 2],
   ["released", 3],
-  ["procured", 4],
-  ["paid", 5],
-  ["delivered", 6],
-  ["audited", 7]
+  ["tender_published", 4],
+  ["procured", 5],
+  ["paid", 6],
+  ["delivered", 7],
+  ["audited", 8]
 ]);
 
 function normalizeReference(value: string): string {
@@ -57,17 +59,24 @@ export function reconcileRecords(records: PublicMoneyRecord[]): ReconciledLink[]
     const unique = [...new Map(group.map((record) => [record.externalKey, record])).values()];
     if (unique.length < 2) continue;
 
-    unique.sort((a, b) => (STATE_ORDER.get(a.state) ?? 99) - (STATE_ORDER.get(b.state) ?? 99));
+    unique.sort((a, b) =>
+      (STATE_ORDER.get(stageForObservation(a.sensorId, a.state)) ?? 99) -
+      (STATE_ORDER.get(stageForObservation(b.sensorId, b.state)) ?? 99)
+    );
 
     for (let index = 0; index < unique.length - 1; index += 1) {
       const from = unique[index];
       const to = unique[index + 1];
-      if (from.externalKey === to.externalKey || from.state === to.state || from.sensorId === to.sensorId) continue;
+      if (
+        from.externalKey === to.externalKey ||
+        stageForObservation(from.sensorId, from.state) === stageForObservation(to.sensorId, to.state) ||
+        from.sensorId === to.sensorId
+      ) continue;
 
       links.push({
         fromExternalKey: from.externalKey,
         toExternalKey: to.externalKey,
-        relation: [from.state, "→", to.state].join(" "),
+        relation: [stageForObservation(from.sensorId, from.state), "→", stageForObservation(to.sensorId, to.state)].join(" "),
         basis: "exact_tender_reference",
         confidence: 1,
         reference
