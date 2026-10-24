@@ -11,6 +11,7 @@ function record(sensorId: string, state: RecordState, tenderReference: string, j
     tenderReference,
     title: "Synthetic evidence fixture",
     authority: "Fixture",
+    fiscalYear: "2026-27",
     jurisdiction,
     observedAt: "2026-10-23T00:00:00Z",
     sourceUrl: "https://example.org/source",
@@ -118,4 +119,42 @@ test("DB lookup never redirects a link to another sensor sharing its external ke
     row.from_live_record_id, row.to_live_record_id
   ]), [["notice-uuid", "award-uuid"]]);
   assert.deepEqual(resolveLinkRows(links, rows.slice(0, 2)), []);
+});
+
+
+test("E239: same reference from different authorities must not create a chain", () => {
+  const a = record("source-a", "budgeted", "GEM/2026/B/12345");
+  const b = { ...record("source-b", "procured", "GEM/2026/B/12345"), authority: "Unrelated Authority" };
+  assert.deepEqual(reconcileRecords([a, b]), []);
+});
+
+test("E239: same reference across fiscal years must not create a chain", () => {
+  const a = record("source-a", "budgeted", "GEM/2026/B/12345");
+  const b = { ...record("source-b", "procured", "GEM/2026/B/12345"), fiscalYear: "2025-26" };
+  assert.deepEqual(reconcileRecords([a, b]), []);
+});
+
+test("E239: unknown fiscal year fails closed rather than silently linking", () => {
+  const a = { ...record("source-a", "budgeted", "GEM/2026/B/12345"), fiscalYear: undefined };
+  const b = record("source-b", "procured", "GEM/2026/B/12345");
+  assert.deepEqual(reconcileRecords([a, b]), []);
+});
+
+test("E239: ambiguous repeated lifecycle stages suppress the entire candidate chain", () => {
+  const records = [
+    record("budget", "budgeted", "GEM/2026/B/12345"),
+    record("award-a", "procured", "GEM/2026/B/12345"),
+    record("award-b", "procured", "GEM/2026/B/12345"),
+    record("payment", "paid", "GEM/2026/B/12345")
+  ];
+  assert.deepEqual(reconcileRecords(records), []);
+});
+
+test("E239: source-scoped identity and valid ordered chain remain intact", () => {
+  const a = { ...record("source-a", "budgeted", "GEM/2026/B/12345"), externalKey: "shared" };
+  const b = { ...record("source-b", "procured", "gem / 2026 / b / 12345"), externalKey: "shared" };
+  const links = reconcileRecords([a, b]);
+  assert.equal(links.length, 1);
+  assert.deepEqual([links[0].fromSensorId, links[0].toSensorId], ["source-a", "source-b"]);
+  assert.equal(links[0].reference, "GEM/2026/B/12345");
 });
