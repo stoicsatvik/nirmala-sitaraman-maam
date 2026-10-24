@@ -1,0 +1,27 @@
+name: E239 public-money reconciliation safety
+on:
+  pull_request:
+    paths:
+      - "scripts/lib/reconcile.ts"
+      - "tests/reconcile.test.ts"
+      - ".github/workflows/e239-reconciliation-guard.yml"
+      - "package.json"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reconciliation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+      - name: Synthetic collision and positive-control regressions
+        run: npx tsx --test tests/reconcile.test.ts
+      - name: Typecheck and frontend build
+        run: npm run build
