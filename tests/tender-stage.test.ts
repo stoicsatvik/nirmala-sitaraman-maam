@@ -11,6 +11,7 @@ function fixture(sensorId: string, state: PublicMoneyRecord["state"], key: strin
     state,
     title: "Synthetic public evidence",
     authority: "Fixture",
+    fiscalYear: "2026-27",
     jurisdiction: "India",
     observedAt: "2026-10-24T00:00:00Z",
     sourceUrl: "https://example.org/fixture",
