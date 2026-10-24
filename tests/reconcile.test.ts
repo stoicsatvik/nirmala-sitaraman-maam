@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { reconcileRecords } from "../scripts/lib/reconcile.ts";
+import { reconcileRecords, resolveLinkRows } from "../scripts/lib/reconcile.ts";
 import type { PublicMoneyRecord, RecordState } from "../scripts/lib/ingestion.ts";
 
 function record(sensorId: string, state: RecordState, tenderReference: string, jurisdiction = "India"): PublicMoneyRecord {
@@ -92,4 +92,30 @@ test("separates unrelated jurisdiction groups without suppressing valid within-g
     record("a", "budgeted", "GEM/2026/B/12345", ""),
     record("b", "procured", "GEM/2026/B/12345", "")
   ]), []);
+});
+
+test("identical external keys from distinct sensors are not silently deduplicated", () => {
+  const notice = { ...record("gem-bids", "tender_published", "GEM/2026/B/12345"), externalKey: "shared-123" };
+  const award = { ...record("cppp-contract-awards", "procured", "GEM/2026/B/12345"), externalKey: "shared-123" };
+  const links = reconcileRecords([notice, award]);
+  assert.equal(links.length, 1);
+  assert.equal(links[0].fromSensorId, "gem-bids");
+  assert.equal(links[0].toSensorId, "cppp-contract-awards");
+  assert.equal(links[0].fromExternalKey, "shared-123");
+  assert.equal(links[0].toExternalKey, "shared-123");
+});
+
+test("DB lookup never redirects a link to another sensor sharing its external key", () => {
+  const notice = { ...record("gem-bids", "tender_published", "GEM/2026/B/12345"), externalKey: "shared-123" };
+  const award = { ...record("cppp-contract-awards", "procured", "GEM/2026/B/12345"), externalKey: "shared-123" };
+  const links = reconcileRecords([notice, award]);
+  const rows = [
+    { id: "award-uuid", sensor_id: "cppp-contract-awards", external_key: "shared-123" },
+    { id: "unrelated-uuid", sensor_id: "unrelated-source", external_key: "shared-123" },
+    { id: "notice-uuid", sensor_id: "gem-bids", external_key: "shared-123" }
+  ];
+  assert.deepEqual(resolveLinkRows(links, rows).map((row) => [
+    row.from_live_record_id, row.to_live_record_id
+  ]), [["notice-uuid", "award-uuid"]]);
+  assert.deepEqual(resolveLinkRows(links, rows.slice(0, 2)), []);
 });
