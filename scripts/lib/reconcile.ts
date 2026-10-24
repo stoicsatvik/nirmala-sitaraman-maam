@@ -68,29 +68,37 @@ function validTenderReference(value: string): boolean {
 }
 
 export function reconcileRecords(records: PublicMoneyRecord[]): ReconciledLink[] {
-  // Exact identifiers alone do not establish that two authorities/jurisdictions
-  // refer to the same award. Fail closed across jurisdiction boundaries.
-  const byJurisdictionAndTender = new Map<string, PublicMoneyRecord[]>();
+  // Tender strings are not globally unique. Even identical strings from
+  // different authorities or fiscal years cannot prove a shared money flow.
+  // Preserve E211 source-scoped record identity and E190 stage semantics.
+  const byScopedTender = new Map<string, PublicMoneyRecord[]>();
 
   for (const record of records) {
     if (!record.tenderReference || !validTenderReference(record.tenderReference)) continue;
-    const jurisdiction = record.jurisdiction?.trim().toUpperCase();
-    if (!jurisdiction) continue;
+    const authority = record.authority?.trim().replace(/\s+/g, " ").toUpperCase();
+    const jurisdiction = record.jurisdiction?.trim().replace(/\s+/g, " ").toUpperCase();
+    const fiscalYear = record.fiscalYear?.trim().toUpperCase();
+    if (!authority || !jurisdiction || !fiscalYear) continue;
     const reference = normalizeReference(record.tenderReference);
-    const groupKey = JSON.stringify([jurisdiction, reference]);
-    const group = byJurisdictionAndTender.get(groupKey) ?? [];
+    const groupKey = JSON.stringify([authority, jurisdiction, fiscalYear, reference]);
+    const group = byScopedTender.get(groupKey) ?? [];
     group.push(record);
-    byJurisdictionAndTender.set(groupKey, group);
+    byScopedTender.set(groupKey, group);
   }
 
   const links: ReconciledLink[] = [];
 
-  for (const group of byJurisdictionAndTender.values()) {
+  for (const group of byScopedTender.values()) {
     const reference = normalizeReference(group[0].tenderReference!);
     const unique = [...new Map(group.map((record) => [
       recordIdentity(record.sensorId, record.externalKey), record
     ])).values()];
     if (unique.length < 2) continue;
+
+    // Multiple distinct observations at one lifecycle stage may describe
+    // separate lots or awards. Do not arbitrarily choose an edge between them.
+    const stages = unique.map((record) => stageForObservation(record.sensorId, record.state));
+    if (new Set(stages).size !== unique.length) continue;
 
     unique.sort((a, b) =>
       (STATE_ORDER.get(stageForObservation(a.sensorId, a.state)) ?? 99) -
