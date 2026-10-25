@@ -1,4 +1,5 @@
 import * as cheerio from "cheerio";
+import { croreToExactRupees } from "../lib/cga-units";
 import {
   fetchText,
   makeObservedRecord,
@@ -123,6 +124,13 @@ export async function runCgaSensor(sensor: SensorDefinition): Promise<SensorResu
 
         const budgetCrore = values[0];
         const actualCrore = values[1];
+        let amountInr: number;
+        try {
+          amountInr = croreToExactRupees(actualCrore);
+        } catch {
+          // Preserve conservative extraction: do not emit an imprecise monetary claim.
+          continue;
+        }
         records.push(
           makeObservedRecord({
             externalKey: recordKey(sensor.id, definition.key, latest.month, FY),
@@ -132,7 +140,7 @@ export async function runCgaSensor(sensor: SensorDefinition): Promise<SensorResu
             jurisdiction: "India",
             fiscalYear: "2026-27",
             state: "paid",
-            amountInr: actualCrore * 10_000_000,
+            amountInr,
             sourceUrl: reportUrl,
             sourceDocument: reportUrl,
             ministry: "Union Government",
