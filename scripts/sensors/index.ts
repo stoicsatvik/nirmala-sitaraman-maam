@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import { runCgaSensor } from "./cga";
+import { parseCpppHomeRow } from "../lib/cppp-home-rows";
 import {
   fetchText,
   makeObservedRecord,
@@ -145,37 +146,41 @@ async function tableProcurementSensor(sensor: SensorDefinition, jurisdiction: st
   try {
     const html = await fetchText(sensor.sourceUrl);
     const $ = cheerio.load(html);
+    // Descendant TD selection turns page-layout and nested table wrappers
+    // into fake tender rows. Require four direct cells and validated dates.
     const records = $("table tr")
       .toArray()
-      .map((row) => {
-        const cells = $(row).find("td").toArray().map((cell) => clean($(cell).text()));
-        if (cells.length < 2) return null;
-        const title = cells[0] || cells[1];
-        const reference = cells.find((cell) => /(?:GEM\/|20\d{2}_|tender|bid)/i.test(cell)) || cells[1] || undefined;
-        if (!title || /tender title|reference no/i.test(title)) return null;
+      .flatMap((row) => {
+        const cells = $(row).children("td").toArray().map((cell) => clean($(cell).text()));
+        const parsed = parseCpppHomeRow(cells);
+        if (!parsed) return [];
         const link = $(row).find("a[href]").first().attr("href");
         const sourceUrl = link ? new URL(link, sensor.sourceUrl).toString() : sensor.sourceUrl;
-        const ward = title.match(/\b([A-Z]\/?(?:East|West|North|South)?|[A-Z])\s*ward\b/i)?.[0];
-        return makeObservedRecord({
-          externalKey: recordKey(sensor.id, reference, title),
+        const ward = parsed.title.match(/\b([A-Z]\/?(?:East|West|North|South)?|[A-Z])\s*ward\b/i)?.[0];
+        return [makeObservedRecord({
+          externalKey: recordKey(sensor.id, parsed.reference, parsed.title),
           sensorId: sensor.id,
-          title: title.slice(0, 500),
+          title: parsed.title,
           authority: sensor.authority,
           jurisdiction,
           fiscalYear: "2026-27",
           state: "tender_published",
           sourceUrl,
-          tenderReference: reference,
+          tenderReference: parsed.reference,
           locationText: ward ? `${ward}, Mumbai, Maharashtra` : undefined,
           geographicPrecision: ward ? "locality" : "unknown",
-          note: cells.slice(2).join(" | ") || undefined,
-          raw: { cells }
-        });
+          note: "CPPP four-column homepage listing (tender/corrigendum); no award, payment or causal fund-flow assertion.",
+          raw: { cells, closingDate: parsed.closingDate, openingDate: parsed.openingDate }
+        })];
       })
-      .filter((record): record is NonNullable<typeof record> => Boolean(record))
       .slice(0, 150);
 
-    return { sensor, fetchedAt, ok: true, records };
+    return {
+      sensor, fetchedAt, ok: true, records,
+      error: records.length === 0
+        ? "CPPP page reachable, but no structurally admissible four-column tender/corrigendum rows were found."
+        : undefined
+    };
   } catch (error) {
     return { sensor, fetchedAt, ok: false, records: [], error: error instanceof Error ? error.message : String(error) };
   }
