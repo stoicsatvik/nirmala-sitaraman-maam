@@ -10,6 +10,7 @@ export interface ReconciledLink {
   toExternalKey: string;
   relation: string;
   basis: ReconciliationBasis;
+  // Certainty of exact normalized identifier equality only; NOT proof of payment or funding.
   confidence: 1;
   reference: string;
 }
@@ -100,6 +101,14 @@ export function reconcileRecords(records: PublicMoneyRecord[]): ReconciledLink[]
     const stages = unique.map((record) => stageForObservation(record.sensorId, record.state));
     if (new Set(stages).size !== unique.length) continue;
 
+    // Identical tender numbers can still cover different lots or awards. If
+    // source records name conflicting vendors, their identity is ambiguous.
+    // Abstain instead of inventing a high-confidence evidence chain.
+    const knownVendors = new Set(unique.map((record) =>
+      record.vendor?.trim().replace(/\s+/g, " ").toUpperCase()
+    ).filter(Boolean));
+    if (knownVendors.size > 1) continue;
+
     unique.sort((a, b) =>
       (STATE_ORDER.get(stageForObservation(a.sensorId, a.state)) ?? 99) -
       (STATE_ORDER.get(stageForObservation(b.sensorId, b.state)) ?? 99)
@@ -119,7 +128,7 @@ export function reconcileRecords(records: PublicMoneyRecord[]): ReconciledLink[]
         fromExternalKey: from.externalKey,
         toSensorId: to.sensorId,
         toExternalKey: to.externalKey,
-        relation: [stageForObservation(from.sensorId, from.state), "→", stageForObservation(to.sensorId, to.state)].join(" "),
+        relation: `shared tender reference (${stageForObservation(from.sensorId, from.state)} / ${stageForObservation(to.sensorId, to.state)}); fund flow unverified`,
         basis: "exact_tender_reference",
         confidence: 1,
         reference
