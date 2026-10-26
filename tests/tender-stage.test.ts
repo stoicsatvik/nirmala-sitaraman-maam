@@ -40,7 +40,7 @@ test("legacy notice and independently observed award can form a stage link", () 
     fixture("cppp-contract-awards", "procured", "award")
   ]);
   assert.equal(links.length, 1);
-  assert.equal(links[0].relation, "tender_published → procured");
+  assert.equal(links[0].relation, "shared tender reference (tender_published / procured); fund flow unverified");
   assert.equal(links[0].confidence, 1);
 });
 

@@ -45,7 +45,7 @@ test("links a real-shaped identifier across distinct sources and stages within a
   ]);
   assert.equal(links.length, 1);
   assert.equal(links[0].reference, "GEM/2026/B/12345");
-  assert.equal(links[0].relation, "budgeted → procured");
+  assert.equal(links[0].relation, "shared tender reference (budgeted / procured); fund flow unverified");
 });
 
 test("rejects same-stage or same-source false chains", () => {
@@ -157,4 +157,37 @@ test("E239: source-scoped identity and valid ordered chain remain intact", () =>
   assert.equal(links.length, 1);
   assert.deepEqual([links[0].fromSensorId, links[0].toSensorId], ["source-a", "source-b"]);
   assert.equal(links[0].reference, "GEM/2026/B/12345");
+});
+
+
+test("E278: same tender reference but conflicting named vendors cannot prove shared award", () => {
+  const notice = { ...record("notice", "tender_published", "GEM/2026/B/12345"), vendor: "Supplier Alpha" };
+  const payment = { ...record("payment", "paid", "GEM/2026/B/12345"), vendor: "Supplier Beta" };
+  assert.deepEqual(reconcileRecords([notice, payment]), []);
+});
+
+test("E278: consistent vendor identity still supports only co-reference, not a cash-flow edge", () => {
+  const notice = { ...record("notice", "tender_published", "GEM/2026/B/12345"), vendor: "Supplier Alpha" };
+  const payment = { ...record("payment", "paid", "GEM/2026/B/12345"), vendor: " supplier  alpha " };
+  const links = reconcileRecords([notice, payment]);
+  assert.equal(links.length, 1);
+  assert.equal(links[0].confidence, 1); // exact reference equality, not transfer probability
+  assert.match(links[0].relation, /fund flow unverified/);
+  assert.doesNotMatch(links[0].relation, /→/);
+});
+
+test("E278: one unknown vendor does not fabricate a conflict", () => {
+  const notice = record("notice", "tender_published", "GEM/2026/B/12345");
+  const award = { ...record("award", "procured", "GEM/2026/B/12345"), vendor: "Supplier Alpha" };
+  assert.equal(reconcileRecords([notice, award]).length, 1);
+});
+
+test("E278: a conflicting third vendor invalidates the whole candidate group", () => {
+  const records = [
+    { ...record("notice", "tender_published", "GEM/2026/B/12345"), vendor: "Supplier Alpha" },
+    { ...record("award", "procured", "GEM/2026/B/12345"), vendor: "Supplier Beta" },
+    record("payment", "paid", "GEM/2026/B/12345")
+  ];
+  assert.deepEqual(reconcileRecords(records), []);
+  assert.deepEqual(reconcileRecords([...records].reverse()), []);
 });
