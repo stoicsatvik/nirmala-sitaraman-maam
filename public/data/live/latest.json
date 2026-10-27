@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T20:04:15.662Z",
+  "generatedAt": "2026-10-27T23:45:30.076Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-10-27T20:03:33.746Z",
+      "fetchedAt": "2026-10-27T23:44:50.263Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-10-27T20:03:33.763Z",
+      "fetchedAt": "2026-10-27T23:44:50.274Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-10-27T20:03:33.764Z",
+      "fetchedAt": "2026-10-27T23:44:50.275Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-10-27T20:03:33.765Z",
+      "fetchedAt": "2026-10-27T23:44:50.276Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-27T20:03:33.767Z",
+      "fetchedAt": "2026-10-27T23:44:50.277Z",
       "ok": true,
       "recordCount": 9,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-27T20:03:33.770Z",
+      "fetchedAt": "2026-10-27T23:44:50.279Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-27T20:04:07.498Z",
+      "fetchedAt": "2026-10-27T23:45:24.006Z",
       "ok": true,
       "recordCount": 7,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-27T20:04:07.497Z",
+      "fetchedAt": "2026-10-27T23:45:24.005Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-10-27T20:04:07.499Z",
+      "fetchedAt": "2026-10-27T23:45:24.007Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-10-27T20:04:07.500Z",
+      "fetchedAt": "2026-10-27T23:45:24.008Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 15680090000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1474825116",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1474825116",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1842716183",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1842716183",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹15,68,009 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(36.7%)"
         ]
       },
-      "observedAt": "2026-10-27T20:03:39.921Z",
-      "evidenceHash": "959b6d456a4a2d0c476f6b5ac0bdd5dcb3703b78e45c706ec402fe7bf9444bd5"
+      "observedAt": "2026-10-27T23:44:56.001Z",
+      "evidenceHash": "b51a593f1d767c61402b89fafb7ae90e3c84f1b862389c5a13825784c70cb7f3"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:8:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5148100000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1474825116",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1474825116",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1842716183",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1842716183",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,14,810 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(41.4%)"
         ]
       },
-      "observedAt": "2026-10-27T20:03:39.922Z",
-      "evidenceHash": "8452473bc0c0a058452bd23255ce9f7f04239669527841bca3853665a25e483c"
+      "observedAt": "2026-10-27T23:44:56.001Z",
+      "evidenceHash": "6cf5dbd75fcf7e25dc91669c6148e820d944a6aaa035abb90634eff7d79c3866"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:8:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5099490000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1474825116",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1474825116",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1842716183",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1842716183",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,09,949 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(38.5%)"
         ]
       },
-      "observedAt": "2026-10-27T20:03:39.922Z",
-      "evidenceHash": "b59bbf9846be42947d5f9c11205e2ca2646d1a8118f74f8c31ef0cc6e52a043e"
+      "observedAt": "2026-10-27T23:44:56.002Z",
+      "evidenceHash": "2b9752373a4ca3490a5f9408dfb2d60520d6be7313b82cc6003fdc2feacdf5a8"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:8:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1394170000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1474825116",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1474825116",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1842716183",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1842716183",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,39,417 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(48.6%)"
         ]
       },
-      "observedAt": "2026-10-27T20:03:39.922Z",
-      "evidenceHash": "ff99c902e54c2bd68c5be218f19c2b96114b2d7c7e12741fc5854947202af902"
+      "observedAt": "2026-10-27T23:44:56.002Z",
+      "evidenceHash": "63065c70fb5869d5a6840cb78d35a86909b3c9a14179c0b58cc878413355ac14"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:8:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 20779580000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1474825116",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1474825116",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1842716183",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1842716183",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹20,77,958 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(37.1%)"
         ]
       },
-      "observedAt": "2026-10-27T20:03:39.922Z",
-      "evidenceHash": "6c39a8c09a8299e6c7eb8c3e93f8f0184ea3af6153b58ad5ecfe4acb5c52991f"
+      "observedAt": "2026-10-27T23:44:56.002Z",
+      "evidenceHash": "d552a0575340b2b7908f838d5ca9fd164698a1c4fd19a172d8690e50f48bf8cf"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:8:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1870374200000.0002,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1474825116",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1474825116",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1842716183",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1842716183",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,87,037.42 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,8 +323,8 @@
           "(39%)"
         ]
       },
-      "observedAt": "2026-10-27T20:03:39.924Z",
-      "evidenceHash": "711603b78dc77966c02f56f543861e64a6b3b83b428475854ff550fb7def6a94"
+      "observedAt": "2026-10-27T23:44:56.003Z",
+      "evidenceHash": "18a4800d2dbabf3fa222dbf9d1e01aad9704b5bd8b25b5a7d9088bae2a64bee4"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access-28-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-28-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
@@ -357,7 +357,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.614Z",
+      "observedAt": "2026-10-27T23:44:54.320Z",
       "evidenceHash": "6b80ed64a7f0435d7e4963739c161e3c77a3e08477b1fe46c9147fb930fa7f2d"
     },
     {
@@ -377,7 +377,7 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.614Z",
+      "observedAt": "2026-10-27T23:44:54.320Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
@@ -403,7 +403,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.615Z",
+      "observedAt": "2026-10-27T23:44:54.321Z",
       "evidenceHash": "4fc74c1000dba270b1fe4f839529d71e646b0d1e37c8e84dcdf561abf4882729"
     },
     {
@@ -428,7 +428,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.615Z",
+      "observedAt": "2026-10-27T23:44:54.321Z",
       "evidenceHash": "ad5b8cad589339e72cc3afaea6d549535bc396012131edd6ecd5acb381392449"
     },
     {
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.616Z",
+      "observedAt": "2026-10-27T23:44:54.321Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.616Z",
+      "observedAt": "2026-10-27T23:44:54.322Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 5. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 7. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 5. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 7. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 5. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 7. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 5. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 7. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 5. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 7. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM | 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 | B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 | 51222/STR STEEL/ROLLED SECTION/ENQ/02 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 3. KD | KDELECT26271784 | 16-Nov-2026 03:00 PM | 16-Nov-2026 04:00 PM | 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 | BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 5. Electro Physiology System - Patch Clamp | GTE01/9137/2026/091/ELPHPATCH | 03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM | 6. Groove Cutting | B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 | 02-Nov-2026 06:00 PM | 03-Nov-2026 06:00 PM | 7. HUDCO/HRO/IT DISPOASL/2026 | NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 | 10-Nov-2026 03:00 PM | 10-Nov-2026 03:30 PM | 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission | TCIL/MUR/EOI/2026/T-42 | 03-Nov-2026 02:00 PM | 03-Nov-2026 02:30 PM | 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building | IACS/CIVIL/927/2026-27/39 | 05-Nov-2026 03:00 PM | 05-Nov-2026 03:30 PM | 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) | T and OS/VLGC(JVC)/2026/01 | 26-Nov-2026 05:00 PM | 27-Nov-2026 03:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM | 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. | BELF/873/07/2026 | 30-Oct-2026 05:00 PM | 02-Nov-2026 03:00 PM | 2. Corrigendum 01 | HK1 | 03-Nov-2026 05:00 PM | 04-Nov-2026 05:00 PM | 3. Corregendum 01 | HK1 | 03-Nov-2026 05:00 PM | 04-Nov-2026 05:00 PM | 4. Due date extension | PE-294/546 | 04-Nov-2026 03:00 PM | 06-Nov-2026 03:30 PM | 5. Corrigendum - 1 | PUR/ENQ/JB/042/STOCK/ 7705/2026-27 | 04-Nov-2026 06:55 PM | 05-Nov-2026 06:55 PM | 6. Corrigendum - 4 | PUR/ENQ/JB/7625/STOCK/ 035/2026-27 | 04-Nov-2026 06:55 PM | 05-Nov-2026 06:55 PM | 7. Corrigendum - 5 | PUR/ENQ/STOCK/7644/JB/ 036/2026-27 | 03-Nov-2026 06:55 PM | 04-Nov-2026 06:55 PM | 8. Corrigendum-4 | DC-04/2026 | 30-Oct-2026 12:00 PM | 30-Oct-2026 12:05 PM | 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 | GEM/2026/B/8154596 | 03-Nov-2026 11:00 AM | 03-Nov-2026 11:30 AM | 10. Addendum 1 | 10/T-2117/2026-C | 10-Nov-2026 02:30 PM | 10-Nov-2026 03:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 5. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 7. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 5. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 7. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 5. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 7. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 5. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 7. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 5. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 7. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM | 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 | B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 | 51222/STR STEEL/ROLLED SECTION/ENQ/02 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 3. KD | KDELECT26271784 | 16-Nov-2026 03:00 PM | 16-Nov-2026 04:00 PM | 4. HUDCO/HRO/IT DISPOASL/2026 | NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 | 10-Nov-2026 03:00 PM | 10-Nov-2026 03:30 PM | 5. Groove Cutting | B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 | 02-Nov-2026 06:00 PM | 03-Nov-2026 06:00 PM | 6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 | BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 7. Electro Physiology System - Patch Clamp | GTE01/9137/2026/091/ELPHPATCH | 03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM | 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission | TCIL/MUR/EOI/2026/T-42 | 03-Nov-2026 02:00 PM | 03-Nov-2026 02:30 PM | 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building | IACS/CIVIL/927/2026-27/39 | 05-Nov-2026 03:00 PM | 05-Nov-2026 03:30 PM | 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) | T and OS/VLGC(JVC)/2026/01 | 26-Nov-2026 05:00 PM | 27-Nov-2026 03:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM | 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. | BELF/873/07/2026 | 30-Oct-2026 05:00 PM | 02-Nov-2026 03:00 PM | 2. Corrigendum 01 | HK1 | 03-Nov-2026 05:00 PM | 04-Nov-2026 05:00 PM | 3. Corregendum 01 | HK1 | 03-Nov-2026 05:00 PM | 04-Nov-2026 05:00 PM | 4. Due date extension | PE-294/546 | 04-Nov-2026 03:00 PM | 06-Nov-2026 03:30 PM | 5. Corrigendum - 1 | PUR/ENQ/JB/042/STOCK/ 7705/2026-27 | 04-Nov-2026 06:55 PM | 05-Nov-2026 06:55 PM | 6. Corrigendum - 4 | PUR/ENQ/JB/7625/STOCK/ 035/2026-27 | 04-Nov-2026 06:55 PM | 05-Nov-2026 06:55 PM | 7. Corrigendum - 5 | PUR/ENQ/STOCK/7644/JB/ 036/2026-27 | 03-Nov-2026 06:55 PM | 04-Nov-2026 06:55 PM | 8. Corrigendum-4 | DC-04/2026 | 30-Oct-2026 12:00 PM | 30-Oct-2026 12:05 PM | 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 | GEM/2026/B/8154596 | 03-Nov-2026 11:00 AM | 03-Nov-2026 11:30 AM | 10. Addendum 1 | 10/T-2117/2026-C | 10-Nov-2026 02:30 PM | 10-Nov-2026 03:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,21 +520,21 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 5. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 7. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 5. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 7. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 5. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 7. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 5. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 7. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Issue of Corrigendum II for extension of date of opening of Financial Bids. BELF/873/07/2026 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 2. Corrigendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 3. Corregendum 01 HK1 03-Nov-2026 05:00 PM 04-Nov-2026 05:00 PM 4. Due date extension PE-294/546 04-Nov-2026 03:00 PM 06-Nov-2026 03:30 PM 5. Corrigendum - 1 PUR/ENQ/JB/042/STOCK/ 7705/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 6. Corrigendum - 4 PUR/ENQ/JB/7625/STOCK/ 035/2026-27 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 7. Corrigendum - 5 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 03-Nov-2026 06:55 PM 04-Nov-2026 06:55 PM 8. Corrigendum-4 DC-04/2026 30-Oct-2026 12:00 PM 30-Oct-2026 12:05 PM 9. BARIUM NITRATE GRADE I OPENING DATE EXT FROM 27 OCT 26 TO 03 NOV 2026 GEM/2026/B/8154596 03-Nov-2026 11:00 AM 03-Nov-2026 11:30 AM 10. Addendum 1 10/T-2117/2026-C 10-Nov-2026 02:30 PM 10-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 5. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 7. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 5. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 7. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 5. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 7. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 5. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 7. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 5. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 7. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM",
+          "1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 5. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 7. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM",
           "1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02",
           "B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02",
           "02-Nov-2026 06:55 PM",
@@ -547,22 +547,22 @@
           "KDELECT26271784",
           "16-Nov-2026 03:00 PM",
           "16-Nov-2026 04:00 PM",
-          "4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
-          "BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
-          "02-Nov-2026 06:55 PM",
-          "03-Nov-2026 06:55 PM",
-          "5. Electro Physiology System - Patch Clamp",
-          "GTE01/9137/2026/091/ELPHPATCH",
-          "03-Nov-2026 03:00 PM",
-          "04-Nov-2026 03:00 PM",
-          "6. Groove Cutting",
-          "B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01",
-          "02-Nov-2026 06:00 PM",
-          "03-Nov-2026 06:00 PM",
-          "7. HUDCO/HRO/IT DISPOASL/2026",
+          "4. HUDCO/HRO/IT DISPOASL/2026",
           "NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026",
           "10-Nov-2026 03:00 PM",
           "10-Nov-2026 03:30 PM",
+          "5. Groove Cutting",
+          "B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01",
+          "02-Nov-2026 06:00 PM",
+          "03-Nov-2026 06:00 PM",
+          "6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
+          "BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
+          "02-Nov-2026 06:55 PM",
+          "03-Nov-2026 06:55 PM",
+          "7. Electro Physiology System - Patch Clamp",
+          "GTE01/9137/2026/091/ELPHPATCH",
+          "03-Nov-2026 03:00 PM",
+          "04-Nov-2026 03:00 PM",
           "8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission",
           "TCIL/MUR/EOI/2026/T-42",
           "03-Nov-2026 02:00 PM",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.631Z",
-      "evidenceHash": "ff128aa8a7c5ba813542f410194771587061ccf7e8afb536897b32263f12ef7a"
+      "observedAt": "2026-10-27T23:44:54.337Z",
+      "evidenceHash": "68a6a595de46a297bbb01b046e8a9d05b950dc457f02993bee94b2c1d128a144"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.632Z",
+      "observedAt": "2026-10-27T23:44:54.337Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,13 +727,13 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.633Z",
+      "observedAt": "2026-10-27T23:44:54.338Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-b-and-r/71149/iocl/panipat/str-dtlg/site/lc/nit/02:1.-b-and-r/71149/iocl/panipat/str-dtlg/site/lc/nit/02-b-and-r/71149/iocl/panipat/str-dtlg/site/lc/nit/02-02-nov-2026-06:55-pm-03-nov-2026-06:55-pm-2.-51222/str-steel/rolled-section/enq/02-51222/str-steel/rolled-section/enq/02-02-nov-2026-06:55-pm-03-nov-2026-06:55-pm-3.-kd-kdelect26271784-16-nov-2026-03:00-pm-16-nov-2026-04:00-pm-4.-bandr/71149/iocl/-insulation/site/sc/nit/01-bandr/71149/iocl/-insulation/site/sc/nit/01-02-nov-2026-06:55-pm-03-nov-2026-06:55-pm-5.-electro-physiology-system---patch-clamp-gte01/9137/2026/091/elphpatch-03-nov-2026-03:00-pm-04-nov-2026-03:00-pm-6.-groove-cutting-b-and-r/71135/iocl/notice/groove-cutting/01-02-nov-2026-06:00-pm-03-nov-2026-06:00-pm-7.-hudco/hro/it-dispoasl/2026-no/hudco/hro/it-assets-disposal/2026-10-nov-2026-03:00-pm-10-nov-2026-03:30-pm-8.-eoi-document-for-selection-of-partner-for-supply,-installation-and-commissioning-of-e-document-management-system-for-equal-opportunities-commission-tcil/mur/eoi/2026/t-42-03-nov-2026-02:00-pm-03-nov-2026-02:30-pm-9.-repairing,-renovation-and-installation-of-furniture-at-room-no-204-(dr.-subbhadeep-datta)-at-first-floor-of-the-eru-building-iacs/civil/927/2026-27/39-05-nov-2026-03:00-pm-05-nov-2026-03:30-pm-10.-acquisition-of-8-no.-new-building-very-large-gas-carriers-(vlgcs)-t-and-os/vlgc(jvc)/2026/01-26-nov-2026-05:00-pm-27-nov-2026-03:00-pm",
+      "externalKey": "cppp-procurement:1.-b-and-r/71149/iocl/panipat/str-dtlg/site/lc/nit/02:1.-b-and-r/71149/iocl/panipat/str-dtlg/site/lc/nit/02-b-and-r/71149/iocl/panipat/str-dtlg/site/lc/nit/02-02-nov-2026-06:55-pm-03-nov-2026-06:55-pm-2.-51222/str-steel/rolled-section/enq/02-51222/str-steel/rolled-section/enq/02-02-nov-2026-06:55-pm-03-nov-2026-06:55-pm-3.-kd-kdelect26271784-16-nov-2026-03:00-pm-16-nov-2026-04:00-pm-4.-hudco/hro/it-dispoasl/2026-no/hudco/hro/it-assets-disposal/2026-10-nov-2026-03:00-pm-10-nov-2026-03:30-pm-5.-groove-cutting-b-and-r/71135/iocl/notice/groove-cutting/01-02-nov-2026-06:00-pm-03-nov-2026-06:00-pm-6.-bandr/71149/iocl/-insulation/site/sc/nit/01-bandr/71149/iocl/-insulation/site/sc/nit/01-02-nov-2026-06:55-pm-03-nov-2026-06:55-pm-7.-electro-physiology-system---patch-clamp-gte01/9137/2026/091/elphpatch-03-nov-2026-03:00-pm-04-nov-2026-03:00-pm-8.-eoi-document-for-selection-of-partner-for-supply,-installation-and-commissioning-of-e-document-management-system-for-equal-opportunities-commission-tcil/mur/eoi/2026/t-42-03-nov-2026-02:00-pm-03-nov-2026-02:30-pm-9.-repairing,-renovation-and-installation-of-furniture-at-room-no-204-(dr.-subbhadeep-datta)-at-first-floor-of-the-eru-building-iacs/civil/927/2026-27/39-05-nov-2026-03:00-pm-05-nov-2026-03:30-pm-10.-acquisition-of-8-no.-new-building-very-large-gas-carriers-(vlgcs)-t-and-os/vlgc(jvc)/2026/01-26-nov-2026-05:00-pm-27-nov-2026-03:00-pm",
       "sensorId": "cppp-procurement",
-      "title": "1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 5. Electro Physiology System - Patc",
+      "title": "1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 5. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -741,10 +741,10 @@
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SlSvmswsYNP91MsYhWBQHig%3D%3D",
       "tenderReference": "1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02",
       "geographicPrecision": "unknown",
-      "note": "B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 | 51222/STR STEEL/ROLLED SECTION/ENQ/02 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 3. KD | KDELECT26271784 | 16-Nov-2026 03:00 PM | 16-Nov-2026 04:00 PM | 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 | BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 5. Electro Physiology System - Patch Clamp | GTE01/9137/2026/091/ELPHPATCH | 03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM | 6. Groove Cutting | B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 | 02-Nov-2026 06:00 PM | 03-Nov-2026 06:00 PM | 7. HUDCO/HRO/IT DISPOASL/2026 | NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 | 10-Nov-2026 03:00 PM | 10-Nov-2026 03:30 PM | 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission | TCIL/MUR/EOI/2026/T-42 | 03-Nov-2026 02:00 PM | 03-Nov-2026 02:30 PM | 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building | IACS/CIVIL/927/2026-27/39 | 05-Nov-2026 03:00 PM | 05-Nov-2026 03:30 PM | 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) | T and OS/VLGC(JVC)/2026/01 | 26-Nov-2026 05:00 PM | 27-Nov-2026 03:00 PM",
+      "note": "B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 | 51222/STR STEEL/ROLLED SECTION/ENQ/02 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 3. KD | KDELECT26271784 | 16-Nov-2026 03:00 PM | 16-Nov-2026 04:00 PM | 4. HUDCO/HRO/IT DISPOASL/2026 | NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 | 10-Nov-2026 03:00 PM | 10-Nov-2026 03:30 PM | 5. Groove Cutting | B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 | 02-Nov-2026 06:00 PM | 03-Nov-2026 06:00 PM | 6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 | BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 7. Electro Physiology System - Patch Clamp | GTE01/9137/2026/091/ELPHPATCH | 03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM | 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission | TCIL/MUR/EOI/2026/T-42 | 03-Nov-2026 02:00 PM | 03-Nov-2026 02:30 PM | 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building | IACS/CIVIL/927/2026-27/39 | 05-Nov-2026 03:00 PM | 05-Nov-2026 03:30 PM | 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) | T and OS/VLGC(JVC)/2026/01 | 26-Nov-2026 05:00 PM | 27-Nov-2026 03:00 PM",
       "raw": {
         "cells": [
-          "1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 5. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 7. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM",
+          "1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 2. 51222/STR STEEL/ROLLED SECTION/ENQ/02 51222/STR STEEL/ROLLED SECTION/ENQ/02 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 3. KD KDELECT26271784 16-Nov-2026 03:00 PM 16-Nov-2026 04:00 PM 4. HUDCO/HRO/IT DISPOASL/2026 NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026 10-Nov-2026 03:00 PM 10-Nov-2026 03:30 PM 5. Groove Cutting B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 7. Electro Physiology System - Patch Clamp GTE01/9137/2026/091/ELPHPATCH 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission TCIL/MUR/EOI/2026/T-42 03-Nov-2026 02:00 PM 03-Nov-2026 02:30 PM 9. Repairing, renovation and installation of furniture at Room No-204 (Dr. Subbhadeep Datta) at first floor of the ERU Building IACS/CIVIL/927/2026-27/39 05-Nov-2026 03:00 PM 05-Nov-2026 03:30 PM 10. Acquisition of 8 no. New-Building Very Large Gas Carriers (VLGCs) T and OS/VLGC(JVC)/2026/01 26-Nov-2026 05:00 PM 27-Nov-2026 03:00 PM",
           "1. B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02",
           "B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02",
           "02-Nov-2026 06:55 PM",
@@ -757,22 +757,22 @@
           "KDELECT26271784",
           "16-Nov-2026 03:00 PM",
           "16-Nov-2026 04:00 PM",
-          "4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
-          "BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
-          "02-Nov-2026 06:55 PM",
-          "03-Nov-2026 06:55 PM",
-          "5. Electro Physiology System - Patch Clamp",
-          "GTE01/9137/2026/091/ELPHPATCH",
-          "03-Nov-2026 03:00 PM",
-          "04-Nov-2026 03:00 PM",
-          "6. Groove Cutting",
-          "B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01",
-          "02-Nov-2026 06:00 PM",
-          "03-Nov-2026 06:00 PM",
-          "7. HUDCO/HRO/IT DISPOASL/2026",
+          "4. HUDCO/HRO/IT DISPOASL/2026",
           "NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026",
           "10-Nov-2026 03:00 PM",
           "10-Nov-2026 03:30 PM",
+          "5. Groove Cutting",
+          "B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01",
+          "02-Nov-2026 06:00 PM",
+          "03-Nov-2026 06:00 PM",
+          "6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
+          "BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
+          "02-Nov-2026 06:55 PM",
+          "03-Nov-2026 06:55 PM",
+          "7. Electro Physiology System - Patch Clamp",
+          "GTE01/9137/2026/091/ELPHPATCH",
+          "03-Nov-2026 03:00 PM",
+          "04-Nov-2026 03:00 PM",
           "8. EOI Document for Selection of Partner For Supply, Installation and Commissioning of E Document Management System for Equal Opportunities Commission",
           "TCIL/MUR/EOI/2026/T-42",
           "03-Nov-2026 02:00 PM",
@@ -787,8 +787,8 @@
           "27-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.635Z",
-      "evidenceHash": "115bdaf83ac5042613842483522324509e5e7bd3acdbc6e5968a74821064cc6e"
+      "observedAt": "2026-10-27T23:44:54.339Z",
+      "evidenceHash": "6cb92c77b5cd0ff52fa0b11cfebcca4b0d524291471a6595e82f1d3041e09155"
     },
     {
       "externalKey": "cppp-procurement:b-and-r/71149/iocl/panipat/str-dtlg/site/lc/nit/02:1.-b-and-r/71149/iocl/panipat/str-dtlg/site/lc/nit/02",
@@ -810,7 +810,7 @@
           "03-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.635Z",
+      "observedAt": "2026-10-27T23:44:54.339Z",
       "evidenceHash": "3c5f98011434f02059a441df8bf0e82d1fc88fe0c942dd463d9de2264ce287f5"
     },
     {
@@ -833,7 +833,7 @@
           "03-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.635Z",
+      "observedAt": "2026-10-27T23:44:54.339Z",
       "evidenceHash": "37e726059f3c1ccabb13b00cf04c73dbc20b25c32b6279e41680754aa43be99c"
     },
     {
@@ -856,82 +856,13 @@
           "16-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.635Z",
+      "observedAt": "2026-10-27T23:44:54.339Z",
       "evidenceHash": "0dca88629091b4d31ddc54f74d35c23c29a78cb48bb40e7136ae164c471b616a"
     },
     {
-      "externalKey": "cppp-procurement:bandr/71149/iocl/-insulation/site/sc/nit/01:4.-bandr/71149/iocl/-insulation/site/sc/nit/01",
+      "externalKey": "cppp-procurement:no/hudco/hro/it-assets-disposal/2026:4.-hudco/hro/it-dispoasl/2026",
       "sensorId": "cppp-procurement",
-      "title": "4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SHPop6WXhtbWLMezwZTsLEA%3D%3D",
-      "tenderReference": "BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
-      "geographicPrecision": "unknown",
-      "note": "02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM",
-      "raw": {
-        "cells": [
-          "4. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
-          "BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
-          "02-Nov-2026 06:55 PM",
-          "03-Nov-2026 06:55 PM"
-        ]
-      },
-      "observedAt": "2026-10-27T20:03:35.635Z",
-      "evidenceHash": "5cdcc71688bd4cf36f4dc8d7a4d2431115fd01402792d0150f5571608d9a00a2"
-    },
-    {
-      "externalKey": "cppp-procurement:gte01/9137/2026/091/elphpatch:5.-electro-physiology-system---patch-clamp",
-      "sensorId": "cppp-procurement",
-      "title": "5. Electro Physiology System - Patch Clamp",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SVAL1SaK7WArpzUeEgI5iOw%3D%3D",
-      "tenderReference": "GTE01/9137/2026/091/ELPHPATCH",
-      "geographicPrecision": "unknown",
-      "note": "03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM",
-      "raw": {
-        "cells": [
-          "5. Electro Physiology System - Patch Clamp",
-          "GTE01/9137/2026/091/ELPHPATCH",
-          "03-Nov-2026 03:00 PM",
-          "04-Nov-2026 03:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-27T20:03:35.636Z",
-      "evidenceHash": "f43dc636cf9165d4f591ef56c40ba5f021dd32f57f94b1f94255912134770690"
-    },
-    {
-      "externalKey": "cppp-procurement:b-and-r/71135/iocl/notice/groove-cutting/01:6.-groove-cutting",
-      "sensorId": "cppp-procurement",
-      "title": "6. Groove Cutting",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Svcri4o0kJm%2FFyvViVuFwQQ%3D%3D",
-      "tenderReference": "B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01",
-      "geographicPrecision": "unknown",
-      "note": "02-Nov-2026 06:00 PM | 03-Nov-2026 06:00 PM",
-      "raw": {
-        "cells": [
-          "6. Groove Cutting",
-          "B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01",
-          "02-Nov-2026 06:00 PM",
-          "03-Nov-2026 06:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-27T20:03:35.636Z",
-      "evidenceHash": "f47defc1e147ec3b22810c77ffbd5d730b9acfae54f3f62534384706a704f289"
-    },
-    {
-      "externalKey": "cppp-procurement:no/hudco/hro/it-assets-disposal/2026:7.-hudco/hro/it-dispoasl/2026",
-      "sensorId": "cppp-procurement",
-      "title": "7. HUDCO/HRO/IT DISPOASL/2026",
+      "title": "4. HUDCO/HRO/IT DISPOASL/2026",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -942,14 +873,83 @@
       "note": "10-Nov-2026 03:00 PM | 10-Nov-2026 03:30 PM",
       "raw": {
         "cells": [
-          "7. HUDCO/HRO/IT DISPOASL/2026",
+          "4. HUDCO/HRO/IT DISPOASL/2026",
           "NO/HUDCO/HRO/IT ASSETS DISPOSAL/2026",
           "10-Nov-2026 03:00 PM",
           "10-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.636Z",
-      "evidenceHash": "6af41caebcc3a797960c53653c6366526c5cd07d7d0f81358bc9b057deba5b34"
+      "observedAt": "2026-10-27T23:44:54.339Z",
+      "evidenceHash": "23122b7adf2e30ca42b90be2ed34b11455b60a4d7f2edd8bddc40b2ad3b85276"
+    },
+    {
+      "externalKey": "cppp-procurement:b-and-r/71135/iocl/notice/groove-cutting/01:5.-groove-cutting",
+      "sensorId": "cppp-procurement",
+      "title": "5. Groove Cutting",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Svcri4o0kJm%2FFyvViVuFwQQ%3D%3D",
+      "tenderReference": "B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01",
+      "geographicPrecision": "unknown",
+      "note": "02-Nov-2026 06:00 PM | 03-Nov-2026 06:00 PM",
+      "raw": {
+        "cells": [
+          "5. Groove Cutting",
+          "B AND R/71135/IOCL/NOTICE/GROOVE CUTTING/01",
+          "02-Nov-2026 06:00 PM",
+          "03-Nov-2026 06:00 PM"
+        ]
+      },
+      "observedAt": "2026-10-27T23:44:54.339Z",
+      "evidenceHash": "898244fecb6b100a27e0e80e5c8695f8c616f21c2cb753d1fc4b566c3660d09b"
+    },
+    {
+      "externalKey": "cppp-procurement:bandr/71149/iocl/-insulation/site/sc/nit/01:6.-bandr/71149/iocl/-insulation/site/sc/nit/01",
+      "sensorId": "cppp-procurement",
+      "title": "6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SHPop6WXhtbWLMezwZTsLEA%3D%3D",
+      "tenderReference": "BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
+      "geographicPrecision": "unknown",
+      "note": "02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM",
+      "raw": {
+        "cells": [
+          "6. BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
+          "BANDR/71149/IOCL/ INSULATION/SITE/SC/NIT/01",
+          "02-Nov-2026 06:55 PM",
+          "03-Nov-2026 06:55 PM"
+        ]
+      },
+      "observedAt": "2026-10-27T23:44:54.339Z",
+      "evidenceHash": "cf37c8c99a29c4f1bf9b613d9e1a42b2e429977b4a8993e4afd2bb1740757057"
+    },
+    {
+      "externalKey": "cppp-procurement:gte01/9137/2026/091/elphpatch:7.-electro-physiology-system---patch-clamp",
+      "sensorId": "cppp-procurement",
+      "title": "7. Electro Physiology System - Patch Clamp",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SVAL1SaK7WArpzUeEgI5iOw%3D%3D",
+      "tenderReference": "GTE01/9137/2026/091/ELPHPATCH",
+      "geographicPrecision": "unknown",
+      "note": "03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM",
+      "raw": {
+        "cells": [
+          "7. Electro Physiology System - Patch Clamp",
+          "GTE01/9137/2026/091/ELPHPATCH",
+          "03-Nov-2026 03:00 PM",
+          "04-Nov-2026 03:00 PM"
+        ]
+      },
+      "observedAt": "2026-10-27T23:44:54.339Z",
+      "evidenceHash": "3248ca4155ec23dd04352844400b92276a12dc5d63ef00c105a0b64cb6ba2a0c"
     },
     {
       "externalKey": "cppp-procurement:tcil/mur/eoi/2026/t-42:8.-eoi-document-for-selection-of-partner-for-supply,-installation-and-commissioning-of-e-document-management-system-for-equal-opportunities-commission",
@@ -971,7 +971,7 @@
           "03-Nov-2026 02:30 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.636Z",
+      "observedAt": "2026-10-27T23:44:54.339Z",
       "evidenceHash": "091fdeea73248dd133d60f8ec0a4cf493ce33810b672f47e91c4571333039d6f"
     },
     {
@@ -994,7 +994,7 @@
           "05-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.636Z",
+      "observedAt": "2026-10-27T23:44:54.339Z",
       "evidenceHash": "380313afa7ebac3ac1e9c2ebf4d08e49a38577da5a2d518008ebd64b2198c69b"
     },
     {
@@ -1017,7 +1017,7 @@
           "27-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.636Z",
+      "observedAt": "2026-10-27T23:44:54.339Z",
       "evidenceHash": "67ce2f7b836cb0a1c47cb4e6a417db1f409d31c87ccf8e1f06842a291dc57722"
     },
     {
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.636Z",
+      "observedAt": "2026-10-27T23:44:54.340Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.637Z",
+      "observedAt": "2026-10-27T23:44:54.340Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "10-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.637Z",
+      "observedAt": "2026-10-27T23:44:54.340Z",
       "evidenceHash": "6f22891e7c1a40db7130ce7c1fd5d5b349cc3e279de8b0faacdfa1f5ca86ee78"
     },
     {
@@ -1143,7 +1143,7 @@
           "02-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.637Z",
+      "observedAt": "2026-10-27T23:44:54.340Z",
       "evidenceHash": "fcc00d0184cbbed1205e9f86a74efbe9c5a0fd5da61baee72352a15817f7dd7e"
     },
     {
@@ -1166,7 +1166,7 @@
           "04-Nov-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.637Z",
+      "observedAt": "2026-10-27T23:44:54.340Z",
       "evidenceHash": "4ca0513d62e5d6f47a6d8df19489a290c0f617236b2f64e2480fb2d83af3edc9"
     },
     {
@@ -1189,7 +1189,7 @@
           "04-Nov-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.637Z",
+      "observedAt": "2026-10-27T23:44:54.340Z",
       "evidenceHash": "eb7f0fbb391ecac44d7748feadd2cce0fa02f9d155f57a513279de40429e335e"
     },
     {
@@ -1212,7 +1212,7 @@
           "06-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.637Z",
+      "observedAt": "2026-10-27T23:44:54.340Z",
       "evidenceHash": "991f73c58dac2eb6bfb29c675fbf4073a25e3d45a56133071c039eb70d32770f"
     },
     {
@@ -1235,7 +1235,7 @@
           "05-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.638Z",
+      "observedAt": "2026-10-27T23:44:54.340Z",
       "evidenceHash": "5ae5eb640b9102f7c5b14f8299754899b3eb453504bbaf2475ec6b1c81e6b6d7"
     },
     {
@@ -1258,7 +1258,7 @@
           "05-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.638Z",
+      "observedAt": "2026-10-27T23:44:54.340Z",
       "evidenceHash": "8d822fd910c19e5784aff9daef5039fe5f66893828511d39ae25649258ff0551"
     },
     {
@@ -1281,7 +1281,7 @@
           "04-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.638Z",
+      "observedAt": "2026-10-27T23:44:54.340Z",
       "evidenceHash": "6f0886e7763fdd859ab7912e3c5d47144312562d682e32fd1195822416f24b2f"
     },
     {
@@ -1304,7 +1304,7 @@
           "30-Oct-2026 12:05 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.638Z",
+      "observedAt": "2026-10-27T23:44:54.341Z",
       "evidenceHash": "84c1943150eebae37cd848380293d935975e4a006cb0f8666f8a52e28884a325"
     },
     {
@@ -1327,7 +1327,7 @@
           "03-Nov-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.638Z",
+      "observedAt": "2026-10-27T23:44:54.341Z",
       "evidenceHash": "b17b903235c1b988adb0722fdb0a3b7b2f36df42e0105cc2060a3520b51e5dab"
     },
     {
@@ -1350,7 +1350,7 @@
           "10-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.638Z",
+      "observedAt": "2026-10-27T23:44:54.341Z",
       "evidenceHash": "8c8d30dab329c3bfef8d085c1d0154a01ca01c5d6b330e551ebe152a02bcbed8"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.638Z",
+      "observedAt": "2026-10-27T23:44:54.341Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.638Z",
+      "observedAt": "2026-10-27T23:44:54.341Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.638Z",
+      "observedAt": "2026-10-27T23:44:54.341Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.639Z",
+      "observedAt": "2026-10-27T23:44:54.341Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.639Z",
+      "observedAt": "2026-10-27T23:44:54.341Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.639Z",
+      "observedAt": "2026-10-27T23:44:54.341Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.639Z",
+      "observedAt": "2026-10-27T23:44:54.341Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.639Z",
+      "observedAt": "2026-10-27T23:44:54.341Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.639Z",
+      "observedAt": "2026-10-27T23:44:54.342Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.639Z",
+      "observedAt": "2026-10-27T23:44:54.342Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.640Z",
+      "observedAt": "2026-10-27T23:44:54.342Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.640Z",
+      "observedAt": "2026-10-27T23:44:54.342Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-27T20:03:35.640Z",
+      "observedAt": "2026-10-27T23:44:54.342Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "125835"
       },
-      "observedAt": "2026-10-27T20:03:39.939Z",
+      "observedAt": "2026-10-27T23:44:56.114Z",
       "evidenceHash": "693f8076419a13c59c4aad4c4a8f8a7323f33d55903c9e7d63b5a135a75ecfa2"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "125830"
       },
-      "observedAt": "2026-10-27T20:03:39.939Z",
+      "observedAt": "2026-10-27T23:44:56.114Z",
       "evidenceHash": "5cfbd2ce08b6de0ff1d70c251045d519312b60a68b5b53ad8ebbad71ee82f064"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "125829"
       },
-      "observedAt": "2026-10-27T20:03:39.939Z",
+      "observedAt": "2026-10-27T23:44:56.114Z",
       "evidenceHash": "2f0b6182addd14efa4bdb5ca4f16fa2a2c0feeea4a21d9900843072f9bd8df90"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "125828"
       },
-      "observedAt": "2026-10-27T20:03:39.939Z",
+      "observedAt": "2026-10-27T23:44:56.114Z",
       "evidenceHash": "5d28e4d26249fb281735dac989a06f0501292736cba1936d235185bccd9afc41"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "125827"
       },
-      "observedAt": "2026-10-27T20:03:39.939Z",
+      "observedAt": "2026-10-27T23:44:56.115Z",
       "evidenceHash": "2db2e1f6ae23af8dab9b08c7d2975228f077034603fb4f0360e269c58fdb02a0"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "125728"
       },
-      "observedAt": "2026-10-27T20:03:39.939Z",
+      "observedAt": "2026-10-27T23:44:56.115Z",
       "evidenceHash": "83e9b943800eeec78a0206b4045e1b74d45424412151a3e51ef79c8123ef8d20"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "125712"
       },
-      "observedAt": "2026-10-27T20:03:39.939Z",
+      "observedAt": "2026-10-27T23:44:56.115Z",
       "evidenceHash": "49fead40de686e1e2e7056517252cdbc91195f214b26fdfdbc038e4e3115e80d"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "125624"
       },
-      "observedAt": "2026-10-27T20:03:39.939Z",
+      "observedAt": "2026-10-27T23:44:56.115Z",
       "evidenceHash": "fd060fe7ff79e5a2837873cf49572c82f56ac410a4fa0c9d40381174facaa68d"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "125602"
       },
-      "observedAt": "2026-10-27T20:03:39.939Z",
+      "observedAt": "2026-10-27T23:44:56.115Z",
       "evidenceHash": "857698c208374a8e9f7558e800c4c1d89679206247d8e9d3a0ff39787ea05ca6"
     },
     {
@@ -1806,7 +1806,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-27T20:03:36.965Z",
+      "observedAt": "2026-10-27T23:44:55.213Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1819,7 +1819,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-27T20:03:36.966Z",
+      "observedAt": "2026-10-27T23:44:55.214Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1832,7 +1832,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-27T20:03:36.966Z",
+      "observedAt": "2026-10-27T23:44:55.214Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1845,7 +1845,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-27T20:03:36.966Z",
+      "observedAt": "2026-10-27T23:44:55.214Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1858,7 +1858,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-27T20:03:36.966Z",
+      "observedAt": "2026-10-27T23:44:55.214Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1872,7 +1872,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-27T20:03:36.966Z",
+      "observedAt": "2026-10-27T23:44:55.214Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1886,7 +1886,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-27T20:03:36.966Z",
+      "observedAt": "2026-10-27T23:44:55.214Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1900,7 +1900,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-27T20:03:36.966Z",
+      "observedAt": "2026-10-27T23:44:55.214Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1919,7 +1919,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-10-27T20:04:10.025Z",
+      "observedAt": "2026-10-27T23:45:25.847Z",
       "evidenceHash": "61bd51e18f1d42812bd6bab3510326a0780d9cf2164adb00f40f68d4d1cf50ea"
     },
     {
@@ -1938,7 +1938,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-10-27T20:04:10.031Z",
+      "observedAt": "2026-10-27T23:45:25.850Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1957,7 +1957,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-10-27T20:04:10.031Z",
+      "observedAt": "2026-10-27T23:45:25.851Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -1976,7 +1976,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-10-27T20:04:10.031Z",
+      "observedAt": "2026-10-27T23:45:25.851Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -1995,7 +1995,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-10-27T20:04:10.031Z",
+      "observedAt": "2026-10-27T23:45:25.851Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2014,7 +2014,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-10-27T20:04:10.031Z",
+      "observedAt": "2026-10-27T23:45:25.851Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2033,7 +2033,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-10-27T20:04:10.031Z",
+      "observedAt": "2026-10-27T23:45:25.851Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2051,7 +2051,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-10-27T20:04:09.213Z",
+      "observedAt": "2026-10-27T23:45:25.298Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
