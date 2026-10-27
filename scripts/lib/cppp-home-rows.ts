@@ -32,7 +32,7 @@ export function parseCpppHomeRow(cells: readonly string[]): CpppHomeRow | null {
   if (cells.length !== 4) return null;
   const [title, reference, closingDate, openingDate] = cells.map((value) => value.trim().replace(/\s+/g, " "));
   if (!/^\d{1,3}\.\s+\S/u.test(title) || title.length > 500) return null;
-  if (reference.length < 5 || reference.length > 160 || !/[0-9]/.test(reference)) return null;
+  if (reference.length < 3 || reference.length > 160 || !/[0-9]/.test(reference)) return null;
   if (/[<>{}=;\\]/.test(title + " " + reference) || /(?:javascript\s*:|document\s*\.|function\s+\w+\s*\(|window\s*\.|formSubmit\s*\()/i.test(title + " " + reference)) return null;
   if (!/^[\p{L}\p{N}][\p{L}\p{N} ._\/()\-]*$/u.test(reference)) return null;
   if (!validPortalDate(closingDate) || !validPortalDate(openingDate)) return null;
