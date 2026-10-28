@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T18:50:44.293Z",
+  "generatedAt": "2026-10-28T23:12:39.754Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-10-28T18:50:04.816Z",
+      "fetchedAt": "2026-10-28T23:11:58.710Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-10-28T18:50:04.825Z",
+      "fetchedAt": "2026-10-28T23:11:58.726Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-10-28T18:50:04.826Z",
+      "fetchedAt": "2026-10-28T23:11:58.727Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-10-28T18:50:04.827Z",
+      "fetchedAt": "2026-10-28T23:11:58.728Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-28T18:50:04.827Z",
+      "fetchedAt": "2026-10-28T23:11:58.731Z",
       "ok": true,
       "recordCount": 9,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-28T18:50:04.830Z",
+      "fetchedAt": "2026-10-28T23:11:58.734Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-28T18:50:38.298Z",
+      "fetchedAt": "2026-10-28T23:12:32.492Z",
       "ok": true,
       "recordCount": 7,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-28T18:50:38.297Z",
+      "fetchedAt": "2026-10-28T23:12:32.490Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-10-28T18:50:38.299Z",
+      "fetchedAt": "2026-10-28T23:12:32.493Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-10-28T18:50:38.299Z",
+      "fetchedAt": "2026-10-28T23:12:32.494Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 15680090000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2053290960",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2053290960",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=123557499",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=123557499",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹15,68,009 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(36.7%)"
         ]
       },
-      "observedAt": "2026-10-28T18:50:11.634Z",
-      "evidenceHash": "c21f9630769b6bbfa9b109f178ec7d5584c6d15c5fa2f72f800c8dea1836eba0"
+      "observedAt": "2026-10-28T23:12:05.244Z",
+      "evidenceHash": "047dd74d631a03c915b071002aa8b513f9f8d6b95af574d1d54c83e961907ae7"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:8:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5148100000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2053290960",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2053290960",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=123557499",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=123557499",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,14,810 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(41.4%)"
         ]
       },
-      "observedAt": "2026-10-28T18:50:11.635Z",
-      "evidenceHash": "119b7efcda2c6aa92b9e87410919abeb5ff31bb499714c370002ef7de155f18a"
+      "observedAt": "2026-10-28T23:12:05.245Z",
+      "evidenceHash": "9ed536f0881196906d3256a56eee1516b5cfd5ddbb71c9bb3772295b059d9129"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:8:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5099490000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2053290960",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2053290960",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=123557499",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=123557499",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,09,949 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(38.5%)"
         ]
       },
-      "observedAt": "2026-10-28T18:50:11.635Z",
-      "evidenceHash": "9aa8e2c72b675892edd7b87d390c56e5beffba3d89b01fc22bfe39afc54633f2"
+      "observedAt": "2026-10-28T23:12:05.245Z",
+      "evidenceHash": "1416758ae4013f64f13bfeda7e880907c5f5faad38b745ddd237e76110a480c9"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:8:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1394170000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2053290960",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2053290960",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=123557499",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=123557499",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,39,417 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(48.6%)"
         ]
       },
-      "observedAt": "2026-10-28T18:50:11.635Z",
-      "evidenceHash": "f2aa2faf3c4b358890c85fbe3420fdb6ebbaddccf5f1cbe27f70c20ca165b56e"
+      "observedAt": "2026-10-28T23:12:05.245Z",
+      "evidenceHash": "de7bf5ac17812538c4f54056c98c719b16705abb863332a6a9fdb461b75eeaa7"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:8:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 20779580000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2053290960",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2053290960",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=123557499",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=123557499",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹20,77,958 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(37.1%)"
         ]
       },
-      "observedAt": "2026-10-28T18:50:11.635Z",
-      "evidenceHash": "291622cc5a538c860e39241215a3994641d1e782edeaeb61461e941f33ad2867"
+      "observedAt": "2026-10-28T23:12:05.245Z",
+      "evidenceHash": "6b1311ff648ad690d2168a06eb362f0620152a0b4eb91b643ac0185914cce7cc"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:8:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1870374200000.0002,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2053290960",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2053290960",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=123557499",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=123557499",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,87,037.42 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,8 +323,8 @@
           "(39%)"
         ]
       },
-      "observedAt": "2026-10-28T18:50:11.636Z",
-      "evidenceHash": "413cb73c56589ab1ec616e8ce0dd68c2a38eab5ef2ebb457ff951e2b19a712cc"
+      "observedAt": "2026-10-28T23:12:05.247Z",
+      "evidenceHash": "675d02197a5edc1984d2424d16ccbdc1d18620c6933704c830cf01c295ec8836"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access-29-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-29-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
@@ -357,7 +357,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.608Z",
+      "observedAt": "2026-10-28T23:12:00.817Z",
       "evidenceHash": "f196909beffcc88da3feb35409fed8a4d180ec412007e84b5be47c941615d2b2"
     },
     {
@@ -377,7 +377,7 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.608Z",
+      "observedAt": "2026-10-28T23:12:00.818Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
@@ -403,7 +403,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.608Z",
+      "observedAt": "2026-10-28T23:12:00.819Z",
       "evidenceHash": "eb98812f1eec63e0e23fc2713f9685b736ecaffd7b4b0bca43f23027f0435b55"
     },
     {
@@ -428,7 +428,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.609Z",
+      "observedAt": "2026-10-28T23:12:00.820Z",
       "evidenceHash": "335cb6d5cf10d2582ec900224823a4b0867ccbcaceefe3ede5249149c77c03ac"
     },
     {
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.609Z",
+      "observedAt": "2026-10-28T23:12:00.820Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.609Z",
+      "observedAt": "2026-10-28T23:12:00.820Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 7. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Elisa Kit Pur/PP 4021/e-file 298780/26-27 09-Nov-2026 03:00 PM 09-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 7. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Elisa Kit Pur/PP 4021/e-file 298780/26-27 09-Nov-2026 03:00 PM 09-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 7. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Elisa Kit Pur/PP 4021/e-file 298780/26-27 09-Nov-2026 03:00 PM 09-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 7. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Elisa Kit Pur/PP 4021/e-file 298780/26-27 09-Nov-2026 03:00 PM 09-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 7. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Elisa Kit Pur/PP 4021/e-file 298780/26-27 09-Nov-2026 03:00 PM 09-Nov-2026 04:00 PM | 1. TNO272-OCT26-EAST | BANDR/71149/HR-EQPT/NIT/SC/01 | 05-Nov-2026 06:55 PM | 06-Nov-2026 06:55 PM | 2. PROCUREMENT OF INDUSTRIAL GASES | 1100000887 | 07-Nov-2026 10:00 AM | 07-Nov-2026 10:30 AM | 3. GLAND PACKING GRAPHITE , ENG ITEM | R/CM/ENG/PR-3500003105/26 | 16-Nov-2026 02:00 PM | 16-Nov-2026 02:00 PM | 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost | TENDER/MKT/AGRIINPUTS/2026-27 | 04-Nov-2026 02:00 PM | 04-Nov-2026 03:00 PM | 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. | NBCC/SBGWB/IITKGP/2026/411 | 04-Nov-2026 11:00 AM | 04-Nov-2026 11:30 AM | 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 | B AND R /DSP/71172/NIT/HIRING VEHICLE/02 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 7. Temporary Event Infrastructure | ICAI/WOFA2026/INFRA/OCT/001 | 12-Nov-2026 05:00 PM | 13-Nov-2026 11:00 AM | 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT | STORE-104/4/2026-STPUR SEC/33 | 12-Nov-2026 05:00 PM | 13-Nov-2026 10:00 AM | 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 | HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 10. Elisa Kit | Pur/PP 4021/e-file 298780/26-27 | 09-Nov-2026 03:00 PM | 09-Nov-2026 04:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM | 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL | CO PROC 3965 2026 | 03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM | 2. Corrigendum 1 and Reply to Pre bid queries | 05/51/I/0080/RBI/001 | 05-Nov-2026 03:00 PM | 06-Nov-2026 03:00 PM | 3. Date Corrigendum 4 | BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 4. Extension_4 | PE-296 | 12-Nov-2026 03:00 PM | 16-Nov-2026 03:30 PM | 5. Cor-Adm-02 | NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 | 04-Nov-2026 11:00 AM | 04-Nov-2026 11:30 AM | 6. Corrigendum-2 | CON/T/BLSS LEASE/e-104728/2026 | 26-Nov-2026 05:00 PM | 27-Nov-2026 11:30 AM | 7. due date extension | WE-448 | 02-Nov-2026 03:30 PM | 03-Nov-2026 03:30 PM | 8. Addendum 3 | PSB/HO DPO/2026-27/RFP/RGI | 02-Nov-2026 06:00 PM | 03-Nov-2026 06:00 PM | 9. 2026_CONCR_853143_1 | CON/AI/PLIL/CCPAV/E103763 | 30-Oct-2026 05:00 PM | 02-Nov-2026 03:00 PM | 10. DUE DATE EXTENSION | ENQ-36/AE(M)/2026-27/936 | 03-Nov-2026 04:00 PM | 04-Nov-2026 06:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 6. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions GEM/2026/B/8187387 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 6. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions GEM/2026/B/8187387 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 6. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions GEM/2026/B/8187387 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 6. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions GEM/2026/B/8187387 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 6. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions GEM/2026/B/8187387 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM | 1. TNO272-OCT26-EAST | BANDR/71149/HR-EQPT/NIT/SC/01 | 05-Nov-2026 06:55 PM | 06-Nov-2026 06:55 PM | 2. PROCUREMENT OF INDUSTRIAL GASES | 1100000887 | 07-Nov-2026 10:00 AM | 07-Nov-2026 10:30 AM | 3. GLAND PACKING GRAPHITE , ENG ITEM | R/CM/ENG/PR-3500003105/26 | 16-Nov-2026 02:00 PM | 16-Nov-2026 02:00 PM | 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. | NBCC/SBGWB/IITKGP/2026/411 | 04-Nov-2026 11:00 AM | 04-Nov-2026 11:30 AM | 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost | TENDER/MKT/AGRIINPUTS/2026-27 | 04-Nov-2026 02:00 PM | 04-Nov-2026 03:00 PM | 6. Temporary Event Infrastructure | ICAI/WOFA2026/INFRA/OCT/001 | 12-Nov-2026 05:00 PM | 13-Nov-2026 11:00 AM | 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 | B AND R /DSP/71172/NIT/HIRING VEHICLE/02 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT | STORE-104/4/2026-STPUR SEC/33 | 12-Nov-2026 05:00 PM | 13-Nov-2026 10:00 AM | 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 | HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions | GEM/2026/B/8187387 | 18-Nov-2026 03:00 PM | 19-Nov-2026 03:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM | 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL | CO PROC 3965 2026 | 03-Nov-2026 03:00 PM | 03-Nov-2026 03:30 PM | 2. Corrigendum 1 and Reply to Pre bid queries | 05/51/I/0080/RBI/001 | 05-Nov-2026 03:00 PM | 06-Nov-2026 03:00 PM | 3. Date Corrigendum 4 | BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 4. Extension_4 | PE-296 | 12-Nov-2026 03:00 PM | 16-Nov-2026 03:30 PM | 5. Cor-Adm-02 | NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 | 04-Nov-2026 11:00 AM | 04-Nov-2026 11:30 AM | 6. Corrigendum-2 | CON/T/BLSS LEASE/e-104728/2026 | 26-Nov-2026 05:00 PM | 27-Nov-2026 11:30 AM | 7. due date extension | WE-448 | 02-Nov-2026 03:30 PM | 03-Nov-2026 03:30 PM | 8. Addendum 3 | PSB/HO DPO/2026-27/RFP/RGI | 02-Nov-2026 06:00 PM | 03-Nov-2026 06:00 PM | 9. 2026_CONCR_853143_1 | CON/AI/PLIL/CCPAV/E103763 | 30-Oct-2026 05:00 PM | 02-Nov-2026 03:00 PM | 10. DUE DATE EXTENSION | ENQ-36/AE(M)/2026-27/936 | 03-Nov-2026 04:00 PM | 04-Nov-2026 06:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,21 +520,21 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 7. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Elisa Kit Pur/PP 4021/e-file 298780/26-27 09-Nov-2026 03:00 PM 09-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 6. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions GEM/2026/B/8187387 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 7. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Elisa Kit Pur/PP 4021/e-file 298780/26-27 09-Nov-2026 03:00 PM 09-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 6. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions GEM/2026/B/8187387 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. CORRIGENDUM II EMPANELMENT OF BOOK RUNNING LEAD MANAGERS (BRLMs)/MARCHANT BANKERS TO RAISE EQUITY CAPITAL CO PROC 3965 2026 03-Nov-2026 03:00 PM 03-Nov-2026 03:30 PM 2. Corrigendum 1 and Reply to Pre bid queries 05/51/I/0080/RBI/001 05-Nov-2026 03:00 PM 06-Nov-2026 03:00 PM 3. Date Corrigendum 4 BANDR/71149/IOCL/BOLT TENSIONING/SITE/SC/NIT/01 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 4. Extension_4 PE-296 12-Nov-2026 03:00 PM 16-Nov-2026 03:30 PM 5. Cor-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. Corrigendum-2 CON/T/BLSS LEASE/e-104728/2026 26-Nov-2026 05:00 PM 27-Nov-2026 11:30 AM 7. due date extension WE-448 02-Nov-2026 03:30 PM 03-Nov-2026 03:30 PM 8. Addendum 3 PSB/HO DPO/2026-27/RFP/RGI 02-Nov-2026 06:00 PM 03-Nov-2026 06:00 PM 9. 2026_CONCR_853143_1 CON/AI/PLIL/CCPAV/E103763 30-Oct-2026 05:00 PM 02-Nov-2026 03:00 PM 10. DUE DATE EXTENSION ENQ-36/AE(M)/2026-27/936 03-Nov-2026 04:00 PM 04-Nov-2026 06:00 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 7. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Elisa Kit Pur/PP 4021/e-file 298780/26-27 09-Nov-2026 03:00 PM 09-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 7. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Elisa Kit Pur/PP 4021/e-file 298780/26-27 09-Nov-2026 03:00 PM 09-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 6. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions GEM/2026/B/8187387 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 6. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions GEM/2026/B/8187387 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 7. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Elisa Kit Pur/PP 4021/e-file 298780/26-27 09-Nov-2026 03:00 PM 09-Nov-2026 04:00 PM",
+          "1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 6. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions GEM/2026/B/8187387 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM",
           "1. TNO272-OCT26-EAST",
           "BANDR/71149/HR-EQPT/NIT/SC/01",
           "05-Nov-2026 06:55 PM",
@@ -547,22 +547,22 @@
           "R/CM/ENG/PR-3500003105/26",
           "16-Nov-2026 02:00 PM",
           "16-Nov-2026 02:00 PM",
-          "4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost",
-          "TENDER/MKT/AGRIINPUTS/2026-27",
-          "04-Nov-2026 02:00 PM",
-          "04-Nov-2026 03:00 PM",
-          "5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur.",
+          "4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur.",
           "NBCC/SBGWB/IITKGP/2026/411",
           "04-Nov-2026 11:00 AM",
           "04-Nov-2026 11:30 AM",
-          "6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
-          "B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
-          "06-Nov-2026 06:55 PM",
-          "07-Nov-2026 06:55 PM",
-          "7. Temporary Event Infrastructure",
+          "5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost",
+          "TENDER/MKT/AGRIINPUTS/2026-27",
+          "04-Nov-2026 02:00 PM",
+          "04-Nov-2026 03:00 PM",
+          "6. Temporary Event Infrastructure",
           "ICAI/WOFA2026/INFRA/OCT/001",
           "12-Nov-2026 05:00 PM",
           "13-Nov-2026 11:00 AM",
+          "7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
+          "B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
+          "06-Nov-2026 06:55 PM",
+          "07-Nov-2026 06:55 PM",
           "8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT",
           "STORE-104/4/2026-STPUR SEC/33",
           "12-Nov-2026 05:00 PM",
@@ -571,10 +571,10 @@
           "HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25",
           "02-Nov-2026 06:55 PM",
           "03-Nov-2026 06:55 PM",
-          "10. Elisa Kit",
-          "Pur/PP 4021/e-file 298780/26-27",
-          "09-Nov-2026 03:00 PM",
-          "09-Nov-2026 04:00 PM",
+          "10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions",
+          "GEM/2026/B/8187387",
+          "18-Nov-2026 03:00 PM",
+          "19-Nov-2026 03:00 PM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.613Z",
-      "evidenceHash": "7221fcfd6efc7e32ae8404afbab8896f25e7f17434cafd40ee9c0dd2a4d27956"
+      "observedAt": "2026-10-28T23:12:00.843Z",
+      "evidenceHash": "9eb36c281193d5b9aa146fd8b80e2d8d28e64b62620ad950cb0ab3e8d278d788"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.613Z",
+      "observedAt": "2026-10-28T23:12:00.844Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,24 +727,24 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.613Z",
+      "observedAt": "2026-10-28T23:12:00.845Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-tno272-oct26-east-bandr/71149/hr-eqpt/nit/sc/01-05-nov-2026-06:55-pm-06-nov-2026-06:55-pm-2.-procurement-of-industrial-gases-1100000887-07-nov-2026-10:00-am-07-nov-2026-10:30-am-3.-gland-packing-graphite-,-eng-item-r/cm/eng/pr-3500003105/26-16-nov-2026-02:00-pm-16-nov-2026-02:00-pm-4.-tender-for-the-supply-of-neem-cake,-neem-oil-300-ppm,-humic-acid-12.5-percent,-spirulina,-humic-and-fulvic-acid-7.5-percent-and-vermicompost-tender/mkt/agriinputs/2026-27-04-nov-2026-02:00-pm-04-nov-2026-03:00-pm-5.-construction-of-additional-works-of-a-type-faculty-housing-at-iit,-kharagpur.-nbcc/sbgwb/iitkgp/2026/411-04-nov-2026-11:00-am-04-nov-2026-11:30-am-6.-b-and-r-/dsp/71172/nit/hiring-vehicle/02-b-and-r-/dsp/71172/nit/hiring-vehicle/02-06-nov-2026-06:55-pm-07-nov-2026-06:55-pm-7.-temporary-event-infrastructure-icai/wofa2026/infra/oct/001-12-nov-2026-05:00-pm-13-nov-2026-11:00-am-8.-procurement-of-1-no-of-high-flow-insufflator-with-integrated-smoke-evacuator-make-olympus-for-mot-store-104/4/2026-stpur-sec/33-12-nov-2026-05:00-pm-13-nov-2026-10:00-am-9.-hire/excavator-with-rock-breaker/nit/1447/25-hire/excavator-with-rock-breaker/nit/1447/25-02-nov-2026-06:55-pm-03-nov-2026-06:55-pm-10.-elisa-kit-pur/pp-4021/e-file-298780/26-27-09-nov-2026-03:00-pm-09-nov-2026-04:00-pm:1.-tno272-oct26-east-bandr/71149/hr-eqpt/nit/sc/01-05-nov-2026-06:55-pm-06-nov-2026-06:55-pm-2.-procurement-of-industrial-gases-1100000887-07-nov-2026-10:00-am-07-nov-2026-10:30-am-3.-gland-packing-graphite-,-eng-item-r/cm/eng/pr-3500003105/26-16-nov-2026-02:00-pm-16-nov-2026-02:00-pm-4.-tender-for-the-supply-of-neem-cake,-neem-oil-300-ppm,-humic-acid-12.5-percent,-spirulina,-humic-and-fulvic-acid-7.5-percent-and-vermicompost-tender/mkt/agriinputs/2026-27-04-nov-2026-02:00-pm-04-nov-2026-03:00-pm-5.-construction-of-additional-works-of-a-type-faculty-housing-at-iit,-kharagpur.-nbcc/sbgwb/iitkgp/2026/411-04-nov-2026-11:00-am-04-nov-2026-11:30-am-6.-b-and-r-/dsp/71172/nit/hiring-vehicle/02-b-and-r-/dsp/71172/nit/hiring-vehicle/02-06-nov-2026-06:55-pm-07-nov-2026-06:55-pm-7.-temporary-event-infrastructure-icai/wofa2026/infra/oct/001-12-nov-2026-05:00-pm-13-nov-2026-11:00-am-8.-procurement-of-1-no-of-high-flow-insufflator-with-integrated-smoke-evacuator-make-olympus-for-mot-store-104/4/2026-stpur-sec/33-12-nov-2026-05:00-pm-13-nov-2026-10:00-am-9.-hire/excavator-with-rock-breaker/nit/1447/25-hire/excavator-with-rock-breaker/nit/1447/25-02-nov-2026-06:55-pm-03-nov-2026-06:55-pm-10.-elisa-kit-pur/pp-4021/e-file-298780/26-27-09-nov-2026-03:00-pm-09-nov-2026-04:00-pm",
+      "externalKey": "cppp-procurement:1.-tno272-oct26-east-bandr/71149/hr-eqpt/nit/sc/01-05-nov-2026-06:55-pm-06-nov-2026-06:55-pm-2.-procurement-of-industrial-gases-1100000887-07-nov-2026-10:00-am-07-nov-2026-10:30-am-3.-gland-packing-graphite-,-eng-item-r/cm/eng/pr-3500003105/26-16-nov-2026-02:00-pm-16-nov-2026-02:00-pm-4.-construction-of-additional-works-of-a-type-faculty-housing-at-iit,-kharagpur.-nbcc/sbgwb/iitkgp/2026/411-04-nov-2026-11:00-am-04-nov-2026-11:30-am-5.-tender-for-the-supply-of-neem-cake,-neem-oil-300-ppm,-humic-acid-12.5-percent,-spirulina,-humic-and-fulvic-acid-7.5-percent-and-vermicompost-tender/mkt/agriinputs/2026-27-04-nov-2026-02:00-pm-04-nov-2026-03:00-pm-6.-temporary-event-infrastructure-icai/wofa2026/infra/oct/001-12-nov-2026-05:00-pm-13-nov-2026-11:00-am-7.-b-and-r-/dsp/71172/nit/hiring-vehicle/02-b-and-r-/dsp/71172/nit/hiring-vehicle/02-06-nov-2026-06:55-pm-07-nov-2026-06:55-pm-8.-procurement-of-1-no-of-high-flow-insufflator-with-integrated-smoke-evacuator-make-olympus-for-mot-store-104/4/2026-stpur-sec/33-12-nov-2026-05:00-pm-13-nov-2026-10:00-am-9.-hire/excavator-with-rock-breaker/nit/1447/25-hire/excavator-with-rock-breaker/nit/1447/25-02-nov-2026-06:55-pm-03-nov-2026-06:55-pm-10.-deployment-of-maintenance-teams-for-maintenance-of-ofc-cable-network-and-upkeep-of-associated-gears/equipment-for-a-period-of-2-year-and-extendable-by-one-year-on-same-terms-and-conditions-gem/2026/b/8187387-18-nov-2026-03:00-pm-19-nov-2026-03:00-pm:1.-tno272-oct26-east-bandr/71149/hr-eqpt/nit/sc/01-05-nov-2026-06:55-pm-06-nov-2026-06:55-pm-2.-procurement-of-industrial-gases-1100000887-07-nov-2026-10:00-am-07-nov-2026-10:30-am-3.-gland-packing-graphite-,-eng-item-r/cm/eng/pr-3500003105/26-16-nov-2026-02:00-pm-16-nov-2026-02:00-pm-4.-construction-of-additional-works-of-a-type-faculty-housing-at-iit,-kharagpur.-nbcc/sbgwb/iitkgp/2026/411-04-nov-2026-11:00-am-04-nov-2026-11:30-am-5.-tender-for-the-supply-of-neem-cake,-neem-oil-300-ppm,-humic-acid-12.5-percent,-spirulina,-humic-and-fulvic-acid-7.5-percent-and-vermicompost-tender/mkt/agriinputs/2026-27-04-nov-2026-02:00-pm-04-nov-2026-03:00-pm-6.-temporary-event-infrastructure-icai/wofa2026/infra/oct/001-12-nov-2026-05:00-pm-13-nov-2026-11:00-am-7.-b-and-r-/dsp/71172/nit/hiring-vehicle/02-b-and-r-/dsp/71172/nit/hiring-vehicle/02-06-nov-2026-06:55-pm-07-nov-2026-06:55-pm-8.-procurement-of-1-no-of-high-flow-insufflator-with-integrated-smoke-evacuator-make-olympus-for-mot-store-104/4/2026-stpur-sec/33-12-nov-2026-05:00-pm-13-nov-2026-10:00-am-9.-hire/excavator-with-rock-breaker/nit/1447/25-hire/excavator-with-rock-breaker/nit/1447/25-02-nov-2026-06:55-pm-03-nov-2026-06:55-pm-10.-deployment-of-maintenance-teams-for-maintenance-of-ofc-cable-network-and-upkeep-of-associated-gears/equipment-for-a-period-of-2-year-and-extendable-by-one-year-on-same-terms-and-conditions-gem/2026/b/8187387-18-nov-2026-03:00-pm-19-nov-2026-03:00-pm",
       "sensorId": "cppp-procurement",
-      "title": "1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 P",
+      "title": "1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic A",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SJlHp9X1IOEzZod4tzqgilA%3D%3D",
-      "tenderReference": "1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 7. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Elisa Kit Pur/PP 4021/e-file 298780/26-27 09-Nov-2026 03:00 PM 09-Nov-2026 04:00 PM",
+      "tenderReference": "1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 6. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions GEM/2026/B/8187387 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM",
       "geographicPrecision": "unknown",
-      "note": "BANDR/71149/HR-EQPT/NIT/SC/01 | 05-Nov-2026 06:55 PM | 06-Nov-2026 06:55 PM | 2. PROCUREMENT OF INDUSTRIAL GASES | 1100000887 | 07-Nov-2026 10:00 AM | 07-Nov-2026 10:30 AM | 3. GLAND PACKING GRAPHITE , ENG ITEM | R/CM/ENG/PR-3500003105/26 | 16-Nov-2026 02:00 PM | 16-Nov-2026 02:00 PM | 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost | TENDER/MKT/AGRIINPUTS/2026-27 | 04-Nov-2026 02:00 PM | 04-Nov-2026 03:00 PM | 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. | NBCC/SBGWB/IITKGP/2026/411 | 04-Nov-2026 11:00 AM | 04-Nov-2026 11:30 AM | 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 | B AND R /DSP/71172/NIT/HIRING VEHICLE/02 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 7. Temporary Event Infrastructure | ICAI/WOFA2026/INFRA/OCT/001 | 12-Nov-2026 05:00 PM | 13-Nov-2026 11:00 AM | 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT | STORE-104/4/2026-STPUR SEC/33 | 12-Nov-2026 05:00 PM | 13-Nov-2026 10:00 AM | 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 | HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 10. Elisa Kit | Pur/PP 4021/e-file 298780/26-27 | 09-Nov-2026 03:00 PM | 09-Nov-2026 04:00 PM",
+      "note": "BANDR/71149/HR-EQPT/NIT/SC/01 | 05-Nov-2026 06:55 PM | 06-Nov-2026 06:55 PM | 2. PROCUREMENT OF INDUSTRIAL GASES | 1100000887 | 07-Nov-2026 10:00 AM | 07-Nov-2026 10:30 AM | 3. GLAND PACKING GRAPHITE , ENG ITEM | R/CM/ENG/PR-3500003105/26 | 16-Nov-2026 02:00 PM | 16-Nov-2026 02:00 PM | 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. | NBCC/SBGWB/IITKGP/2026/411 | 04-Nov-2026 11:00 AM | 04-Nov-2026 11:30 AM | 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost | TENDER/MKT/AGRIINPUTS/2026-27 | 04-Nov-2026 02:00 PM | 04-Nov-2026 03:00 PM | 6. Temporary Event Infrastructure | ICAI/WOFA2026/INFRA/OCT/001 | 12-Nov-2026 05:00 PM | 13-Nov-2026 11:00 AM | 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 | B AND R /DSP/71172/NIT/HIRING VEHICLE/02 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT | STORE-104/4/2026-STPUR SEC/33 | 12-Nov-2026 05:00 PM | 13-Nov-2026 10:00 AM | 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 | HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 | 02-Nov-2026 06:55 PM | 03-Nov-2026 06:55 PM | 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions | GEM/2026/B/8187387 | 18-Nov-2026 03:00 PM | 19-Nov-2026 03:00 PM",
       "raw": {
         "cells": [
-          "1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 7. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Elisa Kit Pur/PP 4021/e-file 298780/26-27 09-Nov-2026 03:00 PM 09-Nov-2026 04:00 PM",
+          "1. TNO272-OCT26-EAST BANDR/71149/HR-EQPT/NIT/SC/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 2. PROCUREMENT OF INDUSTRIAL GASES 1100000887 07-Nov-2026 10:00 AM 07-Nov-2026 10:30 AM 3. GLAND PACKING GRAPHITE , ENG ITEM R/CM/ENG/PR-3500003105/26 16-Nov-2026 02:00 PM 16-Nov-2026 02:00 PM 4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur. NBCC/SBGWB/IITKGP/2026/411 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost TENDER/MKT/AGRIINPUTS/2026-27 04-Nov-2026 02:00 PM 04-Nov-2026 03:00 PM 6. Temporary Event Infrastructure ICAI/WOFA2026/INFRA/OCT/001 12-Nov-2026 05:00 PM 13-Nov-2026 11:00 AM 7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02 B AND R /DSP/71172/NIT/HIRING VEHICLE/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT STORE-104/4/2026-STPUR SEC/33 12-Nov-2026 05:00 PM 13-Nov-2026 10:00 AM 9. HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25 02-Nov-2026 06:55 PM 03-Nov-2026 06:55 PM 10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions GEM/2026/B/8187387 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM",
           "1. TNO272-OCT26-EAST",
           "BANDR/71149/HR-EQPT/NIT/SC/01",
           "05-Nov-2026 06:55 PM",
@@ -757,22 +757,22 @@
           "R/CM/ENG/PR-3500003105/26",
           "16-Nov-2026 02:00 PM",
           "16-Nov-2026 02:00 PM",
-          "4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost",
-          "TENDER/MKT/AGRIINPUTS/2026-27",
-          "04-Nov-2026 02:00 PM",
-          "04-Nov-2026 03:00 PM",
-          "5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur.",
+          "4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur.",
           "NBCC/SBGWB/IITKGP/2026/411",
           "04-Nov-2026 11:00 AM",
           "04-Nov-2026 11:30 AM",
-          "6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
-          "B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
-          "06-Nov-2026 06:55 PM",
-          "07-Nov-2026 06:55 PM",
-          "7. Temporary Event Infrastructure",
+          "5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost",
+          "TENDER/MKT/AGRIINPUTS/2026-27",
+          "04-Nov-2026 02:00 PM",
+          "04-Nov-2026 03:00 PM",
+          "6. Temporary Event Infrastructure",
           "ICAI/WOFA2026/INFRA/OCT/001",
           "12-Nov-2026 05:00 PM",
           "13-Nov-2026 11:00 AM",
+          "7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
+          "B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
+          "06-Nov-2026 06:55 PM",
+          "07-Nov-2026 06:55 PM",
           "8. Procurement of 1 No of High Flow Insufflator with integrated Smoke Evacuator Make Olympus for MOT",
           "STORE-104/4/2026-STPUR SEC/33",
           "12-Nov-2026 05:00 PM",
@@ -781,14 +781,14 @@
           "HIRE/EXCAVATOR WITH ROCK BREAKER/NIT/1447/25",
           "02-Nov-2026 06:55 PM",
           "03-Nov-2026 06:55 PM",
-          "10. Elisa Kit",
-          "Pur/PP 4021/e-file 298780/26-27",
-          "09-Nov-2026 03:00 PM",
-          "09-Nov-2026 04:00 PM"
+          "10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions",
+          "GEM/2026/B/8187387",
+          "18-Nov-2026 03:00 PM",
+          "19-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.614Z",
-      "evidenceHash": "2540be0b3f79fa28846865e6fda0af423725c2f2591c62579e4f1fbb37fa6521"
+      "observedAt": "2026-10-28T23:12:00.848Z",
+      "evidenceHash": "8cf0900c23bc4a11e6e6b66751afbb94f99e169b35502562167b2bcb73dc4a4b"
     },
     {
       "externalKey": "cppp-procurement:bandr/71149/hr-eqpt/nit/sc/01:1.-tno272-oct26-east",
@@ -810,7 +810,7 @@
           "06-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.614Z",
+      "observedAt": "2026-10-28T23:12:00.848Z",
       "evidenceHash": "6dcb6d8fc78d48da43c523ba473616f946c1f42a6aa6d90e65c9d441eea3394a"
     },
     {
@@ -833,7 +833,7 @@
           "07-Nov-2026 10:30 AM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.614Z",
+      "observedAt": "2026-10-28T23:12:00.849Z",
       "evidenceHash": "05c2b3575fcde8f75373e41e730e1549c567d54c3c3c9ec37a2e8f6c9533ae94"
     },
     {
@@ -856,36 +856,13 @@
           "16-Nov-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.614Z",
+      "observedAt": "2026-10-28T23:12:00.849Z",
       "evidenceHash": "6643af3ffa948eedb918f6cfd58daf47c06a5d7b8fed7a1e66649b0a99845fc3"
     },
     {
-      "externalKey": "cppp-procurement:4.-tender-for-the-supply-of-neem-cake,-neem-oil-300-ppm,-humic-acid-12.5-percent,-spirulina,-humic-and-fulvic-acid-7.5-percent-and-vermicompost:4.-tender-for-the-supply-of-neem-cake,-neem-oil-300-ppm,-humic-acid-12.5-percent,-spirulina,-humic-and-fulvic-acid-7.5-percent-and-vermicompost",
+      "externalKey": "cppp-procurement:nbcc/sbgwb/iitkgp/2026/411:4.-construction-of-additional-works-of-a-type-faculty-housing-at-iit,-kharagpur.",
       "sensorId": "cppp-procurement",
-      "title": "4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Sm%2BXd1tSS1JKcFe%2By0ET%2Bng%3D%3D",
-      "tenderReference": "4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost",
-      "geographicPrecision": "unknown",
-      "note": "04-Nov-2026 02:00 PM | 04-Nov-2026 03:00 PM",
-      "raw": {
-        "cells": [
-          "4. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost",
-          "TENDER/MKT/AGRIINPUTS/2026-27",
-          "04-Nov-2026 02:00 PM",
-          "04-Nov-2026 03:00 PM"
-        ]
-      },
-      "observedAt": "2026-10-28T18:50:06.614Z",
-      "evidenceHash": "da6bb780bf5f065558a02b46838220e8f217c6790e70127bc155a86dd28dc9dd"
-    },
-    {
-      "externalKey": "cppp-procurement:nbcc/sbgwb/iitkgp/2026/411:5.-construction-of-additional-works-of-a-type-faculty-housing-at-iit,-kharagpur.",
-      "sensorId": "cppp-procurement",
-      "title": "5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur.",
+      "title": "4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur.",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -896,42 +873,42 @@
       "note": "04-Nov-2026 11:00 AM | 04-Nov-2026 11:30 AM",
       "raw": {
         "cells": [
-          "5. Construction of additional works of A-Type faculty housing at IIT, Kharagpur.",
+          "4. Construction of additional works of A-Type faculty housing at IIT, Kharagpur.",
           "NBCC/SBGWB/IITKGP/2026/411",
           "04-Nov-2026 11:00 AM",
           "04-Nov-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.614Z",
-      "evidenceHash": "657bf2bde70706f14e850f16e889c2975f306d11e075e8078b9b7f97a05d033d"
+      "observedAt": "2026-10-28T23:12:00.849Z",
+      "evidenceHash": "8c06301add5345c1a9699561d4459ca61c8e1d4bae7fda56d76f3d4d54e5d2a5"
     },
     {
-      "externalKey": "cppp-procurement:b-and-r-/dsp/71172/nit/hiring-vehicle/02:6.-b-and-r-/dsp/71172/nit/hiring-vehicle/02",
+      "externalKey": "cppp-procurement:5.-tender-for-the-supply-of-neem-cake,-neem-oil-300-ppm,-humic-acid-12.5-percent,-spirulina,-humic-and-fulvic-acid-7.5-percent-and-vermicompost:5.-tender-for-the-supply-of-neem-cake,-neem-oil-300-ppm,-humic-acid-12.5-percent,-spirulina,-humic-and-fulvic-acid-7.5-percent-and-vermicompost",
       "sensorId": "cppp-procurement",
-      "title": "6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
+      "title": "5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SsUVNeeCr%2FC1Leh9pmkZOyQ%3D%3D",
-      "tenderReference": "B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Sm%2BXd1tSS1JKcFe%2By0ET%2Bng%3D%3D",
+      "tenderReference": "5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost",
       "geographicPrecision": "unknown",
-      "note": "06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM",
+      "note": "04-Nov-2026 02:00 PM | 04-Nov-2026 03:00 PM",
       "raw": {
         "cells": [
-          "6. B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
-          "B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
-          "06-Nov-2026 06:55 PM",
-          "07-Nov-2026 06:55 PM"
+          "5. Tender for the supply of Neem Cake, Neem Oil 300 ppm, Humic Acid 12.5 percent, Spirulina, Humic and Fulvic Acid 7.5 percent and Vermicompost",
+          "TENDER/MKT/AGRIINPUTS/2026-27",
+          "04-Nov-2026 02:00 PM",
+          "04-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.614Z",
-      "evidenceHash": "1a0c4fb82d2d15d630f7b77455a824255b2dc6f2018eb9609f2cd1d34f0797df"
+      "observedAt": "2026-10-28T23:12:00.849Z",
+      "evidenceHash": "f5e106a97ad1a7e56e6f6c599e0824c018f2cc99d03193dff7797b627cce198f"
     },
     {
-      "externalKey": "cppp-procurement:icai/wofa2026/infra/oct/001:7.-temporary-event-infrastructure",
+      "externalKey": "cppp-procurement:icai/wofa2026/infra/oct/001:6.-temporary-event-infrastructure",
       "sensorId": "cppp-procurement",
-      "title": "7. Temporary Event Infrastructure",
+      "title": "6. Temporary Event Infrastructure",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -942,14 +919,37 @@
       "note": "12-Nov-2026 05:00 PM | 13-Nov-2026 11:00 AM",
       "raw": {
         "cells": [
-          "7. Temporary Event Infrastructure",
+          "6. Temporary Event Infrastructure",
           "ICAI/WOFA2026/INFRA/OCT/001",
           "12-Nov-2026 05:00 PM",
           "13-Nov-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.614Z",
-      "evidenceHash": "bf56d69e6fcbdd4b400ab99cf75ef1e1e355eeb4210cf1c1cfd852142e8b9bc8"
+      "observedAt": "2026-10-28T23:12:00.849Z",
+      "evidenceHash": "b2d27a88980c9b98fbc2c2a4eb99b6ef7a32c1a00c42626e0259768b59fe4874"
+    },
+    {
+      "externalKey": "cppp-procurement:b-and-r-/dsp/71172/nit/hiring-vehicle/02:7.-b-and-r-/dsp/71172/nit/hiring-vehicle/02",
+      "sensorId": "cppp-procurement",
+      "title": "7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SsUVNeeCr%2FC1Leh9pmkZOyQ%3D%3D",
+      "tenderReference": "B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
+      "geographicPrecision": "unknown",
+      "note": "06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM",
+      "raw": {
+        "cells": [
+          "7. B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
+          "B AND R /DSP/71172/NIT/HIRING VEHICLE/02",
+          "06-Nov-2026 06:55 PM",
+          "07-Nov-2026 06:55 PM"
+        ]
+      },
+      "observedAt": "2026-10-28T23:12:00.849Z",
+      "evidenceHash": "2aa18699429bb5bfc63142c15d13ee1916c9c624d09aa810e40bb037fe1da978"
     },
     {
       "externalKey": "cppp-procurement:store-104/4/2026-stpur-sec/33:8.-procurement-of-1-no-of-high-flow-insufflator-with-integrated-smoke-evacuator-make-olympus-for-mot",
@@ -971,7 +971,7 @@
           "13-Nov-2026 10:00 AM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.614Z",
+      "observedAt": "2026-10-28T23:12:00.849Z",
       "evidenceHash": "4ec4303d39b173be79f03604fd028c390a90cb8ed7e6e742830940a474a1af27"
     },
     {
@@ -994,31 +994,31 @@
           "03-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.849Z",
       "evidenceHash": "f3044331d4f7464b345ab8d54901934bcff5d90aaa1f98564d80d3f73e3865b8"
     },
     {
-      "externalKey": "cppp-procurement:pur/pp-4021/e-file-298780/26-27:10.-elisa-kit",
+      "externalKey": "cppp-procurement:gem/2026/b/8187387:10.-deployment-of-maintenance-teams-for-maintenance-of-ofc-cable-network-and-upkeep-of-associated-gears/equipment-for-a-period-of-2-year-and-extendable-by-one-year-on-same-terms-and-conditions",
       "sensorId": "cppp-procurement",
-      "title": "10. Elisa Kit",
+      "title": "10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SrgvzHuWggfwpw%2FoLlKsh0g%3D%3D",
-      "tenderReference": "Pur/PP 4021/e-file 298780/26-27",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S98gm4baOBVQvtjiBn0Yvlw%3D%3D",
+      "tenderReference": "GEM/2026/B/8187387",
       "geographicPrecision": "unknown",
-      "note": "09-Nov-2026 03:00 PM | 09-Nov-2026 04:00 PM",
+      "note": "18-Nov-2026 03:00 PM | 19-Nov-2026 03:00 PM",
       "raw": {
         "cells": [
-          "10. Elisa Kit",
-          "Pur/PP 4021/e-file 298780/26-27",
-          "09-Nov-2026 03:00 PM",
-          "09-Nov-2026 04:00 PM"
+          "10. Deployment of maintenance teams for maintenance of OFC cable network and upkeep of associated gears/equipment for a period of 2 year and extendable by one year on same terms and conditions",
+          "GEM/2026/B/8187387",
+          "18-Nov-2026 03:00 PM",
+          "19-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
-      "evidenceHash": "1cd455202c529df38ce9bedf02fa9381fac771835f06fd91ee93dff70f1cd9c1"
+      "observedAt": "2026-10-28T23:12:00.849Z",
+      "evidenceHash": "9a66ae97d9644e0b22a0702ff6f32fb0b645ea65209acee21daa1e4c9c5b1454"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.849Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.850Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "04-Nov-2026 06:00 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.850Z",
       "evidenceHash": "45627343afbf9012babdbaf69d398e123c9992adc5ece02677ec0376067aa7b2"
     },
     {
@@ -1143,7 +1143,7 @@
           "03-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.850Z",
       "evidenceHash": "e4edf6aaef19940bf15424566c7ac3dc7982af85145669ed9e3421ea23c559cc"
     },
     {
@@ -1166,7 +1166,7 @@
           "06-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.851Z",
       "evidenceHash": "c381887d6366d3deb61ed94f51c446b5f84a131e4e13c93aac9cf85e84a3dd05"
     },
     {
@@ -1189,7 +1189,7 @@
           "03-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.851Z",
       "evidenceHash": "4c118c6f893517dd592bc3e70d0ef86293940a6771ac42e47592e0ebf1bb0a8d"
     },
     {
@@ -1212,7 +1212,7 @@
           "16-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.851Z",
       "evidenceHash": "88656727da15e5c67c6cb741c9183f77b3cb153d8380becdfb0dbb504b39ecab"
     },
     {
@@ -1235,7 +1235,7 @@
           "04-Nov-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.851Z",
       "evidenceHash": "f2d1071672a093ad44ddd3fb8fae11ae8d8ece650e39cf9087443be30e1b939b"
     },
     {
@@ -1258,7 +1258,7 @@
           "27-Nov-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.851Z",
       "evidenceHash": "725a4cf51df2edaab3ca95755ce0bba6fcf1f94336c197bd58e5f4d96641322e"
     },
     {
@@ -1281,7 +1281,7 @@
           "03-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.851Z",
       "evidenceHash": "dd1beef89ed08f9ea9df143e723232d37d5c168d672a4e6e7b5398ad5b4e872a"
     },
     {
@@ -1304,7 +1304,7 @@
           "03-Nov-2026 06:00 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.851Z",
       "evidenceHash": "19cd1fa3afe45df75e8b51de98c0166609896f6c3c99e297c40a78b833561738"
     },
     {
@@ -1327,7 +1327,7 @@
           "02-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.851Z",
       "evidenceHash": "0892a14fb03c4382fbdc246c033c6e9d14eeba4e8eb238a6c8a9ea11b8a95439"
     },
     {
@@ -1350,7 +1350,7 @@
           "04-Nov-2026 06:00 PM"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.851Z",
       "evidenceHash": "80af72cfcf74e55833c963d81b2920702566e14aafef2d6cf05e5b110ec79795"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.851Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.615Z",
+      "observedAt": "2026-10-28T23:12:00.851Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.616Z",
+      "observedAt": "2026-10-28T23:12:00.852Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.616Z",
+      "observedAt": "2026-10-28T23:12:00.852Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.616Z",
+      "observedAt": "2026-10-28T23:12:00.852Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.616Z",
+      "observedAt": "2026-10-28T23:12:00.853Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.616Z",
+      "observedAt": "2026-10-28T23:12:00.853Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.616Z",
+      "observedAt": "2026-10-28T23:12:00.853Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.616Z",
+      "observedAt": "2026-10-28T23:12:00.853Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.616Z",
+      "observedAt": "2026-10-28T23:12:00.853Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.616Z",
+      "observedAt": "2026-10-28T23:12:00.854Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.616Z",
+      "observedAt": "2026-10-28T23:12:00.854Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-28T18:50:06.616Z",
+      "observedAt": "2026-10-28T23:12:00.854Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "125835"
       },
-      "observedAt": "2026-10-28T18:50:16.538Z",
+      "observedAt": "2026-10-28T23:12:04.967Z",
       "evidenceHash": "693f8076419a13c59c4aad4c4a8f8a7323f33d55903c9e7d63b5a135a75ecfa2"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "125830"
       },
-      "observedAt": "2026-10-28T18:50:16.539Z",
+      "observedAt": "2026-10-28T23:12:04.967Z",
       "evidenceHash": "5cfbd2ce08b6de0ff1d70c251045d519312b60a68b5b53ad8ebbad71ee82f064"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "125829"
       },
-      "observedAt": "2026-10-28T18:50:16.539Z",
+      "observedAt": "2026-10-28T23:12:04.967Z",
       "evidenceHash": "2f0b6182addd14efa4bdb5ca4f16fa2a2c0feeea4a21d9900843072f9bd8df90"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "125828"
       },
-      "observedAt": "2026-10-28T18:50:16.539Z",
+      "observedAt": "2026-10-28T23:12:04.967Z",
       "evidenceHash": "5d28e4d26249fb281735dac989a06f0501292736cba1936d235185bccd9afc41"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "125827"
       },
-      "observedAt": "2026-10-28T18:50:16.539Z",
+      "observedAt": "2026-10-28T23:12:04.967Z",
       "evidenceHash": "2db2e1f6ae23af8dab9b08c7d2975228f077034603fb4f0360e269c58fdb02a0"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "125728"
       },
-      "observedAt": "2026-10-28T18:50:16.539Z",
+      "observedAt": "2026-10-28T23:12:04.967Z",
       "evidenceHash": "83e9b943800eeec78a0206b4045e1b74d45424412151a3e51ef79c8123ef8d20"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "125712"
       },
-      "observedAt": "2026-10-28T18:50:16.539Z",
+      "observedAt": "2026-10-28T23:12:04.967Z",
       "evidenceHash": "49fead40de686e1e2e7056517252cdbc91195f214b26fdfdbc038e4e3115e80d"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "125624"
       },
-      "observedAt": "2026-10-28T18:50:16.539Z",
+      "observedAt": "2026-10-28T23:12:04.967Z",
       "evidenceHash": "fd060fe7ff79e5a2837873cf49572c82f56ac410a4fa0c9d40381174facaa68d"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "125602"
       },
-      "observedAt": "2026-10-28T18:50:16.539Z",
+      "observedAt": "2026-10-28T23:12:04.967Z",
       "evidenceHash": "857698c208374a8e9f7558e800c4c1d89679206247d8e9d3a0ff39787ea05ca6"
     },
     {
@@ -1806,7 +1806,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-28T18:50:08.671Z",
+      "observedAt": "2026-10-28T23:12:02.354Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1819,7 +1819,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-28T18:50:08.673Z",
+      "observedAt": "2026-10-28T23:12:02.356Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1832,7 +1832,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-28T18:50:08.673Z",
+      "observedAt": "2026-10-28T23:12:02.356Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1845,7 +1845,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-28T18:50:08.673Z",
+      "observedAt": "2026-10-28T23:12:02.356Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1858,7 +1858,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-10-28T18:50:08.673Z",
+      "observedAt": "2026-10-28T23:12:02.356Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1872,7 +1872,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-28T18:50:08.673Z",
+      "observedAt": "2026-10-28T23:12:02.356Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1886,7 +1886,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-28T18:50:08.673Z",
+      "observedAt": "2026-10-28T23:12:02.356Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1900,7 +1900,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-10-28T18:50:08.673Z",
+      "observedAt": "2026-10-28T23:12:02.356Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1919,7 +1919,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-10-28T18:50:40.274Z",
+      "observedAt": "2026-10-28T23:12:34.643Z",
       "evidenceHash": "61bd51e18f1d42812bd6bab3510326a0780d9cf2164adb00f40f68d4d1cf50ea"
     },
     {
@@ -1938,7 +1938,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-10-28T18:50:40.276Z",
+      "observedAt": "2026-10-28T23:12:34.650Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1957,7 +1957,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-10-28T18:50:40.276Z",
+      "observedAt": "2026-10-28T23:12:34.650Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -1976,7 +1976,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-10-28T18:50:40.276Z",
+      "observedAt": "2026-10-28T23:12:34.650Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -1995,7 +1995,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-10-28T18:50:40.276Z",
+      "observedAt": "2026-10-28T23:12:34.650Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2014,7 +2014,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-10-28T18:50:40.276Z",
+      "observedAt": "2026-10-28T23:12:34.650Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2033,7 +2033,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-10-28T18:50:40.276Z",
+      "observedAt": "2026-10-28T23:12:34.650Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2051,7 +2051,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-10-28T18:50:39.811Z",
+      "observedAt": "2026-10-28T23:12:35.804Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
