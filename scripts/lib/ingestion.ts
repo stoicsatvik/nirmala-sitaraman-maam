@@ -7,6 +7,7 @@ export type RecordState =
   | "revised"
   | "sanctioned"
   | "released"
+  | "tendered"
   | "procured"
   | "paid"
   | "delivered"
