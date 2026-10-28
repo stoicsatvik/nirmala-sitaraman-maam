@@ -31,6 +31,7 @@ type LiveRecord = {
   longitude?: number;
   vendor?: string;
   tenderReference?: string;
+  raw?: { publicationKind?: "tender" | "corrigendum"; [key: string]: unknown };
 };
 
 type LiveSnapshot = {
@@ -97,7 +98,10 @@ function buildCoverage(snapshot: LiveSnapshot): CoverageRow[] {
   const bmcTenders = sensorById.get("bmc-tenders");
   const tenderSensorIds = new Set(["cppp-procurement", "gem-bids", "bmc-tenders"]);
 
-  const tenderRecords = snapshot.records.filter((record) => tenderSensorIds.has(record.sensorId));
+  const tenderRecords = snapshot.records.filter((record) =>
+    tenderSensorIds.has(record.sensorId) &&
+    (record.sensorId !== "cppp-procurement" || record.raw?.publicationKind === "tender")
+  );
   const awardRecords = snapshot.records.filter(
     (record) => record.sensorId === "cppp-contract-awards" && stageForObservation(record.sensorId, record.state) === "procured"
   );
@@ -224,7 +228,14 @@ export async function mountLiveTracking(): Promise<void> {
     const response = await fetch(`/data/live/latest.json?ts=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`snapshot HTTP ${response.status}`);
     const snapshot = (await response.json()) as LiveSnapshot;
-    const coverage = buildCoverage(snapshot);
+    // Legacy CPPP snapshots contain page-furniture false positives. Fail closed
+    // until the new parser supplies an explicit source-section identity.
+    const safeRecords = snapshot.records.filter((record) =>
+      record.sensorId !== "cppp-procurement" ||
+      record.raw?.publicationKind === "tender" ||
+      record.raw?.publicationKind === "corrigendum"
+    );
+    const coverage = buildCoverage({ ...snapshot, records: safeRecords });
 
     const coverageRows = coverage
       .map(
@@ -251,7 +262,7 @@ export async function mountLiveTracking(): Promise<void> {
       )
       .join("");
 
-    const recentRecords = snapshot.records
+    const recentRecords = safeRecords
       .slice(0, 20)
       .map(
         (record) => `
@@ -283,7 +294,7 @@ export async function mountLiveTracking(): Promise<void> {
       </div>
       <div class="model-banner">
         <div><span>Healthy sensors</span><strong>${snapshot.summary.healthySensors}/${snapshot.summary.sensors}</strong></div>
-        <div><span>Current observations</span><strong>${snapshot.summary.records}</strong></div>
+        <div><span>Displayed observations (legacy CPPP quarantined)</span><strong>${safeRecords.length}</strong></div>
         <p>${escapeHtml(snapshot.semantics.live ?? "")}</p>
       </div>
 
