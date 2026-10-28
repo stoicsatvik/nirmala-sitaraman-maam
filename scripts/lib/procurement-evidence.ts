@@ -35,7 +35,7 @@ export function parseCpppTenderCells(cells: string[]): CpppTenderRow | undefined
   if (!titleMatch || !isPlausibleTenderReference(reference)) return undefined;
   if (!isOfficialDate(closingDate) || !isOfficialDate(openingDate)) return undefined;
   const title = titleMatch[1];
-  if (/^(?:corrigendum|corregendum|corr[- ]|due date extension|tender date extension)/i.test(title)) return undefined;
+  if (/(?:corrigendum|corregendum|\\bcorr[- ]|date extension|extension of date|due date extension)/i.test(title)) return undefined;
   return { title, reference, closingDate, openingDate, sourceCells: cells };
 }
 
