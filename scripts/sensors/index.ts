@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import { runCgaSensor } from "./cga";
+import { extractCpppTenderRows, resolveOfficialTenderUrl } from "../lib/procurement-evidence";
 import {
   fetchText,
   makeObservedRecord,
@@ -144,40 +145,40 @@ async function tableProcurementSensor(sensor: SensorDefinition, jurisdiction: st
   const fetchedAt = new Date().toISOString();
   try {
     const html = await fetchText(sensor.sourceUrl);
-    const $ = cheerio.load(html);
-    const records = $("table tr")
-      .toArray()
-      .map((row) => {
-        const cells = $(row).find("td").toArray().map((cell) => clean($(cell).text()));
-        if (cells.length < 2) return null;
-        const title = cells[0] || cells[1];
-        const reference = cells.find((cell) => /(?:GEM\/|20\d{2}_|tender|bid)/i.test(cell)) || cells[1] || undefined;
-        if (!title || /tender title|reference no/i.test(title)) return null;
-        const link = $(row).find("a[href]").first().attr("href");
-        const sourceUrl = link ? new URL(link, sensor.sourceUrl).toString() : sensor.sourceUrl;
-        const ward = title.match(/\b([A-Z]\/?(?:East|West|North|South)?|[A-Z])\s*ward\b/i)?.[0];
-        return makeObservedRecord({
-          externalKey: recordKey(sensor.id, reference, title),
-          sensorId: sensor.id,
-          title: title.slice(0, 500),
-          authority: sensor.authority,
-          jurisdiction,
-          fiscalYear: "2026-27",
-          state: "procured",
-          sourceUrl,
-          tenderReference: reference,
-          locationText: ward ? `${ward}, Mumbai, Maharashtra` : undefined,
-          geographicPrecision: ward ? "locality" : "unknown",
-          note: cells.slice(2).join(" | ") || undefined,
-          raw: { cells }
-        });
+    const parsed = extractCpppTenderRows(html);
+    const records = parsed.map((row) =>
+      makeObservedRecord({
+        externalKey: recordKey(sensor.id, row.reference, row.title),
+        sensorId: sensor.id,
+        title: row.title,
+        authority: sensor.authority,
+        jurisdiction,
+        fiscalYear: "2026-27",
+        state: "tendered",
+        sourceUrl: resolveOfficialTenderUrl(row.href, sensor.sourceUrl),
+        tenderReference: row.reference,
+        note: "Official CPPP tender listing observed. A tender is NOT evidence of award, procurement, payment or delivery.",
+        raw: {
+          closingDate: row.closingDate,
+          openingDate: row.openingDate,
+          sourceCells: row.sourceCells
+        }
       })
-      .filter((record): record is NonNullable<typeof record> => Boolean(record))
-      .slice(0, 150);
-
-    return { sensor, fetchedAt, ok: true, records };
+    );
+    return {
+      sensor,
+      fetchedAt,
+      ok: true,
+      records,
+      error: records.length === 0
+        ? "CPPP page reachable but no strict four-column tender rows under an explicit Tender Title header; navigation, nested layout and corrigenda were not promoted to procurement evidence."
+        : undefined
+    };
   } catch (error) {
-    return { sensor, fetchedAt, ok: false, records: [], error: error instanceof Error ? error.message : String(error) };
+    return {
+      sensor, fetchedAt, ok: false, records: [],
+      error: error instanceof Error ? error.message : String(error)
+    };
   }
 }
 
@@ -202,7 +203,7 @@ async function linkProcurementSensor(sensor: SensorDefinition, jurisdiction: str
           authority: sensor.authority,
           jurisdiction,
           fiscalYear: "2026-27",
-          state: "procured",
+          state: "tendered",
           sourceUrl: new URL(href, sensor.sourceUrl).toString(),
           tenderReference: reference,
           locationText: ward ? `${ward}, Mumbai, Maharashtra` : undefined,
