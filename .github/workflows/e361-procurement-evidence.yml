@@ -23,5 +23,10 @@ jobs:
           node-version: 22
       - run: npm install --no-audit --no-fund
       - run: npx tsx --test tests/procurement-evidence.test.ts
+      - run: npx tsx experiments/e361_snapshot_audit.ts | tee e361-audit.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: e361-historical-snapshot-audit
+          path: e361-audit.json
       - run: npm run validate:seed
       - run: npm run build
