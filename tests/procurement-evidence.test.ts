@@ -37,7 +37,8 @@ test("navigation, HTML/script and no-evidence rows fail closed", () => {
     ["1. Example procurement", "HK1", ...dates],
     ["1. Example procurement", "GEM/2026/B/123", "40-Oct-2026 12:00 PM", dates[1]],
     ["1. Example procurement", "GEM/2026/B/123", dates[0], "bad date"],
-    ["1. Corrigendum 01", "GEM/2026/B/123", ...dates]
+    ["1. Corrigendum 01", "GEM/2026/B/123", ...dates],
+    ["4. Issue of Corrigendum II for extension of date of opening", "BELF/873/07/2026", ...dates]
   ];
   for (const cells of adversarial) assert.equal(parseCpppTenderCells(cells), undefined, JSON.stringify(cells));
   assert.equal(isPlausibleTenderReference('<AHREF="LOGIN">'), false);
