@@ -1,0 +1,27 @@
+name: E361 procurement evidence gates
+on:
+  push:
+    branches:
+      - foundry/e361-cppp-false-record-quarantine-20261028
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - "src/types.ts"
+      - "supabase/migrations/**"
+      - ".github/workflows/e361-procurement-evidence.yml"
+permissions:
+  contents: read
+jobs:
+  evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+      - run: npx tsx --test tests/procurement-evidence.test.ts
+      - run: npm run validate:seed
+      - run: npm run build
