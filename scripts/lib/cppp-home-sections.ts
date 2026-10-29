@@ -52,8 +52,11 @@ export function officialCpppDetailUrl(href: string | undefined, fallback: string
   if (!href) return fallback;
   try {
     const url = new URL(href, fallback);
+    // A generic *.gov.in link is not evidence of a CPPP tender detail.
+    // Keep the provenance boundary on the eProcure portal itself.
+    const host = url.hostname.toLowerCase();
     if (url.protocol === "https:" &&
-      (url.hostname === "gov.in" || url.hostname.endsWith(".gov.in"))) return url.toString();
+      (host === "eprocure.gov.in" || host.endsWith(".eprocure.gov.in"))) return url.toString();
   } catch {
     // Malformed or script href cannot serve as primary-source evidence.
   }
