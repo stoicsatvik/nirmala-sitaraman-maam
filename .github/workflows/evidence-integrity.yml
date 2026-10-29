@@ -31,9 +31,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Run offline deterministic reconciliation tests
-        run: node --experimental-strip-types --test tests/*.test.ts
       - name: Install dependencies
         run: npm install --no-audit --no-fund
+      - name: Run offline deterministic reconciliation tests
+        run: node --experimental-strip-types --test tests/*.test.ts
       - name: Typecheck and build
         run: npm run build

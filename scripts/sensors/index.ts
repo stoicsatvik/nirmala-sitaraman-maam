@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 import { runCgaSensor } from "./cga";
-import { parseCpppHomeRow } from "../lib/cppp-home-rows";
+import { extractCpppHomeSections, officialCpppDetailUrl } from "../lib/cppp-home-sections";
 import {
   fetchText,
   makeObservedRecord,
@@ -145,44 +145,36 @@ async function tableProcurementSensor(sensor: SensorDefinition, jurisdiction: st
   const fetchedAt = new Date().toISOString();
   try {
     const html = await fetchText(sensor.sourceUrl);
-    const $ = cheerio.load(html);
-    // Descendant TD selection turns page-layout and nested table wrappers
-    // into fake tender rows. Require four direct cells and validated dates.
-    const records = $("table tr")
-      .toArray()
-      .flatMap((row) => {
-        const cells = $(row).children("td").toArray().map((cell) => clean($(cell).text()));
-        const parsed = parseCpppHomeRow(cells);
-        if (!parsed) return [];
-        const link = $(row).find("a[href]").first().attr("href");
-        const sourceUrl = link ? new URL(link, sensor.sourceUrl).toString() : sensor.sourceUrl;
-        const ward = parsed.title.match(/\b([A-Z]\/?(?:East|West|North|South)?|[A-Z])\s*ward\b/i)?.[0];
-        return [makeObservedRecord({
-          externalKey: recordKey(sensor.id, parsed.reference, parsed.title),
-          sensorId: sensor.id,
-          title: parsed.title,
-          authority: sensor.authority,
-          jurisdiction,
-          fiscalYear: "2026-27",
-          state: "tender_published",
-          sourceUrl,
-          tenderReference: parsed.reference,
-          locationText: ward ? `${ward}, Mumbai, Maharashtra` : undefined,
-          geographicPrecision: ward ? "locality" : "unknown",
-          note: "CPPP four-column homepage listing (tender/corrigendum); no award, payment or causal fund-flow assertion.",
-          raw: { cells, closingDate: parsed.closingDate, openingDate: parsed.openingDate }
-        })];
-      })
-      .slice(0, 150);
-
+    const rows = extractCpppHomeSections(html);
+    const records = rows.map((row) => makeObservedRecord({
+      externalKey: recordKey(sensor.id, row.publicationKind, row.reference, row.title),
+      sensorId: sensor.id,
+      title: row.title,
+      authority: sensor.authority,
+      jurisdiction,
+      fiscalYear: "2026-27",
+      state: "tender_published",
+      sourceUrl: officialCpppDetailUrl(row.href, sensor.sourceUrl),
+      tenderReference: row.reference,
+      geographicPrecision: "unknown",
+      note: row.publicationKind === "corrigendum"
+        ? "Official CPPP corrigendum listing; NOT a new tender, award, payment or completed procurement."
+        : "Official CPPP tender listing; NOT a contract award, payment or completed procurement.",
+      raw: {
+        publicationKind: row.publicationKind,
+        closingDate: row.closingDate,
+        openingDate: row.openingDate
+      }
+    }));
     return {
       sensor, fetchedAt, ok: true, records,
       error: records.length === 0
-        ? "CPPP page reachable, but no structurally admissible four-column tender/corrigendum rows were found."
+        ? "CPPP page reachable but no four-column rows under an explicit tender/corrigendum section header. No observations guessed."
         : undefined
     };
   } catch (error) {
-    return { sensor, fetchedAt, ok: false, records: [], error: error instanceof Error ? error.message : String(error) };
+    return { sensor, fetchedAt, ok: false, records: [],
+      error: error instanceof Error ? error.message : String(error) };
   }
 }
 
