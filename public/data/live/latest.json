@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T16:55:32.453Z",
+  "generatedAt": "2026-10-29T21:48:03.031Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -8,8 +8,8 @@
   },
   "summary": {
     "sensors": 10,
-    "healthySensors": 8,
-    "records": 70,
+    "healthySensors": 7,
+    "records": 69,
     "reconciledLinks": 1
   },
   "sensors": [
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-10-29T16:54:22.789Z",
+      "fetchedAt": "2026-10-29T21:47:25.351Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-10-29T16:54:22.803Z",
+      "fetchedAt": "2026-10-29T21:47:25.361Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-10-29T16:54:22.804Z",
+      "fetchedAt": "2026-10-29T21:47:25.362Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-10-29T16:54:22.806Z",
+      "fetchedAt": "2026-10-29T21:47:25.362Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-29T16:54:22.807Z",
+      "fetchedAt": "2026-10-29T21:47:25.363Z",
       "ok": true,
       "recordCount": 9,
       "error": null
@@ -86,10 +86,10 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-29T16:54:22.811Z",
-      "ok": true,
-      "recordCount": 8,
-      "error": null
+      "fetchedAt": "2026-10-29T21:47:25.366Z",
+      "ok": false,
+      "recordCount": 0,
+      "error": "503 Service Unavailable from https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new"
     },
     {
       "id": "maharashtra-program-budget",
@@ -99,10 +99,10 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-29T16:54:56.286Z",
-      "ok": false,
-      "recordCount": 0,
-      "error": "fetch failed"
+      "fetchedAt": "2026-10-29T21:47:59.087Z",
+      "ok": true,
+      "recordCount": 7,
+      "error": null
     },
     {
       "id": "bmc-budget",
@@ -112,10 +112,10 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-10-29T16:54:56.285Z",
-      "ok": true,
+      "fetchedAt": "2026-10-29T21:47:59.085Z",
+      "ok": false,
       "recordCount": 0,
-      "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
+      "error": "Unexpected server response (503) while retrieving PDF \"https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Chief%20Accountant%20%28Finance%29/Budget/Budget%20Estimate%202026-2027/STANDING%20COMMITTEE%202026-2027.pdf\"."
     },
     {
       "id": "cppp-contract-awards",
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-10-29T16:54:56.287Z",
+      "fetchedAt": "2026-10-29T21:47:59.087Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-10-29T16:54:56.288Z",
+      "fetchedAt": "2026-10-29T21:47:59.088Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 15680090000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1015218713",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1015218713",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2128839911",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2128839911",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹15,68,009 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(36.7%)"
         ]
       },
-      "observedAt": "2026-10-29T16:54:29.298Z",
-      "evidenceHash": "29f71717f12a08a8f763a48ba7910a9d44896c97376404bfebc0ed9c96c5dae6"
+      "observedAt": "2026-10-29T21:47:31.560Z",
+      "evidenceHash": "c7489624f7b75d6e99403ed5645723bddc685126f1b9183bc251d17426847979"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:8:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5148100000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1015218713",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1015218713",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2128839911",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2128839911",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,14,810 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(41.4%)"
         ]
       },
-      "observedAt": "2026-10-29T16:54:29.299Z",
-      "evidenceHash": "a9a3a2a8e630ba8b27dfba5e565b2ade9ba17181775f5ecd604cb4101a8551fe"
+      "observedAt": "2026-10-29T21:47:31.561Z",
+      "evidenceHash": "e86bca2f852399a85763967e404d1de4f266f6fdb7cab57e8bf24c8818c15185"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:8:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 5099490000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1015218713",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1015218713",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2128839911",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2128839911",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹5,09,949 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(38.5%)"
         ]
       },
-      "observedAt": "2026-10-29T16:54:29.299Z",
-      "evidenceHash": "914a9e4f6083356eedc584c211d0f8fd879bdae48452697da2261681486272ec"
+      "observedAt": "2026-10-29T21:47:31.561Z",
+      "evidenceHash": "0119c464733d92c806c0ce128b7c7b843b76dec80c118a6f79b6bf48303e32dd"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:8:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1394170000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1015218713",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1015218713",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2128839911",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2128839911",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,39,417 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(48.6%)"
         ]
       },
-      "observedAt": "2026-10-29T16:54:29.299Z",
-      "evidenceHash": "ae8a15a4f605147daf48b99ae7044a9c6fba22f11cfeccc0f32b4cc0dbc48936"
+      "observedAt": "2026-10-29T21:47:31.561Z",
+      "evidenceHash": "1cef7443e3fa966b833297ac391be2dae54bdaee4cb6be7f6be16e7f7ad1caf9"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:8:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 20779580000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1015218713",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1015218713",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2128839911",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2128839911",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹20,77,958 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(37.1%)"
         ]
       },
-      "observedAt": "2026-10-29T16:54:29.299Z",
-      "evidenceHash": "78cd1a84832fcd1e6a5209203d27d266f7bad28657e70658dd2509f59c90d8b3"
+      "observedAt": "2026-10-29T21:47:31.561Z",
+      "evidenceHash": "4f77c6e71ea141d76e03adae498d03de594f9925e113934430f19b389f9bb0d4"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:8:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1870374200000.0002,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1015218713",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=1015218713",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2128839911",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/82026/DATA2627.htm?rand=2128839911",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,87,037.42 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,30 +323,30 @@
           "(39%)"
         ]
       },
-      "observedAt": "2026-10-29T16:54:29.301Z",
-      "evidenceHash": "ad4f0e489824b58c456fffb7381029f9da936f458804072d870dd4cf7ada0e79"
+      "observedAt": "2026-10-29T21:47:31.562Z",
+      "evidenceHash": "28759042c06b972e459c397fb8b33be471922b7ca2ae673b5eff0a20879f78cd"
     },
     {
-      "externalKey": "cppp-procurement:screen-reader-access-29-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-29-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
+      "externalKey": "cppp-procurement:screen-reader-access-30-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-30-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
       "sensorId": "cppp-procurement",
-      "title": "Screen Reader Access 29-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "title": "Screen Reader Access 30-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=WebScreenReaderAccess&service=page",
-      "tenderReference": "Screen Reader Access 29-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "tenderReference": "Screen Reader Access 30-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "geographicPrecision": "unknown",
-      "note": "Screen Reader Access |  |  | 29-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 29-Oct-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
+      "note": "Screen Reader Access |  |  | 30-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 30-Oct-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
       "raw": {
         "cells": [
-          "Screen Reader Access 29-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+          "Screen Reader Access 30-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
           "Screen Reader Access",
           "Screen Reader Access",
           "",
           "",
-          "29-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "29-Oct-2026",
+          "30-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "30-Oct-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -357,8 +357,8 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.879Z",
-      "evidenceHash": "f196909beffcc88da3feb35409fed8a4d180ec412007e84b5be47c941615d2b2"
+      "observedAt": "2026-10-29T21:47:27.654Z",
+      "evidenceHash": "531bf8263da6464e780f71ad59b019abfb509850c7b3f2fa46f4be92d2272264"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access:screen-reader-access",
@@ -377,25 +377,25 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.880Z",
+      "observedAt": "2026-10-29T21:47:27.655Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
-      "externalKey": "cppp-procurement:29-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:29-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
+      "externalKey": "cppp-procurement:30-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:30-oct-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
       "sensorId": "cppp-procurement",
-      "title": "29-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "title": "30-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "tenderReference": "29-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "tenderReference": "30-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "geographicPrecision": "unknown",
       "note": "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  | ",
       "raw": {
         "cells": [
-          "29-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "29-Oct-2026",
+          "30-Oct-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "30-Oct-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -403,13 +403,13 @@
           ""
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.881Z",
-      "evidenceHash": "eb98812f1eec63e0e23fc2713f9685b736ecaffd7b4b0bca43f23027f0435b55"
+      "observedAt": "2026-10-29T21:47:27.655Z",
+      "evidenceHash": "0cc70d70f31b91d11133f608c446a1586590a646db886c8193af4264723e15a7"
     },
     {
-      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:29-oct-2026",
+      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:30-oct-2026",
       "sensorId": "cppp-procurement",
-      "title": "29-Oct-2026",
+      "title": "30-Oct-2026",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -420,7 +420,7 @@
       "note": " |  |  | ",
       "raw": {
         "cells": [
-          "29-Oct-2026",
+          "30-Oct-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -428,8 +428,8 @@
           ""
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.881Z",
-      "evidenceHash": "335cb6d5cf10d2582ec900224823a4b0867ccbcaceefe3ede5249149c77c03ac"
+      "observedAt": "2026-10-29T21:47:27.655Z",
+      "evidenceHash": "654de6892e94eacfa2f232a3cb49bebeafe6bb17b8bbe3b25196a841a89c1f52"
     },
     {
       "externalKey": "cppp-procurement:epublishing-system,-government-of-india",
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.881Z",
+      "observedAt": "2026-10-29T21:47:27.655Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.881Z",
+      "observedAt": "2026-10-29T21:47:27.656Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. Fetal Bovine Serum Pur/PAC 3999/298774/26-27 05-Nov-2026 03:00 PM 05-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. Fetal Bovine Serum Pur/PAC 3999/298774/26-27 05-Nov-2026 03:00 PM 05-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. Fetal Bovine Serum Pur/PAC 3999/298774/26-27 05-Nov-2026 03:00 PM 05-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. Fetal Bovine Serum Pur/PAC 3999/298774/26-27 05-Nov-2026 03:00 PM 05-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. Fetal Bovine Serum Pur/PAC 3999/298774/26-27 05-Nov-2026 03:00 PM 05-Nov-2026 03:00 PM | 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 | PUR/ENQ/JB/048/STOCK/ 7728/2026-27 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH | INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH | INTERIOR FURNISHING WORKS OF THALASSERY BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 4. AC WORKS OF THALASSERY BRANCH | AC WORKS OF THALASSERY BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 5. AC WORKS OF NADAVAYAL BRANCH | AC WORKS OF NADAVAYAL BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 6. ELECTRICAL WORKS OF NADAVAYAL BRANCH | ELECTRICAL WORKS OF NADAVAYAL BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 7. ELECTRICAL WORKS OF THALASSERY BRANCH | ELECTRICAL WORKS OF THALASSERY BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 | PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) | VSP/WC/STM/OT/2600010081 | 17-Nov-2026 03:00 PM | 18-Nov-2026 03:00 PM | 10. Fetal Bovine Serum | Pur/PAC 3999/298774/26-27 | 05-Nov-2026 03:00 PM | 05-Nov-2026 03:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM | 1. Corrigendum - 2 | PUR/ENQ/JB/040/MAINT/ 7649/2026-27 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 2. Corrigendum NO 1 | NBCC/CGM/RE/Property Consultant/2026/49 | 04-Nov-2026 03:00 PM | 04-Nov-2026 03:30 PM | 3. Corrigendum - 3 | PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 4. Corr-Adm-02 | NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 | 04-Nov-2026 11:00 AM | 04-Nov-2026 11:30 AM | 5. TN18-OCT26-WEST1 | MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 | 05-Nov-2026 06:55 PM | 06-Nov-2026 06:55 PM | 6. TN27-AUG26-WEST7 | MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 | 05-Nov-2026 06:55 PM | 06-Nov-2026 06:55 PM | 7. TN20-SEPT26-WEST4 | MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 | 05-Nov-2026 06:55 PM | 06-Nov-2026 06:55 PM | 8. TN11-OCT26-WEST3 | MO/71114/RMC/NIT/2849 | 04-Nov-2026 06:55 PM | 05-Nov-2026 06:55 PM | 9. TN08-OCT26-WEST3 | MO/71114/MISC. EQUIPMENT-II/NIT/2846 | 04-Nov-2026 06:55 PM | 05-Nov-2026 06:55 PM | 10. bidder query responses | GEM/2026/B/8162948 Dated-15-10-2026 | 06-Nov-2026 03:00 PM | 07-Nov-2026 03:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi IIT(BHU)/IP/RC/AMCAC/26-27/895 19-Nov-2026 04:00 PM 20-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi IIT(BHU)/IP/RC/AMCAC/26-27/895 19-Nov-2026 04:00 PM 20-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi IIT(BHU)/IP/RC/AMCAC/26-27/895 19-Nov-2026 04:00 PM 20-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi IIT(BHU)/IP/RC/AMCAC/26-27/895 19-Nov-2026 04:00 PM 20-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi IIT(BHU)/IP/RC/AMCAC/26-27/895 19-Nov-2026 04:00 PM 20-Nov-2026 04:00 PM | 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 | PUR/ENQ/JB/048/STOCK/ 7728/2026-27 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH | ELECTRICAL WORKS OF NADAVAYAL BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 3. AC WORKS OF NADAVAYAL BRANCH | AC WORKS OF NADAVAYAL BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH | INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 5. ELECTRICAL WORKS OF THALASSERY BRANCH | ELECTRICAL WORKS OF THALASSERY BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH | INTERIOR FURNISHING WORKS OF THALASSERY BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 7. AC WORKS OF THALASSERY BRANCH | AC WORKS OF THALASSERY BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 | PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) | VSP/WC/STM/OT/2600010081 | 17-Nov-2026 03:00 PM | 18-Nov-2026 03:00 PM | 10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi | IIT(BHU)/IP/RC/AMCAC/26-27/895 | 19-Nov-2026 04:00 PM | 20-Nov-2026 04:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM | 1. Corrigendum - 2 | PUR/ENQ/JB/040/MAINT/ 7649/2026-27 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 2. Corrigendum NO 1 | NBCC/CGM/RE/Property Consultant/2026/49 | 04-Nov-2026 03:00 PM | 04-Nov-2026 03:30 PM | 3. Corrigendum - 3 | PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 4. Corr-Adm-02 | NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 | 04-Nov-2026 11:00 AM | 04-Nov-2026 11:30 AM | 5. TN18-OCT26-WEST1 | MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 | 05-Nov-2026 06:55 PM | 06-Nov-2026 06:55 PM | 6. TN27-AUG26-WEST7 | MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 | 05-Nov-2026 06:55 PM | 06-Nov-2026 06:55 PM | 7. TN20-SEPT26-WEST4 | MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 | 05-Nov-2026 06:55 PM | 06-Nov-2026 06:55 PM | 8. TN11-OCT26-WEST3 | MO/71114/RMC/NIT/2849 | 04-Nov-2026 06:55 PM | 05-Nov-2026 06:55 PM | 9. TN08-OCT26-WEST3 | MO/71114/MISC. EQUIPMENT-II/NIT/2846 | 04-Nov-2026 06:55 PM | 05-Nov-2026 06:55 PM | 10. bidder query responses | GEM/2026/B/8162948 Dated-15-10-2026 | 06-Nov-2026 03:00 PM | 07-Nov-2026 03:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,47 +520,47 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. Fetal Bovine Serum Pur/PAC 3999/298774/26-27 05-Nov-2026 03:00 PM 05-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi IIT(BHU)/IP/RC/AMCAC/26-27/895 19-Nov-2026 04:00 PM 20-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. Fetal Bovine Serum Pur/PAC 3999/298774/26-27 05-Nov-2026 03:00 PM 05-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi IIT(BHU)/IP/RC/AMCAC/26-27/895 19-Nov-2026 04:00 PM 20-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 2 PUR/ENQ/JB/040/MAINT/ 7649/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. Corrigendum NO 1 NBCC/CGM/RE/Property Consultant/2026/49 04-Nov-2026 03:00 PM 04-Nov-2026 03:30 PM 3. Corrigendum - 3 PUR/ENQ/JB/039/ BB-PAINT/7747/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 4. Corr-Adm-02 NBCC/CPG/ Supertech/Eco-Village-2 /Pkg-II/2026/611 04-Nov-2026 11:00 AM 04-Nov-2026 11:30 AM 5. TN18-OCT26-WEST1 MO/BPCL/71141/Tyre Mounted Crane - 100 MT/NIT/01 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 6. TN27-AUG26-WEST7 MO/GAIL-USAR/71147/PIPING WORK/LC/NIT/02 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 7. TN20-SEPT26-WEST4 MO/GAIL-USAR/71147/CHEMICAL CLEANING WORK/LC/NIT/0 05-Nov-2026 06:55 PM 06-Nov-2026 06:55 PM 8. TN11-OCT26-WEST3 MO/71114/RMC/NIT/2849 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 9. TN08-OCT26-WEST3 MO/71114/MISC. EQUIPMENT-II/NIT/2846 04-Nov-2026 06:55 PM 05-Nov-2026 06:55 PM 10. bidder query responses GEM/2026/B/8162948 Dated-15-10-2026 06-Nov-2026 03:00 PM 07-Nov-2026 03:00 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. Fetal Bovine Serum Pur/PAC 3999/298774/26-27 05-Nov-2026 03:00 PM 05-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. Fetal Bovine Serum Pur/PAC 3999/298774/26-27 05-Nov-2026 03:00 PM 05-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi IIT(BHU)/IP/RC/AMCAC/26-27/895 19-Nov-2026 04:00 PM 20-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi IIT(BHU)/IP/RC/AMCAC/26-27/895 19-Nov-2026 04:00 PM 20-Nov-2026 04:00 PM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. Fetal Bovine Serum Pur/PAC 3999/298774/26-27 05-Nov-2026 03:00 PM 05-Nov-2026 03:00 PM",
+          "1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi IIT(BHU)/IP/RC/AMCAC/26-27/895 19-Nov-2026 04:00 PM 20-Nov-2026 04:00 PM",
           "1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27",
           "PUR/ENQ/JB/048/STOCK/ 7728/2026-27",
           "06-Nov-2026 06:55 PM",
           "07-Nov-2026 06:55 PM",
-          "2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
-          "INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
-          "04-Nov-2026 04:00 PM",
-          "04-Nov-2026 04:30 PM",
-          "3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
-          "INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
-          "04-Nov-2026 04:00 PM",
-          "04-Nov-2026 04:30 PM",
-          "4. AC WORKS OF THALASSERY BRANCH",
-          "AC WORKS OF THALASSERY BRANCH",
-          "04-Nov-2026 04:00 PM",
-          "04-Nov-2026 04:30 PM",
-          "5. AC WORKS OF NADAVAYAL BRANCH",
-          "AC WORKS OF NADAVAYAL BRANCH",
-          "04-Nov-2026 04:00 PM",
-          "04-Nov-2026 04:30 PM",
-          "6. ELECTRICAL WORKS OF NADAVAYAL BRANCH",
+          "2. ELECTRICAL WORKS OF NADAVAYAL BRANCH",
           "ELECTRICAL WORKS OF NADAVAYAL BRANCH",
           "04-Nov-2026 04:00 PM",
           "04-Nov-2026 04:30 PM",
-          "7. ELECTRICAL WORKS OF THALASSERY BRANCH",
+          "3. AC WORKS OF NADAVAYAL BRANCH",
+          "AC WORKS OF NADAVAYAL BRANCH",
+          "04-Nov-2026 04:00 PM",
+          "04-Nov-2026 04:30 PM",
+          "4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
+          "INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
+          "04-Nov-2026 04:00 PM",
+          "04-Nov-2026 04:30 PM",
+          "5. ELECTRICAL WORKS OF THALASSERY BRANCH",
           "ELECTRICAL WORKS OF THALASSERY BRANCH",
+          "04-Nov-2026 04:00 PM",
+          "04-Nov-2026 04:30 PM",
+          "6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
+          "INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
+          "04-Nov-2026 04:00 PM",
+          "04-Nov-2026 04:30 PM",
+          "7. AC WORKS OF THALASSERY BRANCH",
+          "AC WORKS OF THALASSERY BRANCH",
           "04-Nov-2026 04:00 PM",
           "04-Nov-2026 04:30 PM",
           "8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27",
@@ -571,10 +571,10 @@
           "VSP/WC/STM/OT/2600010081",
           "17-Nov-2026 03:00 PM",
           "18-Nov-2026 03:00 PM",
-          "10. Fetal Bovine Serum",
-          "Pur/PAC 3999/298774/26-27",
-          "05-Nov-2026 03:00 PM",
-          "05-Nov-2026 03:00 PM",
+          "10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi",
+          "IIT(BHU)/IP/RC/AMCAC/26-27/895",
+          "19-Nov-2026 04:00 PM",
+          "20-Nov-2026 04:00 PM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.888Z",
-      "evidenceHash": "d49d0d1b23193f71b3742993911024cef4586f0c77ae536d31206ab7c6c32131"
+      "observedAt": "2026-10-29T21:47:27.660Z",
+      "evidenceHash": "0761c6e19d2067c9b314ea33a0e0f7def4bd26d2dc40655a27f483185ab54bfa"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.888Z",
+      "observedAt": "2026-10-29T21:47:27.661Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,13 +727,13 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.889Z",
+      "observedAt": "2026-10-29T21:47:27.662Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-pur/enq/jb/048/stock/-7728/2026-27:1.-pur/enq/jb/048/stock/-7728/2026-27-pur/enq/jb/048/stock/-7728/2026-27-06-nov-2026-06:55-pm-07-nov-2026-06:55-pm-2.-interior-furnishing-works-of-nadavayal-branch-interior-furnishing-works-of-nadavayal-branch-04-nov-2026-04:00-pm-04-nov-2026-04:30-pm-3.-interior-furnishing-works-of-thalassery-branch-interior-furnishing-works-of-thalassery-branch-04-nov-2026-04:00-pm-04-nov-2026-04:30-pm-4.-ac-works-of-thalassery-branch-ac-works-of-thalassery-branch-04-nov-2026-04:00-pm-04-nov-2026-04:30-pm-5.-ac-works-of-nadavayal-branch-ac-works-of-nadavayal-branch-04-nov-2026-04:00-pm-04-nov-2026-04:30-pm-6.-electrical-works-of-nadavayal-branch-electrical-works-of-nadavayal-branch-04-nov-2026-04:00-pm-04-nov-2026-04:30-pm-7.-electrical-works-of-thalassery-branch-electrical-works-of-thalassery-branch-04-nov-2026-04:00-pm-04-nov-2026-04:30-pm-8.-pur/enq/jb/044/-maintenance/7696/2026-27-pur/enq/jb/044/-maintenance/7696/2026-27-06-nov-2026-06:55-pm-07-nov-2026-06:55-pm-9.-technological-assistance-for-operational-works-in-shipping-area-of-structural-mill-(stm)-vsp/wc/stm/ot/2600010081-17-nov-2026-03:00-pm-18-nov-2026-03:00-pm-10.-fetal-bovine-serum-pur/pac-3999/298774/26-27-05-nov-2026-03:00-pm-05-nov-2026-03:00-pm",
+      "externalKey": "cppp-procurement:1.-pur/enq/jb/048/stock/-7728/2026-27:1.-pur/enq/jb/048/stock/-7728/2026-27-pur/enq/jb/048/stock/-7728/2026-27-06-nov-2026-06:55-pm-07-nov-2026-06:55-pm-2.-electrical-works-of-nadavayal-branch-electrical-works-of-nadavayal-branch-04-nov-2026-04:00-pm-04-nov-2026-04:30-pm-3.-ac-works-of-nadavayal-branch-ac-works-of-nadavayal-branch-04-nov-2026-04:00-pm-04-nov-2026-04:30-pm-4.-interior-furnishing-works-of-nadavayal-branch-interior-furnishing-works-of-nadavayal-branch-04-nov-2026-04:00-pm-04-nov-2026-04:30-pm-5.-electrical-works-of-thalassery-branch-electrical-works-of-thalassery-branch-04-nov-2026-04:00-pm-04-nov-2026-04:30-pm-6.-interior-furnishing-works-of-thalassery-branch-interior-furnishing-works-of-thalassery-branch-04-nov-2026-04:00-pm-04-nov-2026-04:30-pm-7.-ac-works-of-thalassery-branch-ac-works-of-thalassery-branch-04-nov-2026-04:00-pm-04-nov-2026-04:30-pm-8.-pur/enq/jb/044/-maintenance/7696/2026-27-pur/enq/jb/044/-maintenance/7696/2026-27-06-nov-2026-06:55-pm-07-nov-2026-06:55-pm-9.-technological-assistance-for-operational-works-in-shipping-area-of-structural-mill-(stm)-vsp/wc/stm/ot/2600010081-17-nov-2026-03:00-pm-18-nov-2026-03:00-pm-10.-rate-contract-for-submission-of-rate-for-camc,-servicing-of-acs,-spare-parts-of-all-types-and-makes-of-air-conditioners-in-iit(bhu),-varanasi-iit(bhu)/ip/rc/amcac/26-27/895-19-nov-2026-04:00-pm-20-nov-2026-04:00-pm",
       "sensorId": "cppp-procurement",
-      "title": "1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. A",
+      "title": "1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. ELECTRICAL WORKS OF THA",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -741,36 +741,36 @@
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SBqPguc6e9v12MaKi7ix0zA%3D%3D",
       "tenderReference": "1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27",
       "geographicPrecision": "unknown",
-      "note": "PUR/ENQ/JB/048/STOCK/ 7728/2026-27 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH | INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH | INTERIOR FURNISHING WORKS OF THALASSERY BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 4. AC WORKS OF THALASSERY BRANCH | AC WORKS OF THALASSERY BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 5. AC WORKS OF NADAVAYAL BRANCH | AC WORKS OF NADAVAYAL BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 6. ELECTRICAL WORKS OF NADAVAYAL BRANCH | ELECTRICAL WORKS OF NADAVAYAL BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 7. ELECTRICAL WORKS OF THALASSERY BRANCH | ELECTRICAL WORKS OF THALASSERY BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 | PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) | VSP/WC/STM/OT/2600010081 | 17-Nov-2026 03:00 PM | 18-Nov-2026 03:00 PM | 10. Fetal Bovine Serum | Pur/PAC 3999/298774/26-27 | 05-Nov-2026 03:00 PM | 05-Nov-2026 03:00 PM",
+      "note": "PUR/ENQ/JB/048/STOCK/ 7728/2026-27 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH | ELECTRICAL WORKS OF NADAVAYAL BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 3. AC WORKS OF NADAVAYAL BRANCH | AC WORKS OF NADAVAYAL BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH | INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 5. ELECTRICAL WORKS OF THALASSERY BRANCH | ELECTRICAL WORKS OF THALASSERY BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH | INTERIOR FURNISHING WORKS OF THALASSERY BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 7. AC WORKS OF THALASSERY BRANCH | AC WORKS OF THALASSERY BRANCH | 04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM | 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 | PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) | VSP/WC/STM/OT/2600010081 | 17-Nov-2026 03:00 PM | 18-Nov-2026 03:00 PM | 10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi | IIT(BHU)/IP/RC/AMCAC/26-27/895 | 19-Nov-2026 04:00 PM | 20-Nov-2026 04:00 PM",
       "raw": {
         "cells": [
-          "1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. Fetal Bovine Serum Pur/PAC 3999/298774/26-27 05-Nov-2026 03:00 PM 05-Nov-2026 03:00 PM",
+          "1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27 PUR/ENQ/JB/048/STOCK/ 7728/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 2. ELECTRICAL WORKS OF NADAVAYAL BRANCH ELECTRICAL WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 3. AC WORKS OF NADAVAYAL BRANCH AC WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 5. ELECTRICAL WORKS OF THALASSERY BRANCH ELECTRICAL WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH INTERIOR FURNISHING WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 7. AC WORKS OF THALASSERY BRANCH AC WORKS OF THALASSERY BRANCH 04-Nov-2026 04:00 PM 04-Nov-2026 04:30 PM 8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Technological assistance for Operational works in Shipping area of Structural Mill (STM) VSP/WC/STM/OT/2600010081 17-Nov-2026 03:00 PM 18-Nov-2026 03:00 PM 10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi IIT(BHU)/IP/RC/AMCAC/26-27/895 19-Nov-2026 04:00 PM 20-Nov-2026 04:00 PM",
           "1. PUR/ENQ/JB/048/STOCK/ 7728/2026-27",
           "PUR/ENQ/JB/048/STOCK/ 7728/2026-27",
           "06-Nov-2026 06:55 PM",
           "07-Nov-2026 06:55 PM",
-          "2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
-          "INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
-          "04-Nov-2026 04:00 PM",
-          "04-Nov-2026 04:30 PM",
-          "3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
-          "INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
-          "04-Nov-2026 04:00 PM",
-          "04-Nov-2026 04:30 PM",
-          "4. AC WORKS OF THALASSERY BRANCH",
-          "AC WORKS OF THALASSERY BRANCH",
-          "04-Nov-2026 04:00 PM",
-          "04-Nov-2026 04:30 PM",
-          "5. AC WORKS OF NADAVAYAL BRANCH",
-          "AC WORKS OF NADAVAYAL BRANCH",
-          "04-Nov-2026 04:00 PM",
-          "04-Nov-2026 04:30 PM",
-          "6. ELECTRICAL WORKS OF NADAVAYAL BRANCH",
+          "2. ELECTRICAL WORKS OF NADAVAYAL BRANCH",
           "ELECTRICAL WORKS OF NADAVAYAL BRANCH",
           "04-Nov-2026 04:00 PM",
           "04-Nov-2026 04:30 PM",
-          "7. ELECTRICAL WORKS OF THALASSERY BRANCH",
+          "3. AC WORKS OF NADAVAYAL BRANCH",
+          "AC WORKS OF NADAVAYAL BRANCH",
+          "04-Nov-2026 04:00 PM",
+          "04-Nov-2026 04:30 PM",
+          "4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
+          "INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
+          "04-Nov-2026 04:00 PM",
+          "04-Nov-2026 04:30 PM",
+          "5. ELECTRICAL WORKS OF THALASSERY BRANCH",
           "ELECTRICAL WORKS OF THALASSERY BRANCH",
+          "04-Nov-2026 04:00 PM",
+          "04-Nov-2026 04:30 PM",
+          "6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
+          "INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
+          "04-Nov-2026 04:00 PM",
+          "04-Nov-2026 04:30 PM",
+          "7. AC WORKS OF THALASSERY BRANCH",
+          "AC WORKS OF THALASSERY BRANCH",
           "04-Nov-2026 04:00 PM",
           "04-Nov-2026 04:30 PM",
           "8. PUR/ENQ/JB/044/ MAINTENANCE/7696/2026-27",
@@ -781,14 +781,14 @@
           "VSP/WC/STM/OT/2600010081",
           "17-Nov-2026 03:00 PM",
           "18-Nov-2026 03:00 PM",
-          "10. Fetal Bovine Serum",
-          "Pur/PAC 3999/298774/26-27",
-          "05-Nov-2026 03:00 PM",
-          "05-Nov-2026 03:00 PM"
+          "10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi",
+          "IIT(BHU)/IP/RC/AMCAC/26-27/895",
+          "19-Nov-2026 04:00 PM",
+          "20-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.891Z",
-      "evidenceHash": "eeba757695534be1801fe0132a5ddd3c475529d41e49045297a57f5161079066"
+      "observedAt": "2026-10-29T21:47:27.663Z",
+      "evidenceHash": "0c79691c1ae23b6b88ca55718aa600e492f212c12a0dbbeb7e50e5efceffcc85"
     },
     {
       "externalKey": "cppp-procurement:pur/enq/jb/048/stock/-7728/2026-27:1.-pur/enq/jb/048/stock/-7728/2026-27",
@@ -810,105 +810,13 @@
           "07-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.891Z",
+      "observedAt": "2026-10-29T21:47:27.664Z",
       "evidenceHash": "a9196103b067feda2bbff73110e1279bc063a2136c02d8957e4128d737227ae3"
     },
     {
-      "externalKey": "cppp-procurement:interior-furnishing-works-of-nadavayal-branch:2.-interior-furnishing-works-of-nadavayal-branch",
+      "externalKey": "cppp-procurement:electrical-works-of-nadavayal-branch:2.-electrical-works-of-nadavayal-branch",
       "sensorId": "cppp-procurement",
-      "title": "2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Sc6lBFr8SCITq3HihKCesHA%3D%3D",
-      "tenderReference": "INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
-      "geographicPrecision": "unknown",
-      "note": "04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM",
-      "raw": {
-        "cells": [
-          "2. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
-          "INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
-          "04-Nov-2026 04:00 PM",
-          "04-Nov-2026 04:30 PM"
-        ]
-      },
-      "observedAt": "2026-10-29T16:54:24.891Z",
-      "evidenceHash": "c0ab04840c9fa2a6f9f676a9676adcc437c40743387a03c2f9072bff0c15f1f7"
-    },
-    {
-      "externalKey": "cppp-procurement:interior-furnishing-works-of-thalassery-branch:3.-interior-furnishing-works-of-thalassery-branch",
-      "sensorId": "cppp-procurement",
-      "title": "3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SsOKPS49n9cpL02nplsQDLg%3D%3D",
-      "tenderReference": "INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
-      "geographicPrecision": "unknown",
-      "note": "04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM",
-      "raw": {
-        "cells": [
-          "3. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
-          "INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
-          "04-Nov-2026 04:00 PM",
-          "04-Nov-2026 04:30 PM"
-        ]
-      },
-      "observedAt": "2026-10-29T16:54:24.892Z",
-      "evidenceHash": "01ed6f9bdd7e1712020896e94c7c22c9a67d366899e5a858d279d1df7cc4f351"
-    },
-    {
-      "externalKey": "cppp-procurement:ac-works-of-thalassery-branch:4.-ac-works-of-thalassery-branch",
-      "sensorId": "cppp-procurement",
-      "title": "4. AC WORKS OF THALASSERY BRANCH",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Sw%2BrhY2xmnZlBXHTEFwS7gA%3D%3D",
-      "tenderReference": "AC WORKS OF THALASSERY BRANCH",
-      "geographicPrecision": "unknown",
-      "note": "04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM",
-      "raw": {
-        "cells": [
-          "4. AC WORKS OF THALASSERY BRANCH",
-          "AC WORKS OF THALASSERY BRANCH",
-          "04-Nov-2026 04:00 PM",
-          "04-Nov-2026 04:30 PM"
-        ]
-      },
-      "observedAt": "2026-10-29T16:54:24.892Z",
-      "evidenceHash": "4d781a1de647eda4538e86788ca7106329145873566cffdc5d1dfaf1e9bdb768"
-    },
-    {
-      "externalKey": "cppp-procurement:ac-works-of-nadavayal-branch:5.-ac-works-of-nadavayal-branch",
-      "sensorId": "cppp-procurement",
-      "title": "5. AC WORKS OF NADAVAYAL BRANCH",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=STlYUcXuz8%2BKhHA%2BD8Tv38Q%3D%3D",
-      "tenderReference": "AC WORKS OF NADAVAYAL BRANCH",
-      "geographicPrecision": "unknown",
-      "note": "04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM",
-      "raw": {
-        "cells": [
-          "5. AC WORKS OF NADAVAYAL BRANCH",
-          "AC WORKS OF NADAVAYAL BRANCH",
-          "04-Nov-2026 04:00 PM",
-          "04-Nov-2026 04:30 PM"
-        ]
-      },
-      "observedAt": "2026-10-29T16:54:24.892Z",
-      "evidenceHash": "715031ca6bc4b1afb54398602bea02d7800b7978bcb83c4f3d857cdcb5aac72b"
-    },
-    {
-      "externalKey": "cppp-procurement:electrical-works-of-nadavayal-branch:6.-electrical-works-of-nadavayal-branch",
-      "sensorId": "cppp-procurement",
-      "title": "6. ELECTRICAL WORKS OF NADAVAYAL BRANCH",
+      "title": "2. ELECTRICAL WORKS OF NADAVAYAL BRANCH",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -919,19 +827,65 @@
       "note": "04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM",
       "raw": {
         "cells": [
-          "6. ELECTRICAL WORKS OF NADAVAYAL BRANCH",
+          "2. ELECTRICAL WORKS OF NADAVAYAL BRANCH",
           "ELECTRICAL WORKS OF NADAVAYAL BRANCH",
           "04-Nov-2026 04:00 PM",
           "04-Nov-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.892Z",
-      "evidenceHash": "dc7a0f1f518eca4c413e903c8f07722babcc37c621ab1bc8cc3ce3a5437d9e0c"
+      "observedAt": "2026-10-29T21:47:27.664Z",
+      "evidenceHash": "e939247f8b68651fff44b0be816f15adfed68e48c9606609d495a57655c7971c"
     },
     {
-      "externalKey": "cppp-procurement:electrical-works-of-thalassery-branch:7.-electrical-works-of-thalassery-branch",
+      "externalKey": "cppp-procurement:ac-works-of-nadavayal-branch:3.-ac-works-of-nadavayal-branch",
       "sensorId": "cppp-procurement",
-      "title": "7. ELECTRICAL WORKS OF THALASSERY BRANCH",
+      "title": "3. AC WORKS OF NADAVAYAL BRANCH",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=STlYUcXuz8%2BKhHA%2BD8Tv38Q%3D%3D",
+      "tenderReference": "AC WORKS OF NADAVAYAL BRANCH",
+      "geographicPrecision": "unknown",
+      "note": "04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM",
+      "raw": {
+        "cells": [
+          "3. AC WORKS OF NADAVAYAL BRANCH",
+          "AC WORKS OF NADAVAYAL BRANCH",
+          "04-Nov-2026 04:00 PM",
+          "04-Nov-2026 04:30 PM"
+        ]
+      },
+      "observedAt": "2026-10-29T21:47:27.664Z",
+      "evidenceHash": "a92f567dfb9932a3d146c7e9add6ef2f669bcc6be161e0cbb469d1476b6bf946"
+    },
+    {
+      "externalKey": "cppp-procurement:interior-furnishing-works-of-nadavayal-branch:4.-interior-furnishing-works-of-nadavayal-branch",
+      "sensorId": "cppp-procurement",
+      "title": "4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Sc6lBFr8SCITq3HihKCesHA%3D%3D",
+      "tenderReference": "INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
+      "geographicPrecision": "unknown",
+      "note": "04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM",
+      "raw": {
+        "cells": [
+          "4. INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
+          "INTERIOR FURNISHING WORKS OF NADAVAYAL BRANCH",
+          "04-Nov-2026 04:00 PM",
+          "04-Nov-2026 04:30 PM"
+        ]
+      },
+      "observedAt": "2026-10-29T21:47:27.664Z",
+      "evidenceHash": "cde7db2c603a5cbc55b6e0708fe081fbaf74ccef4caa7237e25bddd697c66f68"
+    },
+    {
+      "externalKey": "cppp-procurement:electrical-works-of-thalassery-branch:5.-electrical-works-of-thalassery-branch",
+      "sensorId": "cppp-procurement",
+      "title": "5. ELECTRICAL WORKS OF THALASSERY BRANCH",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -942,14 +896,60 @@
       "note": "04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM",
       "raw": {
         "cells": [
-          "7. ELECTRICAL WORKS OF THALASSERY BRANCH",
+          "5. ELECTRICAL WORKS OF THALASSERY BRANCH",
           "ELECTRICAL WORKS OF THALASSERY BRANCH",
           "04-Nov-2026 04:00 PM",
           "04-Nov-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.892Z",
-      "evidenceHash": "c8a099a1dd957a83a96d81b174bfc22f2eb746bc5f248e1dad0e6d58b37d394e"
+      "observedAt": "2026-10-29T21:47:27.664Z",
+      "evidenceHash": "21acdf4db61c6a288c864eeb246aa1aea7ee0e94f490ceb5037b98e47204b310"
+    },
+    {
+      "externalKey": "cppp-procurement:interior-furnishing-works-of-thalassery-branch:6.-interior-furnishing-works-of-thalassery-branch",
+      "sensorId": "cppp-procurement",
+      "title": "6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SsOKPS49n9cpL02nplsQDLg%3D%3D",
+      "tenderReference": "INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
+      "geographicPrecision": "unknown",
+      "note": "04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM",
+      "raw": {
+        "cells": [
+          "6. INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
+          "INTERIOR FURNISHING WORKS OF THALASSERY BRANCH",
+          "04-Nov-2026 04:00 PM",
+          "04-Nov-2026 04:30 PM"
+        ]
+      },
+      "observedAt": "2026-10-29T21:47:27.664Z",
+      "evidenceHash": "cd2411ec948aadbd30e63cba1a1d75fea43b1653254392899a65c1267ac5ea9e"
+    },
+    {
+      "externalKey": "cppp-procurement:ac-works-of-thalassery-branch:7.-ac-works-of-thalassery-branch",
+      "sensorId": "cppp-procurement",
+      "title": "7. AC WORKS OF THALASSERY BRANCH",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Sw%2BrhY2xmnZlBXHTEFwS7gA%3D%3D",
+      "tenderReference": "AC WORKS OF THALASSERY BRANCH",
+      "geographicPrecision": "unknown",
+      "note": "04-Nov-2026 04:00 PM | 04-Nov-2026 04:30 PM",
+      "raw": {
+        "cells": [
+          "7. AC WORKS OF THALASSERY BRANCH",
+          "AC WORKS OF THALASSERY BRANCH",
+          "04-Nov-2026 04:00 PM",
+          "04-Nov-2026 04:30 PM"
+        ]
+      },
+      "observedAt": "2026-10-29T21:47:27.664Z",
+      "evidenceHash": "9fde7c4ecc90d9584bf37390317601f179d2b88d32396310dad02e11071ab79b"
     },
     {
       "externalKey": "cppp-procurement:pur/enq/jb/044/-maintenance/7696/2026-27:8.-pur/enq/jb/044/-maintenance/7696/2026-27",
@@ -971,7 +971,7 @@
           "07-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.892Z",
+      "observedAt": "2026-10-29T21:47:27.664Z",
       "evidenceHash": "bb895217fddf1bd9ef0fb11ff350fbe36272d09bed6a2525ef7f382840f63af5"
     },
     {
@@ -994,31 +994,31 @@
           "18-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.892Z",
+      "observedAt": "2026-10-29T21:47:27.664Z",
       "evidenceHash": "669d3b35746dd391af8d76811934c120bd810d54ea39bb2ae449b252d8bc5458"
     },
     {
-      "externalKey": "cppp-procurement:pur/pac-3999/298774/26-27:10.-fetal-bovine-serum",
+      "externalKey": "cppp-procurement:iit(bhu)/ip/rc/amcac/26-27/895:10.-rate-contract-for-submission-of-rate-for-camc,-servicing-of-acs,-spare-parts-of-all-types-and-makes-of-air-conditioners-in-iit(bhu),-varanasi",
       "sensorId": "cppp-procurement",
-      "title": "10. Fetal Bovine Serum",
+      "title": "10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SIL821BCGI%2B3yvi%2BdU%2FnZEg%3D%3D",
-      "tenderReference": "Pur/PAC 3999/298774/26-27",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S0B7ZHO6bcw9q0pcC7osKSQ%3D%3D",
+      "tenderReference": "IIT(BHU)/IP/RC/AMCAC/26-27/895",
       "geographicPrecision": "unknown",
-      "note": "05-Nov-2026 03:00 PM | 05-Nov-2026 03:00 PM",
+      "note": "19-Nov-2026 04:00 PM | 20-Nov-2026 04:00 PM",
       "raw": {
         "cells": [
-          "10. Fetal Bovine Serum",
-          "Pur/PAC 3999/298774/26-27",
-          "05-Nov-2026 03:00 PM",
-          "05-Nov-2026 03:00 PM"
+          "10. RATE CONTRACT FOR SUBMISSION OF RATE FOR CAMC, SERVICING OF ACs, SPARE PARTS OF ALL TYPES AND MAKES OF AIR CONDITIONERS in IIT(BHU), Varanasi",
+          "IIT(BHU)/IP/RC/AMCAC/26-27/895",
+          "19-Nov-2026 04:00 PM",
+          "20-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.892Z",
-      "evidenceHash": "0016c091e74084a1e8195461b9f6a61a81bf4b162abd70d639d555fc73cf0629"
+      "observedAt": "2026-10-29T21:47:27.664Z",
+      "evidenceHash": "7cd90c95e08c9ea490ba78e1a31d28e291e077789d9db5bebd765e82bca6df85"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.892Z",
+      "observedAt": "2026-10-29T21:47:27.664Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.893Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "07-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.893Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "a23e722214799c430405870bcd5a2e4e014c5a9bf749caa446fc787f58ea11d2"
     },
     {
@@ -1143,7 +1143,7 @@
           "07-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.893Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "9611b05c49264d19026c4d4532120450b81697f359dd3469878cf2fb0bdf255d"
     },
     {
@@ -1166,7 +1166,7 @@
           "04-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.893Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "0a93f86e6f3d55a105d092139da1ee170053be8a282bee55a8809f5c0e0f6025"
     },
     {
@@ -1189,7 +1189,7 @@
           "07-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.894Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "e972a038cea9bc4303a18976a6561cd243c0eb830209c9d709c7e593f19122e3"
     },
     {
@@ -1212,7 +1212,7 @@
           "04-Nov-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.894Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "a0908d28486e6115cfbdaf929a42cbcc58d4a6db937fb279ecb32a35b81a5c52"
     },
     {
@@ -1235,7 +1235,7 @@
           "06-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.894Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "a056905d18e3886266c9a1a1fc748551576bd14885dfe492de4a3bf3b259df79"
     },
     {
@@ -1258,7 +1258,7 @@
           "06-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.894Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "0bcfdc2587b34e5446c8b37c114cf6374198b43ec80db96f8d527758f33a25b7"
     },
     {
@@ -1281,7 +1281,7 @@
           "06-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.894Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "a87237715e70fc9ad7bdd770f79317233afe244bd593ae63f4f52c7e8eef169c"
     },
     {
@@ -1304,7 +1304,7 @@
           "05-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.894Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "aae0cff8ff97b6b7a6a12f507e1657e5473ba1eb5e95480c47af75adaef9ac95"
     },
     {
@@ -1327,7 +1327,7 @@
           "05-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.894Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "037d65a3c6f786ee230eaa35ef1ac6baea75e4996f8025a4508c92982832aa3e"
     },
     {
@@ -1350,7 +1350,7 @@
           "07-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.894Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "fa13247ae41cfd29156a5c1933e00c48e034d4890162dd0ee8b1b97bbea64f78"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.894Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.894Z",
+      "observedAt": "2026-10-29T21:47:27.665Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.894Z",
+      "observedAt": "2026-10-29T21:47:27.666Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.895Z",
+      "observedAt": "2026-10-29T21:47:27.666Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.895Z",
+      "observedAt": "2026-10-29T21:47:27.666Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.895Z",
+      "observedAt": "2026-10-29T21:47:27.666Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.895Z",
+      "observedAt": "2026-10-29T21:47:27.666Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.895Z",
+      "observedAt": "2026-10-29T21:47:27.666Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.895Z",
+      "observedAt": "2026-10-29T21:47:27.666Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.896Z",
+      "observedAt": "2026-10-29T21:47:27.666Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.896Z",
+      "observedAt": "2026-10-29T21:47:27.667Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.896Z",
+      "observedAt": "2026-10-29T21:47:27.667Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-10-29T16:54:24.896Z",
+      "observedAt": "2026-10-29T21:47:27.667Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "125835"
       },
-      "observedAt": "2026-10-29T16:54:29.191Z",
+      "observedAt": "2026-10-29T21:47:31.502Z",
       "evidenceHash": "693f8076419a13c59c4aad4c4a8f8a7323f33d55903c9e7d63b5a135a75ecfa2"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "125830"
       },
-      "observedAt": "2026-10-29T16:54:29.191Z",
+      "observedAt": "2026-10-29T21:47:31.502Z",
       "evidenceHash": "5cfbd2ce08b6de0ff1d70c251045d519312b60a68b5b53ad8ebbad71ee82f064"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "125829"
       },
-      "observedAt": "2026-10-29T16:54:29.191Z",
+      "observedAt": "2026-10-29T21:47:31.502Z",
       "evidenceHash": "2f0b6182addd14efa4bdb5ca4f16fa2a2c0feeea4a21d9900843072f9bd8df90"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "125828"
       },
-      "observedAt": "2026-10-29T16:54:29.191Z",
+      "observedAt": "2026-10-29T21:47:31.502Z",
       "evidenceHash": "5d28e4d26249fb281735dac989a06f0501292736cba1936d235185bccd9afc41"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "125827"
       },
-      "observedAt": "2026-10-29T16:54:29.191Z",
+      "observedAt": "2026-10-29T21:47:31.502Z",
       "evidenceHash": "2db2e1f6ae23af8dab9b08c7d2975228f077034603fb4f0360e269c58fdb02a0"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "125728"
       },
-      "observedAt": "2026-10-29T16:54:29.191Z",
+      "observedAt": "2026-10-29T21:47:31.502Z",
       "evidenceHash": "83e9b943800eeec78a0206b4045e1b74d45424412151a3e51ef79c8123ef8d20"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "125712"
       },
-      "observedAt": "2026-10-29T16:54:29.191Z",
+      "observedAt": "2026-10-29T21:47:31.502Z",
       "evidenceHash": "49fead40de686e1e2e7056517252cdbc91195f214b26fdfdbc038e4e3115e80d"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "125624"
       },
-      "observedAt": "2026-10-29T16:54:29.192Z",
+      "observedAt": "2026-10-29T21:47:31.502Z",
       "evidenceHash": "fd060fe7ff79e5a2837873cf49572c82f56ac410a4fa0c9d40381174facaa68d"
     },
     {
@@ -1793,115 +1793,141 @@
       "raw": {
         "reportId": "125602"
       },
-      "observedAt": "2026-10-29T16:54:29.192Z",
+      "observedAt": "2026-10-29T21:47:31.502Z",
       "evidenceHash": "857698c208374a8e9f7558e800c4c1d89679206247d8e9d3a0ff39787ea05ca6"
     },
     {
-      "externalKey": "bmc-tenders:tender-date-extended-of-estate-dept_sr-cell",
-      "sensorId": "bmc-tenders",
-      "title": "Tender date extended of Estate Dept_SR CELL",
-      "authority": "Brihanmumbai Municipal Corporation",
-      "jurisdiction": "Mumbai",
+      "externalKey": "maharashtra-program-budget:publications-handbook-rti-rti-contacts-(pios-/-apios-/-aas-)-rti-documents-rts-act-important-links-&-addresses-more-important-links-media-corner-press-release-photo-gallery-video-gallery:https://finance.maharashtra.gov.in/en/documents/",
+      "sensorId": "maharashtra-program-budget",
+      "title": "Publications Handbook RTI RTI Contacts (PIOs / APIOs / AAs ) RTI Documents RTS Act Important links & Addresses More Important Links Media Corner Press Release Photo Gallery Video Gallery",
+      "authority": "Finance Department, Government of Maharashtra",
+      "jurisdiction": "Maharashtra",
       "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
-      "geographicPrecision": "unknown",
-      "observedAt": "2026-10-29T16:54:38.183Z",
-      "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
+      "state": "budgeted",
+      "sourceUrl": "https://finance.maharashtra.gov.in/en/documents/",
+      "sourceDocument": "https://finance.maharashtra.gov.in/en/documents/",
+      "geographicPrecision": "state",
+      "note": "Official Maharashtra FY 2026-27 programme-budget document discovered from the Finance Department index. This is publication-level evidence until line items are normalized.",
+      "raw": {
+        "anchorText": "Documents",
+        "rowText": ""
+      },
+      "observedAt": "2026-10-29T21:48:03.028Z",
+      "evidenceHash": "61bd51e18f1d42812bd6bab3510326a0780d9cf2164adb00f40f68d4d1cf50ea"
     },
     {
-      "externalKey": "bmc-tenders:improvisation-of-interior-of-dy.ch.eng.(swm)-projects-office-at-kotwadi,dadar-(west)-mahatender-id-:-2026_mcgm_1323261",
-      "sensorId": "bmc-tenders",
-      "title": "Improvisation of Interior of Dy.Ch.Eng.(SWM) Projects Office at Kotwadi,Dadar (West) Mahatender Id :-2026_MCGM_1323261",
-      "authority": "Brihanmumbai Municipal Corporation",
-      "jurisdiction": "Mumbai",
+      "externalKey": "maharashtra-program-budget:publication-no.-1-accessible-version-:-view(330-kb):https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/20260312793729190.pdf",
+      "sensorId": "maharashtra-program-budget",
+      "title": "Publication No. 1 Accessible Version : View(330 KB)",
+      "authority": "Finance Department, Government of Maharashtra",
+      "jurisdiction": "Maharashtra",
       "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
-      "geographicPrecision": "unknown",
-      "observedAt": "2026-10-29T16:54:38.185Z",
-      "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
+      "state": "budgeted",
+      "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/20260312793729190.pdf",
+      "sourceDocument": "https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/20260312793729190.pdf",
+      "geographicPrecision": "state",
+      "note": "Official Maharashtra FY 2026-27 programme-budget document discovered from the Finance Department index. This is publication-level evidence until line items are normalized.",
+      "raw": {
+        "anchorText": "View",
+        "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
+      },
+      "observedAt": "2026-10-29T21:48:03.030Z",
+      "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
-      "externalKey": "bmc-tenders:work-of-supply,-installation,-testing-and-commissioning-of-1-kld-effluent-treatment-plant-complete-with-all-accessories,-pumps,-blower,-tanks,-piping,-valves,-e",
-      "sensorId": "bmc-tenders",
-      "title": "Work of Supply, Installation, Testing and Commissioning of 1 KLD Effluent Treatment Plant complete with all accessories, pumps, blower, tanks, piping, valves, electrical integration etc and commissioning.Bid No.2026_MCGM_1325657_1.",
-      "authority": "Brihanmumbai Municipal Corporation",
-      "jurisdiction": "Mumbai",
+      "externalKey": "maharashtra-program-budget:publication-no.-2-accounts-and-treasury-accessible-version-:-view(3-mb):https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/20260312526158785.pdf",
+      "sensorId": "maharashtra-program-budget",
+      "title": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)",
+      "authority": "Finance Department, Government of Maharashtra",
+      "jurisdiction": "Maharashtra",
       "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
-      "geographicPrecision": "unknown",
-      "observedAt": "2026-10-29T16:54:38.185Z",
-      "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
+      "state": "budgeted",
+      "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/20260312526158785.pdf",
+      "sourceDocument": "https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/20260312526158785.pdf",
+      "geographicPrecision": "state",
+      "note": "Official Maharashtra FY 2026-27 programme-budget document discovered from the Finance Department index. This is publication-level evidence until line items are normalized.",
+      "raw": {
+        "anchorText": "View",
+        "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
+      },
+      "observedAt": "2026-10-29T21:48:03.030Z",
+      "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
-      "externalKey": "bmc-tenders:installation-and-commissioning-of-office-cabin-for-the-community-development-cell-(swm)-under-the-dy.-chief-engineer-(swm)-operation.-bid-no.2026_mcgm_1325689_1",
-      "sensorId": "bmc-tenders",
-      "title": "Installation and Commissioning of Office Cabin for the Community Development Cell (SWM) under the Dy. Chief Engineer (SWM) Operation. BId No.2026_MCGM_1325689_1.",
-      "authority": "Brihanmumbai Municipal Corporation",
-      "jurisdiction": "Mumbai",
+      "externalKey": "maharashtra-program-budget:publication-no.-3-goods-and-services-tax-accessible-version-:-view(646-kb):https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/20260312618754636.pdf",
+      "sensorId": "maharashtra-program-budget",
+      "title": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)",
+      "authority": "Finance Department, Government of Maharashtra",
+      "jurisdiction": "Maharashtra",
       "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
-      "geographicPrecision": "unknown",
-      "observedAt": "2026-10-29T16:54:38.185Z",
-      "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
+      "state": "budgeted",
+      "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/20260312618754636.pdf",
+      "sourceDocument": "https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/20260312618754636.pdf",
+      "geographicPrecision": "state",
+      "note": "Official Maharashtra FY 2026-27 programme-budget document discovered from the Finance Department index. This is publication-level evidence until line items are normalized.",
+      "raw": {
+        "anchorText": "View",
+        "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
+      },
+      "observedAt": "2026-10-29T21:48:03.031Z",
+      "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
-      "externalKey": "bmc-tenders:supply,-installation,-testing-&-commissioning-(sitc)-of-monochrome-printer-(hp-323sdnw)-&-laser-printer-(hp-303d)-for-the-office-of-dy.-chief-engineer-(swm)-ope",
-      "sensorId": "bmc-tenders",
-      "title": "Supply, installation, testing & commissioning (SITC) of Monochrome Printer (HP 323SDNW) & Laser Printer (HP 303D) for the office of Dy. Chief Engineer (SWM) Operation.Bid No. 2026_MCGM_1325678_1.",
-      "authority": "Brihanmumbai Municipal Corporation",
-      "jurisdiction": "Mumbai",
+      "externalKey": "maharashtra-program-budget:publication-4-state-lottery-directorate-accessible-version-:-view(805-kb):https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/20260312271178959.pdf",
+      "sensorId": "maharashtra-program-budget",
+      "title": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)",
+      "authority": "Finance Department, Government of Maharashtra",
+      "jurisdiction": "Maharashtra",
       "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
-      "geographicPrecision": "unknown",
-      "observedAt": "2026-10-29T16:54:38.185Z",
-      "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
+      "state": "budgeted",
+      "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/20260312271178959.pdf",
+      "sourceDocument": "https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/20260312271178959.pdf",
+      "geographicPrecision": "state",
+      "note": "Official Maharashtra FY 2026-27 programme-budget document discovered from the Finance Department index. This is publication-level evidence until line items are normalized.",
+      "raw": {
+        "anchorText": "View",
+        "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
+      },
+      "observedAt": "2026-10-29T21:48:03.031Z",
+      "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
-      "externalKey": "bmc-tenders:hiring-of-mobile-toilets-at-various-ganesh-immersion-spots-in-t-ward--group-i.e-quotation-bid-id---2026_mcgm_1330073_1.",
-      "sensorId": "bmc-tenders",
-      "title": "Hiring of Mobile Toilets at Various Ganesh immersion spots in T ward- Group-I.E-Quotation Bid ID - 2026_MCGM_1330073_1.",
-      "authority": "Brihanmumbai Municipal Corporation",
-      "jurisdiction": "Mumbai",
+      "externalKey": "maharashtra-program-budget:प्रकाशन-क्रमांक-५-विमा-संचालनालय-accessible-version-:-view(665-kb):https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/202603121206184049.pdf",
+      "sensorId": "maharashtra-program-budget",
+      "title": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)",
+      "authority": "Finance Department, Government of Maharashtra",
+      "jurisdiction": "Maharashtra",
       "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
-      "locationText": "T ward, Mumbai, Maharashtra",
-      "geographicPrecision": "locality",
-      "observedAt": "2026-10-29T16:54:38.185Z",
-      "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
+      "state": "budgeted",
+      "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/202603121206184049.pdf",
+      "sourceDocument": "https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/202603121206184049.pdf",
+      "geographicPrecision": "state",
+      "note": "Official Maharashtra FY 2026-27 programme-budget document discovered from the Finance Department index. This is publication-level evidence until line items are normalized.",
+      "raw": {
+        "anchorText": "View",
+        "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
+      },
+      "observedAt": "2026-10-29T21:48:03.031Z",
+      "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
-      "externalKey": "bmc-tenders:hiring-of-mobile-toilets-at-various-ganesh-immersion-spots-in-t-ward--group-ii.e-quotation-bid-id---2026_mcgm_1330072_1.",
-      "sensorId": "bmc-tenders",
-      "title": "Hiring of Mobile Toilets at Various Ganesh immersion spots in T ward- Group-II.E-Quotation Bid ID - 2026_MCGM_1330072_1.",
-      "authority": "Brihanmumbai Municipal Corporation",
-      "jurisdiction": "Mumbai",
+      "externalKey": "maharashtra-program-budget:publication-no.-6-local-fund-accessible-version-:-view(303-kb):https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/202603121102214181.pdf",
+      "sensorId": "maharashtra-program-budget",
+      "title": "Publication No. 6 Local Fund Accessible Version : View(303 KB)",
+      "authority": "Finance Department, Government of Maharashtra",
+      "jurisdiction": "Maharashtra",
       "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
-      "locationText": "T ward, Mumbai, Maharashtra",
-      "geographicPrecision": "locality",
-      "observedAt": "2026-10-29T16:54:38.185Z",
-      "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
-    },
-    {
-      "externalKey": "bmc-tenders:supply-of-lunch,-dinner,-water-bottles-for-the-staff-deployed-at-ganapati-immersion-talao-/-spots-in-t-ward-during-ganapati-immersion-in-the-year-2026.e-quotati",
-      "sensorId": "bmc-tenders",
-      "title": "Supply of Lunch, Dinner, Water Bottles for the staff deployed at Ganapati Immersion Talao / Spots in T Ward during Ganapati Immersion in the year 2026.E-Quotation Bid ID - 2026_MCGM_1330071_1.",
-      "authority": "Brihanmumbai Municipal Corporation",
-      "jurisdiction": "Mumbai",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
-      "locationText": "T Ward, Mumbai, Maharashtra",
-      "geographicPrecision": "locality",
-      "observedAt": "2026-10-29T16:54:38.185Z",
-      "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
+      "state": "budgeted",
+      "sourceUrl": "https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/202603121102214181.pdf",
+      "sourceDocument": "https://cdnbbsr.s3waas.gov.in/s349d4b2faeb4b7b9e745775793141e2b2/uploads/2026/03/202603121102214181.pdf",
+      "geographicPrecision": "state",
+      "note": "Official Maharashtra FY 2026-27 programme-budget document discovered from the Finance Department index. This is publication-level evidence until line items are normalized.",
+      "raw": {
+        "anchorText": "View",
+        "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
+      },
+      "observedAt": "2026-10-29T21:48:03.031Z",
+      "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
       "externalKey": "union-output-outcomes:2026-27",
@@ -1918,7 +1944,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-10-29T16:54:57.172Z",
+      "observedAt": "2026-10-29T21:48:00.050Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
