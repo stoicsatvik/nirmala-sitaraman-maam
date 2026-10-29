@@ -37,3 +37,13 @@ test("E361: malformed and external links are not accepted as official detail evi
   assert.equal(officialCpppDetailUrl("https://example.com/fake", base), base);
   assert.match(officialCpppDetailUrl("/epublish/app?page=detail", base), /^https:\/\/www\.eprocure\.gov\.in\//);
 });
+
+
+test("E386: unrelated government hosts cannot impersonate CPPP tender detail evidence", () => {
+  const base = "https://www.eprocure.gov.in/epublish/app?service=home";
+  assert.equal(officialCpppDetailUrl("https://other-department.gov.in/not-a-cppp-tender", base), base);
+  assert.equal(officialCpppDetailUrl("https://gov.in/unrelated", base), base);
+  assert.equal(officialCpppDetailUrl("https://www.eprocure.gov.in.example.com/epublish/app", base), base);
+  assert.equal(officialCpppDetailUrl("https://eprocure.gov.in/epublish/app?page=detail", base), "https://eprocure.gov.in/epublish/app?page=detail");
+  assert.equal(officialCpppDetailUrl("https://www.eprocure.gov.in/epublish/app?page=detail", base), "https://www.eprocure.gov.in/epublish/app?page=detail");
+});
