@@ -3,6 +3,8 @@ import type { PublicMoneyRecord } from "./ingestion";
 export type ReconciliationBasis = "exact_tender_reference" | "exact_external_reference";
 
 export interface ReconciledLink {
+  fromSensorId: string;
+  toSensorId: string;
   fromExternalKey: string;
   toExternalKey: string;
   relation: string;
@@ -70,6 +72,8 @@ export function reconcileRecords(records: PublicMoneyRecord[]): ReconciledLink[]
     );
     const reference = JSON.parse(key)[0] as string;
     links.push({
+      fromSensorId: ordered[0].sensorId,
+      toSensorId: ordered[1].sensorId,
       fromExternalKey: ordered[0].externalKey,
       toExternalKey: ordered[1].externalKey,
       relation: "shared_tender_reference",
@@ -79,4 +83,45 @@ export function reconcileRecords(records: PublicMoneyRecord[]): ReconciledLink[]
     });
   }
   return links;
+}
+
+/** Database identity is (sensor_id, external_key), never external_key alone.
+ * Missing or duplicate composite endpoints fail closed rather than guessing.
+ * This function is pure and does not read or modify any live database.
+ */
+export function resolvePersistedLinkRows(
+  links: ReconciledLink[],
+  records: Array<{ id: string; sensor_id: string; external_key: string }>
+): Array<{
+  from_live_record_id: string;
+  to_live_record_id: string;
+  relation: string;
+  match_basis: ReconciliationBasis;
+  confidence: 1;
+  reference: string;
+}> {
+  const keyOf = (sensorId: string, externalKey: string) => JSON.stringify([sensorId, externalKey]);
+  const byIdentity = new Map<string, string | null>();
+  for (const row of records) {
+    const key = keyOf(row.sensor_id, row.external_key);
+    if (!row.id || !row.sensor_id || !row.external_key || byIdentity.has(key)) {
+      byIdentity.set(key, null);
+    } else {
+      byIdentity.set(key, row.id);
+    }
+  }
+
+  return links.flatMap((link) => {
+    const fromId = byIdentity.get(keyOf(link.fromSensorId, link.fromExternalKey));
+    const toId = byIdentity.get(keyOf(link.toSensorId, link.toExternalKey));
+    if (!fromId || !toId || fromId === toId) return [];
+    return [{
+      from_live_record_id: fromId,
+      to_live_record_id: toId,
+      relation: link.relation,
+      match_basis: link.basis,
+      confidence: link.confidence,
+      reference: link.reference
+    }];
+  });
 }

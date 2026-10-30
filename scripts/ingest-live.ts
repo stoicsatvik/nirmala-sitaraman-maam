@@ -1,6 +1,6 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { createClient } from "@supabase/supabase-js";
-import { reconcileRecords, type ReconciledLink } from "./lib/reconcile";
+import { reconcileRecords, resolvePersistedLinkRows, type ReconciledLink } from "./lib/reconcile";
 import { runAllSensors, sensors } from "./sensors/index";
 import { runBmcBudgetSensor } from "./sensors/bmc-budget";
 import { runMaharashtraBudgetSensor } from "./sensors/maharashtra-budget";
@@ -110,26 +110,11 @@ async function persistToSupabase(results: SensorResult[], links: ReconciledLink[
       const keys = [...new Set(links.flatMap((link) => [link.fromExternalKey, link.toExternalKey]))];
       const { data: linkedRecords, error: lookupError } = await db
         .from("live_records")
-        .select("id,external_key")
+        .select("id,sensor_id,external_key")
         .in("external_key", keys);
       if (lookupError) throw lookupError;
 
-      const idByKey = new Map((linkedRecords ?? []).map((row) => [row.external_key, row.id]));
-      const linkRows = links.flatMap((link) => {
-        const fromId = idByKey.get(link.fromExternalKey);
-        const toId = idByKey.get(link.toExternalKey);
-        if (!fromId || !toId || fromId === toId) return [];
-        return [
-          {
-            from_live_record_id: fromId,
-            to_live_record_id: toId,
-            relation: link.relation,
-            match_basis: link.basis,
-            confidence: link.confidence,
-            reference: link.reference
-          }
-        ];
-      });
+      const linkRows = resolvePersistedLinkRows(links, linkedRecords ?? []);
 
       if (linkRows.length > 0) {
         const { error: linksError } = await db
