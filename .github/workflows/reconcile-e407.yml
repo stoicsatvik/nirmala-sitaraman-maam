@@ -1,0 +1,28 @@
+name: E407 reconciliation provenance controls
+
+on:
+  pull_request:
+    paths:
+      - "scripts/lib/reconcile.ts"
+      - "tests/reconcile-e407.test.mjs"
+      - ".github/workflows/reconcile-e407.yml"
+  push:
+    branches:
+      - "research/e407-tender-reference-false-link-controls-20261030"
+    paths:
+      - "scripts/lib/reconcile.ts"
+      - "tests/reconcile-e407.test.mjs"
+      - ".github/workflows/reconcile-e407.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  provenance-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node --experimental-strip-types --test tests/reconcile-e407.test.mjs
