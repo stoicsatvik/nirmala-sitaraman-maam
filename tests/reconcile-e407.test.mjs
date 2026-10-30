@@ -63,6 +63,8 @@ test("E407: matching context preserves only a noncausal exact-reference relation
     record({ externalKey: "ref-2", state: "paid", tenderReference: "ABC12345" })
   ]);
   assert.deepEqual(links, [{
+    fromSensorId: "source-a",
+    toSensorId: "source-a",
     fromExternalKey: "ref-1",
     toExternalKey: "ref-2",
     relation: "shared_tender_reference",
