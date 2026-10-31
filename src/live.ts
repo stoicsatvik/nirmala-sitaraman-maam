@@ -1,5 +1,6 @@
 import "./live.css";
 import { sensorCollectionStatus, summarizeSensorCoverage } from "./sensor-health";
+import { assessSnapshotFreshness } from "./snapshot-freshness";
 
 type LiveSensor = {
   id: string;
@@ -85,7 +86,8 @@ function coverageStatusClass(status: CoverageStatus): string {
   return "status-unknown";
 }
 
-function buildCoverage(snapshot: LiveSnapshot): CoverageRow[] {
+function buildCoverage(snapshot: LiveSnapshot, nowMs: number): CoverageRow[] {
+  const freshness = assessSnapshotFreshness(snapshot.generatedAt, nowMs);
   const sensorById = new Map(snapshot.sensors.map((sensor) => [sensor.id, sensor]));
   const cga = sensorById.get("cga-monthly-accounts");
   const pfms = sensorById.get("pfms-sanctions-releases");
@@ -106,7 +108,7 @@ function buildCoverage(snapshot: LiveSnapshot): CoverageRow[] {
     (record) => Number.isFinite(record.latitude) && Number.isFinite(record.longitude)
   );
 
-  return [
+  const rows: CoverageRow[] = [
     {
       layer: "Union Budget allocation",
       status: "live",
@@ -199,10 +201,12 @@ function buildCoverage(snapshot: LiveSnapshot): CoverageRow[] {
     },
     {
       layer: "Live polling",
-      status: snapshot.generatedAt ? "live" : "blocked",
-      detail: snapshot.generatedAt
-        ? `GitHub Actions polls the sensor network hourly. Latest completed snapshot: ${prettyTime(snapshot.generatedAt)}.`
-        : "No completed live poll yet."
+      status: freshness.state === "fresh" ? "live" : freshness.state === "stale" ? "partial" : "blocked",
+      detail: freshness.state === "fresh"
+        ? `Latest snapshot: ${prettyTime(snapshot.generatedAt)} (${freshness.ageMinutes} minutes old). Collector reachability is separate.`
+        : freshness.state === "stale"
+          ? `Last snapshot: ${prettyTime(snapshot.generatedAt)} (${freshness.ageMinutes} minutes old). Hourly polling is configured, but current freshness is not verified.`
+          : "Snapshot timestamp missing, invalid, or ahead of the local clock. Current polling status cannot be verified."
     },
     {
       layer: "Geographic pinpointing",
@@ -212,6 +216,12 @@ function buildCoverage(snapshot: LiveSnapshot): CoverageRow[] {
         : "0 verified coordinate pins. The system refuses to invent coordinates from broad district/state labels."
     }
   ];
+  // A stale snapshot retains historical observations, but not claims of current live coverage.
+  return freshness.state === "fresh" ? rows : rows.map((row) =>
+    row.status === "live" && row.layer !== "Union Budget allocation"
+      ? { ...row, status: "partial" as const, detail: `${row.detail} Snapshot recency is unverified.` }
+      : row
+  );
 }
 
 export async function mountLiveTracking(): Promise<void> {
@@ -222,7 +232,9 @@ export async function mountLiveTracking(): Promise<void> {
     const response = await fetch(`/data/live/latest.json?ts=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`snapshot HTTP ${response.status}`);
     const snapshot = (await response.json()) as LiveSnapshot;
-    const coverage = buildCoverage(snapshot);
+    const nowMs = Date.now();
+    const freshness = assessSnapshotFreshness(snapshot.generatedAt, nowMs);
+    const coverage = buildCoverage(snapshot, nowMs);
     const health = summarizeSensorCoverage(snapshot.sensors);
 
     const coverageRows = coverage
@@ -284,7 +296,7 @@ export async function mountLiveTracking(): Promise<void> {
         <div><span>Sources reachable</span><strong>${health.reachable}/${health.total}</strong></div>
         <div><span>Sources yielding rows</span><strong>${health.yieldingRows}/${health.total}</strong></div>
         <div><span>Rows emitted (not independently verified)</span><strong>${health.emittedRows}</strong></div>
-        <p>${escapeHtml(snapshot.semantics.live ?? "")} Reachability is not record coverage or correctness; ${health.zeroRows} sources emitted no rows, and ${health.reachableWithWarnings} reachable sources reported extraction limitations.</p>
+        <p>${escapeHtml(snapshot.semantics.live ?? "")} Reachability is not record coverage or correctness; ${health.zeroRows} sources emitted no rows, and ${health.reachableWithWarnings} reachable sources reported extraction limitations. ${escapeHtml(freshness.state === "fresh" ? `Snapshot age: ${freshness.ageMinutes} minutes (within the declared two-hour freshness gate).` : freshness.state === "stale" ? `STALE SNAPSHOT: ${freshness.ageMinutes} minutes old. Displayed rows are historical observations, not current coverage.` : "SNAPSHOT TIME UNVERIFIED: current coverage cannot be asserted.")}</p>
       </div>
 
       <div class="section-heading live-subheading">
