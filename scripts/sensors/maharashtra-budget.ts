@@ -1,4 +1,5 @@
 import * as cheerio from "cheerio";
+import { classifyMaharashtraPublication } from "../lib/maharashtra-publication";
 import {
   fetchText,
   makeObservedRecord,
@@ -25,16 +26,9 @@ export async function runMaharashtraBudgetSensor(sensor: SensorDefinition): Prom
 
       const anchorText = clean($(element).text());
       const rowText = clean($(element).closest("tr").text());
-      const nearby = rowText || clean($(element).parent().parent().text()) || anchorText;
-      const looksLikeProgrammePublication = /Publication|प्रकाशन|Accounts and Treasury|Goods and Services Tax|State Lottery|Local Fund|Insurance/i.test(nearby);
-      const looksLikeDocument = /\.pdf(?:$|\?)/i.test(href) || /document|download|uploads|wp-content/i.test(href);
-      if (!looksLikeProgrammePublication || !looksLikeDocument) return;
-
-      const titleMatch = nearby.match(/(?:Publication|प्रकाशन)[^|]{0,180}/i)?.[0];
-      const title = clean(titleMatch ?? nearby).slice(0, 400);
-      if (!title) return;
-
-      const sourceUrl = new URL(href, sensor.sourceUrl).toString();
+      const admitted = classifyMaharashtraPublication(href, rowText, sensor.sourceUrl);
+      if (!admitted) return;
+      const { title, sourceUrl } = admitted;
       records.push(
         makeObservedRecord({
           externalKey: recordKey(sensor.id, title, sourceUrl),
@@ -47,7 +41,7 @@ export async function runMaharashtraBudgetSensor(sensor: SensorDefinition): Prom
           sourceUrl,
           sourceDocument: sourceUrl,
           geographicPrecision: "state",
-          note: "Official Maharashtra FY 2026-27 programme-budget document discovered from the Finance Department index. This is publication-level evidence until line items are normalized.",
+          note: "Numbered official Maharashtra programme-budget PDF link discovered. PDF contents and monetary line items are NOT independently verified by this link-only collector.",
           raw: { anchorText, rowText }
         })
       );
@@ -55,25 +49,12 @@ export async function runMaharashtraBudgetSensor(sensor: SensorDefinition): Prom
 
     const deduped = [...new Map(records.map((record) => [record.sourceUrl, record])).values()].slice(0, 100);
 
-    if (deduped.length === 0) {
-      const pageTitle = clean($("title").text()) || "Maharashtra programme budget 2026-27";
-      deduped.push(
-        makeObservedRecord({
-          externalKey: recordKey(sensor.id, pageTitle),
-          sensorId: sensor.id,
-          title: pageTitle,
-          authority: sensor.authority,
-          jurisdiction: "Maharashtra",
-          fiscalYear: "2026-27",
-          state: "budgeted",
-          sourceUrl: sensor.sourceUrl,
-          geographicPrecision: "state",
-          note: "Programme-budget index observed, but document links did not match the strict parser."
-        })
-      );
-    }
-
-    return { sensor, fetchedAt, ok: true, records: deduped };
+    return {
+      sensor, fetchedAt, ok: true, records: deduped,
+      error: deduped.length === 0
+        ? "Programme-budget index reachable, but no numbered official PDF rows were admissible. No budget evidence was inferred."
+        : undefined
+    };
   } catch (error) {
     return {
       sensor,
