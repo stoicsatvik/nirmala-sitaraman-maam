@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T18:18:16.817Z",
+  "generatedAt": "2026-11-03T01:33:00.525Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-11-02T18:17:35.979Z",
+      "fetchedAt": "2026-11-03T01:32:20.795Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-11-02T18:17:35.992Z",
+      "fetchedAt": "2026-11-03T01:32:20.805Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-11-02T18:17:35.994Z",
+      "fetchedAt": "2026-11-03T01:32:20.806Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-11-02T18:17:35.995Z",
+      "fetchedAt": "2026-11-03T01:32:20.807Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-02T18:17:35.997Z",
+      "fetchedAt": "2026-11-03T01:32:20.809Z",
       "ok": true,
       "recordCount": 9,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-02T18:17:36.000Z",
+      "fetchedAt": "2026-11-03T01:32:20.811Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-02T18:18:09.760Z",
+      "fetchedAt": "2026-11-03T01:32:54.775Z",
       "ok": true,
       "recordCount": 7,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-02T18:18:09.758Z",
+      "fetchedAt": "2026-11-03T01:32:54.774Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-11-02T18:18:09.761Z",
+      "fetchedAt": "2026-11-03T01:32:54.776Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-11-02T18:18:09.761Z",
+      "fetchedAt": "2026-11-03T01:32:54.776Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 18952880000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=506117800",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=506117800",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1740218057",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1740218057",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹18,95,288 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(43.7%)"
         ]
       },
-      "observedAt": "2026-11-02T18:17:42.202Z",
-      "evidenceHash": "ab842814768440503d6656729ba7f92925eec63b59493108f495f4739e03b9a5"
+      "observedAt": "2026-11-03T01:32:26.536Z",
+      "evidenceHash": "668f8c1bcfa35c23131402dce6595096e80f0333acbe6cd3bfa8cd85415c074f"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:9:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 6460100000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=506117800",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=506117800",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1740218057",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1740218057",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹6,46,010 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(45.3%)"
         ]
       },
-      "observedAt": "2026-11-02T18:17:42.202Z",
-      "evidenceHash": "e5b6ea4e4c9f05a811ca70d77e8469367c4784098f5685fce42a13a95ae90287"
+      "observedAt": "2026-11-03T01:32:26.537Z",
+      "evidenceHash": "12d544d9434f1dff52873e90e6ed4d573a58e53bd92e2bdb8dac9e28704dd866"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:9:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 6545470000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=506117800",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=506117800",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1740218057",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1740218057",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹6,54,547 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(51.8%)"
         ]
       },
-      "observedAt": "2026-11-02T18:17:42.202Z",
-      "evidenceHash": "154006a36c326444f6d4393d427f2c671aecc22b671664c5d0c3693297f82510"
+      "observedAt": "2026-11-03T01:32:26.537Z",
+      "evidenceHash": "6a6a75671c374dc5d366396f1031391936beede0a509b3ffdf41c677d0d612cc"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:9:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1512200000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=506117800",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=506117800",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1740218057",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1740218057",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,51,220 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(52.6%)"
         ]
       },
-      "observedAt": "2026-11-02T18:17:42.202Z",
-      "evidenceHash": "be9363cfab6a2df7a5348384f3d1daae98e8391bb5b290072f93c0db9e92bae9"
+      "observedAt": "2026-11-03T01:32:26.537Z",
+      "evidenceHash": "7686b10d7ade8b9e950e255291d4813269d9646f75c4ed6c2853cf51b0a3332e"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:9:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 25498350000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=506117800",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=506117800",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1740218057",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1740218057",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹25,49,835 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(45.5%)"
         ]
       },
-      "observedAt": "2026-11-02T18:17:42.202Z",
-      "evidenceHash": "dc3e5a0ac838d1967bdcce803c7af6a7adc3741f6e8be82d7880a6e8531357d8"
+      "observedAt": "2026-11-03T01:32:26.537Z",
+      "evidenceHash": "4b090721a54bf78a173da9f5015331b42ae209ef75caa1067298d63d082b331c"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:9:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 2229049700000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=506117800",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=506117800",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1740218057",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1740218057",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹2,22,904.97 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,30 +323,30 @@
           "(53%)"
         ]
       },
-      "observedAt": "2026-11-02T18:17:42.204Z",
-      "evidenceHash": "eff73568e69898720fe97355ba2dd3ca7075429fc972dbe959b007f8532af268"
+      "observedAt": "2026-11-03T01:32:26.538Z",
+      "evidenceHash": "a5d8e665784dac5d09c6cd30cc6e125335a59b47225505679d898d21997ae093"
     },
     {
-      "externalKey": "cppp-procurement:screen-reader-access-02-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-02-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
+      "externalKey": "cppp-procurement:screen-reader-access-03-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-03-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
       "sensorId": "cppp-procurement",
-      "title": "Screen Reader Access 02-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "title": "Screen Reader Access 03-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=WebScreenReaderAccess&service=page",
-      "tenderReference": "Screen Reader Access 02-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "tenderReference": "Screen Reader Access 03-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "geographicPrecision": "unknown",
-      "note": "Screen Reader Access |  |  | 02-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 02-Nov-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
+      "note": "Screen Reader Access |  |  | 03-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 03-Nov-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
       "raw": {
         "cells": [
-          "Screen Reader Access 02-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+          "Screen Reader Access 03-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
           "Screen Reader Access",
           "Screen Reader Access",
           "",
           "",
-          "02-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "02-Nov-2026",
+          "03-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "03-Nov-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -357,8 +357,8 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.070Z",
-      "evidenceHash": "84e3ed3b74b2d68f72b7bb74212eb157a7c834f0b48cd6560bff7277dced8de1"
+      "observedAt": "2026-11-03T01:32:23.123Z",
+      "evidenceHash": "1ccbbdf9d1e895e0daf1d2c85855782d0ac49de56aac1b2d5afa2c4241a93fc7"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access:screen-reader-access",
@@ -377,25 +377,25 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.071Z",
+      "observedAt": "2026-11-03T01:32:23.124Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
-      "externalKey": "cppp-procurement:02-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:02-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
+      "externalKey": "cppp-procurement:03-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:03-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
       "sensorId": "cppp-procurement",
-      "title": "02-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "title": "03-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "tenderReference": "02-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "tenderReference": "03-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "geographicPrecision": "unknown",
       "note": "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  | ",
       "raw": {
         "cells": [
-          "02-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "02-Nov-2026",
+          "03-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "03-Nov-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -403,13 +403,13 @@
           ""
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.072Z",
-      "evidenceHash": "b543d4cb2df16caffb34b70ab4e278a6dd407ef292060f9adde42e7e007e4655"
+      "observedAt": "2026-11-03T01:32:23.124Z",
+      "evidenceHash": "610d8cefba3a9696c44c09e5e9fdce958c6c6cdb2766006d9964ee7341d6e8e1"
     },
     {
-      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:02-nov-2026",
+      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:03-nov-2026",
       "sensorId": "cppp-procurement",
-      "title": "02-Nov-2026",
+      "title": "03-Nov-2026",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -420,7 +420,7 @@
       "note": " |  |  | ",
       "raw": {
         "cells": [
-          "02-Nov-2026",
+          "03-Nov-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -428,8 +428,8 @@
           ""
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.072Z",
-      "evidenceHash": "edd342cfbdded84d14816132450e8287a964352bc8cdcca37aa0839de80126b0"
+      "observedAt": "2026-11-03T01:32:23.124Z",
+      "evidenceHash": "55707910e3a2a7d221e9b623ac825e3566fcb9201c92c340692bb229c170c9c4"
     },
     {
       "externalKey": "cppp-procurement:epublishing-system,-government-of-india",
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.072Z",
+      "observedAt": "2026-11-03T01:32:23.125Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.072Z",
+      "observedAt": "2026-11-03T01:32:23.125Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. Vacuum Filtration Pur/PP 4151/e-file 300128/26-27-DVG Lab 12-Nov-2026 03:00 PM 12-Nov-2026 04:00 PM 7. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER 2026/IRCTC/TSV/06/NOVEMBER/02 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months 91-84/Enq/PnW/Civil/1986 10-Nov-2026 04:30 PM 10-Nov-2026 05:50 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. Vacuum Filtration Pur/PP 4151/e-file 300128/26-27-DVG Lab 12-Nov-2026 03:00 PM 12-Nov-2026 04:00 PM 7. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER 2026/IRCTC/TSV/06/NOVEMBER/02 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months 91-84/Enq/PnW/Civil/1986 10-Nov-2026 04:30 PM 10-Nov-2026 05:50 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. Vacuum Filtration Pur/PP 4151/e-file 300128/26-27-DVG Lab 12-Nov-2026 03:00 PM 12-Nov-2026 04:00 PM 7. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER 2026/IRCTC/TSV/06/NOVEMBER/02 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months 91-84/Enq/PnW/Civil/1986 10-Nov-2026 04:30 PM 10-Nov-2026 05:50 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. Vacuum Filtration Pur/PP 4151/e-file 300128/26-27-DVG Lab 12-Nov-2026 03:00 PM 12-Nov-2026 04:00 PM 7. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER 2026/IRCTC/TSV/06/NOVEMBER/02 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months 91-84/Enq/PnW/Civil/1986 10-Nov-2026 04:30 PM 10-Nov-2026 05:50 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. Vacuum Filtration Pur/PP 4151/e-file 300128/26-27-DVG Lab 12-Nov-2026 03:00 PM 12-Nov-2026 04:00 PM 7. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER 2026/IRCTC/TSV/06/NOVEMBER/02 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months 91-84/Enq/PnW/Civil/1986 10-Nov-2026 04:30 PM 10-Nov-2026 05:50 PM | 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA | BIOM KDL COMP CIVIL 2026 5922 | 17-Nov-2026 03:00 PM | 17-Nov-2026 03:30 PM | 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL | BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 | 05-Nov-2026 12:30 PM | 05-Nov-2026 06:00 PM | 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad | TIFR/PD/CA26-131/261435 | 24-Nov-2026 01:00 PM | 24-Nov-2026 03:00 PM | 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL | BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 | 06-Nov-2026 12:30 PM | 06-Nov-2026 06:00 PM | 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels | F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 | 24-Nov-2026 03:00 PM | 24-Nov-2026 03:30 PM | 6. Vacuum Filtration | Pur/PP 4151/e-file 300128/26-27-DVG Lab | 12-Nov-2026 03:00 PM | 12-Nov-2026 04:00 PM | 7. SITC of MS Flammable Safety Cabinet | PI/000715/26-27(S) | 23-Nov-2026 06:00 PM | 24-Nov-2026 01:00 PM | 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER | 2026/IRCTC/TSV/06/NOVEMBER/02 | 04-Nov-2026 12:00 PM | 04-Nov-2026 12:15 PM | 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. | 91-84/Enq/PnW/Civil/1985 | 02-Dec-2026 04:30 PM | 02-Dec-2026 05:30 PM | 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months | 91-84/Enq/PnW/Civil/1986 | 10-Nov-2026 04:30 PM | 10-Nov-2026 05:50 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM | 1. Corr-Adm-06 | NBCC/CPG/Supertech/ Araville/2026/603 | 06-Nov-2026 11:00 AM | 06-Nov-2026 11:30 AM | 2. Corr-Adm-06 | NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 | 06-Nov-2026 11:00 AM | 06-Nov-2026 11:30 AM | 3. Cor-Adm-06 | NBCC/CPG/Supertech/Up country/PkgIII/2026/612 | 06-Nov-2026 11:00 AM | 06-Nov-2026 11:30 AM | 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions | PI/000718/26-27(A) | 04-Nov-2026 12:00 PM | 05-Nov-2026 12:00 PM | 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions | PI/000717/26-27(A) | 03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM | 6. CORRIGENDUM-1 FOR CCMS RFP | GeM/2026/B/8162703 | 18-Nov-2026 03:00 PM | 19-Nov-2026 03:00 PM | 7. Date extension | NITJ/EO/CA/09/2026 | 17-Nov-2026 05:00 PM | 18-Nov-2026 11:00 AM | 8. TNO271-OCT26-EAST-1 | B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 9. Extension in last date of bid submission | NITJ/EO/CA/10/26 | 19-Nov-2026 05:00 PM | 20-Nov-2026 11:00 AM | 10. submission date regarding | NITJ/EO/CA/08/26 | 16-Nov-2026 05:00 PM | 17-Nov-2026 11:00 AM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 7. Transfer chute repair work Mechanical/24/26-27/ET/486 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. BNR/51244/HIRING/CON PUMP/03 BNR/51244/HIRING/CON PUMP/03 09-Nov-2026 06:55 PM 10-Nov-2026 06:55 PM 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 7. Transfer chute repair work Mechanical/24/26-27/ET/486 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. BNR/51244/HIRING/CON PUMP/03 BNR/51244/HIRING/CON PUMP/03 09-Nov-2026 06:55 PM 10-Nov-2026 06:55 PM 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 7. Transfer chute repair work Mechanical/24/26-27/ET/486 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. BNR/51244/HIRING/CON PUMP/03 BNR/51244/HIRING/CON PUMP/03 09-Nov-2026 06:55 PM 10-Nov-2026 06:55 PM 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 7. Transfer chute repair work Mechanical/24/26-27/ET/486 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. BNR/51244/HIRING/CON PUMP/03 BNR/51244/HIRING/CON PUMP/03 09-Nov-2026 06:55 PM 10-Nov-2026 06:55 PM 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 7. Transfer chute repair work Mechanical/24/26-27/ET/486 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. BNR/51244/HIRING/CON PUMP/03 BNR/51244/HIRING/CON PUMP/03 09-Nov-2026 06:55 PM 10-Nov-2026 06:55 PM 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM | 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA | BIOM KDL COMP CIVIL 2026 5922 | 17-Nov-2026 03:00 PM | 17-Nov-2026 03:30 PM | 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL | BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 | 05-Nov-2026 12:30 PM | 05-Nov-2026 06:00 PM | 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL | BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 | 06-Nov-2026 12:30 PM | 06-Nov-2026 06:00 PM | 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad | TIFR/PD/CA26-131/261435 | 24-Nov-2026 01:00 PM | 24-Nov-2026 03:00 PM | 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels | F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 | 24-Nov-2026 03:00 PM | 24-Nov-2026 03:30 PM | 6. SITC of MS Flammable Safety Cabinet | PI/000715/26-27(S) | 23-Nov-2026 06:00 PM | 24-Nov-2026 01:00 PM | 7. Transfer chute repair work | Mechanical/24/26-27/ET/486 | 16-Nov-2026 03:30 PM | 16-Nov-2026 04:00 PM | 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL | 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 | 04-Nov-2026 12:00 PM | 04-Nov-2026 12:15 PM | 9. BNR/51244/HIRING/CON PUMP/03 | BNR/51244/HIRING/CON PUMP/03 | 09-Nov-2026 06:55 PM | 10-Nov-2026 06:55 PM | 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. | 91-84/Enq/PnW/Civil/1985 | 02-Dec-2026 04:30 PM | 02-Dec-2026 05:30 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM | 1. Corr-Adm-06 | NBCC/CPG/Supertech/ Araville/2026/603 | 06-Nov-2026 11:00 AM | 06-Nov-2026 11:30 AM | 2. Corr-Adm-06 | NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 | 06-Nov-2026 11:00 AM | 06-Nov-2026 11:30 AM | 3. Cor-Adm-06 | NBCC/CPG/Supertech/Up country/PkgIII/2026/612 | 06-Nov-2026 11:00 AM | 06-Nov-2026 11:30 AM | 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions | PI/000718/26-27(A) | 04-Nov-2026 12:00 PM | 05-Nov-2026 12:00 PM | 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions | PI/000717/26-27(A) | 03-Nov-2026 03:00 PM | 04-Nov-2026 03:00 PM | 6. CORRIGENDUM-1 FOR CCMS RFP | GeM/2026/B/8162703 | 18-Nov-2026 03:00 PM | 19-Nov-2026 03:00 PM | 7. Date extension | NITJ/EO/CA/09/2026 | 17-Nov-2026 05:00 PM | 18-Nov-2026 11:00 AM | 8. TNO271-OCT26-EAST-1 | B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 | 06-Nov-2026 06:55 PM | 07-Nov-2026 06:55 PM | 9. Extension in last date of bid submission | NITJ/EO/CA/10/26 | 19-Nov-2026 05:00 PM | 20-Nov-2026 11:00 AM | 10. submission date regarding | NITJ/EO/CA/08/26 | 16-Nov-2026 05:00 PM | 17-Nov-2026 11:00 AM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,21 +520,21 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. Vacuum Filtration Pur/PP 4151/e-file 300128/26-27-DVG Lab 12-Nov-2026 03:00 PM 12-Nov-2026 04:00 PM 7. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER 2026/IRCTC/TSV/06/NOVEMBER/02 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months 91-84/Enq/PnW/Civil/1986 10-Nov-2026 04:30 PM 10-Nov-2026 05:50 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 7. Transfer chute repair work Mechanical/24/26-27/ET/486 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. BNR/51244/HIRING/CON PUMP/03 BNR/51244/HIRING/CON PUMP/03 09-Nov-2026 06:55 PM 10-Nov-2026 06:55 PM 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. Vacuum Filtration Pur/PP 4151/e-file 300128/26-27-DVG Lab 12-Nov-2026 03:00 PM 12-Nov-2026 04:00 PM 7. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER 2026/IRCTC/TSV/06/NOVEMBER/02 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months 91-84/Enq/PnW/Civil/1986 10-Nov-2026 04:30 PM 10-Nov-2026 05:50 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 7. Transfer chute repair work Mechanical/24/26-27/ET/486 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. BNR/51244/HIRING/CON PUMP/03 BNR/51244/HIRING/CON PUMP/03 09-Nov-2026 06:55 PM 10-Nov-2026 06:55 PM 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corr-Adm-06 NBCC/CPG/Supertech/ Araville/2026/603 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 2. Corr-Adm-06 NBCC/CPG/Supertech/ Eco-Village-2/Pkg-III/2026/617 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 3. Cor-Adm-06 NBCC/CPG/Supertech/Up country/PkgIII/2026/612 06-Nov-2026 11:00 AM 06-Nov-2026 11:30 AM 4. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000718/26-27(A) 04-Nov-2026 12:00 PM 05-Nov-2026 12:00 PM 5. Corrigendum-1 for Change the GeM Tender Technical Specifications / Terms and Conditions PI/000717/26-27(A) 03-Nov-2026 03:00 PM 04-Nov-2026 03:00 PM 6. CORRIGENDUM-1 FOR CCMS RFP GeM/2026/B/8162703 18-Nov-2026 03:00 PM 19-Nov-2026 03:00 PM 7. Date extension NITJ/EO/CA/09/2026 17-Nov-2026 05:00 PM 18-Nov-2026 11:00 AM 8. TNO271-OCT26-EAST-1 B AND R/71149/IOCL/PANIPAT/STR DTLG/SITE/LC/NIT/02 06-Nov-2026 06:55 PM 07-Nov-2026 06:55 PM 9. Extension in last date of bid submission NITJ/EO/CA/10/26 19-Nov-2026 05:00 PM 20-Nov-2026 11:00 AM 10. submission date regarding NITJ/EO/CA/08/26 16-Nov-2026 05:00 PM 17-Nov-2026 11:00 AM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. Vacuum Filtration Pur/PP 4151/e-file 300128/26-27-DVG Lab 12-Nov-2026 03:00 PM 12-Nov-2026 04:00 PM 7. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER 2026/IRCTC/TSV/06/NOVEMBER/02 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months 91-84/Enq/PnW/Civil/1986 10-Nov-2026 04:30 PM 10-Nov-2026 05:50 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. Vacuum Filtration Pur/PP 4151/e-file 300128/26-27-DVG Lab 12-Nov-2026 03:00 PM 12-Nov-2026 04:00 PM 7. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER 2026/IRCTC/TSV/06/NOVEMBER/02 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months 91-84/Enq/PnW/Civil/1986 10-Nov-2026 04:30 PM 10-Nov-2026 05:50 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 7. Transfer chute repair work Mechanical/24/26-27/ET/486 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. BNR/51244/HIRING/CON PUMP/03 BNR/51244/HIRING/CON PUMP/03 09-Nov-2026 06:55 PM 10-Nov-2026 06:55 PM 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 7. Transfer chute repair work Mechanical/24/26-27/ET/486 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. BNR/51244/HIRING/CON PUMP/03 BNR/51244/HIRING/CON PUMP/03 09-Nov-2026 06:55 PM 10-Nov-2026 06:55 PM 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. Vacuum Filtration Pur/PP 4151/e-file 300128/26-27-DVG Lab 12-Nov-2026 03:00 PM 12-Nov-2026 04:00 PM 7. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER 2026/IRCTC/TSV/06/NOVEMBER/02 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months 91-84/Enq/PnW/Civil/1986 10-Nov-2026 04:30 PM 10-Nov-2026 05:50 PM",
+          "1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 7. Transfer chute repair work Mechanical/24/26-27/ET/486 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. BNR/51244/HIRING/CON PUMP/03 BNR/51244/HIRING/CON PUMP/03 09-Nov-2026 06:55 PM 10-Nov-2026 06:55 PM 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM",
           "1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA",
           "BIOM KDL COMP CIVIL 2026 5922",
           "17-Nov-2026 03:00 PM",
@@ -543,38 +543,38 @@
           "BSLC/APPV/DOLOMITE/LIMESTONE 2026-27",
           "05-Nov-2026 12:30 PM",
           "05-Nov-2026 06:00 PM",
-          "3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad",
-          "TIFR/PD/CA26-131/261435",
-          "24-Nov-2026 01:00 PM",
-          "24-Nov-2026 03:00 PM",
-          "4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL",
+          "3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL",
           "BSLC/APPV/DOLOMITE/LIMESTONE 2026-27",
           "06-Nov-2026 12:30 PM",
           "06-Nov-2026 06:00 PM",
+          "4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad",
+          "TIFR/PD/CA26-131/261435",
+          "24-Nov-2026 01:00 PM",
+          "24-Nov-2026 03:00 PM",
           "5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels",
           "F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026",
           "24-Nov-2026 03:00 PM",
           "24-Nov-2026 03:30 PM",
-          "6. Vacuum Filtration",
-          "Pur/PP 4151/e-file 300128/26-27-DVG Lab",
-          "12-Nov-2026 03:00 PM",
-          "12-Nov-2026 04:00 PM",
-          "7. SITC of MS Flammable Safety Cabinet",
+          "6. SITC of MS Flammable Safety Cabinet",
           "PI/000715/26-27(S)",
           "23-Nov-2026 06:00 PM",
           "24-Nov-2026 01:00 PM",
-          "8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER",
-          "2026/IRCTC/TSV/06/NOVEMBER/02",
+          "7. Transfer chute repair work",
+          "Mechanical/24/26-27/ET/486",
+          "16-Nov-2026 03:30 PM",
+          "16-Nov-2026 04:00 PM",
+          "8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL",
+          "2026/IRCTC/WCB/06/M3/ NOVEMBER/01",
           "04-Nov-2026 12:00 PM",
           "04-Nov-2026 12:15 PM",
-          "9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P.",
+          "9. BNR/51244/HIRING/CON PUMP/03",
+          "BNR/51244/HIRING/CON PUMP/03",
+          "09-Nov-2026 06:55 PM",
+          "10-Nov-2026 06:55 PM",
+          "10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P.",
           "91-84/Enq/PnW/Civil/1985",
           "02-Dec-2026 04:30 PM",
           "02-Dec-2026 05:30 PM",
-          "10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months",
-          "91-84/Enq/PnW/Civil/1986",
-          "10-Nov-2026 04:30 PM",
-          "10-Nov-2026 05:50 PM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.080Z",
-      "evidenceHash": "0f43ce35ba5444bfa320b478ae5b52226c995e938db656fbc20c23061e81c306"
+      "observedAt": "2026-11-03T01:32:23.128Z",
+      "evidenceHash": "814ae985c3d3acecfb4912b8b61b10870a75dd6c786b15e94aca61d2a26c32d4"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.081Z",
+      "observedAt": "2026-11-03T01:32:23.128Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,24 +727,24 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.083Z",
+      "observedAt": "2026-11-03T01:32:23.129Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-loading-and-transportation-of-slime-ore-for-a-quantity-of-4-lt-in-dry/wet-condition-by-mechanical-means-from-kadampal-tailing-dam-to-line-13-mv-siding-at-biom-kirandul-complex-dantewada-biom-kdl-comp-civil-2026-5922-17-nov-2026-03:00-pm-17-nov-2026-03:30-pm-2.-sale-of-dolomite-lump,-size-(15-50mm)-by-rail-bslc/appv/dolomite/limestone-2026-27-05-nov-2026-12:30-pm-05-nov-2026-06:00-pm-3.-supply,-installation-and-commissioning-of-e50-electron-beamline-4-chamber-assembly-for-tifr-hyderabad-tifr/pd/ca26-131/261435-24-nov-2026-01:00-pm-24-nov-2026-03:00-pm-4.-sale-of-dolomite-lump,-size-(15-50mm)-by-rail-bslc/appv/dolomite/limestone-2026-27-06-nov-2026-12:30-pm-06-nov-2026-06:00-pm-5.-replace-old-11kv-panels-at-nph-ss-with-new-11kv-vcb-panels-f1-t5-ht-vcb-panels-nph-2026-m-dt-02-11-2026-24-nov-2026-03:00-pm-24-nov-2026-03:30-pm-6.-vacuum-filtration-pur/pp-4151/e-file-300128/26-27-dvg-lab-12-nov-2026-03:00-pm-12-nov-2026-04:00-pm-7.-sitc-of-ms-flammable-safety-cabinet-pi/000715/26-27(s)-23-nov-2026-06:00-pm-24-nov-2026-01:00-pm-8.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement-of-long-term-tenders-whichever-is-earlier-2026/irctc/tsv/06/november/02-04-nov-2026-12:00-pm-04-nov-2026-12:15-pm-9.-enquiry-for-raising-and-renovation-of-shutter-and-allied-civil-works-for-store-no.-3,-at-phi,-thp-mppgcl-sirmour,-distt.-rewa-m.p.-91-84/enq/pnw/civil/1985-02-dec-2026-04:30-pm-02-dec-2026-05:30-pm-10.-enquiry-for-recording-approach-channel-water-level-at-intake-and-informing-to-control-room-at-phi-3x105mw-at-sirmour-rewa-2.5-months-91-84/enq/pnw/civil/1986-10-nov-2026-04:30-pm-10-nov-2026-05:50-pm:1.-loading-and-transportation-of-slime-ore-for-a-quantity-of-4-lt-in-dry/wet-condition-by-mechanical-means-from-kadampal-tailing-dam-to-line-13-mv-siding-at-biom-kirandul-complex-dantewada-biom-kdl-comp-civil-2026-5922-17-nov-2026-03:00-pm-17-nov-2026-03:30-pm-2.-sale-of-dolomite-lump,-size-(15-50mm)-by-rail-bslc/appv/dolomite/limestone-2026-27-05-nov-2026-12:30-pm-05-nov-2026-06:00-pm-3.-supply,-installation-and-commissioning-of-e50-electron-beamline-4-chamber-assembly-for-tifr-hyderabad-tifr/pd/ca26-131/261435-24-nov-2026-01:00-pm-24-nov-2026-03:00-pm-4.-sale-of-dolomite-lump,-size-(15-50mm)-by-rail-bslc/appv/dolomite/limestone-2026-27-06-nov-2026-12:30-pm-06-nov-2026-06:00-pm-5.-replace-old-11kv-panels-at-nph-ss-with-new-11kv-vcb-panels-f1-t5-ht-vcb-panels-nph-2026-m-dt-02-11-2026-24-nov-2026-03:00-pm-24-nov-2026-03:30-pm-6.-vacuum-filtration-pur/pp-4151/e-file-300128/26-27-dvg-lab-12-nov-2026-03:00-pm-12-nov-2026-04:00-pm-7.-sitc-of-ms-flammable-safety-cabinet-pi/000715/26-27(s)-23-nov-2026-06:00-pm-24-nov-2026-01:00-pm-8.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement-of-long-term-tenders-whichever-is-earlier-2026/irctc/tsv/06/november/02-04-nov-2026-12:00-pm-04-nov-2026-12:15-pm-9.-enquiry-for-raising-and-renovation-of-shutter-and-allied-civil-works-for-store-no.-3,-at-phi,-thp-mppgcl-sirmour,-distt.-rewa-m.p.-91-84/enq/pnw/civil/1985-02-dec-2026-04:30-pm-02-dec-2026-05:30-pm-10.-enquiry-for-recording-approach-channel-water-level-at-intake-and-informing-to-control-room-at-phi-3x105mw-at-sirmour-rewa-2.5-months-91-84/enq/pnw/civil/1986-10-nov-2026-04:30-pm-10-nov-2026-05:50-pm",
+      "externalKey": "cppp-procurement:1.-loading-and-transportation-of-slime-ore-for-a-quantity-of-4-lt-in-dry/wet-condition-by-mechanical-means-from-kadampal-tailing-dam-to-line-13-mv-siding-at-biom-kirandul-complex-dantewada-biom-kdl-comp-civil-2026-5922-17-nov-2026-03:00-pm-17-nov-2026-03:30-pm-2.-sale-of-dolomite-lump,-size-(15-50mm)-by-rail-bslc/appv/dolomite/limestone-2026-27-05-nov-2026-12:30-pm-05-nov-2026-06:00-pm-3.-sale-of-dolomite-lump,-size-(15-50mm)-by-rail-bslc/appv/dolomite/limestone-2026-27-06-nov-2026-12:30-pm-06-nov-2026-06:00-pm-4.-supply,-installation-and-commissioning-of-e50-electron-beamline-4-chamber-assembly-for-tifr-hyderabad-tifr/pd/ca26-131/261435-24-nov-2026-01:00-pm-24-nov-2026-03:00-pm-5.-replace-old-11kv-panels-at-nph-ss-with-new-11kv-vcb-panels-f1-t5-ht-vcb-panels-nph-2026-m-dt-02-11-2026-24-nov-2026-03:00-pm-24-nov-2026-03:30-pm-6.-sitc-of-ms-flammable-safety-cabinet-pi/000715/26-27(s)-23-nov-2026-06:00-pm-24-nov-2026-01:00-pm-7.-transfer-chute-repair-work-mechanical/24/26-27/et/486-16-nov-2026-03:30-pm-16-nov-2026-04:00-pm-8.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-mail-/-express-/-super-fast-trains-having-pantry-car-/-mini-pantries-in-partial-/-complete-unbundling-model-2026/irctc/wcb/06/m3/-november/01-04-nov-2026-12:00-pm-04-nov-2026-12:15-pm-9.-bnr/51244/hiring/con-pump/03-bnr/51244/hiring/con-pump/03-09-nov-2026-06:55-pm-10-nov-2026-06:55-pm-10.-enquiry-for-raising-and-renovation-of-shutter-and-allied-civil-works-for-store-no.-3,-at-phi,-thp-mppgcl-sirmour,-distt.-rewa-m.p.-91-84/enq/pnw/civil/1985-02-dec-2026-04:30-pm-02-dec-2026-05:30-pm:1.-loading-and-transportation-of-slime-ore-for-a-quantity-of-4-lt-in-dry/wet-condition-by-mechanical-means-from-kadampal-tailing-dam-to-line-13-mv-siding-at-biom-kirandul-complex-dantewada-biom-kdl-comp-civil-2026-5922-17-nov-2026-03:00-pm-17-nov-2026-03:30-pm-2.-sale-of-dolomite-lump,-size-(15-50mm)-by-rail-bslc/appv/dolomite/limestone-2026-27-05-nov-2026-12:30-pm-05-nov-2026-06:00-pm-3.-sale-of-dolomite-lump,-size-(15-50mm)-by-rail-bslc/appv/dolomite/limestone-2026-27-06-nov-2026-12:30-pm-06-nov-2026-06:00-pm-4.-supply,-installation-and-commissioning-of-e50-electron-beamline-4-chamber-assembly-for-tifr-hyderabad-tifr/pd/ca26-131/261435-24-nov-2026-01:00-pm-24-nov-2026-03:00-pm-5.-replace-old-11kv-panels-at-nph-ss-with-new-11kv-vcb-panels-f1-t5-ht-vcb-panels-nph-2026-m-dt-02-11-2026-24-nov-2026-03:00-pm-24-nov-2026-03:30-pm-6.-sitc-of-ms-flammable-safety-cabinet-pi/000715/26-27(s)-23-nov-2026-06:00-pm-24-nov-2026-01:00-pm-7.-transfer-chute-repair-work-mechanical/24/26-27/et/486-16-nov-2026-03:30-pm-16-nov-2026-04:00-pm-8.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-mail-/-express-/-super-fast-trains-having-pantry-car-/-mini-pantries-in-partial-/-complete-unbundling-model-2026/irctc/wcb/06/m3/-november/01-04-nov-2026-12:00-pm-04-nov-2026-12:15-pm-9.-bnr/51244/hiring/con-pump/03-bnr/51244/hiring/con-pump/03-09-nov-2026-06:55-pm-10-nov-2026-06:55-pm-10.-enquiry-for-raising-and-renovation-of-shutter-and-allied-civil-works-for-store-no.-3,-at-phi,-thp-mppgcl-sirmour,-distt.-rewa-m.p.-91-84/enq/pnw/civil/1985-02-dec-2026-04:30-pm-02-dec-2026-05:30-pm",
       "sensorId": "cppp-procurement",
-      "title": "1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/P",
+      "title": "1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-N",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SlnbxuI10bjO3bNP1MOsKZA%3D%3D",
-      "tenderReference": "1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. Vacuum Filtration Pur/PP 4151/e-file 300128/26-27-DVG Lab 12-Nov-2026 03:00 PM 12-Nov-2026 04:00 PM 7. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER 2026/IRCTC/TSV/06/NOVEMBER/02 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months 91-84/Enq/PnW/Civil/1986 10-Nov-2026 04:30 PM 10-Nov-2026 05:50 PM",
+      "tenderReference": "1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 7. Transfer chute repair work Mechanical/24/26-27/ET/486 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. BNR/51244/HIRING/CON PUMP/03 BNR/51244/HIRING/CON PUMP/03 09-Nov-2026 06:55 PM 10-Nov-2026 06:55 PM 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM",
       "geographicPrecision": "unknown",
-      "note": "BIOM KDL COMP CIVIL 2026 5922 | 17-Nov-2026 03:00 PM | 17-Nov-2026 03:30 PM | 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL | BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 | 05-Nov-2026 12:30 PM | 05-Nov-2026 06:00 PM | 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad | TIFR/PD/CA26-131/261435 | 24-Nov-2026 01:00 PM | 24-Nov-2026 03:00 PM | 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL | BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 | 06-Nov-2026 12:30 PM | 06-Nov-2026 06:00 PM | 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels | F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 | 24-Nov-2026 03:00 PM | 24-Nov-2026 03:30 PM | 6. Vacuum Filtration | Pur/PP 4151/e-file 300128/26-27-DVG Lab | 12-Nov-2026 03:00 PM | 12-Nov-2026 04:00 PM | 7. SITC of MS Flammable Safety Cabinet | PI/000715/26-27(S) | 23-Nov-2026 06:00 PM | 24-Nov-2026 01:00 PM | 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER | 2026/IRCTC/TSV/06/NOVEMBER/02 | 04-Nov-2026 12:00 PM | 04-Nov-2026 12:15 PM | 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. | 91-84/Enq/PnW/Civil/1985 | 02-Dec-2026 04:30 PM | 02-Dec-2026 05:30 PM | 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months | 91-84/Enq/PnW/Civil/1986 | 10-Nov-2026 04:30 PM | 10-Nov-2026 05:50 PM",
+      "note": "BIOM KDL COMP CIVIL 2026 5922 | 17-Nov-2026 03:00 PM | 17-Nov-2026 03:30 PM | 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL | BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 | 05-Nov-2026 12:30 PM | 05-Nov-2026 06:00 PM | 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL | BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 | 06-Nov-2026 12:30 PM | 06-Nov-2026 06:00 PM | 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad | TIFR/PD/CA26-131/261435 | 24-Nov-2026 01:00 PM | 24-Nov-2026 03:00 PM | 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels | F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 | 24-Nov-2026 03:00 PM | 24-Nov-2026 03:30 PM | 6. SITC of MS Flammable Safety Cabinet | PI/000715/26-27(S) | 23-Nov-2026 06:00 PM | 24-Nov-2026 01:00 PM | 7. Transfer chute repair work | Mechanical/24/26-27/ET/486 | 16-Nov-2026 03:30 PM | 16-Nov-2026 04:00 PM | 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL | 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 | 04-Nov-2026 12:00 PM | 04-Nov-2026 12:15 PM | 9. BNR/51244/HIRING/CON PUMP/03 | BNR/51244/HIRING/CON PUMP/03 | 09-Nov-2026 06:55 PM | 10-Nov-2026 06:55 PM | 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. | 91-84/Enq/PnW/Civil/1985 | 02-Dec-2026 04:30 PM | 02-Dec-2026 05:30 PM",
       "raw": {
         "cells": [
-          "1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. Vacuum Filtration Pur/PP 4151/e-file 300128/26-27-DVG Lab 12-Nov-2026 03:00 PM 12-Nov-2026 04:00 PM 7. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER 2026/IRCTC/TSV/06/NOVEMBER/02 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM 10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months 91-84/Enq/PnW/Civil/1986 10-Nov-2026 04:30 PM 10-Nov-2026 05:50 PM",
+          "1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA BIOM KDL COMP CIVIL 2026 5922 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 2. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 05-Nov-2026 12:30 PM 05-Nov-2026 06:00 PM 3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL BSLC/APPV/DOLOMITE/LIMESTONE 2026-27 06-Nov-2026 12:30 PM 06-Nov-2026 06:00 PM 4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad TIFR/PD/CA26-131/261435 24-Nov-2026 01:00 PM 24-Nov-2026 03:00 PM 5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026 24-Nov-2026 03:00 PM 24-Nov-2026 03:30 PM 6. SITC of MS Flammable Safety Cabinet PI/000715/26-27(S) 23-Nov-2026 06:00 PM 24-Nov-2026 01:00 PM 7. Transfer chute repair work Mechanical/24/26-27/ET/486 16-Nov-2026 03:30 PM 16-Nov-2026 04:00 PM 8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL 2026/IRCTC/WCB/06/M3/ NOVEMBER/01 04-Nov-2026 12:00 PM 04-Nov-2026 12:15 PM 9. BNR/51244/HIRING/CON PUMP/03 BNR/51244/HIRING/CON PUMP/03 09-Nov-2026 06:55 PM 10-Nov-2026 06:55 PM 10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P. 91-84/Enq/PnW/Civil/1985 02-Dec-2026 04:30 PM 02-Dec-2026 05:30 PM",
           "1. LOADING AND TRANSPORTATION OF SLIME ORE FOR A QUANTITY OF 4 LT IN DRY/WET CONDITION BY MECHANICAL MEANS FROM KADAMPAL TAILING DAM TO LINE 13 MV SIDING AT BIOM KIRANDUL COMPLEX DANTEWADA",
           "BIOM KDL COMP CIVIL 2026 5922",
           "17-Nov-2026 03:00 PM",
@@ -753,42 +753,42 @@
           "BSLC/APPV/DOLOMITE/LIMESTONE 2026-27",
           "05-Nov-2026 12:30 PM",
           "05-Nov-2026 06:00 PM",
-          "3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad",
-          "TIFR/PD/CA26-131/261435",
-          "24-Nov-2026 01:00 PM",
-          "24-Nov-2026 03:00 PM",
-          "4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL",
+          "3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL",
           "BSLC/APPV/DOLOMITE/LIMESTONE 2026-27",
           "06-Nov-2026 12:30 PM",
           "06-Nov-2026 06:00 PM",
+          "4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad",
+          "TIFR/PD/CA26-131/261435",
+          "24-Nov-2026 01:00 PM",
+          "24-Nov-2026 03:00 PM",
           "5. Replace old 11kV Panels at NPH SS with new 11kV VCB Panels",
           "F1-T5-HT VCB PANELS NPH-2026-M dt 02-11-2026",
           "24-Nov-2026 03:00 PM",
           "24-Nov-2026 03:30 PM",
-          "6. Vacuum Filtration",
-          "Pur/PP 4151/e-file 300128/26-27-DVG Lab",
-          "12-Nov-2026 03:00 PM",
-          "12-Nov-2026 04:00 PM",
-          "7. SITC of MS Flammable Safety Cabinet",
+          "6. SITC of MS Flammable Safety Cabinet",
           "PI/000715/26-27(S)",
           "23-Nov-2026 06:00 PM",
           "24-Nov-2026 01:00 PM",
-          "8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER",
-          "2026/IRCTC/TSV/06/NOVEMBER/02",
+          "7. Transfer chute repair work",
+          "Mechanical/24/26-27/ET/486",
+          "16-Nov-2026 03:30 PM",
+          "16-Nov-2026 04:00 PM",
+          "8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL",
+          "2026/IRCTC/WCB/06/M3/ NOVEMBER/01",
           "04-Nov-2026 12:00 PM",
           "04-Nov-2026 12:15 PM",
-          "9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P.",
+          "9. BNR/51244/HIRING/CON PUMP/03",
+          "BNR/51244/HIRING/CON PUMP/03",
+          "09-Nov-2026 06:55 PM",
+          "10-Nov-2026 06:55 PM",
+          "10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P.",
           "91-84/Enq/PnW/Civil/1985",
           "02-Dec-2026 04:30 PM",
-          "02-Dec-2026 05:30 PM",
-          "10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months",
-          "91-84/Enq/PnW/Civil/1986",
-          "10-Nov-2026 04:30 PM",
-          "10-Nov-2026 05:50 PM"
+          "02-Dec-2026 05:30 PM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.085Z",
-      "evidenceHash": "8f4ebbca20fdf150e3440fca3a94624479996c91ae39254ce589373258dac631"
+      "observedAt": "2026-11-03T01:32:23.130Z",
+      "evidenceHash": "31c747ce0ec4fc99d079c6f6a5be1d1d4c7943e8b77ba803a1635fdddbec4773"
     },
     {
       "externalKey": "cppp-procurement:biom-kdl-comp-civil-2026-5922:1.-loading-and-transportation-of-slime-ore-for-a-quantity-of-4-lt-in-dry/wet-condition-by-mechanical-means-from-kadampal-tailing-dam-to-line-13-mv-siding-at-biom-kirandul-complex-dantewada",
@@ -810,7 +810,7 @@
           "17-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.085Z",
+      "observedAt": "2026-11-03T01:32:23.130Z",
       "evidenceHash": "9777454ce7a9a145393303376f72320aa758c5a27dd2e5b6f176a0106cce83d8"
     },
     {
@@ -833,36 +833,13 @@
           "05-Nov-2026 06:00 PM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.085Z",
+      "observedAt": "2026-11-03T01:32:23.130Z",
       "evidenceHash": "79752c122806bb0d3bbc9ece3a278c2d6896347c0fdbfdace0bee814080f532a"
     },
     {
-      "externalKey": "cppp-procurement:tifr/pd/ca26-131/261435:3.-supply,-installation-and-commissioning-of-e50-electron-beamline-4-chamber-assembly-for-tifr-hyderabad",
+      "externalKey": "cppp-procurement:bslc/appv/dolomite/limestone-2026-27:3.-sale-of-dolomite-lump,-size-(15-50mm)-by-rail",
       "sensorId": "cppp-procurement",
-      "title": "3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SjIl356jqRdj3HMVd%2FmIA%2FQ%3D%3D",
-      "tenderReference": "TIFR/PD/CA26-131/261435",
-      "geographicPrecision": "unknown",
-      "note": "24-Nov-2026 01:00 PM | 24-Nov-2026 03:00 PM",
-      "raw": {
-        "cells": [
-          "3. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad",
-          "TIFR/PD/CA26-131/261435",
-          "24-Nov-2026 01:00 PM",
-          "24-Nov-2026 03:00 PM"
-        ]
-      },
-      "observedAt": "2026-11-02T18:17:38.085Z",
-      "evidenceHash": "a9a18bc075d8092b8d1f833098d023bc6775322f5ac1100dce448fc9a03a721e"
-    },
-    {
-      "externalKey": "cppp-procurement:bslc/appv/dolomite/limestone-2026-27:4.-sale-of-dolomite-lump,-size-(15-50mm)-by-rail",
-      "sensorId": "cppp-procurement",
-      "title": "4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL",
+      "title": "3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -873,14 +850,37 @@
       "note": "06-Nov-2026 12:30 PM | 06-Nov-2026 06:00 PM",
       "raw": {
         "cells": [
-          "4. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL",
+          "3. SALE OF DOLOMITE lump, SIZE (15-50MM) BY RAIL",
           "BSLC/APPV/DOLOMITE/LIMESTONE 2026-27",
           "06-Nov-2026 12:30 PM",
           "06-Nov-2026 06:00 PM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.085Z",
-      "evidenceHash": "bf4374829db2d27402d75c6048ede318275080032484a8a672029ca014498764"
+      "observedAt": "2026-11-03T01:32:23.130Z",
+      "evidenceHash": "804f2de8ac333e0eb9ba724749532db0b6bd7a246f5977204d02a75778e6373b"
+    },
+    {
+      "externalKey": "cppp-procurement:tifr/pd/ca26-131/261435:4.-supply,-installation-and-commissioning-of-e50-electron-beamline-4-chamber-assembly-for-tifr-hyderabad",
+      "sensorId": "cppp-procurement",
+      "title": "4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SjIl356jqRdj3HMVd%2FmIA%2FQ%3D%3D",
+      "tenderReference": "TIFR/PD/CA26-131/261435",
+      "geographicPrecision": "unknown",
+      "note": "24-Nov-2026 01:00 PM | 24-Nov-2026 03:00 PM",
+      "raw": {
+        "cells": [
+          "4. Supply, Installation and Commissioning of E50 Electron beamline 4 Chamber Assembly for TIFR Hyderabad",
+          "TIFR/PD/CA26-131/261435",
+          "24-Nov-2026 01:00 PM",
+          "24-Nov-2026 03:00 PM"
+        ]
+      },
+      "observedAt": "2026-11-03T01:32:23.130Z",
+      "evidenceHash": "fe64de1ee38e8dc175b97c1fc3440510b1deb4c277902979d357ebe75b00fd15"
     },
     {
       "externalKey": "cppp-procurement:f1-t5-ht-vcb-panels-nph-2026-m-dt-02-11-2026:5.-replace-old-11kv-panels-at-nph-ss-with-new-11kv-vcb-panels",
@@ -902,36 +902,13 @@
           "24-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.085Z",
+      "observedAt": "2026-11-03T01:32:23.130Z",
       "evidenceHash": "2140c29ad1a2debf7b3b65b701229d08d3de707b6dd7902d7aa51f8f0b153ee5"
     },
     {
-      "externalKey": "cppp-procurement:pur/pp-4151/e-file-300128/26-27-dvg-lab:6.-vacuum-filtration",
+      "externalKey": "cppp-procurement:pi/000715/26-27(s):6.-sitc-of-ms-flammable-safety-cabinet",
       "sensorId": "cppp-procurement",
-      "title": "6. Vacuum Filtration",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SmxlI1C3x3DM3o%2FsIc1Le3Q%3D%3D",
-      "tenderReference": "Pur/PP 4151/e-file 300128/26-27-DVG Lab",
-      "geographicPrecision": "unknown",
-      "note": "12-Nov-2026 03:00 PM | 12-Nov-2026 04:00 PM",
-      "raw": {
-        "cells": [
-          "6. Vacuum Filtration",
-          "Pur/PP 4151/e-file 300128/26-27-DVG Lab",
-          "12-Nov-2026 03:00 PM",
-          "12-Nov-2026 04:00 PM"
-        ]
-      },
-      "observedAt": "2026-11-02T18:17:38.085Z",
-      "evidenceHash": "0732d76f3c43e83a52e3013c18e007ce3b5a12dd5fd5d804f509a36f1e48e56d"
-    },
-    {
-      "externalKey": "cppp-procurement:pi/000715/26-27(s):7.-sitc-of-ms-flammable-safety-cabinet",
-      "sensorId": "cppp-procurement",
-      "title": "7. SITC of MS Flammable Safety Cabinet",
+      "title": "6. SITC of MS Flammable Safety Cabinet",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -942,42 +919,88 @@
       "note": "23-Nov-2026 06:00 PM | 24-Nov-2026 01:00 PM",
       "raw": {
         "cells": [
-          "7. SITC of MS Flammable Safety Cabinet",
+          "6. SITC of MS Flammable Safety Cabinet",
           "PI/000715/26-27(S)",
           "23-Nov-2026 06:00 PM",
           "24-Nov-2026 01:00 PM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.085Z",
-      "evidenceHash": "b81ccd62b595621c115ace03cf1065f7590ab9537aac8f1fb5df3a3ed8dd2b19"
+      "observedAt": "2026-11-03T01:32:23.131Z",
+      "evidenceHash": "11ec482fc5fb2ed2f292bc4628da4ef58ff3c5f54751a0f37955b4c6211bdc22"
     },
     {
-      "externalKey": "cppp-procurement:8.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement-of-long-term-tenders-whichever-is-earlier:8.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-trains-without-pantry-car-(through-tsv)-for-a-period-of-06-months-or-finalization-commencement-of-long-term-tenders-whichever-is-earlier",
+      "externalKey": "cppp-procurement:mechanical/24/26-27/et/486:7.-transfer-chute-repair-work",
       "sensorId": "cppp-procurement",
-      "title": "8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER",
+      "title": "7. Transfer chute repair work",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SoYPF4Sd35UuKzd%2F%2B4EkFtA%3D%3D",
-      "tenderReference": "8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SgXCBPoepUUdW5Qzva8kCFw%3D%3D",
+      "tenderReference": "Mechanical/24/26-27/ET/486",
+      "geographicPrecision": "unknown",
+      "note": "16-Nov-2026 03:30 PM | 16-Nov-2026 04:00 PM",
+      "raw": {
+        "cells": [
+          "7. Transfer chute repair work",
+          "Mechanical/24/26-27/ET/486",
+          "16-Nov-2026 03:30 PM",
+          "16-Nov-2026 04:00 PM"
+        ]
+      },
+      "observedAt": "2026-11-03T01:32:23.131Z",
+      "evidenceHash": "2864104d3db7dfc2057999226bfabbcb68e38c458c013ed776a03e7e8fbf33de"
+    },
+    {
+      "externalKey": "cppp-procurement:8.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-mail-/-express-/-super-fast-trains-having-pantry-car-/-mini-pantries-in-partial-/-complete-unbundling-model:8.-limited-e-tender-bid-document-for-provision-of-onboard-catering-services-in-mail-/-express-/-super-fast-trains-having-pantry-car-/-mini-pantries-in-partial-/-complete-unbundling-model",
+      "sensorId": "cppp-procurement",
+      "title": "8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SJqhqG3pjhfpMSXUjywHCDQ%3D%3D",
+      "tenderReference": "8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL",
       "geographicPrecision": "unknown",
       "note": "04-Nov-2026 12:00 PM | 04-Nov-2026 12:15 PM",
       "raw": {
         "cells": [
-          "8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN TRAINS WITHOUT PANTRY CAR (THROUGH TSV) FOR A PERIOD OF 06 MONTHS OR FINALIZATION COMMENCEMENT OF LONG-TERM TENDERS WHICHEVER IS EARLIER",
-          "2026/IRCTC/TSV/06/NOVEMBER/02",
+          "8. LIMITED E-TENDER BID DOCUMENT FOR PROVISION OF ONBOARD CATERING SERVICES IN MAIL / EXPRESS / SUPER FAST TRAINS HAVING PANTRY CAR / MINI PANTRIES IN PARTIAL / COMPLETE UNBUNDLING MODEL",
+          "2026/IRCTC/WCB/06/M3/ NOVEMBER/01",
           "04-Nov-2026 12:00 PM",
           "04-Nov-2026 12:15 PM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.085Z",
-      "evidenceHash": "5c8138b7f8d707a844380b76bad23e6cfc3616f60e6916eccbd17e2afc570dd7"
+      "observedAt": "2026-11-03T01:32:23.131Z",
+      "evidenceHash": "cfb1fe203373626ab3ed0f4b2e0d02c7fed2fbd048eaf54f5560ab1855a43624"
     },
     {
-      "externalKey": "cppp-procurement:91-84/enq/pnw/civil/1985:9.-enquiry-for-raising-and-renovation-of-shutter-and-allied-civil-works-for-store-no.-3,-at-phi,-thp-mppgcl-sirmour,-distt.-rewa-m.p.",
+      "externalKey": "cppp-procurement:bnr/51244/hiring/con-pump/03:9.-bnr/51244/hiring/con-pump/03",
       "sensorId": "cppp-procurement",
-      "title": "9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P.",
+      "title": "9. BNR/51244/HIRING/CON PUMP/03",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SwP0ScccvjF3oMRW%2ByJ4GMA%3D%3D",
+      "tenderReference": "BNR/51244/HIRING/CON PUMP/03",
+      "geographicPrecision": "unknown",
+      "note": "09-Nov-2026 06:55 PM | 10-Nov-2026 06:55 PM",
+      "raw": {
+        "cells": [
+          "9. BNR/51244/HIRING/CON PUMP/03",
+          "BNR/51244/HIRING/CON PUMP/03",
+          "09-Nov-2026 06:55 PM",
+          "10-Nov-2026 06:55 PM"
+        ]
+      },
+      "observedAt": "2026-11-03T01:32:23.131Z",
+      "evidenceHash": "8c7c23377cdb9aa860fa95dcef123d494a2eb3f2956077e49ca056af86220504"
+    },
+    {
+      "externalKey": "cppp-procurement:91-84/enq/pnw/civil/1985:10.-enquiry-for-raising-and-renovation-of-shutter-and-allied-civil-works-for-store-no.-3,-at-phi,-thp-mppgcl-sirmour,-distt.-rewa-m.p.",
+      "sensorId": "cppp-procurement",
+      "title": "10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P.",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -988,37 +1011,14 @@
       "note": "02-Dec-2026 04:30 PM | 02-Dec-2026 05:30 PM",
       "raw": {
         "cells": [
-          "9. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P.",
+          "10. Enquiry for Raising and renovation of shutter and allied civil works for store no. 3, at PHI, THP MPPGCL Sirmour, Distt. Rewa M.P.",
           "91-84/Enq/PnW/Civil/1985",
           "02-Dec-2026 04:30 PM",
           "02-Dec-2026 05:30 PM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.086Z",
-      "evidenceHash": "f3fb03f2a3096e4ab1f4478ea7804e65430ce5e22343cd1b649ae2b1089167ea"
-    },
-    {
-      "externalKey": "cppp-procurement:91-84/enq/pnw/civil/1986:10.-enquiry-for-recording-approach-channel-water-level-at-intake-and-informing-to-control-room-at-phi-3x105mw-at-sirmour-rewa-2.5-months",
-      "sensorId": "cppp-procurement",
-      "title": "10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SGn1w6%2F9NAwcXMs2%2F3SuNNg%3D%3D",
-      "tenderReference": "91-84/Enq/PnW/Civil/1986",
-      "geographicPrecision": "unknown",
-      "note": "10-Nov-2026 04:30 PM | 10-Nov-2026 05:50 PM",
-      "raw": {
-        "cells": [
-          "10. Enquiry for recording approach channel water level at intake and informing to control room at PHI 3x105MW at Sirmour rewa 2.5 months",
-          "91-84/Enq/PnW/Civil/1986",
-          "10-Nov-2026 04:30 PM",
-          "10-Nov-2026 05:50 PM"
-        ]
-      },
-      "observedAt": "2026-11-02T18:17:38.086Z",
-      "evidenceHash": "a337bfd029971f0bc68412dc7b2eb19935a18aca62fcff7a5e08c2e9227a8a36"
+      "observedAt": "2026-11-03T01:32:23.131Z",
+      "evidenceHash": "cd478d6e6e459d108ebda1158e1bc6f9fe358e3466d90db6cc8d1d15e5ad6c37"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.086Z",
+      "observedAt": "2026-11-03T01:32:23.131Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.086Z",
+      "observedAt": "2026-11-03T01:32:23.131Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "17-Nov-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.087Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "a502374904563a69280cf23774d2e349c056ec7ad05bf6db6e28c3bc1a74ccf0"
     },
     {
@@ -1143,7 +1143,7 @@
           "06-Nov-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.087Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "6ce8dce5e2d1829c41c18c188aff10700407d11677863203d045d53bccbdd1d9"
     },
     {
@@ -1166,7 +1166,7 @@
           "06-Nov-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.087Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "cae72c11d6374a490264c34809e614e8900168b51d5d0485ee84729744e86ffa"
     },
     {
@@ -1189,7 +1189,7 @@
           "06-Nov-2026 11:30 AM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.087Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "5c04b8c3c5e3ee9a0fd90fe2c995d8e54b2a368121e5481a006aa8765d9ea479"
     },
     {
@@ -1212,7 +1212,7 @@
           "05-Nov-2026 12:00 PM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.087Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "999d8aa2c03300c65989bc028f2e85a571d0fdee84cdba692a572bb564785483"
     },
     {
@@ -1235,7 +1235,7 @@
           "04-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.087Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "01249d252fffd01045ae15b16f96bba8d3844f0a160b67a44eafbe4ae7f7ec1f"
     },
     {
@@ -1258,7 +1258,7 @@
           "19-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.087Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "02dd8b245e4720c19ef2ae217dc533abecbb46317f0b7d11e7b4f79a10ca909c"
     },
     {
@@ -1281,7 +1281,7 @@
           "18-Nov-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.087Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "998efb59dbf364f9cf5e88354d9574d9537a39e5965a7a3cce5d4a58103e99fd"
     },
     {
@@ -1304,7 +1304,7 @@
           "07-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.087Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "92340114d2a288cd4b878ffc5a4206f357db7a9d11cda19a447c327abbb4de45"
     },
     {
@@ -1327,7 +1327,7 @@
           "20-Nov-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.087Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "af5e0b2d662e8161fdd7a63c8749818ecf34d47a20c0b575de0ff97226dd79c1"
     },
     {
@@ -1350,7 +1350,7 @@
           "17-Nov-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.087Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "bce5f5178f3ee076543fe0ae146ce62202cd4ce63b643c1e7a2291c668bad9d2"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.087Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.088Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.088Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.088Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.088Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.088Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.088Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.088Z",
+      "observedAt": "2026-11-03T01:32:23.132Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.089Z",
+      "observedAt": "2026-11-03T01:32:23.133Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.089Z",
+      "observedAt": "2026-11-03T01:32:23.133Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.089Z",
+      "observedAt": "2026-11-03T01:32:23.133Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.090Z",
+      "observedAt": "2026-11-03T01:32:23.133Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-11-02T18:17:38.090Z",
+      "observedAt": "2026-11-03T01:32:23.133Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "125840"
       },
-      "observedAt": "2026-11-02T18:17:41.153Z",
+      "observedAt": "2026-11-03T01:32:25.954Z",
       "evidenceHash": "98a922d279622d3dc7f0838b397d8962c0a78306a05d8b2b75b096c82ddbbba5"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "125842"
       },
-      "observedAt": "2026-11-02T18:17:41.153Z",
+      "observedAt": "2026-11-03T01:32:25.954Z",
       "evidenceHash": "b9a32c62586b6e820bd2d7a31f0d273ffd3bd45d7594beaf2e61d1f399ad3ce3"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "125835"
       },
-      "observedAt": "2026-11-02T18:17:41.153Z",
+      "observedAt": "2026-11-03T01:32:25.954Z",
       "evidenceHash": "693f8076419a13c59c4aad4c4a8f8a7323f33d55903c9e7d63b5a135a75ecfa2"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "125830"
       },
-      "observedAt": "2026-11-02T18:17:41.153Z",
+      "observedAt": "2026-11-03T01:32:25.955Z",
       "evidenceHash": "5cfbd2ce08b6de0ff1d70c251045d519312b60a68b5b53ad8ebbad71ee82f064"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "125829"
       },
-      "observedAt": "2026-11-02T18:17:41.153Z",
+      "observedAt": "2026-11-03T01:32:25.955Z",
       "evidenceHash": "2f0b6182addd14efa4bdb5ca4f16fa2a2c0feeea4a21d9900843072f9bd8df90"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "125828"
       },
-      "observedAt": "2026-11-02T18:17:41.153Z",
+      "observedAt": "2026-11-03T01:32:25.955Z",
       "evidenceHash": "5d28e4d26249fb281735dac989a06f0501292736cba1936d235185bccd9afc41"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "125827"
       },
-      "observedAt": "2026-11-02T18:17:41.153Z",
+      "observedAt": "2026-11-03T01:32:25.955Z",
       "evidenceHash": "2db2e1f6ae23af8dab9b08c7d2975228f077034603fb4f0360e269c58fdb02a0"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "125728"
       },
-      "observedAt": "2026-11-02T18:17:41.153Z",
+      "observedAt": "2026-11-03T01:32:25.955Z",
       "evidenceHash": "83e9b943800eeec78a0206b4045e1b74d45424412151a3e51ef79c8123ef8d20"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "125712"
       },
-      "observedAt": "2026-11-02T18:17:41.153Z",
+      "observedAt": "2026-11-03T01:32:25.955Z",
       "evidenceHash": "49fead40de686e1e2e7056517252cdbc91195f214b26fdfdbc038e4e3115e80d"
     },
     {
@@ -1806,7 +1806,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-02T18:17:39.303Z",
+      "observedAt": "2026-11-03T01:32:24.143Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1819,7 +1819,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-02T18:17:39.305Z",
+      "observedAt": "2026-11-03T01:32:24.144Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1832,7 +1832,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-02T18:17:39.305Z",
+      "observedAt": "2026-11-03T01:32:24.144Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1845,7 +1845,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-02T18:17:39.305Z",
+      "observedAt": "2026-11-03T01:32:24.144Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1858,7 +1858,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-02T18:17:39.305Z",
+      "observedAt": "2026-11-03T01:32:24.144Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1872,7 +1872,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-11-02T18:17:39.305Z",
+      "observedAt": "2026-11-03T01:32:24.144Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1886,7 +1886,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-11-02T18:17:39.305Z",
+      "observedAt": "2026-11-03T01:32:24.144Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1900,7 +1900,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-11-02T18:17:39.305Z",
+      "observedAt": "2026-11-03T01:32:24.144Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1919,7 +1919,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-11-02T18:18:11.891Z",
+      "observedAt": "2026-11-03T01:32:56.635Z",
       "evidenceHash": "61bd51e18f1d42812bd6bab3510326a0780d9cf2164adb00f40f68d4d1cf50ea"
     },
     {
@@ -1938,7 +1938,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-11-02T18:18:11.897Z",
+      "observedAt": "2026-11-03T01:32:56.637Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1957,7 +1957,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-11-02T18:18:11.898Z",
+      "observedAt": "2026-11-03T01:32:56.637Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -1976,7 +1976,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-11-02T18:18:11.898Z",
+      "observedAt": "2026-11-03T01:32:56.637Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -1995,7 +1995,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-11-02T18:18:11.898Z",
+      "observedAt": "2026-11-03T01:32:56.637Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2014,7 +2014,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-11-02T18:18:11.898Z",
+      "observedAt": "2026-11-03T01:32:56.637Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2033,7 +2033,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-11-02T18:18:11.898Z",
+      "observedAt": "2026-11-03T01:32:56.637Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2051,14 +2051,14 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-11-02T18:18:11.080Z",
+      "observedAt": "2026-11-03T01:32:56.073Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
   "links": [
     {
       "fromExternalKey": "cppp-procurement:bslc/appv/dolomite/limestone-2026-27:2.-sale-of-dolomite-lump,-size-(15-50mm)-by-rail",
-      "toExternalKey": "cppp-procurement:bslc/appv/dolomite/limestone-2026-27:4.-sale-of-dolomite-lump,-size-(15-50mm)-by-rail",
+      "toExternalKey": "cppp-procurement:bslc/appv/dolomite/limestone-2026-27:3.-sale-of-dolomite-lump,-size-(15-50mm)-by-rail",
       "relation": "procured → procured",
       "basis": "exact_tender_reference",
       "confidence": 1,
