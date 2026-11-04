@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T06:11:50.956Z",
+  "generatedAt": "2026-11-04T14:28:18.281Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -10,7 +10,7 @@
     "sensors": 10,
     "healthySensors": 9,
     "records": 77,
-    "reconciledLinks": 1
+    "reconciledLinks": 2
   },
   "sensors": [
     {
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-11-04T06:11:10.592Z",
+      "fetchedAt": "2026-11-04T14:27:37.848Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-11-04T06:11:10.605Z",
+      "fetchedAt": "2026-11-04T14:27:37.866Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-11-04T06:11:10.607Z",
+      "fetchedAt": "2026-11-04T14:27:37.868Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-11-04T06:11:10.608Z",
+      "fetchedAt": "2026-11-04T14:27:37.870Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-04T06:11:10.609Z",
+      "fetchedAt": "2026-11-04T14:27:37.871Z",
       "ok": true,
       "recordCount": 9,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-04T06:11:10.613Z",
+      "fetchedAt": "2026-11-04T14:27:37.875Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-04T06:11:44.341Z",
+      "fetchedAt": "2026-11-04T14:28:11.605Z",
       "ok": true,
       "recordCount": 7,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-04T06:11:44.340Z",
+      "fetchedAt": "2026-11-04T14:28:11.604Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-11-04T06:11:44.343Z",
+      "fetchedAt": "2026-11-04T14:28:11.606Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-11-04T06:11:44.344Z",
+      "fetchedAt": "2026-11-04T14:28:11.607Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 18952880000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1717104518",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1717104518",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=364767739",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=364767739",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹18,95,288 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(43.7%)"
         ]
       },
-      "observedAt": "2026-11-04T06:11:16.159Z",
-      "evidenceHash": "adca983f2e2352babff6feb55b9da9da7e0a446d15e5f2bb156976d8bb70a6b6"
+      "observedAt": "2026-11-04T14:27:44.715Z",
+      "evidenceHash": "3fa45d3296a809e7cfa4db82b9d9f40036f0689962570918b8f5a54e3917ffea"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:9:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 6460100000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1717104518",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1717104518",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=364767739",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=364767739",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹6,46,010 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(45.3%)"
         ]
       },
-      "observedAt": "2026-11-04T06:11:16.160Z",
-      "evidenceHash": "c12d7b985c5fc0824550d1fc222294d46c03cacfe18da09a524dd6908d050d2e"
+      "observedAt": "2026-11-04T14:27:44.715Z",
+      "evidenceHash": "a19cb807de164e125b11642884815a4373d9e39ca04bf8631a5156d793b18d46"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:9:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 6545470000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1717104518",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1717104518",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=364767739",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=364767739",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹6,54,547 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(51.8%)"
         ]
       },
-      "observedAt": "2026-11-04T06:11:16.160Z",
-      "evidenceHash": "0633154f6040a7bc9b94ae6890e4a52d6008aaf7fb3a7249693cd10046e9455a"
+      "observedAt": "2026-11-04T14:27:44.715Z",
+      "evidenceHash": "dedb2979ebc1928a267e7bc1de0cd2e6c2c362ee2914ca5b41d49049eea49709"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:9:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1512200000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1717104518",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1717104518",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=364767739",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=364767739",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,51,220 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(52.6%)"
         ]
       },
-      "observedAt": "2026-11-04T06:11:16.160Z",
-      "evidenceHash": "92b6d8f203970ac2519c2457214c126e891676377db2b26b6f0d807ec1aeff3b"
+      "observedAt": "2026-11-04T14:27:44.716Z",
+      "evidenceHash": "aa7a3a1c8906d0258fa41a080ef597c90045306e6e95e895f011a0200eb584ab"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:9:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 25498350000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1717104518",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1717104518",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=364767739",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=364767739",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹25,49,835 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(45.5%)"
         ]
       },
-      "observedAt": "2026-11-04T06:11:16.160Z",
-      "evidenceHash": "0f1707151a73a5d77a82f01d1e8b9095c104f272d57c75510d8854e6c8a58852"
+      "observedAt": "2026-11-04T14:27:44.716Z",
+      "evidenceHash": "e458856c50393a2eba17d083918768e8b1fe0ecdb21dcc0abd6fceb2010519c1"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:9:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 2229049700000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1717104518",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1717104518",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=364767739",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=364767739",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹2,22,904.97 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,8 +323,8 @@
           "(53%)"
         ]
       },
-      "observedAt": "2026-11-04T06:11:16.163Z",
-      "evidenceHash": "1fa7368172d24eac3731e3251bbda0d7b5e914ddd3e662c7002a07f51d8709dd"
+      "observedAt": "2026-11-04T14:27:44.718Z",
+      "evidenceHash": "5f0f485d0e08b9a5ce98a56c410cdf1b8252ade0396e09c1948bd367572929c0"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access-04-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-04-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
@@ -357,7 +357,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.252Z",
+      "observedAt": "2026-11-04T14:27:40.081Z",
       "evidenceHash": "fe7d0735fc2c22922a7409731f35ce2f03e67b6644a5be3c41881bfa37164b16"
     },
     {
@@ -377,7 +377,7 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.253Z",
+      "observedAt": "2026-11-04T14:27:40.082Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
@@ -403,7 +403,7 @@
           ""
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.254Z",
+      "observedAt": "2026-11-04T14:27:40.083Z",
       "evidenceHash": "7f3b18cf4cbcad4b2e091f1de35a67eede6ce0a265d58a0a21aa0507bbcfcbc4"
     },
     {
@@ -428,7 +428,7 @@
           ""
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.254Z",
+      "observedAt": "2026-11-04T14:27:40.083Z",
       "evidenceHash": "b4d3352f9c1768ff710bd8ab6c36b87f8fa75200a92ba09ff9b0eb3ec98228b1"
     },
     {
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.254Z",
+      "observedAt": "2026-11-04T14:27:40.083Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.254Z",
+      "observedAt": "2026-11-04T14:27:40.083Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Supply and installation of Mobile Elevated/Aerial Working platform SHAR/VALF/202600130101 20-Nov-2026 04:30 PM 20-Nov-2026 05:00 PM 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode ROTBA/Nursery/2(v)/2026 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 3. Minor Fabrication Contract for SLC Project SHAR/VALF/202600146901 17-Nov-2026 05:00 PM 17-Nov-2026 05:20 PM 4. Supply of Trailer mounted Diesel Generator Sets SHAR/VALF/202600114401 18-Nov-2026 05:00 PM 18-Nov-2026 05:30 PM 5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak IIMR/Civil/FY2026-27/OTE/P139T 25-Nov-2026 11:00 AM 25-Nov-2026 11:30 AM 6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS) SAC/CPUR/SA202600193701 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 7. Seam Sealer System SAC/CPUR/SA202600189201 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 8. Supply of Airborne Particle Counter SHAR/VALF/2026001166 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 9. Fabrication, Painting and Supply of SC120 horizontal support fixtures SHAR/VALF/202600105801 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site. SHAR/VALF/202600141601 11-Nov-2026 04:30 PM 11-Nov-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 6 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 10-Nov-2026 06:55 PM 11-Nov-2026 06:55 PM 2. Corrigendum-I GEM/2026/B/8191351 25-Nov-2026 01:00 PM 26-Nov-2026 01:00 PM 3. TENDER EXTENSION HMTL/MTK/2026/M/M8012/001/079 11-Nov-2026 12:00 PM 11-Nov-2026 02:00 PM 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 05-Nov-2026 03:30 PM 05-Nov-2026 03:30 PM 5. Cor-Adm-03 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 6. Corr-Adm-02 NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 7. Corr-Adm-02 NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 8. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 9. Corr-Adm-02 NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 10. Corr-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Supply and installation of Mobile Elevated/Aerial Working platform SHAR/VALF/202600130101 20-Nov-2026 04:30 PM 20-Nov-2026 05:00 PM 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode ROTBA/Nursery/2(v)/2026 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 3. Minor Fabrication Contract for SLC Project SHAR/VALF/202600146901 17-Nov-2026 05:00 PM 17-Nov-2026 05:20 PM 4. Supply of Trailer mounted Diesel Generator Sets SHAR/VALF/202600114401 18-Nov-2026 05:00 PM 18-Nov-2026 05:30 PM 5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak IIMR/Civil/FY2026-27/OTE/P139T 25-Nov-2026 11:00 AM 25-Nov-2026 11:30 AM 6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS) SAC/CPUR/SA202600193701 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 7. Seam Sealer System SAC/CPUR/SA202600189201 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 8. Supply of Airborne Particle Counter SHAR/VALF/2026001166 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 9. Fabrication, Painting and Supply of SC120 horizontal support fixtures SHAR/VALF/202600105801 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site. SHAR/VALF/202600141601 11-Nov-2026 04:30 PM 11-Nov-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 6 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 10-Nov-2026 06:55 PM 11-Nov-2026 06:55 PM 2. Corrigendum-I GEM/2026/B/8191351 25-Nov-2026 01:00 PM 26-Nov-2026 01:00 PM 3. TENDER EXTENSION HMTL/MTK/2026/M/M8012/001/079 11-Nov-2026 12:00 PM 11-Nov-2026 02:00 PM 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 05-Nov-2026 03:30 PM 05-Nov-2026 03:30 PM 5. Cor-Adm-03 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 6. Corr-Adm-02 NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 7. Corr-Adm-02 NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 8. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 9. Corr-Adm-02 NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 10. Corr-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Supply and installation of Mobile Elevated/Aerial Working platform SHAR/VALF/202600130101 20-Nov-2026 04:30 PM 20-Nov-2026 05:00 PM 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode ROTBA/Nursery/2(v)/2026 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 3. Minor Fabrication Contract for SLC Project SHAR/VALF/202600146901 17-Nov-2026 05:00 PM 17-Nov-2026 05:20 PM 4. Supply of Trailer mounted Diesel Generator Sets SHAR/VALF/202600114401 18-Nov-2026 05:00 PM 18-Nov-2026 05:30 PM 5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak IIMR/Civil/FY2026-27/OTE/P139T 25-Nov-2026 11:00 AM 25-Nov-2026 11:30 AM 6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS) SAC/CPUR/SA202600193701 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 7. Seam Sealer System SAC/CPUR/SA202600189201 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 8. Supply of Airborne Particle Counter SHAR/VALF/2026001166 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 9. Fabrication, Painting and Supply of SC120 horizontal support fixtures SHAR/VALF/202600105801 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site. SHAR/VALF/202600141601 11-Nov-2026 04:30 PM 11-Nov-2026 05:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Supply and installation of Mobile Elevated/Aerial Working platform SHAR/VALF/202600130101 20-Nov-2026 04:30 PM 20-Nov-2026 05:00 PM 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode ROTBA/Nursery/2(v)/2026 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 3. Minor Fabrication Contract for SLC Project SHAR/VALF/202600146901 17-Nov-2026 05:00 PM 17-Nov-2026 05:20 PM 4. Supply of Trailer mounted Diesel Generator Sets SHAR/VALF/202600114401 18-Nov-2026 05:00 PM 18-Nov-2026 05:30 PM 5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak IIMR/Civil/FY2026-27/OTE/P139T 25-Nov-2026 11:00 AM 25-Nov-2026 11:30 AM 6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS) SAC/CPUR/SA202600193701 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 7. Seam Sealer System SAC/CPUR/SA202600189201 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 8. Supply of Airborne Particle Counter SHAR/VALF/2026001166 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 9. Fabrication, Painting and Supply of SC120 horizontal support fixtures SHAR/VALF/202600105801 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site. SHAR/VALF/202600141601 11-Nov-2026 04:30 PM 11-Nov-2026 05:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Supply and installation of Mobile Elevated/Aerial Working platform SHAR/VALF/202600130101 20-Nov-2026 04:30 PM 20-Nov-2026 05:00 PM 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode ROTBA/Nursery/2(v)/2026 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 3. Minor Fabrication Contract for SLC Project SHAR/VALF/202600146901 17-Nov-2026 05:00 PM 17-Nov-2026 05:20 PM 4. Supply of Trailer mounted Diesel Generator Sets SHAR/VALF/202600114401 18-Nov-2026 05:00 PM 18-Nov-2026 05:30 PM 5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak IIMR/Civil/FY2026-27/OTE/P139T 25-Nov-2026 11:00 AM 25-Nov-2026 11:30 AM 6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS) SAC/CPUR/SA202600193701 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 7. Seam Sealer System SAC/CPUR/SA202600189201 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 8. Supply of Airborne Particle Counter SHAR/VALF/2026001166 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 9. Fabrication, Painting and Supply of SC120 horizontal support fixtures SHAR/VALF/202600105801 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site. SHAR/VALF/202600141601 11-Nov-2026 04:30 PM 11-Nov-2026 05:00 PM | 1. Supply and installation of Mobile Elevated/Aerial Working platform | SHAR/VALF/202600130101 | 20-Nov-2026 04:30 PM | 20-Nov-2026 05:00 PM | 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode | ROTBA/Nursery/2(v)/2026 | 17-Nov-2026 03:00 PM | 17-Nov-2026 03:30 PM | 3. Minor Fabrication Contract for SLC Project | SHAR/VALF/202600146901 | 17-Nov-2026 05:00 PM | 17-Nov-2026 05:20 PM | 4. Supply of Trailer mounted Diesel Generator Sets | SHAR/VALF/202600114401 | 18-Nov-2026 05:00 PM | 18-Nov-2026 05:30 PM | 5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak | IIMR/Civil/FY2026-27/OTE/P139T | 25-Nov-2026 11:00 AM | 25-Nov-2026 11:30 AM | 6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS) | SAC/CPUR/SA202600193701 | 01-Dec-2026 03:30 PM | 01-Dec-2026 04:30 PM | 7. Seam Sealer System | SAC/CPUR/SA202600189201 | 01-Dec-2026 03:30 PM | 01-Dec-2026 04:30 PM | 8. Supply of Airborne Particle Counter | SHAR/VALF/2026001166 | 18-Nov-2026 04:30 PM | 18-Nov-2026 05:00 PM | 9. Fabrication, Painting and Supply of SC120 horizontal support fixtures | SHAR/VALF/202600105801 | 18-Nov-2026 04:30 PM | 18-Nov-2026 05:00 PM | 10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site. | SHAR/VALF/202600141601 | 11-Nov-2026 04:30 PM | 11-Nov-2026 05:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 6 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 10-Nov-2026 06:55 PM 11-Nov-2026 06:55 PM 2. Corrigendum-I GEM/2026/B/8191351 25-Nov-2026 01:00 PM 26-Nov-2026 01:00 PM 3. TENDER EXTENSION HMTL/MTK/2026/M/M8012/001/079 11-Nov-2026 12:00 PM 11-Nov-2026 02:00 PM 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 05-Nov-2026 03:30 PM 05-Nov-2026 03:30 PM 5. Cor-Adm-03 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 6. Corr-Adm-02 NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 7. Corr-Adm-02 NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 8. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 9. Corr-Adm-02 NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 10. Corr-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 6 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 10-Nov-2026 06:55 PM 11-Nov-2026 06:55 PM 2. Corrigendum-I GEM/2026/B/8191351 25-Nov-2026 01:00 PM 26-Nov-2026 01:00 PM 3. TENDER EXTENSION HMTL/MTK/2026/M/M8012/001/079 11-Nov-2026 12:00 PM 11-Nov-2026 02:00 PM 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 05-Nov-2026 03:30 PM 05-Nov-2026 03:30 PM 5. Cor-Adm-03 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 6. Corr-Adm-02 NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 7. Corr-Adm-02 NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 8. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 9. Corr-Adm-02 NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 10. Corr-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Corrigendum - 6 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 10-Nov-2026 06:55 PM 11-Nov-2026 06:55 PM 2. Corrigendum-I GEM/2026/B/8191351 25-Nov-2026 01:00 PM 26-Nov-2026 01:00 PM 3. TENDER EXTENSION HMTL/MTK/2026/M/M8012/001/079 11-Nov-2026 12:00 PM 11-Nov-2026 02:00 PM 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 05-Nov-2026 03:30 PM 05-Nov-2026 03:30 PM 5. Cor-Adm-03 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 6. Corr-Adm-02 NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 7. Corr-Adm-02 NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 8. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 9. Corr-Adm-02 NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 10. Corr-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM | 1. Corrigendum - 6 | PUR/ENQ/STOCK/7644/JB/ 036/2026-27 | 10-Nov-2026 06:55 PM | 11-Nov-2026 06:55 PM | 2. Corrigendum-I | GEM/2026/B/8191351 | 25-Nov-2026 01:00 PM | 26-Nov-2026 01:00 PM | 3. TENDER EXTENSION | HMTL/MTK/2026/M/M8012/001/079 | 11-Nov-2026 12:00 PM | 11-Nov-2026 02:00 PM | 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT | UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 | 05-Nov-2026 03:30 PM | 05-Nov-2026 03:30 PM | 5. Cor-Adm-03 | NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 | 12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM | 6. Corr-Adm-02 | NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 | 12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM | 7. Corr-Adm-02 | NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 | 12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM | 8. Corr-Adm-02 | NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 | 12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM | 9. Corr-Adm-02 | NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 | 12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM | 10. Corr-Adm-02 | NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 | 12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. WA4320-CIV-Q-9 -2026-27 WA4320-CIV-Q-9 -2026-27 12-Nov-2026 03:00 PM 12-Nov-2026 03:30 PM 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support GEM/2026/B/8238866 18-Nov-2026 04:00 PM 19-Nov-2026 04:00 PM 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan TCIL/OPR/RFQ/2026/3 10-Nov-2026 05:00 PM 11-Nov-2026 11:00 AM 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 11-Nov-2026 06:55 PM 12-Nov-2026 06:55 PM 5. Empanelment of contractors for civil, fabrication and other works MGAHV/CD/34/2026-27/04 24-Nov-2026 04:00 PM 25-Nov-2026 11:00 AM 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months ENQ-40/AE(C)/2026-27/1016 26-Nov-2026 04:00 PM 27-Nov-2026 06:00 PM 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. GEM/2026/B/8227325 25-Nov-2026 12:00 PM 26-Nov-2026 12:00 PM 9. Procurement of Insulating Rubber Mats GEM/2026/B/8175175 04-Dec-2026 02:00 PM 05-Dec-2026 02:00 PM 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. VSP/WC/MinesMDM/OT/2600010082 09-Nov-2026 03:00 PM 10-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to queries IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 2. Addendum no. 36 of FBW-FBB1 Work_Date Change DGSB/DC02/01 OF 2022 23-Dec-2026 03:00 PM 23-Dec-2026 03:30 PM 3. Change of Date and other clauses IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 4. Addendum no. 38 of FBL-FBB2 Work_Date Change DGSB/DC02/02 OF 2022 09-Dec-2026 03:00 PM 09-Dec-2026 03:30 PM 5. Date Extended upto 10-11-2026 Insurance10-11-2026 10-Nov-2026 05:30 PM 11-Nov-2026 03:30 PM 6. Addendum no. 36 of DY Work_Date Change DGSB/DC02/03 OF 2022 26-Nov-2026 03:00 PM 26-Nov-2026 03:30 PM 7. CorrigendumIV 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. 4th extension PE-299 13-Nov-2026 04:00 PM 16-Nov-2026 04:00 PM 9. Date Corrigendum 2 B AND R/IOCL/71148/NIT/MAT/50 10-Nov-2026 06:00 PM 11-Nov-2026 06:00 PM 10. Corrigendum-I CON/T/BLSS/Sub-Assembly Set/e-105696 /2026 17-Dec-2026 04:00 PM 18-Dec-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. WA4320-CIV-Q-9 -2026-27 WA4320-CIV-Q-9 -2026-27 12-Nov-2026 03:00 PM 12-Nov-2026 03:30 PM 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support GEM/2026/B/8238866 18-Nov-2026 04:00 PM 19-Nov-2026 04:00 PM 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan TCIL/OPR/RFQ/2026/3 10-Nov-2026 05:00 PM 11-Nov-2026 11:00 AM 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 11-Nov-2026 06:55 PM 12-Nov-2026 06:55 PM 5. Empanelment of contractors for civil, fabrication and other works MGAHV/CD/34/2026-27/04 24-Nov-2026 04:00 PM 25-Nov-2026 11:00 AM 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months ENQ-40/AE(C)/2026-27/1016 26-Nov-2026 04:00 PM 27-Nov-2026 06:00 PM 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. GEM/2026/B/8227325 25-Nov-2026 12:00 PM 26-Nov-2026 12:00 PM 9. Procurement of Insulating Rubber Mats GEM/2026/B/8175175 04-Dec-2026 02:00 PM 05-Dec-2026 02:00 PM 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. VSP/WC/MinesMDM/OT/2600010082 09-Nov-2026 03:00 PM 10-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to queries IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 2. Addendum no. 36 of FBW-FBB1 Work_Date Change DGSB/DC02/01 OF 2022 23-Dec-2026 03:00 PM 23-Dec-2026 03:30 PM 3. Change of Date and other clauses IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 4. Addendum no. 38 of FBL-FBB2 Work_Date Change DGSB/DC02/02 OF 2022 09-Dec-2026 03:00 PM 09-Dec-2026 03:30 PM 5. Date Extended upto 10-11-2026 Insurance10-11-2026 10-Nov-2026 05:30 PM 11-Nov-2026 03:30 PM 6. Addendum no. 36 of DY Work_Date Change DGSB/DC02/03 OF 2022 26-Nov-2026 03:00 PM 26-Nov-2026 03:30 PM 7. CorrigendumIV 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. 4th extension PE-299 13-Nov-2026 04:00 PM 16-Nov-2026 04:00 PM 9. Date Corrigendum 2 B AND R/IOCL/71148/NIT/MAT/50 10-Nov-2026 06:00 PM 11-Nov-2026 06:00 PM 10. Corrigendum-I CON/T/BLSS/Sub-Assembly Set/e-105696 /2026 17-Dec-2026 04:00 PM 18-Dec-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. WA4320-CIV-Q-9 -2026-27 WA4320-CIV-Q-9 -2026-27 12-Nov-2026 03:00 PM 12-Nov-2026 03:30 PM 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support GEM/2026/B/8238866 18-Nov-2026 04:00 PM 19-Nov-2026 04:00 PM 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan TCIL/OPR/RFQ/2026/3 10-Nov-2026 05:00 PM 11-Nov-2026 11:00 AM 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 11-Nov-2026 06:55 PM 12-Nov-2026 06:55 PM 5. Empanelment of contractors for civil, fabrication and other works MGAHV/CD/34/2026-27/04 24-Nov-2026 04:00 PM 25-Nov-2026 11:00 AM 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months ENQ-40/AE(C)/2026-27/1016 26-Nov-2026 04:00 PM 27-Nov-2026 06:00 PM 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. GEM/2026/B/8227325 25-Nov-2026 12:00 PM 26-Nov-2026 12:00 PM 9. Procurement of Insulating Rubber Mats GEM/2026/B/8175175 04-Dec-2026 02:00 PM 05-Dec-2026 02:00 PM 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. VSP/WC/MinesMDM/OT/2600010082 09-Nov-2026 03:00 PM 10-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. WA4320-CIV-Q-9 -2026-27 WA4320-CIV-Q-9 -2026-27 12-Nov-2026 03:00 PM 12-Nov-2026 03:30 PM 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support GEM/2026/B/8238866 18-Nov-2026 04:00 PM 19-Nov-2026 04:00 PM 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan TCIL/OPR/RFQ/2026/3 10-Nov-2026 05:00 PM 11-Nov-2026 11:00 AM 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 11-Nov-2026 06:55 PM 12-Nov-2026 06:55 PM 5. Empanelment of contractors for civil, fabrication and other works MGAHV/CD/34/2026-27/04 24-Nov-2026 04:00 PM 25-Nov-2026 11:00 AM 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months ENQ-40/AE(C)/2026-27/1016 26-Nov-2026 04:00 PM 27-Nov-2026 06:00 PM 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. GEM/2026/B/8227325 25-Nov-2026 12:00 PM 26-Nov-2026 12:00 PM 9. Procurement of Insulating Rubber Mats GEM/2026/B/8175175 04-Dec-2026 02:00 PM 05-Dec-2026 02:00 PM 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. VSP/WC/MinesMDM/OT/2600010082 09-Nov-2026 03:00 PM 10-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. WA4320-CIV-Q-9 -2026-27 WA4320-CIV-Q-9 -2026-27 12-Nov-2026 03:00 PM 12-Nov-2026 03:30 PM 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support GEM/2026/B/8238866 18-Nov-2026 04:00 PM 19-Nov-2026 04:00 PM 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan TCIL/OPR/RFQ/2026/3 10-Nov-2026 05:00 PM 11-Nov-2026 11:00 AM 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 11-Nov-2026 06:55 PM 12-Nov-2026 06:55 PM 5. Empanelment of contractors for civil, fabrication and other works MGAHV/CD/34/2026-27/04 24-Nov-2026 04:00 PM 25-Nov-2026 11:00 AM 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months ENQ-40/AE(C)/2026-27/1016 26-Nov-2026 04:00 PM 27-Nov-2026 06:00 PM 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. GEM/2026/B/8227325 25-Nov-2026 12:00 PM 26-Nov-2026 12:00 PM 9. Procurement of Insulating Rubber Mats GEM/2026/B/8175175 04-Dec-2026 02:00 PM 05-Dec-2026 02:00 PM 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. VSP/WC/MinesMDM/OT/2600010082 09-Nov-2026 03:00 PM 10-Nov-2026 03:00 PM | 1. WA4320-CIV-Q-9 -2026-27 | WA4320-CIV-Q-9 -2026-27 | 12-Nov-2026 03:00 PM | 12-Nov-2026 03:30 PM | 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support | GEM/2026/B/8238866 | 18-Nov-2026 04:00 PM | 19-Nov-2026 04:00 PM | 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan | TCIL/OPR/RFQ/2026/3 | 10-Nov-2026 05:00 PM | 11-Nov-2026 11:00 AM | 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 | BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 | 11-Nov-2026 06:55 PM | 12-Nov-2026 06:55 PM | 5. Empanelment of contractors for civil, fabrication and other works | MGAHV/CD/34/2026-27/04 | 24-Nov-2026 04:00 PM | 25-Nov-2026 11:00 AM | 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months | ENQ-40/AE(C)/2026-27/1016 | 26-Nov-2026 04:00 PM | 27-Nov-2026 06:00 PM | 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd | 2993 | 11-Nov-2026 01:00 PM | 11-Nov-2026 02:00 PM | 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. | GEM/2026/B/8227325 | 25-Nov-2026 12:00 PM | 26-Nov-2026 12:00 PM | 9. Procurement of Insulating Rubber Mats | GEM/2026/B/8175175 | 04-Dec-2026 02:00 PM | 05-Dec-2026 02:00 PM | 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. | VSP/WC/MinesMDM/OT/2600010082 | 09-Nov-2026 03:00 PM | 10-Nov-2026 03:00 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to queries IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 2. Addendum no. 36 of FBW-FBB1 Work_Date Change DGSB/DC02/01 OF 2022 23-Dec-2026 03:00 PM 23-Dec-2026 03:30 PM 3. Change of Date and other clauses IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 4. Addendum no. 38 of FBL-FBB2 Work_Date Change DGSB/DC02/02 OF 2022 09-Dec-2026 03:00 PM 09-Dec-2026 03:30 PM 5. Date Extended upto 10-11-2026 Insurance10-11-2026 10-Nov-2026 05:30 PM 11-Nov-2026 03:30 PM 6. Addendum no. 36 of DY Work_Date Change DGSB/DC02/03 OF 2022 26-Nov-2026 03:00 PM 26-Nov-2026 03:30 PM 7. CorrigendumIV 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. 4th extension PE-299 13-Nov-2026 04:00 PM 16-Nov-2026 04:00 PM 9. Date Corrigendum 2 B AND R/IOCL/71148/NIT/MAT/50 10-Nov-2026 06:00 PM 11-Nov-2026 06:00 PM 10. Corrigendum-I CON/T/BLSS/Sub-Assembly Set/e-105696 /2026 17-Dec-2026 04:00 PM 18-Dec-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to queries IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 2. Addendum no. 36 of FBW-FBB1 Work_Date Change DGSB/DC02/01 OF 2022 23-Dec-2026 03:00 PM 23-Dec-2026 03:30 PM 3. Change of Date and other clauses IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 4. Addendum no. 38 of FBL-FBB2 Work_Date Change DGSB/DC02/02 OF 2022 09-Dec-2026 03:00 PM 09-Dec-2026 03:30 PM 5. Date Extended upto 10-11-2026 Insurance10-11-2026 10-Nov-2026 05:30 PM 11-Nov-2026 03:30 PM 6. Addendum no. 36 of DY Work_Date Change DGSB/DC02/03 OF 2022 26-Nov-2026 03:00 PM 26-Nov-2026 03:30 PM 7. CorrigendumIV 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. 4th extension PE-299 13-Nov-2026 04:00 PM 16-Nov-2026 04:00 PM 9. Date Corrigendum 2 B AND R/IOCL/71148/NIT/MAT/50 10-Nov-2026 06:00 PM 11-Nov-2026 06:00 PM 10. Corrigendum-I CON/T/BLSS/Sub-Assembly Set/e-105696 /2026 17-Dec-2026 04:00 PM 18-Dec-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Response to queries IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 2. Addendum no. 36 of FBW-FBB1 Work_Date Change DGSB/DC02/01 OF 2022 23-Dec-2026 03:00 PM 23-Dec-2026 03:30 PM 3. Change of Date and other clauses IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 4. Addendum no. 38 of FBL-FBB2 Work_Date Change DGSB/DC02/02 OF 2022 09-Dec-2026 03:00 PM 09-Dec-2026 03:30 PM 5. Date Extended upto 10-11-2026 Insurance10-11-2026 10-Nov-2026 05:30 PM 11-Nov-2026 03:30 PM 6. Addendum no. 36 of DY Work_Date Change DGSB/DC02/03 OF 2022 26-Nov-2026 03:00 PM 26-Nov-2026 03:30 PM 7. CorrigendumIV 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. 4th extension PE-299 13-Nov-2026 04:00 PM 16-Nov-2026 04:00 PM 9. Date Corrigendum 2 B AND R/IOCL/71148/NIT/MAT/50 10-Nov-2026 06:00 PM 11-Nov-2026 06:00 PM 10. Corrigendum-I CON/T/BLSS/Sub-Assembly Set/e-105696 /2026 17-Dec-2026 04:00 PM 18-Dec-2026 11:00 AM | 1. Response to queries | IIT/KGP/CCDS/AICLUSTER/2026-27 | 18-Nov-2026 03:00 PM | 18-Nov-2026 04:00 PM | 2. Addendum no. 36 of FBW-FBB1 Work_Date Change | DGSB/DC02/01 OF 2022 | 23-Dec-2026 03:00 PM | 23-Dec-2026 03:30 PM | 3. Change of Date and other clauses | IIT/KGP/CCDS/AICLUSTER/2026-27 | 18-Nov-2026 03:00 PM | 18-Nov-2026 04:00 PM | 4. Addendum no. 38 of FBL-FBB2 Work_Date Change | DGSB/DC02/02 OF 2022 | 09-Dec-2026 03:00 PM | 09-Dec-2026 03:30 PM | 5. Date Extended upto 10-11-2026 | Insurance10-11-2026 | 10-Nov-2026 05:30 PM | 11-Nov-2026 03:30 PM | 6. Addendum no. 36 of DY Work_Date Change | DGSB/DC02/03 OF 2022 | 26-Nov-2026 03:00 PM | 26-Nov-2026 03:30 PM | 7. CorrigendumIV | 2993 | 11-Nov-2026 01:00 PM | 11-Nov-2026 02:00 PM | 8. 4th extension | PE-299 | 13-Nov-2026 04:00 PM | 16-Nov-2026 04:00 PM | 9. Date Corrigendum 2 | B AND R/IOCL/71148/NIT/MAT/50 | 10-Nov-2026 06:00 PM | 11-Nov-2026 06:00 PM | 10. Corrigendum-I | CON/T/BLSS/Sub-Assembly Set/e-105696 /2026 | 17-Dec-2026 04:00 PM | 18-Dec-2026 11:00 AM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,112 +520,112 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Supply and installation of Mobile Elevated/Aerial Working platform SHAR/VALF/202600130101 20-Nov-2026 04:30 PM 20-Nov-2026 05:00 PM 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode ROTBA/Nursery/2(v)/2026 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 3. Minor Fabrication Contract for SLC Project SHAR/VALF/202600146901 17-Nov-2026 05:00 PM 17-Nov-2026 05:20 PM 4. Supply of Trailer mounted Diesel Generator Sets SHAR/VALF/202600114401 18-Nov-2026 05:00 PM 18-Nov-2026 05:30 PM 5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak IIMR/Civil/FY2026-27/OTE/P139T 25-Nov-2026 11:00 AM 25-Nov-2026 11:30 AM 6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS) SAC/CPUR/SA202600193701 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 7. Seam Sealer System SAC/CPUR/SA202600189201 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 8. Supply of Airborne Particle Counter SHAR/VALF/2026001166 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 9. Fabrication, Painting and Supply of SC120 horizontal support fixtures SHAR/VALF/202600105801 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site. SHAR/VALF/202600141601 11-Nov-2026 04:30 PM 11-Nov-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 6 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 10-Nov-2026 06:55 PM 11-Nov-2026 06:55 PM 2. Corrigendum-I GEM/2026/B/8191351 25-Nov-2026 01:00 PM 26-Nov-2026 01:00 PM 3. TENDER EXTENSION HMTL/MTK/2026/M/M8012/001/079 11-Nov-2026 12:00 PM 11-Nov-2026 02:00 PM 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 05-Nov-2026 03:30 PM 05-Nov-2026 03:30 PM 5. Cor-Adm-03 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 6. Corr-Adm-02 NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 7. Corr-Adm-02 NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 8. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 9. Corr-Adm-02 NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 10. Corr-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. WA4320-CIV-Q-9 -2026-27 WA4320-CIV-Q-9 -2026-27 12-Nov-2026 03:00 PM 12-Nov-2026 03:30 PM 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support GEM/2026/B/8238866 18-Nov-2026 04:00 PM 19-Nov-2026 04:00 PM 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan TCIL/OPR/RFQ/2026/3 10-Nov-2026 05:00 PM 11-Nov-2026 11:00 AM 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 11-Nov-2026 06:55 PM 12-Nov-2026 06:55 PM 5. Empanelment of contractors for civil, fabrication and other works MGAHV/CD/34/2026-27/04 24-Nov-2026 04:00 PM 25-Nov-2026 11:00 AM 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months ENQ-40/AE(C)/2026-27/1016 26-Nov-2026 04:00 PM 27-Nov-2026 06:00 PM 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. GEM/2026/B/8227325 25-Nov-2026 12:00 PM 26-Nov-2026 12:00 PM 9. Procurement of Insulating Rubber Mats GEM/2026/B/8175175 04-Dec-2026 02:00 PM 05-Dec-2026 02:00 PM 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. VSP/WC/MinesMDM/OT/2600010082 09-Nov-2026 03:00 PM 10-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to queries IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 2. Addendum no. 36 of FBW-FBB1 Work_Date Change DGSB/DC02/01 OF 2022 23-Dec-2026 03:00 PM 23-Dec-2026 03:30 PM 3. Change of Date and other clauses IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 4. Addendum no. 38 of FBL-FBB2 Work_Date Change DGSB/DC02/02 OF 2022 09-Dec-2026 03:00 PM 09-Dec-2026 03:30 PM 5. Date Extended upto 10-11-2026 Insurance10-11-2026 10-Nov-2026 05:30 PM 11-Nov-2026 03:30 PM 6. Addendum no. 36 of DY Work_Date Change DGSB/DC02/03 OF 2022 26-Nov-2026 03:00 PM 26-Nov-2026 03:30 PM 7. CorrigendumIV 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. 4th extension PE-299 13-Nov-2026 04:00 PM 16-Nov-2026 04:00 PM 9. Date Corrigendum 2 B AND R/IOCL/71148/NIT/MAT/50 10-Nov-2026 06:00 PM 11-Nov-2026 06:00 PM 10. Corrigendum-I CON/T/BLSS/Sub-Assembly Set/e-105696 /2026 17-Dec-2026 04:00 PM 18-Dec-2026 11:00 AM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Supply and installation of Mobile Elevated/Aerial Working platform SHAR/VALF/202600130101 20-Nov-2026 04:30 PM 20-Nov-2026 05:00 PM 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode ROTBA/Nursery/2(v)/2026 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 3. Minor Fabrication Contract for SLC Project SHAR/VALF/202600146901 17-Nov-2026 05:00 PM 17-Nov-2026 05:20 PM 4. Supply of Trailer mounted Diesel Generator Sets SHAR/VALF/202600114401 18-Nov-2026 05:00 PM 18-Nov-2026 05:30 PM 5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak IIMR/Civil/FY2026-27/OTE/P139T 25-Nov-2026 11:00 AM 25-Nov-2026 11:30 AM 6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS) SAC/CPUR/SA202600193701 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 7. Seam Sealer System SAC/CPUR/SA202600189201 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 8. Supply of Airborne Particle Counter SHAR/VALF/2026001166 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 9. Fabrication, Painting and Supply of SC120 horizontal support fixtures SHAR/VALF/202600105801 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site. SHAR/VALF/202600141601 11-Nov-2026 04:30 PM 11-Nov-2026 05:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 6 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 10-Nov-2026 06:55 PM 11-Nov-2026 06:55 PM 2. Corrigendum-I GEM/2026/B/8191351 25-Nov-2026 01:00 PM 26-Nov-2026 01:00 PM 3. TENDER EXTENSION HMTL/MTK/2026/M/M8012/001/079 11-Nov-2026 12:00 PM 11-Nov-2026 02:00 PM 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 05-Nov-2026 03:30 PM 05-Nov-2026 03:30 PM 5. Cor-Adm-03 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 6. Corr-Adm-02 NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 7. Corr-Adm-02 NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 8. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 9. Corr-Adm-02 NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 10. Corr-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. WA4320-CIV-Q-9 -2026-27 WA4320-CIV-Q-9 -2026-27 12-Nov-2026 03:00 PM 12-Nov-2026 03:30 PM 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support GEM/2026/B/8238866 18-Nov-2026 04:00 PM 19-Nov-2026 04:00 PM 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan TCIL/OPR/RFQ/2026/3 10-Nov-2026 05:00 PM 11-Nov-2026 11:00 AM 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 11-Nov-2026 06:55 PM 12-Nov-2026 06:55 PM 5. Empanelment of contractors for civil, fabrication and other works MGAHV/CD/34/2026-27/04 24-Nov-2026 04:00 PM 25-Nov-2026 11:00 AM 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months ENQ-40/AE(C)/2026-27/1016 26-Nov-2026 04:00 PM 27-Nov-2026 06:00 PM 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. GEM/2026/B/8227325 25-Nov-2026 12:00 PM 26-Nov-2026 12:00 PM 9. Procurement of Insulating Rubber Mats GEM/2026/B/8175175 04-Dec-2026 02:00 PM 05-Dec-2026 02:00 PM 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. VSP/WC/MinesMDM/OT/2600010082 09-Nov-2026 03:00 PM 10-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to queries IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 2. Addendum no. 36 of FBW-FBB1 Work_Date Change DGSB/DC02/01 OF 2022 23-Dec-2026 03:00 PM 23-Dec-2026 03:30 PM 3. Change of Date and other clauses IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 4. Addendum no. 38 of FBL-FBB2 Work_Date Change DGSB/DC02/02 OF 2022 09-Dec-2026 03:00 PM 09-Dec-2026 03:30 PM 5. Date Extended upto 10-11-2026 Insurance10-11-2026 10-Nov-2026 05:30 PM 11-Nov-2026 03:30 PM 6. Addendum no. 36 of DY Work_Date Change DGSB/DC02/03 OF 2022 26-Nov-2026 03:00 PM 26-Nov-2026 03:30 PM 7. CorrigendumIV 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. 4th extension PE-299 13-Nov-2026 04:00 PM 16-Nov-2026 04:00 PM 9. Date Corrigendum 2 B AND R/IOCL/71148/NIT/MAT/50 10-Nov-2026 06:00 PM 11-Nov-2026 06:00 PM 10. Corrigendum-I CON/T/BLSS/Sub-Assembly Set/e-105696 /2026 17-Dec-2026 04:00 PM 18-Dec-2026 11:00 AM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Supply and installation of Mobile Elevated/Aerial Working platform SHAR/VALF/202600130101 20-Nov-2026 04:30 PM 20-Nov-2026 05:00 PM 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode ROTBA/Nursery/2(v)/2026 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 3. Minor Fabrication Contract for SLC Project SHAR/VALF/202600146901 17-Nov-2026 05:00 PM 17-Nov-2026 05:20 PM 4. Supply of Trailer mounted Diesel Generator Sets SHAR/VALF/202600114401 18-Nov-2026 05:00 PM 18-Nov-2026 05:30 PM 5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak IIMR/Civil/FY2026-27/OTE/P139T 25-Nov-2026 11:00 AM 25-Nov-2026 11:30 AM 6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS) SAC/CPUR/SA202600193701 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 7. Seam Sealer System SAC/CPUR/SA202600189201 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 8. Supply of Airborne Particle Counter SHAR/VALF/2026001166 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 9. Fabrication, Painting and Supply of SC120 horizontal support fixtures SHAR/VALF/202600105801 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site. SHAR/VALF/202600141601 11-Nov-2026 04:30 PM 11-Nov-2026 05:00 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Supply and installation of Mobile Elevated/Aerial Working platform SHAR/VALF/202600130101 20-Nov-2026 04:30 PM 20-Nov-2026 05:00 PM 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode ROTBA/Nursery/2(v)/2026 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 3. Minor Fabrication Contract for SLC Project SHAR/VALF/202600146901 17-Nov-2026 05:00 PM 17-Nov-2026 05:20 PM 4. Supply of Trailer mounted Diesel Generator Sets SHAR/VALF/202600114401 18-Nov-2026 05:00 PM 18-Nov-2026 05:30 PM 5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak IIMR/Civil/FY2026-27/OTE/P139T 25-Nov-2026 11:00 AM 25-Nov-2026 11:30 AM 6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS) SAC/CPUR/SA202600193701 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 7. Seam Sealer System SAC/CPUR/SA202600189201 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 8. Supply of Airborne Particle Counter SHAR/VALF/2026001166 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 9. Fabrication, Painting and Supply of SC120 horizontal support fixtures SHAR/VALF/202600105801 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site. SHAR/VALF/202600141601 11-Nov-2026 04:30 PM 11-Nov-2026 05:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. WA4320-CIV-Q-9 -2026-27 WA4320-CIV-Q-9 -2026-27 12-Nov-2026 03:00 PM 12-Nov-2026 03:30 PM 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support GEM/2026/B/8238866 18-Nov-2026 04:00 PM 19-Nov-2026 04:00 PM 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan TCIL/OPR/RFQ/2026/3 10-Nov-2026 05:00 PM 11-Nov-2026 11:00 AM 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 11-Nov-2026 06:55 PM 12-Nov-2026 06:55 PM 5. Empanelment of contractors for civil, fabrication and other works MGAHV/CD/34/2026-27/04 24-Nov-2026 04:00 PM 25-Nov-2026 11:00 AM 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months ENQ-40/AE(C)/2026-27/1016 26-Nov-2026 04:00 PM 27-Nov-2026 06:00 PM 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. GEM/2026/B/8227325 25-Nov-2026 12:00 PM 26-Nov-2026 12:00 PM 9. Procurement of Insulating Rubber Mats GEM/2026/B/8175175 04-Dec-2026 02:00 PM 05-Dec-2026 02:00 PM 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. VSP/WC/MinesMDM/OT/2600010082 09-Nov-2026 03:00 PM 10-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. WA4320-CIV-Q-9 -2026-27 WA4320-CIV-Q-9 -2026-27 12-Nov-2026 03:00 PM 12-Nov-2026 03:30 PM 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support GEM/2026/B/8238866 18-Nov-2026 04:00 PM 19-Nov-2026 04:00 PM 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan TCIL/OPR/RFQ/2026/3 10-Nov-2026 05:00 PM 11-Nov-2026 11:00 AM 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 11-Nov-2026 06:55 PM 12-Nov-2026 06:55 PM 5. Empanelment of contractors for civil, fabrication and other works MGAHV/CD/34/2026-27/04 24-Nov-2026 04:00 PM 25-Nov-2026 11:00 AM 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months ENQ-40/AE(C)/2026-27/1016 26-Nov-2026 04:00 PM 27-Nov-2026 06:00 PM 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. GEM/2026/B/8227325 25-Nov-2026 12:00 PM 26-Nov-2026 12:00 PM 9. Procurement of Insulating Rubber Mats GEM/2026/B/8175175 04-Dec-2026 02:00 PM 05-Dec-2026 02:00 PM 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. VSP/WC/MinesMDM/OT/2600010082 09-Nov-2026 03:00 PM 10-Nov-2026 03:00 PM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. Supply and installation of Mobile Elevated/Aerial Working platform SHAR/VALF/202600130101 20-Nov-2026 04:30 PM 20-Nov-2026 05:00 PM 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode ROTBA/Nursery/2(v)/2026 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 3. Minor Fabrication Contract for SLC Project SHAR/VALF/202600146901 17-Nov-2026 05:00 PM 17-Nov-2026 05:20 PM 4. Supply of Trailer mounted Diesel Generator Sets SHAR/VALF/202600114401 18-Nov-2026 05:00 PM 18-Nov-2026 05:30 PM 5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak IIMR/Civil/FY2026-27/OTE/P139T 25-Nov-2026 11:00 AM 25-Nov-2026 11:30 AM 6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS) SAC/CPUR/SA202600193701 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 7. Seam Sealer System SAC/CPUR/SA202600189201 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 8. Supply of Airborne Particle Counter SHAR/VALF/2026001166 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 9. Fabrication, Painting and Supply of SC120 horizontal support fixtures SHAR/VALF/202600105801 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site. SHAR/VALF/202600141601 11-Nov-2026 04:30 PM 11-Nov-2026 05:00 PM",
-          "1. Supply and installation of Mobile Elevated/Aerial Working platform",
-          "SHAR/VALF/202600130101",
-          "20-Nov-2026 04:30 PM",
-          "20-Nov-2026 05:00 PM",
-          "2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode",
-          "ROTBA/Nursery/2(v)/2026",
-          "17-Nov-2026 03:00 PM",
-          "17-Nov-2026 03:30 PM",
-          "3. Minor Fabrication Contract for SLC Project",
-          "SHAR/VALF/202600146901",
-          "17-Nov-2026 05:00 PM",
-          "17-Nov-2026 05:20 PM",
-          "4. Supply of Trailer mounted Diesel Generator Sets",
-          "SHAR/VALF/202600114401",
-          "18-Nov-2026 05:00 PM",
-          "18-Nov-2026 05:30 PM",
-          "5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak",
-          "IIMR/Civil/FY2026-27/OTE/P139T",
+          "1. WA4320-CIV-Q-9 -2026-27 WA4320-CIV-Q-9 -2026-27 12-Nov-2026 03:00 PM 12-Nov-2026 03:30 PM 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support GEM/2026/B/8238866 18-Nov-2026 04:00 PM 19-Nov-2026 04:00 PM 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan TCIL/OPR/RFQ/2026/3 10-Nov-2026 05:00 PM 11-Nov-2026 11:00 AM 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 11-Nov-2026 06:55 PM 12-Nov-2026 06:55 PM 5. Empanelment of contractors for civil, fabrication and other works MGAHV/CD/34/2026-27/04 24-Nov-2026 04:00 PM 25-Nov-2026 11:00 AM 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months ENQ-40/AE(C)/2026-27/1016 26-Nov-2026 04:00 PM 27-Nov-2026 06:00 PM 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. GEM/2026/B/8227325 25-Nov-2026 12:00 PM 26-Nov-2026 12:00 PM 9. Procurement of Insulating Rubber Mats GEM/2026/B/8175175 04-Dec-2026 02:00 PM 05-Dec-2026 02:00 PM 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. VSP/WC/MinesMDM/OT/2600010082 09-Nov-2026 03:00 PM 10-Nov-2026 03:00 PM",
+          "1. WA4320-CIV-Q-9 -2026-27",
+          "WA4320-CIV-Q-9 -2026-27",
+          "12-Nov-2026 03:00 PM",
+          "12-Nov-2026 03:30 PM",
+          "2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support",
+          "GEM/2026/B/8238866",
+          "18-Nov-2026 04:00 PM",
+          "19-Nov-2026 04:00 PM",
+          "3. Selection of service provider for repair of printer and scanner in TCIL Bhawan",
+          "TCIL/OPR/RFQ/2026/3",
+          "10-Nov-2026 05:00 PM",
+          "11-Nov-2026 11:00 AM",
+          "4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05",
+          "BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05",
+          "11-Nov-2026 06:55 PM",
+          "12-Nov-2026 06:55 PM",
+          "5. Empanelment of contractors for civil, fabrication and other works",
+          "MGAHV/CD/34/2026-27/04",
+          "24-Nov-2026 04:00 PM",
           "25-Nov-2026 11:00 AM",
-          "25-Nov-2026 11:30 AM",
-          "6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS)",
-          "SAC/CPUR/SA202600193701",
-          "01-Dec-2026 03:30 PM",
-          "01-Dec-2026 04:30 PM",
-          "7. Seam Sealer System",
-          "SAC/CPUR/SA202600189201",
-          "01-Dec-2026 03:30 PM",
-          "01-Dec-2026 04:30 PM",
-          "8. Supply of Airborne Particle Counter",
-          "SHAR/VALF/2026001166",
-          "18-Nov-2026 04:30 PM",
-          "18-Nov-2026 05:00 PM",
-          "9. Fabrication, Painting and Supply of SC120 horizontal support fixtures",
-          "SHAR/VALF/202600105801",
-          "18-Nov-2026 04:30 PM",
-          "18-Nov-2026 05:00 PM",
-          "10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site.",
-          "SHAR/VALF/202600141601",
-          "11-Nov-2026 04:30 PM",
-          "11-Nov-2026 05:00 PM",
+          "6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months",
+          "ENQ-40/AE(C)/2026-27/1016",
+          "26-Nov-2026 04:00 PM",
+          "27-Nov-2026 06:00 PM",
+          "7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd",
+          "2993",
+          "11-Nov-2026 01:00 PM",
+          "11-Nov-2026 02:00 PM",
+          "8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata.",
+          "GEM/2026/B/8227325",
+          "25-Nov-2026 12:00 PM",
+          "26-Nov-2026 12:00 PM",
+          "9. Procurement of Insulating Rubber Mats",
+          "GEM/2026/B/8175175",
+          "04-Dec-2026 02:00 PM",
+          "05-Dec-2026 02:00 PM",
+          "10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine.",
+          "VSP/WC/MinesMDM/OT/2600010082",
+          "09-Nov-2026 03:00 PM",
+          "10-Nov-2026 03:00 PM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
           "",
-          "Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 6 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 10-Nov-2026 06:55 PM 11-Nov-2026 06:55 PM 2. Corrigendum-I GEM/2026/B/8191351 25-Nov-2026 01:00 PM 26-Nov-2026 01:00 PM 3. TENDER EXTENSION HMTL/MTK/2026/M/M8012/001/079 11-Nov-2026 12:00 PM 11-Nov-2026 02:00 PM 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 05-Nov-2026 03:30 PM 05-Nov-2026 03:30 PM 5. Cor-Adm-03 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 6. Corr-Adm-02 NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 7. Corr-Adm-02 NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 8. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 9. Corr-Adm-02 NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 10. Corr-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM Latest Corrigendum updates every 15 mins. More...",
-          "Corrigendum Title Reference No Closing Date Bid Opening Date 1. Corrigendum - 6 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 10-Nov-2026 06:55 PM 11-Nov-2026 06:55 PM 2. Corrigendum-I GEM/2026/B/8191351 25-Nov-2026 01:00 PM 26-Nov-2026 01:00 PM 3. TENDER EXTENSION HMTL/MTK/2026/M/M8012/001/079 11-Nov-2026 12:00 PM 11-Nov-2026 02:00 PM 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 05-Nov-2026 03:30 PM 05-Nov-2026 03:30 PM 5. Cor-Adm-03 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 6. Corr-Adm-02 NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 7. Corr-Adm-02 NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 8. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 9. Corr-Adm-02 NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 10. Corr-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM Latest Corrigendum updates every 15 mins. More...",
+          "Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to queries IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 2. Addendum no. 36 of FBW-FBB1 Work_Date Change DGSB/DC02/01 OF 2022 23-Dec-2026 03:00 PM 23-Dec-2026 03:30 PM 3. Change of Date and other clauses IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 4. Addendum no. 38 of FBL-FBB2 Work_Date Change DGSB/DC02/02 OF 2022 09-Dec-2026 03:00 PM 09-Dec-2026 03:30 PM 5. Date Extended upto 10-11-2026 Insurance10-11-2026 10-Nov-2026 05:30 PM 11-Nov-2026 03:30 PM 6. Addendum no. 36 of DY Work_Date Change DGSB/DC02/03 OF 2022 26-Nov-2026 03:00 PM 26-Nov-2026 03:30 PM 7. CorrigendumIV 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. 4th extension PE-299 13-Nov-2026 04:00 PM 16-Nov-2026 04:00 PM 9. Date Corrigendum 2 B AND R/IOCL/71148/NIT/MAT/50 10-Nov-2026 06:00 PM 11-Nov-2026 06:00 PM 10. Corrigendum-I CON/T/BLSS/Sub-Assembly Set/e-105696 /2026 17-Dec-2026 04:00 PM 18-Dec-2026 11:00 AM Latest Corrigendum updates every 15 mins. More...",
+          "Corrigendum Title Reference No Closing Date Bid Opening Date 1. Response to queries IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 2. Addendum no. 36 of FBW-FBB1 Work_Date Change DGSB/DC02/01 OF 2022 23-Dec-2026 03:00 PM 23-Dec-2026 03:30 PM 3. Change of Date and other clauses IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 4. Addendum no. 38 of FBL-FBB2 Work_Date Change DGSB/DC02/02 OF 2022 09-Dec-2026 03:00 PM 09-Dec-2026 03:30 PM 5. Date Extended upto 10-11-2026 Insurance10-11-2026 10-Nov-2026 05:30 PM 11-Nov-2026 03:30 PM 6. Addendum no. 36 of DY Work_Date Change DGSB/DC02/03 OF 2022 26-Nov-2026 03:00 PM 26-Nov-2026 03:30 PM 7. CorrigendumIV 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. 4th extension PE-299 13-Nov-2026 04:00 PM 16-Nov-2026 04:00 PM 9. Date Corrigendum 2 B AND R/IOCL/71148/NIT/MAT/50 10-Nov-2026 06:00 PM 11-Nov-2026 06:00 PM 10. Corrigendum-I CON/T/BLSS/Sub-Assembly Set/e-105696 /2026 17-Dec-2026 04:00 PM 18-Dec-2026 11:00 AM Latest Corrigendum updates every 15 mins. More...",
           "Corrigendum Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. Corrigendum - 6 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 10-Nov-2026 06:55 PM 11-Nov-2026 06:55 PM 2. Corrigendum-I GEM/2026/B/8191351 25-Nov-2026 01:00 PM 26-Nov-2026 01:00 PM 3. TENDER EXTENSION HMTL/MTK/2026/M/M8012/001/079 11-Nov-2026 12:00 PM 11-Nov-2026 02:00 PM 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 05-Nov-2026 03:30 PM 05-Nov-2026 03:30 PM 5. Cor-Adm-03 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 6. Corr-Adm-02 NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 7. Corr-Adm-02 NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 8. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 9. Corr-Adm-02 NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 10. Corr-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM",
-          "1. Corrigendum - 6",
-          "PUR/ENQ/STOCK/7644/JB/ 036/2026-27",
-          "10-Nov-2026 06:55 PM",
-          "11-Nov-2026 06:55 PM",
-          "2. Corrigendum-I",
-          "GEM/2026/B/8191351",
-          "25-Nov-2026 01:00 PM",
-          "26-Nov-2026 01:00 PM",
-          "3. TENDER EXTENSION",
-          "HMTL/MTK/2026/M/M8012/001/079",
-          "11-Nov-2026 12:00 PM",
+          "1. Response to queries IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 2. Addendum no. 36 of FBW-FBB1 Work_Date Change DGSB/DC02/01 OF 2022 23-Dec-2026 03:00 PM 23-Dec-2026 03:30 PM 3. Change of Date and other clauses IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 4. Addendum no. 38 of FBL-FBB2 Work_Date Change DGSB/DC02/02 OF 2022 09-Dec-2026 03:00 PM 09-Dec-2026 03:30 PM 5. Date Extended upto 10-11-2026 Insurance10-11-2026 10-Nov-2026 05:30 PM 11-Nov-2026 03:30 PM 6. Addendum no. 36 of DY Work_Date Change DGSB/DC02/03 OF 2022 26-Nov-2026 03:00 PM 26-Nov-2026 03:30 PM 7. CorrigendumIV 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. 4th extension PE-299 13-Nov-2026 04:00 PM 16-Nov-2026 04:00 PM 9. Date Corrigendum 2 B AND R/IOCL/71148/NIT/MAT/50 10-Nov-2026 06:00 PM 11-Nov-2026 06:00 PM 10. Corrigendum-I CON/T/BLSS/Sub-Assembly Set/e-105696 /2026 17-Dec-2026 04:00 PM 18-Dec-2026 11:00 AM",
+          "1. Response to queries",
+          "IIT/KGP/CCDS/AICLUSTER/2026-27",
+          "18-Nov-2026 03:00 PM",
+          "18-Nov-2026 04:00 PM",
+          "2. Addendum no. 36 of FBW-FBB1 Work_Date Change",
+          "DGSB/DC02/01 OF 2022",
+          "23-Dec-2026 03:00 PM",
+          "23-Dec-2026 03:30 PM",
+          "3. Change of Date and other clauses",
+          "IIT/KGP/CCDS/AICLUSTER/2026-27",
+          "18-Nov-2026 03:00 PM",
+          "18-Nov-2026 04:00 PM",
+          "4. Addendum no. 38 of FBL-FBB2 Work_Date Change",
+          "DGSB/DC02/02 OF 2022",
+          "09-Dec-2026 03:00 PM",
+          "09-Dec-2026 03:30 PM",
+          "5. Date Extended upto 10-11-2026",
+          "Insurance10-11-2026",
+          "10-Nov-2026 05:30 PM",
+          "11-Nov-2026 03:30 PM",
+          "6. Addendum no. 36 of DY Work_Date Change",
+          "DGSB/DC02/03 OF 2022",
+          "26-Nov-2026 03:00 PM",
+          "26-Nov-2026 03:30 PM",
+          "7. CorrigendumIV",
+          "2993",
+          "11-Nov-2026 01:00 PM",
           "11-Nov-2026 02:00 PM",
-          "4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT",
-          "UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026",
-          "05-Nov-2026 03:30 PM",
-          "05-Nov-2026 03:30 PM",
-          "5. Cor-Adm-03",
-          "NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM",
-          "6. Corr-Adm-02",
-          "NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM",
-          "7. Corr-Adm-02",
-          "NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM",
-          "8. Corr-Adm-02",
-          "NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM",
-          "9. Corr-Adm-02",
-          "NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM",
-          "10. Corr-Adm-02",
-          "NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM",
+          "8. 4th extension",
+          "PE-299",
+          "13-Nov-2026 04:00 PM",
+          "16-Nov-2026 04:00 PM",
+          "9. Date Corrigendum 2",
+          "B AND R/IOCL/71148/NIT/MAT/50",
+          "10-Nov-2026 06:00 PM",
+          "11-Nov-2026 06:00 PM",
+          "10. Corrigendum-I",
+          "CON/T/BLSS/Sub-Assembly Set/e-105696 /2026",
+          "17-Dec-2026 04:00 PM",
+          "18-Dec-2026 11:00 AM",
           "Latest Corrigendum updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.261Z",
-      "evidenceHash": "9d7c14340bf4df56a99d45eff5168be4ceb24cb14706b2a816ae49644de0177f"
+      "observedAt": "2026-11-04T14:27:40.091Z",
+      "evidenceHash": "f4a0fc5c77af7027ffee56ff330e4f8a86afec3a7e3d4fd5ff0bdf04d0c79550"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.261Z",
+      "observedAt": "2026-11-04T14:27:40.092Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,298 +727,298 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.262Z",
+      "observedAt": "2026-11-04T14:27:40.093Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-supply-and-installation-of-mobile-elevated/aerial-working-platform:1.-supply-and-installation-of-mobile-elevated/aerial-working-platform-shar/valf/202600130101-20-nov-2026-04:30-pm-20-nov-2026-05:00-pm-2.-budding-of-approximate-60000-rubber-seedlings-at-rubber-board-regional-nursery,-alakkode-rotba/nursery/2(v)/2026-17-nov-2026-03:00-pm-17-nov-2026-03:30-pm-3.-minor-fabrication-contract-for-slc-project-shar/valf/202600146901-17-nov-2026-05:00-pm-17-nov-2026-05:20-pm-4.-supply-of-trailer-mounted-diesel-generator-sets-shar/valf/202600114401-18-nov-2026-05:00-pm-18-nov-2026-05:30-pm-5.-construction-of-02-nos-hostel-buildings-g-plus-2-comprising-72-rooms-each-at-permanent-campus-of-indian-institute-of-management,-rohtak-at-sunaria-village,-rohtak-iimr/civil/fy2026-27/ote/p139t-25-nov-2026-11:00-am-25-nov-2026-11:30-am-6.-fabrication-and-supply-of-multilayer-rigid-flex-pcbs-(ground-and-space-applications)-sac/cpur/sa202600193701-01-dec-2026-03:30-pm-01-dec-2026-04:30-pm-7.-seam-sealer-system-sac/cpur/sa202600189201-01-dec-2026-03:30-pm-01-dec-2026-04:30-pm-8.-supply-of-airborne-particle-counter-shar/valf/2026001166-18-nov-2026-04:30-pm-18-nov-2026-05:00-pm-9.-fabrication,-painting-and-supply-of-sc120-horizontal-support-fixtures-shar/valf/202600105801-18-nov-2026-04:30-pm-18-nov-2026-05:00-pm-10.-fabrication,-painting-and-supply-of-entry-gates-for-processing-facilities-of-slc-project-site.-shar/valf/202600141601-11-nov-2026-04:30-pm-11-nov-2026-05:00-pm",
+      "externalKey": "cppp-procurement:1.-wa4320-civ-q-9--2026-27-wa4320-civ-q-9--2026-27-12-nov-2026-03:00-pm-12-nov-2026-03:30-pm-2.-renewal-of-ibm-mq-advanced-pvu-based-licenses-and-on-call-onsite-ats-support-gem/2026/b/8238866-18-nov-2026-04:00-pm-19-nov-2026-04:00-pm-3.-selection-of-service-provider-for-repair-of-printer-and-scanner-in-tcil-bhawan-tcil/opr/rfq/2026/3-10-nov-2026-05:00-pm-11-nov-2026-11:00-am-4.-bandr/61044/bikaner/misc.-works/nit/sc/05-bandr/61044/bikaner/misc.-works/nit/sc/05-11-nov-2026-06:55-pm-12-nov-2026-06:55-pm-5.-empanelment-of-contractors-for-civil,-fabrication-and-other-works-mgahv/cd/34/2026-27/04-24-nov-2026-04:00-pm-25-nov-2026-11:00-am-6.-enquiry-for-work-of-deployment-of-02-nos.-gardener-for-the-plantation-and-gardenes-situated-at-mppgcl,-gandhisagar-colony-no.03-and-no.08-for-4.5-months-enq-40/ae(c)/2026-27/1016-26-nov-2026-04:00-pm-27-nov-2026-06:00-pm-7.-catch-pit-for-existing-hume-pipe-culvert-and-check-dams-at-saledha-khadd-2993-11-nov-2026-01:00-pm-11-nov-2026-02:00-pm-8.-operation-and-maintenance-of-mechanised-handling-plant-at-haldia-dock-complex,-smp,-kolkata.-gem/2026/b/8227325-25-nov-2026-12:00-pm-26-nov-2026-12:00-pm-9.-procurement-of-insulating-rubber-mats-gem/2026/b/8175175-04-dec-2026-02:00-pm-05-dec-2026-02:00-pm-10.-regulating-/-operating-the-06-nos.-of-lc-gates-at-madharam-dolomite-mine.-vsp/wc/minesmdm/ot/2600010082-09-nov-2026-03:00-pm-10-nov-2026-03:00-pm:1.-wa4320-civ-q-9--2026-27-wa4320-civ-q-9--2026-27-12-nov-2026-03:00-pm-12-nov-2026-03:30-pm-2.-renewal-of-ibm-mq-advanced-pvu-based-licenses-and-on-call-onsite-ats-support-gem/2026/b/8238866-18-nov-2026-04:00-pm-19-nov-2026-04:00-pm-3.-selection-of-service-provider-for-repair-of-printer-and-scanner-in-tcil-bhawan-tcil/opr/rfq/2026/3-10-nov-2026-05:00-pm-11-nov-2026-11:00-am-4.-bandr/61044/bikaner/misc.-works/nit/sc/05-bandr/61044/bikaner/misc.-works/nit/sc/05-11-nov-2026-06:55-pm-12-nov-2026-06:55-pm-5.-empanelment-of-contractors-for-civil,-fabrication-and-other-works-mgahv/cd/34/2026-27/04-24-nov-2026-04:00-pm-25-nov-2026-11:00-am-6.-enquiry-for-work-of-deployment-of-02-nos.-gardener-for-the-plantation-and-gardenes-situated-at-mppgcl,-gandhisagar-colony-no.03-and-no.08-for-4.5-months-enq-40/ae(c)/2026-27/1016-26-nov-2026-04:00-pm-27-nov-2026-06:00-pm-7.-catch-pit-for-existing-hume-pipe-culvert-and-check-dams-at-saledha-khadd-2993-11-nov-2026-01:00-pm-11-nov-2026-02:00-pm-8.-operation-and-maintenance-of-mechanised-handling-plant-at-haldia-dock-complex,-smp,-kolkata.-gem/2026/b/8227325-25-nov-2026-12:00-pm-26-nov-2026-12:00-pm-9.-procurement-of-insulating-rubber-mats-gem/2026/b/8175175-04-dec-2026-02:00-pm-05-dec-2026-02:00-pm-10.-regulating-/-operating-the-06-nos.-of-lc-gates-at-madharam-dolomite-mine.-vsp/wc/minesmdm/ot/2600010082-09-nov-2026-03:00-pm-10-nov-2026-03:00-pm",
       "sensorId": "cppp-procurement",
-      "title": "1. Supply and installation of Mobile Elevated/Aerial Working platform SHAR/VALF/202600130101 20-Nov-2026 04:30 PM 20-Nov-2026 05:00 PM 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode ROTBA/Nursery/2(v)/2026 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 3. Minor Fabrication Contract for SLC Project SHAR/VALF/202600146901 17-Nov-2026 05:00 PM 17-Nov-2026 05:20 PM 4. Supply of Trailer mounted Diesel Generator Sets SHAR/VALF/202600114401 18-Nov-2026 05:00 PM 1",
+      "title": "1. WA4320-CIV-Q-9 -2026-27 WA4320-CIV-Q-9 -2026-27 12-Nov-2026 03:00 PM 12-Nov-2026 03:30 PM 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support GEM/2026/B/8238866 18-Nov-2026 04:00 PM 19-Nov-2026 04:00 PM 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan TCIL/OPR/RFQ/2026/3 10-Nov-2026 05:00 PM 11-Nov-2026 11:00 AM 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 11-Nov-2026 06:55 PM 12-Nov-2026 06",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S1a8VF4X3fmKAUQOSc4vSCg%3D%3D",
-      "tenderReference": "1. Supply and installation of Mobile Elevated/Aerial Working platform",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SKlNNUeez81z2PPhru5hm3w%3D%3D",
+      "tenderReference": "1. WA4320-CIV-Q-9 -2026-27 WA4320-CIV-Q-9 -2026-27 12-Nov-2026 03:00 PM 12-Nov-2026 03:30 PM 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support GEM/2026/B/8238866 18-Nov-2026 04:00 PM 19-Nov-2026 04:00 PM 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan TCIL/OPR/RFQ/2026/3 10-Nov-2026 05:00 PM 11-Nov-2026 11:00 AM 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 11-Nov-2026 06:55 PM 12-Nov-2026 06:55 PM 5. Empanelment of contractors for civil, fabrication and other works MGAHV/CD/34/2026-27/04 24-Nov-2026 04:00 PM 25-Nov-2026 11:00 AM 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months ENQ-40/AE(C)/2026-27/1016 26-Nov-2026 04:00 PM 27-Nov-2026 06:00 PM 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. GEM/2026/B/8227325 25-Nov-2026 12:00 PM 26-Nov-2026 12:00 PM 9. Procurement of Insulating Rubber Mats GEM/2026/B/8175175 04-Dec-2026 02:00 PM 05-Dec-2026 02:00 PM 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. VSP/WC/MinesMDM/OT/2600010082 09-Nov-2026 03:00 PM 10-Nov-2026 03:00 PM",
       "geographicPrecision": "unknown",
-      "note": "SHAR/VALF/202600130101 | 20-Nov-2026 04:30 PM | 20-Nov-2026 05:00 PM | 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode | ROTBA/Nursery/2(v)/2026 | 17-Nov-2026 03:00 PM | 17-Nov-2026 03:30 PM | 3. Minor Fabrication Contract for SLC Project | SHAR/VALF/202600146901 | 17-Nov-2026 05:00 PM | 17-Nov-2026 05:20 PM | 4. Supply of Trailer mounted Diesel Generator Sets | SHAR/VALF/202600114401 | 18-Nov-2026 05:00 PM | 18-Nov-2026 05:30 PM | 5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak | IIMR/Civil/FY2026-27/OTE/P139T | 25-Nov-2026 11:00 AM | 25-Nov-2026 11:30 AM | 6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS) | SAC/CPUR/SA202600193701 | 01-Dec-2026 03:30 PM | 01-Dec-2026 04:30 PM | 7. Seam Sealer System | SAC/CPUR/SA202600189201 | 01-Dec-2026 03:30 PM | 01-Dec-2026 04:30 PM | 8. Supply of Airborne Particle Counter | SHAR/VALF/2026001166 | 18-Nov-2026 04:30 PM | 18-Nov-2026 05:00 PM | 9. Fabrication, Painting and Supply of SC120 horizontal support fixtures | SHAR/VALF/202600105801 | 18-Nov-2026 04:30 PM | 18-Nov-2026 05:00 PM | 10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site. | SHAR/VALF/202600141601 | 11-Nov-2026 04:30 PM | 11-Nov-2026 05:00 PM",
+      "note": "WA4320-CIV-Q-9 -2026-27 | 12-Nov-2026 03:00 PM | 12-Nov-2026 03:30 PM | 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support | GEM/2026/B/8238866 | 18-Nov-2026 04:00 PM | 19-Nov-2026 04:00 PM | 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan | TCIL/OPR/RFQ/2026/3 | 10-Nov-2026 05:00 PM | 11-Nov-2026 11:00 AM | 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 | BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 | 11-Nov-2026 06:55 PM | 12-Nov-2026 06:55 PM | 5. Empanelment of contractors for civil, fabrication and other works | MGAHV/CD/34/2026-27/04 | 24-Nov-2026 04:00 PM | 25-Nov-2026 11:00 AM | 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months | ENQ-40/AE(C)/2026-27/1016 | 26-Nov-2026 04:00 PM | 27-Nov-2026 06:00 PM | 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd | 2993 | 11-Nov-2026 01:00 PM | 11-Nov-2026 02:00 PM | 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. | GEM/2026/B/8227325 | 25-Nov-2026 12:00 PM | 26-Nov-2026 12:00 PM | 9. Procurement of Insulating Rubber Mats | GEM/2026/B/8175175 | 04-Dec-2026 02:00 PM | 05-Dec-2026 02:00 PM | 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. | VSP/WC/MinesMDM/OT/2600010082 | 09-Nov-2026 03:00 PM | 10-Nov-2026 03:00 PM",
       "raw": {
         "cells": [
-          "1. Supply and installation of Mobile Elevated/Aerial Working platform SHAR/VALF/202600130101 20-Nov-2026 04:30 PM 20-Nov-2026 05:00 PM 2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode ROTBA/Nursery/2(v)/2026 17-Nov-2026 03:00 PM 17-Nov-2026 03:30 PM 3. Minor Fabrication Contract for SLC Project SHAR/VALF/202600146901 17-Nov-2026 05:00 PM 17-Nov-2026 05:20 PM 4. Supply of Trailer mounted Diesel Generator Sets SHAR/VALF/202600114401 18-Nov-2026 05:00 PM 18-Nov-2026 05:30 PM 5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak IIMR/Civil/FY2026-27/OTE/P139T 25-Nov-2026 11:00 AM 25-Nov-2026 11:30 AM 6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS) SAC/CPUR/SA202600193701 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 7. Seam Sealer System SAC/CPUR/SA202600189201 01-Dec-2026 03:30 PM 01-Dec-2026 04:30 PM 8. Supply of Airborne Particle Counter SHAR/VALF/2026001166 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 9. Fabrication, Painting and Supply of SC120 horizontal support fixtures SHAR/VALF/202600105801 18-Nov-2026 04:30 PM 18-Nov-2026 05:00 PM 10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site. SHAR/VALF/202600141601 11-Nov-2026 04:30 PM 11-Nov-2026 05:00 PM",
-          "1. Supply and installation of Mobile Elevated/Aerial Working platform",
-          "SHAR/VALF/202600130101",
-          "20-Nov-2026 04:30 PM",
-          "20-Nov-2026 05:00 PM",
-          "2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode",
-          "ROTBA/Nursery/2(v)/2026",
-          "17-Nov-2026 03:00 PM",
-          "17-Nov-2026 03:30 PM",
-          "3. Minor Fabrication Contract for SLC Project",
-          "SHAR/VALF/202600146901",
-          "17-Nov-2026 05:00 PM",
-          "17-Nov-2026 05:20 PM",
-          "4. Supply of Trailer mounted Diesel Generator Sets",
-          "SHAR/VALF/202600114401",
-          "18-Nov-2026 05:00 PM",
-          "18-Nov-2026 05:30 PM",
-          "5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak",
-          "IIMR/Civil/FY2026-27/OTE/P139T",
+          "1. WA4320-CIV-Q-9 -2026-27 WA4320-CIV-Q-9 -2026-27 12-Nov-2026 03:00 PM 12-Nov-2026 03:30 PM 2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support GEM/2026/B/8238866 18-Nov-2026 04:00 PM 19-Nov-2026 04:00 PM 3. Selection of service provider for repair of printer and scanner in TCIL Bhawan TCIL/OPR/RFQ/2026/3 10-Nov-2026 05:00 PM 11-Nov-2026 11:00 AM 4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05 11-Nov-2026 06:55 PM 12-Nov-2026 06:55 PM 5. Empanelment of contractors for civil, fabrication and other works MGAHV/CD/34/2026-27/04 24-Nov-2026 04:00 PM 25-Nov-2026 11:00 AM 6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months ENQ-40/AE(C)/2026-27/1016 26-Nov-2026 04:00 PM 27-Nov-2026 06:00 PM 7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata. GEM/2026/B/8227325 25-Nov-2026 12:00 PM 26-Nov-2026 12:00 PM 9. Procurement of Insulating Rubber Mats GEM/2026/B/8175175 04-Dec-2026 02:00 PM 05-Dec-2026 02:00 PM 10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine. VSP/WC/MinesMDM/OT/2600010082 09-Nov-2026 03:00 PM 10-Nov-2026 03:00 PM",
+          "1. WA4320-CIV-Q-9 -2026-27",
+          "WA4320-CIV-Q-9 -2026-27",
+          "12-Nov-2026 03:00 PM",
+          "12-Nov-2026 03:30 PM",
+          "2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support",
+          "GEM/2026/B/8238866",
+          "18-Nov-2026 04:00 PM",
+          "19-Nov-2026 04:00 PM",
+          "3. Selection of service provider for repair of printer and scanner in TCIL Bhawan",
+          "TCIL/OPR/RFQ/2026/3",
+          "10-Nov-2026 05:00 PM",
+          "11-Nov-2026 11:00 AM",
+          "4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05",
+          "BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05",
+          "11-Nov-2026 06:55 PM",
+          "12-Nov-2026 06:55 PM",
+          "5. Empanelment of contractors for civil, fabrication and other works",
+          "MGAHV/CD/34/2026-27/04",
+          "24-Nov-2026 04:00 PM",
           "25-Nov-2026 11:00 AM",
-          "25-Nov-2026 11:30 AM",
-          "6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS)",
-          "SAC/CPUR/SA202600193701",
-          "01-Dec-2026 03:30 PM",
-          "01-Dec-2026 04:30 PM",
-          "7. Seam Sealer System",
-          "SAC/CPUR/SA202600189201",
-          "01-Dec-2026 03:30 PM",
-          "01-Dec-2026 04:30 PM",
-          "8. Supply of Airborne Particle Counter",
-          "SHAR/VALF/2026001166",
-          "18-Nov-2026 04:30 PM",
-          "18-Nov-2026 05:00 PM",
-          "9. Fabrication, Painting and Supply of SC120 horizontal support fixtures",
-          "SHAR/VALF/202600105801",
-          "18-Nov-2026 04:30 PM",
-          "18-Nov-2026 05:00 PM",
-          "10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site.",
-          "SHAR/VALF/202600141601",
-          "11-Nov-2026 04:30 PM",
-          "11-Nov-2026 05:00 PM"
+          "6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months",
+          "ENQ-40/AE(C)/2026-27/1016",
+          "26-Nov-2026 04:00 PM",
+          "27-Nov-2026 06:00 PM",
+          "7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd",
+          "2993",
+          "11-Nov-2026 01:00 PM",
+          "11-Nov-2026 02:00 PM",
+          "8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata.",
+          "GEM/2026/B/8227325",
+          "25-Nov-2026 12:00 PM",
+          "26-Nov-2026 12:00 PM",
+          "9. Procurement of Insulating Rubber Mats",
+          "GEM/2026/B/8175175",
+          "04-Dec-2026 02:00 PM",
+          "05-Dec-2026 02:00 PM",
+          "10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine.",
+          "VSP/WC/MinesMDM/OT/2600010082",
+          "09-Nov-2026 03:00 PM",
+          "10-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.264Z",
-      "evidenceHash": "f10d476c4b783283cea290fc7d79ec579c53043fe0397ec525993877a01e97b4"
+      "observedAt": "2026-11-04T14:27:40.095Z",
+      "evidenceHash": "c696f49cca473d65995c6a7431966f1574b63e7b13d08bd173a32ef38af5b442"
     },
     {
-      "externalKey": "cppp-procurement:shar/valf/202600130101:1.-supply-and-installation-of-mobile-elevated/aerial-working-platform",
+      "externalKey": "cppp-procurement:wa4320-civ-q-9--2026-27:1.-wa4320-civ-q-9--2026-27",
       "sensorId": "cppp-procurement",
-      "title": "1. Supply and installation of Mobile Elevated/Aerial Working platform",
+      "title": "1. WA4320-CIV-Q-9 -2026-27",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S1a8VF4X3fmKAUQOSc4vSCg%3D%3D",
-      "tenderReference": "SHAR/VALF/202600130101",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SKlNNUeez81z2PPhru5hm3w%3D%3D",
+      "tenderReference": "WA4320-CIV-Q-9 -2026-27",
       "geographicPrecision": "unknown",
-      "note": "20-Nov-2026 04:30 PM | 20-Nov-2026 05:00 PM",
+      "note": "12-Nov-2026 03:00 PM | 12-Nov-2026 03:30 PM",
       "raw": {
         "cells": [
-          "1. Supply and installation of Mobile Elevated/Aerial Working platform",
-          "SHAR/VALF/202600130101",
-          "20-Nov-2026 04:30 PM",
-          "20-Nov-2026 05:00 PM"
+          "1. WA4320-CIV-Q-9 -2026-27",
+          "WA4320-CIV-Q-9 -2026-27",
+          "12-Nov-2026 03:00 PM",
+          "12-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.264Z",
-      "evidenceHash": "47cf1922caad8b58031d9134f90e42fc49b854832c5067d8948264083d4277f6"
+      "observedAt": "2026-11-04T14:27:40.095Z",
+      "evidenceHash": "fc74662e7c38b0c8b0833b97eb68ff78b36517d759dab78c6b17ba2b935f3bdc"
     },
     {
-      "externalKey": "cppp-procurement:rotba/nursery/2(v)/2026:2.-budding-of-approximate-60000-rubber-seedlings-at-rubber-board-regional-nursery,-alakkode",
+      "externalKey": "cppp-procurement:gem/2026/b/8238866:2.-renewal-of-ibm-mq-advanced-pvu-based-licenses-and-on-call-onsite-ats-support",
       "sensorId": "cppp-procurement",
-      "title": "2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode",
+      "title": "2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S6%2F8o%2BG0ZMvgEiWB%2FPBRoVg%3D%3D",
-      "tenderReference": "ROTBA/Nursery/2(v)/2026",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=STeAwey6y8lVrS3rJ6Dlzwg%3D%3D",
+      "tenderReference": "GEM/2026/B/8238866",
       "geographicPrecision": "unknown",
-      "note": "17-Nov-2026 03:00 PM | 17-Nov-2026 03:30 PM",
+      "note": "18-Nov-2026 04:00 PM | 19-Nov-2026 04:00 PM",
       "raw": {
         "cells": [
-          "2. Budding of approximate 60000 rubber seedlings at Rubber Board Regional Nursery, Alakkode",
-          "ROTBA/Nursery/2(v)/2026",
-          "17-Nov-2026 03:00 PM",
-          "17-Nov-2026 03:30 PM"
+          "2. Renewal of IBM MQ Advanced PVU Based licenses and on-call onsite ATS Support",
+          "GEM/2026/B/8238866",
+          "18-Nov-2026 04:00 PM",
+          "19-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.264Z",
-      "evidenceHash": "7b77a0ebd33501d362eaf0e5da289efb39f4823f5f8bcc5d0444d7f6a4e37188"
+      "observedAt": "2026-11-04T14:27:40.095Z",
+      "evidenceHash": "a166d1c73c878d5e6ee7c11e95988a9e640d7e46b484d804ba6af9d7348e43c6"
     },
     {
-      "externalKey": "cppp-procurement:shar/valf/202600146901:3.-minor-fabrication-contract-for-slc-project",
+      "externalKey": "cppp-procurement:tcil/opr/rfq/2026/3:3.-selection-of-service-provider-for-repair-of-printer-and-scanner-in-tcil-bhawan",
       "sensorId": "cppp-procurement",
-      "title": "3. Minor Fabrication Contract for SLC Project",
+      "title": "3. Selection of service provider for repair of printer and scanner in TCIL Bhawan",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SGvxzscSDhO9zJxKRQOgHMg%3D%3D",
-      "tenderReference": "SHAR/VALF/202600146901",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SZ5HBVGBOlmBJW%2FpwjD26oQ%3D%3D",
+      "tenderReference": "TCIL/OPR/RFQ/2026/3",
       "geographicPrecision": "unknown",
-      "note": "17-Nov-2026 05:00 PM | 17-Nov-2026 05:20 PM",
+      "note": "10-Nov-2026 05:00 PM | 11-Nov-2026 11:00 AM",
       "raw": {
         "cells": [
-          "3. Minor Fabrication Contract for SLC Project",
-          "SHAR/VALF/202600146901",
-          "17-Nov-2026 05:00 PM",
-          "17-Nov-2026 05:20 PM"
+          "3. Selection of service provider for repair of printer and scanner in TCIL Bhawan",
+          "TCIL/OPR/RFQ/2026/3",
+          "10-Nov-2026 05:00 PM",
+          "11-Nov-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.264Z",
-      "evidenceHash": "253d9eabb16f6891082a349198c46517220c699aab3cd3415fb108ad67187842"
+      "observedAt": "2026-11-04T14:27:40.095Z",
+      "evidenceHash": "741355ca6b8d71a67ec55fe407e42f579dbcf3c1dae95ea7dfdc79663678e696"
     },
     {
-      "externalKey": "cppp-procurement:shar/valf/202600114401:4.-supply-of-trailer-mounted-diesel-generator-sets",
+      "externalKey": "cppp-procurement:bandr/61044/bikaner/misc.-works/nit/sc/05:4.-bandr/61044/bikaner/misc.-works/nit/sc/05",
       "sensorId": "cppp-procurement",
-      "title": "4. Supply of Trailer mounted Diesel Generator Sets",
+      "title": "4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SPUseISwSpS7BVP87cpvLVw%3D%3D",
-      "tenderReference": "SHAR/VALF/202600114401",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=StkXV4IJ4PU0Gc5exzrM1lA%3D%3D",
+      "tenderReference": "BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05",
       "geographicPrecision": "unknown",
-      "note": "18-Nov-2026 05:00 PM | 18-Nov-2026 05:30 PM",
+      "note": "11-Nov-2026 06:55 PM | 12-Nov-2026 06:55 PM",
       "raw": {
         "cells": [
-          "4. Supply of Trailer mounted Diesel Generator Sets",
-          "SHAR/VALF/202600114401",
-          "18-Nov-2026 05:00 PM",
-          "18-Nov-2026 05:30 PM"
+          "4. BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05",
+          "BANDR/61044/BIKANER/MISC. WORKS/NIT/SC/05",
+          "11-Nov-2026 06:55 PM",
+          "12-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.264Z",
-      "evidenceHash": "f6c37a12158a16a2685a3bc319bc5def8f77bcca150e94e8c61070cfb4e2e8b4"
+      "observedAt": "2026-11-04T14:27:40.095Z",
+      "evidenceHash": "5ce8c15d2a2cc29ec809609c19785a75eeae6da1af5277e95ce4a7ad4a6980b6"
     },
     {
-      "externalKey": "cppp-procurement:iimr/civil/fy2026-27/ote/p139t:5.-construction-of-02-nos-hostel-buildings-g-plus-2-comprising-72-rooms-each-at-permanent-campus-of-indian-institute-of-management,-rohtak-at-sunaria-village,-rohtak",
+      "externalKey": "cppp-procurement:mgahv/cd/34/2026-27/04:5.-empanelment-of-contractors-for-civil,-fabrication-and-other-works",
       "sensorId": "cppp-procurement",
-      "title": "5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak",
+      "title": "5. Empanelment of contractors for civil, fabrication and other works",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SfnVmyp2CNDN3BAT10WGd0w%3D%3D",
-      "tenderReference": "IIMR/Civil/FY2026-27/OTE/P139T",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S90n%2F6L1lYFMaBpPMe0pG8g%3D%3D",
+      "tenderReference": "MGAHV/CD/34/2026-27/04",
       "geographicPrecision": "unknown",
-      "note": "25-Nov-2026 11:00 AM | 25-Nov-2026 11:30 AM",
+      "note": "24-Nov-2026 04:00 PM | 25-Nov-2026 11:00 AM",
       "raw": {
         "cells": [
-          "5. Construction of 02 Nos Hostel Buildings G plus 2 comprising 72 Rooms each at Permanent Campus of Indian Institute of Management, Rohtak at Sunaria Village, Rohtak",
-          "IIMR/Civil/FY2026-27/OTE/P139T",
-          "25-Nov-2026 11:00 AM",
-          "25-Nov-2026 11:30 AM"
+          "5. Empanelment of contractors for civil, fabrication and other works",
+          "MGAHV/CD/34/2026-27/04",
+          "24-Nov-2026 04:00 PM",
+          "25-Nov-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.265Z",
-      "evidenceHash": "714b4685dcf815eeed9ab63f521898595ae53b5f73f22cd0c3cac01d4a0f0207"
+      "observedAt": "2026-11-04T14:27:40.095Z",
+      "evidenceHash": "a7d31226be6e2736a08997d34a7ac78dee6601d4af5e8e7f940aa74a7bb16c3d"
     },
     {
-      "externalKey": "cppp-procurement:sac/cpur/sa202600193701:6.-fabrication-and-supply-of-multilayer-rigid-flex-pcbs-(ground-and-space-applications)",
+      "externalKey": "cppp-procurement:enq-40/ae(c)/2026-27/1016:6.-enquiry-for-work-of-deployment-of-02-nos.-gardener-for-the-plantation-and-gardenes-situated-at-mppgcl,-gandhisagar-colony-no.03-and-no.08-for-4.5-months",
       "sensorId": "cppp-procurement",
-      "title": "6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS)",
+      "title": "6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SXtS9xDc4%2Bi1Y%2F3NwW8eakQ%3D%3D",
-      "tenderReference": "SAC/CPUR/SA202600193701",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SI%2F8iNo%2FwT5OGidsCKxG8pg%3D%3D",
+      "tenderReference": "ENQ-40/AE(C)/2026-27/1016",
       "geographicPrecision": "unknown",
-      "note": "01-Dec-2026 03:30 PM | 01-Dec-2026 04:30 PM",
+      "note": "26-Nov-2026 04:00 PM | 27-Nov-2026 06:00 PM",
       "raw": {
         "cells": [
-          "6. FABRICATION AND SUPPLY OF MULTILAYER RIGID-FLEX PCBs (GROUND AND SPACE APPLICATIONS)",
-          "SAC/CPUR/SA202600193701",
-          "01-Dec-2026 03:30 PM",
-          "01-Dec-2026 04:30 PM"
+          "6. Enquiry for Work of deployment of 02 nos. Gardener for the plantation and Gardenes situated at MPPGCL, Gandhisagar Colony No.03 and No.08 for 4.5 months",
+          "ENQ-40/AE(C)/2026-27/1016",
+          "26-Nov-2026 04:00 PM",
+          "27-Nov-2026 06:00 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.265Z",
-      "evidenceHash": "41e48f66296245594b93a34b369825ad44b61fabbebc301afe10b19996dabdbd"
+      "observedAt": "2026-11-04T14:27:40.096Z",
+      "evidenceHash": "6481305a6d02cfe63174ef2cfeb0dd13f4b2183c40453b0cf7f3c691d1b97020"
     },
     {
-      "externalKey": "cppp-procurement:sac/cpur/sa202600189201:7.-seam-sealer-system",
+      "externalKey": "cppp-procurement:2993:7.-catch-pit-for-existing-hume-pipe-culvert-and-check-dams-at-saledha-khadd",
       "sensorId": "cppp-procurement",
-      "title": "7. Seam Sealer System",
+      "title": "7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Sl%2Bqv9Sfn0mxGpTGLb%2BxoJA%3D%3D",
-      "tenderReference": "SAC/CPUR/SA202600189201",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SvOykq0nxcxmLyCdncJykYg%3D%3D",
+      "tenderReference": "2993",
       "geographicPrecision": "unknown",
-      "note": "01-Dec-2026 03:30 PM | 01-Dec-2026 04:30 PM",
+      "note": "11-Nov-2026 01:00 PM | 11-Nov-2026 02:00 PM",
       "raw": {
         "cells": [
-          "7. Seam Sealer System",
-          "SAC/CPUR/SA202600189201",
-          "01-Dec-2026 03:30 PM",
-          "01-Dec-2026 04:30 PM"
+          "7. catch pit for existing Hume pipe culvert and check dams at Saledha Khadd",
+          "2993",
+          "11-Nov-2026 01:00 PM",
+          "11-Nov-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.265Z",
-      "evidenceHash": "4e34086537274e35811ea73efad25e86dfe8f82a7b7fc656c2e6adf0f2c6f564"
+      "observedAt": "2026-11-04T14:27:40.096Z",
+      "evidenceHash": "f2b815427da209ff2233161d7771ccaa99ab6fe039584d5657715f0fab396efc"
     },
     {
-      "externalKey": "cppp-procurement:shar/valf/2026001166:8.-supply-of-airborne-particle-counter",
+      "externalKey": "cppp-procurement:gem/2026/b/8227325:8.-operation-and-maintenance-of-mechanised-handling-plant-at-haldia-dock-complex,-smp,-kolkata.",
       "sensorId": "cppp-procurement",
-      "title": "8. Supply of Airborne Particle Counter",
+      "title": "8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata.",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SHLUks4NnXquFpIw99quwPQ%3D%3D",
-      "tenderReference": "SHAR/VALF/2026001166",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SMOktrkOXNu0KSUKctTveIg%3D%3D",
+      "tenderReference": "GEM/2026/B/8227325",
       "geographicPrecision": "unknown",
-      "note": "18-Nov-2026 04:30 PM | 18-Nov-2026 05:00 PM",
+      "note": "25-Nov-2026 12:00 PM | 26-Nov-2026 12:00 PM",
       "raw": {
         "cells": [
-          "8. Supply of Airborne Particle Counter",
-          "SHAR/VALF/2026001166",
-          "18-Nov-2026 04:30 PM",
-          "18-Nov-2026 05:00 PM"
+          "8. Operation and Maintenance of Mechanised Handling Plant at Haldia Dock Complex, SMP, Kolkata.",
+          "GEM/2026/B/8227325",
+          "25-Nov-2026 12:00 PM",
+          "26-Nov-2026 12:00 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.265Z",
-      "evidenceHash": "6e6762a26ef44bf4fb3c4e6fcdfa2a1ea087ad22dabf20443bc8bef03230b6dd"
+      "observedAt": "2026-11-04T14:27:40.096Z",
+      "evidenceHash": "f5ff87f1b19a56fbb18881f762f51e69b75e5ed1e6171f7f9c6242e7bb81284d"
     },
     {
-      "externalKey": "cppp-procurement:shar/valf/202600105801:9.-fabrication,-painting-and-supply-of-sc120-horizontal-support-fixtures",
+      "externalKey": "cppp-procurement:gem/2026/b/8175175:9.-procurement-of-insulating-rubber-mats",
       "sensorId": "cppp-procurement",
-      "title": "9. Fabrication, Painting and Supply of SC120 horizontal support fixtures",
+      "title": "9. Procurement of Insulating Rubber Mats",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SIsFjEprce3l8GAm7lDGXOQ%3D%3D",
-      "tenderReference": "SHAR/VALF/202600105801",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SmPQrlAvgjbnQjdV4vMJGJA%3D%3D",
+      "tenderReference": "GEM/2026/B/8175175",
       "geographicPrecision": "unknown",
-      "note": "18-Nov-2026 04:30 PM | 18-Nov-2026 05:00 PM",
+      "note": "04-Dec-2026 02:00 PM | 05-Dec-2026 02:00 PM",
       "raw": {
         "cells": [
-          "9. Fabrication, Painting and Supply of SC120 horizontal support fixtures",
-          "SHAR/VALF/202600105801",
-          "18-Nov-2026 04:30 PM",
-          "18-Nov-2026 05:00 PM"
+          "9. Procurement of Insulating Rubber Mats",
+          "GEM/2026/B/8175175",
+          "04-Dec-2026 02:00 PM",
+          "05-Dec-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.265Z",
-      "evidenceHash": "56ff1944ba852d21ccf09f2b8dbe342f10aa2284aa4c74a78590fa1326020cd1"
+      "observedAt": "2026-11-04T14:27:40.096Z",
+      "evidenceHash": "865dac2cc61313728b2b5b329e6d59def211d18c7b75e455c16d7d2ad12a3e98"
     },
     {
-      "externalKey": "cppp-procurement:shar/valf/202600141601:10.-fabrication,-painting-and-supply-of-entry-gates-for-processing-facilities-of-slc-project-site.",
+      "externalKey": "cppp-procurement:vsp/wc/minesmdm/ot/2600010082:10.-regulating-/-operating-the-06-nos.-of-lc-gates-at-madharam-dolomite-mine.",
       "sensorId": "cppp-procurement",
-      "title": "10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site.",
+      "title": "10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine.",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SI4iG60c5%2BEQGP3SVsOVk%2Bg%3D%3D",
-      "tenderReference": "SHAR/VALF/202600141601",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Sf4AaNasLpYTUudC3xtiBSQ%3D%3D",
+      "tenderReference": "VSP/WC/MinesMDM/OT/2600010082",
       "geographicPrecision": "unknown",
-      "note": "11-Nov-2026 04:30 PM | 11-Nov-2026 05:00 PM",
+      "note": "09-Nov-2026 03:00 PM | 10-Nov-2026 03:00 PM",
       "raw": {
         "cells": [
-          "10. Fabrication, Painting and Supply of Entry Gates for processing facilities of SLC Project Site.",
-          "SHAR/VALF/202600141601",
-          "11-Nov-2026 04:30 PM",
-          "11-Nov-2026 05:00 PM"
+          "10. Regulating / Operating the 06 nos. of LC gates at Madharam Dolomite Mine.",
+          "VSP/WC/MinesMDM/OT/2600010082",
+          "09-Nov-2026 03:00 PM",
+          "10-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.265Z",
-      "evidenceHash": "59f711143f221b9748e514408ee4133ccde04330f4e506b76a487bc1dfdf9335"
+      "observedAt": "2026-11-04T14:27:40.096Z",
+      "evidenceHash": "d9596649abfaa307293c11b3164701ddf03b4e2337fa966a972e9509b73806a9"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.265Z",
+      "observedAt": "2026-11-04T14:27:40.096Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,298 +1060,298 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.266Z",
+      "observedAt": "2026-11-04T14:27:40.097Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
-      "externalKey": "cppp-procurement:1.-corrigendum---6-pur/enq/stock/7644/jb/-036/2026-27-10-nov-2026-06:55-pm-11-nov-2026-06:55-pm-2.-corrigendum-i-gem/2026/b/8191351-25-nov-2026-01:00-pm-26-nov-2026-01:00-pm-3.-tender-extension-hmtl/mtk/2026/m/m8012/001/079-11-nov-2026-12:00-pm-11-nov-2026-02:00-pm-4.-tender-for-supply-and-installation-of-ms-ducts-at-hangarakatte-unit-ucsl/cc/ser/t/um/319/2026-dt.-23.10.2026-05-nov-2026-03:30-pm-05-nov-2026-03:30-pm-5.-cor-adm-03-nbcc/cpg/supertech/-hilltown/pkg-ii/2026/614-12-nov-2026-11:00-am-12-nov-2026-11:30-am-6.-corr-adm-02-nbcc/cpg-/super-tech/upcountry/pkg-ii/2026/605-12-nov-2026-11:00-am-12-nov-2026-11:30-am-7.-corr-adm-02-nbcc/cpg/supertech-/upcountry/pkg-i/2026/604-12-nov-2026-11:00-am-12-nov-2026-11:30-am-8.-corr-adm-02-nbcc/cpg/supertech/-meerut-green-village/2026/596-12-nov-2026-11:00-am-12-nov-2026-11:30-am-9.-corr-adm-02-nbcc/cpg/supertech/eco-village-iii/pkg-ii/599-12-nov-2026-11:00-am-12-nov-2026-11:30-am-10.-corr-adm-02-nbcc/cpg/supertech/-hilltown/pkg-iii/2026/-606-12-nov-2026-11:00-am-12-nov-2026-11:30-am:1.-corrigendum---6-pur/enq/stock/7644/jb/-036/2026-27-10-nov-2026-06:55-pm-11-nov-2026-06:55-pm-2.-corrigendum-i-gem/2026/b/8191351-25-nov-2026-01:00-pm-26-nov-2026-01:00-pm-3.-tender-extension-hmtl/mtk/2026/m/m8012/001/079-11-nov-2026-12:00-pm-11-nov-2026-02:00-pm-4.-tender-for-supply-and-installation-of-ms-ducts-at-hangarakatte-unit-ucsl/cc/ser/t/um/319/2026-dt.-23.10.2026-05-nov-2026-03:30-pm-05-nov-2026-03:30-pm-5.-cor-adm-03-nbcc/cpg/supertech/-hilltown/pkg-ii/2026/614-12-nov-2026-11:00-am-12-nov-2026-11:30-am-6.-corr-adm-02-nbcc/cpg-/super-tech/upcountry/pkg-ii/2026/605-12-nov-2026-11:00-am-12-nov-2026-11:30-am-7.-corr-adm-02-nbcc/cpg/supertech-/upcountry/pkg-i/2026/604-12-nov-2026-11:00-am-12-nov-2026-11:30-am-8.-corr-adm-02-nbcc/cpg/supertech/-meerut-green-village/2026/596-12-nov-2026-11:00-am-12-nov-2026-11:30-am-9.-corr-adm-02-nbcc/cpg/supertech/eco-village-iii/pkg-ii/599-12-nov-2026-11:00-am-12-nov-2026-11:30-am-10.-corr-adm-02-nbcc/cpg/supertech/-hilltown/pkg-iii/2026/-606-12-nov-2026-11:00-am-12-nov-2026-11:30-am",
+      "externalKey": "cppp-procurement:1.-response-to-queries:1.-response-to-queries-iit/kgp/ccds/aicluster/2026-27-18-nov-2026-03:00-pm-18-nov-2026-04:00-pm-2.-addendum-no.-36-of-fbw-fbb1-work_date-change-dgsb/dc02/01-of-2022-23-dec-2026-03:00-pm-23-dec-2026-03:30-pm-3.-change-of-date-and-other-clauses-iit/kgp/ccds/aicluster/2026-27-18-nov-2026-03:00-pm-18-nov-2026-04:00-pm-4.-addendum-no.-38-of-fbl-fbb2-work_date-change-dgsb/dc02/02-of-2022-09-dec-2026-03:00-pm-09-dec-2026-03:30-pm-5.-date-extended-upto-10-11-2026-insurance10-11-2026-10-nov-2026-05:30-pm-11-nov-2026-03:30-pm-6.-addendum-no.-36-of-dy-work_date-change-dgsb/dc02/03-of-2022-26-nov-2026-03:00-pm-26-nov-2026-03:30-pm-7.-corrigendumiv-2993-11-nov-2026-01:00-pm-11-nov-2026-02:00-pm-8.-4th-extension-pe-299-13-nov-2026-04:00-pm-16-nov-2026-04:00-pm-9.-date-corrigendum-2-b-and-r/iocl/71148/nit/mat/50-10-nov-2026-06:00-pm-11-nov-2026-06:00-pm-10.-corrigendum-i-con/t/blss/sub-assembly-set/e-105696-/2026-17-dec-2026-04:00-pm-18-dec-2026-11:00-am",
       "sensorId": "cppp-procurement",
-      "title": "1. Corrigendum - 6 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 10-Nov-2026 06:55 PM 11-Nov-2026 06:55 PM 2. Corrigendum-I GEM/2026/B/8191351 25-Nov-2026 01:00 PM 26-Nov-2026 01:00 PM 3. TENDER EXTENSION HMTL/MTK/2026/M/M8012/001/079 11-Nov-2026 12:00 PM 11-Nov-2026 02:00 PM 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 05-Nov-2026 03:30 PM 05-Nov-2026 03:30 PM 5. Cor-Adm-03 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 12-Nov-2026 11:00 AM ",
+      "title": "1. Response to queries IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 2. Addendum no. 36 of FBW-FBB1 Work_Date Change DGSB/DC02/01 OF 2022 23-Dec-2026 03:00 PM 23-Dec-2026 03:30 PM 3. Change of Date and other clauses IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 4. Addendum no. 38 of FBL-FBB2 Work_Date Change DGSB/DC02/02 OF 2022 09-Dec-2026 03:00 PM 09-Dec-2026 03:30 PM 5. Date Extended upto 10-11-2026 Insurance10-11-2026 10-Nov-2026 05:30 PM",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SEuuBuaUTU2ZezM7v3P8Lgw%3D%3D",
-      "tenderReference": "1. Corrigendum - 6 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 10-Nov-2026 06:55 PM 11-Nov-2026 06:55 PM 2. Corrigendum-I GEM/2026/B/8191351 25-Nov-2026 01:00 PM 26-Nov-2026 01:00 PM 3. TENDER EXTENSION HMTL/MTK/2026/M/M8012/001/079 11-Nov-2026 12:00 PM 11-Nov-2026 02:00 PM 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 05-Nov-2026 03:30 PM 05-Nov-2026 03:30 PM 5. Cor-Adm-03 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 6. Corr-Adm-02 NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 7. Corr-Adm-02 NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 8. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 9. Corr-Adm-02 NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 10. Corr-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SzZ%2FKeF263BI%2BMHWYhsyXIg%3D%3D",
+      "tenderReference": "1. Response to queries",
       "geographicPrecision": "unknown",
-      "note": "PUR/ENQ/STOCK/7644/JB/ 036/2026-27 | 10-Nov-2026 06:55 PM | 11-Nov-2026 06:55 PM | 2. Corrigendum-I | GEM/2026/B/8191351 | 25-Nov-2026 01:00 PM | 26-Nov-2026 01:00 PM | 3. TENDER EXTENSION | HMTL/MTK/2026/M/M8012/001/079 | 11-Nov-2026 12:00 PM | 11-Nov-2026 02:00 PM | 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT | UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 | 05-Nov-2026 03:30 PM | 05-Nov-2026 03:30 PM | 5. Cor-Adm-03 | NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 | 12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM | 6. Corr-Adm-02 | NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 | 12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM | 7. Corr-Adm-02 | NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 | 12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM | 8. Corr-Adm-02 | NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 | 12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM | 9. Corr-Adm-02 | NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 | 12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM | 10. Corr-Adm-02 | NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 | 12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM",
+      "note": "IIT/KGP/CCDS/AICLUSTER/2026-27 | 18-Nov-2026 03:00 PM | 18-Nov-2026 04:00 PM | 2. Addendum no. 36 of FBW-FBB1 Work_Date Change | DGSB/DC02/01 OF 2022 | 23-Dec-2026 03:00 PM | 23-Dec-2026 03:30 PM | 3. Change of Date and other clauses | IIT/KGP/CCDS/AICLUSTER/2026-27 | 18-Nov-2026 03:00 PM | 18-Nov-2026 04:00 PM | 4. Addendum no. 38 of FBL-FBB2 Work_Date Change | DGSB/DC02/02 OF 2022 | 09-Dec-2026 03:00 PM | 09-Dec-2026 03:30 PM | 5. Date Extended upto 10-11-2026 | Insurance10-11-2026 | 10-Nov-2026 05:30 PM | 11-Nov-2026 03:30 PM | 6. Addendum no. 36 of DY Work_Date Change | DGSB/DC02/03 OF 2022 | 26-Nov-2026 03:00 PM | 26-Nov-2026 03:30 PM | 7. CorrigendumIV | 2993 | 11-Nov-2026 01:00 PM | 11-Nov-2026 02:00 PM | 8. 4th extension | PE-299 | 13-Nov-2026 04:00 PM | 16-Nov-2026 04:00 PM | 9. Date Corrigendum 2 | B AND R/IOCL/71148/NIT/MAT/50 | 10-Nov-2026 06:00 PM | 11-Nov-2026 06:00 PM | 10. Corrigendum-I | CON/T/BLSS/Sub-Assembly Set/e-105696 /2026 | 17-Dec-2026 04:00 PM | 18-Dec-2026 11:00 AM",
       "raw": {
         "cells": [
-          "1. Corrigendum - 6 PUR/ENQ/STOCK/7644/JB/ 036/2026-27 10-Nov-2026 06:55 PM 11-Nov-2026 06:55 PM 2. Corrigendum-I GEM/2026/B/8191351 25-Nov-2026 01:00 PM 26-Nov-2026 01:00 PM 3. TENDER EXTENSION HMTL/MTK/2026/M/M8012/001/079 11-Nov-2026 12:00 PM 11-Nov-2026 02:00 PM 4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026 05-Nov-2026 03:30 PM 05-Nov-2026 03:30 PM 5. Cor-Adm-03 NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 6. Corr-Adm-02 NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 7. Corr-Adm-02 NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 8. Corr-Adm-02 NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 9. Corr-Adm-02 NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM 10. Corr-Adm-02 NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606 12-Nov-2026 11:00 AM 12-Nov-2026 11:30 AM",
-          "1. Corrigendum - 6",
-          "PUR/ENQ/STOCK/7644/JB/ 036/2026-27",
-          "10-Nov-2026 06:55 PM",
-          "11-Nov-2026 06:55 PM",
-          "2. Corrigendum-I",
-          "GEM/2026/B/8191351",
-          "25-Nov-2026 01:00 PM",
-          "26-Nov-2026 01:00 PM",
-          "3. TENDER EXTENSION",
-          "HMTL/MTK/2026/M/M8012/001/079",
-          "11-Nov-2026 12:00 PM",
+          "1. Response to queries IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 2. Addendum no. 36 of FBW-FBB1 Work_Date Change DGSB/DC02/01 OF 2022 23-Dec-2026 03:00 PM 23-Dec-2026 03:30 PM 3. Change of Date and other clauses IIT/KGP/CCDS/AICLUSTER/2026-27 18-Nov-2026 03:00 PM 18-Nov-2026 04:00 PM 4. Addendum no. 38 of FBL-FBB2 Work_Date Change DGSB/DC02/02 OF 2022 09-Dec-2026 03:00 PM 09-Dec-2026 03:30 PM 5. Date Extended upto 10-11-2026 Insurance10-11-2026 10-Nov-2026 05:30 PM 11-Nov-2026 03:30 PM 6. Addendum no. 36 of DY Work_Date Change DGSB/DC02/03 OF 2022 26-Nov-2026 03:00 PM 26-Nov-2026 03:30 PM 7. CorrigendumIV 2993 11-Nov-2026 01:00 PM 11-Nov-2026 02:00 PM 8. 4th extension PE-299 13-Nov-2026 04:00 PM 16-Nov-2026 04:00 PM 9. Date Corrigendum 2 B AND R/IOCL/71148/NIT/MAT/50 10-Nov-2026 06:00 PM 11-Nov-2026 06:00 PM 10. Corrigendum-I CON/T/BLSS/Sub-Assembly Set/e-105696 /2026 17-Dec-2026 04:00 PM 18-Dec-2026 11:00 AM",
+          "1. Response to queries",
+          "IIT/KGP/CCDS/AICLUSTER/2026-27",
+          "18-Nov-2026 03:00 PM",
+          "18-Nov-2026 04:00 PM",
+          "2. Addendum no. 36 of FBW-FBB1 Work_Date Change",
+          "DGSB/DC02/01 OF 2022",
+          "23-Dec-2026 03:00 PM",
+          "23-Dec-2026 03:30 PM",
+          "3. Change of Date and other clauses",
+          "IIT/KGP/CCDS/AICLUSTER/2026-27",
+          "18-Nov-2026 03:00 PM",
+          "18-Nov-2026 04:00 PM",
+          "4. Addendum no. 38 of FBL-FBB2 Work_Date Change",
+          "DGSB/DC02/02 OF 2022",
+          "09-Dec-2026 03:00 PM",
+          "09-Dec-2026 03:30 PM",
+          "5. Date Extended upto 10-11-2026",
+          "Insurance10-11-2026",
+          "10-Nov-2026 05:30 PM",
+          "11-Nov-2026 03:30 PM",
+          "6. Addendum no. 36 of DY Work_Date Change",
+          "DGSB/DC02/03 OF 2022",
+          "26-Nov-2026 03:00 PM",
+          "26-Nov-2026 03:30 PM",
+          "7. CorrigendumIV",
+          "2993",
+          "11-Nov-2026 01:00 PM",
           "11-Nov-2026 02:00 PM",
-          "4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT",
-          "UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026",
-          "05-Nov-2026 03:30 PM",
-          "05-Nov-2026 03:30 PM",
-          "5. Cor-Adm-03",
-          "NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM",
-          "6. Corr-Adm-02",
-          "NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM",
-          "7. Corr-Adm-02",
-          "NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM",
-          "8. Corr-Adm-02",
-          "NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM",
-          "9. Corr-Adm-02",
-          "NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM",
-          "10. Corr-Adm-02",
-          "NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM"
+          "8. 4th extension",
+          "PE-299",
+          "13-Nov-2026 04:00 PM",
+          "16-Nov-2026 04:00 PM",
+          "9. Date Corrigendum 2",
+          "B AND R/IOCL/71148/NIT/MAT/50",
+          "10-Nov-2026 06:00 PM",
+          "11-Nov-2026 06:00 PM",
+          "10. Corrigendum-I",
+          "CON/T/BLSS/Sub-Assembly Set/e-105696 /2026",
+          "17-Dec-2026 04:00 PM",
+          "18-Dec-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.266Z",
-      "evidenceHash": "d55c2c3532bb89f719fff283a4b1da7c8495826f26ea9d8e317f701c6422a229"
+      "observedAt": "2026-11-04T14:27:40.097Z",
+      "evidenceHash": "b30556d8a3099147344da749d70e179e5f6bcbe905b2ec1cb12a31a841a0030a"
     },
     {
-      "externalKey": "cppp-procurement:pur/enq/stock/7644/jb/-036/2026-27:1.-corrigendum---6",
+      "externalKey": "cppp-procurement:iit/kgp/ccds/aicluster/2026-27:1.-response-to-queries",
       "sensorId": "cppp-procurement",
-      "title": "1. Corrigendum - 6",
+      "title": "1. Response to queries",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SEuuBuaUTU2ZezM7v3P8Lgw%3D%3D",
-      "tenderReference": "PUR/ENQ/STOCK/7644/JB/ 036/2026-27",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SzZ%2FKeF263BI%2BMHWYhsyXIg%3D%3D",
+      "tenderReference": "IIT/KGP/CCDS/AICLUSTER/2026-27",
       "geographicPrecision": "unknown",
-      "note": "10-Nov-2026 06:55 PM | 11-Nov-2026 06:55 PM",
+      "note": "18-Nov-2026 03:00 PM | 18-Nov-2026 04:00 PM",
       "raw": {
         "cells": [
-          "1. Corrigendum - 6",
-          "PUR/ENQ/STOCK/7644/JB/ 036/2026-27",
-          "10-Nov-2026 06:55 PM",
-          "11-Nov-2026 06:55 PM"
+          "1. Response to queries",
+          "IIT/KGP/CCDS/AICLUSTER/2026-27",
+          "18-Nov-2026 03:00 PM",
+          "18-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.266Z",
-      "evidenceHash": "e9dc1cd04fa860e9b1b4525f3dd10e47fcbd4940984347008634fb36aadec518"
+      "observedAt": "2026-11-04T14:27:40.097Z",
+      "evidenceHash": "6252e2092ab26664520e15f5806c3207ca16d0aae7adfb0264f10327f8ee1983"
     },
     {
-      "externalKey": "cppp-procurement:gem/2026/b/8191351:2.-corrigendum-i",
+      "externalKey": "cppp-procurement:dgsb/dc02/01-of-2022:2.-addendum-no.-36-of-fbw-fbb1-work_date-change",
       "sensorId": "cppp-procurement",
-      "title": "2. Corrigendum-I",
+      "title": "2. Addendum no. 36 of FBW-FBB1 Work_Date Change",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SKd7KtMOZC2gpdtYIe6lhsA%3D%3D",
-      "tenderReference": "GEM/2026/B/8191351",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=S0vkWFhsUs2KYknByiaHWCg%3D%3D",
+      "tenderReference": "DGSB/DC02/01 OF 2022",
       "geographicPrecision": "unknown",
-      "note": "25-Nov-2026 01:00 PM | 26-Nov-2026 01:00 PM",
+      "note": "23-Dec-2026 03:00 PM | 23-Dec-2026 03:30 PM",
       "raw": {
         "cells": [
-          "2. Corrigendum-I",
-          "GEM/2026/B/8191351",
-          "25-Nov-2026 01:00 PM",
-          "26-Nov-2026 01:00 PM"
+          "2. Addendum no. 36 of FBW-FBB1 Work_Date Change",
+          "DGSB/DC02/01 OF 2022",
+          "23-Dec-2026 03:00 PM",
+          "23-Dec-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.266Z",
-      "evidenceHash": "3e075b5dbdd67053d29f69e80b1a0c74a68b0fb84c9019931b5ff72aad560860"
+      "observedAt": "2026-11-04T14:27:40.097Z",
+      "evidenceHash": "7cf77017260e3d5d63e16a3db98922b126146d0b548aab9850647adb62e1b629"
     },
     {
-      "externalKey": "cppp-procurement:3.-tender-extension:3.-tender-extension",
+      "externalKey": "cppp-procurement:iit/kgp/ccds/aicluster/2026-27:3.-change-of-date-and-other-clauses",
       "sensorId": "cppp-procurement",
-      "title": "3. TENDER EXTENSION",
+      "title": "3. Change of Date and other clauses",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SFrCKnwO7vPp0I0UEPgYRCQ%3D%3D",
-      "tenderReference": "3. TENDER EXTENSION",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=S8HvEuaNmjGEPejpkB5YzLg%3D%3D",
+      "tenderReference": "IIT/KGP/CCDS/AICLUSTER/2026-27",
       "geographicPrecision": "unknown",
-      "note": "11-Nov-2026 12:00 PM | 11-Nov-2026 02:00 PM",
+      "note": "18-Nov-2026 03:00 PM | 18-Nov-2026 04:00 PM",
       "raw": {
         "cells": [
-          "3. TENDER EXTENSION",
-          "HMTL/MTK/2026/M/M8012/001/079",
-          "11-Nov-2026 12:00 PM",
+          "3. Change of Date and other clauses",
+          "IIT/KGP/CCDS/AICLUSTER/2026-27",
+          "18-Nov-2026 03:00 PM",
+          "18-Nov-2026 04:00 PM"
+        ]
+      },
+      "observedAt": "2026-11-04T14:27:40.097Z",
+      "evidenceHash": "ab3dfdae9d372a909e8538e4bd4642018e121172b5703efb40bb0049612def7d"
+    },
+    {
+      "externalKey": "cppp-procurement:dgsb/dc02/02-of-2022:4.-addendum-no.-38-of-fbl-fbb2-work_date-change",
+      "sensorId": "cppp-procurement",
+      "title": "4. Addendum no. 38 of FBL-FBB2 Work_Date Change",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=StzunXAxbBpJIjQdOgKo0Fw%3D%3D",
+      "tenderReference": "DGSB/DC02/02 OF 2022",
+      "geographicPrecision": "unknown",
+      "note": "09-Dec-2026 03:00 PM | 09-Dec-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "4. Addendum no. 38 of FBL-FBB2 Work_Date Change",
+          "DGSB/DC02/02 OF 2022",
+          "09-Dec-2026 03:00 PM",
+          "09-Dec-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-11-04T14:27:40.097Z",
+      "evidenceHash": "0dd5a5b8b3f1cdd8bde4171512d30b98d8dd35f6c487f257c348b75a22f21175"
+    },
+    {
+      "externalKey": "cppp-procurement:insurance10-11-2026:5.-date-extended-upto-10-11-2026",
+      "sensorId": "cppp-procurement",
+      "title": "5. Date Extended upto 10-11-2026",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SRTNklqKuQnbWO8VmIF8rkg%3D%3D",
+      "tenderReference": "Insurance10-11-2026",
+      "geographicPrecision": "unknown",
+      "note": "10-Nov-2026 05:30 PM | 11-Nov-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "5. Date Extended upto 10-11-2026",
+          "Insurance10-11-2026",
+          "10-Nov-2026 05:30 PM",
+          "11-Nov-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-11-04T14:27:40.097Z",
+      "evidenceHash": "57056ec8a5ed52f5dcce84de7e634cbf2ffa372bf5bad8f02ccb3237ab8e2a8f"
+    },
+    {
+      "externalKey": "cppp-procurement:dgsb/dc02/03-of-2022:6.-addendum-no.-36-of-dy-work_date-change",
+      "sensorId": "cppp-procurement",
+      "title": "6. Addendum no. 36 of DY Work_Date Change",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=Ss0Uoc5C6mXNkAZVJi68aqA%3D%3D",
+      "tenderReference": "DGSB/DC02/03 OF 2022",
+      "geographicPrecision": "unknown",
+      "note": "26-Nov-2026 03:00 PM | 26-Nov-2026 03:30 PM",
+      "raw": {
+        "cells": [
+          "6. Addendum no. 36 of DY Work_Date Change",
+          "DGSB/DC02/03 OF 2022",
+          "26-Nov-2026 03:00 PM",
+          "26-Nov-2026 03:30 PM"
+        ]
+      },
+      "observedAt": "2026-11-04T14:27:40.097Z",
+      "evidenceHash": "d070a91f6c09a7cade35d6434937da3c4e37a862b27237d08e5af414509ed4cd"
+    },
+    {
+      "externalKey": "cppp-procurement:2993:7.-corrigendumiv",
+      "sensorId": "cppp-procurement",
+      "title": "7. CorrigendumIV",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=Sh40DA01mdleGlbIXjClTPg%3D%3D",
+      "tenderReference": "2993",
+      "geographicPrecision": "unknown",
+      "note": "11-Nov-2026 01:00 PM | 11-Nov-2026 02:00 PM",
+      "raw": {
+        "cells": [
+          "7. CorrigendumIV",
+          "2993",
+          "11-Nov-2026 01:00 PM",
           "11-Nov-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.266Z",
-      "evidenceHash": "c23fd30617b6a11dfecf4f00a2c66070e511a9787d5fc07f8d92c33dfcd765f2"
+      "observedAt": "2026-11-04T14:27:40.098Z",
+      "evidenceHash": "949fefd0f84b10260c546691d8a8d25042da17cc404a12e0cad8aa314a7d1a0c"
     },
     {
-      "externalKey": "cppp-procurement:4.-tender-for-supply-and-installation-of-ms-ducts-at-hangarakatte-unit:4.-tender-for-supply-and-installation-of-ms-ducts-at-hangarakatte-unit",
+      "externalKey": "cppp-procurement:pe-299:8.-4th-extension",
       "sensorId": "cppp-procurement",
-      "title": "4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT",
+      "title": "8. 4th extension",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SnPCbB9%2BrflvoOjtC2korkw%3D%3D",
-      "tenderReference": "4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SvsnIiqB0mEA%2BpHL0wPVBOA%3D%3D",
+      "tenderReference": "PE-299",
       "geographicPrecision": "unknown",
-      "note": "05-Nov-2026 03:30 PM | 05-Nov-2026 03:30 PM",
+      "note": "13-Nov-2026 04:00 PM | 16-Nov-2026 04:00 PM",
       "raw": {
         "cells": [
-          "4. TENDER FOR SUPPLY AND INSTALLATION OF MS DUCTS AT HANGARAKATTE UNIT",
-          "UCSL/CC/SER/T/UM/319/2026 DT. 23.10.2026",
-          "05-Nov-2026 03:30 PM",
-          "05-Nov-2026 03:30 PM"
+          "8. 4th extension",
+          "PE-299",
+          "13-Nov-2026 04:00 PM",
+          "16-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.266Z",
-      "evidenceHash": "61b377c0f310cbf57bced36b187b75d5d2f5aa21ce692ee9651dc2e94978eb34"
+      "observedAt": "2026-11-04T14:27:40.098Z",
+      "evidenceHash": "68888e2d76bc2d497b5b5c326b388a89db58fedc176795c92cbb8b0996974424"
     },
     {
-      "externalKey": "cppp-procurement:nbcc/cpg/supertech/-hilltown/pkg-ii/2026/614:5.-cor-adm-03",
+      "externalKey": "cppp-procurement:b-and-r/iocl/71148/nit/mat/50:9.-date-corrigendum-2",
       "sensorId": "cppp-procurement",
-      "title": "5. Cor-Adm-03",
+      "title": "9. Date Corrigendum 2",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SKXfnlj9o84jtiJzomWskLA%3D%3D",
-      "tenderReference": "NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SbWj%2BTCneGWPooRQKk5r54Q%3D%3D",
+      "tenderReference": "B AND R/IOCL/71148/NIT/MAT/50",
       "geographicPrecision": "unknown",
-      "note": "12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM",
+      "note": "10-Nov-2026 06:00 PM | 11-Nov-2026 06:00 PM",
       "raw": {
         "cells": [
-          "5. Cor-Adm-03",
-          "NBCC/CPG/Supertech/ Hilltown/Pkg-II/2026/614",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM"
+          "9. Date Corrigendum 2",
+          "B AND R/IOCL/71148/NIT/MAT/50",
+          "10-Nov-2026 06:00 PM",
+          "11-Nov-2026 06:00 PM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.266Z",
-      "evidenceHash": "33d4f380d78318a69468e5bbd3c1cd7286a965b6455a4def8a515a760d70fd3b"
+      "observedAt": "2026-11-04T14:27:40.098Z",
+      "evidenceHash": "9be5793ce5ef9d6ae0e76eff36db877b35c98e422326613ac1616a42204ce5ec"
     },
     {
-      "externalKey": "cppp-procurement:nbcc/cpg-/super-tech/upcountry/pkg-ii/2026/605:6.-corr-adm-02",
+      "externalKey": "cppp-procurement:con/t/blss/sub-assembly-set/e-105696-/2026:10.-corrigendum-i",
       "sensorId": "cppp-procurement",
-      "title": "6. Corr-Adm-02",
+      "title": "10. Corrigendum-I",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SxchEXvTqNa2NjToJ%2FtwYkQ%3D%3D",
-      "tenderReference": "NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=ShVBDjjW1cAw%2B8rfvWS3QuA%3D%3D",
+      "tenderReference": "CON/T/BLSS/Sub-Assembly Set/e-105696 /2026",
       "geographicPrecision": "unknown",
-      "note": "12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM",
+      "note": "17-Dec-2026 04:00 PM | 18-Dec-2026 11:00 AM",
       "raw": {
         "cells": [
-          "6. Corr-Adm-02",
-          "NBCC/CPG /Super tech/Upcountry/Pkg-II/2026/605",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM"
+          "10. Corrigendum-I",
+          "CON/T/BLSS/Sub-Assembly Set/e-105696 /2026",
+          "17-Dec-2026 04:00 PM",
+          "18-Dec-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.266Z",
-      "evidenceHash": "b01a5c91c725ee17e6a3b74e627c66938be7abfd0795de72dfbd06ffaffcbb03"
-    },
-    {
-      "externalKey": "cppp-procurement:nbcc/cpg/supertech-/upcountry/pkg-i/2026/604:7.-corr-adm-02",
-      "sensorId": "cppp-procurement",
-      "title": "7. Corr-Adm-02",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SNcKeJxsPzIVkC8D%2Fd2X%2F7Q%3D%3D",
-      "tenderReference": "NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604",
-      "geographicPrecision": "unknown",
-      "note": "12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM",
-      "raw": {
-        "cells": [
-          "7. Corr-Adm-02",
-          "NBCC/CPG/Supertech /Upcountry/Pkg-I/2026/604",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM"
-        ]
-      },
-      "observedAt": "2026-11-04T06:11:12.266Z",
-      "evidenceHash": "e729366c126bc66702944979a91b32bc34144fa4a94ee3e7744e76b5fd537680"
-    },
-    {
-      "externalKey": "cppp-procurement:nbcc/cpg/supertech/-meerut-green-village/2026/596:8.-corr-adm-02",
-      "sensorId": "cppp-procurement",
-      "title": "8. Corr-Adm-02",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SbI%2F0YqQHYYt6I6n%2F8L8KAg%3D%3D",
-      "tenderReference": "NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596",
-      "geographicPrecision": "unknown",
-      "note": "12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM",
-      "raw": {
-        "cells": [
-          "8. Corr-Adm-02",
-          "NBCC/CPG/Supertech/ Meerut-Green-Village/2026/596",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM"
-        ]
-      },
-      "observedAt": "2026-11-04T06:11:12.266Z",
-      "evidenceHash": "21ebbcea5055fef310edde96aab68b18536226d29a211ffcbb81d15eb7e64729"
-    },
-    {
-      "externalKey": "cppp-procurement:nbcc/cpg/supertech/eco-village-iii/pkg-ii/599:9.-corr-adm-02",
-      "sensorId": "cppp-procurement",
-      "title": "9. Corr-Adm-02",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SPHJcVTzu7I%2F8dY6bvrqLZg%3D%3D",
-      "tenderReference": "NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599",
-      "geographicPrecision": "unknown",
-      "note": "12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM",
-      "raw": {
-        "cells": [
-          "9. Corr-Adm-02",
-          "NBCC/CPG/Supertech/Eco Village-III/Pkg-II/599",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM"
-        ]
-      },
-      "observedAt": "2026-11-04T06:11:12.266Z",
-      "evidenceHash": "94cd120c3bd5ebcc92b042d81f359fcede4a2a6d4e5d90b839dd020fc19bd769"
-    },
-    {
-      "externalKey": "cppp-procurement:nbcc/cpg/supertech/-hilltown/pkg-iii/2026/-606:10.-corr-adm-02",
-      "sensorId": "cppp-procurement",
-      "title": "10. Corr-Adm-02",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink_0&page=Home&service=direct&session=T&sp=SzfjTbtL1qb7Z6mYG%2BUUxoA%3D%3D",
-      "tenderReference": "NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606",
-      "geographicPrecision": "unknown",
-      "note": "12-Nov-2026 11:00 AM | 12-Nov-2026 11:30 AM",
-      "raw": {
-        "cells": [
-          "10. Corr-Adm-02",
-          "NBCC/CPG/Supertech/ Hilltown/Pkg-III/2026/ 606",
-          "12-Nov-2026 11:00 AM",
-          "12-Nov-2026 11:30 AM"
-        ]
-      },
-      "observedAt": "2026-11-04T06:11:12.266Z",
-      "evidenceHash": "bb9a5a0dcefe00243673ea8299fb1952fd812c056d2d96ebf810c04053f2ce36"
+      "observedAt": "2026-11-04T14:27:40.098Z",
+      "evidenceHash": "dc74aa44bba36b33cd7bbbda455bbe9b526eca39effaacb94343a7a4db83e6a6"
     },
     {
       "externalKey": "cppp-procurement:more...:latest-corrigendum-updates-every-15-mins.",
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.267Z",
+      "observedAt": "2026-11-04T14:27:40.098Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.267Z",
+      "observedAt": "2026-11-04T14:27:40.098Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.267Z",
+      "observedAt": "2026-11-04T14:27:40.098Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.267Z",
+      "observedAt": "2026-11-04T14:27:40.098Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.267Z",
+      "observedAt": "2026-11-04T14:27:40.098Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.267Z",
+      "observedAt": "2026-11-04T14:27:40.099Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.267Z",
+      "observedAt": "2026-11-04T14:27:40.099Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.267Z",
+      "observedAt": "2026-11-04T14:27:40.099Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.268Z",
+      "observedAt": "2026-11-04T14:27:40.099Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.268Z",
+      "observedAt": "2026-11-04T14:27:40.099Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.268Z",
+      "observedAt": "2026-11-04T14:27:40.100Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.268Z",
+      "observedAt": "2026-11-04T14:27:40.100Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-11-04T06:11:12.268Z",
+      "observedAt": "2026-11-04T14:27:40.100Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "125840"
       },
-      "observedAt": "2026-11-04T06:11:15.334Z",
+      "observedAt": "2026-11-04T14:27:43.334Z",
       "evidenceHash": "98a922d279622d3dc7f0838b397d8962c0a78306a05d8b2b75b096c82ddbbba5"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "125842"
       },
-      "observedAt": "2026-11-04T06:11:15.334Z",
+      "observedAt": "2026-11-04T14:27:43.335Z",
       "evidenceHash": "b9a32c62586b6e820bd2d7a31f0d273ffd3bd45d7594beaf2e61d1f399ad3ce3"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "125835"
       },
-      "observedAt": "2026-11-04T06:11:15.334Z",
+      "observedAt": "2026-11-04T14:27:43.335Z",
       "evidenceHash": "693f8076419a13c59c4aad4c4a8f8a7323f33d55903c9e7d63b5a135a75ecfa2"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "125830"
       },
-      "observedAt": "2026-11-04T06:11:15.334Z",
+      "observedAt": "2026-11-04T14:27:43.335Z",
       "evidenceHash": "5cfbd2ce08b6de0ff1d70c251045d519312b60a68b5b53ad8ebbad71ee82f064"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "125829"
       },
-      "observedAt": "2026-11-04T06:11:15.334Z",
+      "observedAt": "2026-11-04T14:27:43.335Z",
       "evidenceHash": "2f0b6182addd14efa4bdb5ca4f16fa2a2c0feeea4a21d9900843072f9bd8df90"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "125828"
       },
-      "observedAt": "2026-11-04T06:11:15.334Z",
+      "observedAt": "2026-11-04T14:27:43.335Z",
       "evidenceHash": "5d28e4d26249fb281735dac989a06f0501292736cba1936d235185bccd9afc41"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "125827"
       },
-      "observedAt": "2026-11-04T06:11:15.334Z",
+      "observedAt": "2026-11-04T14:27:43.335Z",
       "evidenceHash": "2db2e1f6ae23af8dab9b08c7d2975228f077034603fb4f0360e269c58fdb02a0"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "125728"
       },
-      "observedAt": "2026-11-04T06:11:15.334Z",
+      "observedAt": "2026-11-04T14:27:43.335Z",
       "evidenceHash": "83e9b943800eeec78a0206b4045e1b74d45424412151a3e51ef79c8123ef8d20"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "125712"
       },
-      "observedAt": "2026-11-04T06:11:15.334Z",
+      "observedAt": "2026-11-04T14:27:43.335Z",
       "evidenceHash": "49fead40de686e1e2e7056517252cdbc91195f214b26fdfdbc038e4e3115e80d"
     },
     {
@@ -1806,7 +1806,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-04T06:11:13.374Z",
+      "observedAt": "2026-11-04T14:27:41.909Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1819,7 +1819,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-04T06:11:13.376Z",
+      "observedAt": "2026-11-04T14:27:41.910Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1832,7 +1832,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-04T06:11:13.376Z",
+      "observedAt": "2026-11-04T14:27:41.911Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1845,7 +1845,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-04T06:11:13.376Z",
+      "observedAt": "2026-11-04T14:27:41.911Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1858,7 +1858,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-04T06:11:13.376Z",
+      "observedAt": "2026-11-04T14:27:41.911Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1872,7 +1872,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-11-04T06:11:13.376Z",
+      "observedAt": "2026-11-04T14:27:41.911Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1886,7 +1886,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-11-04T06:11:13.376Z",
+      "observedAt": "2026-11-04T14:27:41.911Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1900,7 +1900,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-11-04T06:11:13.376Z",
+      "observedAt": "2026-11-04T14:27:41.911Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1919,7 +1919,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-11-04T06:11:46.584Z",
+      "observedAt": "2026-11-04T14:28:13.838Z",
       "evidenceHash": "61bd51e18f1d42812bd6bab3510326a0780d9cf2164adb00f40f68d4d1cf50ea"
     },
     {
@@ -1938,7 +1938,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-11-04T06:11:46.588Z",
+      "observedAt": "2026-11-04T14:28:13.843Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1957,7 +1957,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-11-04T06:11:46.588Z",
+      "observedAt": "2026-11-04T14:28:13.844Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -1976,7 +1976,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-11-04T06:11:46.589Z",
+      "observedAt": "2026-11-04T14:28:13.844Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -1995,7 +1995,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-11-04T06:11:46.589Z",
+      "observedAt": "2026-11-04T14:28:13.844Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2014,7 +2014,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-11-04T06:11:46.589Z",
+      "observedAt": "2026-11-04T14:28:13.844Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2033,7 +2033,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-11-04T06:11:46.589Z",
+      "observedAt": "2026-11-04T14:28:13.844Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2051,11 +2051,19 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-11-04T06:11:45.363Z",
+      "observedAt": "2026-11-04T14:28:13.249Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
   "links": [
+    {
+      "fromExternalKey": "cppp-procurement:iit/kgp/ccds/aicluster/2026-27:1.-response-to-queries",
+      "toExternalKey": "cppp-procurement:iit/kgp/ccds/aicluster/2026-27:3.-change-of-date-and-other-clauses",
+      "relation": "procured → procured",
+      "basis": "exact_tender_reference",
+      "confidence": 1,
+      "reference": "IIT/KGP/CCDS/AICLUSTER/2026-27"
+    },
     {
       "fromExternalKey": "cppp-procurement:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer:function-formsubmit(){-var-f-=-document.getelementbyid(\"webrightmenunodsc_0\");-if(f.captchatext.value-==-\"\"-&&-f.username.value-==-\"\")-{-alert(\"please-enter-all-the-fields\");-return-false;-}-if(f.captchatext.value-==-\"\")-{-alert(\"captcha-cannot-be-blank.\");-return-false;-}-if(f.captchatext.value.length-!=-6)-{-alert(\"please-enter-valid-captcha\");-f.captchatext.value-=-\"\";-f.captchatext.focus();-return-false;-}-if(f.username.value-==-\"\")-{-alert(\"login-id-cannot-be-blank.\");-return-false;-}-var-atpos=f.username.value.indexof(\"@\");-if(f.username.value-!=-\"\"-&&-atpos<1)-{-alert(\"please-enter-valid-login-id-\");-f.username.value-=-\"\";-return-false;-}-}-<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer-document.getelementbyid(\"login\").style.display='block';-var-all-=-document.getelementsbyclassname(\"clickhere\");-for-(var-i-=-0;-i-<-all.length;-i++)-{-all[i].style.display-=-'block';-}",
       "toExternalKey": "cppp-procurement:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer:<a-href=\"\"-title=\"login\"-><img-src=\"images/home_login_button_2.png\"-align=\"absmiddle\"-border=\"0\">-</a>-<p-align=\"justify\"-style=\"color:red;\">your-browser-javascript-has-been-disabled.-kindly-enable-script-for-further-process.</p>-find-my-nodal-officer",
