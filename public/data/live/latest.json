@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T13:58:17.950Z",
+  "generatedAt": "2026-11-07T18:45:17.533Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-11-07T13:57:37.406Z",
+      "fetchedAt": "2026-11-07T18:44:36.528Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-11-07T13:57:37.419Z",
+      "fetchedAt": "2026-11-07T18:44:36.547Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-11-07T13:57:37.420Z",
+      "fetchedAt": "2026-11-07T18:44:36.549Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-11-07T13:57:37.421Z",
+      "fetchedAt": "2026-11-07T18:44:36.551Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-07T13:57:37.422Z",
+      "fetchedAt": "2026-11-07T18:44:36.553Z",
       "ok": true,
       "recordCount": 9,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-07T13:57:37.425Z",
+      "fetchedAt": "2026-11-07T18:44:36.557Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-07T13:58:11.154Z",
+      "fetchedAt": "2026-11-07T18:45:10.310Z",
       "ok": true,
       "recordCount": 7,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-07T13:58:11.153Z",
+      "fetchedAt": "2026-11-07T18:45:10.309Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-11-07T13:58:11.155Z",
+      "fetchedAt": "2026-11-07T18:45:10.311Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-11-07T13:58:11.156Z",
+      "fetchedAt": "2026-11-07T18:45:10.312Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 18952880000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1118197501",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1118197501",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1096502237",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1096502237",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹18,95,288 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(43.7%)"
         ]
       },
-      "observedAt": "2026-11-07T13:57:45.317Z",
-      "evidenceHash": "d432e70570083c23ca3e189fc5ee686e66867a740294cbc1a4fa94715d3157ac"
+      "observedAt": "2026-11-07T18:44:42.543Z",
+      "evidenceHash": "f86edd17532b2636a93e389ffea0e57aa39eaa93f7736c220f807d009d3cba65"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:9:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 6460100000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1118197501",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1118197501",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1096502237",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1096502237",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹6,46,010 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(45.3%)"
         ]
       },
-      "observedAt": "2026-11-07T13:57:45.317Z",
-      "evidenceHash": "9d8d9d069e6b14048c2b07dd3182c07b0b3ac0ed395b8cd99550a1944e3a194a"
+      "observedAt": "2026-11-07T18:44:42.543Z",
+      "evidenceHash": "c56bdd657fd02b69c1b163f911f990949e6b3a2aab70ee0d85bf9b327442e916"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:9:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 6545470000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1118197501",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1118197501",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1096502237",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1096502237",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹6,54,547 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(51.8%)"
         ]
       },
-      "observedAt": "2026-11-07T13:57:45.317Z",
-      "evidenceHash": "af4496cc27c4ef41f67126076636529803eb3f13a572cd8f05f328bd09997d88"
+      "observedAt": "2026-11-07T18:44:42.544Z",
+      "evidenceHash": "d20d948e3b3770f65d291526b2f18dcf49a9cf631b5e606ae9d8a6a20ca30b80"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:9:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1512200000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1118197501",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1118197501",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1096502237",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1096502237",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,51,220 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(52.6%)"
         ]
       },
-      "observedAt": "2026-11-07T13:57:45.317Z",
-      "evidenceHash": "53473c9dba93e4f4463a3402be8bfabbd08cf44f559abc5a7c1fc14966c18bba"
+      "observedAt": "2026-11-07T18:44:42.544Z",
+      "evidenceHash": "dc713713d8be16f0ebfb68bb9a4fa54313dfe8767cd1d99378672510ba9a9b99"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:9:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 25498350000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1118197501",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1118197501",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1096502237",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1096502237",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹25,49,835 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(45.5%)"
         ]
       },
-      "observedAt": "2026-11-07T13:57:45.317Z",
-      "evidenceHash": "01571ebf8dde5d2b6a0c0f93859f0469518883b8592aa614b2128fd3509e6fb0"
+      "observedAt": "2026-11-07T18:44:42.544Z",
+      "evidenceHash": "df05cbdbf38953a10edca213ef81c6fd316c09f36f7febd7594c3882ade8c87b"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:9:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 2229049700000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1118197501",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1118197501",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1096502237",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1096502237",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹2,22,904.97 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,30 +323,30 @@
           "(53%)"
         ]
       },
-      "observedAt": "2026-11-07T13:57:45.320Z",
-      "evidenceHash": "46b9fb4abed2c53d8e186e8e8fbbfb591213fcaf49999ffce805626312a27b2c"
+      "observedAt": "2026-11-07T18:44:42.546Z",
+      "evidenceHash": "cf76bf957d130054c85a61d0898bab5a94139aff0d1f97b43d0c1d433b47c170"
     },
     {
-      "externalKey": "cppp-procurement:screen-reader-access-07-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-07-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
+      "externalKey": "cppp-procurement:screen-reader-access-08-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-08-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
       "sensorId": "cppp-procurement",
-      "title": "Screen Reader Access 07-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "title": "Screen Reader Access 08-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=WebScreenReaderAccess&service=page",
-      "tenderReference": "Screen Reader Access 07-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+      "tenderReference": "Screen Reader Access 08-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
       "geographicPrecision": "unknown",
-      "note": "Screen Reader Access |  |  | 07-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 07-Nov-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
+      "note": "Screen Reader Access |  |  | 08-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards | 08-Nov-2026 | Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  |  | ePublishing System, Government of India |  | ePublishing System, Government of India",
       "raw": {
         "cells": [
-          "Screen Reader Access 07-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
+          "Screen Reader Access 08-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards ePublishing System, Government of India",
           "Screen Reader Access",
           "Screen Reader Access",
           "",
           "",
-          "07-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "07-Nov-2026",
+          "08-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "08-Nov-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -357,8 +357,8 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.309Z",
-      "evidenceHash": "c1c1d25dd0fdf33530da9e3aa6bf9a393fa601a9d31fc410edf8c4a10e1425f2"
+      "observedAt": "2026-11-07T18:44:38.592Z",
+      "evidenceHash": "ee005cd197b56173086e5654439ff6f023ab0adcb98443cd4ccd79d7034cfe78"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access:screen-reader-access",
@@ -377,25 +377,25 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.310Z",
+      "observedAt": "2026-11-07T18:44:38.592Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
-      "externalKey": "cppp-procurement:07-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:07-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
+      "externalKey": "cppp-procurement:08-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:08-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards",
       "sensorId": "cppp-procurement",
-      "title": "07-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "title": "08-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=FrontEndAdvancedSearch&service=page",
-      "tenderReference": "07-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+      "tenderReference": "08-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
       "geographicPrecision": "unknown",
       "note": "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards |  |  |  | ",
       "raw": {
         "cells": [
-          "07-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
-          "07-Nov-2026",
+          "08-Nov-2026 Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
+          "08-Nov-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -403,13 +403,13 @@
           ""
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.311Z",
-      "evidenceHash": "faa59cfe071971cbb7ed5807f9273a950e94594495d15ca5f9f822eebd21c3dc"
+      "observedAt": "2026-11-07T18:44:38.593Z",
+      "evidenceHash": "4d7755b7e8c7ff00ddcf352c9fa1edbc98950a636c8c17a6ebccd02ae2b45c18"
     },
     {
-      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:07-nov-2026",
+      "externalKey": "cppp-procurement:search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards:08-nov-2026",
       "sensorId": "cppp-procurement",
-      "title": "07-Nov-2026",
+      "title": "08-Nov-2026",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -420,7 +420,7 @@
       "note": " |  |  | ",
       "raw": {
         "cells": [
-          "07-Nov-2026",
+          "08-Nov-2026",
           "Search | Active Tenders | Tenders by Closing Date | Corrigendum | CPPP HOME | Bid Awards",
           "",
           "",
@@ -428,8 +428,8 @@
           ""
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.311Z",
-      "evidenceHash": "aaf4f63045f9dd2ac2cb60ecc80252c04230205c5e8bfeb05ab4ad74e1b9f28b"
+      "observedAt": "2026-11-07T18:44:38.593Z",
+      "evidenceHash": "60d213f34ecfedc88897e223aebd5568f0359805b70e05475f6072e89efb43e5"
     },
     {
       "externalKey": "cppp-procurement:epublishing-system,-government-of-india",
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.311Z",
+      "observedAt": "2026-11-07T18:44:38.594Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.311Z",
+      "observedAt": "2026-11-07T18:44:38.594Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -653,7 +653,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.318Z",
+      "observedAt": "2026-11-07T18:44:38.615Z",
       "evidenceHash": "cc854b911d11db3bd48c8273dda844f38be8d0ea4271ed4c082fd13d86535ea3"
     },
     {
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.318Z",
+      "observedAt": "2026-11-07T18:44:38.616Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,7 +727,7 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.319Z",
+      "observedAt": "2026-11-07T18:44:38.617Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
@@ -787,7 +787,7 @@
           "13-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.322Z",
+      "observedAt": "2026-11-07T18:44:38.620Z",
       "evidenceHash": "1c5b8c359329cad2bd5d9659f24fb212189ea48e6ac9f0ab44cfea51802e640e"
     },
     {
@@ -810,7 +810,7 @@
           "28-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.322Z",
+      "observedAt": "2026-11-07T18:44:38.620Z",
       "evidenceHash": "f9da7cf3f635f686d9fa793d6df606e5f26fdd28a44d27576342dcb7f894779c"
     },
     {
@@ -833,7 +833,7 @@
           "17-Nov-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.322Z",
+      "observedAt": "2026-11-07T18:44:38.620Z",
       "evidenceHash": "2bcb0652863925eb71055418ba324a69baab1b28e18cddba6f999aa7d2132269"
     },
     {
@@ -856,7 +856,7 @@
           "29-Nov-2026 02:00 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.323Z",
+      "observedAt": "2026-11-07T18:44:38.620Z",
       "evidenceHash": "9cfbb38f08cba23f60f319aefd3e77d8f76b4643df91d72ee5ecb018a8d6e6d1"
     },
     {
@@ -879,7 +879,7 @@
           "16-Nov-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.323Z",
+      "observedAt": "2026-11-07T18:44:38.620Z",
       "evidenceHash": "5fa872c9e901358deaccc226a8d7a539682934a50bfbe01af9f13e884668c643"
     },
     {
@@ -902,7 +902,7 @@
           "28-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.323Z",
+      "observedAt": "2026-11-07T18:44:38.620Z",
       "evidenceHash": "9895142993b679ef9ab21e2fc54b02853024cb80c830c9098bb55b1d124a0fed"
     },
     {
@@ -925,7 +925,7 @@
           "18-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.323Z",
+      "observedAt": "2026-11-07T18:44:38.621Z",
       "evidenceHash": "d7b572ccd0631cdf9c63c99a0b4b643338837d99146e018c53acc3904fd2dad5"
     },
     {
@@ -948,7 +948,7 @@
           "07-Dec-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.323Z",
+      "observedAt": "2026-11-07T18:44:38.621Z",
       "evidenceHash": "b01092eed5cde35e4aa8b2c9e303dc10896bb1a7a85e27f76141a4535a4c14c2"
     },
     {
@@ -971,7 +971,7 @@
           "08-Dec-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.323Z",
+      "observedAt": "2026-11-07T18:44:38.621Z",
       "evidenceHash": "4e110523a255d0e10e3e01755bc256ebbf75d5f042b9895c1c76a6484aac5a19"
     },
     {
@@ -994,7 +994,7 @@
           "10-Nov-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.324Z",
+      "observedAt": "2026-11-07T18:44:38.621Z",
       "evidenceHash": "05599bc5d27e99b3fa34c13520cc4b639ce8a4ec9d9adf1c83058d312aa75001"
     },
     {
@@ -1017,7 +1017,7 @@
           "13-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.324Z",
+      "observedAt": "2026-11-07T18:44:38.621Z",
       "evidenceHash": "0b4c47334e45593815c2619895d367a4913d23826cc5878ded6afcc9893500be"
     },
     {
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.324Z",
+      "observedAt": "2026-11-07T18:44:38.621Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.325Z",
+      "observedAt": "2026-11-07T18:44:38.622Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "25-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.325Z",
+      "observedAt": "2026-11-07T18:44:38.622Z",
       "evidenceHash": "bf52c0274f7e153bd636ea0214a67346770a31462f62cf6454f875592b734206"
     },
     {
@@ -1143,7 +1143,7 @@
           "17-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.325Z",
+      "observedAt": "2026-11-07T18:44:38.622Z",
       "evidenceHash": "0674a0dc06ccc6f479d26fc8b7a1fa30df4b197ae731cd2cb213c9812ceca8eb"
     },
     {
@@ -1166,7 +1166,7 @@
           "17-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.325Z",
+      "observedAt": "2026-11-07T18:44:38.622Z",
       "evidenceHash": "e75c25d351649da65602b19d575c37c523bfb0a8a90cf6c94542a93c2e420c9b"
     },
     {
@@ -1189,7 +1189,7 @@
           "16-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.325Z",
+      "observedAt": "2026-11-07T18:44:38.622Z",
       "evidenceHash": "4a69cf2fc299663b2366963a733f478626c8b16d2cc855160cfff513357b1805"
     },
     {
@@ -1212,7 +1212,7 @@
           "13-Nov-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.325Z",
+      "observedAt": "2026-11-07T18:44:38.622Z",
       "evidenceHash": "f835f766ad2d0e067fc9999e06fa9f591f95e5ed47a073bc828a100a57f7ae48"
     },
     {
@@ -1235,7 +1235,7 @@
           "13-Nov-2026 05:00 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.325Z",
+      "observedAt": "2026-11-07T18:44:38.622Z",
       "evidenceHash": "e0b50b072421d93cf149374182a9d62c62d0e6f109112d42b8405f0307c81d30"
     },
     {
@@ -1258,7 +1258,7 @@
           "22-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.325Z",
+      "observedAt": "2026-11-07T18:44:38.622Z",
       "evidenceHash": "0d85adc3d9bb2a6a36476de28dba133ee651d3fa4b0a8d75bfe1af27b0696382"
     },
     {
@@ -1281,7 +1281,7 @@
           "17-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.325Z",
+      "observedAt": "2026-11-07T18:44:38.622Z",
       "evidenceHash": "04b192657c02ed6048d8978faa00122ad8b61add0c6415b35d1131f7e5418c8a"
     },
     {
@@ -1304,7 +1304,7 @@
           "18-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.325Z",
+      "observedAt": "2026-11-07T18:44:38.622Z",
       "evidenceHash": "f09b67298af9b1ddf82efa78b6e6a344305781c65e2e84c4e1852b077b94e644"
     },
     {
@@ -1327,7 +1327,7 @@
           "26-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.326Z",
+      "observedAt": "2026-11-07T18:44:38.622Z",
       "evidenceHash": "adaf3a806ddb1828f992ddea5197f846bccc4b3a6c2eb2e289e42e30dfa4da91"
     },
     {
@@ -1350,7 +1350,7 @@
           "25-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.326Z",
+      "observedAt": "2026-11-07T18:44:38.622Z",
       "evidenceHash": "7a547acf2331a7f0a2650deb4ede496e3d75a4b3a1641bf9a57610a14754f8f8"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.326Z",
+      "observedAt": "2026-11-07T18:44:38.622Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.326Z",
+      "observedAt": "2026-11-07T18:44:38.623Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.326Z",
+      "observedAt": "2026-11-07T18:44:38.623Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.326Z",
+      "observedAt": "2026-11-07T18:44:38.623Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.326Z",
+      "observedAt": "2026-11-07T18:44:38.623Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.326Z",
+      "observedAt": "2026-11-07T18:44:38.623Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.327Z",
+      "observedAt": "2026-11-07T18:44:38.623Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.327Z",
+      "observedAt": "2026-11-07T18:44:38.623Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.327Z",
+      "observedAt": "2026-11-07T18:44:38.623Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.327Z",
+      "observedAt": "2026-11-07T18:44:38.624Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.327Z",
+      "observedAt": "2026-11-07T18:44:38.624Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.328Z",
+      "observedAt": "2026-11-07T18:44:38.624Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-11-07T13:57:39.328Z",
+      "observedAt": "2026-11-07T18:44:38.624Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "125840"
       },
-      "observedAt": "2026-11-07T13:57:42.429Z",
+      "observedAt": "2026-11-07T18:44:41.674Z",
       "evidenceHash": "98a922d279622d3dc7f0838b397d8962c0a78306a05d8b2b75b096c82ddbbba5"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "125842"
       },
-      "observedAt": "2026-11-07T13:57:42.429Z",
+      "observedAt": "2026-11-07T18:44:41.674Z",
       "evidenceHash": "b9a32c62586b6e820bd2d7a31f0d273ffd3bd45d7594beaf2e61d1f399ad3ce3"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "125835"
       },
-      "observedAt": "2026-11-07T13:57:42.429Z",
+      "observedAt": "2026-11-07T18:44:41.674Z",
       "evidenceHash": "693f8076419a13c59c4aad4c4a8f8a7323f33d55903c9e7d63b5a135a75ecfa2"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "125830"
       },
-      "observedAt": "2026-11-07T13:57:42.429Z",
+      "observedAt": "2026-11-07T18:44:41.674Z",
       "evidenceHash": "5cfbd2ce08b6de0ff1d70c251045d519312b60a68b5b53ad8ebbad71ee82f064"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "125829"
       },
-      "observedAt": "2026-11-07T13:57:42.429Z",
+      "observedAt": "2026-11-07T18:44:41.674Z",
       "evidenceHash": "2f0b6182addd14efa4bdb5ca4f16fa2a2c0feeea4a21d9900843072f9bd8df90"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "125828"
       },
-      "observedAt": "2026-11-07T13:57:42.429Z",
+      "observedAt": "2026-11-07T18:44:41.674Z",
       "evidenceHash": "5d28e4d26249fb281735dac989a06f0501292736cba1936d235185bccd9afc41"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "125827"
       },
-      "observedAt": "2026-11-07T13:57:42.429Z",
+      "observedAt": "2026-11-07T18:44:41.674Z",
       "evidenceHash": "2db2e1f6ae23af8dab9b08c7d2975228f077034603fb4f0360e269c58fdb02a0"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "125728"
       },
-      "observedAt": "2026-11-07T13:57:42.429Z",
+      "observedAt": "2026-11-07T18:44:41.674Z",
       "evidenceHash": "83e9b943800eeec78a0206b4045e1b74d45424412151a3e51ef79c8123ef8d20"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "125712"
       },
-      "observedAt": "2026-11-07T13:57:42.429Z",
+      "observedAt": "2026-11-07T18:44:41.674Z",
       "evidenceHash": "49fead40de686e1e2e7056517252cdbc91195f214b26fdfdbc038e4e3115e80d"
     },
     {
@@ -1806,7 +1806,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-07T13:57:40.517Z",
+      "observedAt": "2026-11-07T18:44:40.279Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1819,7 +1819,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-07T13:57:40.519Z",
+      "observedAt": "2026-11-07T18:44:40.280Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1832,7 +1832,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-07T13:57:40.519Z",
+      "observedAt": "2026-11-07T18:44:40.280Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1845,7 +1845,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-07T13:57:40.519Z",
+      "observedAt": "2026-11-07T18:44:40.280Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1858,7 +1858,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-07T13:57:40.519Z",
+      "observedAt": "2026-11-07T18:44:40.280Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1872,7 +1872,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-11-07T13:57:40.519Z",
+      "observedAt": "2026-11-07T18:44:40.280Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1886,7 +1886,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-11-07T13:57:40.519Z",
+      "observedAt": "2026-11-07T18:44:40.280Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1900,7 +1900,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-11-07T13:57:40.519Z",
+      "observedAt": "2026-11-07T18:44:40.280Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1919,7 +1919,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-11-07T13:58:13.212Z",
+      "observedAt": "2026-11-07T18:45:12.460Z",
       "evidenceHash": "61bd51e18f1d42812bd6bab3510326a0780d9cf2164adb00f40f68d4d1cf50ea"
     },
     {
@@ -1938,7 +1938,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-11-07T13:58:13.219Z",
+      "observedAt": "2026-11-07T18:45:12.464Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1957,7 +1957,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-11-07T13:58:13.219Z",
+      "observedAt": "2026-11-07T18:45:12.465Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -1976,7 +1976,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-11-07T13:58:13.219Z",
+      "observedAt": "2026-11-07T18:45:12.465Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -1995,7 +1995,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-11-07T13:58:13.219Z",
+      "observedAt": "2026-11-07T18:45:12.465Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2014,7 +2014,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-11-07T13:58:13.219Z",
+      "observedAt": "2026-11-07T18:45:12.465Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2033,7 +2033,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-11-07T13:58:13.219Z",
+      "observedAt": "2026-11-07T18:45:12.465Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2051,7 +2051,7 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-11-07T13:58:12.722Z",
+      "observedAt": "2026-11-07T18:45:11.631Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
