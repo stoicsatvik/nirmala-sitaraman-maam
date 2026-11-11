@@ -51,7 +51,7 @@ export function isPlausibleTenderReference(value: string | undefined): value is 
   if (/[<>|{};=,]/.test(trimmed) || NAVIGATION_REFERENCE.test(trimmed)) return false;
   if (/^\d{1,2}[-/]\w{3,}[-/]\d{2,4}$/i.test(trimmed)) return false;
   if (!/[A-Z]/i.test(compact) || !/\d/.test(compact)) return false;
-  return /[\/_.-]/.test(compact)
+  return /[\/_-]/.test(compact)
     || /^[A-Z]{2,}\d{5,}$/i.test(compact)
     || /^\d{4}\s+[A-Z]{2,}\s+\d{1,5}$/i.test(trimmed);
 }
