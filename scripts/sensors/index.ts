@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import { runCgaSensor } from "./cga";
+import { extractTenderReference } from "../lib/reconcile";
 import {
   fetchText,
   makeObservedRecord,
@@ -150,9 +151,9 @@ async function tableProcurementSensor(sensor: SensorDefinition, jurisdiction: st
       .map((row) => {
         const cells = $(row).find("td").toArray().map((cell) => clean($(cell).text()));
         if (cells.length < 2) return null;
-        const title = cells[0] || cells[1];
-        const reference = cells.find((cell) => /(?:GEM\/|20\d{2}_|tender|bid)/i.test(cell)) || cells[1] || undefined;
-        if (!title || /tender title|reference no/i.test(title)) return null;
+        const title = cells[0];
+        const reference = extractTenderReference(cells);
+        if (!title || !reference) return null;
         const link = $(row).find("a[href]").first().attr("href");
         const sourceUrl = link ? new URL(link, sensor.sourceUrl).toString() : sensor.sourceUrl;
         const ward = title.match(/\b([A-Z]\/?(?:East|West|North|South)?|[A-Z])\s*ward\b/i)?.[0];
