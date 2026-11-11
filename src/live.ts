@@ -1,4 +1,5 @@
 import "./live.css";
+import { sensorCollectionStatus, summarizeSensorCoverage } from "./sensor-health";
 
 type LiveSensor = {
   id: string;
@@ -222,6 +223,7 @@ export async function mountLiveTracking(): Promise<void> {
     if (!response.ok) throw new Error(`snapshot HTTP ${response.status}`);
     const snapshot = (await response.json()) as LiveSnapshot;
     const coverage = buildCoverage(snapshot);
+    const health = summarizeSensorCoverage(snapshot.sensors);
 
     const coverageRows = coverage
       .map(
@@ -240,7 +242,7 @@ export async function mountLiveTracking(): Promise<void> {
           <tr>
             <td><strong>${escapeHtml(sensor.label)}</strong><br><span class="muted">${escapeHtml(sensor.authority)}</span></td>
             <td>${escapeHtml(sensor.scope)} / ${escapeHtml(sensor.kind)}</td>
-            <td><span class="status ${sensor.ok ? "status-observed" : "status-unknown"}">${sensor.ok ? "polling" : "error"}</span></td>
+            <td><span class="status ${sensorCollectionStatus(sensor) === "rows emitted" ? "status-observed" : sensorCollectionStatus(sensor) === "error" ? "status-unknown" : "status-estimated"}">${escapeHtml(sensorCollectionStatus(sensor))}</span></td>
             <td>${sensor.recordCount}</td>
             <td>${escapeHtml(prettyTime(sensor.fetchedAt))}</td>
             <td><a class="source-link" href="${escapeHtml(sensor.sourceUrl)}" target="_blank" rel="noreferrer">Source ↗</a></td>
@@ -279,9 +281,10 @@ export async function mountLiveTracking(): Promise<void> {
         <p class="section-note">Last poll: ${escapeHtml(prettyTime(snapshot.generatedAt))}</p>
       </div>
       <div class="model-banner">
-        <div><span>Healthy sensors</span><strong>${snapshot.summary.healthySensors}/${snapshot.summary.sensors}</strong></div>
-        <div><span>Current observations</span><strong>${snapshot.summary.records}</strong></div>
-        <p>${escapeHtml(snapshot.semantics.live ?? "")}</p>
+        <div><span>Sources reachable</span><strong>${health.reachable}/${health.total}</strong></div>
+        <div><span>Sources yielding rows</span><strong>${health.yieldingRows}/${health.total}</strong></div>
+        <div><span>Rows emitted (not independently verified)</span><strong>${health.emittedRows}</strong></div>
+        <p>${escapeHtml(snapshot.semantics.live ?? "")} Reachability is not record coverage or correctness; ${health.zeroRows} sources emitted no rows, and ${health.reachableWithWarnings} reachable sources reported extraction limitations.</p>
       </div>
 
       <div class="section-heading live-subheading">
