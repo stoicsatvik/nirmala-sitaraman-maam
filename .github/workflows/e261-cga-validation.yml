@@ -1,0 +1,31 @@
+name: E261 CGA integer-rupee integrity
+
+on:
+  pull_request:
+    paths:
+      - "scripts/lib/cga-units.ts"
+      - "scripts/sensors/cga.ts"
+      - "scripts/e261-cga-units.test.ts"
+      - "research/E261_CGA_INTEGER_RUPEE_AUDIT_20261025.md"
+      - ".github/workflows/e261-cga-validation.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install public frontend dependencies
+        run: npm install --no-audit --no-fund
+      - name: Test CGA unit conversion and arithmetic
+        run: npx tsx --test scripts/e261-cga-units.test.ts
+      - name: Validate budget seed
+        run: npm run validate:seed
+      - name: Typecheck and build
+        run: npm run build
