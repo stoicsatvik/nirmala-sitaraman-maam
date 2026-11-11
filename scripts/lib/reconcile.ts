@@ -26,13 +26,20 @@ function normalizeReference(value: string): string {
   return value.trim().replace(/\s+/g, "").toUpperCase();
 }
 
+/** Never promote page furniture, HTML, scripts or generic labels to exact identifiers. */
+function validTenderReference(value: string): boolean {
+  const reference = value.trim();
+  if (reference.length < 5 || reference.length > 100 || !/[0-9]/.test(reference)) return false;
+  if (/[<>"'{}=;\\]|\b(?:javascript|function|document|window|captcha|login)\b/i.test(reference)) return false;
+  return /^[\p{L}\p{N}][\p{L}\p{N}._/\- ]*$/u.test(reference);
+}
+
 export function reconcileRecords(records: PublicMoneyRecord[]): ReconciledLink[] {
   const byTender = new Map<string, PublicMoneyRecord[]>();
 
   for (const record of records) {
-    if (!record.tenderReference) continue;
+    if (!record.tenderReference || !validTenderReference(record.tenderReference)) continue;
     const reference = normalizeReference(record.tenderReference);
-    if (reference.length < 5) continue;
     const group = byTender.get(reference) ?? [];
     group.push(record);
     byTender.set(reference, group);
@@ -49,12 +56,13 @@ export function reconcileRecords(records: PublicMoneyRecord[]): ReconciledLink[]
     for (let index = 0; index < unique.length - 1; index += 1) {
       const from = unique[index];
       const to = unique[index + 1];
-      if (from.externalKey === to.externalKey) continue;
+      // A chain edge requires a distinct source and an actual evidence-state transition.
+      if (from.externalKey === to.externalKey || from.state === to.state || from.sensorId === to.sensorId) continue;
 
       links.push({
         fromExternalKey: from.externalKey,
         toExternalKey: to.externalKey,
-        relation: `${from.state} → ${to.state}`,
+        relation: [from.state, "→", to.state].join(" "),
         basis: "exact_tender_reference",
         confidence: 1,
         reference
