@@ -38,11 +38,47 @@ function normalizeContext(value: string | undefined): string {
  * Incomplete/ambiguous identity, fiscal-year, authority or jurisdiction context
  * must fail closed instead of inventing a graph edge.
  */
+
+const NAVIGATION_REFERENCE = /(?:javascript|function|document|captcha|login|screen\s*reader|advanced\s*search|active\s*tenders|tenders\s*by|corrigendum|epublishing|government\s*of\s*india|find\s*my\s*nodal|mis\s*reports|latest\s*(?:tenders|corrigendum)|updates\s+every|more\.\.?)/i;
+const NAVIGATION_TITLE = /(?:javascript|function|document\.|captcha|login|screen\s*reader|advanced\s*search|active\s*tenders|tenders\s*by|corrigendum\s+title|bid\s+opening\s+date|tender\s+title|reference\s+no|epublishing|government\s*of\s*india|find\s*my\s*nodal|mis\s*reports|latest\s*(?:tenders|corrigendum)|updates\s+every|more\.\.?|visitor\s+no|designed,\s*developed|version\s*:)/i;
+
+/** Reject page chrome, HTML/script payloads and title text masquerading as IDs. */
+export function isPlausibleTenderReference(value: string | undefined): value is string {
+  if (!value) return false;
+  const trimmed = value.trim();
+  const compact = trimmed.replace(/\s+/g, "").toUpperCase();
+  if (compact.length < 5 || compact.length > 120) return false;
+  if (/[<>|{};=,]/.test(trimmed) || NAVIGATION_REFERENCE.test(trimmed)) return false;
+  if (/^\d{1,2}[-/]\w{3,}[-/]\d{2,4}$/i.test(trimmed)) return false;
+  if (!/[A-Z]/i.test(compact) || !/\d/.test(compact)) return false;
+  return /[\/_-]/.test(compact)
+    || /^[A-Z]{2,}\d{5,}$/i.test(compact)
+    || /^\d{4}\s+[A-Z]{2,}\s+\d{1,5}$/i.test(trimmed);
+}
+
+function isPlausibleTenderTitle(value: string | undefined): value is string {
+  if (!value) return false;
+  const title = value.trim();
+  if (!title || title.length > 500 || /[<>|]/.test(title) || NAVIGATION_TITLE.test(title)) return false;
+  // CPPP's homepage includes a parent row that concatenates ten nested rows.
+  // Keep the individual child rows; reject the aggregate parent row.
+  if ((title.match(/(?:^|\s)\d+\.\s/g) ?? []).length > 1) return false;
+  return true;
+}
+
+/** CPPP table schema: title in cell 0, reference number in cell 1. */
+export function extractTenderReference(cells: string[]): string | undefined {
+  const title = cells[0];
+  const reference = cells[1];
+  if (!isPlausibleTenderTitle(title) || !isPlausibleTenderReference(reference)) return undefined;
+  return reference.trim();
+}
+
 export function reconcileRecords(records: PublicMoneyRecord[]): ReconciledLink[] {
   const groups = new Map<string, PublicMoneyRecord[]>();
 
   for (const record of records) {
-    if (!record.tenderReference) continue;
+    if (!isPlausibleTenderReference(record.tenderReference)) continue;
     const reference = normalizeReference(record.tenderReference);
     const authority = normalizeContext(record.authority);
     const jurisdiction = normalizeContext(record.jurisdiction);
