@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T09:19:07.969Z",
+  "generatedAt": "2026-11-15T17:05:37.062Z",
   "semantics": {
     "live": "Freshly polled public-source observations, not a claim of real-time banking or treasury telemetry.",
     "amount": "Amounts are included only when parsed with sufficient confidence from the primary source.",
@@ -21,7 +21,7 @@
       "kind": "accounts",
       "sourceUrl": "https://cga.nic.in/MonthlyReport/Published/4/2026-2027.aspx",
       "expectedFreshness": "monthly publication, polled hourly",
-      "fetchedAt": "2026-11-15T09:18:28.387Z",
+      "fetchedAt": "2026-11-15T17:04:56.159Z",
       "ok": true,
       "recordCount": 6,
       "error": null
@@ -34,7 +34,7 @@
       "kind": "sanctions",
       "sourceUrl": "https://pfms.nic.in/",
       "expectedFreshness": "source dependent, availability checked hourly",
-      "fetchedAt": "2026-11-15T09:18:28.398Z",
+      "fetchedAt": "2026-11-15T17:04:56.177Z",
       "ok": false,
       "recordCount": 0,
       "error": "fetch failed"
@@ -47,7 +47,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?service=home",
       "expectedFreshness": "latest tenders published about every 15 minutes; polled hourly",
-      "fetchedAt": "2026-11-15T09:18:28.399Z",
+      "fetchedAt": "2026-11-15T17:04:56.178Z",
       "ok": true,
       "recordCount": 46,
       "error": null
@@ -60,7 +60,7 @@
       "kind": "procurement",
       "sourceUrl": "https://bidplus-global.gem.gov.in/",
       "expectedFreshness": "near-publication, polled hourly",
-      "fetchedAt": "2026-11-15T09:18:28.400Z",
+      "fetchedAt": "2026-11-15T17:04:56.179Z",
       "ok": true,
       "recordCount": 0,
       "error": null
@@ -73,7 +73,7 @@
       "kind": "audit",
       "sourceUrl": "https://cag.gov.in/en/audit-report",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-15T09:18:28.402Z",
+      "fetchedAt": "2026-11-15T17:04:56.181Z",
       "ok": true,
       "recordCount": 10,
       "error": null
@@ -86,7 +86,7 @@
       "kind": "procurement",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/portal/anonymous/qltendersswm_new",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-15T09:18:28.404Z",
+      "fetchedAt": "2026-11-15T17:04:56.183Z",
       "ok": true,
       "recordCount": 8,
       "error": null
@@ -99,7 +99,7 @@
       "kind": "budget",
       "sourceUrl": "https://finance.maharashtra.gov.in/en/document-category/program-budget-2026-27-part-1/",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-15T09:19:02.134Z",
+      "fetchedAt": "2026-11-15T17:05:29.963Z",
       "ok": true,
       "recordCount": 7,
       "error": null
@@ -112,7 +112,7 @@
       "kind": "budget",
       "sourceUrl": "https://www.mcgm.gov.in/irj/portal/anonymous?NavigationTarget=navurl%3A%2F%2Ff3befed572b418f7e1e2a087db58f448",
       "expectedFreshness": "publication driven, polled hourly",
-      "fetchedAt": "2026-11-15T09:19:02.133Z",
+      "fetchedAt": "2026-11-15T17:05:29.962Z",
       "ok": true,
       "recordCount": 0,
       "error": "Official BMC FY 2026-27 Standing Committee PDF was reachable, but neither table nor strict text parsing produced a work row. No rows were guessed."
@@ -125,7 +125,7 @@
       "kind": "procurement",
       "sourceUrl": "https://www.eprocure.gov.in/epublish/app?page=ResultOfTenders&service=page",
       "expectedFreshness": "publication driven, availability checked hourly",
-      "fetchedAt": "2026-11-15T09:19:02.135Z",
+      "fetchedAt": "2026-11-15T17:05:29.964Z",
       "ok": true,
       "recordCount": 0,
       "error": "CPPP award surface is reachable, but the ungated response contains no strict AOC result rows. Search/captcha-gated awards are not fabricated."
@@ -138,7 +138,7 @@
       "kind": "outcome",
       "sourceUrl": "https://www.indiabudget.gov.in/doc/OutcomeBudgetE2026_2027.pdf",
       "expectedFreshness": "budget-year framework, availability checked hourly",
-      "fetchedAt": "2026-11-15T09:19:02.135Z",
+      "fetchedAt": "2026-11-15T17:05:29.966Z",
       "ok": true,
       "recordCount": 1,
       "error": null
@@ -154,8 +154,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 18952880000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=65358197",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=65358197",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1793871747",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1793871747",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹18,95,288 crore; FY budget estimate ₹41,25,494 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -172,8 +172,8 @@
           "(43.7%)"
         ]
       },
-      "observedAt": "2026-11-15T09:18:34.244Z",
-      "evidenceHash": "5b1e4432d3fdbcfa5610ff8ec2f17de9ef376bf871200053e50ab27ebf2b5335"
+      "observedAt": "2026-11-15T17:05:02.018Z",
+      "evidenceHash": "3eda7c3230228f1791f5254575da4ac8c53028617dbf1c50a3a21ea870a2ec64"
     },
     {
       "externalKey": "cga-monthly-accounts:interest-payments:9:2026-2027",
@@ -184,8 +184,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 6460100000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=65358197",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=65358197",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1793871747",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1793871747",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹6,46,010 crore; FY budget estimate ₹14,03,972 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -202,8 +202,8 @@
           "(45.3%)"
         ]
       },
-      "observedAt": "2026-11-15T09:18:34.244Z",
-      "evidenceHash": "70f7a47fc7b2a2bd51ca8e572595d8c5a7e6ef207307d791b23979477fc7d4d9"
+      "observedAt": "2026-11-15T17:05:02.019Z",
+      "evidenceHash": "978cd61e47cd1dc98ada09ce30573ad44a8d5188a83b6a0a516a5af4f0d777bf"
     },
     {
       "externalKey": "cga-monthly-accounts:capital-expenditure:9:2026-2027",
@@ -214,8 +214,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 6545470000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=65358197",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=65358197",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1793871747",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1793871747",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹6,54,547 crore; FY budget estimate ₹12,21,821 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -232,8 +232,8 @@
           "(51.8%)"
         ]
       },
-      "observedAt": "2026-11-15T09:18:34.244Z",
-      "evidenceHash": "dd6a0936c5fd5f9eb767ed60b69d87cbe0d84479f9e2dc116cc5c088a9b035e2"
+      "observedAt": "2026-11-15T17:05:02.019Z",
+      "evidenceHash": "66e49e58a7f10ff0b2ec657cbe026fab8105b6dd9cf17cac721c12339b91976a"
     },
     {
       "externalKey": "cga-monthly-accounts:loans-disbursed:9:2026-2027",
@@ -244,8 +244,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 1512200000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=65358197",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=65358197",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1793871747",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1793871747",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹1,51,220 crore; FY budget estimate ₹2,78,780 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -262,8 +262,8 @@
           "(52.6%)"
         ]
       },
-      "observedAt": "2026-11-15T09:18:34.244Z",
-      "evidenceHash": "8e086c7c8cac6a46bdd7521416be3859ecf2ad0f34daa0051d67bd292122d6bd"
+      "observedAt": "2026-11-15T17:05:02.019Z",
+      "evidenceHash": "7bb6a40ead56f27bfc75657c78f0197efa79e563e148a89b7da3468cfe019093"
     },
     {
       "externalKey": "cga-monthly-accounts:total-expenditure:9:2026-2027",
@@ -274,8 +274,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 25498350000000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=65358197",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=65358197",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1793871747",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1793871747",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹25,49,835 crore; FY budget estimate ₹53,47,315 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -293,8 +293,8 @@
           "(45.5%)"
         ]
       },
-      "observedAt": "2026-11-15T09:18:34.245Z",
-      "evidenceHash": "dec03f6096d3bb60bc4747de4318f2a94462f5766cbdcc2f751198261191cb9a"
+      "observedAt": "2026-11-15T17:05:02.019Z",
+      "evidenceHash": "d93e90e8e27224a2a19b46c4083b336ac3aac00a05e711c42e49d693a05346f3"
     },
     {
       "externalKey": "cga-monthly-accounts:major-subsidies:9:2026-2027",
@@ -305,8 +305,8 @@
       "fiscalYear": "2026-27",
       "state": "paid",
       "amountInr": 2229049700000,
-      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=65358197",
-      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=65358197",
+      "sourceUrl": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1793871747",
+      "sourceDocument": "https://cga.nic.in/writereaddata/MonthAccount/92026/DATA2627.htm?rand=1793871747",
       "ministry": "Union Government",
       "note": "CGA provisional unaudited actual: ₹2,22,904.97 crore; FY budget estimate ₹4,10,512.51 crore. Aggregate account figure, not an individual treasury transaction.",
       "raw": {
@@ -323,8 +323,8 @@
           "(53%)"
         ]
       },
-      "observedAt": "2026-11-15T09:18:34.247Z",
-      "evidenceHash": "b2df8470e8f48c42f8aed607245cb55c3750c015976ac539a671aa759ff093b6"
+      "observedAt": "2026-11-15T17:05:02.021Z",
+      "evidenceHash": "45d4fb594fb7afb7fcfe6af0442c76460191fd373f29cfa2da5e694b7bfd787a"
     },
     {
       "externalKey": "cppp-procurement:screen-reader-access-15-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india:screen-reader-access-15-nov-2026-search-|-active-tenders-|-tenders-by-closing-date-|-corrigendum-|-cppp-home-|-bid-awards-epublishing-system,-government-of-india",
@@ -357,7 +357,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.255Z",
+      "observedAt": "2026-11-15T17:04:58.285Z",
       "evidenceHash": "b8707c5dce67e8b5f4584de70ab9244ab1924185cd2864f345bd4cd027f91248"
     },
     {
@@ -377,7 +377,7 @@
           "Screen Reader Access"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.256Z",
+      "observedAt": "2026-11-15T17:04:58.286Z",
       "evidenceHash": "8f2adf264a16fc96fbccbdd4d24b8e495969b728600b27332c2a99041164e7c3"
     },
     {
@@ -403,7 +403,7 @@
           ""
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.256Z",
+      "observedAt": "2026-11-15T17:04:58.286Z",
       "evidenceHash": "8068d6348f2a3cabffa04b695f9de52f6fe496a149daa4d3cb37059841fc2c9e"
     },
     {
@@ -428,7 +428,7 @@
           ""
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.256Z",
+      "observedAt": "2026-11-15T17:04:58.287Z",
       "evidenceHash": "931d356109425b49d306f25bb3e233ea5de8e3bf41f374dcfc4f66c434b6b507"
     },
     {
@@ -449,7 +449,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.256Z",
+      "observedAt": "2026-11-15T17:04:58.287Z",
       "evidenceHash": "53d002b6742259dac1f5ba78a5ce4dab875bd03e5335b507ca6aacf66edc3053"
     },
     {
@@ -469,7 +469,7 @@
           "ePublishing System, Government of India"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.257Z",
+      "observedAt": "2026-11-15T17:04:58.287Z",
       "evidenceHash": "5cd6d9114f07f26487a65c03f7b403d2f3752b3cad61311428529cd1b872e594"
     },
     {
@@ -483,7 +483,7 @@
       "sourceUrl": "https://gepnicreports.gov.in/eprocreports/epub",
       "tenderReference": "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
       "geographicPrecision": "unknown",
-      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 2. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 10. Supply of godrej standing storage unit GEM/2026/B/8256814 02-Dec-2026 05:00 PM 03-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 2. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 10. Supply of godrej standing storage unit GEM/2026/B/8256814 02-Dec-2026 05:00 PM 03-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 2. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 10. Supply of godrej standing storage unit GEM/2026/B/8256814 02-Dec-2026 05:00 PM 03-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 2. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 10. Supply of godrej standing storage unit GEM/2026/B/8256814 02-Dec-2026 05:00 PM 03-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 2. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 10. Supply of godrej standing storage unit GEM/2026/B/8256814 02-Dec-2026 05:00 PM 03-Dec-2026 05:30 PM | 1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. | BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 | 23-Nov-2026 03:00 PM | 23-Nov-2026 04:00 PM | 2. Kandri/Mech/2026-27/ 1907 | Kandri/Mech/2026-27/ 1907 | 25-Nov-2026 04:00 PM | 25-Nov-2026 04:30 PM | 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul | BIOM KDL COMP CIVIL 2026 6003 | 28-Nov-2026 03:00 PM | 28-Nov-2026 03:30 PM | 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz | ST/Mining/CH/AGT/2026-27/58 | 17-Nov-2026 04:00 PM | 17-Nov-2026 04:30 PM | 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES | BSLC/APPV/DOLO/LIMESTONE/26-27 | 18-Nov-2026 12:30 PM | 18-Nov-2026 06:00 PM | 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site | GEM/2026/B/8274980 | 05-Dec-2026 11:00 AM | 06-Dec-2026 11:00 AM | 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. | LIC/NZ/ENGG/685 | 25-Nov-2026 03:00 PM | 25-Nov-2026 03:30 PM | 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. | BHU/UED/WO/2026-27/124 | 17-Nov-2026 02:00 PM | 17-Nov-2026 02:30 PM | 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 | Mech/CO/9178/768 | 07-Dec-2026 03:00 PM | 08-Dec-2026 03:00 PM | 10. Supply of godrej standing storage unit | GEM/2026/B/8256814 | 02-Dec-2026 05:00 PM | 03-Dec-2026 05:30 PM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM | 1. Total Value | Kandri/Mech/2026-27/ 1907 | 25-Nov-2026 04:00 PM | 25-Nov-2026 04:30 PM | 2. Corrigendum-I | GEM/2026/B/8215091 Dated- 04-11-2026 | 23-Nov-2026 03:00 PM | 24-Nov-2026 03:00 PM | 3. Date extension | GEM/2026/B/8215091 Dated- 04-11-2026 | 23-Nov-2026 03:00 PM | 24-Nov-2026 03:00 PM | 4. CORIGENDUM I | LS-13/2026 | 04-Dec-2026 04:00 PM | 04-Dec-2026 04:00 PM | 5. Reply of Pre-Bid meeting queries | ISPRL/SPR/VIZAG/02 | 01-Dec-2026 03:00 PM | 01-Dec-2026 03:30 PM | 6. Due date extension V | PE-299 | 25-Nov-2026 04:00 PM | 27-Nov-2026 04:00 PM | 7. Extension of last date | TB/RFP/Traceability/2026 | 30-Nov-2026 03:00 PM | 30-Nov-2026 03:30 PM | 8. IIT/CIC/IBNE/2026-27/34B | IIT/CIC/IBNE/2026-27/34 | 26-Nov-2026 01:00 PM | 26-Nov-2026 04:30 PM | 9. Corrigendum-1 | BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 | 20-Nov-2026 06:55 PM | 21-Nov-2026 06:55 PM | 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT | RFI_JTA_ASR_IAF_06AUG26 | 14-Dec-2026 05:00 PM | 14-Dec-2026 06:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
+      "note": "MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links | MIS Reports |  | Tenders by Location |  | Tenders by Classification |  | Tenders in Archive |  | Cancelled/Retendered |  | Downloads |  | Debarment List |  | Announcements |  | Recognitions |  | Site compatibility |  | Related Links |  |  |  |  |  |  |  |  |  |  | var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. KANDRI/ENGG/PUR/2026-27/ 1909 KANDRI/ENGG/PUR/2026-27/ 1909 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 3. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency | ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. | ePublishing System | The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. |  | Tender Title Reference No Closing Date Bid Opening Date 1. KANDRI/ENGG/PUR/2026-27/ 1909 KANDRI/ENGG/PUR/2026-27/ 1909 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 3. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... |  |  | Tender Title Reference No Closing Date Bid Opening Date 1. KANDRI/ENGG/PUR/2026-27/ 1909 KANDRI/ENGG/PUR/2026-27/ 1909 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 3. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM Latest Tenders updates every 15 mins. More... | Tender Title Reference No Closing Date Bid Opening Date 1. KANDRI/ENGG/PUR/2026-27/ 1909 KANDRI/ENGG/PUR/2026-27/ 1909 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 3. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM Latest Tenders updates every 15 mins. More... | Tender Title | Reference No | Closing Date | Bid Opening Date | 1. KANDRI/ENGG/PUR/2026-27/ 1909 KANDRI/ENGG/PUR/2026-27/ 1909 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 3. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM | 1. KANDRI/ENGG/PUR/2026-27/ 1909 | KANDRI/ENGG/PUR/2026-27/ 1909 | 25-Nov-2026 04:00 PM | 25-Nov-2026 04:30 PM | 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. | BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 | 23-Nov-2026 03:00 PM | 23-Nov-2026 04:00 PM | 3. Kandri/Mech/2026-27/ 1907 | Kandri/Mech/2026-27/ 1907 | 25-Nov-2026 04:00 PM | 25-Nov-2026 04:30 PM | 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul | BIOM KDL COMP CIVIL 2026 6003 | 28-Nov-2026 03:00 PM | 28-Nov-2026 03:30 PM | 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz | ST/Mining/CH/AGT/2026-27/58 | 17-Nov-2026 04:00 PM | 17-Nov-2026 04:30 PM | 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES | BSLC/APPV/DOLO/LIMESTONE/26-27 | 18-Nov-2026 12:30 PM | 18-Nov-2026 06:00 PM | 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 | Mech/CO/9178/768 | 07-Dec-2026 03:00 PM | 08-Dec-2026 03:00 PM | 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. | BHU/UED/WO/2026-27/124 | 17-Nov-2026 02:00 PM | 17-Nov-2026 02:30 PM | 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. | LIC/NZ/ENGG/685 | 25-Nov-2026 03:00 PM | 25-Nov-2026 03:30 PM | 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site | GEM/2026/B/8274980 | 05-Dec-2026 11:00 AM | 06-Dec-2026 11:00 AM | Latest Tenders updates every 15 mins. | More... |  |  | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title Reference No Closing Date Bid Opening Date 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... | Corrigendum Title | Reference No | Closing Date | Bid Opening Date | 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM | 1. Total Value | Kandri/Mech/2026-27/ 1907 | 25-Nov-2026 04:00 PM | 25-Nov-2026 04:30 PM | 2. Corrigendum-I | GEM/2026/B/8215091 Dated- 04-11-2026 | 23-Nov-2026 03:00 PM | 24-Nov-2026 03:00 PM | 3. Date extension | GEM/2026/B/8215091 Dated- 04-11-2026 | 23-Nov-2026 03:00 PM | 24-Nov-2026 03:00 PM | 4. CORIGENDUM I | LS-13/2026 | 04-Dec-2026 04:00 PM | 04-Dec-2026 04:00 PM | 5. Reply of Pre-Bid meeting queries | ISPRL/SPR/VIZAG/02 | 01-Dec-2026 03:00 PM | 01-Dec-2026 03:30 PM | 6. Due date extension V | PE-299 | 25-Nov-2026 04:00 PM | 27-Nov-2026 04:00 PM | 7. Extension of last date | TB/RFP/Traceability/2026 | 30-Nov-2026 03:00 PM | 30-Nov-2026 03:30 PM | 8. IIT/CIC/IBNE/2026-27/34B | IIT/CIC/IBNE/2026-27/34 | 26-Nov-2026 01:00 PM | 26-Nov-2026 04:30 PM | 9. Corrigendum-1 | BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 | 20-Nov-2026 06:55 PM | 21-Nov-2026 06:55 PM | 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT | RFI_JTA_ASR_IAF_06AUG26 | 14-Dec-2026 05:00 PM | 14-Dec-2026 06:00 PM | Latest Corrigendum updates every 15 mins. | More... |  | Certifying Agency | Certifying Agency |  |  | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } Search with ID/Title/Reference no Advanced Search FAQ Feedback | function formSubmit(){ var F = document.getElementById(\"WebRightMenuNoDSC_0\"); if(F.CaptchaText.value == \"\" && F.UserName.value == \"\") { alert(\"Please enter all the fields\"); return false; } if(F.CaptchaText.value == \"\") { alert(\"Captcha cannot be blank.\"); return false; } if(F.CaptchaText.value.length != 6) { alert(\"Please enter valid captcha\"); F.CaptchaText.value = \"\"; F.CaptchaText.focus(); return false; } if(F.UserName.value == \"\") { alert(\"Login id cannot be blank.\"); return false; } var atpos=F.UserName.value.indexOf(\"@\"); if(F.UserName.value != \"\" && atpos<1) { alert(\"Please enter valid Login ID \"); F.UserName.value = \"\"; return false; } } <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer document.getElementById(\"login\").style.display='block'; var all = document.getElementsByClassName(\"Clickhere\"); for (var i = 0; i < all.length; i++) { all[i].style.display = 'block'; } | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> Find My Nodal Officer | <a href=\"\" title=\"Login\" ><img src=\"images/home_login_button_2.png\" align=\"absmiddle\" border=\"0\"> </a> <p align=\"justify\" style=\"color:red;\">Your browser JavaScript has been disabled. Kindly enable script for further process.</p> | Find My Nodal Officer | Search with ID/Title/Reference no | Advanced Search |  | Advanced Search | Advanced Search |  |  |  | Advanced Search | FAQ Feedback | FAQ Feedback | FAQ Feedback",
       "raw": {
         "cells": [
           "// Script to view document in popup function popup(mylink, windowname) { if (! window.focus)return true; var href; if (typeof(mylink) == 'string') href=mylink; else href=mylink.href; window.open(href, \"Popup\", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes'); return false; } MIS Reports Tenders by Location Tenders by Classification Tenders in Archive Cancelled/Retendered Downloads Debarment List Announcements Recognitions Site compatibility Related Links",
@@ -520,61 +520,61 @@
           "",
           "",
           "",
-          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 2. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 10. Supply of godrej standing storage unit GEM/2026/B/8256814 02-Dec-2026 05:00 PM 03-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
+          "var delayTime=500; var marqueeSpeed=1; var pauseTime=1 ; var copySpeed=marqueeSpeed; var pauseSpeed=(pauseTime==0)? copySpeed: 0; var actualHeight=''; function ScrollMarquee() { if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+\"px\" ; else crossMarquee.style.top=parseInt(marqueeheight)+8+\"px\"; } function InitializeMarquee() { crossMarquee=document.getElementById(\"vmarquee\"); crossMarquee.style.top=0; marqueeheight=document.getElementById(\"marqueecontainer\").offsetHeight; actualHeight=crossMarquee.offsetHeight; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee.style.height=marqueeheight+\"px\"; crossMarquee.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee()\",30)', delayTime); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee); else if (document.getElementById) window.onload=InitializeMarquee; // Corrigendum var delayTime1=500; var marqueeSpeed1=1; var pauseTime1=1 ; var copySpeed1=marqueeSpeed1; var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0; var actualHeight1=''; function ScrollMarquee1() { if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+\"px\" ; else crossMarquee1.style.top=parseInt(marqueeheight1)+8+\"px\"; } function InitializeMarquee1() { crossMarquee1=document.getElementById(\"vmarquee1\"); crossMarquee1.style.top=0; marqueeheight1=document.getElementById(\"marqueecontainer1\").offsetHeight; actualHeight1=crossMarquee1.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee1.style.height=marqueeheight1+\"px\"; crossMarquee1.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee1()\",30)', delayTime1); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee1, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee1); else if (document.getElementById) window.onload=InitializeMarquee1; // Corrigendum var delayTime2=500; var marqueeSpeed2=1; var pauseTime2=1 ; var copySpeed2=marqueeSpeed2; var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0; var actualHeight2=''; function ScrollMarquee2() { if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+\"px\" ; else crossMarquee2.style.top=parseInt(marqueeheight2)+8+\"px\"; } function InitializeMarquee2() { crossMarquee2=document.getElementById(\"vmarquee2\"); crossMarquee2.style.top=0; marqueeheight2=document.getElementById(\"marqueecontainer2\").offsetHeight; actualHeight2=crossMarquee2.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee2.style.height=marqueeheight2+\"px\"; crossMarquee2.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee2()\",30)', delayTime2); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee2, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee2); else if (document.getElementById) window.onload=InitializeMarquee2; // Corrigendum var delayTime3=500; var marqueeSpeed3=1; var pauseTime3=1 ; var copySpeed3=marqueeSpeed3; var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0; var actualHeight3=''; function ScrollMarquee3() { if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+\"px\" ; else crossMarquee3.style.top=parseInt(marqueeheight3)+8+\"px\"; } function InitializeMarquee3() { crossMarquee3=document.getElementById(\"vmarquee3\"); crossMarquee3.style.top=0; marqueeheight3=document.getElementById(\"marqueecontainer3\").offsetHeight; actualHeight3=crossMarquee3.offsetHeight ; if (window.opera || navigator.userAgent.indexOf(\"Netscape/7\")!=-1) { crossMarquee3.style.height=marqueeheight3+\"px\"; crossMarquee3.style.overflow=\"scroll\"; return; } setTimeout('lefttime=setInterval(\"ScrollMarquee3()\",30)', delayTime3); } if (window.addEventListener) window.addEventListener(\"load\", InitializeMarquee3, false); else if (window.attachEvent) window.attachEvent(\"onload\", InitializeMarquee3); else if (document.getElementById) window.onload=InitializeMarquee3; $(document).ready(function() { loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp'); }); ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode. Tender Title Reference No Closing Date Bid Opening Date 1. KANDRI/ENGG/PUR/2026-27/ 1909 KANDRI/ENGG/PUR/2026-27/ 1909 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 3. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM Latest Corrigendum updates every 15 mins. More... Certifying Agency",
           "ePublishing System The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "ePublishing System",
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode.",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 2. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 10. Supply of godrej standing storage unit GEM/2026/B/8256814 02-Dec-2026 05:00 PM 03-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM Latest Corrigendum updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. KANDRI/ENGG/PUR/2026-27/ 1909 KANDRI/ENGG/PUR/2026-27/ 1909 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 3. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM Latest Tenders updates every 15 mins. More... Corrigendum Title Reference No Closing Date Bid Opening Date 1. Total Value Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Corrigendum-I GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 3. Date extension GEM/2026/B/8215091 Dated- 04-11-2026 23-Nov-2026 03:00 PM 24-Nov-2026 03:00 PM 4. CORIGENDUM I LS-13/2026 04-Dec-2026 04:00 PM 04-Dec-2026 04:00 PM 5. Reply of Pre-Bid meeting queries ISPRL/SPR/VIZAG/02 01-Dec-2026 03:00 PM 01-Dec-2026 03:30 PM 6. Due date extension V PE-299 25-Nov-2026 04:00 PM 27-Nov-2026 04:00 PM 7. Extension of last date TB/RFP/Traceability/2026 30-Nov-2026 03:00 PM 30-Nov-2026 03:30 PM 8. IIT/CIC/IBNE/2026-27/34B IIT/CIC/IBNE/2026-27/34 26-Nov-2026 01:00 PM 26-Nov-2026 04:30 PM 9. Corrigendum-1 BR/71152/NRL/IPPS-3/ HYDRA/NIT/06 20-Nov-2026 06:55 PM 21-Nov-2026 06:55 PM 10. REQUEST FOR INFORMATION FOR PROCUREMENT OF JET TRAINER AIRCRAFT FOR STAGE III (F) AND ASSOCIATED EQUIPMENT RFI_JTA_ASR_IAF_06AUG26 14-Dec-2026 05:00 PM 14-Dec-2026 06:00 PM Latest Corrigendum updates every 15 mins. More...",
           "",
           "",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 2. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 10. Supply of godrej standing storage unit GEM/2026/B/8256814 02-Dec-2026 05:00 PM 03-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More...",
-          "Tender Title Reference No Closing Date Bid Opening Date 1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 2. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 10. Supply of godrej standing storage unit GEM/2026/B/8256814 02-Dec-2026 05:00 PM 03-Dec-2026 05:30 PM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. KANDRI/ENGG/PUR/2026-27/ 1909 KANDRI/ENGG/PUR/2026-27/ 1909 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 3. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM Latest Tenders updates every 15 mins. More...",
+          "Tender Title Reference No Closing Date Bid Opening Date 1. KANDRI/ENGG/PUR/2026-27/ 1909 KANDRI/ENGG/PUR/2026-27/ 1909 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 3. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM Latest Tenders updates every 15 mins. More...",
           "Tender Title",
           "Reference No",
           "Closing Date",
           "Bid Opening Date",
-          "1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 2. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 10. Supply of godrej standing storage unit GEM/2026/B/8256814 02-Dec-2026 05:00 PM 03-Dec-2026 05:30 PM",
-          "1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme.",
+          "1. KANDRI/ENGG/PUR/2026-27/ 1909 KANDRI/ENGG/PUR/2026-27/ 1909 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 3. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM",
+          "1. KANDRI/ENGG/PUR/2026-27/ 1909",
+          "KANDRI/ENGG/PUR/2026-27/ 1909",
+          "25-Nov-2026 04:00 PM",
+          "25-Nov-2026 04:30 PM",
+          "2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme.",
           "BGT/Civil/LTE/2026-27/2428 Date 12.11.2026",
           "23-Nov-2026 03:00 PM",
           "23-Nov-2026 04:00 PM",
-          "2. Kandri/Mech/2026-27/ 1907",
+          "3. Kandri/Mech/2026-27/ 1907",
           "Kandri/Mech/2026-27/ 1907",
           "25-Nov-2026 04:00 PM",
           "25-Nov-2026 04:30 PM",
-          "3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul",
+          "4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul",
           "BIOM KDL COMP CIVIL 2026 6003",
           "28-Nov-2026 03:00 PM",
           "28-Nov-2026 03:30 PM",
-          "4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz",
+          "5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz",
           "ST/Mining/CH/AGT/2026-27/58",
           "17-Nov-2026 04:00 PM",
           "17-Nov-2026 04:30 PM",
-          "5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
+          "6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
           "BSLC/APPV/DOLO/LIMESTONE/26-27",
           "18-Nov-2026 12:30 PM",
           "18-Nov-2026 06:00 PM",
-          "6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site",
-          "GEM/2026/B/8274980",
-          "05-Dec-2026 11:00 AM",
-          "06-Dec-2026 11:00 AM",
-          "7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi.",
-          "LIC/NZ/ENGG/685",
-          "25-Nov-2026 03:00 PM",
-          "25-Nov-2026 03:30 PM",
+          "7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027",
+          "Mech/CO/9178/768",
+          "07-Dec-2026 03:00 PM",
+          "08-Dec-2026 03:00 PM",
           "8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU.",
           "BHU/UED/WO/2026-27/124",
           "17-Nov-2026 02:00 PM",
           "17-Nov-2026 02:30 PM",
-          "9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027",
-          "Mech/CO/9178/768",
-          "07-Dec-2026 03:00 PM",
-          "08-Dec-2026 03:00 PM",
-          "10. Supply of godrej standing storage unit",
-          "GEM/2026/B/8256814",
-          "02-Dec-2026 05:00 PM",
-          "03-Dec-2026 05:30 PM",
+          "9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi.",
+          "LIC/NZ/ENGG/685",
+          "25-Nov-2026 03:00 PM",
+          "25-Nov-2026 03:30 PM",
+          "10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site",
+          "GEM/2026/B/8274980",
+          "05-Dec-2026 11:00 AM",
+          "06-Dec-2026 11:00 AM",
           "Latest Tenders updates every 15 mins.",
           "More...",
           "",
@@ -653,8 +653,8 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.262Z",
-      "evidenceHash": "d6df267b7abf4c2b6181bc0cc26508f79f9687c68b06b8a6cd5acc0074f92f3a"
+      "observedAt": "2026-11-15T17:04:58.295Z",
+      "evidenceHash": "9800ec827389f6a0a955497afbb96464485146ce4f20fbf17324136f92e5c1e7"
     },
     {
       "externalKey": "cppp-procurement:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links:mis-reports-tenders-by-location-tenders-by-classification-tenders-in-archive-cancelled/retendered-downloads-debarment-list-announcements-recognitions-site-compatibility-related-links",
@@ -704,7 +704,7 @@
           ""
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.263Z",
+      "observedAt": "2026-11-15T17:04:58.295Z",
       "evidenceHash": "2a99785c0ce8a145f8937222104cb239c754f836a24e5d34a7a0c30d40648ca1"
     },
     {
@@ -727,73 +727,96 @@
           "The Central Public Procurement Portal of Government of India facilitates all the Central Government Organisations to publish their Tender Enquiries, Corrigenda and Award of Contract details. The system also enables users to migrate to total electronic procurement mode."
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.264Z",
+      "observedAt": "2026-11-15T17:04:58.297Z",
       "evidenceHash": "3fea96107ff9339980f1fe8976d79323a3b9a22e2318f49043fd90b4ab9489de"
     },
     {
-      "externalKey": "cppp-procurement:1.-providing-and-installing-a-new-electromagnetic-flow-meter-with-telemetery-at-bhatera-pump-house-under-balaghat-mine-water-supply-scheme.-bgt/civil/lte/2026-27/2428-date-12.11.2026-23-nov-2026-03:00-pm-23-nov-2026-04:00-pm-2.-kandri/mech/2026-27/-1907-kandri/mech/2026-27/-1907-25-nov-2026-04:00-pm-25-nov-2026-04:30-pm-3.-construction-of-gym-and-yoga-hall-at-ward-no.-03-bengali-camp-kirandul-biom-kdl-comp-civil-2026-6003-28-nov-2026-03:00-pm-28-nov-2026-03:30-pm-4.-proposal-for-carrying-out-respiration-dust-sampling-and-analysis-of-of-crystalline-silica-quartz-st/mining/ch/agt/2026-27/58-17-nov-2026-04:00-pm-17-nov-2026-04:30-pm-5.-sale-of-limestone-size-(0-50mm)-by-road,bslc-mines-bslc/appv/dolo/limestone/26-27-18-nov-2026-12:30-pm-18-nov-2026-06:00-pm-6.-engagement-of-irel-mining-area-civil-contract-workers-welfare-forum-members-in-collection-of-mineral-sand-at-different-mining-sites-of-vellanathuruthu-ilmenite-mines-and-transportation-of-loaded-mineral-sand-to-spiral-plant-at-vt-mining-site-gem/2026/b/8274980-05-dec-2026-11:00-am-06-dec-2026-11:00-am-7.-repairs-,-rennovation-,-of-entrance-lift-lobby-at-ground-floor-of-jeevan-prakash-building-25-k-g-marg-connaught-place-new-delhi.-lic/nz/engg/685-25-nov-2026-03:00-pm-25-nov-2026-03:30-pm-8.-dismantling-and-reconstruction-of-the-dilapidated-gate-pillar-and-culvert-and-allied-works-for-removal-of-uprooted-tree-roots-at-quarter-no.-a-06(ii),-principal-colony,-bhu.-bhu/ued/wo/2026-27/124-17-nov-2026-02:00-pm-17-nov-2026-02:30-pm-9.-contract-for-hiring-and-installation-of-scaffolding-material-during-shutdown-2027-mech/co/9178/768-07-dec-2026-03:00-pm-08-dec-2026-03:00-pm-10.-supply-of-godrej-standing-storage-unit-gem/2026/b/8256814-02-dec-2026-05:00-pm-03-dec-2026-05:30-pm:1.-providing-and-installing-a-new-electromagnetic-flow-meter-with-telemetery-at-bhatera-pump-house-under-balaghat-mine-water-supply-scheme.-bgt/civil/lte/2026-27/2428-date-12.11.2026-23-nov-2026-03:00-pm-23-nov-2026-04:00-pm-2.-kandri/mech/2026-27/-1907-kandri/mech/2026-27/-1907-25-nov-2026-04:00-pm-25-nov-2026-04:30-pm-3.-construction-of-gym-and-yoga-hall-at-ward-no.-03-bengali-camp-kirandul-biom-kdl-comp-civil-2026-6003-28-nov-2026-03:00-pm-28-nov-2026-03:30-pm-4.-proposal-for-carrying-out-respiration-dust-sampling-and-analysis-of-of-crystalline-silica-quartz-st/mining/ch/agt/2026-27/58-17-nov-2026-04:00-pm-17-nov-2026-04:30-pm-5.-sale-of-limestone-size-(0-50mm)-by-road,bslc-mines-bslc/appv/dolo/limestone/26-27-18-nov-2026-12:30-pm-18-nov-2026-06:00-pm-6.-engagement-of-irel-mining-area-civil-contract-workers-welfare-forum-members-in-collection-of-mineral-sand-at-different-mining-sites-of-vellanathuruthu-ilmenite-mines-and-transportation-of-loaded-mineral-sand-to-spiral-plant-at-vt-mining-site-gem/2026/b/8274980-05-dec-2026-11:00-am-06-dec-2026-11:00-am-7.-repairs-,-rennovation-,-of-entrance-lift-lobby-at-ground-floor-of-jeevan-prakash-building-25-k-g-marg-connaught-place-new-delhi.-lic/nz/engg/685-25-nov-2026-03:00-pm-25-nov-2026-03:30-pm-8.-dismantling-and-reconstruction-of-the-dilapidated-gate-pillar-and-culvert-and-allied-works-for-removal-of-uprooted-tree-roots-at-quarter-no.-a-06(ii),-principal-colony,-bhu.-bhu/ued/wo/2026-27/124-17-nov-2026-02:00-pm-17-nov-2026-02:30-pm-9.-contract-for-hiring-and-installation-of-scaffolding-material-during-shutdown-2027-mech/co/9178/768-07-dec-2026-03:00-pm-08-dec-2026-03:00-pm-10.-supply-of-godrej-standing-storage-unit-gem/2026/b/8256814-02-dec-2026-05:00-pm-03-dec-2026-05:30-pm",
+      "externalKey": "cppp-procurement:1.-kandri/engg/pur/2026-27/-1909-kandri/engg/pur/2026-27/-1909-25-nov-2026-04:00-pm-25-nov-2026-04:30-pm-2.-providing-and-installing-a-new-electromagnetic-flow-meter-with-telemetery-at-bhatera-pump-house-under-balaghat-mine-water-supply-scheme.-bgt/civil/lte/2026-27/2428-date-12.11.2026-23-nov-2026-03:00-pm-23-nov-2026-04:00-pm-3.-kandri/mech/2026-27/-1907-kandri/mech/2026-27/-1907-25-nov-2026-04:00-pm-25-nov-2026-04:30-pm-4.-construction-of-gym-and-yoga-hall-at-ward-no.-03-bengali-camp-kirandul-biom-kdl-comp-civil-2026-6003-28-nov-2026-03:00-pm-28-nov-2026-03:30-pm-5.-proposal-for-carrying-out-respiration-dust-sampling-and-analysis-of-of-crystalline-silica-quartz-st/mining/ch/agt/2026-27/58-17-nov-2026-04:00-pm-17-nov-2026-04:30-pm-6.-sale-of-limestone-size-(0-50mm)-by-road,bslc-mines-bslc/appv/dolo/limestone/26-27-18-nov-2026-12:30-pm-18-nov-2026-06:00-pm-7.-contract-for-hiring-and-installation-of-scaffolding-material-during-shutdown-2027-mech/co/9178/768-07-dec-2026-03:00-pm-08-dec-2026-03:00-pm-8.-dismantling-and-reconstruction-of-the-dilapidated-gate-pillar-and-culvert-and-allied-works-for-removal-of-uprooted-tree-roots-at-quarter-no.-a-06(ii),-principal-colony,-bhu.-bhu/ued/wo/2026-27/124-17-nov-2026-02:00-pm-17-nov-2026-02:30-pm-9.-repairs-,-rennovation-,-of-entrance-lift-lobby-at-ground-floor-of-jeevan-prakash-building-25-k-g-marg-connaught-place-new-delhi.-lic/nz/engg/685-25-nov-2026-03:00-pm-25-nov-2026-03:30-pm-10.-engagement-of-irel-mining-area-civil-contract-workers-welfare-forum-members-in-collection-of-mineral-sand-at-different-mining-sites-of-vellanathuruthu-ilmenite-mines-and-transportation-of-loaded-mineral-sand-to-spiral-plant-at-vt-mining-site-gem/2026/b/8274980-05-dec-2026-11:00-am-06-dec-2026-11:00-am:1.-kandri/engg/pur/2026-27/-1909-kandri/engg/pur/2026-27/-1909-25-nov-2026-04:00-pm-25-nov-2026-04:30-pm-2.-providing-and-installing-a-new-electromagnetic-flow-meter-with-telemetery-at-bhatera-pump-house-under-balaghat-mine-water-supply-scheme.-bgt/civil/lte/2026-27/2428-date-12.11.2026-23-nov-2026-03:00-pm-23-nov-2026-04:00-pm-3.-kandri/mech/2026-27/-1907-kandri/mech/2026-27/-1907-25-nov-2026-04:00-pm-25-nov-2026-04:30-pm-4.-construction-of-gym-and-yoga-hall-at-ward-no.-03-bengali-camp-kirandul-biom-kdl-comp-civil-2026-6003-28-nov-2026-03:00-pm-28-nov-2026-03:30-pm-5.-proposal-for-carrying-out-respiration-dust-sampling-and-analysis-of-of-crystalline-silica-quartz-st/mining/ch/agt/2026-27/58-17-nov-2026-04:00-pm-17-nov-2026-04:30-pm-6.-sale-of-limestone-size-(0-50mm)-by-road,bslc-mines-bslc/appv/dolo/limestone/26-27-18-nov-2026-12:30-pm-18-nov-2026-06:00-pm-7.-contract-for-hiring-and-installation-of-scaffolding-material-during-shutdown-2027-mech/co/9178/768-07-dec-2026-03:00-pm-08-dec-2026-03:00-pm-8.-dismantling-and-reconstruction-of-the-dilapidated-gate-pillar-and-culvert-and-allied-works-for-removal-of-uprooted-tree-roots-at-quarter-no.-a-06(ii),-principal-colony,-bhu.-bhu/ued/wo/2026-27/124-17-nov-2026-02:00-pm-17-nov-2026-02:30-pm-9.-repairs-,-rennovation-,-of-entrance-lift-lobby-at-ground-floor-of-jeevan-prakash-building-25-k-g-marg-connaught-place-new-delhi.-lic/nz/engg/685-25-nov-2026-03:00-pm-25-nov-2026-03:30-pm-10.-engagement-of-irel-mining-area-civil-contract-workers-welfare-forum-members-in-collection-of-mineral-sand-at-different-mining-sites-of-vellanathuruthu-ilmenite-mines-and-transportation-of-loaded-mineral-sand-to-spiral-plant-at-vt-mining-site-gem/2026/b/8274980-05-dec-2026-11:00-am-06-dec-2026-11:00-am",
       "sensorId": "cppp-procurement",
-      "title": "1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 2. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 4. Proposal for Carrying out Res",
+      "title": "1. KANDRI/ENGG/PUR/2026-27/ 1909 KANDRI/ENGG/PUR/2026-27/ 1909 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 3. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=Svsq%2FcgihYGRCTBini%2Fj%2FcA%3D%3D",
-      "tenderReference": "1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 2. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 10. Supply of godrej standing storage unit GEM/2026/B/8256814 02-Dec-2026 05:00 PM 03-Dec-2026 05:30 PM",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SU5KdpDOd70J4ZUPOBH7iLQ%3D%3D",
+      "tenderReference": "1. KANDRI/ENGG/PUR/2026-27/ 1909 KANDRI/ENGG/PUR/2026-27/ 1909 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 3. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM",
       "geographicPrecision": "unknown",
-      "note": "BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 | 23-Nov-2026 03:00 PM | 23-Nov-2026 04:00 PM | 2. Kandri/Mech/2026-27/ 1907 | Kandri/Mech/2026-27/ 1907 | 25-Nov-2026 04:00 PM | 25-Nov-2026 04:30 PM | 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul | BIOM KDL COMP CIVIL 2026 6003 | 28-Nov-2026 03:00 PM | 28-Nov-2026 03:30 PM | 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz | ST/Mining/CH/AGT/2026-27/58 | 17-Nov-2026 04:00 PM | 17-Nov-2026 04:30 PM | 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES | BSLC/APPV/DOLO/LIMESTONE/26-27 | 18-Nov-2026 12:30 PM | 18-Nov-2026 06:00 PM | 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site | GEM/2026/B/8274980 | 05-Dec-2026 11:00 AM | 06-Dec-2026 11:00 AM | 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. | LIC/NZ/ENGG/685 | 25-Nov-2026 03:00 PM | 25-Nov-2026 03:30 PM | 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. | BHU/UED/WO/2026-27/124 | 17-Nov-2026 02:00 PM | 17-Nov-2026 02:30 PM | 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 | Mech/CO/9178/768 | 07-Dec-2026 03:00 PM | 08-Dec-2026 03:00 PM | 10. Supply of godrej standing storage unit | GEM/2026/B/8256814 | 02-Dec-2026 05:00 PM | 03-Dec-2026 05:30 PM",
+      "note": "KANDRI/ENGG/PUR/2026-27/ 1909 | 25-Nov-2026 04:00 PM | 25-Nov-2026 04:30 PM | 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. | BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 | 23-Nov-2026 03:00 PM | 23-Nov-2026 04:00 PM | 3. Kandri/Mech/2026-27/ 1907 | Kandri/Mech/2026-27/ 1907 | 25-Nov-2026 04:00 PM | 25-Nov-2026 04:30 PM | 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul | BIOM KDL COMP CIVIL 2026 6003 | 28-Nov-2026 03:00 PM | 28-Nov-2026 03:30 PM | 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz | ST/Mining/CH/AGT/2026-27/58 | 17-Nov-2026 04:00 PM | 17-Nov-2026 04:30 PM | 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES | BSLC/APPV/DOLO/LIMESTONE/26-27 | 18-Nov-2026 12:30 PM | 18-Nov-2026 06:00 PM | 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 | Mech/CO/9178/768 | 07-Dec-2026 03:00 PM | 08-Dec-2026 03:00 PM | 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. | BHU/UED/WO/2026-27/124 | 17-Nov-2026 02:00 PM | 17-Nov-2026 02:30 PM | 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. | LIC/NZ/ENGG/685 | 25-Nov-2026 03:00 PM | 25-Nov-2026 03:30 PM | 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site | GEM/2026/B/8274980 | 05-Dec-2026 11:00 AM | 06-Dec-2026 11:00 AM",
       "raw": {
         "cells": [
-          "1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 2. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM 7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 10. Supply of godrej standing storage unit GEM/2026/B/8256814 02-Dec-2026 05:00 PM 03-Dec-2026 05:30 PM",
-          "1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme.",
+          "1. KANDRI/ENGG/PUR/2026-27/ 1909 KANDRI/ENGG/PUR/2026-27/ 1909 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme. BGT/Civil/LTE/2026-27/2428 Date 12.11.2026 23-Nov-2026 03:00 PM 23-Nov-2026 04:00 PM 3. Kandri/Mech/2026-27/ 1907 Kandri/Mech/2026-27/ 1907 25-Nov-2026 04:00 PM 25-Nov-2026 04:30 PM 4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul BIOM KDL COMP CIVIL 2026 6003 28-Nov-2026 03:00 PM 28-Nov-2026 03:30 PM 5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz ST/Mining/CH/AGT/2026-27/58 17-Nov-2026 04:00 PM 17-Nov-2026 04:30 PM 6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES BSLC/APPV/DOLO/LIMESTONE/26-27 18-Nov-2026 12:30 PM 18-Nov-2026 06:00 PM 7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027 Mech/CO/9178/768 07-Dec-2026 03:00 PM 08-Dec-2026 03:00 PM 8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU. BHU/UED/WO/2026-27/124 17-Nov-2026 02:00 PM 17-Nov-2026 02:30 PM 9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi. LIC/NZ/ENGG/685 25-Nov-2026 03:00 PM 25-Nov-2026 03:30 PM 10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site GEM/2026/B/8274980 05-Dec-2026 11:00 AM 06-Dec-2026 11:00 AM",
+          "1. KANDRI/ENGG/PUR/2026-27/ 1909",
+          "KANDRI/ENGG/PUR/2026-27/ 1909",
+          "25-Nov-2026 04:00 PM",
+          "25-Nov-2026 04:30 PM",
+          "2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme.",
           "BGT/Civil/LTE/2026-27/2428 Date 12.11.2026",
           "23-Nov-2026 03:00 PM",
           "23-Nov-2026 04:00 PM",
-          "2. Kandri/Mech/2026-27/ 1907",
+          "3. Kandri/Mech/2026-27/ 1907",
           "Kandri/Mech/2026-27/ 1907",
           "25-Nov-2026 04:00 PM",
           "25-Nov-2026 04:30 PM",
-          "3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul",
+          "4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul",
           "BIOM KDL COMP CIVIL 2026 6003",
           "28-Nov-2026 03:00 PM",
           "28-Nov-2026 03:30 PM",
-          "4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz",
+          "5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz",
           "ST/Mining/CH/AGT/2026-27/58",
           "17-Nov-2026 04:00 PM",
           "17-Nov-2026 04:30 PM",
-          "5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
+          "6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
           "BSLC/APPV/DOLO/LIMESTONE/26-27",
           "18-Nov-2026 12:30 PM",
           "18-Nov-2026 06:00 PM",
-          "6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site",
-          "GEM/2026/B/8274980",
-          "05-Dec-2026 11:00 AM",
-          "06-Dec-2026 11:00 AM",
-          "7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi.",
-          "LIC/NZ/ENGG/685",
-          "25-Nov-2026 03:00 PM",
-          "25-Nov-2026 03:30 PM",
+          "7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027",
+          "Mech/CO/9178/768",
+          "07-Dec-2026 03:00 PM",
+          "08-Dec-2026 03:00 PM",
           "8. Dismantling and Reconstruction of the Dilapidated Gate Pillar and Culvert and allied works for Removal of Uprooted Tree Roots at Quarter No. A-06(II), Principal Colony, BHU.",
           "BHU/UED/WO/2026-27/124",
           "17-Nov-2026 02:00 PM",
           "17-Nov-2026 02:30 PM",
-          "9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027",
-          "Mech/CO/9178/768",
-          "07-Dec-2026 03:00 PM",
-          "08-Dec-2026 03:00 PM",
-          "10. Supply of godrej standing storage unit",
-          "GEM/2026/B/8256814",
-          "02-Dec-2026 05:00 PM",
-          "03-Dec-2026 05:30 PM"
+          "9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi.",
+          "LIC/NZ/ENGG/685",
+          "25-Nov-2026 03:00 PM",
+          "25-Nov-2026 03:30 PM",
+          "10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site",
+          "GEM/2026/B/8274980",
+          "05-Dec-2026 11:00 AM",
+          "06-Dec-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.265Z",
-      "evidenceHash": "3634073d900d57c1f6dc451fdb2b56dc667724ef75e5effaadd4c4aca74ae91d"
+      "observedAt": "2026-11-15T17:04:58.298Z",
+      "evidenceHash": "206be7755feb700ef8aaf665f97ed12952131d21614c3444b1b83cd3a0120dbe"
     },
     {
-      "externalKey": "cppp-procurement:bgt/civil/lte/2026-27/2428-date-12.11.2026:1.-providing-and-installing-a-new-electromagnetic-flow-meter-with-telemetery-at-bhatera-pump-house-under-balaghat-mine-water-supply-scheme.",
+      "externalKey": "cppp-procurement:kandri/engg/pur/2026-27/-1909:1.-kandri/engg/pur/2026-27/-1909",
       "sensorId": "cppp-procurement",
-      "title": "1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme.",
+      "title": "1. KANDRI/ENGG/PUR/2026-27/ 1909",
+      "authority": "Government of India eProcurement System",
+      "jurisdiction": "India",
+      "fiscalYear": "2026-27",
+      "state": "procured",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SU5KdpDOd70J4ZUPOBH7iLQ%3D%3D",
+      "tenderReference": "KANDRI/ENGG/PUR/2026-27/ 1909",
+      "geographicPrecision": "unknown",
+      "note": "25-Nov-2026 04:00 PM | 25-Nov-2026 04:30 PM",
+      "raw": {
+        "cells": [
+          "1. KANDRI/ENGG/PUR/2026-27/ 1909",
+          "KANDRI/ENGG/PUR/2026-27/ 1909",
+          "25-Nov-2026 04:00 PM",
+          "25-Nov-2026 04:30 PM"
+        ]
+      },
+      "observedAt": "2026-11-15T17:04:58.298Z",
+      "evidenceHash": "c8c8aee78e8c90f1ed05fd2fcb9b24d23aa4c715b0587b398120d38f993138d3"
+    },
+    {
+      "externalKey": "cppp-procurement:bgt/civil/lte/2026-27/2428-date-12.11.2026:2.-providing-and-installing-a-new-electromagnetic-flow-meter-with-telemetery-at-bhatera-pump-house-under-balaghat-mine-water-supply-scheme.",
+      "sensorId": "cppp-procurement",
+      "title": "2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme.",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -804,19 +827,19 @@
       "note": "23-Nov-2026 03:00 PM | 23-Nov-2026 04:00 PM",
       "raw": {
         "cells": [
-          "1. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme.",
+          "2. Providing and Installing a New Electromagnetic Flow Meter with telemetery at Bhatera Pump House under Balaghat Mine Water Supply Scheme.",
           "BGT/Civil/LTE/2026-27/2428 Date 12.11.2026",
           "23-Nov-2026 03:00 PM",
           "23-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.265Z",
-      "evidenceHash": "eb505470824379801276c0017dc46d826b470429780b9d92d7dc129de6ef2bf0"
+      "observedAt": "2026-11-15T17:04:58.298Z",
+      "evidenceHash": "dc66c85a6e8a60481040a2eb50cff3aefd63ae618a10c6d1ed8a05c3396d57a1"
     },
     {
-      "externalKey": "cppp-procurement:kandri/mech/2026-27/-1907:2.-kandri/mech/2026-27/-1907",
+      "externalKey": "cppp-procurement:kandri/mech/2026-27/-1907:3.-kandri/mech/2026-27/-1907",
       "sensorId": "cppp-procurement",
-      "title": "2. Kandri/Mech/2026-27/ 1907",
+      "title": "3. Kandri/Mech/2026-27/ 1907",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -827,19 +850,19 @@
       "note": "25-Nov-2026 04:00 PM | 25-Nov-2026 04:30 PM",
       "raw": {
         "cells": [
-          "2. Kandri/Mech/2026-27/ 1907",
+          "3. Kandri/Mech/2026-27/ 1907",
           "Kandri/Mech/2026-27/ 1907",
           "25-Nov-2026 04:00 PM",
           "25-Nov-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.265Z",
-      "evidenceHash": "6d6236be3694de8c638b1d3644d43a3f7610b744e179a31c965e20d750bcc176"
+      "observedAt": "2026-11-15T17:04:58.298Z",
+      "evidenceHash": "74c0995bd2d11c5f24e3f178f29a1b7b7aa6f5436a32fb953291ea88fcbd43f8"
     },
     {
-      "externalKey": "cppp-procurement:biom-kdl-comp-civil-2026-6003:3.-construction-of-gym-and-yoga-hall-at-ward-no.-03-bengali-camp-kirandul",
+      "externalKey": "cppp-procurement:biom-kdl-comp-civil-2026-6003:4.-construction-of-gym-and-yoga-hall-at-ward-no.-03-bengali-camp-kirandul",
       "sensorId": "cppp-procurement",
-      "title": "3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul",
+      "title": "4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -850,19 +873,19 @@
       "note": "28-Nov-2026 03:00 PM | 28-Nov-2026 03:30 PM",
       "raw": {
         "cells": [
-          "3. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul",
+          "4. Construction of GYM and Yoga Hall at Ward No. 03 Bengali Camp Kirandul",
           "BIOM KDL COMP CIVIL 2026 6003",
           "28-Nov-2026 03:00 PM",
           "28-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.265Z",
-      "evidenceHash": "c497d16607a71f142568a50b07b9337af80123f2dfd74de3bba340c70f102cc5"
+      "observedAt": "2026-11-15T17:04:58.299Z",
+      "evidenceHash": "76607383f6ca67b4b5823e6c2dd8f02b04f7bc7bed5fbe522cb7d4ff7095d1e4"
     },
     {
-      "externalKey": "cppp-procurement:st/mining/ch/agt/2026-27/58:4.-proposal-for-carrying-out-respiration-dust-sampling-and-analysis-of-of-crystalline-silica-quartz",
+      "externalKey": "cppp-procurement:st/mining/ch/agt/2026-27/58:5.-proposal-for-carrying-out-respiration-dust-sampling-and-analysis-of-of-crystalline-silica-quartz",
       "sensorId": "cppp-procurement",
-      "title": "4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz",
+      "title": "5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -873,19 +896,19 @@
       "note": "17-Nov-2026 04:00 PM | 17-Nov-2026 04:30 PM",
       "raw": {
         "cells": [
-          "4. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz",
+          "5. Proposal for Carrying out Respiration Dust Sampling and Analysis of of Crystalline Silica Quartz",
           "ST/Mining/CH/AGT/2026-27/58",
           "17-Nov-2026 04:00 PM",
           "17-Nov-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.265Z",
-      "evidenceHash": "bf338860d8df0edc823397755806ae579b5f2f72d7adc597ad28d0662546479a"
+      "observedAt": "2026-11-15T17:04:58.299Z",
+      "evidenceHash": "17d7483403b30fec387e818cbc33a6a7ec6c856a33fea642efa7e7ca9260a7a7"
     },
     {
-      "externalKey": "cppp-procurement:bslc/appv/dolo/limestone/26-27:5.-sale-of-limestone-size-(0-50mm)-by-road,bslc-mines",
+      "externalKey": "cppp-procurement:bslc/appv/dolo/limestone/26-27:6.-sale-of-limestone-size-(0-50mm)-by-road,bslc-mines",
       "sensorId": "cppp-procurement",
-      "title": "5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
+      "title": "6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
@@ -896,60 +919,37 @@
       "note": "18-Nov-2026 12:30 PM | 18-Nov-2026 06:00 PM",
       "raw": {
         "cells": [
-          "5. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
+          "6. SALE OF LIMESTONE SIZE (0-50MM) BY ROAD,BSLC MINES",
           "BSLC/APPV/DOLO/LIMESTONE/26-27",
           "18-Nov-2026 12:30 PM",
           "18-Nov-2026 06:00 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.265Z",
-      "evidenceHash": "2eab9dd6cb183ddbd198825ab8a0b0a8b55c3e412b961b5f4e31992aca4c8dd4"
+      "observedAt": "2026-11-15T17:04:58.299Z",
+      "evidenceHash": "5166b7a34d3adf1a8cca4b6f22b060d950a20641bd94a747959e63f7368bb7fb"
     },
     {
-      "externalKey": "cppp-procurement:gem/2026/b/8274980:6.-engagement-of-irel-mining-area-civil-contract-workers-welfare-forum-members-in-collection-of-mineral-sand-at-different-mining-sites-of-vellanathuruthu-ilmenite-mines-and-transportation-of-loaded-mineral-sand-to-spiral-plant-at-vt-mining-site",
+      "externalKey": "cppp-procurement:mech/co/9178/768:7.-contract-for-hiring-and-installation-of-scaffolding-material-during-shutdown-2027",
       "sensorId": "cppp-procurement",
-      "title": "6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site",
+      "title": "7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S0H6LNPcl9bBKngrzTBy%2Fdw%3D%3D",
-      "tenderReference": "GEM/2026/B/8274980",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SnGJqNYDrBJn8%2BvxWSgkJmQ%3D%3D",
+      "tenderReference": "Mech/CO/9178/768",
       "geographicPrecision": "unknown",
-      "note": "05-Dec-2026 11:00 AM | 06-Dec-2026 11:00 AM",
+      "note": "07-Dec-2026 03:00 PM | 08-Dec-2026 03:00 PM",
       "raw": {
         "cells": [
-          "6. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site",
-          "GEM/2026/B/8274980",
-          "05-Dec-2026 11:00 AM",
-          "06-Dec-2026 11:00 AM"
+          "7. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027",
+          "Mech/CO/9178/768",
+          "07-Dec-2026 03:00 PM",
+          "08-Dec-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.266Z",
-      "evidenceHash": "52ef01cb29fdc236796249d44a0303a458d45c3f15b75b545c5c447bce547733"
-    },
-    {
-      "externalKey": "cppp-procurement:lic/nz/engg/685:7.-repairs-,-rennovation-,-of-entrance-lift-lobby-at-ground-floor-of-jeevan-prakash-building-25-k-g-marg-connaught-place-new-delhi.",
-      "sensorId": "cppp-procurement",
-      "title": "7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi.",
-      "authority": "Government of India eProcurement System",
-      "jurisdiction": "India",
-      "fiscalYear": "2026-27",
-      "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=STe1JmZ2XU0A867%2FSey%2BsUg%3D%3D",
-      "tenderReference": "LIC/NZ/ENGG/685",
-      "geographicPrecision": "unknown",
-      "note": "25-Nov-2026 03:00 PM | 25-Nov-2026 03:30 PM",
-      "raw": {
-        "cells": [
-          "7. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi.",
-          "LIC/NZ/ENGG/685",
-          "25-Nov-2026 03:00 PM",
-          "25-Nov-2026 03:30 PM"
-        ]
-      },
-      "observedAt": "2026-11-15T09:18:30.266Z",
-      "evidenceHash": "9f3b9c532916845a0dfd29e8d08818ef33bccc03bd3e4b308a674164590bb3a2"
+      "observedAt": "2026-11-15T17:04:58.299Z",
+      "evidenceHash": "90e331775c107bb16c075e68833dbb4a126267260d0fb636a47a33b6bc642fcb"
     },
     {
       "externalKey": "cppp-procurement:bhu/ued/wo/2026-27/124:8.-dismantling-and-reconstruction-of-the-dilapidated-gate-pillar-and-culvert-and-allied-works-for-removal-of-uprooted-tree-roots-at-quarter-no.-a-06(ii),-principal-colony,-bhu.",
@@ -971,54 +971,54 @@
           "17-Nov-2026 02:30 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.266Z",
+      "observedAt": "2026-11-15T17:04:58.303Z",
       "evidenceHash": "619bd89d8c88494b574252ee2f80c4b8dd92573e9ddab55c8479225335712e9d"
     },
     {
-      "externalKey": "cppp-procurement:mech/co/9178/768:9.-contract-for-hiring-and-installation-of-scaffolding-material-during-shutdown-2027",
+      "externalKey": "cppp-procurement:lic/nz/engg/685:9.-repairs-,-rennovation-,-of-entrance-lift-lobby-at-ground-floor-of-jeevan-prakash-building-25-k-g-marg-connaught-place-new-delhi.",
       "sensorId": "cppp-procurement",
-      "title": "9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027",
+      "title": "9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi.",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SnGJqNYDrBJn8%2BvxWSgkJmQ%3D%3D",
-      "tenderReference": "Mech/CO/9178/768",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=STe1JmZ2XU0A867%2FSey%2BsUg%3D%3D",
+      "tenderReference": "LIC/NZ/ENGG/685",
       "geographicPrecision": "unknown",
-      "note": "07-Dec-2026 03:00 PM | 08-Dec-2026 03:00 PM",
+      "note": "25-Nov-2026 03:00 PM | 25-Nov-2026 03:30 PM",
       "raw": {
         "cells": [
-          "9. Contract for Hiring and Installation of Scaffolding Material during Shutdown 2027",
-          "Mech/CO/9178/768",
-          "07-Dec-2026 03:00 PM",
-          "08-Dec-2026 03:00 PM"
+          "9. Repairs , rennovation , of Entrance Lift Lobby at Ground floor of Jeevan Prakash Building 25 K G Marg Connaught Place New Delhi.",
+          "LIC/NZ/ENGG/685",
+          "25-Nov-2026 03:00 PM",
+          "25-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.266Z",
-      "evidenceHash": "e26fa3fe51b8fc8419b19d759165842d7c3001bff1e82bb10d5adfe6bd317ea6"
+      "observedAt": "2026-11-15T17:04:58.303Z",
+      "evidenceHash": "58e1c023d153fc14c64b3f46a1a2a423f6d2cd0786ce92068389a09b75d5e1af"
     },
     {
-      "externalKey": "cppp-procurement:gem/2026/b/8256814:10.-supply-of-godrej-standing-storage-unit",
+      "externalKey": "cppp-procurement:gem/2026/b/8274980:10.-engagement-of-irel-mining-area-civil-contract-workers-welfare-forum-members-in-collection-of-mineral-sand-at-different-mining-sites-of-vellanathuruthu-ilmenite-mines-and-transportation-of-loaded-mineral-sand-to-spiral-plant-at-vt-mining-site",
       "sensorId": "cppp-procurement",
-      "title": "10. Supply of godrej standing storage unit",
+      "title": "10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site",
       "authority": "Government of India eProcurement System",
       "jurisdiction": "India",
       "fiscalYear": "2026-27",
       "state": "procured",
-      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=SfA4IIDevlpFTMjJVCl9Whg%3D%3D",
-      "tenderReference": "GEM/2026/B/8256814",
+      "sourceUrl": "https://www.eprocure.gov.in/epublish/app?component=%24DirectLink&page=Home&service=direct&session=T&sp=S0H6LNPcl9bBKngrzTBy%2Fdw%3D%3D",
+      "tenderReference": "GEM/2026/B/8274980",
       "geographicPrecision": "unknown",
-      "note": "02-Dec-2026 05:00 PM | 03-Dec-2026 05:30 PM",
+      "note": "05-Dec-2026 11:00 AM | 06-Dec-2026 11:00 AM",
       "raw": {
         "cells": [
-          "10. Supply of godrej standing storage unit",
-          "GEM/2026/B/8256814",
-          "02-Dec-2026 05:00 PM",
-          "03-Dec-2026 05:30 PM"
+          "10. Engagement of IREL Mining Area Civil Contract Workers Welfare Forum members in collection of mineral sand at different mining sites of Vellanathuruthu ilmenite mines and transportation of loaded mineral sand to spiral plant at VT mining site",
+          "GEM/2026/B/8274980",
+          "05-Dec-2026 11:00 AM",
+          "06-Dec-2026 11:00 AM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.266Z",
-      "evidenceHash": "294d7db92a880548107a2d57993c910a19f55ea5aa10984f3992b8233294763f"
+      "observedAt": "2026-11-15T17:04:58.303Z",
+      "evidenceHash": "4f3ab24febae1405bf1139056449db773c9796feca9d8f622f0bb56f9f2769d6"
     },
     {
       "externalKey": "cppp-procurement:latest-tenders-updates-every-15-mins.:latest-tenders-updates-every-15-mins.",
@@ -1037,7 +1037,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.266Z",
+      "observedAt": "2026-11-15T17:04:58.304Z",
       "evidenceHash": "7cf8c0cd6e6631a907ea63a0cb4ef8ae2e64baf54b24c5f69a09e17920cbb6b8"
     },
     {
@@ -1060,7 +1060,7 @@
           "Bid Opening Date"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.266Z",
+      "observedAt": "2026-11-15T17:04:58.304Z",
       "evidenceHash": "c093e30bcba98ba8104d21aeb57195a6187c74d780c5d845bcc7a73d24c87ed2"
     },
     {
@@ -1120,7 +1120,7 @@
           "14-Dec-2026 06:00 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.304Z",
       "evidenceHash": "9974ffde1b6c27b21f3b0c3e50eac11863a71ad825ae9504f57cb719efce2795"
     },
     {
@@ -1143,7 +1143,7 @@
           "25-Nov-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.304Z",
       "evidenceHash": "c6d4f05578e8ef66c16b4d9665ce9e22e4362451279e78b4c5a99ba15bb0e0e6"
     },
     {
@@ -1166,7 +1166,7 @@
           "24-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.304Z",
       "evidenceHash": "b91b297b81500d4f15e337703f3f3cc59ef841d28ab22721e63e04e373e5dbd4"
     },
     {
@@ -1189,7 +1189,7 @@
           "24-Nov-2026 03:00 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.305Z",
       "evidenceHash": "bd269a6997b2789ecc9fc27c63fcfa89c2c9b65212fb5e3c847e3729fdfb9d84"
     },
     {
@@ -1212,7 +1212,7 @@
           "04-Dec-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.305Z",
       "evidenceHash": "d6b816716e5038d5debf07e868e629f3aac815edbfe1342f15488b64abff5fa6"
     },
     {
@@ -1235,7 +1235,7 @@
           "01-Dec-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.305Z",
       "evidenceHash": "c097d1d4df543e6bebce23db7fb6b81acac9b1d049a62a0379f6540f57dc9027"
     },
     {
@@ -1258,7 +1258,7 @@
           "27-Nov-2026 04:00 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.305Z",
       "evidenceHash": "e889dd0da77b6b8947bd3447d79b9e7cb8bc701cd5700628b039a1a9884182e1"
     },
     {
@@ -1281,7 +1281,7 @@
           "30-Nov-2026 03:30 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.305Z",
       "evidenceHash": "56a63a7c1816bbbb6a21f10e0cb87e5143539b77789cbab2c2c49b1224abb654"
     },
     {
@@ -1304,7 +1304,7 @@
           "26-Nov-2026 04:30 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.305Z",
       "evidenceHash": "ec10c40dc80539591b98fd9cc1fecf16a812b7597f93a84dd7a2beb7b6e1e1d7"
     },
     {
@@ -1327,7 +1327,7 @@
           "21-Nov-2026 06:55 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.305Z",
       "evidenceHash": "de8fb2297ef6a49b052e92a61d640f483d11123840201ca0d9d4b4d5c1dbb181"
     },
     {
@@ -1350,7 +1350,7 @@
           "14-Dec-2026 06:00 PM"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.305Z",
       "evidenceHash": "4053a2f6573c893846803aaa0cb83a5c07c58c45f102fae1eb3417f56bc2b457"
     },
     {
@@ -1370,7 +1370,7 @@
           "More..."
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.305Z",
       "evidenceHash": "0773af26443e6f32d109781f1ca4093fabf7959ffe67e36973702902e2e4730d"
     },
     {
@@ -1393,7 +1393,7 @@
           ""
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.305Z",
       "evidenceHash": "ea1073301c4d03debbee04fe13118cc6319eb9620daa87f23b16d8e6f31957e7"
     },
     {
@@ -1417,7 +1417,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.305Z",
       "evidenceHash": "2bc51614fdeef7c125214c3a9dce0af2d01b26eb7ee2a9b3f8455f03e598e066"
     },
     {
@@ -1440,7 +1440,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.267Z",
+      "observedAt": "2026-11-15T17:04:58.305Z",
       "evidenceHash": "3556a6a329c6064defc91d847bd73bc59c062bbd4884912c7e607bde40333119"
     },
     {
@@ -1462,7 +1462,7 @@
           "Find My Nodal Officer"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.268Z",
+      "observedAt": "2026-11-15T17:04:58.306Z",
       "evidenceHash": "108b21af296ddb893fc78c202f2687c7c8030c2b72860255f1a9b75dbf2fa998"
     },
     {
@@ -1488,7 +1488,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.268Z",
+      "observedAt": "2026-11-15T17:04:58.306Z",
       "evidenceHash": "2c0d16e58bf57afa1c1d7ac558b21fe536c9850eb8506177635b501eb3366228"
     },
     {
@@ -1513,7 +1513,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.268Z",
+      "observedAt": "2026-11-15T17:04:58.306Z",
       "evidenceHash": "3cfa219b95cc308514f96d08949e26b3879505e6075e2880c01e101b6ee7def8"
     },
     {
@@ -1536,7 +1536,7 @@
           "Advanced Search"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.268Z",
+      "observedAt": "2026-11-15T17:04:58.306Z",
       "evidenceHash": "3acb203d3dfdfa399639bc549e52fcb61a2538e0114fe1fbfa5a833a9a2bdf9f"
     },
     {
@@ -1558,7 +1558,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.268Z",
+      "observedAt": "2026-11-15T17:04:58.306Z",
       "evidenceHash": "ae93373e1740f173638f3eae6ac3a9275926ee8b93a456133ba5f8b38c27e708"
     },
     {
@@ -1578,7 +1578,7 @@
           "FAQ Feedback"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.268Z",
+      "observedAt": "2026-11-15T17:04:58.306Z",
       "evidenceHash": "ec827a12ff77b7353dc1e9e60cc289aa7af9c64f1a888a784d42ac09221fb38b"
     },
     {
@@ -1604,7 +1604,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.269Z",
+      "observedAt": "2026-11-15T17:04:58.307Z",
       "evidenceHash": "4a73b5306dc876688ba860e2f4aae6ebc8b21194996d7a8338cd68c19d2a726f"
     },
     {
@@ -1627,7 +1627,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.269Z",
+      "observedAt": "2026-11-15T17:04:58.307Z",
       "evidenceHash": "7ce3b1dffecda50dd9d7267e228b2bf82616f8449aa09c400d81ab0020cb2438"
     },
     {
@@ -1649,7 +1649,7 @@
           "Portal policies"
         ]
       },
-      "observedAt": "2026-11-15T09:18:30.269Z",
+      "observedAt": "2026-11-15T17:04:58.307Z",
       "evidenceHash": "14388338c69526ab2f59cbc9567af7792ad041237c915087c9a02d4538dd87eb"
     },
     {
@@ -1665,7 +1665,7 @@
       "raw": {
         "reportId": "125845"
       },
-      "observedAt": "2026-11-15T09:18:33.831Z",
+      "observedAt": "2026-11-15T17:05:02.070Z",
       "evidenceHash": "2a2161ccaa4c575a368a5cd0d40cda95bf170fadac36bb43757b67866377cde9"
     },
     {
@@ -1681,7 +1681,7 @@
       "raw": {
         "reportId": "125842"
       },
-      "observedAt": "2026-11-15T09:18:33.831Z",
+      "observedAt": "2026-11-15T17:05:02.070Z",
       "evidenceHash": "b9a32c62586b6e820bd2d7a31f0d273ffd3bd45d7594beaf2e61d1f399ad3ce3"
     },
     {
@@ -1697,7 +1697,7 @@
       "raw": {
         "reportId": "125840"
       },
-      "observedAt": "2026-11-15T09:18:33.831Z",
+      "observedAt": "2026-11-15T17:05:02.071Z",
       "evidenceHash": "98a922d279622d3dc7f0838b397d8962c0a78306a05d8b2b75b096c82ddbbba5"
     },
     {
@@ -1713,7 +1713,7 @@
       "raw": {
         "reportId": "125830"
       },
-      "observedAt": "2026-11-15T09:18:33.831Z",
+      "observedAt": "2026-11-15T17:05:02.071Z",
       "evidenceHash": "5cfbd2ce08b6de0ff1d70c251045d519312b60a68b5b53ad8ebbad71ee82f064"
     },
     {
@@ -1729,7 +1729,7 @@
       "raw": {
         "reportId": "125829"
       },
-      "observedAt": "2026-11-15T09:18:33.831Z",
+      "observedAt": "2026-11-15T17:05:02.071Z",
       "evidenceHash": "2f0b6182addd14efa4bdb5ca4f16fa2a2c0feeea4a21d9900843072f9bd8df90"
     },
     {
@@ -1745,7 +1745,7 @@
       "raw": {
         "reportId": "125828"
       },
-      "observedAt": "2026-11-15T09:18:33.831Z",
+      "observedAt": "2026-11-15T17:05:02.071Z",
       "evidenceHash": "5d28e4d26249fb281735dac989a06f0501292736cba1936d235185bccd9afc41"
     },
     {
@@ -1761,7 +1761,7 @@
       "raw": {
         "reportId": "125728"
       },
-      "observedAt": "2026-11-15T09:18:33.831Z",
+      "observedAt": "2026-11-15T17:05:02.071Z",
       "evidenceHash": "83e9b943800eeec78a0206b4045e1b74d45424412151a3e51ef79c8123ef8d20"
     },
     {
@@ -1777,7 +1777,7 @@
       "raw": {
         "reportId": "125712"
       },
-      "observedAt": "2026-11-15T09:18:33.831Z",
+      "observedAt": "2026-11-15T17:05:02.071Z",
       "evidenceHash": "49fead40de686e1e2e7056517252cdbc91195f214b26fdfdbc038e4e3115e80d"
     },
     {
@@ -1793,7 +1793,7 @@
       "raw": {
         "reportId": "125624"
       },
-      "observedAt": "2026-11-15T09:18:33.831Z",
+      "observedAt": "2026-11-15T17:05:02.071Z",
       "evidenceHash": "fd060fe7ff79e5a2837873cf49572c82f56ac410a4fa0c9d40381174facaa68d"
     },
     {
@@ -1809,7 +1809,7 @@
       "raw": {
         "reportId": "125602"
       },
-      "observedAt": "2026-11-15T09:18:33.831Z",
+      "observedAt": "2026-11-15T17:05:02.071Z",
       "evidenceHash": "857698c208374a8e9f7558e800c4c1d89679206247d8e9d3a0ff39787ea05ca6"
     },
     {
@@ -1822,7 +1822,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/MCGM%20Department%20List/Estate%20Department/Docs/Flashlight.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-15T09:18:32.251Z",
+      "observedAt": "2026-11-15T17:05:06.595Z",
       "evidenceHash": "81dfe8e5c03a24c4ce4fd8b93e3c1da8c09a7249130ef659e65f6c7b7f51cf9c"
     },
     {
@@ -1835,7 +1835,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113145_100826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-15T09:18:32.252Z",
+      "observedAt": "2026-11-15T17:05:06.597Z",
       "evidenceHash": "6e2df8c94f9fa65a9d47e84125c4d6a5e4263cac367afbf69ca2c1c423fb9bcf"
     },
     {
@@ -1848,7 +1848,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-15T09:18:32.252Z",
+      "observedAt": "2026-11-15T17:05:06.597Z",
       "evidenceHash": "51a0e2eb9c380ff88163eab7580f33e31504c694c1957aecd2b2ddc963cedfa3"
     },
     {
@@ -1861,7 +1861,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_1_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-15T09:18:32.252Z",
+      "observedAt": "2026-11-15T17:05:06.597Z",
       "evidenceHash": "dab6b56260c46a8d4c420707ecc841f397419a6f748a2554f351ce6e050a7a30"
     },
     {
@@ -1874,7 +1874,7 @@
       "state": "procured",
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000113683_2_140826.pdf",
       "geographicPrecision": "unknown",
-      "observedAt": "2026-11-15T09:18:32.252Z",
+      "observedAt": "2026-11-15T17:05:06.597Z",
       "evidenceHash": "25acb35febfc8ac964e0a9b36f99f0230f9a8680da8c3994fcba40c4912ce854"
     },
     {
@@ -1888,7 +1888,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-11-15T09:18:32.252Z",
+      "observedAt": "2026-11-15T17:05:06.597Z",
       "evidenceHash": "5e4429bec777b8d188ee3ea3635b3e5aed926d4e15ea507e8df9b43103f77291"
     },
     {
@@ -1902,7 +1902,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_1_250826.pdf",
       "locationText": "T ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-11-15T09:18:32.252Z",
+      "observedAt": "2026-11-15T17:05:06.597Z",
       "evidenceHash": "d860aad807521dc705b2878c4e11b6eb14acc364e4c28fcd6f5b6be355d7c44a"
     },
     {
@@ -1916,7 +1916,7 @@
       "sourceUrl": "https://portal.mcgm.gov.in/irj/go/km/docs/documents/Tenders-New/SWM/SWM_8000114488_2_250826.pdf",
       "locationText": "T Ward, Mumbai, Maharashtra",
       "geographicPrecision": "locality",
-      "observedAt": "2026-11-15T09:18:32.252Z",
+      "observedAt": "2026-11-15T17:05:06.597Z",
       "evidenceHash": "6ce648daf50e5ecb31666c4119441855d6fdf2745221d768d6021bb176e214e2"
     },
     {
@@ -1935,7 +1935,7 @@
         "anchorText": "Documents",
         "rowText": ""
       },
-      "observedAt": "2026-11-15T09:19:04.067Z",
+      "observedAt": "2026-11-15T17:05:32.086Z",
       "evidenceHash": "61bd51e18f1d42812bd6bab3510326a0780d9cf2164adb00f40f68d4d1cf50ea"
     },
     {
@@ -1954,7 +1954,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 1 Accessible Version : View(330 KB)"
       },
-      "observedAt": "2026-11-15T09:19:04.070Z",
+      "observedAt": "2026-11-15T17:05:32.093Z",
       "evidenceHash": "98f3a0159d1595bd610aabdace02baf1875122e0884269c103c9977b31e9a80b"
     },
     {
@@ -1973,7 +1973,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 2 Accounts and Treasury Accessible Version : View(3 MB)"
       },
-      "observedAt": "2026-11-15T09:19:04.070Z",
+      "observedAt": "2026-11-15T17:05:32.093Z",
       "evidenceHash": "b1791c4a12ac45b5d3726a54a05e19dde256ce9c9dc45dd70872b977b2f12ac9"
     },
     {
@@ -1992,7 +1992,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 3 Goods and Services Tax Accessible Version : View(646 KB)"
       },
-      "observedAt": "2026-11-15T09:19:04.070Z",
+      "observedAt": "2026-11-15T17:05:32.094Z",
       "evidenceHash": "fbf3ae269903440d20a249b74266c279ced57a709416fc163780e2c03573cb82"
     },
     {
@@ -2011,7 +2011,7 @@
         "anchorText": "View",
         "rowText": "Publication 4 State Lottery Directorate Accessible Version : View(805 KB)"
       },
-      "observedAt": "2026-11-15T09:19:04.070Z",
+      "observedAt": "2026-11-15T17:05:32.094Z",
       "evidenceHash": "0027879964af3f69f2d2582ac47fe73307a3dde2c4f63345a55da18dafbc1b36"
     },
     {
@@ -2030,7 +2030,7 @@
         "anchorText": "View",
         "rowText": "प्रकाशन क्रमांक ५ विमा संचालनालय Accessible Version : View(665 KB)"
       },
-      "observedAt": "2026-11-15T09:19:04.070Z",
+      "observedAt": "2026-11-15T17:05:32.094Z",
       "evidenceHash": "6036def264788f186d220882b274916aebc13797634d1f560852dfe9f5cdf074"
     },
     {
@@ -2049,7 +2049,7 @@
         "anchorText": "View",
         "rowText": "Publication No. 6 Local Fund Accessible Version : View(303 KB)"
       },
-      "observedAt": "2026-11-15T09:19:04.070Z",
+      "observedAt": "2026-11-15T17:05:32.094Z",
       "evidenceHash": "e7e268a27220a9291a1a620f5a490ff29fab8e01e68580c643c58a8d6aeb33c0"
     },
     {
@@ -2067,13 +2067,13 @@
         "contentType": "application/pdf",
         "httpStatus": 206
       },
-      "observedAt": "2026-11-15T09:19:02.965Z",
+      "observedAt": "2026-11-15T17:05:30.853Z",
       "evidenceHash": "3a9c2f50401ae3f034ea6b049b944ab96ff6cb974f500110ddc6efc5fcae43a2"
     }
   ],
   "links": [
     {
-      "fromExternalKey": "cppp-procurement:kandri/mech/2026-27/-1907:2.-kandri/mech/2026-27/-1907",
+      "fromExternalKey": "cppp-procurement:kandri/mech/2026-27/-1907:3.-kandri/mech/2026-27/-1907",
       "toExternalKey": "cppp-procurement:kandri/mech/2026-27/-1907:1.-total-value",
       "relation": "procured → procured",
       "basis": "exact_tender_reference",
